@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-13T14:42:25.774775Z",
+  "generated_at": "2026-08-13T14:51:57.389636Z",
   "window_hours": 24,
   "item_count": 1,
   "source_count": 1,
@@ -8,7 +8,7 @@
     {
       "id": "c18b5ffa56a8b64f829e5e961ea93b017e3c5275",
       "title": "Function, NYU Grossman partner to build AI for earlier disease detection",
-      "title_zh": null,
+      "title_zh": "FUNCTION ，纽约大学格罗斯曼分校合作构建用于早期疾病检测的人工智能",
       "title_en": "Function, NYU Grossman partner to build AI for earlier disease detection",
       "url": "https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
       "source": "Longevity.Technology",
