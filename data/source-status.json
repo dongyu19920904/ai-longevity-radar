@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-13T21:04:24.808225Z",
+  "generated_at": "2026-08-13T22:04:10.964600Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
       "item_count": 29,
-      "duration_ms": 1374,
+      "duration_ms": 1671,
       "error": null
     },
     {
@@ -15,24 +15,24 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 314,
+      "duration_ms": 371,
       "error": null
     },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "ok": true,
-      "partial_failures": 0,
-      "item_count": 97,
-      "duration_ms": 21729,
-      "error": null,
+      "partial_failures": 1,
+      "item_count": 53,
+      "duration_ms": 12192,
+      "error": "1 feeds failed",
       "feeds": [
         {
           "feed_name": "Nature Aging",
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 11,
-          "duration_ms": 326,
+          "duration_ms": 580,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 948,
+          "duration_ms": 914,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 741,
+          "duration_ms": 669,
           "error": null
         },
         {
@@ -56,31 +56,31 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 214,
+          "duration_ms": 602,
           "error": null
         },
         {
           "feed_name": "Longevity.Technology",
           "feed_url": "https://longevity.technology/feed/",
-          "ok": true,
-          "item_count": 45,
-          "duration_ms": 21729,
-          "error": null
+          "ok": false,
+          "item_count": 0,
+          "duration_ms": 12192,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='longevity.technology', port=443): Read timed out. (read timeout=12)"
         },
         {
           "feed_name": "ScienceDaily Healthy Aging",
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 292,
+          "duration_ms": 172,
           "error": null
         },
         {
           "feed_name": "MedicalXpress Healthy Aging",
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
-          "item_count": 25,
-          "duration_ms": 330,
+          "item_count": 26,
+          "duration_ms": 265,
           "error": null
         }
       ]
@@ -88,26 +88,24 @@
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
-      "ok": false,
-      "item_count": 0,
-      "duration_ms": 98,
-      "error": "4 queries failed: HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=%22aging+clock%22+machine+learning+archived%3Afalse&sort=updated&order=desc&p"
+      "ok": true,
+      "item_count": 33,
+      "duration_ms": 618,
+      "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 791,
-      "duration_ms": 721,
+      "item_count": 778,
+      "duration_ms": 730,
       "error": null
     }
   ],
-  "successful_sites": 4,
-  "failed_sites": [
-    "github_projects"
-  ],
+  "successful_sites": 5,
+  "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 967,
-  "items_before_topic_filter": 759,
+  "fetched_raw_items": 943,
+  "items_before_topic_filter": 743,
   "items_in_24h": 1
 }
