@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-13T22:04:10.964600Z",
+  "generated_at": "2026-08-13T23:03:56.312935Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 743,
-  "total_items_all_mode": 743,
-  "archive_total": 1133,
+  "total_items_raw": 727,
+  "total_items_all_mode": 727,
+  "archive_total": 1143,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 25
+      "raw_count": 26
     }
   ],
   "items": [
