@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-13T14:51:57.389636Z",
+  "generated_at": "2026-08-13T16:10:44.728320Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 729,
-  "total_items_all_mode": 729,
-  "archive_total": 903,
+  "total_items_raw": 726,
+  "total_items_all_mode": 726,
+  "archive_total": 957,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 20
+      "raw_count": 19
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
       "published_at": "2026-08-13T12:31:11Z",
       "first_seen_at": "2026-08-13T14:33:10.750634Z",
-      "last_seen_at": "2026-08-13T14:51:57.389636Z",
+      "last_seen_at": "2026-08-13T16:10:44.728320Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -71,7 +71,7 @@
       "url": "https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
       "published_at": "2026-08-13T12:31:11Z",
       "first_seen_at": "2026-08-13T14:33:10.750634Z",
-      "last_seen_at": "2026-08-13T14:51:57.389636Z",
+      "last_seen_at": "2026-08-13T16:10:44.728320Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
