@@ -1,0 +1,93 @@
+:root {
+  --color-paper: oklch(97% 0.012 95);
+  --color-paper-2: oklch(94% 0.018 95);
+  --color-paper-3: oklch(90% 0.025 95);
+  --color-surface: oklch(99% 0.008 95);
+  --color-ink: oklch(20% 0.012 250);
+  --color-ink-soft: oklch(34% 0.014 250);
+  --color-muted: oklch(43% 0.016 250);
+  --color-rule: oklch(80% 0.025 95);
+  --color-rule-strong: oklch(61% 0.035 95);
+
+  --color-pear: oklch(86% 0.18 95);
+  --color-pear-soft: oklch(93% 0.08 95);
+  --color-pear-deep: oklch(69% 0.16 95);
+  --color-cyan: oklch(72% 0.14 225);
+  --color-cyan-soft: oklch(93% 0.04 225);
+  --color-cyan-deep: oklch(48% 0.12 225);
+  --color-coral: oklch(68% 0.19 25);
+  --color-coral-soft: oklch(94% 0.035 25);
+  --color-coral-deep: oklch(48% 0.15 25);
+  --color-mint: oklch(79% 0.13 155);
+  --color-mint-soft: oklch(94% 0.035 155);
+  --color-lavender: oklch(78% 0.11 305);
+  --color-lavender-soft: oklch(94% 0.03 305);
+
+  --color-good: oklch(45% 0.12 155);
+  --color-good-soft: oklch(94% 0.03 155);
+  --color-warn: oklch(49% 0.12 75);
+  --color-warn-soft: oklch(94% 0.035 75);
+  --color-bad: oklch(48% 0.17 25);
+  --color-bad-soft: oklch(94% 0.035 25);
+  --color-focus: oklch(42% 0.16 225);
+  --color-accent-ink: oklch(20% 0.012 250);
+  --color-overlay: oklch(20% 0.012 250 / 0.58);
+  --color-shadow: oklch(20% 0.012 250 / 0.14);
+  --color-shadow-soft: oklch(20% 0.012 250 / 0.08);
+
+  --font-display: "Bricolage Grotesque", "Noto Sans SC", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-label: "JetBrains Mono", "Noto Sans SC", monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-3xl: 3.052rem;
+  --text-display: clamp(2.65rem, 7vw + 0.6rem, 5.25rem);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --radius-sm: 0.5rem;
+  --radius-input: 0.75rem;
+  --radius-card: 1.25rem;
+  --radius-card-lg: 1.75rem;
+  --radius-pill: 999px;
+
+  --page-max: 76rem;
+  --page-gutter: clamp(1rem, 4vw, 2.5rem);
+  --tap-size: 3rem;
+  --nav-height: 4.5rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --shadow-card: 0 0.75rem 2rem -1rem var(--color-shadow);
+  --shadow-card-hover: 0 1rem 2.5rem -1.1rem var(--color-shadow);
+  --shadow-dialog: 0 1.5rem 4rem -1rem var(--color-shadow);
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 220;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}

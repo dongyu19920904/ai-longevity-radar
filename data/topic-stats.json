@@ -1,0 +1,16 @@
+{
+  "schema_version": "bio-radar-v1",
+  "generated_at": "2026-08-13T14:42:25.774775Z",
+  "topics": {
+    "industry": 1
+  },
+  "source_types": {
+    "news": 1
+  },
+  "study_subjects": {
+    "human": 1
+  },
+  "publication_stages": {
+    "secondary_report": 1
+  }
+}

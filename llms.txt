@@ -1,0 +1,28 @@
+# 爱窝啦 AI生命延续学雷达
+
+> 每小时更新的 AI + 衰老、长寿、生物年龄、年轻化和神经退行性疾病研究信号索引。它整理公开来源，不提供医学诊断、治疗或个体健康建议。
+
+## 主要页面
+
+- [实时雷达](https://radar.aibioo.cn/): 过去 24 小时的论文、项目与行业信号。
+- [方法与边界](https://radar.aibioo.cn/methodology.html): 评分、证据标签、实体去重和医学边界。
+- [信息源](https://radar.aibioo.cn/sources.html): 默认公开来源及健康状态。
+- [AI生命延续学日报](https://news.aibioo.cn/): 经过编辑整理的每日解读。
+- [爱窝啦 AI雷达](https://radar.aivora.cn/): 通用 AI 更新雷达。
+- [爱窝啦主站](https://www.aivora.cn/): 爱窝啦 AI 产品与服务。
+
+## 机器可读数据
+
+- [24 小时强相关信号](https://radar.aibioo.cn/data/latest-24h.json)
+- [24 小时全部候选](https://radar.aibioo.cn/data/latest-24h-all.json)
+- [轻量简报](https://radar.aibioo.cn/data/briefing-lite.json)
+- [来源健康](https://radar.aibioo.cn/data/source-status.json)
+- [主题统计](https://radar.aibioo.cn/data/topic-stats.json)
+
+## 数据边界
+
+- 数据来自公开论文数据库、RSS/Atom、GitHub 和公开 JSON。
+- 使用确定性规则进行 AI 与生命延续双重相关性筛选，不使用模型生成医学结论。
+- `publication_stage`、`study_subject` 和 `risk_flags` 只描述已识别的元数据；未知即标记未知。
+- 保留原始来源链接，不复制论文全文或新闻正文。
+- 网站内容仅供研究信息追踪，不构成医学建议。

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>爱窝啦 AI生命延续学雷达｜24 小时 AI + 长寿研究信号</title>
+    <meta name="description" content="每小时整理 AI 与衰老、长寿、生物年龄、年轻化、神经退行性疾病交叉领域的公开论文、项目和行业信号。保留原始来源并标注研究对象、发表阶段与风险边界。" />
+    <link rel="canonical" href="https://radar.aibioo.cn/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="爱窝啦 AI生命延续学雷达" />
+    <meta property="og:description" content="24 小时 AI + 长寿研究信号、证据标签和来源健康状态。" />
+    <meta property="og:url" content="https://radar.aibioo.cn/" />
+    <meta property="og:site_name" content="爱窝啦 AI生命延续学雷达" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="爱窝啦 AI生命延续学雷达" />
+    <meta name="twitter:description" content="追踪 AI 如何进入衰老、长寿与生物年龄研究。" />
+    <meta name="theme-color" content="#eef8f4" />
+    <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.aivora.cn/#organization",
+            "name": "爱窝啦",
+            "url": "https://www.aivora.cn/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://radar.aibioo.cn/#website",
+            "name": "爱窝啦 AI生命延续学雷达",
+            "alternateName": "Aivora AI Longevity Radar",
+            "url": "https://radar.aibioo.cn/",
+            "inLanguage": ["zh-CN", "en"],
+            "publisher": { "@id": "https://www.aivora.cn/#organization" }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://radar.aibioo.cn/#webpage",
+            "name": "爱窝啦 AI生命延续学雷达｜24 小时 AI + 长寿研究信号",
+            "url": "https://radar.aibioo.cn/",
+            "description": "每小时整理 AI 与生命延续研究交叉领域的公开论文、项目和行业信号。",
+            "isPartOf": { "@id": "https://radar.aibioo.cn/#website" },
+            "about": ["人工智能", "衰老研究", "长寿", "生物年龄", "神经退行性疾病"],
+            "mainEntity": {
+              "@type": "Dataset",
+              "name": "AI Longevity Radar 24-hour public signals",
+              "url": "https://radar.aibioo.cn/data/latest-24h.json",
+              "license": "https://opensource.org/license/mit"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#signals">跳到信号列表</a>
+    <header class="site-nav" aria-label="主导航">
+      <div class="site-nav__inner">
+        <a class="wordmark" href="#top" aria-label="爱窝啦 AI生命延续学雷达首页">
+          <span class="wordmark__mark" aria-hidden="true">◉</span>
+          <span>AI生命延续学雷达</span>
+        </a>
+        <button class="search-pill" id="searchTrigger" type="button" aria-label="打开搜索">
+          <span>搜索论文、项目、主题</span><span class="search-pill__keys"><kbd>Ctrl</kbd><kbd>K</kbd></span>
+        </button>
+        <a class="nav-status" href="#sourceDetails" id="navStatus">信号加载中</a>
+      </div>
+      <nav class="ecosystem-nav section" aria-label="爱窝啦网站导航">
+        <a href="https://news.aibioo.cn/" target="_blank" rel="noopener noreferrer">AI生命延续学日报</a>
+        <a href="https://radar.aivora.cn/" target="_blank" rel="noopener noreferrer">爱窝啦 AI雷达</a>
+        <a href="https://news.aivora.cn/" target="_blank" rel="noopener noreferrer">AI 日报</a>
+        <a href="https://www.aivora.cn/" target="_blank" rel="noopener noreferrer">爱窝啦主站</a>
+        <a href="./methodology.html">方法与边界</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero__copy">
+          <p class="hero__date" id="issueDate">AIBIOO · AI LONGEVITY SIGNALS</p>
+          <h1 id="heroTitle">看见 AI 正在怎样进入衰老研究。</h1>
+          <p class="hero__lead">每小时扫描公开论文、研究机构、GitHub 项目和行业更新，先做 AI 与生命延续双重筛选，再标注研究对象、发表阶段和风险边界。没有模型代写医学结论。</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#signals">查看 24 小时信号</a>
+            <button class="button button--secondary" id="heroRadarButton" type="button">让雷达挑一条</button>
+          </div>
+          <p class="medical-note"><strong>研究信息索引：</strong>不提供诊断、治疗或个体健康建议。任何健康决策请咨询合格专业人士。</p>
+        </div>
+        <button class="hero__instrument" id="radarCreature" type="button" aria-label="随机选择一条生命延续研究信号">
+          <span class="radar-creature" aria-hidden="true"><span class="radar-creature__eye"></span></span>
+          <span class="hero__count"><strong id="heroSignalCount">0</strong><span>条强相关信号</span></span>
+          <span class="hero__updated">更新于 <time id="updatedAt">加载中…</time></span>
+        </button>
+      </section>
+
+      <section class="stats-band"><div class="section stats" id="stats" aria-label="24 小时数据概览"></div></section>
+      <section class="coverage-band"><div class="section coverage-strip" id="coverageStrip" aria-label="来源和证据覆盖"></div></section>
+
+      <section class="briefing section" aria-labelledby="briefingTitle">
+        <div class="section-heading"><div><p class="eyebrow">FOCUS FIRST</p><h2 id="briefingTitle">今天先看这三条</h2></div><p id="briefingStatus">正在筛选…</p></div>
+        <div class="briefing-list" id="briefingList"></div>
+      </section>
+
+      <section class="playground-band">
+        <div class="playground section">
+          <article class="radar-game" aria-labelledby="radarTitle">
+            <div class="radar-game__copy"><p class="eyebrow">RANDOM SCAN</p><h2 id="radarTitle">今天不知道看什么？</h2><p>从当前筛选结果随机挑一条。先看原始来源，再形成自己的判断。</p><button class="button button--push button--cyan" id="radarButton" type="button">扫描一个信号</button><p class="radar-game__status" id="radarStatus" aria-live="polite">等待扫描。</p></div>
+            <div class="radar-game__dial" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+          <article class="takeaway-card" aria-labelledby="takeawayTitle">
+            <div class="takeaway-card__head"><div><p class="eyebrow">LOCAL NOTES</p><h2 id="takeawayTitle">把信息变成自己的收获</h2></div><span class="progress-chip" id="takeawayProgress">0 / 3</span></div>
+            <p id="storageNotice" class="storage-notice" hidden></p><div class="saved-list" id="savedList"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="feed section" id="signals" aria-labelledby="listTitle">
+        <div class="feed-heading"><div><p class="eyebrow">PUBLIC RESEARCH SIGNALS</p><h2 id="listTitle">AI 生命延续信号流</h2></div><div class="section-heading__meta"><span id="modeHint">双重强相关</span> · <span id="resultCount">0 条</span></div></div>
+        <div class="primary-controls">
+          <label class="search-field"><span>搜索</span><input id="searchInput" type="search" placeholder="年龄时钟、Alzheimer、multi-omics…" autocomplete="off" /></label>
+          <label class="field"><span>来源</span><select id="siteSelect"><option value="">全部站点</option></select></label>
+        </div>
+        <div class="site-pills" id="sitePills" aria-label="按站点筛选"></div>
+        <details class="advanced-panel" id="sourceDetails">
+          <summary><span>高级视图与来源健康</span><span class="advanced-summary" id="advancedSummary"></span></summary>
+          <div class="advanced-content">
+            <div class="advanced-controls">
+              <div class="mode-switch" role="group" aria-label="信号范围">
+                <button id="modeAiBtn" class="mode-btn active" type="button" aria-pressed="true">AI + 生命延续强相关</button>
+                <button id="modeAllBtn" class="mode-btn" type="button" aria-pressed="false">全部候选</button>
+              </div>
+              <label class="all-dedupe" id="allDedupeWrap"><input id="allDedupeToggle" type="checkbox" checked /><span id="allDedupeLabel">去重开</span></label>
+              <button class="button button--small" id="advancedToggle" type="button">查看源状态</button>
+            </div>
+            <div class="source-health" id="sourceHealth">源状态加载中…</div>
+          </div>
+        </details>
+        <div class="news-list" id="newsList"></div>
+        <button class="button button--secondary load-more" id="loadMoreButton" type="button">加载更多</button>
+      </section>
+
+      <section class="method-preview section" aria-labelledby="methodTitle">
+        <p class="eyebrow">HOW TO READ</p><h2 id="methodTitle">相关，不等于有效。</h2>
+        <p>雷达把“是否同时涉及 AI 和生命延续”“来源是什么”“研究对象是谁”“是否为预印本”等事实分开呈现。未知字段保持未知，不用标题推断临床效果。</p>
+        <p><a href="./methodology.html">查看完整评分、去重与医学边界</a> · <a href="./sources.html">查看默认信息源</a></p>
+      </section>
+    </main>
+
+    <footer class="footer-marquee" aria-label="页脚">
+      <div class="footer-marquee__track" aria-hidden="true"><span>先看证据 · 再谈结论 · AI LONGEVITY RADAR ·</span><span>先看证据 · 再谈结论 · AI LONGEVITY RADAR ·</span></div>
+      <div class="footer-meta section"><p>爱窝啦 AI生命延续学雷达 · 每小时更新</p><nav class="footer-links" aria-label="相关网站"><a href="https://news.aibioo.cn/" target="_blank" rel="noopener noreferrer">生命延续学日报</a><a href="https://www.aivora.cn/" target="_blank" rel="noopener noreferrer">爱窝啦主站</a><a href="https://github.com/dongyu19920904/ai-longevity-radar" target="_blank" rel="noopener noreferrer">GitHub 源码</a></nav></div>
+    </footer>
+
+    <template id="itemTpl">
+      <article class="news-card"><div class="meta-row"><span class="site"></span><span class="category"></span><span class="source"></span><time class="time"></time></div><a class="title" target="_blank" rel="noopener noreferrer"></a><div class="evidence-row"></div><div class="news-card__actions"><button class="save-button" type="button">收藏</button><button class="note-button" type="button">记一句</button></div></article>
+    </template>
+
+    <dialog class="search-dialog" id="searchDialog"><div class="dialog-head"><div><h2>搜索 24 小时信号</h2><p>标题、来源、主题和证据字段都可搜索。</p></div><button class="icon-button" id="searchDialogClose" type="button" aria-label="关闭搜索">×</button></div><label class="dialog-search"><span>关键词</span><input id="paletteSearchInput" type="search" autocomplete="off" /></label><div class="palette-results" id="paletteResults" role="listbox"></div></dialog>
+    <dialog class="story-dialog" id="storyDialog"><div class="dialog-head"><div><h2 id="storyDialogTitle">信号</h2><p id="storyDialogMeta"></p></div><button class="icon-button" id="storyDialogClose" type="button" aria-label="关闭">×</button></div><p class="story-dialog__hint" id="storyDialogHint"></p><a class="button button--primary story-dialog__link" id="storyDialogLink" target="_blank" rel="noopener noreferrer">阅读原始来源</a><label class="takeaway-field"><span>我的收获</span><textarea id="takeawayInput" maxlength="180" placeholder="这条信息真正改变了我什么判断？"></textarea><span class="takeaway-field__helper" id="takeawayHelper">最多 180 字，只保存在本机。</span></label><div class="dialog-actions"><button class="button button--primary" id="saveTakeawayButton" type="button">收藏并保存</button><button class="button button--secondary" id="removeTakeawayButton" type="button" hidden>移除</button></div></dialog>
+
+    <script src="./assets/core.js"></script>
+    <script src="./assets/app.js"></script>
+  </body>
+</html>

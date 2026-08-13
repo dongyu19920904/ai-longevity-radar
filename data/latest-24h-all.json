@@ -1,0 +1,1469 @@
+{
+  "schema_version": "bio-radar-v1",
+  "generated_at": "2026-08-13T14:42:25.774775Z",
+  "window_hours": 24,
+  "total_items_raw": 20,
+  "total_items_all_mode": 20,
+  "items_all": [
+    {
+      "id": "493be2a9d1243457a035bf5fe33aa8dc900d78e8",
+      "canonical_key": "url:https://lifespan.io/forever-healthy-launches-the-evipedia-browser-extension",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "Forever Healthy Launches the Evipedia Browser Extension",
+      "title_en": "Forever Healthy Launches the Evipedia Browser Extension",
+      "url": "https://lifespan.io/forever-healthy-launches-the-evipedia-browser-extension",
+      "published_at": "2026-08-13T14:17:44Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "30023f76eb68f451b0735bba35e9b374a54e3348",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-estrogen-based-menopausal-hormone-therapy.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Study ties estrogen-based menopausal hormone therapy to lower Alzheimer's risk",
+      "title_en": "Study ties estrogen-based menopausal hormone therapy to lower Alzheimer's risk",
+      "url": "https://medicalxpress.com/news/2026-08-estrogen-based-menopausal-hormone-therapy.html",
+      "published_at": "2026-08-13T13:40:03Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "alzheimer",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "0cb14c28b731ccfc67c01240af7f11577703f96b",
+      "canonical_key": "url:https://longevity.technology/news/veradermics-reports-positive-phase-2-results-for-female-hair-loss-treatment",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Veradermics reports positive Phase 2 results for female hair loss treatment",
+      "title_en": "Veradermics reports positive Phase 2 results for female hair loss treatment",
+      "url": "https://longevity.technology/news/veradermics-reports-positive-phase-2-results-for-female-hair-loss-treatment",
+      "published_at": "2026-08-13T12:56:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "52514197335b8d10ddb6fe15c6a3522bdba02ac0",
+      "canonical_key": "url:https://longevity.technology/news/remedium-bio-raises-10m-to-test-long-lasting-gene-therapies-in-humans",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Remedium Bio raises $10m to test long-lasting gene therapies in humans",
+      "title_en": "Remedium Bio raises $10m to test long-lasting gene therapies in humans",
+      "url": "https://longevity.technology/news/remedium-bio-raises-10m-to-test-long-lasting-gene-therapies-in-humans",
+      "published_at": "2026-08-13T12:51:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "e06ebfd0be4d9a5c6210584441a7ead58084d16b",
+      "canonical_key": "url:https://longevity.technology/news/remedium-bio-secures-funding-from-eli-lilly-others-in-10m-series-a-round",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Remedium Bio secures funding from Eli Lilly, others in $10m Series A round",
+      "title_en": "Remedium Bio secures funding from Eli Lilly, others in $10m Series A round",
+      "url": "https://longevity.technology/news/remedium-bio-secures-funding-from-eli-lilly-others-in-10m-series-a-round",
+      "published_at": "2026-08-13T12:46:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "1869bbd18f47a8dfffe58835d3bbffa2484c192c",
+      "canonical_key": "url:https://longevity.technology/news/alterity-secures-u-s-patent-for-brain-disorder-drug-ath434-through-2045",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Alterity secures U.S. patent for brain disorder drug ATH434 through 2045",
+      "title_en": "Alterity secures U.S. patent for brain disorder drug ATH434 through 2045",
+      "url": "https://longevity.technology/news/alterity-secures-u-s-patent-for-brain-disorder-drug-ath434-through-2045",
+      "published_at": "2026-08-13T12:41:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "9ed633e2f701c3bc2fe7e32c71e2a3d0ce4e5022",
+      "canonical_key": "url:https://longevity.technology/news/kailera-therapeutics-reports-q2-2026-results-updates-progress-on-obesity-trials",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Kailera Therapeutics reports Q2 2026 results, updates progress on obesity trials",
+      "title_en": "Kailera Therapeutics reports Q2 2026 results, updates progress on obesity trials",
+      "url": "https://longevity.technology/news/kailera-therapeutics-reports-q2-2026-results-updates-progress-on-obesity-trials",
+      "published_at": "2026-08-13T12:36:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "c18b5ffa56a8b64f829e5e961ea93b017e3c5275",
+      "canonical_key": "url:https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Function, NYU Grossman partner to build AI for earlier disease detection",
+      "title_en": "Function, NYU Grossman partner to build AI for earlier disease detection",
+      "url": "https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
+      "published_at": "2026-08-13T12:31:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai model",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "cdb439b8fb111ee73e80fb286cd701b7543d4349",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/targeting-senescent-cells-to-treat-age-related-chronic-pulmonary-disease",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Targeting Senescent Cells to Treat Age-Related Chronic Pulmonary Disease",
+      "title_en": "Targeting Senescent Cells to Treat Age-Related Chronic Pulmonary Disease",
+      "url": "https://www.fightaging.org/archives/2026/08/targeting-senescent-cells-to-treat-age-related-chronic-pulmonary-disease",
+      "published_at": "2026-08-13T10:22:29Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "rejuvenation",
+        "clinical_trial"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "senolytic"
+      ]
+    },
+    {
+      "id": "ac106545c8624816537629ec7eb9876aa78f32f5",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/reviewing-the-state-of-aging-clocks-for-the-brain",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Reviewing the State of Aging Clocks for the Brain",
+      "title_en": "Reviewing the State of Aging Clocks for the Brain",
+      "url": "https://www.fightaging.org/archives/2026/08/reviewing-the-state-of-aging-clocks-for-the-brain",
+      "published_at": "2026-08-13T10:11:52Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.365,
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "brain age",
+        "mortality risk"
+      ]
+    },
+    {
+      "id": "fecbad88eeda711ad95ffaf42789b7e14038f1cd",
+      "canonical_key": "url:https://www.nature.com/articles/s43587-026-01194-z",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "A National Institute on Aging workshop on sex differences in health across the lifespan",
+      "title_en": "A National Institute on Aging workshop on sex differences in health across the lifespan",
+      "url": "https://www.nature.com/articles/s43587-026-01194-z",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "946270b140b385a608e765e06284d21e2a4cccff",
+      "canonical_key": "url:https://www.nature.com/articles/s41467-026-76514-3",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "InsP3R signaling and actomyosin-dependent mitochondrial dynamics play essential roles in mitochondrial stress-induced longevity",
+      "title_en": "InsP3R signaling and actomyosin-dependent mitochondrial dynamics play essential roles in mitochondrial stress-induced longevity",
+      "url": "https://www.nature.com/articles/s41467-026-76514-3",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ]
+    },
+    {
+      "id": "f12d2b61f99c824d9b932649ebc2472a1debd181",
+      "canonical_key": "url:https://www.nature.com/articles/s41419-026-09199-7",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "Decay of the Lef1-Srsf3-microRNA axis impairs DNA damage response and underlies stem cell aging",
+      "title_en": "Decay of the Lef1-Srsf3-microRNA axis impairs DNA damage response and underlies stem cell aging",
+      "url": "https://www.nature.com/articles/s41419-026-09199-7",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "cell_or_organoid",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "cell_or_organoid_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ]
+    },
+    {
+      "id": "1571f29383110195cf71268c4ce99d07cf566f2f",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-workplaces-key-retaining-experienced-nhs.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Supportive workplaces key to retaining experienced NHS nurses, study finds",
+      "title_en": "Supportive workplaces key to retaining experienced NHS nurses, study finds",
+      "url": "https://medicalxpress.com/news/2026-08-workplaces-key-retaining-experienced-nhs.html",
+      "published_at": "2026-08-12T22:20:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "12903e92ba8fee1ad7f3d7ecb3609100ad979894",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-estrogen-hormone-therapy-dementia.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Estrogen-only hormone therapy associated with lower risk of dementia",
+      "title_en": "Estrogen-only hormone therapy associated with lower risk of dementia",
+      "url": "https://medicalxpress.com/news/2026-08-estrogen-hormone-therapy-dementia.html",
+      "published_at": "2026-08-12T20:00:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "dementia",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "ad54d0889ce5ac754f492ed85b3bcda804b3b5b2",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-chronological-age.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "New study finds chronological age may not be the best guide to prevention and care",
+      "title_en": "New study finds chronological age may not be the best guide to prevention and care",
+      "url": "https://medicalxpress.com/news/2026-08-chronological-age.html",
+      "published_at": "2026-08-12T19:10:01Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "b29c783e146e41440370433a3811b01ee685080b",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/summarizing-the-state-of-hyperfunction-theories-of-aging",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Summarizing the State of Hyperfunction Theories of Aging",
+      "title_en": "Summarizing the State of Hyperfunction Theories of Aging",
+      "url": "https://www.fightaging.org/archives/2026/08/summarizing-the-state-of-hyperfunction-theories-of-aging",
+      "published_at": "2026-08-12T18:09:51Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ]
+    },
+    {
+      "id": "7261f4e46366c764fbef2e71aa4ec3b3a2482aab",
+      "canonical_key": "url:https://lifespan.io/the-thymus-hormone-thymulin-reduces-inflammaging-in-mice",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "The Thymus Hormone Thymulin Reduces Inflammaging in Mice",
+      "title_en": "The Thymus Hormone Thymulin Reduces Inflammaging in Mice",
+      "url": "https://lifespan.io/the-thymus-hormone-thymulin-reduces-inflammaging-in-mice",
+      "published_at": "2026-08-12T16:41:06Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "inflammaging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "7a7a7bcd49aea75a9c62a920875318386669278d",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-adults-older-statins-similar-year.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Adults 75 and older who stopped statins had similar three-year survival, trial finds",
+      "title_en": "Adults 75 and older who stopped statins had similar three-year survival, trial finds",
+      "url": "https://medicalxpress.com/news/2026-08-adults-older-statins-similar-year.html",
+      "published_at": "2026-08-12T15:40:09Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "clinical_trial"
+      ],
+      "primary_topic": "clinical_trial",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging",
+        "longevity"
+      ]
+    },
+    {
+      "id": "3d4b797e2f5a23b897e6172670cf6f4afe0d4d07",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-doctors-born-play-major-role.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Doctors born abroad play major role in care for millions of patients in underserved U.S. communities",
+      "title_en": "Doctors born abroad play major role in care for millions of patients in underserved U.S. communities",
+      "url": "https://medicalxpress.com/news/2026-08-doctors-born-play-major-role.html",
+      "published_at": "2026-08-12T15:00:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging"
+      ]
+    }
+  ],
+  "items_all_raw": [
+    {
+      "id": "493be2a9d1243457a035bf5fe33aa8dc900d78e8",
+      "canonical_key": "url:https://lifespan.io/forever-healthy-launches-the-evipedia-browser-extension",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "Forever Healthy Launches the Evipedia Browser Extension",
+      "title_en": "Forever Healthy Launches the Evipedia Browser Extension",
+      "url": "https://lifespan.io/forever-healthy-launches-the-evipedia-browser-extension",
+      "published_at": "2026-08-13T14:17:44Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "30023f76eb68f451b0735bba35e9b374a54e3348",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-estrogen-based-menopausal-hormone-therapy.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Study ties estrogen-based menopausal hormone therapy to lower Alzheimer's risk",
+      "title_en": "Study ties estrogen-based menopausal hormone therapy to lower Alzheimer's risk",
+      "url": "https://medicalxpress.com/news/2026-08-estrogen-based-menopausal-hormone-therapy.html",
+      "published_at": "2026-08-13T13:40:03Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "alzheimer",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "0cb14c28b731ccfc67c01240af7f11577703f96b",
+      "canonical_key": "url:https://longevity.technology/news/veradermics-reports-positive-phase-2-results-for-female-hair-loss-treatment",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Veradermics reports positive Phase 2 results for female hair loss treatment",
+      "title_en": "Veradermics reports positive Phase 2 results for female hair loss treatment",
+      "url": "https://longevity.technology/news/veradermics-reports-positive-phase-2-results-for-female-hair-loss-treatment",
+      "published_at": "2026-08-13T12:56:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "52514197335b8d10ddb6fe15c6a3522bdba02ac0",
+      "canonical_key": "url:https://longevity.technology/news/remedium-bio-raises-10m-to-test-long-lasting-gene-therapies-in-humans",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Remedium Bio raises $10m to test long-lasting gene therapies in humans",
+      "title_en": "Remedium Bio raises $10m to test long-lasting gene therapies in humans",
+      "url": "https://longevity.technology/news/remedium-bio-raises-10m-to-test-long-lasting-gene-therapies-in-humans",
+      "published_at": "2026-08-13T12:51:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "e06ebfd0be4d9a5c6210584441a7ead58084d16b",
+      "canonical_key": "url:https://longevity.technology/news/remedium-bio-secures-funding-from-eli-lilly-others-in-10m-series-a-round",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Remedium Bio secures funding from Eli Lilly, others in $10m Series A round",
+      "title_en": "Remedium Bio secures funding from Eli Lilly, others in $10m Series A round",
+      "url": "https://longevity.technology/news/remedium-bio-secures-funding-from-eli-lilly-others-in-10m-series-a-round",
+      "published_at": "2026-08-13T12:46:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "lifespan",
+        "longevity"
+      ]
+    },
+    {
+      "id": "1869bbd18f47a8dfffe58835d3bbffa2484c192c",
+      "canonical_key": "url:https://longevity.technology/news/alterity-secures-u-s-patent-for-brain-disorder-drug-ath434-through-2045",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Alterity secures U.S. patent for brain disorder drug ATH434 through 2045",
+      "title_en": "Alterity secures U.S. patent for brain disorder drug ATH434 through 2045",
+      "url": "https://longevity.technology/news/alterity-secures-u-s-patent-for-brain-disorder-drug-ath434-through-2045",
+      "published_at": "2026-08-13T12:41:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "9ed633e2f701c3bc2fe7e32c71e2a3d0ce4e5022",
+      "canonical_key": "url:https://longevity.technology/news/kailera-therapeutics-reports-q2-2026-results-updates-progress-on-obesity-trials",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Kailera Therapeutics reports Q2 2026 results, updates progress on obesity trials",
+      "title_en": "Kailera Therapeutics reports Q2 2026 results, updates progress on obesity trials",
+      "url": "https://longevity.technology/news/kailera-therapeutics-reports-q2-2026-results-updates-progress-on-obesity-trials",
+      "published_at": "2026-08-13T12:36:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "c18b5ffa56a8b64f829e5e961ea93b017e3c5275",
+      "canonical_key": "url:https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Function, NYU Grossman partner to build AI for earlier disease detection",
+      "title_en": "Function, NYU Grossman partner to build AI for earlier disease detection",
+      "url": "https://longevity.technology/news/function-nyu-grossman-partner-to-build-ai-for-earlier-disease-detection",
+      "published_at": "2026-08-13T12:31:11Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai model",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ]
+    },
+    {
+      "id": "cdb439b8fb111ee73e80fb286cd701b7543d4349",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/targeting-senescent-cells-to-treat-age-related-chronic-pulmonary-disease",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Targeting Senescent Cells to Treat Age-Related Chronic Pulmonary Disease",
+      "title_en": "Targeting Senescent Cells to Treat Age-Related Chronic Pulmonary Disease",
+      "url": "https://www.fightaging.org/archives/2026/08/targeting-senescent-cells-to-treat-age-related-chronic-pulmonary-disease",
+      "published_at": "2026-08-13T10:22:29Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "rejuvenation",
+        "clinical_trial"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "senolytic"
+      ]
+    },
+    {
+      "id": "ac106545c8624816537629ec7eb9876aa78f32f5",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/reviewing-the-state-of-aging-clocks-for-the-brain",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Reviewing the State of Aging Clocks for the Brain",
+      "title_en": "Reviewing the State of Aging Clocks for the Brain",
+      "url": "https://www.fightaging.org/archives/2026/08/reviewing-the-state-of-aging-clocks-for-the-brain",
+      "published_at": "2026-08-13T10:11:52Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.365,
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "brain age",
+        "mortality risk"
+      ]
+    },
+    {
+      "id": "fecbad88eeda711ad95ffaf42789b7e14038f1cd",
+      "canonical_key": "url:https://www.nature.com/articles/s43587-026-01194-z",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "A National Institute on Aging workshop on sex differences in health across the lifespan",
+      "title_en": "A National Institute on Aging workshop on sex differences in health across the lifespan",
+      "url": "https://www.nature.com/articles/s43587-026-01194-z",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "946270b140b385a608e765e06284d21e2a4cccff",
+      "canonical_key": "url:https://www.nature.com/articles/s41467-026-76514-3",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "InsP3R signaling and actomyosin-dependent mitochondrial dynamics play essential roles in mitochondrial stress-induced longevity",
+      "title_en": "InsP3R signaling and actomyosin-dependent mitochondrial dynamics play essential roles in mitochondrial stress-induced longevity",
+      "url": "https://www.nature.com/articles/s41467-026-76514-3",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ]
+    },
+    {
+      "id": "f12d2b61f99c824d9b932649ebc2472a1debd181",
+      "canonical_key": "url:https://www.nature.com/articles/s41419-026-09199-7",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "Decay of the Lef1-Srsf3-microRNA axis impairs DNA damage response and underlies stem cell aging",
+      "title_en": "Decay of the Lef1-Srsf3-microRNA axis impairs DNA damage response and underlies stem cell aging",
+      "url": "https://www.nature.com/articles/s41419-026-09199-7",
+      "published_at": "2026-08-13T00:00:00Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "cell_or_organoid",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "cell_or_organoid_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ]
+    },
+    {
+      "id": "1571f29383110195cf71268c4ce99d07cf566f2f",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-workplaces-key-retaining-experienced-nhs.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Supportive workplaces key to retaining experienced NHS nurses, study finds",
+      "title_en": "Supportive workplaces key to retaining experienced NHS nurses, study finds",
+      "url": "https://medicalxpress.com/news/2026-08-workplaces-key-retaining-experienced-nhs.html",
+      "published_at": "2026-08-12T22:20:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "12903e92ba8fee1ad7f3d7ecb3609100ad979894",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-estrogen-hormone-therapy-dementia.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Estrogen-only hormone therapy associated with lower risk of dementia",
+      "title_en": "Estrogen-only hormone therapy associated with lower risk of dementia",
+      "url": "https://medicalxpress.com/news/2026-08-estrogen-hormone-therapy-dementia.html",
+      "published_at": "2026-08-12T20:00:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "dementia",
+        "healthy aging"
+      ]
+    },
+    {
+      "id": "ad54d0889ce5ac754f492ed85b3bcda804b3b5b2",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-chronological-age.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "New study finds chronological age may not be the best guide to prevention and care",
+      "title_en": "New study finds chronological age may not be the best guide to prevention and care",
+      "url": "https://medicalxpress.com/news/2026-08-chronological-age.html",
+      "published_at": "2026-08-12T19:10:01Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "b29c783e146e41440370433a3811b01ee685080b",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/summarizing-the-state-of-hyperfunction-theories-of-aging",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Summarizing the State of Hyperfunction Theories of Aging",
+      "title_en": "Summarizing the State of Hyperfunction Theories of Aging",
+      "url": "https://www.fightaging.org/archives/2026/08/summarizing-the-state-of-hyperfunction-theories-of-aging",
+      "published_at": "2026-08-12T18:09:51Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.281,
+      "topics": [
+        "industry"
+      ],
+      "primary_topic": "industry",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ]
+    },
+    {
+      "id": "7261f4e46366c764fbef2e71aa4ec3b3a2482aab",
+      "canonical_key": "url:https://lifespan.io/the-thymus-hormone-thymulin-reduces-inflammaging-in-mice",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "The Thymus Hormone Thymulin Reduces Inflammaging in Mice",
+      "title_en": "The Thymus Hormone Thymulin Reduces Inflammaging in Mice",
+      "url": "https://lifespan.io/the-thymus-hormone-thymulin-reduces-inflammaging-in-mice",
+      "published_at": "2026-08-12T16:41:06Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "inflammaging",
+        "lifespan"
+      ]
+    },
+    {
+      "id": "7a7a7bcd49aea75a9c62a920875318386669278d",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-adults-older-statins-similar-year.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Adults 75 and older who stopped statins had similar three-year survival, trial finds",
+      "title_en": "Adults 75 and older who stopped statins had similar three-year survival, trial finds",
+      "url": "https://medicalxpress.com/news/2026-08-adults-older-statins-similar-year.html",
+      "published_at": "2026-08-12T15:40:09Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.337,
+      "topics": [
+        "clinical_trial"
+      ],
+      "primary_topic": "clinical_trial",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging",
+        "longevity"
+      ]
+    },
+    {
+      "id": "3d4b797e2f5a23b897e6172670cf6f4afe0d4d07",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-doctors-born-play-major-role.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Doctors born abroad play major role in care for millions of patients in underserved U.S. communities",
+      "title_en": "Doctors born abroad play major role in care for millions of patients in underserved U.S. communities",
+      "url": "https://medicalxpress.com/news/2026-08-doctors-born-play-major-role.html",
+      "published_at": "2026-08-12T15:00:05Z",
+      "first_seen_at": "2026-08-13T14:33:10.750634Z",
+      "last_seen_at": "2026-08-13T14:42:25.774775Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.309,
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthy aging"
+      ]
+    }
+  ]
+}
