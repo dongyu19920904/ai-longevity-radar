@@ -124,7 +124,6 @@ jobs:
           curl "${retry[@]}" --dump-header "$task_tmp/briefing.headers" https://radar.aibioo.cn/data/briefing-lite.json -o "$task_tmp/briefing.json"
           curl "${retry[@]}" https://radar.aibioo.cn/data/latest-24h.json -o "$task_tmp/latest.json"
           curl "${retry[@]}" https://news.aibioo.cn/ -o "$task_tmp/daily-home.html"
-          curl "${retry[@]}" https://news.aibioo.cn/2026-08/2026-08-13/ -o "$task_tmp/daily-sample.html"
 
           check_contains() {
             local label="$1"
@@ -147,7 +146,7 @@ jobs:
             exit 1
           fi
           check_contains "Daily homepage radar link" 'https://radar.aibioo.cn/' "$task_tmp/daily-home.html"
-          check_contains "Daily article public JSON integration" 'https://radar.aibioo.cn/data/briefing-lite.json' "$task_tmp/daily-sample.html"
+          check_contains "Daily homepage public JSON integration" 'https://radar.aibioo.cn/data/briefing-lite.json' "$task_tmp/daily-home.html"
 
           python - "$task_tmp/latest.json" "$task_tmp/briefing.json" <<'PY'
           import json

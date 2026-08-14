@@ -87,6 +87,7 @@ test("post-deploy smoke test verifies HTTPS, public JSON, CORS, and Daily integr
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h\.json/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/briefing-lite\.json/);
   assert.match(workflow, /access-control-allow-origin/);
-  assert.match(workflow, /https:\/\/news\.aibioo\.cn\/2026-08\/2026-08-13\//);
+  assert.match(workflow, /https:\/\/news\.aibioo\.cn\/ -o "\$task_tmp\/daily-home\.html"/);
+  assert.match(workflow, /Daily homepage public JSON integration/);
   assert.match(workflow, /test \"\$final_url\" = \"https:\/\/radar\.aibioo\.cn\/\"/);
 });
