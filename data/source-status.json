@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-14T03:33:31.149262Z",
+  "generated_at": "2026-08-14T03:38:44.875065Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
       "item_count": 27,
-      "duration_ms": 2229,
+      "duration_ms": 1659,
       "error": null
     },
     {
@@ -15,7 +15,7 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 387,
+      "duration_ms": 339,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 100,
-      "duration_ms": 3748,
+      "duration_ms": 4080,
       "error": null,
       "feeds": [
         {
@@ -32,7 +32,7 @@
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 148,
+          "duration_ms": 193,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 1262,
+          "duration_ms": 785,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 670,
+          "duration_ms": 477,
           "error": null
         },
         {
@@ -56,7 +56,7 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 551,
+          "duration_ms": 264,
           "error": null
         },
         {
@@ -64,7 +64,7 @@
           "feed_url": "https://longevity.technology/feed/",
           "ok": true,
           "item_count": 45,
-          "duration_ms": 3748,
+          "duration_ms": 4080,
           "error": null
         },
         {
@@ -72,7 +72,7 @@
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 178,
+          "duration_ms": 299,
           "error": null
         },
         {
@@ -80,7 +80,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 29,
-          "duration_ms": 275,
+          "duration_ms": 272,
           "error": null
         }
       ]
@@ -90,7 +90,7 @@
       "site_name": "GitHub 研究项目",
       "ok": true,
       "item_count": 33,
-      "duration_ms": 689,
+      "duration_ms": 493,
       "error": null
     },
     {
@@ -98,7 +98,7 @@
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
       "item_count": 753,
-      "duration_ms": 657,
+      "duration_ms": 387,
       "error": null
     }
   ],
