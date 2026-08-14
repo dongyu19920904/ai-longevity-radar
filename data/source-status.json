@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-14T22:42:07.350107Z",
+  "generated_at": "2026-08-14T23:37:43.749426Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
       "item_count": 27,
-      "duration_ms": 1696,
+      "duration_ms": 1174,
       "error": null
     },
     {
@@ -15,7 +15,7 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 514,
+      "duration_ms": 100,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 106,
-      "duration_ms": 15555,
+      "duration_ms": 16019,
       "error": null,
       "feeds": [
         {
@@ -32,7 +32,7 @@
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 13,
-          "duration_ms": 337,
+          "duration_ms": 46,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 1037,
+          "duration_ms": 903,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 666,
+          "duration_ms": 500,
           "error": null
         },
         {
@@ -56,7 +56,7 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 477,
+          "duration_ms": 451,
           "error": null
         },
         {
@@ -64,7 +64,7 @@
           "feed_url": "https://longevity.technology/feed/",
           "ok": true,
           "item_count": 46,
-          "duration_ms": 15555,
+          "duration_ms": 16019,
           "error": null
         },
         {
@@ -72,7 +72,7 @@
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 1,
-          "duration_ms": 224,
+          "duration_ms": 218,
           "error": null
         },
         {
@@ -80,7 +80,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 30,
-          "duration_ms": 268,
+          "duration_ms": 140,
           "error": null
         }
       ]
@@ -90,35 +90,35 @@
       "site_name": "GitHub 研究项目",
       "ok": true,
       "item_count": 33,
-      "duration_ms": 625,
+      "duration_ms": 515,
       "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 732,
+      "item_count": 751,
       "source_count": 11,
       "upstream_sources": [
         {
           "site_id": "buzzing",
           "site_name": "Buzzing",
-          "item_count": 229
+          "item_count": 249
         },
         {
           "site_id": "iris",
           "site_name": "Info Flow",
-          "item_count": 178
+          "item_count": 175
         },
         {
           "site_id": "techurls",
           "site_name": "TechURLs",
-          "item_count": 88
+          "item_count": 87
         },
         {
           "site_id": "zeli",
           "site_name": "Zeli",
-          "item_count": 71
+          "item_count": 75
         },
         {
           "site_id": "tophub",
@@ -138,7 +138,7 @@
         {
           "site_id": "opmlrss",
           "site_name": "OPML RSS",
-          "item_count": 17
+          "item_count": 16
         },
         {
           "site_id": "aihot",
@@ -158,14 +158,14 @@
       ],
       "endpoint_used": "https://radar.aivora.cn/data/latest-24h.json",
       "fallback_errors": [],
-      "duration_ms": 621,
+      "duration_ms": 308,
       "error": null
     }
   ],
   "successful_sites": 5,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 948,
-  "items_before_topic_filter": 711,
+  "fetched_raw_items": 967,
+  "items_before_topic_filter": 731,
   "items_in_24h": 0
 }
