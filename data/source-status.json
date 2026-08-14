@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-14T19:15:12.000157Z",
+  "generated_at": "2026-08-14T20:46:39.099899Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
       "item_count": 27,
-      "duration_ms": 836,
+      "duration_ms": 801,
       "error": null
     },
     {
@@ -15,24 +15,24 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 277,
+      "duration_ms": 341,
       "error": null
     },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "ok": true,
-      "partial_failures": 0,
-      "item_count": 106,
-      "duration_ms": 15231,
-      "error": null,
+      "partial_failures": 1,
+      "item_count": 60,
+      "duration_ms": 12932,
+      "error": "1 feeds failed",
       "feeds": [
         {
           "feed_name": "Nature Aging",
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 13,
-          "duration_ms": 63,
+          "duration_ms": 538,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 811,
+          "duration_ms": 856,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 334,
+          "duration_ms": 584,
           "error": null
         },
         {
@@ -56,23 +56,23 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 220,
+          "duration_ms": 252,
           "error": null
         },
         {
           "feed_name": "Longevity.Technology",
           "feed_url": "https://longevity.technology/feed/",
-          "ok": true,
-          "item_count": 46,
-          "duration_ms": 15231,
-          "error": null
+          "ok": false,
+          "item_count": 0,
+          "duration_ms": 12932,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='longevity.technology', port=443): Read timed out. (read timeout=12)"
         },
         {
           "feed_name": "ScienceDaily Healthy Aging",
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 1,
-          "duration_ms": 215,
+          "duration_ms": 255,
           "error": null
         },
         {
@@ -80,7 +80,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 30,
-          "duration_ms": 229,
+          "duration_ms": 219,
           "error": null
         }
       ]
@@ -90,40 +90,40 @@
       "site_name": "GitHub 研究项目",
       "ok": true,
       "item_count": 33,
-      "duration_ms": 508,
+      "duration_ms": 555,
       "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 745,
+      "item_count": 716,
       "source_count": 11,
       "upstream_sources": [
         {
           "site_id": "buzzing",
           "site_name": "Buzzing",
-          "item_count": 220
+          "item_count": 217
         },
         {
           "site_id": "iris",
           "site_name": "Info Flow",
-          "item_count": 181
+          "item_count": 182
         },
         {
           "site_id": "techurls",
           "site_name": "TechURLs",
-          "item_count": 96
+          "item_count": 86
         },
         {
           "site_id": "zeli",
           "site_name": "Zeli",
-          "item_count": 71
+          "item_count": 62
         },
         {
           "site_id": "tophub",
           "site_name": "TopHub",
-          "item_count": 60
+          "item_count": 57
         },
         {
           "site_id": "aibase",
@@ -133,39 +133,39 @@
         {
           "site_id": "newsnow",
           "site_name": "NewsNow",
-          "item_count": 30
+          "item_count": 29
         },
         {
           "site_id": "opmlrss",
           "site_name": "OPML RSS",
-          "item_count": 20
+          "item_count": 18
         },
         {
           "site_id": "aihot",
           "site_name": "AI HOT",
-          "item_count": 11
+          "item_count": 14
         },
         {
           "site_id": "followbuilders",
           "site_name": "Follow Builders",
-          "item_count": 10
+          "item_count": 7
         },
         {
           "site_id": "official_ai",
           "site_name": "Official AI Updates",
-          "item_count": 6
+          "item_count": 4
         }
       ],
       "endpoint_used": "https://radar.aivora.cn/data/latest-24h.json",
       "fallback_errors": [],
-      "duration_ms": 568,
+      "duration_ms": 541,
       "error": null
     }
   ],
   "successful_sites": 5,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 961,
-  "items_before_topic_filter": 694,
+  "fetched_raw_items": 886,
+  "items_before_topic_filter": 707,
   "items_in_24h": 0
 }
