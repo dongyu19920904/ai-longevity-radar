@@ -81,3 +81,12 @@ test("page workflow publishes only the runtime artifact", () => {
   assert.match(workflow, /cp CNAME robots\.txt sitemap\.xml llms\.txt _site\//);
   assert.doesNotMatch(workflow, /cp\s+-r\s+data/);
 });
+
+test("post-deploy smoke test verifies HTTPS, public JSON, CORS, and Daily integration", () => {
+  assert.match(workflow, /smoke:[\s\S]*needs: deploy/);
+  assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h\.json/);
+  assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/briefing-lite\.json/);
+  assert.match(workflow, /access-control-allow-origin/);
+  assert.match(workflow, /https:\/\/news\.aibioo\.cn\/2026-08\/2026-08-13\//);
+  assert.match(workflow, /test \"\$final_url\" = \"https:\/\/radar\.aibioo\.cn\/\"/);
+});
