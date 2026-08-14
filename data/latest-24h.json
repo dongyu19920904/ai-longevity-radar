@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-14T06:43:07.885076Z",
+  "generated_at": "2026-08-14T08:38:15.787531Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 702,
-  "total_items_all_mode": 702,
-  "archive_total": 1338,
+  "total_items_raw": 777,
+  "total_items_all_mode": 777,
+  "archive_total": 1463,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
