@@ -85,10 +85,19 @@ test("page workflow publishes only the runtime artifact", () => {
 test("post-deploy smoke test verifies HTTPS, public JSON, CORS, and Daily integration", () => {
   assert.match(workflow, /smoke:[\s\S]*needs: deploy/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h\.json/);
+  assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h-all\.json/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/briefing-lite\.json/);
   assert.match(workflow, /access-control-allow-origin/);
   assert.match(workflow, /https:\/\/news\.aibioo\.cn\/\?radar_smoke=\$\{GITHUB_RUN_ID\}-\$\{GITHUB_RUN_ATTEMPT\}/);
   assert.match(workflow, /Cache-Control: no-cache/);
   assert.match(workflow, /Daily homepage public JSON integration/);
   assert.match(workflow, /test \"\$final_url\" = \"https:\/\/radar\.aibioo\.cn\/\"/);
+});
+
+test("full-source mode is visible and selected by default", () => {
+  assert.match(app, /mode:\s*"all"/);
+  assert.match(app, /state\.mode === "all" && !state\.allDataLoaded/);
+  assert.match(html, /id="modeAllBtn" class="mode-btn active"[^>]*aria-pressed="true"/);
+  assert.match(html, />全部信息源<\/button>/);
+  assert.match(html, /id="modeAiBtn" class="mode-btn"[^>]*aria-pressed="false"/);
 });

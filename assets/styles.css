@@ -758,6 +758,21 @@ h3 {
   gap: var(--space-sm);
 }
 
+.scope-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-end: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  gap: var(--space-sm);
+  border: 0.0625rem solid var(--color-rule);
+  border-radius: var(--radius-card);
+  background: var(--color-paper-2);
+  color: var(--color-muted);
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+}
+
 .search-field,
 .dialog-search,
 .field,
@@ -1386,7 +1401,7 @@ button:disabled:active,
   }
 
   .advanced-controls {
-    grid-template-columns: minmax(12rem, 1fr) minmax(16rem, auto) auto;
+    grid-template-columns: minmax(16rem, 1fr) auto;
     align-items: end;
   }
 

@@ -141,7 +141,8 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
     longevity_signals = _matches(text, LONGEVITY_KEYWORDS)
     noise = _matches(text, GENERIC_HEALTH_NOISE)
     non_biological_noise = _matches(text, NON_BIOLOGICAL_AGING_NOISE)
-    source_prior = SOURCE_PRIORS.get(str(record.get("site_id") or ""), 0.0)
+    site_id = str(record.get("site_id") or "")
+    source_prior = SOURCE_PRIORS.get(site_id, SOURCE_PRIORS["ai_radar_bridge"] if site_id.startswith("ai_radar_") else 0.0)
 
     ai_score = min(1.0, source_prior + min(0.76, 0.32 + 0.11 * len(ai_signals))) if ai_signals else source_prior
     longevity_score = min(1.0, source_prior + min(0.78, 0.34 + 0.10 * len(longevity_signals))) if longevity_signals else source_prior

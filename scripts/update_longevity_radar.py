@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import re
@@ -54,7 +55,11 @@ GITHUB_QUERIES = (
     'alzheimer machine learning biomarker',
 )
 
-AI_RADAR_URL = "https://radar.aivora.cn/data/latest-24h.json"
+AI_RADAR_URLS = (
+    "https://radar.aivora.cn/data/latest-24h.json",
+    "https://raw.githubusercontent.com/dongyu19920904/ai-news-radar/master/data/latest-24h.json",
+    "https://api.github.com/repos/dongyu19920904/ai-news-radar/contents/data/latest-24h.json?ref=master",
+)
 CLINICALTRIALS_QUERY = '("artificial intelligence" OR "machine learning") AND (aging OR ageing OR longevity OR "biological age" OR Alzheimer OR dementia)'
 
 
@@ -71,6 +76,9 @@ class RawItem:
     canonical_key: str = ""
     publication_stage: str = ""
     evidence_type: str = ""
+    upstream_site_id: str = ""
+    upstream_ai_is_related: bool | None = None
+    upstream_ai_score: float | None = None
 
 
 def utc_now() -> datetime:
@@ -303,28 +311,81 @@ def fetch_github_projects(session: requests.Session, now: datetime) -> tuple[lis
     }
 
 
+def ai_radar_site_id(value: Any) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", str(value or "").strip().lower()).strip("_")
+    return f"ai_radar_{slug or 'unknown'}"
+
+
+def optional_float(value: Any) -> float | None:
+    try:
+        return float(value) if value is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
 def fetch_ai_radar_bridge(session: requests.Session, now: datetime) -> tuple[list[RawItem], dict[str, Any]]:
     started = time.perf_counter()
     items: list[RawItem] = []
     error = None
-    try:
-        response = session.get(AI_RADAR_URL, timeout=18)
-        response.raise_for_status()
-        for row in response.json().get("items", [])[:1000]:
+    endpoint_used = None
+    endpoint_errors: list[str] = []
+    upstream_counts: Counter[str] = Counter()
+    upstream_names: dict[str, str] = {}
+    payload: dict[str, Any] | None = None
+    for endpoint in AI_RADAR_URLS:
+        try:
+            response = session.get(endpoint, timeout=24)
+            response.raise_for_status()
+            candidate = response.json()
+            if isinstance(candidate, dict) and candidate.get("encoding") == "none" and candidate.get("git_url"):
+                blob_url = str(candidate["git_url"])
+                parsed_blob_url = urlparse(blob_url)
+                if parsed_blob_url.scheme != "https" or parsed_blob_url.hostname != "api.github.com":
+                    raise ValueError("GitHub contents response returned an unsafe git_url")
+                blob_response = session.get(blob_url, timeout=30)
+                blob_response.raise_for_status()
+                candidate = blob_response.json()
+            if isinstance(candidate, dict) and candidate.get("encoding") == "base64" and candidate.get("content"):
+                candidate = json.loads(base64.b64decode(str(candidate["content"])).decode("utf-8"))
+            if not isinstance(candidate, dict) or not isinstance(candidate.get("items"), list):
+                raise ValueError("response does not contain an items list")
+            payload = candidate
+            endpoint_used = endpoint
+            break
+        except Exception as exc:
+            endpoint_errors.append(f"{endpoint}: {type(exc).__name__}: {exc}"[:300])
+
+    if payload is None:
+        error = f"all endpoints failed: {' | '.join(endpoint_errors)}"[:600]
+    else:
+        for row in payload["items"]:
+            if not isinstance(row, dict):
+                continue
             url = normalize_url(str(row.get("url") or ""))
             title = str(row.get("title_original") or row.get("title") or "").strip()
             if not title or not url:
                 continue
+            upstream_site_id = str(row.get("site_id") or "unknown").strip() or "unknown"
+            upstream_site_name = str(row.get("site_name") or upstream_site_id).strip() or upstream_site_id
+            upstream_counts[upstream_site_id] += 1
+            upstream_names[upstream_site_id] = upstream_site_name
             items.append(RawItem(
-                site_id="ai_radar_bridge", site_name="爱窝啦 AI雷达", source=str(row.get("source") or "AI雷达"),
+                site_id=ai_radar_site_id(upstream_site_id), site_name=f"爱窝啦 AI雷达 · {upstream_site_name}",
+                source=str(row.get("source") or upstream_site_name),
                 source_type="news", title=title, url=url, published_at=parse_date(row.get("published_at") or row.get("first_seen_at")),
                 canonical_key=canonical_key(url=url), publication_stage="secondary_report", evidence_type="news",
+                upstream_site_id=upstream_site_id, upstream_ai_is_related=row.get("ai_is_related"),
+                upstream_ai_score=optional_float(row.get("ai_score")),
             ))
-    except Exception as exc:
-        error = f"{type(exc).__name__}: {exc}"[:240]
+    upstream_sources = [
+        {"site_id": site_id, "site_name": upstream_names[site_id], "item_count": count}
+        for site_id, count in upstream_counts.most_common()
+    ]
     return items, {
         "site_id": "ai_radar_bridge", "site_name": "爱窝啦 AI雷达", "ok": error is None,
-        "item_count": len(items), "duration_ms": int((time.perf_counter() - started) * 1000), "error": error,
+        "item_count": len(items), "source_count": len(upstream_sources), "upstream_sources": upstream_sources,
+        "endpoint_used": endpoint_used, "fallback_errors": endpoint_errors,
+        "duration_ms": int((time.perf_counter() - started) * 1000), "error": error,
     }
 
 
@@ -351,6 +412,11 @@ def raw_to_record(raw: RawItem, now: datetime, archive: dict[str, dict[str, Any]
         "published_at": iso(raw.published_at), "first_seen_at": prior.get("first_seen_at") or iso(now), "last_seen_at": iso(now),
         "description": raw.description[:1000], "publication_stage": raw.publication_stage, "evidence_type": raw.evidence_type,
     }
+    if raw.upstream_site_id:
+        record.update({
+            "upstream_site_id": raw.upstream_site_id, "upstream_ai_is_related": raw.upstream_ai_is_related,
+            "upstream_ai_score": raw.upstream_ai_score,
+        })
     return add_longevity_fields(record)
 
 
@@ -376,6 +442,7 @@ def public_item(record: dict[str, Any]) -> dict[str, Any]:
         "url", "published_at", "first_seen_at", "last_seen_at", "ai_is_related", "ai_score",
         "longevity_is_related", "longevity_score", "signal_score", "topics", "primary_topic", "study_subject",
         "publication_stage", "evidence_type", "risk_flags", "relevance_reason", "ai_signals", "longevity_signals",
+        "upstream_site_id", "upstream_ai_is_related", "upstream_ai_score",
     )
     return {key: record.get(key) for key in allowed if key in record}
 

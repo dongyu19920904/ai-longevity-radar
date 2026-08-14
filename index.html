@@ -82,7 +82,7 @@
         <div class="hero__copy">
           <p class="hero__date" id="issueDate">AIBIOO · AI LONGEVITY SIGNALS</p>
           <h1 id="heroTitle">看见 AI 正在怎样进入衰老研究。</h1>
-          <p class="hero__lead">每小时扫描公开论文、研究机构、GitHub 项目和行业更新，先做 AI 与生命延续双重筛选，再标注研究对象、发表阶段和风险边界。没有模型代写医学结论。</p>
+          <p class="hero__lead">每小时汇总旧版 AI雷达全部公开信息源，并叠加论文、临床试验、研究机构与 GitHub 专属来源。默认展示完整信息流，双重强相关视图负责聚焦 AI × 生命延续交集。没有模型代写医学结论。</p>
           <div class="hero__actions">
             <a class="button button--primary" href="#signals">查看 24 小时信号</a>
             <button class="button button--secondary" id="heroRadarButton" type="button">让雷达挑一条</button>
@@ -91,7 +91,7 @@
         </div>
         <button class="hero__instrument" id="radarCreature" type="button" aria-label="随机选择一条生命延续研究信号">
           <span class="radar-creature" aria-hidden="true"><span class="radar-creature__eye"></span></span>
-          <span class="hero__count"><strong id="heroSignalCount">0</strong><span>条强相关信号</span></span>
+          <span class="hero__count"><strong id="heroSignalCount">0</strong><span>条信息源信号</span></span>
           <span class="hero__updated">更新于 <time id="updatedAt">加载中…</time></span>
         </button>
       </section>
@@ -118,20 +118,23 @@
       </section>
 
       <section class="feed section" id="signals" aria-labelledby="listTitle">
-        <div class="feed-heading"><div><p class="eyebrow">PUBLIC RESEARCH SIGNALS</p><h2 id="listTitle">AI 生命延续信号流</h2></div><div class="section-heading__meta"><span id="modeHint">双重强相关</span> · <span id="resultCount">0 条</span></div></div>
+        <div class="feed-heading"><div><p class="eyebrow">PUBLIC RESEARCH SIGNALS</p><h2 id="listTitle">全部信息源信号流</h2></div><div class="section-heading__meta"><span id="modeHint">旧版 AI雷达全源 + 生命延续专属源</span> · <span id="resultCount">0 条</span></div></div>
+        <div class="scope-controls">
+          <span>信号范围</span>
+          <div class="mode-switch" role="group" aria-label="信号范围">
+            <button id="modeAllBtn" class="mode-btn active" type="button" aria-pressed="true">全部信息源</button>
+            <button id="modeAiBtn" class="mode-btn" type="button" aria-pressed="false">AI + 生命延续强相关</button>
+          </div>
+        </div>
         <div class="primary-controls">
           <label class="search-field"><span>搜索</span><input id="searchInput" type="search" placeholder="年龄时钟、Alzheimer、multi-omics…" autocomplete="off" /></label>
           <label class="field"><span>来源</span><select id="siteSelect"><option value="">全部站点</option></select></label>
         </div>
         <div class="site-pills" id="sitePills" aria-label="按站点筛选"></div>
         <details class="advanced-panel" id="sourceDetails">
-          <summary><span>高级视图与来源健康</span><span class="advanced-summary" id="advancedSummary"></span></summary>
+          <summary><span>去重设置与来源健康</span><span class="advanced-summary" id="advancedSummary"></span></summary>
           <div class="advanced-content">
             <div class="advanced-controls">
-              <div class="mode-switch" role="group" aria-label="信号范围">
-                <button id="modeAiBtn" class="mode-btn active" type="button" aria-pressed="true">AI + 生命延续强相关</button>
-                <button id="modeAllBtn" class="mode-btn" type="button" aria-pressed="false">全部候选</button>
-              </div>
               <label class="all-dedupe" id="allDedupeWrap"><input id="allDedupeToggle" type="checkbox" checked /><span id="allDedupeLabel">去重开</span></label>
               <button class="button button--small" id="advancedToggle" type="button">查看源状态</button>
             </div>

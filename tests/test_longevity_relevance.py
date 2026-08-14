@@ -56,3 +56,14 @@ def test_material_aging_is_not_biological_longevity():
     ))
     assert not result["is_related"]
     assert result["relevance_reason"] == "non_biological_aging_context"
+
+
+def test_prefixed_ai_radar_sources_keep_bridge_prior():
+    direct = score_longevity_relevance(record(
+        "Machine learning predicts biological age", site_id="ai_radar_bridge", source_type="news",
+    ))
+    prefixed = score_longevity_relevance(record(
+        "Machine learning predicts biological age", site_id="ai_radar_official_ai", source_type="news",
+    ))
+    assert prefixed["ai_score"] == direct["ai_score"]
+    assert prefixed["longevity_score"] == direct["longevity_score"]

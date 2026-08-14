@@ -23,7 +23,7 @@
     allDataPromise: null,
     siteFilter: "",
     query: "",
-    mode: "ai",
+    mode: "all",
     sourceStatus: null,
     generatedAt: null,
     briefingItems: [],
@@ -162,6 +162,7 @@
   }
 
   function sourceKind(siteId) {
+    if (String(siteId || "").startsWith("ai_radar_")) return SOURCE_KINDS.ai_radar_bridge;
     return SOURCE_KINDS[siteId] || { label: "来源", tone: "default" };
   }
 
@@ -358,12 +359,10 @@
   }
 
   function setStats(payload) {
-    const paperCount = state.itemsAi.filter((item) => item.source_type === "paper").length;
-    const trialOrProjectCount = state.itemsAi.filter((item) => ["trial", "project"].includes(item.source_type)).length;
     const cards = [
-      ["双重强相关", fmtNumber(payload.total_items)],
-      ["研究论文", fmtNumber(paperCount)],
-      ["试验 / 项目", fmtNumber(trialOrProjectCount)],
+      ["全部信息源", fmtNumber(state.totalAllMode)],
+      ["双重强相关", fmtNumber(state.totalAi)],
+      ["站点", fmtNumber(currentSiteStats().length)],
       ["历史归档", fmtNumber(payload.archive_total)],
     ];
     els.stats.replaceChildren();
@@ -409,15 +408,17 @@
     const okSites = Number(state.sourceStatus?.successful_sites || rows.filter((row) => row.ok).length);
     const papers = state.itemsAi.filter((item) => item.source_type === "paper").length;
     const projectsAndTrials = state.itemsAi.filter((item) => ["project", "trial"].includes(item.source_type)).length;
-    const riskLabeled = state.itemsAi.filter((item) => Array.isArray(item.risk_flags) && item.risk_flags.length).length;
+    const bridgedSourceCount = new Set(state.itemsAll
+      .map((row) => String(row.site_id || ""))
+      .filter((siteId) => siteId.startsWith("ai_radar_"))).size;
 
     const cards = [
       ["源健康", rows.length ? `${fmtNumber(okSites)}/${fmtNumber(rows.length)}` : "加载中", failed.length ? `${failed.length} 个失败源` : (errorMessage || "公开源状态"), failed.length ? "warn" : "ok"],
       ["抓取候选", `${fmtNumber(rawCount)} 条`, "多源公开覆盖池", "signal"],
       ["双重相关", `${fmtNumber(state.totalAi)} 条`, "AI 与生命延续同时达标", "signal"],
-      ["论文证据", `${fmtNumber(papers)} 条`, "Europe PMC 与机构来源", "official"],
-      ["试验 / 项目", `${fmtNumber(projectsAndTrials)} 条`, "注册试验与开源工具", "private"],
-      ["风险已标注", `${fmtNumber(riskLabeled)} 条`, `候选池 ${fmtNumber(allCount)} 条`, "aggregate"],
+      ["旧雷达来源", `${fmtNumber(bridgedSourceCount)} 类`, "保留每个原始信息源身份", "official"],
+      ["论文 / 试验 / 项目", `${fmtNumber(papers + projectsAndTrials)} 条`, "生命延续专属采集器", "private"],
+      ["全部信息源", `${fmtNumber(allCount)} 条`, "默认去重展示", "aggregate"],
     ];
     cards.forEach((card) => els.coverageStrip.appendChild(renderCoverageCard(...card)));
   }
@@ -467,10 +468,14 @@
     els.allDedupeToggle.checked = state.allDedup;
     els.allDedupeLabel.textContent = state.allDedup ? "去重开" : "去重关";
     const count = state.mode === "ai" ? state.totalAi : (state.allDedup ? state.totalAllMode : state.totalRaw);
-    els.listTitle.textContent = state.mode === "ai" ? "AI 生命延续信号流" : "全部候选";
+    els.listTitle.textContent = state.mode === "ai" ? "AI 生命延续强相关" : "全部信息源信号流";
     els.modeHint.textContent = state.mode === "ai"
       ? `AI + 生命延续双重相关 · ${fmtNumber(count)} 条`
-      : `抓取候选 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(count)} 条`;
+      : `旧版 AI雷达全源 + 生命延续专属源 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(count)} 条`;
+    els.heroSignalCount.textContent = fmtNumber(count);
+    els.navStatus.textContent = state.mode === "ai"
+      ? `${fmtNumber(count)} 条强相关信号在线`
+      : `${fmtNumber(count)} 条信息源信号在线`;
     renderAdvancedSummary();
   }
 
@@ -861,6 +866,14 @@
       state.allDataLoaded = Boolean(payload.items_all || payload.items_all_raw);
       state.generatedAt = payload.generated_at;
 
+      if (state.mode === "all" && !state.allDataLoaded) {
+        try {
+          await loadAllModeData();
+        } catch {
+          state.mode = "ai";
+        }
+      }
+
       setStats(payload);
       renderModeSwitch();
       renderSiteFilters();
@@ -868,8 +881,9 @@
       renderBriefing();
       renderCoverageStrip();
       els.updatedAt.textContent = fmtTime(state.generatedAt);
-      els.heroSignalCount.textContent = fmtNumber(state.totalAi);
-      els.navStatus.textContent = `${fmtNumber(state.totalAi)} 条信号在线`;
+      const currentTotal = state.mode === "all" ? state.totalAllMode : state.totalAi;
+      els.heroSignalCount.textContent = fmtNumber(currentTotal);
+      els.navStatus.textContent = `${fmtNumber(currentTotal)} 条信号在线`;
       els.briefingStatus.textContent = state.briefingItems.length ? els.briefingStatus.textContent : "暂无条目";
     } else {
       showNewsError(newsResult.reason);

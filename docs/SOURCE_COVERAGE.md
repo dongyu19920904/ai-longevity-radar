@@ -8,9 +8,11 @@
 | ClinicalTrials.gov API v2 | Trial registry metadata | NCT identifier | Isolated |
 | Public RSS feeds | Institutions and longevity industry | Normalized URL | Per-feed isolated |
 | GitHub Search API | Open research software | `owner/repo` | Isolated |
-| Aivora AI Radar JSON | General-AI candidate bridge | Normalized URL | Optional and isolated |
+| Aivora AI Radar JSON | Full general-AI source bridge | Normalized URL | Optional and isolated |
 
-The AI Radar bridge is a discovery supplement, not a dependency or evidence authority. Every bridged item is scored again for longevity relevance.
+The AI Radar bridge consumes its curated `latest-24h.json` feed and preserves each upstream `site_id`, `site_name`, source label, AI relevance decision, and AI score. The public upstream groups are Official AI Updates, AI Breakfast, Follow Builders, TechURLs, Buzzing, Info Flow, BestBlogs, TopHub, Zeli, AI HubToday, AIbase, AI HOT, NewsNow, plus any public OPML RSS rows present in the upstream snapshot. A group may legitimately contribute zero rows during a particular 24-hour window.
+
+The website opens the deduplicated full-source layer by default: the complete upstream AI feed plus the longevity-specific collectors above. The bridge prefers the custom-domain JSON and automatically retries the same public snapshot through GitHub Raw and the GitHub Contents API; the selected endpoint and earlier endpoint errors are recorded in source status. The `AI + longevity` view, `latest-24h.json`, and `briefing-lite.json` remain the stricter intersection. Every bridged item is scored again for longevity relevance; an upstream AI score is traceability metadata, not longevity evidence.
 
 ## Source admission criteria
 
