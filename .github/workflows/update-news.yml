@@ -126,10 +126,28 @@ jobs:
           curl "${retry[@]}" https://news.aibioo.cn/ -o "$task_tmp/daily-home.html"
           curl "${retry[@]}" https://news.aibioo.cn/2026-08/2026-08-13/ -o "$task_tmp/daily-sample.html"
 
-          grep -q '爱窝啦 AI生命延续学雷达' "$task_tmp/index.html"
-          grep -qi '^access-control-allow-origin: \*$' "$task_tmp/briefing.headers"
-          grep -q 'https://radar.aibioo.cn/' "$task_tmp/daily-home.html"
-          grep -q 'https://radar.aibioo.cn/data/briefing-lite.json' "$task_tmp/daily-sample.html"
+          check_contains() {
+            local label="$1"
+            local pattern="$2"
+            local file="$3"
+            if grep -qF "$pattern" "$file"; then
+              echo "PASS: $label"
+            else
+              echo "FAIL: $label (missing: $pattern)" >&2
+              return 1
+            fi
+          }
+
+          check_contains "radar homepage brand" '爱窝啦 AI生命延续学雷达' "$task_tmp/index.html"
+          if tr -d '\r' < "$task_tmp/briefing.headers" | grep -qi '^access-control-allow-origin: \*$'; then
+            echo "PASS: briefing JSON CORS"
+          else
+            echo "FAIL: briefing JSON does not allow cross-origin reads" >&2
+            sed -n '1,20p' "$task_tmp/briefing.headers" >&2
+            exit 1
+          fi
+          check_contains "Daily homepage radar link" 'https://radar.aibioo.cn/' "$task_tmp/daily-home.html"
+          check_contains "Daily article public JSON integration" 'https://radar.aibioo.cn/data/briefing-lite.json' "$task_tmp/daily-sample.html"
 
           python - "$task_tmp/latest.json" "$task_tmp/briefing.json" <<'PY'
           import json
@@ -144,7 +162,9 @@ jobs:
           assert isinstance(briefing.get("items"), list)
           generated = datetime.fromisoformat(latest["generated_at"].replace("Z", "+00:00"))
           assert datetime.now(UTC) - generated < __import__("datetime").timedelta(hours=4)
+          print("PASS: JSON schema, list contracts, and freshness")
           PY
 
           final_url="$(curl --fail --show-error --silent --location --output /dev/null --write-out '%{url_effective}' http://radar.aibioo.cn/)"
           test "$final_url" = "https://radar.aibioo.cn/"
+          echo "PASS: HTTP redirects to canonical HTTPS"
