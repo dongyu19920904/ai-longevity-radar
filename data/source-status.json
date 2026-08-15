@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-14T23:37:43.749426Z",
+  "generated_at": "2026-08-15T01:50:20.788297Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
-      "item_count": 27,
-      "duration_ms": 1174,
+      "item_count": 20,
+      "duration_ms": 1026,
       "error": null
     },
     {
@@ -15,7 +15,7 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 100,
+      "duration_ms": 242,
       "error": null
     },
     {
@@ -23,16 +23,16 @@
       "site_name": "机构与行业 RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 106,
-      "duration_ms": 16019,
+      "item_count": 59,
+      "duration_ms": 1027,
       "error": null,
       "feeds": [
         {
           "feed_name": "Nature Aging",
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
-          "item_count": 13,
-          "duration_ms": 46,
+          "item_count": 12,
+          "duration_ms": 460,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 903,
+          "duration_ms": 921,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 500,
+          "duration_ms": 288,
           "error": null
         },
         {
@@ -56,15 +56,15 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 451,
+          "duration_ms": 465,
           "error": null
         },
         {
           "feed_name": "Longevity.Technology",
           "feed_url": "https://longevity.technology/feed/",
           "ok": true,
-          "item_count": 46,
-          "duration_ms": 16019,
+          "item_count": 0,
+          "duration_ms": 1027,
           "error": null
         },
         {
@@ -72,7 +72,7 @@
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 1,
-          "duration_ms": 218,
+          "duration_ms": 311,
           "error": null
         },
         {
@@ -80,7 +80,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 30,
-          "duration_ms": 140,
+          "duration_ms": 102,
           "error": null
         }
       ]
@@ -90,30 +90,30 @@
       "site_name": "GitHub 研究项目",
       "ok": true,
       "item_count": 33,
-      "duration_ms": 515,
+      "duration_ms": 487,
       "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 751,
+      "item_count": 757,
       "source_count": 11,
       "upstream_sources": [
         {
           "site_id": "buzzing",
           "site_name": "Buzzing",
-          "item_count": 249
+          "item_count": 252
         },
         {
           "site_id": "iris",
           "site_name": "Info Flow",
-          "item_count": 175
+          "item_count": 177
         },
         {
           "site_id": "techurls",
           "site_name": "TechURLs",
-          "item_count": 87
+          "item_count": 88
         },
         {
           "site_id": "zeli",
@@ -123,7 +123,7 @@
         {
           "site_id": "tophub",
           "site_name": "TopHub",
-          "item_count": 57
+          "item_count": 59
         },
         {
           "site_id": "aibase",
@@ -133,7 +133,7 @@
         {
           "site_id": "newsnow",
           "site_name": "NewsNow",
-          "item_count": 30
+          "item_count": 31
         },
         {
           "site_id": "opmlrss",
@@ -143,7 +143,7 @@
         {
           "site_id": "aihot",
           "site_name": "AI HOT",
-          "item_count": 13
+          "item_count": 10
         },
         {
           "site_id": "followbuilders",
@@ -158,14 +158,14 @@
       ],
       "endpoint_used": "https://radar.aivora.cn/data/latest-24h.json",
       "fallback_errors": [],
-      "duration_ms": 308,
+      "duration_ms": 225,
       "error": null
     }
   ],
   "successful_sites": 5,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 967,
-  "items_before_topic_filter": 731,
+  "fetched_raw_items": 919,
+  "items_before_topic_filter": 687,
   "items_in_24h": 0
 }
