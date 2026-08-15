@@ -87,6 +87,23 @@ def test_population_aging_and_metabolic_reprogramming_do_not_masquerade_as_longe
     assert metabolic["relevance_tier"] == "all"
 
 
+def test_aging_requires_biological_context_and_stays_out_of_core_without_a_strong_signal():
+    hardware = score_longevity_relevance(record("AI sustains an aging ICBM missile fleet", source_type="news"))
+    gpu = score_longevity_relevance(record("AI makes aging GPU hardware profitable", source_type="news"))
+    healthy_context = score_longevity_relevance(record("AI supports healthcare for aging patients", source_type="news"))
+    assert hardware["relevance_tier"] == "all"
+    assert gpu["relevance_tier"] == "all"
+    assert healthy_context["relevance_tier"] == "related"
+    assert healthy_context["relevance_path"] == "ai_healthy_aging_context"
+
+
+def test_ai_finance_rejuvenation_and_personal_training_marketing_are_not_selected():
+    finance = score_longevity_relevance(record("Tencent AI spend in overdrive; rejuvenation needs a final push", source_type="news"))
+    fitness = score_longevity_relevance(record("Personal training outlook: longevity, GLP-1s and AI change the game", source_type="news"))
+    assert finance["relevance_tier"] == "all"
+    assert fitness["relevance_tier"] == "all"
+
+
 def test_labels_subject_stage_and_risk_without_claiming_efficacy():
     result = score_longevity_relevance(record(
         "Machine learning aging clock in mice: a preprint study",

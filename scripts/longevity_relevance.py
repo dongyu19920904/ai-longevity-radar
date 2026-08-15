@@ -39,6 +39,16 @@ STRONG_BIOMEDICAL_ADJACENT_KEYWORDS = (
     "药物发现", "药物设计", "蛋白质设计", "多组学", "单细胞", "临床试验", "精准医疗",
 )
 
+WEAK_LONGEVITY_KEYWORDS = {"aging", "ageing", "rejuvenation"}
+
+BIOLOGICAL_CONTEXT_KEYWORDS = (
+    "health", "healthcare", "medical", "medicine", "clinical", "patient", "patients", "human",
+    "mouse", "mice", "cell", "cellular", "tissue", "organ", "immune", "brain", "cognitive",
+    "disease", "biomarker", "genomic", "proteomic", "metabolomic", "frailty", "sarcopenia",
+    "健康", "医疗", "临床", "患者", "人体", "小鼠", "细胞", "组织", "器官", "免疫", "大脑",
+    "疾病", "生物标志物", "虚弱", "肌少症",
+)
+
 LONGEVITY_KEYWORDS = (
     "longevity", "healthspan", "lifespan", "aging", "ageing", "geroscience",
     "biological age", "aging clock", "age clock", "epigenetic clock", "methylation age",
@@ -57,6 +67,7 @@ LONGEVITY_KEYWORDS = (
 GENERIC_HEALTH_NOISE = (
     "weight loss", "skincare", "cosmetic", "beauty", "celebrity", "diet hack",
     "miracle cure", "anti-aging cream", "supplement launch", "menopause care", "wellness",
+    "personal training", "change the game",
     "减肥", "护肤", "美容", "明星", "神药", "保健品发布",
 )
 
@@ -69,6 +80,8 @@ NON_BIOLOGICAL_AGING_NOISE = (
     "aluminum alloy", "aluminium alloy", "heat-treatable", "strength-ductility",
     "material aging", "materials aging", "battery aging", "battery ageing",
     "concrete aging", "transformer aging", "polymer aging", "steel aging",
+    "aging gpu", "aging hardware", "aging infrastructure", "aging fleet", "air force",
+    "icbm", "missile", "data center hardware",
 )
 
 TOPIC_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
@@ -181,6 +194,7 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
     ascii_tokens = set(re.findall(r"[a-z0-9]+", text))
     ai_signals = _matches(text, AI_KEYWORDS, ascii_tokens)
     longevity_signals = _matches(text, LONGEVITY_KEYWORDS, ascii_tokens)
+    biological_context_signals = _matches(text, BIOLOGICAL_CONTEXT_KEYWORDS, ascii_tokens)
     biomedical_signals = _matches(text, BIOMEDICAL_ADJACENT_KEYWORDS, ascii_tokens)
     strong_biomedical_signals = _matches(text, STRONG_BIOMEDICAL_ADJACENT_KEYWORDS, ascii_tokens)
     noise = _matches(text, GENERIC_HEALTH_NOISE, ascii_tokens)
@@ -208,6 +222,13 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
     demographic_aging_context = bool(demographic_noise) and set(longevity_signals).issubset({"aging", "ageing"})
     if demographic_aging_context:
         longevity_score = max(0.0, longevity_score - 0.72)
+    weak_longevity_without_biology = (
+        bool(longevity_signals)
+        and set(longevity_signals).issubset(WEAK_LONGEVITY_KEYWORDS)
+        and not biological_context_signals
+    )
+    if weak_longevity_without_biology:
+        longevity_score = max(0.0, longevity_score - 0.72)
 
     ai_related = (local_ai_score >= AI_RELEVANCE_THRESHOLD and bool(ai_signals)) or upstream_ai_evidence
     longevity_related = (
@@ -215,8 +236,10 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
         and bool(longevity_signals)
         and not non_biological_noise
         and not demographic_aging_context
+        and not weak_longevity_without_biology
     )
-    keep = ai_related and longevity_related
+    strong_longevity_evidence = any(signal not in WEAK_LONGEVITY_KEYWORDS for signal in longevity_signals)
+    keep = ai_related and longevity_related and strong_longevity_evidence
     source_type = str(record.get("source_type") or "unknown")
     ai_biomedical_tool = (
         ai_related
@@ -228,6 +251,7 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
         and (source_type == "project" or len(strong_biomedical_signals) >= 2)
     )
     longevity_background = longevity_related and not ai_related and not noise and not non_biological_noise
+    ai_aging_context = ai_related and longevity_related and not strong_longevity_evidence and not noise
     if keep:
         relevance_tier = "core"
         relevance_path = "local_ai_plus_longevity" if ai_signals else "upstream_ai_plus_longevity"
@@ -236,6 +260,10 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
         relevance_tier = "related"
         relevance_path = "longevity_background"
         selection_reason = "生命延续背景研究"
+    elif ai_aging_context:
+        relevance_tier = "related"
+        relevance_path = "ai_healthy_aging_context"
+        selection_reason = "AI 与健康老龄化相邻研究"
     elif ai_biomedical_tool:
         relevance_tier = "related"
         relevance_path = "ai_biomedical_tool"
@@ -266,8 +294,12 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
         reason = "non_biological_aging_context"
     elif demographic_aging_context:
         reason = "demographic_aging_context"
+    elif weak_longevity_without_biology:
+        reason = "weak_aging_without_biological_context"
     elif noise and not keep:
         reason = "health_or_commerce_noise"
+    elif ai_aging_context:
+        reason = "matched_ai_and_healthy_aging_context"
     else:
         reason = "matched_ai_and_longevity_signals"
 
@@ -292,6 +324,7 @@ def score_longevity_relevance(record: dict[str, Any]) -> dict[str, Any]:
         "ai_signals": ai_signals[:12],
         "longevity_signals": longevity_signals[:12],
         "biomedical_signals": biomedical_signals[:12],
+        "biological_context_signals": biological_context_signals[:12],
         "noise_signals": noise[:8],
         "demographic_noise_signals": demographic_noise[:8],
         "non_biological_noise_signals": non_biological_noise[:8],

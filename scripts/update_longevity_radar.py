@@ -616,7 +616,7 @@ def public_item(record: dict[str, Any]) -> dict[str, Any]:
         "relevance_tier", "relevance_path", "selection_reason", "topics", "primary_topic", "study_subject",
         "publication_stage", "evidence_type", "risk_flags", "relevance_reason", "ai_signals", "longevity_signals",
         "noise_signals", "demographic_noise_signals", "non_biological_noise_signals",
-        "biomedical_signals", "upstream_site_id", "upstream_ai_is_related", "upstream_ai_score",
+        "biomedical_signals", "biological_context_signals", "upstream_site_id", "upstream_ai_is_related", "upstream_ai_score",
     )
     return {key: record.get(key) for key in allowed if key in record}
 
