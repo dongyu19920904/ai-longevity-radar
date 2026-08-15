@@ -1,13 +1,13 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-15T03:55:19.251970Z",
+  "generated_at": "2026-08-15T04:48:03.913621Z",
   "sites": [
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "ok": true,
       "item_count": 25,
-      "duration_ms": 920,
+      "duration_ms": 1823,
       "error": null
     },
     {
@@ -15,7 +15,7 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 277,
+      "duration_ms": 555,
       "error": null
     },
     {
@@ -23,8 +23,8 @@
       "site_name": "机构与行业 RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 105,
-      "duration_ms": 7086,
+      "item_count": 59,
+      "duration_ms": 1150,
       "error": null,
       "feeds": [
         {
@@ -32,7 +32,7 @@
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 12,
-          "duration_ms": 124,
+          "duration_ms": 75,
           "error": null
         },
         {
@@ -40,7 +40,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 794,
+          "duration_ms": 1150,
           "error": null
         },
         {
@@ -48,7 +48,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 6,
-          "duration_ms": 201,
+          "duration_ms": 252,
           "error": null
         },
         {
@@ -56,15 +56,15 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 395,
+          "duration_ms": 424,
           "error": null
         },
         {
           "feed_name": "Longevity.Technology",
           "feed_url": "https://longevity.technology/feed/",
           "ok": true,
-          "item_count": 46,
-          "duration_ms": 7086,
+          "item_count": 0,
+          "duration_ms": 398,
           "error": null
         },
         {
@@ -72,7 +72,7 @@
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 1,
-          "duration_ms": 234,
+          "duration_ms": 362,
           "error": null
         },
         {
@@ -80,7 +80,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 30,
-          "duration_ms": 133,
+          "duration_ms": 150,
           "error": null
         }
       ]
@@ -88,52 +88,52 @@
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
-      "ok": false,
-      "item_count": 18,
-      "duration_ms": 510,
-      "error": "1 queries failed: HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=alzheimer+machine+learning+biomarker+archived%3Afalse&sort=updated&order=desc"
+      "ok": true,
+      "item_count": 33,
+      "duration_ms": 571,
+      "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 716,
+      "item_count": 683,
       "source_count": 11,
       "upstream_sources": [
         {
           "site_id": "buzzing",
           "site_name": "Buzzing",
-          "item_count": 227
+          "item_count": 225
         },
         {
           "site_id": "iris",
           "site_name": "Info Flow",
-          "item_count": 155
+          "item_count": 151
         },
         {
           "site_id": "techurls",
           "site_name": "TechURLs",
-          "item_count": 87
+          "item_count": 86
         },
         {
           "site_id": "zeli",
           "site_name": "Zeli",
-          "item_count": 76
+          "item_count": 78
         },
         {
           "site_id": "tophub",
           "site_name": "TopHub",
-          "item_count": 67
-        },
-        {
-          "site_id": "aibase",
-          "site_name": "AIbase",
-          "item_count": 40
+          "item_count": 58
         },
         {
           "site_id": "newsnow",
           "site_name": "NewsNow",
-          "item_count": 30
+          "item_count": 33
+        },
+        {
+          "site_id": "aibase",
+          "site_name": "AIbase",
+          "item_count": 20
         },
         {
           "site_id": "opmlrss",
@@ -148,26 +148,24 @@
         {
           "site_id": "official_ai",
           "site_name": "Official AI Updates",
-          "item_count": 4
+          "item_count": 3
         },
         {
           "site_id": "followbuilders",
           "site_name": "Follow Builders",
-          "item_count": 3
+          "item_count": 2
         }
       ],
       "endpoint_used": "https://radar.aivora.cn/data/latest-24h.json",
       "fallback_errors": [],
-      "duration_ms": 508,
+      "duration_ms": 541,
       "error": null
     }
   ],
-  "successful_sites": 4,
-  "failed_sites": [
-    "github_projects"
-  ],
+  "successful_sites": 5,
+  "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 914,
+  "fetched_raw_items": 850,
   "items_before_topic_filter": 648,
   "items_in_24h": 0
 }
