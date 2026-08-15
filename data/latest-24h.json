@@ -1,16 +1,672 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-15T06:58:49.706203Z",
+  "generated_at": "2026-08-15T07:33:54.357049Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_raw": 601,
-  "total_items_all_mode": 601,
-  "archive_total": 2035,
-  "site_count": 0,
-  "source_count": 0,
-  "site_stats": [],
-  "items": [],
-  "items_ai": [],
+  "total_items": 7,
+  "total_items_raw": 632,
+  "total_items_all_mode": 632,
+  "archive_total": 2129,
+  "site_count": 1,
+  "source_count": 3,
+  "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 7,
+      "raw_count": 29
+    }
+  ],
+  "items": [
+    {
+      "id": "cfe82c3331b450526d7fb272e18a5537d34460ba",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-age-blood.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Organs age at different speeds: A blood test might soon tell which ones",
+      "title_zh": "器官以不同的速度老化：验血可能很快就能知道哪些器官",
+      "title_en": "Organs age at different speeds: A blood test might soon tell which ones",
+      "url": "https://medicalxpress.com/news/2026-08-age-blood.html",
+      "published_at": "2026-08-14T09:00:03Z",
+      "first_seen_at": "2026-08-14T10:17:36.670567Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "dabce19df4bc04ed1807dc791e4e3d0b056b5f78",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEc3ZENlNWFHd2JmWXota2dpcXo1X2cya1NLWVdSNnFYMEtuZHRrRTdiQ3gzYUxid0NoS1RyQ1dZWGRhZWVfRngtS0ZRWTdmc0pDZ2xGamU2SG9UaWZHRzA2d294NVZXLVUzZ3dGOC05VjZkckp0NWFuWUo2aUVTQXFpRF9BbmwwazZHTHFxbGtDV3oxRkVV?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI Reduce the Costs of Healthcare and Aging? - Morgan Stanley",
+      "title_zh": "人工智能可以降低医疗保健和老龄化的成本吗？ -摩根士丹利",
+      "title_en": "Can AI Reduce the Costs of Healthcare and Aging? - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEc3ZENlNWFHd2JmWXota2dpcXo1X2cya1NLWVdSNnFYMEtuZHRrRTdiQ3gzYUxid0NoS1RyQ1dZWGRhZWVfRngtS0ZRWTdmc0pDZ2xGamU2SG9UaWZHRzA2d294NVZXLVUzZ3dGOC05VjZkckp0NWFuWUo2aUVTQXFpRF9BbmwwazZHTHFxbGtDV3oxRkVV?oc=5",
+      "published_at": "2026-08-14T18:51:10Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "150fb1e93969b77fa85dcee61340cb35fc3c36b8",
+      "canonical_key": "url:https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "AI-based \"tissue clocks\" measure the biological age of human organs",
+      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄",
+      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs",
+      "url": "https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
+      "published_at": "2026-08-14T18:18:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "1afa187c4f15d8aead9493dc0ed027af7ddbff1f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
+      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄- News-Medical",
+      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
+      "published_at": "2026-08-14T18:18:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "cca451f4891907835c25ebe87dedf5cd4015b183",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjJ1RUItd3FCaFFFMWlvRV9OYlJZWHk5UVdjWC1KVDk3Q3ljaUN2bU5FRFpDUDk4cVg3RWNSMXhnR3lkVlZ6Z2xObXhvdzZ4cldmd3pDVVBEM1RWaVg0RVZRZlNwMWZSUXpfSmppd0VaSndYazUzZ21tS1k0bUVmaGRDN3I5YXVlNFQwdDh3QTRzVXZHbUpSM1Z2ajBvNk9aQ0ZBSDd3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI could help Alzheimer’s patients get treatment sooner - ConsumerAffairs",
+      "title_zh": "人工智能可以帮助阿尔茨海默病患者更快得到治疗- ConsumerAffairs",
+      "title_en": "AI could help Alzheimer’s patients get treatment sooner - ConsumerAffairs",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjJ1RUItd3FCaFFFMWlvRV9OYlJZWHk5UVdjWC1KVDk3Q3ljaUN2bU5FRFpDUDk4cVg3RWNSMXhnR3lkVlZ6Z2xObXhvdzZ4cldmd3pDVVBEM1RWaVg0RVZRZlNwMWZSUXpfSmppd0VaSndYazUzZ21tS1k0bUVmaGRDN3I5YXVlNFQwdDh3QTRzVXZHbUpSM1Z2ajBvNk9aQ0ZBSDd3?oc=5",
+      "published_at": "2026-08-14T16:01:28Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "bb76f37e1c6a1bebd4fa2136de2adb053969cb6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAJBVV95cUxQNlBZRmI2MmN1b1A5UjNlcFlZVm1nVWl5T3NaaUlEbTF2MG5yazR2QUJYZDVWV2FxdThjRjdxaEYxVXgtVnVSQzJUWS03Q3RtLWhuemlheENTcEpiaGltTkdCTzBNcHlsQnlpbFc4QVgtSUJWSkJqQ0g0UndycTlDcVN0V3NTVXR6OWNLbnNtV05JWnBoRVNwX3RFWVZpeTZPY1FZUlZ4WXBuV0xXOVhUMDc1eVJiSzVweFgwTmFFYl9tdUliSmdORWhyS0RLNURBUThCdnpsWkYzOFM3SUY5d0VRbDI5VXJDVDdyTzE4cVVjamZGOXdTOG11LUVyQWRG?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Redrawing the brain’s molecular blueprint: 3D genome mapping and AI reveal more about Alzheimer’s pathology - BioTechniques",
+      "title_zh": "重新绘制大脑的分子蓝图： 3D基因组映射和人工智能揭示阿尔茨海默病病理学的更多信息- BioTechniques",
+      "title_en": "Redrawing the brain’s molecular blueprint: 3D genome mapping and AI reveal more about Alzheimer’s pathology - BioTechniques",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQNlBZRmI2MmN1b1A5UjNlcFlZVm1nVWl5T3NaaUlEbTF2MG5yazR2QUJYZDVWV2FxdThjRjdxaEYxVXgtVnVSQzJUWS03Q3RtLWhuemlheENTcEpiaGltTkdCTzBNcHlsQnlpbFc4QVgtSUJWSkJqQ0g0UndycTlDcVN0V3NTVXR6OWNLbnNtV05JWnBoRVNwX3RFWVZpeTZPY1FZUlZ4WXBuV0xXOVhUMDc1eVJiSzVweFgwTmFFYl9tdUliSmdORWhyS0RLNURBUThCdnpsWkYzOFM3SUY5d0VRbDI5VXJDVDdyTzE4cVVjamZGOXdTOG11LUVyQWRG?oc=5",
+      "published_at": "2026-08-14T15:59:52Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "525bcafc39ce2b1da133f4588ee423ea898fb2fd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaXJzNmtfYkZSUlh5QW5feHJaTGJES2ZuYnMzWGtvald4ZUFoY0prcUxxVE9OZFVUV1dxeFk5SnRJei1waVFKUHFTYkt4TU1PQUVvcVNoMEVnTWQyUGx5NFV3QW1BQXpGVmt0Zk1kQjluQUdqOVRmNFRSUk02cDBOQm5mVV84YjE5amhneTRtZnBfay02cmFvdy15Q1VqS0xBejB6UlJNWUppb2I2bk40UGliY0lKTFhEWnN5MDF6RkVBTU11ZFAxTW1YUUdCazJGcDdKalZ0VWdpU05nWnpya0dyeHNyaC1Hbi13YldCeFRTZnN1Z2o3OQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "‘Playing a duet with myself’: Jazz legend Herbie Hancock on AI and aging - TheDailyNewsOnline.com",
+      "title_zh": "“和自己一起演奏二重唱” ：爵士乐传奇人物Herbie Hancock讲述人工智能与衰老- TheDailyNewsOnline.com",
+      "title_en": "‘Playing a duet with myself’: Jazz legend Herbie Hancock on AI and aging - TheDailyNewsOnline.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaXJzNmtfYkZSUlh5QW5feHJaTGJES2ZuYnMzWGtvald4ZUFoY0prcUxxVE9OZFVUV1dxeFk5SnRJei1waVFKUHFTYkt4TU1PQUVvcVNoMEVnTWQyUGx5NFV3QW1BQXpGVmt0Zk1kQjluQUdqOVRmNFRSUk02cDBOQm5mVV84YjE5amhneTRtZnBfay02cmFvdy15Q1VqS0xBejB6UlJNWUppb2I2bk40UGliY0lKTFhEWnN5MDF6RkVBTU11ZFAxTW1YUUdCazJGcDdKalZ0VWdpU05nWnpya0dyeHNyaC1Hbi13YldCeFRTZnN1Z2o3OQ?oc=5",
+      "published_at": "2026-08-14T08:45:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "cfe82c3331b450526d7fb272e18a5537d34460ba",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-age-blood.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Organs age at different speeds: A blood test might soon tell which ones",
+      "title_zh": "器官以不同的速度老化：验血可能很快就能知道哪些器官",
+      "title_en": "Organs age at different speeds: A blood test might soon tell which ones",
+      "url": "https://medicalxpress.com/news/2026-08-age-blood.html",
+      "published_at": "2026-08-14T09:00:03Z",
+      "first_seen_at": "2026-08-14T10:17:36.670567Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "dabce19df4bc04ed1807dc791e4e3d0b056b5f78",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEc3ZENlNWFHd2JmWXota2dpcXo1X2cya1NLWVdSNnFYMEtuZHRrRTdiQ3gzYUxid0NoS1RyQ1dZWGRhZWVfRngtS0ZRWTdmc0pDZ2xGamU2SG9UaWZHRzA2d294NVZXLVUzZ3dGOC05VjZkckp0NWFuWUo2aUVTQXFpRF9BbmwwazZHTHFxbGtDV3oxRkVV?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI Reduce the Costs of Healthcare and Aging? - Morgan Stanley",
+      "title_zh": "人工智能可以降低医疗保健和老龄化的成本吗？ -摩根士丹利",
+      "title_en": "Can AI Reduce the Costs of Healthcare and Aging? - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEc3ZENlNWFHd2JmWXota2dpcXo1X2cya1NLWVdSNnFYMEtuZHRrRTdiQ3gzYUxid0NoS1RyQ1dZWGRhZWVfRngtS0ZRWTdmc0pDZ2xGamU2SG9UaWZHRzA2d294NVZXLVUzZ3dGOC05VjZkckp0NWFuWUo2aUVTQXFpRF9BbmwwazZHTHFxbGtDV3oxRkVV?oc=5",
+      "published_at": "2026-08-14T18:51:10Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "150fb1e93969b77fa85dcee61340cb35fc3c36b8",
+      "canonical_key": "url:https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "AI-based \"tissue clocks\" measure the biological age of human organs",
+      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄",
+      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs",
+      "url": "https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
+      "published_at": "2026-08-14T18:18:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "1afa187c4f15d8aead9493dc0ed027af7ddbff1f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
+      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄- News-Medical",
+      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
+      "published_at": "2026-08-14T18:18:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "cca451f4891907835c25ebe87dedf5cd4015b183",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjJ1RUItd3FCaFFFMWlvRV9OYlJZWHk5UVdjWC1KVDk3Q3ljaUN2bU5FRFpDUDk4cVg3RWNSMXhnR3lkVlZ6Z2xObXhvdzZ4cldmd3pDVVBEM1RWaVg0RVZRZlNwMWZSUXpfSmppd0VaSndYazUzZ21tS1k0bUVmaGRDN3I5YXVlNFQwdDh3QTRzVXZHbUpSM1Z2ajBvNk9aQ0ZBSDd3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI could help Alzheimer’s patients get treatment sooner - ConsumerAffairs",
+      "title_zh": "人工智能可以帮助阿尔茨海默病患者更快得到治疗- ConsumerAffairs",
+      "title_en": "AI could help Alzheimer’s patients get treatment sooner - ConsumerAffairs",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjJ1RUItd3FCaFFFMWlvRV9OYlJZWHk5UVdjWC1KVDk3Q3ljaUN2bU5FRFpDUDk4cVg3RWNSMXhnR3lkVlZ6Z2xObXhvdzZ4cldmd3pDVVBEM1RWaVg0RVZRZlNwMWZSUXpfSmppd0VaSndYazUzZ21tS1k0bUVmaGRDN3I5YXVlNFQwdDh3QTRzVXZHbUpSM1Z2ajBvNk9aQ0ZBSDd3?oc=5",
+      "published_at": "2026-08-14T16:01:28Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "bb76f37e1c6a1bebd4fa2136de2adb053969cb6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAJBVV95cUxQNlBZRmI2MmN1b1A5UjNlcFlZVm1nVWl5T3NaaUlEbTF2MG5yazR2QUJYZDVWV2FxdThjRjdxaEYxVXgtVnVSQzJUWS03Q3RtLWhuemlheENTcEpiaGltTkdCTzBNcHlsQnlpbFc4QVgtSUJWSkJqQ0g0UndycTlDcVN0V3NTVXR6OWNLbnNtV05JWnBoRVNwX3RFWVZpeTZPY1FZUlZ4WXBuV0xXOVhUMDc1eVJiSzVweFgwTmFFYl9tdUliSmdORWhyS0RLNURBUThCdnpsWkYzOFM3SUY5d0VRbDI5VXJDVDdyTzE4cVVjamZGOXdTOG11LUVyQWRG?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Redrawing the brain’s molecular blueprint: 3D genome mapping and AI reveal more about Alzheimer’s pathology - BioTechniques",
+      "title_zh": "重新绘制大脑的分子蓝图： 3D基因组映射和人工智能揭示阿尔茨海默病病理学的更多信息- BioTechniques",
+      "title_en": "Redrawing the brain’s molecular blueprint: 3D genome mapping and AI reveal more about Alzheimer’s pathology - BioTechniques",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQNlBZRmI2MmN1b1A5UjNlcFlZVm1nVWl5T3NaaUlEbTF2MG5yazR2QUJYZDVWV2FxdThjRjdxaEYxVXgtVnVSQzJUWS03Q3RtLWhuemlheENTcEpiaGltTkdCTzBNcHlsQnlpbFc4QVgtSUJWSkJqQ0g0UndycTlDcVN0V3NTVXR6OWNLbnNtV05JWnBoRVNwX3RFWVZpeTZPY1FZUlZ4WXBuV0xXOVhUMDc1eVJiSzVweFgwTmFFYl9tdUliSmdORWhyS0RLNURBUThCdnpsWkYzOFM3SUY5d0VRbDI5VXJDVDdyTzE4cVVjamZGOXdTOG11LUVyQWRG?oc=5",
+      "published_at": "2026-08-14T15:59:52Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    },
+    {
+      "id": "525bcafc39ce2b1da133f4588ee423ea898fb2fd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaXJzNmtfYkZSUlh5QW5feHJaTGJES2ZuYnMzWGtvald4ZUFoY0prcUxxVE9OZFVUV1dxeFk5SnRJei1waVFKUHFTYkt4TU1PQUVvcVNoMEVnTWQyUGx5NFV3QW1BQXpGVmt0Zk1kQjluQUdqOVRmNFRSUk02cDBOQm5mVV84YjE5amhneTRtZnBfay02cmFvdy15Q1VqS0xBejB6UlJNWUppb2I2bk40UGliY0lKTFhEWnN5MDF6RkVBTU11ZFAxTW1YUUdCazJGcDdKalZ0VWdpU05nWnpya0dyeHNyaC1Hbi13YldCeFRTZnN1Z2o3OQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "‘Playing a duet with myself’: Jazz legend Herbie Hancock on AI and aging - TheDailyNewsOnline.com",
+      "title_zh": "“和自己一起演奏二重唱” ：爵士乐传奇人物Herbie Hancock讲述人工智能与衰老- TheDailyNewsOnline.com",
+      "title_en": "‘Playing a duet with myself’: Jazz legend Herbie Hancock on AI and aging - TheDailyNewsOnline.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaXJzNmtfYkZSUlh5QW5feHJaTGJES2ZuYnMzWGtvald4ZUFoY0prcUxxVE9OZFVUV1dxeFk5SnRJei1waVFKUHFTYkt4TU1PQUVvcVNoMEVnTWQyUGx5NFV3QW1BQXpGVmt0Zk1kQjluQUdqOVRmNFRSUk02cDBOQm5mVV84YjE5amhneTRtZnBfay02cmFvdy15Q1VqS0xBejB6UlJNWUppb2I2bk40UGliY0lKTFhEWnN5MDF6RkVBTU11ZFAxTW1YUUdCazJGcDdKalZ0VWdpU05nWnpya0dyeHNyaC1Hbi13YldCeFRTZnN1Z2o3OQ?oc=5",
+      "published_at": "2026-08-14T08:45:00Z",
+      "first_seen_at": "2026-08-15T07:33:54.357049Z",
+      "last_seen_at": "2026-08-15T07:33:54.357049Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": []
+    }
+  ],
+  "relevant_data_url": "data/latest-relevant.json",
   "all_mode_data_url": "data/latest-24h-all.json",
   "methodology_url": "https://radar.aibioo.cn/methodology.html",
   "medical_disclaimer": "Research signal index only; not medical advice, diagnosis, or treatment guidance."
