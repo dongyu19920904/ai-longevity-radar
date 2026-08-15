@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-15T17:35:46.333012Z",
+  "generated_at": "2026-08-15T18:48:06.391085Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 477,
-  "total_items_all_mode": 477,
-  "archive_total": 2361,
+  "total_items": 1,
+  "total_items_raw": 475,
+  "total_items_all_mode": 475,
+  "archive_total": 2383,
   "site_count": 1,
-  "source_count": 3,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 10
+      "count": 1,
+      "raw_count": 7
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDVNQ1ozSjdiNlZsaE5zWXdrdkR5TnVKLURaQkRRTjZZWHJQZFZwX1dwOEVzTnR5NExnOGdseEdXX29qd3VOeW1lcGxHVDZRLVBwck9XeWp4cXpZQWFOdXhFTjRaYWx2VlAtWVVGWndfaVlhbkQ5bTRQbC1PNjV3c1QzLTVkd2lEcVRScEtXYUFLZTVBZm5GejZlaFdkb2paYkE?oc=5",
       "published_at": "2026-08-15T03:23:27Z",
       "first_seen_at": "2026-08-15T07:45:08.184473Z",
-      "last_seen_at": "2026-08-15T09:42:33.308264Z",
+      "last_seen_at": "2026-08-15T18:48:06.391085Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -68,108 +68,6 @@
       "biological_context_signals": [
         "brain",
         "health"
-      ]
-    },
-    {
-      "id": "150fb1e93969b77fa85dcee61340cb35fc3c36b8",
-      "canonical_key": "url:https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "AI-based \"tissue clocks\" measure the biological age of human organs",
-      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄",
-      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs",
-      "url": "https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
-      "published_at": "2026-08-14T18:18:00Z",
-      "first_seen_at": "2026-08-15T07:33:54.357049Z",
-      "last_seen_at": "2026-08-15T17:35:46.333012Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medicine",
-        "tissue"
-      ]
-    },
-    {
-      "id": "1afa187c4f15d8aead9493dc0ed027af7ddbff1f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
-      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄- News-Medical",
-      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
-      "published_at": "2026-08-14T18:18:00Z",
-      "first_seen_at": "2026-08-15T07:33:54.357049Z",
-      "last_seen_at": "2026-08-15T17:35:46.333012Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medical",
-        "tissue"
       ]
     }
   ],
@@ -187,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDVNQ1ozSjdiNlZsaE5zWXdrdkR5TnVKLURaQkRRTjZZWHJQZFZwX1dwOEVzTnR5NExnOGdseEdXX29qd3VOeW1lcGxHVDZRLVBwck9XeWp4cXpZQWFOdXhFTjRaYWx2VlAtWVVGWndfaVlhbkQ5bTRQbC1PNjV3c1QzLTVkd2lEcVRScEtXYUFLZTVBZm5GejZlaFdkb2paYkE?oc=5",
       "published_at": "2026-08-15T03:23:27Z",
       "first_seen_at": "2026-08-15T07:45:08.184473Z",
-      "last_seen_at": "2026-08-15T09:42:33.308264Z",
+      "last_seen_at": "2026-08-15T18:48:06.391085Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -225,108 +123,6 @@
       "biological_context_signals": [
         "brain",
         "health"
-      ]
-    },
-    {
-      "id": "150fb1e93969b77fa85dcee61340cb35fc3c36b8",
-      "canonical_key": "url:https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "AI-based \"tissue clocks\" measure the biological age of human organs",
-      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄",
-      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs",
-      "url": "https://www.news-medical.net/news/20260814/AI-based-tissue-clocks-measure-the-biological-age-of-human-organs.aspx",
-      "published_at": "2026-08-14T18:18:00Z",
-      "first_seen_at": "2026-08-15T07:33:54.357049Z",
-      "last_seen_at": "2026-08-15T17:35:46.333012Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medicine",
-        "tissue"
-      ]
-    },
-    {
-      "id": "1afa187c4f15d8aead9493dc0ed027af7ddbff1f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
-      "title_zh": "基于人工智能的“组织时钟”测量人体器官的生物年龄- News-Medical",
-      "title_en": "AI-based \"tissue clocks\" measure the biological age of human organs - News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclFqT1A1WmdVMDlHTUVPXzhIU19ablZJNUVGQ3BnZjdYRXpYbGdpcnFvQ210NXp1dVVqUDBtYml0UE9PNTVSSXFTME1lLVVnTGN0YXByTTdaR1FJcHk3a1FMMTZKbExNcWtsOUpMMGlhLVNGQzlXZlNJU0Z2NkhXVHhuSzlrZ2ZsMnNhcVd1MGhzblF3c1BaRDNUNmU0dUxRQUVacWNXbFo5eGtuZXRjWGlncw?oc=5",
-      "published_at": "2026-08-14T18:18:00Z",
-      "first_seen_at": "2026-08-15T07:33:54.357049Z",
-      "last_seen_at": "2026-08-15T17:35:46.333012Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medical",
-        "tissue"
       ]
     }
   ],
