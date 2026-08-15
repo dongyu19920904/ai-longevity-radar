@@ -60,7 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest-24h.json data/latest-24h-all.json data/briefing-lite.json data/source-status.json data/topic-stats.json data/title-zh-cache.json data/archive.json
+          git add data/latest-24h.json data/latest-relevant.json data/latest-24h-all.json data/briefing-lite.json data/source-status.json data/topic-stats.json data/title-zh-cache.json data/archive.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -91,7 +91,7 @@ jobs:
           cp index.html methodology.html sources.html tokens.css _site/
           cp CNAME robots.txt sitemap.xml llms.txt _site/
           cp assets/app.js assets/core.js assets/logo.svg assets/styles.css _site/assets/
-          cp data/latest-24h.json data/latest-24h-all.json data/briefing-lite.json data/source-status.json data/topic-stats.json _site/data/
+          cp data/latest-24h.json data/latest-relevant.json data/latest-24h-all.json data/briefing-lite.json data/source-status.json data/topic-stats.json _site/data/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -123,6 +123,7 @@ jobs:
           curl "${retry[@]}" https://radar.aibioo.cn/ -o "$task_tmp/index.html"
           curl "${retry[@]}" --dump-header "$task_tmp/briefing.headers" https://radar.aibioo.cn/data/briefing-lite.json -o "$task_tmp/briefing.json"
           curl "${retry[@]}" https://radar.aibioo.cn/data/latest-24h.json -o "$task_tmp/latest.json"
+          curl "${retry[@]}" https://radar.aibioo.cn/data/latest-relevant.json -o "$task_tmp/relevant.json"
           curl "${retry[@]}" https://radar.aibioo.cn/data/latest-24h-all.json -o "$task_tmp/latest-all.json"
           daily_url="https://news.aibioo.cn/?radar_smoke=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           curl "${retry[@]}" --header 'Cache-Control: no-cache' "$daily_url" -o "$task_tmp/daily-home.html"
@@ -140,7 +141,7 @@ jobs:
           }
 
           check_contains "radar homepage brand" '爱窝啦 AI生命延续学雷达' "$task_tmp/index.html"
-          check_contains "radar homepage defaults to all sources" 'id="modeAllBtn" class="mode-btn active"' "$task_tmp/index.html"
+          check_contains "radar homepage defaults to relevant signals" 'id="modeRelevantBtn" class="mode-btn active"' "$task_tmp/index.html"
           if tr -d '\r' < "$task_tmp/briefing.headers" | grep -qi '^access-control-allow-origin: \*$'; then
             echo "PASS: briefing JSON CORS"
           else
@@ -151,18 +152,24 @@ jobs:
           check_contains "Daily homepage radar link" 'https://radar.aibioo.cn/' "$task_tmp/daily-home.html"
           check_contains "Daily homepage public JSON integration" 'https://radar.aibioo.cn/data/briefing-lite.json' "$task_tmp/daily-home.html"
 
-          python - "$task_tmp/latest.json" "$task_tmp/latest-all.json" "$task_tmp/briefing.json" <<'PY'
+          python - "$task_tmp/latest.json" "$task_tmp/relevant.json" "$task_tmp/latest-all.json" "$task_tmp/briefing.json" <<'PY'
           import json
           import sys
           from datetime import UTC, datetime
 
           latest = json.load(open(sys.argv[1], encoding="utf-8"))
-          latest_all = json.load(open(sys.argv[2], encoding="utf-8"))
-          briefing = json.load(open(sys.argv[3], encoding="utf-8"))
+          relevant = json.load(open(sys.argv[2], encoding="utf-8"))
+          latest_all = json.load(open(sys.argv[3], encoding="utf-8"))
+          briefing = json.load(open(sys.argv[4], encoding="utf-8"))
           assert latest["schema_version"] == "bio-radar-v1"
+          assert relevant["schema_version"] == "bio-radar-v1"
           assert latest_all["schema_version"] == "bio-radar-v1"
           assert briefing["schema_version"] == "bio-radar-v1"
           assert isinstance(latest.get("items"), list)
+          relevant_items = relevant.get("items_relevant") or relevant.get("items") or []
+          assert relevant_items, "expected at least one relevant rolling signal"
+          assert all(row.get("relevance_tier") in {"core", "related"} for row in relevant_items)
+          assert not any(row.get("relevance_tier") == "all" for row in relevant_items)
           all_items = latest_all.get("items_all") or []
           assert len(all_items) >= 50, f"expected full-source feed, got {len(all_items)} items"
           bridged_sources = {str(row.get("site_id") or "") for row in all_items if str(row.get("site_id") or "").startswith("ai_radar_")}
@@ -170,7 +177,7 @@ jobs:
           assert isinstance(briefing.get("items"), list)
           generated = datetime.fromisoformat(latest["generated_at"].replace("Z", "+00:00"))
           assert datetime.now(UTC) - generated < __import__("datetime").timedelta(hours=4)
-          print(f"PASS: JSON schema, freshness, {len(all_items)} full-source items, and {len(bridged_sources)} legacy source groups")
+          print(f"PASS: JSON schema, freshness, {len(relevant_items)} relevant signals, {len(all_items)} full-source items, and {len(bridged_sources)} legacy source groups")
           PY
 
           final_url="$(curl --fail --show-error --silent --location --output /dev/null --write-out '%{url_effective}' http://radar.aibioo.cn/)"

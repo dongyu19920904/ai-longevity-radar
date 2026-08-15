@@ -55,7 +55,9 @@
     const evidenceBonus = item?.source_type === "paper" ? 14 : item?.source_type === "trial" ? 10 : 0;
     const transparencyBonus = item?.study_subject && item?.publication_stage ? 4 : 0;
     const bilingual = item?.title_zh && item?.title_en ? 3 : 0;
-    return signal * 100 + Math.min(aiRelevance, longevityRelevance) * 25 + freshness + evidenceBonus + transparencyBonus + bilingual;
+    const relevanceTierBonus = item?.relevance_tier === "core" ? 30 : item?.relevance_tier === "related" ? 8 : 0;
+    return signal * 100 + Math.min(aiRelevance, longevityRelevance) * 25 + freshness
+      + evidenceBonus + transparencyBonus + bilingual + relevanceTierBonus;
   }
 
   function compareItems(a, b, nowMs) {

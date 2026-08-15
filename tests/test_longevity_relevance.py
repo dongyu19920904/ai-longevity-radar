@@ -19,6 +19,74 @@ def test_requires_both_ai_and_longevity_signals():
     assert not score_longevity_relevance(record("Cellular senescence and healthy aging"))["is_related"]
 
 
+def test_ai_acronyms_use_token_boundaries():
+    matched = score_longevity_relevance(record("AI aging clock predicts human biological age"))
+    false_positive = score_longevity_relevance(record("Researchers said healthy aging improved"))
+    assert matched["is_related"]
+    assert "ai" in matched["ai_signals"]
+    assert "ai" not in false_positive["ai_signals"]
+
+
+def test_upstream_ai_decision_is_valid_ai_evidence_but_not_longevity_evidence():
+    longevity = score_longevity_relevance(record(
+        "A new biological age clock for healthy aging",
+        site_id="ai_radar_official_ai",
+        source_type="news",
+        upstream_ai_is_related=True,
+        upstream_ai_score=0.91,
+    ))
+    generic = score_longevity_relevance(record(
+        "A new developer platform release",
+        site_id="ai_radar_official_ai",
+        source_type="news",
+        upstream_ai_is_related=True,
+        upstream_ai_score=0.91,
+    ))
+    assert longevity["is_related"]
+    assert longevity["relevance_path"] == "upstream_ai_plus_longevity"
+    assert longevity["relevance_reason"] == "matched_ai_and_longevity_signals"
+    assert not generic["is_related"]
+    assert generic["relevance_tier"] == "all"
+
+
+def test_relevance_tiers_keep_useful_background_without_generic_ai_fill():
+    background = score_longevity_relevance(record("Cellular senescence and healthy aging"))
+    ai_bio_tool = score_longevity_relevance(record(
+        "LLM platform for protein design, single-cell genomics and biomarker discovery",
+        source_type="project",
+    ))
+    generic_ai = score_longevity_relevance(record("LLM platform for software developers", source_type="news"))
+    assert background["relevance_tier"] == "related"
+    assert background["relevance_path"] == "longevity_background"
+    assert ai_bio_tool["relevance_tier"] == "related"
+    assert ai_bio_tool["relevance_path"] == "ai_biomedical_tool"
+    assert generic_ai["relevance_tier"] == "all"
+
+
+def test_source_brand_is_not_counted_as_longevity_content_evidence():
+    result = score_longevity_relevance(record(
+        "A general healthcare data partnership",
+        site_id="official_rss",
+        source_type="news",
+        source="Longevity.Technology",
+        description="Clinical workflow tools. The post A partnership appeared first on Longevity.Technology.",
+    ))
+    assert result["relevance_tier"] == "all"
+    assert not result["longevity_signals"]
+
+
+def test_population_aging_and_metabolic_reprogramming_do_not_masquerade_as_longevity():
+    demographic = score_longevity_relevance(record(
+        "Machine learning studies tourism participation during global aging",
+    ))
+    metabolic = score_longevity_relevance(record(
+        "Machine learning maps metabolic reprogramming in lung cancer",
+    ))
+    assert demographic["relevance_tier"] == "all"
+    assert demographic["relevance_reason"] == "demographic_aging_context"
+    assert metabolic["relevance_tier"] == "all"
+
+
 def test_labels_subject_stage_and_risk_without_claiming_efficacy():
     result = score_longevity_relevance(record(
         "Machine learning aging clock in mice: a preprint study",
@@ -38,6 +106,9 @@ def test_adds_public_explainability_fields():
     assert out["signal_score"] > 0
     assert "neurodegeneration" in out["topics"]
     assert out["relevance_reason"] == "matched_ai_and_longevity_signals"
+    assert out["relevance_tier"] == "core"
+    assert out["domain_score"] >= out["longevity_score"]
+    assert out["selection_reason"]
 
 
 def test_generic_beauty_content_is_not_promoted():

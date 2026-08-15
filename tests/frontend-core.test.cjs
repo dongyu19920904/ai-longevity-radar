@@ -50,6 +50,13 @@ test("briefing ignores unsafe and duplicate URLs", () => {
   assert.equal(selected.length, 1);
 });
 
+test("briefing prefers core relevance over related fallback", () => {
+  const related = item({ url: "https://example.com/related", relevance_tier: "related", signal_score: 0.99 });
+  const coreItem = item({ url: "https://example.com/core", relevance_tier: "core", signal_score: 0.8 });
+  const selected = core.selectBriefingItems([related, coreItem], 1, now);
+  assert.equal(selected[0].relevance_tier, "core");
+});
+
 test("surprise avoids the previous story when possible", () => {
   const first = item({ url: "https://example.com/first" });
   const second = item({ url: "https://example.com/second" });

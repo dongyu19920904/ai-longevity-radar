@@ -11,11 +11,11 @@
   <main class="prose-page section">
     <p class="eyebrow">PUBLIC SOURCES</p><h1>默认公开信息源</h1>
     <p class="lead">信源按“一手数据库和官方 feed 优先、稳定公开接口优先、单源失败隔离”组织。</p>
-    <h2>论文与研究元数据</h2><ul><li>Europe PMC：论文标题、摘要、期刊、PMID / DOI 和发表日期。</li></ul>
+    <h2>论文与研究元数据</h2><ul><li>Europe PMC：论文标题、摘要、期刊、PMID / DOI 和发表日期。</li><li>Papers.cool：q-bio、机器学习、计算机视觉和医学物理 RSS；先通过 AI + 生物主题预筛，再进入统一评分。</li></ul>
     <h2>临床试验注册信息</h2><ul><li>ClinicalTrials.gov API v2：NCT 编号、研究摘要、条件和更新时间。注册信息不等于试验成功或治疗有效。</li></ul>
-    <h2>机构与行业 RSS</h2><ul><li>Nature Aging</li><li>Fight Aging!</li><li>Lifespan.io</li><li>Buck Institute</li><li>Longevity.Technology</li><li>ScienceDaily Healthy Aging</li><li>MedicalXpress Healthy Aging</li></ul>
+    <h2>机构与行业 RSS</h2><ul><li>Nature Aging</li><li>Fight Aging!</li><li>Lifespan.io</li><li>Buck Institute</li><li>Longevity.Technology</li><li>ScienceDaily Healthy Aging / Dementia</li><li>MedicalXpress Healthy Aging</li><li>News-Medical Aging / Alzheimer</li><li>定向 Google News RSS：年龄时钟、脑龄、衰老细胞、重编程、多组学、虚弱和数字生物标志物。</li></ul>
     <h2>开源项目</h2><p>GitHub Search 提供年龄时钟、生物年龄、长寿 AI 和 Alzheimer 生物标志物等公开项目。项目条目代表软件信号，不代表经过临床验证。</p>
-    <h2>旧版 AI雷达全部公开信息源</h2><p><a href="https://radar.aivora.cn/">爱窝啦 AI雷达</a>的 24 小时 AI 精选 JSON 会完整接入，并保留每条内容原来的站点和来源身份。当前内置分组包括 Official AI Updates、AI Breakfast、Follow Builders、TechURLs、Buzzing、Info Flow、BestBlogs、TopHub、Zeli、AI HubToday、AIbase、AI HOT、NewsNow，以及上游快照中存在的公开 OPML RSS。某个分组在单个 24 小时窗口内可能为零条。</p><p>首页默认展示这些上游信息源与本项目专属来源的去重合集；“AI + 生命延续强相关”视图会再做一次生命延续相关性筛选。上游失败不会阻断论文、试验、RSS 和 GitHub 采集器。</p>
+    <h2>旧版 AI雷达全部公开信息源</h2><p><a href="https://radar.aivora.cn/">爱窝啦 AI雷达</a>的 24 小时 AI 精选 JSON 会完整接入，并保留每条内容原来的站点和来源身份。当前内置分组包括 Official AI Updates、AI Breakfast、Follow Builders、TechURLs、Buzzing、Info Flow、BestBlogs、TopHub、Zeli、AI HubToday、AIbase、AI HOT、NewsNow，以及上游快照中存在的公开 OPML RSS。某个分组在单个 24 小时窗口内可能为零条。</p><p>这些上游候选完整保留在“全部来源”层；只有同时具备本地生命延续证据的条目才会进入核心或相关精选。上游失败不会阻断论文、试验、RSS、Papers.cool 和 GitHub 采集器。</p>
     <h2>实时状态</h2><p>机器可读健康状态：<a href="./data/source-status.json">source-status.json</a>。失败来源会被记录，不会拖垮整轮更新。</p>
   </main>
 </body></html>

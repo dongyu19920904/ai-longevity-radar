@@ -1503,6 +1503,19 @@ button:disabled:active,
   color: var(--color-cyan-deep);
 }
 
+.evidence-chip.core {
+  border-color: var(--color-ink);
+  background: var(--color-pear);
+  color: var(--color-ink);
+}
+
+.evidence-chip.related,
+.evidence-chip.reason {
+  border-color: var(--color-lavender);
+  background: var(--color-lavender-soft);
+  color: var(--color-ink-soft);
+}
+
 .evidence-chip.risk {
   border-color: var(--color-coral);
   background: var(--color-coral-soft);

@@ -7,12 +7,13 @@
 | Europe PMC | Paper metadata | DOI, then PMID | Isolated |
 | ClinicalTrials.gov API v2 | Trial registry metadata | NCT identifier | Isolated |
 | Public RSS feeds | Institutions and longevity industry | Normalized URL | Per-feed isolated |
+| Papers.cool RSS | AI/bio preprint discovery | Normalized URL | Per-feed isolated |
 | GitHub Search API | Open research software | `owner/repo` | Isolated |
 | Aivora AI Radar JSON | Full general-AI source bridge | Normalized URL | Optional and isolated |
 
 The AI Radar bridge consumes its curated `latest-24h.json` feed and preserves each upstream `site_id`, `site_name`, source label, AI relevance decision, and AI score. The public upstream groups are Official AI Updates, AI Breakfast, Follow Builders, TechURLs, Buzzing, Info Flow, BestBlogs, TopHub, Zeli, AI HubToday, AIbase, AI HOT, NewsNow, plus any public OPML RSS rows present in the upstream snapshot. A group may legitimately contribute zero rows during a particular 24-hour window.
 
-The website opens the deduplicated full-source layer by default: the complete upstream AI feed plus the longevity-specific collectors above. The bridge prefers the custom-domain JSON and automatically retries the same public snapshot through GitHub Raw and the GitHub Contents API; the selected endpoint and earlier endpoint errors are recorded in source status. The `AI + longevity` view, `latest-24h.json`, and `briefing-lite.json` remain the stricter intersection. Every bridged item is scored again for longevity relevance; an upstream AI score is traceability metadata, not longevity evidence.
+The website opens the rolling relevant layer by default: 7-day core intersections first, then up to 21 days of longevity background research and high-value AI biomedical tools. Generic AI rows never fill this layer. The full-source layer remains available for advanced source auditing. The bridge prefers the custom-domain JSON and automatically retries the same public snapshot through GitHub Raw and the GitHub Contents API; the selected endpoint and earlier endpoint errors are recorded in source status. `latest-24h.json` remains the strict 24-hour intersection, while `latest-relevant.json` and `briefing-lite.json` expose the useful rolling layer. Upstream AI decisions may establish only the AI side of the intersection; every bridged item must still pass local longevity scoring.
 
 ## Source admission criteria
 

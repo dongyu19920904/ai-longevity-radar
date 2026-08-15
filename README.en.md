@@ -4,6 +4,8 @@ An independent public-signal radar for the intersection of AI, aging, longevity,
 
 The repository owns its ingestion, deterministic dual-relevance scoring, entity deduplication, archive, tests, hourly GitHub Actions workflow, and GitHub Pages deployment. AI Longevity Daily integrates progressively through a normal link and the public `bio-radar-v1` JSON files under `data/`.
 
+The homepage defaults to a rolling relevant layer: seven-day AI × longevity core intersections first, followed by up to 21 days of longevity background research and directly useful AI biomedical tools. It never fills this layer with generic AI news. The strict 24-hour intersection and the full-source audit layer remain separately available.
+
 - Live site: <https://radar.aibioo.cn/>
 - Methodology: <https://radar.aibioo.cn/methodology.html>
 - AI Longevity Daily: <https://news.aibioo.cn/>

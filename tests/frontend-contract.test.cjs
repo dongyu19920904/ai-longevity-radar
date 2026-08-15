@@ -77,7 +77,7 @@ test("page workflow publishes only the runtime artifact", () => {
   assert.match(workflow, /actions\/configure-pages@v5/);
   assert.match(workflow, /actions\/upload-pages-artifact@v4/);
   assert.match(workflow, /actions\/deploy-pages@v4/);
-  assert.match(workflow, /cp data\/latest-24h\.json data\/latest-24h-all\.json data\/briefing-lite\.json data\/source-status\.json data\/topic-stats\.json _site\/data\//);
+  assert.match(workflow, /cp data\/latest-24h\.json data\/latest-relevant\.json data\/latest-24h-all\.json data\/briefing-lite\.json data\/source-status\.json data\/topic-stats\.json _site\/data\//);
   assert.match(workflow, /cp CNAME robots\.txt sitemap\.xml llms\.txt _site\//);
   assert.doesNotMatch(workflow, /cp\s+-r\s+data/);
 });
@@ -85,6 +85,7 @@ test("page workflow publishes only the runtime artifact", () => {
 test("post-deploy smoke test verifies HTTPS, public JSON, CORS, and Daily integration", () => {
   assert.match(workflow, /smoke:[\s\S]*needs: deploy/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h\.json/);
+  assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-relevant\.json/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/latest-24h-all\.json/);
   assert.match(workflow, /https:\/\/radar\.aibioo\.cn\/data\/briefing-lite\.json/);
   assert.match(workflow, /access-control-allow-origin/);
@@ -94,10 +95,13 @@ test("post-deploy smoke test verifies HTTPS, public JSON, CORS, and Daily integr
   assert.match(workflow, /test \"\$final_url\" = \"https:\/\/radar\.aibioo\.cn\/\"/);
 });
 
-test("full-source mode is visible and selected by default", () => {
-  assert.match(app, /mode:\s*"all"/);
+test("relevant mode is visible and selected by default while all sources stay lazy", () => {
+  assert.match(app, /mode:\s*"relevant"/);
   assert.match(app, /state\.mode === "all" && !state\.allDataLoaded/);
-  assert.match(html, /id="modeAllBtn" class="mode-btn active"[^>]*aria-pressed="true"/);
+  assert.match(html, /id="modeRelevantBtn" class="mode-btn active"[^>]*aria-pressed="true"/);
+  assert.match(html, />相关精选<\/button>/);
+  assert.match(html, /id="modeCoreBtn" class="mode-btn"[^>]*aria-pressed="false"/);
+  assert.match(html, />核心交集<\/button>/);
+  assert.match(html, /id="modeAllBtn" class="mode-btn"[^>]*aria-pressed="false"/);
   assert.match(html, />全部信息源<\/button>/);
-  assert.match(html, /id="modeAiBtn" class="mode-btn"[^>]*aria-pressed="false"/);
 });

@@ -10,11 +10,14 @@
   const PALETTE_LIMIT = 12;
 
   const state = {
-    itemsAi: [],
+    itemsCore: [],
+    itemsRelevant: [],
     itemsAll: [],
     itemsAllRaw: [],
-    statsAi: [],
-    totalAi: 0,
+    statsCore: [],
+    statsRelevant: [],
+    totalCore: 0,
+    totalRelevant: 0,
     totalRaw: 0,
     totalAllMode: 0,
     allDedup: true,
@@ -23,7 +26,7 @@
     allDataPromise: null,
     siteFilter: "",
     query: "",
-    mode: "all",
+    mode: "relevant",
     sourceStatus: null,
     generatedAt: null,
     briefingItems: [],
@@ -52,7 +55,8 @@
     itemTpl: byId("itemTpl"),
     listTitle: byId("listTitle"),
     loadMoreButton: byId("loadMoreButton"),
-    modeAiBtn: byId("modeAiBtn"),
+    modeCoreBtn: byId("modeCoreBtn"),
+    modeRelevantBtn: byId("modeRelevantBtn"),
     modeAllBtn: byId("modeAllBtn"),
     modeHint: byId("modeHint"),
     navStatus: byId("navStatus"),
@@ -92,6 +96,7 @@
     europepmc: { label: "论文", tone: "official" },
     clinicaltrials: { label: "临床试验", tone: "newsletter" },
     official_rss: { label: "机构 / 行业", tone: "blogs" },
+    papers_cool: { label: "论文精选", tone: "official" },
     github_projects: { label: "开源项目", tone: "builders" },
     ai_radar_bridge: { label: "AI 行业", tone: "aihub" },
   };
@@ -158,6 +163,8 @@
       item?.publication_stage,
       item?.risk_flags,
       item?.relevance_reason,
+      item?.relevance_path,
+      item?.selection_reason,
     ].filter(Boolean).join(" ").toLocaleLowerCase("zh-CN");
   }
 
@@ -361,9 +368,9 @@
   function setStats(payload) {
     const cards = [
       ["全部信息源", fmtNumber(state.totalAllMode)],
-      ["双重强相关", fmtNumber(state.totalAi)],
+      ["相关精选", fmtNumber(state.totalRelevant)],
+      ["核心交集", fmtNumber(state.totalCore)],
       ["站点", fmtNumber(currentSiteStats().length)],
-      ["历史归档", fmtNumber(payload.archive_total)],
     ];
     els.stats.replaceChildren();
     cards.forEach(([label, value]) => {
@@ -403,22 +410,25 @@
     els.coverageStrip.replaceChildren();
     const rows = siteRows();
     const failed = Array.isArray(state.sourceStatus?.failed_sites) ? state.sourceStatus.failed_sites : [];
+    const partial = Array.isArray(state.sourceStatus?.partial_sites) ? state.sourceStatus.partial_sites : [];
     const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || 0);
     const rawCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount);
     const okSites = Number(state.sourceStatus?.successful_sites || rows.filter((row) => row.ok).length);
-    const papers = state.itemsAi.filter((item) => item.source_type === "paper").length;
-    const projectsAndTrials = state.itemsAi.filter((item) => ["project", "trial"].includes(item.source_type)).length;
-    const bridgedSourceCount = new Set(state.itemsAll
+    const papers = state.itemsRelevant.filter((item) => item.source_type === "paper").length;
+    const projectsAndTrials = state.itemsRelevant.filter((item) => ["project", "trial"].includes(item.source_type)).length;
+    const bridgeStatus = rows.find((row) => row.site_id === "ai_radar_bridge");
+    const bridgedSourceCount = Number(bridgeStatus?.source_count || 0) || new Set(state.itemsAll
       .map((row) => String(row.site_id || ""))
       .filter((siteId) => siteId.startsWith("ai_radar_"))).size;
 
     const cards = [
-      ["源健康", rows.length ? `${fmtNumber(okSites)}/${fmtNumber(rows.length)}` : "加载中", failed.length ? `${failed.length} 个失败源` : (errorMessage || "公开源状态"), failed.length ? "warn" : "ok"],
+      ["源健康", rows.length ? `${fmtNumber(okSites)}/${fmtNumber(rows.length)}` : "加载中", failed.length ? `${failed.length} 个失败源` : partial.length ? `${partial.length} 个部分失败源` : (errorMessage || "公开源状态"), failed.length || partial.length ? "warn" : "ok"],
       ["抓取候选", `${fmtNumber(rawCount)} 条`, "多源公开覆盖池", "signal"],
-      ["双重相关", `${fmtNumber(state.totalAi)} 条`, "AI 与生命延续同时达标", "signal"],
+      ["核心交集", `${fmtNumber(state.totalCore)} 条`, "近 7 天 AI 与生命延续同时达标", "signal"],
+      ["相关精选", `${fmtNumber(state.totalRelevant)} 条`, "核心优先，不用通用 AI 补数量", "signal"],
       ["旧雷达来源", `${fmtNumber(bridgedSourceCount)} 类`, "保留每个原始信息源身份", "official"],
       ["论文 / 试验 / 项目", `${fmtNumber(papers + projectsAndTrials)} 条`, "生命延续专属采集器", "private"],
-      ["全部信息源", `${fmtNumber(allCount)} 条`, "默认去重展示", "aggregate"],
+      ["全部信息源", `${fmtNumber(allCount)} 条`, "高级来源审计层", "aggregate"],
     ];
     cards.forEach((card) => els.coverageStrip.appendChild(renderCoverageCard(...card)));
   }
@@ -436,12 +446,15 @@
   }
 
   function currentItems() {
-    if (state.mode === "ai") return state.itemsAi;
+    if (state.mode === "core") return state.itemsCore;
+    if (state.mode === "relevant") return state.itemsRelevant;
     return state.allDedup ? state.itemsAll : state.itemsAllRaw;
   }
 
   function currentSiteStats() {
-    return state.mode === "ai" ? state.statsAi : computeSiteStats(currentItems());
+    if (state.mode === "core") return state.statsCore;
+    if (state.mode === "relevant") return state.statsRelevant;
+    return computeSiteStats(currentItems());
   }
 
   function getFilteredItems(queryOverride = null) {
@@ -462,20 +475,31 @@
   }
 
   function renderModeSwitch() {
-    setPressed(els.modeAiBtn, state.mode === "ai");
+    setPressed(els.modeCoreBtn, state.mode === "core");
+    setPressed(els.modeRelevantBtn, state.mode === "relevant");
     setPressed(els.modeAllBtn, state.mode === "all");
     els.allDedupeWrap.classList.toggle("show", state.mode === "all");
     els.allDedupeToggle.checked = state.allDedup;
     els.allDedupeLabel.textContent = state.allDedup ? "去重开" : "去重关";
-    const count = state.mode === "ai" ? state.totalAi : (state.allDedup ? state.totalAllMode : state.totalRaw);
-    els.listTitle.textContent = state.mode === "ai" ? "AI 生命延续强相关" : "全部信息源信号流";
-    els.modeHint.textContent = state.mode === "ai"
-      ? `AI + 生命延续双重相关 · ${fmtNumber(count)} 条`
-      : `旧版 AI雷达全源 + 生命延续专属源 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(count)} 条`;
+    const count = state.mode === "core"
+      ? state.totalCore
+      : state.mode === "relevant"
+        ? state.totalRelevant
+        : (state.allDedup ? state.totalAllMode : state.totalRaw);
+    els.listTitle.textContent = state.mode === "core"
+      ? "AI × 生命延续核心交集"
+      : state.mode === "relevant" ? "生命延续相关精选" : "全部信息源信号流";
+    els.modeHint.textContent = state.mode === "core"
+      ? `近 7 天双重相关 · ${fmtNumber(count)} 条`
+      : state.mode === "relevant"
+        ? `核心优先 + 相关研究 · 不用通用 AI 补量 · ${fmtNumber(count)} 条`
+        : `旧版 AI雷达全源 + 生命延续专属源 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(count)} 条`;
     els.heroSignalCount.textContent = fmtNumber(count);
-    els.navStatus.textContent = state.mode === "ai"
-      ? `${fmtNumber(count)} 条强相关信号在线`
-      : `${fmtNumber(count)} 条信息源信号在线`;
+    els.navStatus.textContent = state.mode === "core"
+      ? `${fmtNumber(count)} 条核心信号在线`
+      : state.mode === "relevant"
+        ? `${fmtNumber(count)} 条相关精选在线`
+        : `${fmtNumber(count)} 条信息源信号在线`;
     renderAdvancedSummary();
   }
 
@@ -561,11 +585,14 @@
     safeLink(title, item.url);
 
     const evidence = node.querySelector(".evidence-row");
+    const tierLabel = item.relevance_tier === "core" ? "核心交集" : item.relevance_tier === "related" ? "相关精选" : "全部来源";
+    evidence.appendChild(evidenceChip(tierLabel, item.relevance_tier === "core" ? "core" : "related"));
     const topic = TOPIC_LABELS[item.primary_topic] || item.primary_topic;
     if (topic) evidence.appendChild(evidenceChip(topic, "topic"));
     evidence.appendChild(evidenceChip(SUBJECT_LABELS[item.study_subject] || item.study_subject || "对象未知"));
     evidence.appendChild(evidenceChip(STAGE_LABELS[item.publication_stage] || item.publication_stage || "阶段未知"));
     if (Number.isFinite(Number(item.signal_score))) evidence.appendChild(evidenceChip(`信号 ${Math.round(Number(item.signal_score) * 100)}`, "score"));
+    if (item.selection_reason) evidence.appendChild(evidenceChip(item.selection_reason, "reason"));
     (Array.isArray(item.risk_flags) ? item.risk_flags : []).slice(0, 2)
       .forEach((flag) => evidence.appendChild(evidenceChip(flag.replaceAll("_", " "), "risk")));
 
@@ -648,7 +675,7 @@
 
   function renderBriefing() {
     const now = Date.parse(state.generatedAt || "") || Date.now();
-    state.briefingItems = core.selectBriefingItems(state.itemsAi, 3, now);
+    state.briefingItems = core.selectBriefingItems(state.itemsRelevant, 3, now);
     els.briefingList.replaceChildren();
     if (!state.briefingItems.length) {
       els.briefingList.appendChild(emptyNode("今天还没有可用的简报信号。", "briefing-empty"));
@@ -683,7 +710,7 @@
       fragment.appendChild(article);
     });
     els.briefingList.appendChild(fragment);
-    els.briefingStatus.textContent = "按双重相关、证据来源和多样性选取";
+    els.briefingStatus.textContent = "核心交集优先，相关研究补充，不用通用 AI 填充";
     renderListSaveStates();
   }
 
@@ -778,6 +805,7 @@
     }
     const sites = Array.isArray(status.sites) ? status.sites : [];
     const failedSites = Array.isArray(status.failed_sites) ? status.failed_sites : [];
+    const partialSites = Array.isArray(status.partial_sites) ? status.partial_sites : [];
     const zeroSites = Array.isArray(status.zero_item_sites) ? status.zero_item_sites : [];
     const grid = document.createElement("div");
     grid.className = "health-grid";
@@ -788,10 +816,11 @@
       renderMetric("生成时间", fmtTime(status.generated_at))
     );
     els.sourceHealth.appendChild(grid);
-    if (failedSites.length || zeroSites.length) {
+    if (failedSites.length || partialSites.length || zeroSites.length) {
       const issues = document.createElement("div");
       issues.className = "health-issues";
       if (failedSites.length) issues.appendChild(issueList("失败站点", failedSites));
+      if (partialSites.length) issues.appendChild(issueList("部分失败站点", partialSites));
       if (zeroSites.length) issues.appendChild(issueList("零结果站点", zeroSites));
       els.sourceHealth.appendChild(issues);
     } else {
@@ -807,7 +836,7 @@
   }
 
   function loadNewsData() {
-    return fetchJson("./data/latest-24h.json", "新闻数据");
+    return fetchJson("./data/latest-relevant.json", "相关精选数据");
   }
 
   async function loadAllModeData() {
@@ -815,8 +844,8 @@
     if (!state.allDataPromise) {
       state.allDataPromise = fetchJson(`./${state.allDataUrl}`, "全量数据")
         .then((payload) => {
-          state.itemsAllRaw = payload.items_all_raw || payload.items_all || state.itemsAi;
-          state.itemsAll = payload.items_all || state.itemsAi;
+          state.itemsAllRaw = payload.items_all_raw || payload.items_all || state.itemsRelevant;
+          state.itemsAll = payload.items_all || state.itemsRelevant;
           state.totalRaw = payload.total_items_raw || state.itemsAllRaw.length;
           state.totalAllMode = payload.total_items_all_mode || state.itemsAll.length;
           state.allDataLoaded = true;
@@ -855,11 +884,14 @@
 
     if (newsResult.status === "fulfilled") {
       const payload = newsResult.value;
-      state.itemsAi = payload.items_ai || payload.items || [];
+      state.itemsRelevant = payload.items_relevant || payload.items || [];
+      state.itemsCore = payload.items_core || state.itemsRelevant.filter((item) => item.relevance_tier === "core");
       state.itemsAllRaw = payload.items_all_raw || payload.items_all || [];
       state.itemsAll = payload.items_all || [];
-      state.statsAi = Array.isArray(payload.site_stats) ? payload.site_stats : computeSiteStats(state.itemsAi);
-      state.totalAi = payload.total_items || state.itemsAi.length;
+      state.statsRelevant = Array.isArray(payload.site_stats) ? payload.site_stats : computeSiteStats(state.itemsRelevant);
+      state.statsCore = computeSiteStats(state.itemsCore);
+      state.totalRelevant = payload.total_items || state.itemsRelevant.length;
+      state.totalCore = payload.total_core_items || state.itemsCore.length;
       state.totalRaw = payload.total_items_raw || state.itemsAllRaw.length;
       state.totalAllMode = payload.total_items_all_mode || state.itemsAll.length;
       state.allDataUrl = payload.all_mode_data_url || state.allDataUrl;
@@ -870,7 +902,7 @@
         try {
           await loadAllModeData();
         } catch {
-          state.mode = "ai";
+          state.mode = "relevant";
         }
       }
 
@@ -881,7 +913,9 @@
       renderBriefing();
       renderCoverageStrip();
       els.updatedAt.textContent = fmtTime(state.generatedAt);
-      const currentTotal = state.mode === "all" ? state.totalAllMode : state.totalAi;
+      const currentTotal = state.mode === "all"
+        ? state.totalAllMode
+        : state.mode === "core" ? state.totalCore : state.totalRelevant;
       els.heroSignalCount.textContent = fmtNumber(currentTotal);
       els.navStatus.textContent = `${fmtNumber(currentTotal)} 条信号在线`;
       els.briefingStatus.textContent = state.briefingItems.length ? els.briefingStatus.textContent : "暂无条目";
@@ -916,8 +950,16 @@
 
   els.siteSelect.addEventListener("change", (event) => chooseSite(event.target.value));
 
-  els.modeAiBtn.addEventListener("click", () => {
-    state.mode = "ai";
+  els.modeCoreBtn.addEventListener("click", () => {
+    state.mode = "core";
+    state.visibleLimit = INITIAL_LIMIT;
+    renderModeSwitch();
+    renderSiteFilters();
+    renderList();
+  });
+
+  els.modeRelevantBtn.addEventListener("click", () => {
+    state.mode = "relevant";
     state.visibleLimit = INITIAL_LIMIT;
     renderModeSwitch();
     renderSiteFilters();

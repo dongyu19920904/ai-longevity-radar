@@ -4,17 +4,17 @@
   <title>方法与医学边界｜爱窝啦 AI生命延续学雷达</title>
   <meta name="description" content="AI生命延续学雷达的数据源、双重相关性评分、实体去重、证据标签和医学信息边界。">
   <link rel="canonical" href="https://radar.aibioo.cn/methodology.html"><link rel="stylesheet" href="./assets/styles.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI生命延续学雷达的方法与医学边界","url":"https://radar.aibioo.cn/methodology.html","publisher":{"@type":"Organization","name":"爱窝啦","url":"https://www.aivora.cn/"},"dateModified":"2026-08-14"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI生命延续学雷达的方法与医学边界","url":"https://radar.aibioo.cn/methodology.html","publisher":{"@type":"Organization","name":"爱窝啦","url":"https://www.aivora.cn/"},"dateModified":"2026-08-15"}</script>
 </head><body>
   <header class="site-nav"><div class="site-nav__inner"><a class="wordmark" href="./">← 返回雷达</a></div></header>
   <main class="prose-page section">
     <p class="eyebrow">METHODOLOGY</p><h1>方法与医学边界</h1>
     <p class="lead">这是一个研究信号索引，不是医学知识裁决器。它帮助读者找到原始资料，并清楚看见数据能够说明什么、不能说明什么。</p>
     <h2>收集什么</h2><p>默认来源包括 Europe PMC、ClinicalTrials.gov、研究机构和行业 RSS、公开 GitHub 项目，以及爱窝啦通用 AI 雷达的公开 JSON。优先使用公开、稳定、带时间戳的来源；不把登录态、私人邮箱或付费社交数据作为公开默认依赖。</p>
-    <h2>两层信息视图</h2><p>首页默认打开“全部信息源”，展示旧版 AI雷达完整公开来源与生命延续专属采集器的去重合集，方便连续浏览，不再因严格交集过小而只显示一两条。切换到“AI + 生命延续强相关”后，条目必须同时命中明确 AI 信号和明确生命延续信号。AI 信号包括机器学习、深度学习、计算机视觉和预测模型；生命延续信号包括衰老、长寿、生物年龄、年龄时钟、年轻化和神经退行性疾病。普通健康、美容或减肥资讯不会仅因出现“AI”而进入严格层。</p>
+    <h2>三层信息视图</h2><p>首页默认打开“相关精选”：优先展示近 7 天同时具有 AI 与生命延续证据的核心交集，再从近 21 天生命延续背景研究和高价值 AI 生物研究工具中补充，最多 60 条；内容不足时不会用通用 AI 填数量。“核心交集”要求同时命中明确 AI 证据和明确生命延续证据；可信的通用 AI 雷达判定只能证明 AI 侧，不能代替生命延续证据。“全部来源”保留所有候选，供高级来源审计。普通健康、美容、减肥和材料老化资讯不会进入相关精选。</p>
     <h2>证据标签</h2><p><code>source_type</code> 描述论文、试验注册、新闻或项目；<code>study_subject</code> 尽力区分人体、动物、细胞 / 类器官、计算数据集与未知；<code>publication_stage</code> 标记预印本、注册试验、软件项目或状态未知。标签只来自可识别的元数据，未知就保持未知。</p>
     <h2>实体去重</h2><p>依次使用 DOI、PMID、NCT 编号、GitHub owner/repo 和规范化 URL 作为实体键。同一论文的新闻转载不会被当作多项独立证据。</p>
     <h2>风险边界</h2><ul><li>预印本不等同于同行评审结果。</li><li>试验注册不等于已完成，更不等于证明疗效。</li><li>动物、细胞和类器官结果不能直接外推到人体。</li><li>媒体报道不是关键医学结论的一手证据。</li><li>相关性评分不是疗效、安全性或临床推荐评分。</li><li>网站不提供诊断、治疗、用药或个体健康建议。</li></ul>
-    <h2>数据开放</h2><p>严格层机器可读快照位于 <a href="./data/latest-24h.json">latest-24h.json</a>，全部信息源位于 <a href="./data/latest-24h-all.json">latest-24h-all.json</a>，轻量跨站接入使用 <a href="./data/briefing-lite.json">briefing-lite.json</a>。所有条目保留原始来源链接；旧雷达条目还公开上游来源身份和 AI 评分，便于追溯。</p>
+    <h2>数据开放</h2><p>24 小时严格层位于 <a href="./data/latest-24h.json">latest-24h.json</a>，默认相关精选位于 <a href="./data/latest-relevant.json">latest-relevant.json</a>，全部信息源位于 <a href="./data/latest-24h-all.json">latest-24h-all.json</a>，轻量跨站接入使用 <a href="./data/briefing-lite.json">briefing-lite.json</a>。所有条目保留原始来源链接；旧雷达条目还公开上游来源身份和 AI 评分，便于追溯。</p>
   </main>
 </body></html>

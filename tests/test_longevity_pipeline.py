@@ -1,8 +1,20 @@
 import base64
 import json
 from datetime import UTC, datetime
+from pathlib import Path
 
-from scripts.update_longevity_radar import RawItem, build_briefing, canonical_key, dedupe_records, fetch_ai_radar_bridge, normalize_url, public_item, raw_to_record
+from scripts.update_longevity_radar import (
+    RawItem,
+    build_briefing,
+    canonical_key,
+    dedupe_records,
+    fetch_ai_radar_bridge,
+    normalize_url,
+    public_item,
+    raw_to_record,
+    select_relevant_records,
+    generate,
+)
 
 
 def test_url_and_entity_keys_are_stable():
@@ -35,13 +47,69 @@ def test_dedupe_prefers_stronger_entity_record():
 
 def test_briefing_is_small_and_source_diverse():
     rows = [
-        {"id": str(i), "title": f"item {i}", "url": f"https://x/{i}", "site_id": f"site-{i % 3}", "source": f"source-{i % 3}", "source_type": "paper", "published_at": "2026-08-13T00:00:00Z", "signal_score": 1 - i / 100, "primary_topic": "aging_clock", "study_subject": "human", "publication_stage": "unknown", "risk_flags": []}
+        {"id": str(i), "title": f"item {i}", "url": f"https://x/{i}", "site_id": f"site-{i % 3}", "source": f"source-{i % 3}", "source_type": "paper", "published_at": "2026-08-13T00:00:00Z", "signal_score": 1 - i / 100, "primary_topic": "aging_clock", "study_subject": "human", "publication_stage": "unknown", "risk_flags": [], "relevance_tier": "core", "selection_reason": "AI 与生命延续双重相关"}
         for i in range(12)
     ]
     payload = build_briefing(rows, "2026-08-13T00:00:00Z", 24)
     assert payload["schema_version"] == "bio-radar-v1"
     assert payload["item_count"] == 3
     assert payload["source_count"] == 3
+    assert all(row["relevance_tier"] == "core" for row in payload["items"])
+
+
+def test_relevant_selection_uses_rolling_windows_and_never_fills_from_all_tier():
+    now = datetime(2026, 8, 15, tzinfo=UTC)
+    rows = [
+        {
+            "id": "core-new", "canonical_key": "url:https://x/core-new", "title": "core", "url": "https://x/core-new",
+            "site_id": "europepmc", "source": "journal-a", "source_type": "paper",
+            "published_at": "2026-08-12T00:00:00Z", "signal_score": 0.9, "domain_score": 0.9,
+            "primary_topic": "aging_clock", "relevance_tier": "core",
+        },
+        {
+            "id": "related-old", "canonical_key": "url:https://x/related-old", "title": "related", "url": "https://x/related-old",
+            "site_id": "official_rss", "source": "journal-b", "source_type": "news",
+            "published_at": "2026-08-01T00:00:00Z", "signal_score": 0.7, "domain_score": 0.8,
+            "primary_topic": "aging_mechanism", "relevance_tier": "related",
+        },
+        {
+            "id": "generic", "canonical_key": "url:https://x/generic", "title": "generic AI", "url": "https://x/generic",
+            "site_id": "ai_radar_bridge", "source": "generic", "source_type": "news",
+            "published_at": "2026-08-15T00:00:00Z", "signal_score": 1.0, "domain_score": 0.0,
+            "primary_topic": "ai_longevity", "relevance_tier": "all",
+        },
+    ]
+    selected = select_relevant_records(rows, now=now, core_window_hours=168, related_window_hours=504, limit=60)
+    assert [row["id"] for row in selected] == ["core-new", "related-old"]
+    assert selected[0]["freshness_score"] > selected[1]["freshness_score"]
+
+
+def test_generate_rescores_legacy_archive_rows(monkeypatch, tmp_path: Path):
+    now = datetime(2026, 8, 15, tzinfo=UTC)
+    legacy = {
+        "id": "legacy", "canonical_key": "url:https://x/legacy", "title": "Cellular senescence and healthy aging",
+        "url": "https://x/legacy", "site_id": "europepmc", "site_name": "Europe PMC", "source": "journal",
+        "source_type": "paper", "published_at": "2026-08-10T00:00:00Z", "first_seen_at": "2026-08-10T00:00:00Z",
+        "last_seen_at": "2026-08-10T00:00:00Z", "description": "", "publication_stage": "peer_review_status_unknown",
+        "evidence_type": "paper",
+    }
+    (tmp_path / "archive.json").write_text(json.dumps({"items": [legacy]}), encoding="utf-8")
+
+    def empty_collector(_session, _now):
+        return [], {"site_id": "empty", "site_name": "empty", "ok": True, "item_count": 0, "error": None}
+
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_europe_pmc", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_clinical_trials", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_rss_sources", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_papers_cool", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_github_projects", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.fetch_ai_radar_bridge", empty_collector)
+    monkeypatch.setattr("scripts.update_longevity_radar.add_bilingual_titles", lambda *_args, **_kwargs: 0)
+
+    summary = generate(tmp_path, now=now)
+    relevant = json.loads((tmp_path / "latest-relevant.json").read_text(encoding="utf-8"))
+    assert summary["relevant_21d"] == 1
+    assert relevant["items"][0]["relevance_tier"] == "related"
 
 
 def test_ai_radar_bridge_preserves_each_upstream_source_identity():

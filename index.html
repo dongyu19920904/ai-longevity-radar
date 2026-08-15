@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>爱窝啦 AI生命延续学雷达｜24 小时 AI + 长寿研究信号</title>
+    <title>爱窝啦 AI生命延续学雷达｜AI × 衰老与长寿研究精选</title>
     <meta name="description" content="每小时整理 AI 与衰老、长寿、生物年龄、年轻化、神经退行性疾病交叉领域的公开论文、项目和行业信号。保留原始来源并标注研究对象、发表阶段与风险边界。" />
     <link rel="canonical" href="https://radar.aibioo.cn/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="爱窝啦 AI生命延续学雷达" />
-    <meta property="og:description" content="24 小时 AI + 长寿研究信号、证据标签和来源健康状态。" />
+    <meta property="og:description" content="滚动精选 AI × 长寿核心交集与生命延续相关研究，保留证据标签和来源健康状态。" />
     <meta property="og:url" content="https://radar.aibioo.cn/" />
     <meta property="og:site_name" content="爱窝啦 AI生命延续学雷达" />
     <meta name="twitter:card" content="summary" />
@@ -39,15 +39,15 @@
           {
             "@type": "CollectionPage",
             "@id": "https://radar.aibioo.cn/#webpage",
-            "name": "爱窝啦 AI生命延续学雷达｜24 小时 AI + 长寿研究信号",
+            "name": "爱窝啦 AI生命延续学雷达｜AI × 衰老与长寿研究精选",
             "url": "https://radar.aibioo.cn/",
             "description": "每小时整理 AI 与生命延续研究交叉领域的公开论文、项目和行业信号。",
             "isPartOf": { "@id": "https://radar.aibioo.cn/#website" },
             "about": ["人工智能", "衰老研究", "长寿", "生物年龄", "神经退行性疾病"],
             "mainEntity": {
               "@type": "Dataset",
-              "name": "AI Longevity Radar 24-hour public signals",
-              "url": "https://radar.aibioo.cn/data/latest-24h.json",
+              "name": "AI Longevity Radar relevant public signals",
+              "url": "https://radar.aibioo.cn/data/latest-relevant.json",
               "license": "https://opensource.org/license/mit"
             }
           }
@@ -82,7 +82,7 @@
         <div class="hero__copy">
           <p class="hero__date" id="issueDate">AIBIOO · AI LONGEVITY SIGNALS</p>
           <h1 id="heroTitle">看见 AI 正在怎样进入衰老研究。</h1>
-          <p class="hero__lead">每小时汇总旧版 AI雷达全部公开信息源，并叠加论文、临床试验、研究机构与 GitHub 专属来源。默认展示完整信息流，双重强相关视图负责聚焦 AI × 生命延续交集。没有模型代写医学结论。</p>
+          <p class="hero__lead">每小时汇总定向论文、临床试验、研究机构、Papers.cool、GitHub 与通用 AI 雷达公开来源。首页默认展示滚动相关精选：核心交集优先，生命延续背景研究补充，不用无关通用 AI 填数量。没有模型代写医学结论。</p>
           <div class="hero__actions">
             <a class="button button--primary" href="#signals">查看 24 小时信号</a>
             <button class="button button--secondary" id="heroRadarButton" type="button">让雷达挑一条</button>
@@ -91,7 +91,7 @@
         </div>
         <button class="hero__instrument" id="radarCreature" type="button" aria-label="随机选择一条生命延续研究信号">
           <span class="radar-creature" aria-hidden="true"><span class="radar-creature__eye"></span></span>
-          <span class="hero__count"><strong id="heroSignalCount">0</strong><span>条信息源信号</span></span>
+          <span class="hero__count"><strong id="heroSignalCount">0</strong><span>条相关研究信号</span></span>
           <span class="hero__updated">更新于 <time id="updatedAt">加载中…</time></span>
         </button>
       </section>
@@ -118,12 +118,13 @@
       </section>
 
       <section class="feed section" id="signals" aria-labelledby="listTitle">
-        <div class="feed-heading"><div><p class="eyebrow">PUBLIC RESEARCH SIGNALS</p><h2 id="listTitle">全部信息源信号流</h2></div><div class="section-heading__meta"><span id="modeHint">旧版 AI雷达全源 + 生命延续专属源</span> · <span id="resultCount">0 条</span></div></div>
+        <div class="feed-heading"><div><p class="eyebrow">PUBLIC RESEARCH SIGNALS</p><h2 id="listTitle">生命延续相关精选</h2></div><div class="section-heading__meta"><span id="modeHint">核心优先 + 相关研究 · 不用通用 AI 补量</span> · <span id="resultCount">0 条</span></div></div>
         <div class="scope-controls">
           <span>信号范围</span>
           <div class="mode-switch" role="group" aria-label="信号范围">
-            <button id="modeAllBtn" class="mode-btn active" type="button" aria-pressed="true">全部信息源</button>
-            <button id="modeAiBtn" class="mode-btn" type="button" aria-pressed="false">AI + 生命延续强相关</button>
+            <button id="modeRelevantBtn" class="mode-btn active" type="button" aria-pressed="true">相关精选</button>
+            <button id="modeCoreBtn" class="mode-btn" type="button" aria-pressed="false">核心交集</button>
+            <button id="modeAllBtn" class="mode-btn" type="button" aria-pressed="false">全部信息源</button>
           </div>
         </div>
         <div class="primary-controls">

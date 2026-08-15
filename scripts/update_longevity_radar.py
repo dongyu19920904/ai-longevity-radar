@@ -29,6 +29,9 @@ except ModuleNotFoundError:  # direct `python scripts/update_longevity_radar.py`
 
 USER_AGENT = "Aivora-AI-Longevity-Radar/1.0 (+https://radar.aibioo.cn/)"
 BRIEFING_LIMIT = 8
+RELEVANT_LIMIT = 60
+CORE_WINDOW_HOURS = 7 * 24
+RELATED_WINDOW_HOURS = 21 * 24
 
 OFFICIAL_FEEDS: tuple[dict[str, str], ...] = (
     {"name": "Nature Aging", "url": "https://www.nature.com/subjects/ageing.rss"},
@@ -37,7 +40,42 @@ OFFICIAL_FEEDS: tuple[dict[str, str], ...] = (
     {"name": "Buck Institute", "url": "https://www.buckinstitute.org/feed/"},
     {"name": "Longevity.Technology", "url": "https://longevity.technology/feed/"},
     {"name": "ScienceDaily Healthy Aging", "url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml"},
+    {"name": "ScienceDaily Dementia", "url": "https://www.sciencedaily.com/rss/mind_brain/dementia.xml"},
     {"name": "MedicalXpress Healthy Aging", "url": "https://medicalxpress.com/rss-feed/healthy-aging-news/"},
+    {"name": "News-Medical Aging", "url": "https://www.news-medical.net/tag/feed/Aging.aspx"},
+    {"name": "News-Medical Alzheimer", "url": "https://www.news-medical.net/tag/feed/Alzheimers-Disease.aspx"},
+    {"name": "Google News · AI Longevity", "url": "https://news.google.com/rss/search?q=(AI%20OR%20%22artificial%20intelligence%22%20OR%20%22machine%20learning%22)%20(longevity%20OR%20aging%20OR%20%22biological%20age%22%20OR%20dementia%20OR%20alzheimer)&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News · Aging Clocks", "url": "https://news.google.com/rss/search?q=(%22biological%20age%22%20OR%20%22epigenetic%20clock%22%20OR%20%22aging%20clock%22%20OR%20%22brain%20age%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20model)&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News · Senescence", "url": "https://news.google.com/rss/search?q=(senescence%20OR%20senolytic%20OR%20%22partial%20reprogramming%22%20OR%20rejuvenation)%20(AI%20OR%20%22machine%20learning%22%20OR%20biotech)&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News · Brain Age", "url": "https://news.google.com/rss/search?q=(%22brain%20age%22%20OR%20dementia%20OR%20alzheimer%20OR%20%22digital%20biomarker%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20wearable)&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News · Aging Omics", "url": "https://news.google.com/rss/search?q=(%22single-cell%22%20OR%20%22multi-omics%22%20OR%20metabolomics%20OR%20proteomics)%20(aging%20OR%20senescence%20OR%20rejuvenation)%20(AI%20OR%20%22machine%20learning%22%20OR%20model)&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News · Healthy Aging AI", "url": "https://news.google.com/rss/search?q=(frailty%20OR%20sarcopenia%20OR%20healthspan%20OR%20%22healthy%20aging%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20wearable%20OR%20biomarker)&hl=en-US&gl=US&ceid=US:en"},
+)
+
+PAPERS_COOL_FEEDS: tuple[dict[str, str], ...] = (
+    {"name": "Papers.cool q-bio", "url": "https://papers.cool/arxiv/q-bio/feed"},
+    {"name": "Papers.cool cs.LG", "url": "https://papers.cool/arxiv/cs.LG/feed"},
+    {"name": "Papers.cool cs.AI", "url": "https://papers.cool/arxiv/cs.AI/feed"},
+    {"name": "Papers.cool cs.CV", "url": "https://papers.cool/arxiv/cs.CV/feed"},
+    {"name": "Papers.cool stat.ML", "url": "https://papers.cool/arxiv/stat.ML/feed"},
+    {"name": "Papers.cool physics.med-ph", "url": "https://papers.cool/arxiv/physics.med-ph/feed"},
+)
+
+PAPERS_COOL_AI_KEYWORDS = (
+    "ai", "artificial intelligence", "machine learning", "deep learning", "foundation model",
+    "transformer", "neural network", "self-supervised", "multimodal", "large language model",
+    "llm", "diffusion",
+)
+PAPERS_COOL_BIO_KEYWORDS = (
+    "aging", "ageing", "longevity", "biological age", "epigenetic clock", "brain age",
+    "dementia", "alzheimer", "senescence", "senolytic", "geroscience", "healthspan",
+    "biomarker", "protein", "drug discovery", "molecular", "genomic", "transcriptomic",
+    "single-cell", "spatial transcriptomics", "cell segmentation", "omics", "neuron", "cognition",
+)
+PAPERS_COOL_STRONG_KEYWORDS = (
+    "biological age", "epigenetic clock", "methylation clock", "proteomics clock", "brain age",
+    "retinal age", "facial age", "senolytic", "geroscience", "healthspan", "alzheimer",
+    "dementia", "aging clock", "single-cell", "spatial transcriptomics", "protein design", "drug discovery",
 )
 
 EUROPE_PMC_QUERIES = (
@@ -46,6 +84,8 @@ EUROPE_PMC_QUERIES = (
     '("aging clock" OR "epigenetic clock" OR "brain age") AND ("machine learning" OR "artificial intelligence")',
     '(Alzheimer OR dementia OR neurodegeneration) AND ("machine learning" OR "deep learning")',
     '(senescence OR rejuvenation OR reprogramming OR senolytic) AND ("machine learning" OR "artificial intelligence")',
+    '(frailty OR sarcopenia OR healthspan OR "digital biomarker") AND ("machine learning" OR "artificial intelligence" OR wearable)',
+    '(("single-cell" OR "multi-omics" OR metabolomics OR proteomics OR inflammaging OR immunosenescence) AND (aging OR senescence OR longevity)) AND ("machine learning" OR "artificial intelligence" OR model)',
 )
 
 GITHUB_QUERIES = (
@@ -53,6 +93,8 @@ GITHUB_QUERIES = (
     '"biological age" deep learning',
     'longevity artificial intelligence',
     'alzheimer machine learning biomarker',
+    '"brain age" deep learning',
+    '"single-cell aging" machine learning',
 )
 
 AI_RADAR_URLS = (
@@ -134,6 +176,23 @@ def create_session() -> requests.Session:
     return session
 
 
+def contains_keyword(text: str, keyword: str) -> bool:
+    normalized = str(keyword or "").strip().lower()
+    if not normalized:
+        return False
+    if normalized.isascii() and normalized.isalnum():
+        return bool(re.search(rf"(?<![a-z0-9]){re.escape(normalized)}(?![a-z0-9])", text))
+    return normalized in text
+
+
+def papers_cool_topic_match(title: str, description: str) -> bool:
+    text = f"{title}\n{description}".lower()
+    has_ai = any(contains_keyword(text, word) for word in PAPERS_COOL_AI_KEYWORDS)
+    has_bio = any(contains_keyword(text, word) for word in PAPERS_COOL_BIO_KEYWORDS)
+    has_strong = any(contains_keyword(text, word) for word in PAPERS_COOL_STRONG_KEYWORDS)
+    return (has_ai and has_bio) or has_strong
+
+
 def fetch_rss_sources(session: requests.Session, now: datetime) -> tuple[list[RawItem], dict[str, Any]]:
     items: list[RawItem] = []
     def fetch_one(feed: dict[str, str]) -> tuple[list[RawItem], dict[str, Any]]:
@@ -173,6 +232,56 @@ def fetch_rss_sources(session: requests.Session, now: datetime) -> tuple[list[Ra
     return items, {
         "site_id": "official_rss", "site_name": "机构与行业 RSS", "ok": len(failed) < len(feed_statuses),
         "partial_failures": len(failed), "item_count": len(items), "duration_ms": max((row["duration_ms"] for row in feed_statuses), default=0),
+        "error": f"{len(failed)} feeds failed" if failed else None, "feeds": feed_statuses,
+    }
+
+
+def fetch_papers_cool(session: requests.Session, now: datetime) -> tuple[list[RawItem], dict[str, Any]]:
+    items: list[RawItem] = []
+
+    def fetch_one(feed: dict[str, str]) -> tuple[list[RawItem], dict[str, Any]]:
+        started = time.perf_counter()
+        feed_items: list[RawItem] = []
+        error = None
+        try:
+            response = create_session().get(feed["url"], timeout=15)
+            response.raise_for_status()
+            parsed = feedparser.parse(response.content)
+            for entry in parsed.entries[:20]:
+                title = re.sub(r"\s+", " ", str(entry.get("title") or "")).strip()
+                url = normalize_url(str(entry.get("link") or ""))
+                published = parse_date(entry.get("published") or entry.get("updated"))
+                summary = re.sub(r"<[^>]+>", " ", str(entry.get("summary") or entry.get("description") or ""))
+                summary = re.sub(r"\s+", " ", summary).strip()
+                if (
+                    not title
+                    or not url
+                    or (published and published < now - timedelta(days=7))
+                    or not papers_cool_topic_match(title, summary)
+                ):
+                    continue
+                feed_items.append(RawItem(
+                    site_id="papers_cool", site_name="Papers.cool 论文精选", source=feed["name"], source_type="paper",
+                    title=title, url=url, published_at=published, description=summary[:1000],
+                    canonical_key=canonical_key(url=url), publication_stage="preprint", evidence_type="preprint",
+                ))
+        except Exception as exc:
+            error = f"{type(exc).__name__}: {exc}"[:240]
+        return feed_items, {
+            "feed_name": feed["name"], "feed_url": feed["url"], "ok": error is None,
+            "item_count": len(feed_items), "duration_ms": int((time.perf_counter() - started) * 1000), "error": error,
+        }
+
+    with ThreadPoolExecutor(max_workers=len(PAPERS_COOL_FEEDS)) as executor:
+        results = list(executor.map(fetch_one, PAPERS_COOL_FEEDS))
+    feed_statuses = [status for _, status in results]
+    for rows, _ in results:
+        items.extend(rows)
+    failed = [row["feed_name"] for row in feed_statuses if not row["ok"]]
+    return items, {
+        "site_id": "papers_cool", "site_name": "Papers.cool 论文精选", "ok": len(failed) < len(feed_statuses),
+        "partial_failures": len(failed), "item_count": len(items),
+        "duration_ms": max((row["duration_ms"] for row in feed_statuses), default=0),
         "error": f"{len(failed)} feeds failed" if failed else None, "feeds": feed_statuses,
     }
 
@@ -224,7 +333,8 @@ def fetch_europe_pmc(session: requests.Session, now: datetime) -> tuple[list[Raw
             items.extend(rows)
     error = f"{len(errors)} queries failed: {errors[0]}"[:240] if errors else None
     return items, {
-        "site_id": "europepmc", "site_name": "Europe PMC", "ok": error is None,
+        "site_id": "europepmc", "site_name": "Europe PMC", "ok": len(errors) < len(EUROPE_PMC_QUERIES),
+        "partial_failures": len(errors),
         "item_count": len(items), "duration_ms": int((time.perf_counter() - started) * 1000), "error": error,
     }
 
@@ -306,7 +416,8 @@ def fetch_github_projects(session: requests.Session, now: datetime) -> tuple[lis
             items.extend(rows)
     error = f"{len(errors)} queries failed: {errors[0]}"[:240] if errors else None
     return items, {
-        "site_id": "github_projects", "site_name": "GitHub 研究项目", "ok": error is None,
+        "site_id": "github_projects", "site_name": "GitHub 研究项目", "ok": len(errors) < len(GITHUB_QUERIES),
+        "partial_failures": len(errors),
         "item_count": len(items), "duration_ms": int((time.perf_counter() - started) * 1000), "error": error,
     }
 
@@ -424,6 +535,67 @@ def event_time(record: dict[str, Any]) -> datetime | None:
     return parse_date(record.get("published_at")) or parse_date(record.get("first_seen_at"))
 
 
+def record_freshness_score(record: dict[str, Any], now: datetime, window_hours: int) -> float:
+    timestamp = event_time(record)
+    if not timestamp:
+        return 0.0
+    age_hours = max(0.0, (now - timestamp).total_seconds() / 3600)
+    return round(max(0.0, 1.0 - age_hours / max(1, window_hours)), 3)
+
+
+def select_relevant_records(
+    records: list[dict[str, Any]], *, now: datetime, core_window_hours: int = CORE_WINDOW_HOURS,
+    related_window_hours: int = RELATED_WINDOW_HOURS, limit: int = RELEVANT_LIMIT,
+) -> list[dict[str, Any]]:
+    """Select the useful rolling layer without filling it from generic AI rows."""
+    core_cutoff = now - timedelta(hours=core_window_hours)
+    related_cutoff = now - timedelta(hours=related_window_hours)
+    candidates: list[dict[str, Any]] = []
+    for record in records:
+        timestamp = event_time(record)
+        tier = str(record.get("relevance_tier") or "all")
+        if not timestamp or tier not in {"core", "related"}:
+            continue
+        if tier == "core" and timestamp < core_cutoff:
+            continue
+        if tier == "related" and timestamp < related_cutoff:
+            continue
+        candidates.append({
+            **record,
+            "freshness_score": record_freshness_score(record, now, core_window_hours if tier == "core" else related_window_hours),
+        })
+
+    candidates.sort(key=lambda row: (
+        1 if row.get("relevance_tier") == "core" else 0,
+        row.get("signal_score", 0), row.get("domain_score", 0), row.get("freshness_score", 0),
+        event_time(row) or datetime.min.replace(tzinfo=UTC),
+    ), reverse=True)
+
+    selected: list[dict[str, Any]] = []
+    deferred: list[dict[str, Any]] = []
+    site_counts: Counter[str] = Counter()
+    topic_counts: Counter[str] = Counter()
+    site_cap = max(8, int(limit * 0.30))
+    topic_cap = max(12, int(limit * 0.40))
+    for row in candidates:
+        site_id = str(row.get("site_id") or "unknown")
+        topic = str(row.get("primary_topic") or "ai_longevity")
+        if site_counts[site_id] >= site_cap or topic_counts[topic] >= topic_cap:
+            deferred.append(row)
+            continue
+        selected.append(row)
+        site_counts[site_id] += 1
+        topic_counts[topic] += 1
+        if len(selected) >= limit:
+            return selected
+
+    for row in deferred:
+        selected.append(row)
+        if len(selected) >= limit:
+            break
+    return selected
+
+
 def dedupe_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     best: dict[str, dict[str, Any]] = {}
     for record in records:
@@ -440,9 +612,11 @@ def public_item(record: dict[str, Any]) -> dict[str, Any]:
     allowed = (
         "id", "canonical_key", "site_id", "site_name", "source", "source_type", "title", "title_zh", "title_en",
         "url", "published_at", "first_seen_at", "last_seen_at", "ai_is_related", "ai_score",
-        "longevity_is_related", "longevity_score", "signal_score", "topics", "primary_topic", "study_subject",
+        "longevity_is_related", "longevity_score", "signal_score", "domain_score", "freshness_score",
+        "relevance_tier", "relevance_path", "selection_reason", "topics", "primary_topic", "study_subject",
         "publication_stage", "evidence_type", "risk_flags", "relevance_reason", "ai_signals", "longevity_signals",
-        "upstream_site_id", "upstream_ai_is_related", "upstream_ai_score",
+        "noise_signals", "demographic_noise_signals", "non_biological_noise_signals",
+        "biomedical_signals", "upstream_site_id", "upstream_ai_is_related", "upstream_ai_score",
     )
     return {key: record.get(key) for key in allowed if key in record}
 
@@ -516,7 +690,11 @@ def add_bilingual_titles(items: list[dict[str, Any]], cache: dict[str, str], max
 
 
 def build_briefing(items: list[dict[str, Any]], generated_at: str, window_hours: int) -> dict[str, Any]:
-    candidates = sorted(items, key=lambda row: (row.get("signal_score", 0), event_time(row) or datetime.min.replace(tzinfo=UTC)), reverse=True)
+    candidates = sorted(items, key=lambda row: (
+        1 if row.get("relevance_tier") == "core" else 0,
+        row.get("signal_score", 0), row.get("domain_score", 0),
+        event_time(row) or datetime.min.replace(tzinfo=UTC),
+    ), reverse=True)
     selected: list[dict[str, Any]] = []
     seen_sources: set[str] = set()
     for row in candidates:
@@ -527,8 +705,16 @@ def build_briefing(items: list[dict[str, Any]], generated_at: str, window_hours:
         seen_sources.add(source_key)
         if len(selected) >= BRIEFING_LIMIT:
             break
-    compact = [{key: row.get(key) for key in ("id", "title", "title_zh", "title_en", "url", "source", "site_id", "source_type", "published_at", "signal_score", "primary_topic", "study_subject", "publication_stage", "risk_flags")} for row in selected]
-    return {"schema_version": "bio-radar-v1", "generated_at": generated_at, "window_hours": window_hours, "item_count": len(compact), "source_count": len(seen_sources), "items": compact}
+    compact = [{key: row.get(key) for key in (
+        "id", "title", "title_zh", "title_en", "url", "source", "site_id", "source_type", "published_at",
+        "signal_score", "domain_score", "freshness_score", "relevance_tier", "relevance_path", "selection_reason",
+        "primary_topic", "study_subject", "publication_stage", "risk_flags",
+    )} for row in selected]
+    return {
+        "schema_version": "bio-radar-v1", "generated_at": generated_at, "window_hours": window_hours,
+        "selection_mode": "core_first_related_fallback", "item_count": len(compact),
+        "source_count": len(seen_sources), "items": compact,
+    }
 
 
 def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21, now: datetime | None = None) -> dict[str, Any]:
@@ -537,7 +723,8 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
     archive_path = output_dir / "archive.json"
     old_archive = load_archive(archive_path)
     collectors: tuple[Callable[[requests.Session, datetime], tuple[list[RawItem], dict[str, Any]]], ...] = (
-        fetch_europe_pmc, fetch_clinical_trials, fetch_rss_sources, fetch_github_projects, fetch_ai_radar_bridge,
+        fetch_europe_pmc, fetch_clinical_trials, fetch_rss_sources, fetch_papers_cool,
+        fetch_github_projects, fetch_ai_radar_bridge,
     )
     raw_items: list[RawItem] = []
     statuses: list[dict[str, Any]] = []
@@ -553,7 +740,10 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
     archive_records: dict[str, dict[str, Any]] = {}
     for row in list(old_archive.values()) + records:
         if (event_time(row) or now) >= archive_cutoff:
-            archive_records[str(row["canonical_key"])] = row
+            # Re-score still-live archive rows so additive relevance fields and
+            # rule improvements take effect immediately after a deployment.
+            refreshed = add_longevity_fields(row)
+            archive_records[str(refreshed["canonical_key"])] = refreshed
     # A transient source failure must not erase still-fresh public signals.
     all_recent = dedupe_records([
         row for row in archive_records.values()
@@ -561,12 +751,18 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
     ])
     focused = [row for row in all_recent if row.get("is_related")]
     focused.sort(key=lambda row: (row.get("signal_score", 0), event_time(row) or datetime.min.replace(tzinfo=UTC)), reverse=True)
+    relevant = select_relevant_records(
+        dedupe_records(list(archive_records.values())), now=now,
+        core_window_hours=CORE_WINDOW_HOURS, related_window_hours=min(archive_days * 24, RELATED_WINDOW_HOURS),
+        limit=RELEVANT_LIMIT,
+    )
+    core_rolling = [row for row in relevant if row.get("relevance_tier") == "core"]
     all_recent.sort(key=lambda row: event_time(row) or datetime.min.replace(tzinfo=UTC), reverse=True)
     title_cache_path = output_dir / "title-zh-cache.json"
     title_cache = load_title_cache(title_cache_path)
     title_cache = {key: value for key, value in title_cache.items() if has_cjk(value) and not has_mojibake(value)}
-    translated_count = add_bilingual_titles(focused, title_cache)
-    for row in all_recent:
+    translated_count = add_bilingual_titles(relevant, title_cache)
+    for row in focused + all_recent:
         if not has_cjk(str(row.get("title") or "")):
             row["title_en"] = row.get("title")
         if row.get("title") in title_cache:
@@ -578,13 +774,43 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
         sample = next(row for row in focused if row.get("site_id") == site_id)
         site_stats.append({"site_id": site_id, "site_name": sample.get("site_name") or site_id, "count": count, "raw_count": sum(1 for row in all_recent if row.get("site_id") == site_id)})
 
+    relevant_site_stats = []
+    for site_id, count in Counter(str(row.get("site_id") or "unknown") for row in relevant).most_common():
+        sample = next(row for row in relevant if row.get("site_id") == site_id)
+        relevant_site_stats.append({
+            "site_id": site_id, "site_name": sample.get("site_name") or site_id, "count": count,
+            "raw_count": sum(1 for row in archive_records.values() if row.get("site_id") == site_id),
+        })
+
     latest_payload = {
         "schema_version": "bio-radar-v1", "generated_at": generated_at, "window_hours": window_hours,
         "total_items": len(focused), "total_items_raw": len(all_recent), "total_items_all_mode": len(all_recent),
         "archive_total": len(archive_records), "site_count": len({row.get("site_id") for row in focused}),
         "source_count": len({f"{row.get('site_id')}::{row.get('source')}" for row in focused}), "site_stats": site_stats,
         "items": [public_item(row) for row in focused], "items_ai": [public_item(row) for row in focused],
+        "relevant_data_url": "data/latest-relevant.json",
         "all_mode_data_url": "data/latest-24h-all.json",
+        "methodology_url": "https://radar.aibioo.cn/methodology.html",
+        "medical_disclaimer": "Research signal index only; not medical advice, diagnosis, or treatment guidance.",
+    }
+    relevant_payload = {
+        "schema_version": "bio-radar-v1", "generated_at": generated_at,
+        "window_hours": min(archive_days * 24, RELATED_WINDOW_HOURS),
+        "core_window_hours": CORE_WINDOW_HOURS,
+        "related_window_hours": min(archive_days * 24, RELATED_WINDOW_HOURS),
+        "selection_limit": RELEVANT_LIMIT,
+        "total_items": len(relevant), "total_core_items": len(core_rolling),
+        "total_related_items": sum(1 for row in relevant if row.get("relevance_tier") == "related"),
+        "total_items_raw": len(all_recent), "total_items_all_mode": len(all_recent),
+        "site_count": len({row.get("site_id") for row in relevant}),
+        "source_count": len({f"{row.get('site_id')}::{row.get('source')}" for row in relevant}),
+        "site_stats": relevant_site_stats,
+        "items": [public_item(row) for row in relevant],
+        "items_relevant": [public_item(row) for row in relevant],
+        "items_core": [public_item(row) for row in core_rolling],
+        "strict_24h_data_url": "data/latest-24h.json",
+        "all_mode_data_url": "data/latest-24h-all.json",
+        "selection_policy": "7d core + 21d related; no generic AI fill",
         "methodology_url": "https://radar.aibioo.cn/methodology.html",
         "medical_disclaimer": "Research signal index only; not medical advice, diagnosis, or treatment guidance.",
     }
@@ -597,8 +823,11 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
         "schema_version": "bio-radar-v1", "generated_at": generated_at, "sites": statuses,
         "successful_sites": sum(1 for row in statuses if row.get("ok")),
         "failed_sites": [row["site_id"] for row in statuses if not row.get("ok")],
+        "partial_sites": [row["site_id"] for row in statuses if row.get("partial_failures")],
         "zero_item_sites": [row["site_id"] for row in statuses if row.get("ok") and not row.get("item_count")],
         "fetched_raw_items": len(raw_items), "items_before_topic_filter": len(all_recent), "items_in_24h": len(focused),
+        "items_core_7d": len(core_rolling), "items_relevant_21d": len(relevant),
+        "relevance_tiers": dict(Counter(str(row.get("relevance_tier") or "all") for row in relevant)),
     }
     topic_payload = {
         "schema_version": "bio-radar-v1", "generated_at": generated_at,
@@ -606,17 +835,25 @@ def generate(output_dir: Path, *, window_hours: int = 24, archive_days: int = 21
         "source_types": dict(Counter(str(row.get("source_type") or "unknown") for row in focused)),
         "study_subjects": dict(Counter(str(row.get("study_subject") or "unknown") for row in focused)),
         "publication_stages": dict(Counter(str(row.get("publication_stage") or "unknown") for row in focused)),
+        "relevant_topics": dict(Counter(topic for row in relevant for topic in row.get("topics", []))),
+        "relevance_tiers": dict(Counter(str(row.get("relevance_tier") or "all") for row in relevant)),
     }
     payloads = {
-        "latest-24h.json": latest_payload, "latest-24h-all.json": all_payload,
-        "briefing-lite.json": build_briefing(focused, generated_at, window_hours),
+        "latest-24h.json": latest_payload, "latest-relevant.json": relevant_payload,
+        "latest-24h-all.json": all_payload,
+        "briefing-lite.json": build_briefing(relevant, generated_at, min(archive_days * 24, RELATED_WINDOW_HOURS)),
         "source-status.json": status_payload, "topic-stats.json": topic_payload,
         "title-zh-cache.json": title_cache,
         "archive.json": {"schema_version": "bio-radar-v1", "generated_at": generated_at, "items": list(archive_records.values())},
     }
     for name, payload in payloads.items():
         (output_dir / name).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    return {"generated_at": generated_at, "focused": len(focused), "all": len(all_recent), "archive": len(archive_records), "translated": translated_count, "failed_sites": status_payload["failed_sites"]}
+    return {
+        "generated_at": generated_at, "focused": len(focused), "all": len(all_recent),
+        "focused_24h": len(focused), "core_7d": len(core_rolling),
+        "relevant_21d": len(relevant), "all_24h": len(all_recent), "archive": len(archive_records),
+        "translated": translated_count, "failed_sites": status_payload["failed_sites"],
+    }
 
 
 def main() -> int:
