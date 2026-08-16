@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-16T01:58:00.247304Z",
+  "generated_at": "2026-08-16T03:13:34.062762Z",
   "topics": {
     "aging_clock": 1,
     "neurodegeneration": 1
@@ -15,11 +15,11 @@
     "secondary_report": 1
   },
   "relevant_topics": {
-    "aging_clock": 15,
+    "aging_clock": 16,
     "rejuvenation": 3,
     "multi_omics": 7,
     "neurodegeneration": 32,
-    "aging_mechanism": 4,
+    "aging_mechanism": 3,
     "ai_longevity": 11,
     "research_tool": 3,
     "clinical_trial": 2,
