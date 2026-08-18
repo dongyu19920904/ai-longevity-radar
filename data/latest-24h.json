@@ -1,72 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-18T05:45:40.786023Z",
+  "generated_at": "2026-08-18T07:05:48.190194Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 709,
-  "total_items_all_mode": 709,
-  "archive_total": 3756,
+  "total_items": 1,
+  "total_items_raw": 702,
+  "total_items_all_mode": 702,
+  "archive_total": 3783,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 18
+      "count": 1,
+      "raw_count": 15
     }
   ],
   "items": [
-    {
-      "id": "3ada7d26b6e2d19fb56bfa7915fabea074dcbe61",
-      "canonical_key": "url:https://longevity.technology/news/insilico-introduces-biological-age-to-virtual-cell-research",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Insilico introduces biological age to virtual cell research",
-      "title_zh": "Insilico将生物年龄引入虚拟细胞研究",
-      "title_en": "Insilico introduces biological age to virtual cell research",
-      "url": "https://longevity.technology/news/insilico-introduces-biological-age-to-virtual-cell-research",
-      "published_at": "2026-08-17T06:31:10Z",
-      "first_seen_at": "2026-08-17T09:01:43.092328Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell"
-      ]
-    },
     {
       "id": "16e711ba136ad4547a4222555a23cf8e7840db75",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
@@ -80,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T05:45:40.786023Z",
+      "last_seen_at": "2026-08-18T07:05:48.190194Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -117,56 +67,6 @@
   ],
   "items_ai": [
     {
-      "id": "3ada7d26b6e2d19fb56bfa7915fabea074dcbe61",
-      "canonical_key": "url:https://longevity.technology/news/insilico-introduces-biological-age-to-virtual-cell-research",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Insilico introduces biological age to virtual cell research",
-      "title_zh": "Insilico将生物年龄引入虚拟细胞研究",
-      "title_en": "Insilico introduces biological age to virtual cell research",
-      "url": "https://longevity.technology/news/insilico-introduces-biological-age-to-virtual-cell-research",
-      "published_at": "2026-08-17T06:31:10Z",
-      "first_seen_at": "2026-08-17T09:01:43.092328Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell"
-      ]
-    },
-    {
       "id": "16e711ba136ad4547a4222555a23cf8e7840db75",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "site_id": "official_rss",
@@ -179,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T05:45:40.786023Z",
+      "last_seen_at": "2026-08-18T07:05:48.190194Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
