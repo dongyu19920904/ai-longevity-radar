@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-18T14:53:30.847036Z",
+  "generated_at": "2026-08-18T15:47:14.880970Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 685,
-  "total_items_all_mode": 685,
-  "archive_total": 4086,
+  "total_items": 3,
+  "total_items_raw": 682,
+  "total_items_all_mode": 682,
+  "archive_total": 4114,
   "site_count": 2,
   "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 22
+      "count": 2,
+      "raw_count": 21
     },
     {
       "site_id": "github_projects",
@@ -23,6 +23,55 @@
     }
   ],
   "items": [
+    {
+      "id": "f45f4121a7cdb0fffbbdd32c44aec1b7d2a8ef4e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI put the cell back together? - Longevity.Technology",
+      "title_zh": "人工智能可以将细胞重新组装在一起吗？ - Longevity.Technology",
+      "title_en": "Can AI put the cell back together? - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
+      "published_at": "2026-08-18T14:55:51Z",
+      "first_seen_at": "2026-08-18T15:47:14.880970Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
     {
       "id": "16e711ba136ad4547a4222555a23cf8e7840db75",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
@@ -36,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T14:53:30.847036Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -83,7 +132,7 @@
       "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
       "published_at": "2026-08-18T12:21:17Z",
       "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-18T14:53:30.847036Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -124,6 +173,55 @@
   ],
   "items_ai": [
     {
+      "id": "f45f4121a7cdb0fffbbdd32c44aec1b7d2a8ef4e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI put the cell back together? - Longevity.Technology",
+      "title_zh": "人工智能可以将细胞重新组装在一起吗？ - Longevity.Technology",
+      "title_en": "Can AI put the cell back together? - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
+      "published_at": "2026-08-18T14:55:51Z",
+      "first_seen_at": "2026-08-18T15:47:14.880970Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
       "id": "16e711ba136ad4547a4222555a23cf8e7840db75",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "site_id": "official_rss",
@@ -136,7 +234,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T14:53:30.847036Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -183,7 +281,7 @@
       "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
       "published_at": "2026-08-18T12:21:17Z",
       "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-18T14:53:30.847036Z",
+      "last_seen_at": "2026-08-18T15:47:14.880970Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
