@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-18T04:53:12.965666Z",
+  "generated_at": "2026-08-18T05:45:40.786023Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "total_items_raw": 709,
   "total_items_all_mode": 709,
-  "archive_total": 3738,
-  "site_count": 2,
-  "source_count": 3,
+  "archive_total": 3756,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 20
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
+      "raw_count": 18
     }
   ],
   "items": [
@@ -86,7 +80,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
+      "last_seen_at": "2026-08-18T05:45:40.786023Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -119,55 +113,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "35741625b073c200fd7b3f1bea1f3c7ceca7adb2",
-      "canonical_key": "repo:sanketravan/predict_the_earlier_stages_of_alzheimers_disease",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease",
-      "source_type": "project",
-      "title": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease: A Flask-based machine learning web application that predicts the estimated probability of Alzheimer’s disease using Cystatin C, MMP10 and Tau biomarkers.",
-      "title_zh": "sanketravan/Predict_the_Early_Stages_of_Alzheimers_disease ：一种基于Flask的机器学习Web应用程序，使用Cystatin C、MMP10和Tau生物标志物预测阿尔茨海默病的估计概率。",
-      "title_en": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease: A Flask-based machine learning web application that predicts the estimated probability of Alzheimer’s disease using Cystatin C, MMP10 and Tau biomarkers.",
-      "url": "https://github.com/sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease",
-      "published_at": "2026-08-17T05:03:16Z",
-      "first_seen_at": "2026-08-17T04:59:18.977731Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "disease"
-      ]
     }
   ],
   "items_ai": [
@@ -234,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTBWRFoyVTJwRXdDUWkzOXRZRFg1Um5DM3hoeXJMbWtreXVJU24tV0J2RFBCd3QxV3FMbUdKdEZmTkw3U3A1MkZva2tYeWpCbnVuYS1Tdm9tYmJSd3BqOU9aQVZJTTl6LXpnSFZvcTFhNTVTZjZqU3BKMWNwVnRuT3ZhRTk5UjNmWVNVS3ZVdTB2NkpJUUpIbVJzTENnY3kxdTRXTXRaMExCd3lBMUlFRXJkMFNvUFk?oc=5",
       "published_at": "2026-08-17T23:00:00Z",
       "first_seen_at": "2026-08-17T23:37:32.077554Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
+      "last_seen_at": "2026-08-18T05:45:40.786023Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -267,55 +212,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "35741625b073c200fd7b3f1bea1f3c7ceca7adb2",
-      "canonical_key": "repo:sanketravan/predict_the_earlier_stages_of_alzheimers_disease",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease",
-      "source_type": "project",
-      "title": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease: A Flask-based machine learning web application that predicts the estimated probability of Alzheimer’s disease using Cystatin C, MMP10 and Tau biomarkers.",
-      "title_zh": "sanketravan/Predict_the_Early_Stages_of_Alzheimers_disease ：一种基于Flask的机器学习Web应用程序，使用Cystatin C、MMP10和Tau生物标志物预测阿尔茨海默病的估计概率。",
-      "title_en": "sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease: A Flask-based machine learning web application that predicts the estimated probability of Alzheimer’s disease using Cystatin C, MMP10 and Tau biomarkers.",
-      "url": "https://github.com/sanketravan/Predict_the_Earlier_Stages_of_Alzheimers_disease",
-      "published_at": "2026-08-17T05:03:16Z",
-      "first_seen_at": "2026-08-17T04:59:18.977731Z",
-      "last_seen_at": "2026-08-18T04:53:12.965666Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "disease"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
