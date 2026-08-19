@@ -1,22 +1,125 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-19T13:58:10.586355Z",
+  "generated_at": "2026-08-19T14:54:02.233366Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 680,
-  "total_items_all_mode": 680,
-  "archive_total": 4779,
+  "total_items": 4,
+  "total_items_raw": 668,
+  "total_items_all_mode": 668,
+  "archive_total": 4803,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 38
+      "count": 4,
+      "raw_count": 37
     }
   ],
   "items": [
+    {
+      "id": "a96eaacd1b5e102fd27cad495a807e4002bdf99a",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-ai-brain-age-dementia-years.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "AI-calculated brain age predicts dementia risk years before doctors can see it",
+      "title_zh": "人工智能计算的大脑年龄在医生看到之前预测痴呆风险数年",
+      "title_en": "AI-calculated brain age predicts dementia risk years before doctors can see it",
+      "url": "https://medicalxpress.com/news/2026-08-ai-brain-age-dementia-years.html",
+      "published_at": "2026-08-19T14:30:01Z",
+      "first_seen_at": "2026-08-19T14:54:02.233366Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "2ff0e33f4a88e55f8bffeacee732db666ad4495f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE55ejR2Z25Gb2NISE5ENHF0cUlNdC1WZnNQN3NfSzI1MkRHbmp3Nm1XNy1FTkhaZHZBVTZmUjlWcEhSc1RZYlBvZjlwa2syeHMwNThMQkRyU2JmRk9vc0Z5SnF3MFRwVDM2ZG95VmJpaEZKTmVPSmduZlhBcw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-calculated brain age predicts dementia risk years before doctors can see it - Medical Xpress",
+      "title_zh": "人工智能计算的大脑年龄在医生看到之前就预测了痴呆症的风险年份- Medical Xpress",
+      "title_en": "AI-calculated brain age predicts dementia risk years before doctors can see it - Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55ejR2Z25Gb2NISE5ENHF0cUlNdC1WZnNQN3NfSzI1MkRHbmp3Nm1XNy1FTkhaZHZBVTZmUjlWcEhSc1RZYlBvZjlwa2syeHMwNThMQkRyU2JmRk9vc0Z5SnF3MFRwVDM2ZG95VmJpaEZKTmVPSmduZlhBcw?oc=5",
+      "published_at": "2026-08-19T14:30:01Z",
+      "first_seen_at": "2026-08-19T14:54:02.233366Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "medical"
+      ]
+    },
     {
       "id": "40c1e8854430eef13979b42da516156e6639a9fe",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
@@ -24,13 +127,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - peoplematters.in",
-      "title_zh": "超越算法： EXL的哈里森谈为什么好奇心在人工智能时代胜过技术寿命- peoplematters.in",
-      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - peoplematters.in",
+      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "title_zh": "超越算法： EXL的哈里森，关于为什么好奇心在人工智能时代胜过技术寿命-人才很重要-人力资源新闻",
+      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
       "published_at": "2026-08-19T07:06:54Z",
       "first_seen_at": "2026-08-19T11:41:33.594971Z",
-      "last_seen_at": "2026-08-19T13:58:10.586355Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -78,7 +181,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T13:58:10.586355Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -117,19 +220,122 @@
   ],
   "items_ai": [
     {
+      "id": "a96eaacd1b5e102fd27cad495a807e4002bdf99a",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-08-ai-brain-age-dementia-years.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "AI-calculated brain age predicts dementia risk years before doctors can see it",
+      "title_zh": "人工智能计算的大脑年龄在医生看到之前预测痴呆风险数年",
+      "title_en": "AI-calculated brain age predicts dementia risk years before doctors can see it",
+      "url": "https://medicalxpress.com/news/2026-08-ai-brain-age-dementia-years.html",
+      "published_at": "2026-08-19T14:30:01Z",
+      "first_seen_at": "2026-08-19T14:54:02.233366Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "2ff0e33f4a88e55f8bffeacee732db666ad4495f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE55ejR2Z25Gb2NISE5ENHF0cUlNdC1WZnNQN3NfSzI1MkRHbmp3Nm1XNy1FTkhaZHZBVTZmUjlWcEhSc1RZYlBvZjlwa2syeHMwNThMQkRyU2JmRk9vc0Z5SnF3MFRwVDM2ZG95VmJpaEZKTmVPSmduZlhBcw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-calculated brain age predicts dementia risk years before doctors can see it - Medical Xpress",
+      "title_zh": "人工智能计算的大脑年龄在医生看到之前就预测了痴呆症的风险年份- Medical Xpress",
+      "title_en": "AI-calculated brain age predicts dementia risk years before doctors can see it - Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55ejR2Z25Gb2NISE5ENHF0cUlNdC1WZnNQN3NfSzI1MkRHbmp3Nm1XNy1FTkhaZHZBVTZmUjlWcEhSc1RZYlBvZjlwa2syeHMwNThMQkRyU2JmRk9vc0Z5SnF3MFRwVDM2ZG95VmJpaEZKTmVPSmduZlhBcw?oc=5",
+      "published_at": "2026-08-19T14:30:01Z",
+      "first_seen_at": "2026-08-19T14:54:02.233366Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "medical"
+      ]
+    },
+    {
       "id": "40c1e8854430eef13979b42da516156e6639a9fe",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - peoplematters.in",
-      "title_zh": "超越算法： EXL的哈里森谈为什么好奇心在人工智能时代胜过技术寿命- peoplematters.in",
-      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - peoplematters.in",
+      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "title_zh": "超越算法： EXL的哈里森，关于为什么好奇心在人工智能时代胜过技术寿命-人才很重要-人力资源新闻",
+      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
       "published_at": "2026-08-19T07:06:54Z",
       "first_seen_at": "2026-08-19T11:41:33.594971Z",
-      "last_seen_at": "2026-08-19T13:58:10.586355Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -177,7 +383,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T13:58:10.586355Z",
+      "last_seen_at": "2026-08-19T14:54:02.233366Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
