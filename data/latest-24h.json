@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-19T11:41:33.594971Z",
+  "generated_at": "2026-08-19T13:09:39.632707Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 695,
-  "total_items_all_mode": 695,
-  "archive_total": 4707,
-  "site_count": 2,
-  "source_count": 2,
+  "total_items": 2,
+  "total_items_raw": 685,
+  "total_items_all_mode": 685,
+  "archive_total": 4747,
+  "site_count": 1,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 37
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
+      "raw_count": 38
     }
   ],
   "items": [
@@ -36,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
       "published_at": "2026-08-19T07:06:54Z",
       "first_seen_at": "2026-08-19T11:41:33.594971Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T13:09:39.632707Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -84,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T13:09:39.632707Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -118,57 +112,6 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "cell"
-      ]
-    },
-    {
-      "id": "f683014d06092f5f729dbfd22dc058b3b3d680bb",
-      "canonical_key": "repo:ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "source_type": "project",
-      "title": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification: \"Machine learning-based classification of Alzheimer's disease using gene expression data (GSE33000)\"",
-      "title_zh": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification ： “使用基因表达数据基于机器学习的阿尔茨海默病分类（ GSE33000 ）”",
-      "title_en": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification: \"Machine learning-based classification of Alzheimer's disease using gene expression data (GSE33000)\"",
-      "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "published_at": "2026-08-18T12:21:17Z",
-      "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "ml"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "disease"
       ]
     }
   ],
@@ -186,7 +129,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
       "published_at": "2026-08-19T07:06:54Z",
       "first_seen_at": "2026-08-19T11:41:33.594971Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T13:09:39.632707Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -234,7 +177,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T13:09:39.632707Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -268,57 +211,6 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "cell"
-      ]
-    },
-    {
-      "id": "f683014d06092f5f729dbfd22dc058b3b3d680bb",
-      "canonical_key": "repo:ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "source_type": "project",
-      "title": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification: \"Machine learning-based classification of Alzheimer's disease using gene expression data (GSE33000)\"",
-      "title_zh": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification ： “使用基因表达数据基于机器学习的阿尔茨海默病分类（ GSE33000 ）”",
-      "title_en": "ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification: \"Machine learning-based classification of Alzheimer's disease using gene expression data (GSE33000)\"",
-      "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
-      "published_at": "2026-08-18T12:21:17Z",
-      "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-19T11:41:33.594971Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "ml"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "disease"
       ]
     }
   ],
