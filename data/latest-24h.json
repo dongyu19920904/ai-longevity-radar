@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-19T10:46:53.806545Z",
+  "generated_at": "2026-08-19T11:41:33.594971Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 700,
-  "total_items_all_mode": 700,
-  "archive_total": 4681,
+  "total_items": 3,
+  "total_items_raw": 695,
+  "total_items_all_mode": 695,
+  "archive_total": 4707,
   "site_count": 2,
   "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 34
+      "count": 2,
+      "raw_count": 37
     },
     {
       "site_id": "github_projects",
@@ -23,6 +23,54 @@
     }
   ],
   "items": [
+    {
+      "id": "40c1e8854430eef13979b42da516156e6639a9fe",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "title_zh": "超越算法： EXL的哈里森，关于为什么好奇心在人工智能时代胜过技术寿命-人才很重要-人力资源新闻",
+      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
+      "published_at": "2026-08-19T07:06:54Z",
+      "first_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "algorithm"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "f45f4121a7cdb0fffbbdd32c44aec1b7d2a8ef4e",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
@@ -36,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T10:46:53.806545Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -85,7 +133,7 @@
       "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
       "published_at": "2026-08-18T12:21:17Z",
       "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-19T10:46:53.806545Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -126,6 +174,54 @@
   ],
   "items_ai": [
     {
+      "id": "40c1e8854430eef13979b42da516156e6639a9fe",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "title_zh": "超越算法： EXL的哈里森，关于为什么好奇心在人工智能时代胜过技术寿命-人才很重要-人力资源新闻",
+      "title_en": "Beyond the Algorithm: EXL’s Harrison on why curiosity beats technical longevity in the AI era - People Matters - HR News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUFyd0RiS1JYbVNzclVpUkpJeEFHZUlCbzVyYWl5NldVWUZaeF84Mi1mdkx3NXVUZkJZbGcxV2NDclpUT0FYZDliYU5MTk9pYmdxUmlLd2RpWnphQW1CTmJYbGdOalp6YkRQb0lWYUoxaEFwNF82aFJqZW5tWUgtNVNRMkdrZjRKTnRHLXRPVGllNFNKNC1JUXBaRUxTX2R3S1FQMFh0cnJ0Rk9yQ2dRUXZsRWJZQmJDWDRZLTNZdzlxSGZKM0FQZmk0WVRYdG54cHZVSFVIS21jVmNqWGc?oc=5",
+      "published_at": "2026-08-19T07:06:54Z",
+      "first_seen_at": "2026-08-19T11:41:33.594971Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "algorithm"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "f45f4121a7cdb0fffbbdd32c44aec1b7d2a8ef4e",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "site_id": "official_rss",
@@ -138,7 +234,7 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DZEp5VTdXaEV5STJ2UUFsU0lHQkxYajdjZWYzakhOXzFZQVdiZnZWVFEwTlozdC1aSDJfb21tbzV0ZFZROWtFTEZDN0dmVnIyaTFRRmNDekpwcFJWUmlDQkNza3B1RDBsT0kyT0E1SHdYbHRuQ21B?oc=5",
       "published_at": "2026-08-18T14:55:51Z",
       "first_seen_at": "2026-08-18T15:47:14.880970Z",
-      "last_seen_at": "2026-08-19T10:46:53.806545Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -187,7 +283,7 @@
       "url": "https://github.com/ritikachincholkar-source/alzheimers-disease-ml-classification-and-biomarker-identification",
       "published_at": "2026-08-18T12:21:17Z",
       "first_seen_at": "2026-08-18T13:09:15.070228Z",
-      "last_seen_at": "2026-08-19T10:46:53.806545Z",
+      "last_seen_at": "2026-08-19T11:41:33.594971Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
