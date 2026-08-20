@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-20T09:50:58.511418Z",
+  "generated_at": "2026-08-20T10:47:49.811263Z",
   "topics": {
     "aging_clock": 3,
     "neurodegeneration": 6,
@@ -27,7 +27,7 @@
     "rejuvenation": 1
   },
   "relevance_tiers": {
-    "core": 32,
-    "related": 28
+    "core": 31,
+    "related": 29
   }
 }
