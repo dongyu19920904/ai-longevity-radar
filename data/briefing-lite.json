@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-21T09:52:56.936857Z",
+  "generated_at": "2026-08-21T10:48:43.994424Z",
   "window_hours": 504,
   "selection_mode": "core_first_related_fallback",
   "item_count": 8,
@@ -18,7 +18,7 @@
       "published_at": "2026-08-15T00:00:00Z",
       "signal_score": 0.784,
       "domain_score": 0.66,
-      "freshness_score": 0.084,
+      "freshness_score": 0.078,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -39,7 +39,7 @@
       "published_at": "2026-08-19T20:41:26Z",
       "signal_score": 0.668,
       "domain_score": 0.62,
-      "freshness_score": 0.779,
+      "freshness_score": 0.773,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -48,6 +48,30 @@
       "publication_stage": "preprint",
       "risk_flags": [
         "preprint_not_peer_reviewed"
+      ]
+    },
+    {
+      "id": "f11e2b91c1b82c89260125aa331e844bc2f12256",
+      "title": "A Histological Aging Clock",
+      "title_zh": "组织学老化时钟",
+      "title_en": "A Histological Aging Clock",
+      "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
+      "source": "Fight Aging!",
+      "site_id": "official_rss",
+      "source_type": "news",
+      "published_at": "2026-08-21T10:08:50Z",
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "freshness_score": 0.996,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
       ]
     },
     {
@@ -62,7 +86,7 @@
       "published_at": "2026-08-20T03:25:00Z",
       "signal_score": 0.648,
       "domain_score": 0.8,
-      "freshness_score": 0.819,
+      "freshness_score": 0.813,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -86,7 +110,7 @@
       "published_at": "2026-08-20T06:40:00Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.838,
+      "freshness_score": 0.832,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -110,7 +134,7 @@
       "published_at": "2026-08-19T14:30:01Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.742,
+      "freshness_score": 0.736,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -134,7 +158,7 @@
       "published_at": "2026-08-19T14:30:01Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.742,
+      "freshness_score": 0.736,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -158,7 +182,7 @@
       "published_at": "2026-08-17T06:31:10Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.409,
+      "freshness_score": 0.403,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -169,27 +193,6 @@
         "secondary_source",
         "not_primary_evidence"
       ]
-    },
-    {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "source_type": "project",
-      "published_at": "2026-08-21T01:53:30Z",
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "freshness_score": 0.952,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "risk_flags": []
     }
   ]
 }
