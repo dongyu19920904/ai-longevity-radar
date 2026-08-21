@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-21T03:16:59.385139Z",
+  "generated_at": "2026-08-21T04:55:31.444893Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 629,
-  "total_items_all_mode": 629,
-  "archive_total": 5779,
+  "total_items": 4,
+  "total_items_raw": 662,
+  "total_items_all_mode": 662,
+  "archive_total": 5846,
   "site_count": 2,
-  "source_count": 4,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 40
+      "count": 3,
+      "raw_count": 38
     },
     {
       "site_id": "github_projects",
@@ -23,62 +23,6 @@
     }
   ],
   "items": [
-    {
-      "id": "64e9f3777ea9e0864510d1ebe306203120a1d355",
-      "canonical_key": "url:https://www.news-medical.net/news/20260819/A-single-blood-test-could-offer-a-glimpse-of-disease-risk-years-in-advance.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "A single blood test could offer a glimpse of disease risk years in advance",
-      "title_zh": "一次血液检测可以提前几年了解疾病风险",
-      "title_en": "A single blood test could offer a glimpse of disease risk years in advance",
-      "url": "https://www.news-medical.net/news/20260819/A-single-blood-test-could-offer-a-glimpse-of-disease-risk-years-in-advance.aspx",
-      "published_at": "2026-08-20T03:25:00Z",
-      "first_seen_at": "2026-08-20T04:00:21.897990Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock",
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "disease risk"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "disease"
-      ]
-    },
     {
       "id": "1e3282421c737d9bca0e116aa0b54b6f706d9291",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxOOHl6cVVwVzl2QWZNRGNWYklJeG9BOUhEUXp3dTJKMGpudVgyazhJMjlSMkRfYXlnYzMtRUEzcHRCN2xiZXdsTWREMHAzeGljQjN6Vk91ajFMLXR1S3lSY29ZY1VzWjl3dmtGOGRJbnNvbkhTWkplVGhyMk0zd1p0cFp0ZG8?oc=5",
@@ -92,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOHl6cVVwVzl2QWZNRGNWYklJeG9BOUhEUXp3dTJKMGpudVgyazhJMjlSMkRfYXlnYzMtRUEzcHRCN2xiZXdsTWREMHAzeGljQjN6Vk91ajFMLXR1S3lSY29ZY1VzWjl3dmtGOGRJbnNvbkhTWkplVGhyMk0zd1p0cFp0ZG8?oc=5",
       "published_at": "2026-08-20T06:40:00Z",
       "first_seen_at": "2026-08-20T17:46:40.274943Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -143,7 +87,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-08-21T01:53:30Z",
       "first_seen_at": "2026-08-21T01:58:10.462615Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -192,7 +136,7 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYzM1OUNKN1RJMUEtYWM4ZER2elNFYk1YM2Q4Qk1kTGdGSjQtTXk0UDEwMGVKYV94WlNwTGlZZTJxTy15S3FBVjI4Q0czZF9JMWZ4VHdRQXA3SV91czBLMDFZcUF1bG5nMHpvb1BkNGI5RjVyWGtKRUhkTU9kVTNUZ3l1dFo2LVRFQTRpeUI5M0t5aWRYQ213cUtJaTJuU0JyaHAwOThtT19xYTAwdFhsN054OGFZdEpMMlA0ZWJfLS1zZk11VmNDUg?oc=5",
       "published_at": "2026-08-21T00:12:05Z",
       "first_seen_at": "2026-08-21T01:58:10.462615Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -241,7 +185,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2llQko1YkZ1QVFRVHFtVF9zM0dTVkhjQ3BUTmp0NVoxSVBjTHdlVGNkc3Y3blAzQmpKazl5d2J3bDRmZ0IyOWhocE5hTV9JRk5GOFNwUGQ4dGJFdFhBVDFpWURqYXM0M2w4R3ZidnFrMmlveXVIUmJnVnBfQ09JNTNoX3VnZWFv?oc=5",
       "published_at": "2026-08-20T16:20:09Z",
       "first_seen_at": "2026-08-20T16:51:43.011757Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -280,62 +224,6 @@
   ],
   "items_ai": [
     {
-      "id": "64e9f3777ea9e0864510d1ebe306203120a1d355",
-      "canonical_key": "url:https://www.news-medical.net/news/20260819/A-single-blood-test-could-offer-a-glimpse-of-disease-risk-years-in-advance.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "A single blood test could offer a glimpse of disease risk years in advance",
-      "title_zh": "一次血液检测可以提前几年了解疾病风险",
-      "title_en": "A single blood test could offer a glimpse of disease risk years in advance",
-      "url": "https://www.news-medical.net/news/20260819/A-single-blood-test-could-offer-a-glimpse-of-disease-risk-years-in-advance.aspx",
-      "published_at": "2026-08-20T03:25:00Z",
-      "first_seen_at": "2026-08-20T04:00:21.897990Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock",
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "disease risk"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "disease"
-      ]
-    },
-    {
       "id": "1e3282421c737d9bca0e116aa0b54b6f706d9291",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxOOHl6cVVwVzl2QWZNRGNWYklJeG9BOUhEUXp3dTJKMGpudVgyazhJMjlSMkRfYXlnYzMtRUEzcHRCN2xiZXdsTWREMHAzeGljQjN6Vk91ajFMLXR1S3lSY29ZY1VzWjl3dmtGOGRJbnNvbkhTWkplVGhyMk0zd1p0cFp0ZG8?oc=5",
       "site_id": "official_rss",
@@ -348,7 +236,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOHl6cVVwVzl2QWZNRGNWYklJeG9BOUhEUXp3dTJKMGpudVgyazhJMjlSMkRfYXlnYzMtRUEzcHRCN2xiZXdsTWREMHAzeGljQjN6Vk91ajFMLXR1S3lSY29ZY1VzWjl3dmtGOGRJbnNvbkhTWkplVGhyMk0zd1p0cFp0ZG8?oc=5",
       "published_at": "2026-08-20T06:40:00Z",
       "first_seen_at": "2026-08-20T17:46:40.274943Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -399,7 +287,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-08-21T01:53:30Z",
       "first_seen_at": "2026-08-21T01:58:10.462615Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -448,7 +336,7 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYzM1OUNKN1RJMUEtYWM4ZER2elNFYk1YM2Q4Qk1kTGdGSjQtTXk0UDEwMGVKYV94WlNwTGlZZTJxTy15S3FBVjI4Q0czZF9JMWZ4VHdRQXA3SV91czBLMDFZcUF1bG5nMHpvb1BkNGI5RjVyWGtKRUhkTU9kVTNUZ3l1dFo2LVRFQTRpeUI5M0t5aWRYQ213cUtJaTJuU0JyaHAwOThtT19xYTAwdFhsN054OGFZdEpMMlA0ZWJfLS1zZk11VmNDUg?oc=5",
       "published_at": "2026-08-21T00:12:05Z",
       "first_seen_at": "2026-08-21T01:58:10.462615Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -497,7 +385,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2llQko1YkZ1QVFRVHFtVF9zM0dTVkhjQ3BUTmp0NVoxSVBjTHdlVGNkc3Y3blAzQmpKazl5d2J3bDRmZ0IyOWhocE5hTV9JRk5GOFNwUGQ4dGJFdFhBVDFpWURqYXM0M2w4R3ZidnFrMmlveXVIUmJnVnBfQ09JNTNoX3VnZWFv?oc=5",
       "published_at": "2026-08-20T16:20:09Z",
       "first_seen_at": "2026-08-20T16:51:43.011757Z",
-      "last_seen_at": "2026-08-21T03:16:59.385139Z",
+      "last_seen_at": "2026-08-21T04:55:31.444893Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
