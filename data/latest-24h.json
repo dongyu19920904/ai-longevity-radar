@@ -1,18 +1,18 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T13:45:07.725495Z",
+  "generated_at": "2026-08-22T14:39:11.507210Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 460,
-  "total_items_all_mode": 460,
-  "archive_total": 6695,
+  "total_items": 3,
+  "total_items_raw": 447,
+  "total_items_all_mode": 447,
+  "archive_total": 6710,
   "site_count": 2,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
+      "count": 2,
       "raw_count": 18
     },
     {
@@ -23,6 +23,55 @@
     }
   ],
   "items": [
+    {
+      "id": "aec1bc3e96891d8539d4d0835632ae76ccb15734",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Could Fast-Track Cancer And Alzheimer’s Treatments: Anthropic CEO Predicts A Medical Revolution Within 1 - News18",
+      "title_zh": "人工智能可以快速跟踪癌症和阿尔茨海默氏症的治疗： Anthropic首席执行官预测1内医学革命-新闻18",
+      "title_en": "AI Could Fast-Track Cancer And Alzheimer’s Treatments: Anthropic CEO Predicts A Medical Revolution Within 1 - News18",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
+      "published_at": "2026-08-22T14:33:37Z",
+      "first_seen_at": "2026-08-22T14:39:11.507210Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
     {
       "id": "95630a226609584b03c6d49418bfe39e88284dae",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
@@ -36,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
       "published_at": "2026-08-21T16:55:33Z",
       "first_seen_at": "2026-08-22T10:41:14.441023Z",
-      "last_seen_at": "2026-08-22T10:41:14.441023Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -83,7 +132,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T13:45:07.725495Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -118,6 +167,55 @@
   ],
   "items_ai": [
     {
+      "id": "aec1bc3e96891d8539d4d0835632ae76ccb15734",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Could Fast-Track Cancer And Alzheimer’s Treatments: Anthropic CEO Predicts A Medical Revolution Within 1 - News18",
+      "title_zh": "人工智能可以快速跟踪癌症和阿尔茨海默氏症的治疗： Anthropic首席执行官预测1内医学革命-新闻18",
+      "title_en": "AI Could Fast-Track Cancer And Alzheimer’s Treatments: Anthropic CEO Predicts A Medical Revolution Within 1 - News18",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
+      "published_at": "2026-08-22T14:33:37Z",
+      "first_seen_at": "2026-08-22T14:39:11.507210Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "95630a226609584b03c6d49418bfe39e88284dae",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
       "site_id": "official_rss",
@@ -130,7 +228,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
       "published_at": "2026-08-21T16:55:33Z",
       "first_seen_at": "2026-08-22T10:41:14.441023Z",
-      "last_seen_at": "2026-08-22T10:41:14.441023Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -177,7 +275,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T13:45:07.725495Z",
+      "last_seen_at": "2026-08-22T14:39:11.507210Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
