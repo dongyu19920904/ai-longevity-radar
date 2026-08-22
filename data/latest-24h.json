@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T08:49:03.292053Z",
+  "generated_at": "2026-08-22T09:43:56.595479Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 573,
-  "total_items_all_mode": 573,
-  "archive_total": 6612,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items": 2,
+  "total_items_raw": 553,
+  "total_items_all_mode": 553,
+  "archive_total": 6629,
+  "site_count": 2,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
       "raw_count": 25
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "items": [
@@ -30,7 +36,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
       "published_at": "2026-08-21T10:08:50Z",
       "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T08:49:03.292053Z",
+      "last_seen_at": "2026-08-22T09:43:56.595479Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -69,6 +75,51 @@
         "human",
         "tissue"
       ]
+    },
+    {
+      "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
+      "canonical_key": "repo:amith-paruchuri/cardiac-age-gap-deeplearning",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "Amith-paruchuri/cardiac-age-gap-deeplearning",
+      "source_type": "project",
+      "title": "Amith-paruchuri/cardiac-age-gap-deeplearning: Deep learning-derived ECG biological age gap across cardiac diagnostic categories — AHA Scientific Sessions 2026",
+      "title_zh": "Amith-paruchuri/cardiac-age-gap-deeplearning ：心脏诊断类别中的深度学习衍生心电图生物学年龄差距— AHA科学会议2026",
+      "title_en": "Amith-paruchuri/cardiac-age-gap-deeplearning: Deep learning-derived ECG biological age gap across cardiac diagnostic categories — AHA Scientific Sessions 2026",
+      "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
+      "published_at": "2026-08-22T09:33:17Z",
+      "first_seen_at": "2026-08-22T09:43:56.595479Z",
+      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -85,7 +136,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
       "published_at": "2026-08-21T10:08:50Z",
       "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T08:49:03.292053Z",
+      "last_seen_at": "2026-08-22T09:43:56.595479Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -124,6 +175,51 @@
         "human",
         "tissue"
       ]
+    },
+    {
+      "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
+      "canonical_key": "repo:amith-paruchuri/cardiac-age-gap-deeplearning",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "Amith-paruchuri/cardiac-age-gap-deeplearning",
+      "source_type": "project",
+      "title": "Amith-paruchuri/cardiac-age-gap-deeplearning: Deep learning-derived ECG biological age gap across cardiac diagnostic categories — AHA Scientific Sessions 2026",
+      "title_zh": "Amith-paruchuri/cardiac-age-gap-deeplearning ：心脏诊断类别中的深度学习衍生心电图生物学年龄差距— AHA科学会议2026",
+      "title_en": "Amith-paruchuri/cardiac-age-gap-deeplearning: Deep learning-derived ECG biological age gap across cardiac diagnostic categories — AHA Scientific Sessions 2026",
+      "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
+      "published_at": "2026-08-22T09:33:17Z",
+      "first_seen_at": "2026-08-22T09:43:56.595479Z",
+      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
