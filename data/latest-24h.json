@@ -1,25 +1,31 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T16:41:35.914322Z",
+  "generated_at": "2026-08-22T17:36:36.768977Z",
   "window_hours": 24,
   "total_items": 3,
-  "total_items_raw": 426,
-  "total_items_all_mode": 426,
-  "archive_total": 6755,
-  "site_count": 2,
+  "total_items_raw": 407,
+  "total_items_all_mode": 407,
+  "archive_total": 6774,
+  "site_count": 3,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 13
+      "count": 1,
+      "raw_count": 8
     },
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
       "count": 1,
       "raw_count": 1
+    },
+    {
+      "site_id": "ai_radar_tophub",
+      "site_name": "爱窝啦 AI雷达 · TopHub",
+      "count": 1,
+      "raw_count": 56
     }
   ],
   "items": [
@@ -36,7 +42,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
       "published_at": "2026-08-22T14:33:37Z",
       "first_seen_at": "2026-08-22T14:39:11.507210Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -73,53 +79,6 @@
       ]
     },
     {
-      "id": "95630a226609584b03c6d49418bfe39e88284dae",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
-      "title_zh": "MARIA SHRIVER关于欺诈性AI DEEPFAKE广告和虚假阿尔茨海默氏症补充剂代言的声明- mariashriver.com",
-      "title_en": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
-      "published_at": "2026-08-21T16:55:33Z",
-      "first_seen_at": "2026-08-22T10:41:14.441023Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
       "canonical_key": "repo:amith-paruchuri/cardiac-age-gap-deeplearning",
       "site_id": "github_projects",
@@ -132,7 +91,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -163,6 +122,58 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
+    },
+    {
+      "id": "3e621e7c8f0ac994c80ebc5cd73a099c3ece5814",
+      "canonical_key": "url:https://hub.baai.ac.cn/view/57342",
+      "site_id": "ai_radar_tophub",
+      "site_name": "爱窝啦 AI雷达 · TopHub",
+      "source": "Readhub · AI",
+      "source_type": "news",
+      "title": "英矽智能上线虚拟衰老细胞页面，发布多智能体驱动的多模态虚拟衰老细胞生成平台预览版",
+      "url": "https://hub.baai.ac.cn/view/57342",
+      "published_at": "2026-08-22T17:03:13.044372Z",
+      "first_seen_at": "2026-08-22T17:36:36.768977Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.59,
+      "signal_score": 0.516,
+      "domain_score": 0.59,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation",
+        "aging_mechanism"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "多模态"
+      ],
+      "longevity_signals": [
+        "衰老",
+        "衰老细胞"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "细胞"
+      ],
+      "upstream_site_id": "tophub",
+      "upstream_ai_is_related": true,
+      "upstream_ai_score": 0.65
     }
   ],
   "items_ai": [
@@ -179,7 +190,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLVBhNjBIaFlUNEpMTmFTakVER3RlVEoxQnFWZmpvMWMtdEs5VDBRNTVpaERhWndnRkpNSjZSNkVTbndkWGdKTzJFcFNhY1NkeFdoR0d0dXBCTlFOQ05iemE3WVF0cjNUdjVMVjloOFoyMUs1WXdyQkV0SXpzUEY1WHZZVGFtck1HdWktc1R3WnozaGI5Wkg5VDBxV2hUQ1pXLWhZRTFNdmE3LXNzam5qbFRNSkY1aDdHWGl5dHFjVmtkMzQwdWZ4a2VhajN2YXhxMHA1a01xZEJuYkhaU1RVVldyMWxyZWZid3JoMm9RVlBlSjRrNF9vX1hnS1pjek9uNHJoZF9nOTM0QdIBjwJBVV95cUxQQW9mTzEtYzM3cGFMdGtpZzh3WHV3UTFjVUNsYi13NmF4Rzl4RzlKRjJDSHJNX1ZIV2didzlVekFrTDlUM2k2bUQzdDZpeEpyZ2N4a2NSbTBINUxFQ1lMWEFMZlVKSXBpYThpdU9McmY5d0xsTEZQQUlLTW41NnEzZXBENENoRXlGTThtdElUZkRNekVRQXRJQ1NZOWxTZ2VLUEJYYm8wUWJtVnpjZ2dHcUJhcktTc1FNb1NacDBVVWoyUERxUTkyUlFoZFljdGlFR0pEdWxNZjNkczREUHZiV1pvWmpQZk5NYVVlWXpINzhuVGpqdGhJc2VNQzFxNzM0Y2VIRUluVk9QOTRHZmxJ?oc=5",
       "published_at": "2026-08-22T14:33:37Z",
       "first_seen_at": "2026-08-22T14:39:11.507210Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -216,53 +227,6 @@
       ]
     },
     {
-      "id": "95630a226609584b03c6d49418bfe39e88284dae",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
-      "title_zh": "MARIA SHRIVER关于欺诈性AI DEEPFAKE广告和虚假阿尔茨海默氏症补充剂代言的声明- mariashriver.com",
-      "title_en": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
-      "published_at": "2026-08-21T16:55:33Z",
-      "first_seen_at": "2026-08-22T10:41:14.441023Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
       "canonical_key": "repo:amith-paruchuri/cardiac-age-gap-deeplearning",
       "site_id": "github_projects",
@@ -275,7 +239,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T16:41:35.914322Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -306,6 +270,58 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
+    },
+    {
+      "id": "3e621e7c8f0ac994c80ebc5cd73a099c3ece5814",
+      "canonical_key": "url:https://hub.baai.ac.cn/view/57342",
+      "site_id": "ai_radar_tophub",
+      "site_name": "爱窝啦 AI雷达 · TopHub",
+      "source": "Readhub · AI",
+      "source_type": "news",
+      "title": "英矽智能上线虚拟衰老细胞页面，发布多智能体驱动的多模态虚拟衰老细胞生成平台预览版",
+      "url": "https://hub.baai.ac.cn/view/57342",
+      "published_at": "2026-08-22T17:03:13.044372Z",
+      "first_seen_at": "2026-08-22T17:36:36.768977Z",
+      "last_seen_at": "2026-08-22T17:36:36.768977Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.59,
+      "signal_score": 0.516,
+      "domain_score": 0.59,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation",
+        "aging_mechanism"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "多模态"
+      ],
+      "longevity_signals": [
+        "衰老",
+        "衰老细胞"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "细胞"
+      ],
+      "upstream_site_id": "tophub",
+      "upstream_ai_is_related": true,
+      "upstream_ai_score": 0.65
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
