@@ -1,18 +1,18 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T05:43:25.262820Z",
+  "generated_at": "2026-08-22T06:59:55.816384Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "total_items_raw": 601,
   "total_items_all_mode": 601,
-  "archive_total": 6537,
+  "archive_total": 6569,
   "site_count": 1,
-  "source_count": 3,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
+      "count": 2,
       "raw_count": 26
     }
   ],
@@ -30,7 +30,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
       "published_at": "2026-08-21T10:08:50Z",
       "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
+      "last_seen_at": "2026-08-22T06:59:55.816384Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -83,7 +83,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
       "published_at": "2026-08-21T07:42:00Z",
       "first_seen_at": "2026-08-21T07:58:11.499325Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
+      "last_seen_at": "2026-08-22T06:59:55.816384Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -116,57 +116,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "6b9da538ee55cbf541a15c8dec45498e40df15ff",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVUJ6VXg0YlNhUFFDNG1KTTFsTXphZXczcHl0VWRVczctazF1MWF5ZEtkck0zdURKaGFVSTdYOHB3OFdGNHZDT3ZXell5eVNGeHQ5aUZBRVhVTzJrbjBB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "From frailty-driven to frailty-informed care in the age of wearable AI - Nature",
-      "title_zh": "从虚弱驱动到可穿戴人工智能时代的虚弱护理-自然",
-      "title_en": "From frailty-driven to frailty-informed care in the age of wearable AI - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVUJ6VXg0YlNhUFFDNG1KTTFsTXphZXczcHl0VWRVczctazF1MWF5ZEtkck0zdURKaGFVSTdYOHB3OFdGNHZDT3ZXell5eVNGeHQ5aUZBRVhVTzJrbjBB?oc=5",
-      "published_at": "2026-08-21T06:39:29Z",
-      "first_seen_at": "2026-08-21T08:58:57.609315Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "wearable"
-      ],
-      "biological_context_signals": [
-        "frailty"
-      ]
     }
   ],
   "items_ai": [
@@ -183,7 +132,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
       "published_at": "2026-08-21T10:08:50Z",
       "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
+      "last_seen_at": "2026-08-22T06:59:55.816384Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -236,7 +185,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
       "published_at": "2026-08-21T07:42:00Z",
       "first_seen_at": "2026-08-21T07:58:11.499325Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
+      "last_seen_at": "2026-08-22T06:59:55.816384Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -269,57 +218,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "6b9da538ee55cbf541a15c8dec45498e40df15ff",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVUJ6VXg0YlNhUFFDNG1KTTFsTXphZXczcHl0VWRVczctazF1MWF5ZEtkck0zdURKaGFVSTdYOHB3OFdGNHZDT3ZXell5eVNGeHQ5aUZBRVhVTzJrbjBB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "From frailty-driven to frailty-informed care in the age of wearable AI - Nature",
-      "title_zh": "从虚弱驱动到可穿戴人工智能时代的虚弱护理-自然",
-      "title_en": "From frailty-driven to frailty-informed care in the age of wearable AI - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVUJ6VXg0YlNhUFFDNG1KTTFsTXphZXczcHl0VWRVczctazF1MWF5ZEtkck0zdURKaGFVSTdYOHB3OFdGNHZDT3ZXell5eVNGeHQ5aUZBRVhVTzJrbjBB?oc=5",
-      "published_at": "2026-08-21T06:39:29Z",
-      "first_seen_at": "2026-08-21T08:58:57.609315Z",
-      "last_seen_at": "2026-08-22T05:43:25.262820Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "wearable"
-      ],
-      "biological_context_signals": [
-        "frailty"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
