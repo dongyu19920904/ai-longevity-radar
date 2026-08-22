@@ -1,19 +1,17 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T06:59:55.816384Z",
+  "generated_at": "2026-08-22T07:46:34.028062Z",
   "topics": {
-    "aging_clock": 1,
-    "neurodegeneration": 1
+    "aging_clock": 1
   },
   "source_types": {
-    "news": 2
+    "news": 1
   },
   "study_subjects": {
-    "human": 1,
-    "unknown": 1
+    "human": 1
   },
   "publication_stages": {
-    "secondary_report": 2
+    "secondary_report": 1
   },
   "relevant_topics": {
     "neurodegeneration": 27,
