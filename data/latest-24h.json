@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-22T09:43:56.595479Z",
+  "generated_at": "2026-08-22T10:41:14.441023Z",
   "window_hours": 24,
   "total_items": 2,
-  "total_items_raw": 553,
-  "total_items_all_mode": 553,
-  "archive_total": 6629,
+  "total_items_raw": 524,
+  "total_items_all_mode": 524,
+  "archive_total": 6648,
   "site_count": 2,
   "source_count": 2,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 25
+      "raw_count": 21
     },
     {
       "site_id": "github_projects",
@@ -24,33 +24,33 @@
   ],
   "items": [
     {
-      "id": "f11e2b91c1b82c89260125aa331e844bc2f12256",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
+      "id": "95630a226609584b03c6d49418bfe39e88284dae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "A Histological Aging Clock",
-      "title_zh": "组织学老化时钟",
-      "title_en": "A Histological Aging Clock",
-      "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
-      "published_at": "2026-08-21T10:08:50Z",
-      "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "title": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
+      "title_zh": "MARIA SHRIVER关于欺诈性AI DEEPFAKE广告和虚假阿尔茨海默氏症补充剂代言的声明- mariashriver.com",
+      "title_en": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
+      "published_at": "2026-08-21T16:55:33Z",
+      "first_seen_at": "2026-08-22T10:41:14.441023Z",
+      "last_seen_at": "2026-08-22T10:41:14.441023Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -59,22 +59,16 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "human",
-        "tissue"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
@@ -89,7 +83,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "last_seen_at": "2026-08-22T10:41:14.441023Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -124,33 +118,33 @@
   ],
   "items_ai": [
     {
-      "id": "f11e2b91c1b82c89260125aa331e844bc2f12256",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
+      "id": "95630a226609584b03c6d49418bfe39e88284dae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "A Histological Aging Clock",
-      "title_zh": "组织学老化时钟",
-      "title_en": "A Histological Aging Clock",
-      "url": "https://www.fightaging.org/archives/2026/08/a-histological-aging-clock",
-      "published_at": "2026-08-21T10:08:50Z",
-      "first_seen_at": "2026-08-21T10:48:43.994424Z",
-      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "title": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
+      "title_zh": "MARIA SHRIVER关于欺诈性AI DEEPFAKE广告和虚假阿尔茨海默氏症补充剂代言的声明- mariashriver.com",
+      "title_en": "STATEMENT FROM MARIA SHRIVER REGARDING FRAUDULENT AI DEEPFAKE ADVERTISEMENTS AND FALSE ALZHEIMER’S SUPPLEMENT ENDORSEMENTS - mariashriver.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTRtdWpyb0MteFJyZndMWlNINU9ITVNLYU52aHl0YktwcXE3ei1ZLTdmWXdNUHc4UENLRzNVNms1c0MxcHlQcmNJM1lYMUF4WWlkM1JHRFMtS0pUQTFGNEJ1MGlCU2c?oc=5",
+      "published_at": "2026-08-21T16:55:33Z",
+      "first_seen_at": "2026-08-22T10:41:14.441023Z",
+      "last_seen_at": "2026-08-22T10:41:14.441023Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -159,22 +153,16 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "human",
-        "tissue"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "ac0b0a7029190d9d577ea134b8dc1d885e0a54ef",
@@ -189,7 +177,7 @@
       "url": "https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning",
       "published_at": "2026-08-22T09:33:17Z",
       "first_seen_at": "2026-08-22T09:43:56.595479Z",
-      "last_seen_at": "2026-08-22T09:43:56.595479Z",
+      "last_seen_at": "2026-08-22T10:41:14.441023Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
