@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-23T11:35:46.369102Z",
+  "generated_at": "2026-08-23T13:03:04.434189Z",
   "window_hours": 24,
   "total_items": 3,
-  "total_items_raw": 397,
-  "total_items_all_mode": 397,
-  "archive_total": 7081,
+  "total_items_raw": 406,
+  "total_items_all_mode": 406,
+  "archive_total": 7105,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
@@ -13,13 +13,13 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 7
+      "raw_count": 8
     },
     {
       "site_id": "ai_radar_tophub",
       "site_name": "爱窝啦 AI雷达 · TopHub",
       "count": 1,
-      "raw_count": 55
+      "raw_count": 60
     }
   ],
   "items": [
@@ -36,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
       "published_at": "2026-08-23T05:10:29Z",
       "first_seen_at": "2026-08-23T07:01:52.751822Z",
-      "last_seen_at": "2026-08-23T11:35:46.369102Z",
+      "last_seen_at": "2026-08-23T13:03:04.434189Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -134,7 +134,7 @@
       "url": "https://hub.baai.ac.cn/view/57342",
       "published_at": "2026-08-22T17:03:13.044372Z",
       "first_seen_at": "2026-08-22T17:36:36.768977Z",
-      "last_seen_at": "2026-08-23T11:35:46.369102Z",
+      "last_seen_at": "2026-08-23T13:03:04.434189Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -190,7 +190,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
       "published_at": "2026-08-23T05:10:29Z",
       "first_seen_at": "2026-08-23T07:01:52.751822Z",
-      "last_seen_at": "2026-08-23T11:35:46.369102Z",
+      "last_seen_at": "2026-08-23T13:03:04.434189Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -288,7 +288,7 @@
       "url": "https://hub.baai.ac.cn/view/57342",
       "published_at": "2026-08-22T17:03:13.044372Z",
       "first_seen_at": "2026-08-22T17:36:36.768977Z",
-      "last_seen_at": "2026-08-23T11:35:46.369102Z",
+      "last_seen_at": "2026-08-23T13:03:04.434189Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
