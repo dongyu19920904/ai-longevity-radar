@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-24T05:02:35.306969Z",
+  "generated_at": "2026-08-24T05:54:13.628600Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 450,
-  "total_items_all_mode": 450,
-  "archive_total": 7418,
+  "total_items_raw": 440,
+  "total_items_all_mode": 440,
+  "archive_total": 7420,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -13,39 +13,38 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 6
+      "raw_count": 7
     }
   ],
   "items": [
     {
-      "id": "e2d0723c7987f214c29a727255610b6e4d539464",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
+      "id": "959b6984e3e94e71843450fb4b890489d25978e7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Sens.ai Introduces First Functional EEG-Based Brain Age Clock Validated at MRI-Grade Accuracy - Montgomery Advertiser",
-      "title_zh": "Sens.ai推出首款功能性脑电图脑龄时钟，具有MRI级精度- Montgomery Advertiser",
-      "title_en": "Sens.ai Introduces First Functional EEG-Based Brain Age Clock Validated at MRI-Grade Accuracy - Montgomery Advertiser",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
-      "published_at": "2026-08-23T05:10:29Z",
-      "first_seen_at": "2026-08-23T07:01:52.751822Z",
-      "last_seen_at": "2026-08-24T05:02:35.306969Z",
+      "title": "How AI Could Help Doctors Diagnose the Right Dementia - Being Patient",
+      "title_zh": "人工智能如何帮助医生诊断正确的痴呆症-成为患者",
+      "title_en": "How AI Could Help Doctors Diagnose the Right Dementia - Being Patient",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
+      "published_at": "2026-08-24T05:09:36Z",
+      "first_seen_at": "2026-08-24T05:54:13.628600Z",
+      "last_seen_at": "2026-08-24T05:54:13.628600Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
         "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -57,48 +56,46 @@
         "ai"
       ],
       "longevity_signals": [
-        "age clock",
-        "brain age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain"
+        "patient"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "e2d0723c7987f214c29a727255610b6e4d539464",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
+      "id": "959b6984e3e94e71843450fb4b890489d25978e7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Sens.ai Introduces First Functional EEG-Based Brain Age Clock Validated at MRI-Grade Accuracy - Montgomery Advertiser",
-      "title_zh": "Sens.ai推出首款功能性脑电图脑龄时钟，具有MRI级精度- Montgomery Advertiser",
-      "title_en": "Sens.ai Introduces First Functional EEG-Based Brain Age Clock Validated at MRI-Grade Accuracy - Montgomery Advertiser",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXdvcm1QSGNQbTZ5RkZ0cGJnZXlMbXZTREkyTjViOUhidWVtbGtfdWx5MzE2bnRZU3lobC1XYXROZzVTZXFhZ1N4Wnc5LTNPTF9iSjVndU1sMDE1eUIyZExQellZdGdQNnNWTHRRQjNwRndJT2toejZxcFYxTGFvYzYwb3prUEVPWFRZNnlqbjM1N2tvYUFWbXpkMm1aLU9ERWphSF9iYVZsU1NHOVNGaXNJSGlEUExlM2pqa2RGcTl2dHBXd0Q2RXFvSUxwUjZQNmRYX2ZQQnRuUW54MTN5QkRNd3A3VkEtODh6TkVR?oc=5",
-      "published_at": "2026-08-23T05:10:29Z",
-      "first_seen_at": "2026-08-23T07:01:52.751822Z",
-      "last_seen_at": "2026-08-24T05:02:35.306969Z",
+      "title": "How AI Could Help Doctors Diagnose the Right Dementia - Being Patient",
+      "title_zh": "人工智能如何帮助医生诊断正确的痴呆症-成为患者",
+      "title_en": "How AI Could Help Doctors Diagnose the Right Dementia - Being Patient",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
+      "published_at": "2026-08-24T05:09:36Z",
+      "first_seen_at": "2026-08-24T05:54:13.628600Z",
+      "last_seen_at": "2026-08-24T05:54:13.628600Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
         "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -110,15 +107,14 @@
         "ai"
       ],
       "longevity_signals": [
-        "age clock",
-        "brain age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain"
+        "patient"
       ]
     }
   ],
