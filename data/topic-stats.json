@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-24T22:45:11.887885Z",
+  "generated_at": "2026-08-24T23:36:24.552598Z",
   "topics": {
     "neurodegeneration": 1,
     "ai_longevity": 1
@@ -28,7 +28,7 @@
     "aging_mechanism": 7
   },
   "relevance_tiers": {
-    "core": 42,
-    "related": 18
+    "core": 41,
+    "related": 19
   }
 }
