@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-24T17:47:39.471214Z",
+  "generated_at": "2026-08-24T19:00:16.391197Z",
   "window_hours": 24,
   "total_items": 2,
-  "total_items_raw": 424,
-  "total_items_all_mode": 424,
-  "archive_total": 7643,
+  "total_items_raw": 411,
+  "total_items_all_mode": 411,
+  "archive_total": 7646,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 25
+      "raw_count": 28
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
       "published_at": "2026-08-24T05:09:36Z",
       "first_seen_at": "2026-08-24T05:54:13.628600Z",
-      "last_seen_at": "2026-08-24T17:47:39.471214Z",
+      "last_seen_at": "2026-08-24T19:00:16.391197Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -79,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbHQ0R0djdzYwSzBfZ21YeC1BM3RkTEdlT1VncENmNGVnSWRGLUpXZkNSOUNndWE3eWoxWWxyR0k3ZVBIa205ZS1hY2tTUWFqejdONG1IbG9FNVBoaEEwU3g0Zi1rZ0ZkbG4wSEZyVzJNQVhrOTRoZXp3Sm5COW8zdnZYYjlhM0dTRDlaZ1dxSDc2WWZ1ekxBSg?oc=5",
       "published_at": "2026-08-24T15:03:14Z",
       "first_seen_at": "2026-08-24T16:56:08.650438Z",
-      "last_seen_at": "2026-08-24T17:47:39.471214Z",
+      "last_seen_at": "2026-08-24T19:00:16.391197Z",
       "ai_is_related": true,
       "ai_score": 0.51,
       "longevity_is_related": true,
@@ -131,7 +131,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHdQVkt0ZlU2WTBoRFBYS2h4M25hdUJhNHNmQ1p0Zm5oaDM4NmxEVVFxU0tIam50MWNVUEpFRHYydllBYnJiZkpmbGpJb3V3c0FGcmNHVUZWUDRsWUZSX3ZHZDB5SW9LckhnT25yeGlLd3JyTUlpWlF4aDAwbUY2OTZRVzNTdw?oc=5",
       "published_at": "2026-08-24T05:09:36Z",
       "first_seen_at": "2026-08-24T05:54:13.628600Z",
-      "last_seen_at": "2026-08-24T17:47:39.471214Z",
+      "last_seen_at": "2026-08-24T19:00:16.391197Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -180,7 +180,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbHQ0R0djdzYwSzBfZ21YeC1BM3RkTEdlT1VncENmNGVnSWRGLUpXZkNSOUNndWE3eWoxWWxyR0k3ZVBIa205ZS1hY2tTUWFqejdONG1IbG9FNVBoaEEwU3g0Zi1rZ0ZkbG4wSEZyVzJNQVhrOTRoZXp3Sm5COW8zdnZYYjlhM0dTRDlaZ1dxSDc2WWZ1ekxBSg?oc=5",
       "published_at": "2026-08-24T15:03:14Z",
       "first_seen_at": "2026-08-24T16:56:08.650438Z",
-      "last_seen_at": "2026-08-24T17:47:39.471214Z",
+      "last_seen_at": "2026-08-24T19:00:16.391197Z",
       "ai_is_related": true,
       "ai_score": 0.51,
       "longevity_is_related": true,
