@@ -1,22 +1,77 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-25T22:46:01.972173Z",
+  "generated_at": "2026-08-25T23:39:38.211681Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 46,
-  "total_items_all_mode": 46,
-  "archive_total": 7708,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items": 5,
+  "total_items_raw": 47,
+  "total_items_all_mode": 47,
+  "archive_total": 7710,
+  "site_count": 2,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 4,
       "raw_count": 45
+    },
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 1,
+      "raw_count": 2
     }
   ],
   "items": [
+    {
+      "id": "5e54ce2fd262f23933384cffec20b434b6549eb5",
+      "canonical_key": "doi:10.1088/2057-1976/ae995e",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Bidirectional cross-modal attention with adaptive gating for multimodal Alzheimer's disease classification.",
+      "title_zh": "采用自适应门控的双向交叉模式注意力，用于多模式阿尔茨海默病分类。",
+      "title_en": "Bidirectional cross-modal attention with adaptive gating for multimodal Alzheimer's disease classification.",
+      "url": "https://europepmc.org/article/MED/42594919",
+      "published_at": "2026-08-25T00:00:00Z",
+      "first_seen_at": "2026-08-25T23:39:38.211681Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive",
+        "disease"
+      ]
+    },
     {
       "id": "0bb347321a290e780e8802fcab6b2ea5b519a1e9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
@@ -30,7 +85,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "published_at": "2026-08-25T20:04:03Z",
       "first_seen_at": "2026-08-25T20:47:13.005563Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -126,7 +181,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGVNWEZVSzZyZGllZVVvaFk0STVTWVZpTDlOS3dObW5LY3BqVml0THZIR3U1d1J4Nk1HcGoyZkJCaU9td1loWmtDX3AwMWdYWU5lSllIQlZ1dU5Rb19KTTE3X0VhRHhnWGl5RjV5M1FkMk9MX0p1QjZUSk5oekZ2cEMycDdqZ0E?oc=5",
       "published_at": "2026-08-25T12:20:54Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -173,7 +228,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmVBSndXb2JOemxYc3NQcDBZRTFJckQzSkJ6am4xNkRqcUs2VDY0OUxxRmdoUzlvSkczTUV0OHJieHVQNHFLMFA1V1VUWkFmLUt6cDFFcWV1dlE0N0lXQ2k5VjZQeUVsTVBvWmpUQmF1bTRBSl9uQ3MxbnA2QjZVNNIBlAFBVV95cUxQd0ZVV0hOLXEtNXo4U3ZlOTNxTzM3bW5ZVDhZbHhpQ2FvblpWQmNDSDcwZVFFRktoUlJwNENLSkQzUkZaVnJoN2wxMHJHOHZ2UW54RV9RMnNtLWZWZzViaTFzWE5IR1BtRTNOX0ZvRHFvMHVVbDBkSVZSdml0dlBnbkpBRkhtTGFwUzVndXFDZnZDTzZK?oc=5",
       "published_at": "2026-08-25T00:42:00Z",
       "first_seen_at": "2026-08-25T01:53:09.769613Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -210,6 +265,55 @@
   ],
   "items_ai": [
     {
+      "id": "5e54ce2fd262f23933384cffec20b434b6549eb5",
+      "canonical_key": "doi:10.1088/2057-1976/ae995e",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Bidirectional cross-modal attention with adaptive gating for multimodal Alzheimer's disease classification.",
+      "title_zh": "采用自适应门控的双向交叉模式注意力，用于多模式阿尔茨海默病分类。",
+      "title_en": "Bidirectional cross-modal attention with adaptive gating for multimodal Alzheimer's disease classification.",
+      "url": "https://europepmc.org/article/MED/42594919",
+      "published_at": "2026-08-25T00:00:00Z",
+      "first_seen_at": "2026-08-25T23:39:38.211681Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive",
+        "disease"
+      ]
+    },
+    {
       "id": "0bb347321a290e780e8802fcab6b2ea5b519a1e9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "site_id": "official_rss",
@@ -222,7 +326,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "published_at": "2026-08-25T20:04:03Z",
       "first_seen_at": "2026-08-25T20:47:13.005563Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -318,7 +422,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGVNWEZVSzZyZGllZVVvaFk0STVTWVZpTDlOS3dObW5LY3BqVml0THZIR3U1d1J4Nk1HcGoyZkJCaU9td1loWmtDX3AwMWdYWU5lSllIQlZ1dU5Rb19KTTE3X0VhRHhnWGl5RjV5M1FkMk9MX0p1QjZUSk5oekZ2cEMycDdqZ0E?oc=5",
       "published_at": "2026-08-25T12:20:54Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -365,7 +469,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmVBSndXb2JOemxYc3NQcDBZRTFJckQzSkJ6am4xNkRqcUs2VDY0OUxxRmdoUzlvSkczTUV0OHJieHVQNHFLMFA1V1VUWkFmLUt6cDFFcWV1dlE0N0lXQ2k5VjZQeUVsTVBvWmpUQmF1bTRBSl9uQ3MxbnA2QjZVNNIBlAFBVV95cUxQd0ZVV0hOLXEtNXo4U3ZlOTNxTzM3bW5ZVDhZbHhpQ2FvblpWQmNDSDcwZVFFRktoUlJwNENLSkQzUkZaVnJoN2wxMHJHOHZ2UW54RV9RMnNtLWZWZzViaTFzWE5IR1BtRTNOX0ZvRHFvMHVVbDBkSVZSdml0dlBnbkpBRkhtTGFwUzVndXFDZnZDTzZK?oc=5",
       "published_at": "2026-08-25T00:42:00Z",
       "first_seen_at": "2026-08-25T01:53:09.769613Z",
-      "last_seen_at": "2026-08-25T22:46:01.972173Z",
+      "last_seen_at": "2026-08-25T23:39:38.211681Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
