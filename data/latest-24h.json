@@ -1,22 +1,72 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-26T04:56:55.362367Z",
+  "generated_at": "2026-08-26T05:50:57.117248Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 38,
-  "total_items_all_mode": 38,
-  "archive_total": 7725,
+  "total_items": 4,
+  "total_items_raw": 39,
+  "total_items_all_mode": 39,
+  "archive_total": 7726,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 33
+      "count": 4,
+      "raw_count": 34
     }
   ],
   "items": [
+    {
+      "id": "11a62c8cffd0c73b96e166cc7c61eb0af8810cb9",
+      "canonical_key": "url:https://www.news-medical.net/news/20260826/Nicoya-is-a-famous-blue-zone-DNA-aging-estimates-tell-a-more-complicated-story.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Nicoya is a famous blue zone. DNA aging estimates tell a more complicated story",
+      "title_zh": "尼科亚是一个著名的蓝色区域。DNA衰老估计讲述了一个更复杂的故事",
+      "title_en": "Nicoya is a famous blue zone. DNA aging estimates tell a more complicated story",
+      "url": "https://www.news-medical.net/news/20260826/Nicoya-is-a-famous-blue-zone-DNA-aging-estimates-tell-a-more-complicated-story.aspx",
+      "published_at": "2026-08-26T05:21:00Z",
+      "first_seen_at": "2026-08-26T05:50:57.117248Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "epigenetic clock",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "0bb347321a290e780e8802fcab6b2ea5b519a1e9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
@@ -30,7 +80,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "published_at": "2026-08-25T20:04:03Z",
       "first_seen_at": "2026-08-25T20:47:13.005563Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -79,7 +129,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlFmOXdWRm5QOFVLMHIwSGNWS19pdXRHa09KNTczM1NEajZvYnR6SEl1bWVHb1lSZE1NWl92aDF2WkVRTFV3ekdlTGkyQ1NNUlVXblBtbEUxZlN1SGljc1YxQjNEUjlkUW9JVUJ2WXhCX0RPdWctTTRDWFgtNGs4RnVmMHlqejdxclpVQnczekFlaXF1MkZFMS02QVpwQml1TUxzNGl0Tkh3YkRTUHZIbmxFanJGQQ?oc=5",
       "published_at": "2026-08-25T12:40:14Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -126,7 +176,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGVNWEZVSzZyZGllZVVvaFk0STVTWVZpTDlOS3dObW5LY3BqVml0THZIR3U1d1J4Nk1HcGoyZkJCaU9td1loWmtDX3AwMWdYWU5lSllIQlZ1dU5Rb19KTTE3X0VhRHhnWGl5RjV5M1FkMk9MX0p1QjZUSk5oekZ2cEMycDdqZ0E?oc=5",
       "published_at": "2026-08-25T12:20:54Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -163,6 +213,56 @@
   ],
   "items_ai": [
     {
+      "id": "11a62c8cffd0c73b96e166cc7c61eb0af8810cb9",
+      "canonical_key": "url:https://www.news-medical.net/news/20260826/Nicoya-is-a-famous-blue-zone-DNA-aging-estimates-tell-a-more-complicated-story.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Nicoya is a famous blue zone. DNA aging estimates tell a more complicated story",
+      "title_zh": "尼科亚是一个著名的蓝色区域。DNA衰老估计讲述了一个更复杂的故事",
+      "title_en": "Nicoya is a famous blue zone. DNA aging estimates tell a more complicated story",
+      "url": "https://www.news-medical.net/news/20260826/Nicoya-is-a-famous-blue-zone-DNA-aging-estimates-tell-a-more-complicated-story.aspx",
+      "published_at": "2026-08-26T05:21:00Z",
+      "first_seen_at": "2026-08-26T05:50:57.117248Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "epigenetic clock",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "0bb347321a290e780e8802fcab6b2ea5b519a1e9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "site_id": "official_rss",
@@ -175,7 +275,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXpyc3FpUi1YaG9keXZvLXFhNkRlU0NCTTNWU3JJSjhoejJGSzBSelJ3a2RHU0ZBX2ZNOHd4Sm0zQ3kwYXdheklkN2JvZHVncVhSa3l1TWdfN25CTzdfRnd6bldidGNtenNKdTUwZF9VcnZTYW5rUC1FN0Q3SktvelViTEo2WnNLSXFYSEZ6d2tuVG91T2JLNGp3dFFsa3pkVURTNDNLbi1KV1UwQmk2Q2l3YVBnRDRKTThtcFRKbw?oc=5",
       "published_at": "2026-08-25T20:04:03Z",
       "first_seen_at": "2026-08-25T20:47:13.005563Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -224,7 +324,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlFmOXdWRm5QOFVLMHIwSGNWS19pdXRHa09KNTczM1NEajZvYnR6SEl1bWVHb1lSZE1NWl92aDF2WkVRTFV3ekdlTGkyQ1NNUlVXblBtbEUxZlN1SGljc1YxQjNEUjlkUW9JVUJ2WXhCX0RPdWctTTRDWFgtNGs4RnVmMHlqejdxclpVQnczekFlaXF1MkZFMS02QVpwQml1TUxzNGl0Tkh3YkRTUHZIbmxFanJGQQ?oc=5",
       "published_at": "2026-08-25T12:40:14Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -271,7 +371,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGVNWEZVSzZyZGllZVVvaFk0STVTWVZpTDlOS3dObW5LY3BqVml0THZIR3U1d1J4Nk1HcGoyZkJCaU9td1loWmtDX3AwMWdYWU5lSllIQlZ1dU5Rb19KTTE3X0VhRHhnWGl5RjV5M1FkMk9MX0p1QjZUSk5oekZ2cEMycDdqZ0E?oc=5",
       "published_at": "2026-08-25T12:20:54Z",
       "first_seen_at": "2026-08-25T13:12:08.836290Z",
-      "last_seen_at": "2026-08-26T04:56:55.362367Z",
+      "last_seen_at": "2026-08-26T05:50:57.117248Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
