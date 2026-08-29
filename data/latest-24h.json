@@ -1,22 +1,72 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-28T18:43:53.222583Z",
+  "generated_at": "2026-08-29T02:12:46.846995Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 379,
-  "total_items_all_mode": 379,
-  "archive_total": 8363,
+  "total_items": 2,
+  "total_items_raw": 198,
+  "total_items_all_mode": 198,
+  "archive_total": 8358,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 14
+      "count": 2,
+      "raw_count": 12
     }
   ],
   "items": [
+    {
+      "id": "dd3c669ef33c4a7969263d587392654298792894",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxPYURLU0pQbW9IVW9xQ3ZuaEdKdFF5SUtjckJtTVVOSHVSYW5xblV0bmEwaDJxSGhhZ01UUG1kbGVGNWtDZTNOQTh1R0NkOG53WENSTTA5T0JUcGZGRmVwcmRkdGNQZV9yQlVGcm1CazJ6V1BPR2stWWRQV21LMlJ1d0VCVjNtUHlSRUFfNUtSTXVDV0ctNjhzVmJ6eUpLcnhsRmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Reads Dementia Risk From Retinal Photos, Not Brain Scans - Seoul Economic Daily",
+      "title_zh": "人工智能从视网膜照片而不是脑部扫描中读取痴呆风险-首尔经济日报",
+      "title_en": "AI Reads Dementia Risk From Retinal Photos, Not Brain Scans - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYURLU0pQbW9IVW9xQ3ZuaEdKdFF5SUtjckJtTVVOSHVSYW5xblV0bmEwaDJxSGhhZ01UUG1kbGVGNWtDZTNOQTh1R0NkOG53WENSTTA5T0JUcGZGRmVwcmRkdGNQZV9yQlVGcm1CazJ6V1BPR2stWWRQV21LMlJ1d0VCVjNtUHlSRUFfNUtSTXVDV0ctNjhzVmJ6eUpLcnhsRmc?oc=5",
+      "published_at": "2026-08-28T22:01:05Z",
+      "first_seen_at": "2026-08-29T02:12:46.846995Z",
+      "last_seen_at": "2026-08-29T02:12:46.846995Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker",
+        "neurodegeneration"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
     {
       "id": "66ca9ba39d6cf825b68b9f4a37ea217d95087406",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
@@ -30,7 +80,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
       "published_at": "2026-08-28T16:45:06Z",
       "first_seen_at": "2026-08-28T18:43:53.222583Z",
-      "last_seen_at": "2026-08-28T18:43:53.222583Z",
+      "last_seen_at": "2026-08-29T02:12:46.846995Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -67,6 +117,56 @@
   ],
   "items_ai": [
     {
+      "id": "dd3c669ef33c4a7969263d587392654298792894",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxPYURLU0pQbW9IVW9xQ3ZuaEdKdFF5SUtjckJtTVVOSHVSYW5xblV0bmEwaDJxSGhhZ01UUG1kbGVGNWtDZTNOQTh1R0NkOG53WENSTTA5T0JUcGZGRmVwcmRkdGNQZV9yQlVGcm1CazJ6V1BPR2stWWRQV21LMlJ1d0VCVjNtUHlSRUFfNUtSTXVDV0ctNjhzVmJ6eUpLcnhsRmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Reads Dementia Risk From Retinal Photos, Not Brain Scans - Seoul Economic Daily",
+      "title_zh": "人工智能从视网膜照片而不是脑部扫描中读取痴呆风险-首尔经济日报",
+      "title_en": "AI Reads Dementia Risk From Retinal Photos, Not Brain Scans - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYURLU0pQbW9IVW9xQ3ZuaEdKdFF5SUtjckJtTVVOSHVSYW5xblV0bmEwaDJxSGhhZ01UUG1kbGVGNWtDZTNOQTh1R0NkOG53WENSTTA5T0JUcGZGRmVwcmRkdGNQZV9yQlVGcm1CazJ6V1BPR2stWWRQV21LMlJ1d0VCVjNtUHlSRUFfNUtSTXVDV0ctNjhzVmJ6eUpLcnhsRmc?oc=5",
+      "published_at": "2026-08-28T22:01:05Z",
+      "first_seen_at": "2026-08-29T02:12:46.846995Z",
+      "last_seen_at": "2026-08-29T02:12:46.846995Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker",
+        "neurodegeneration"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
       "id": "66ca9ba39d6cf825b68b9f4a37ea217d95087406",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
       "site_id": "official_rss",
@@ -79,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
       "published_at": "2026-08-28T16:45:06Z",
       "first_seen_at": "2026-08-28T18:43:53.222583Z",
-      "last_seen_at": "2026-08-28T18:43:53.222583Z",
+      "last_seen_at": "2026-08-29T02:12:46.846995Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
