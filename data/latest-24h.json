@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-29T14:29:42.397043Z",
+  "generated_at": "2026-08-29T18:31:43.307411Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 18,
-  "total_items_all_mode": 18,
-  "archive_total": 8368,
+  "total_items": 3,
+  "total_items_raw": 210,
+  "total_items_all_mode": 210,
+  "archive_total": 8604,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 15
+      "count": 3,
+      "raw_count": 8
     }
   ],
   "items": [
@@ -162,53 +162,6 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "66ca9ba39d6cf825b68b9f4a37ea217d95087406",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Healthy Longevity as Regenerative Capital: AI-Enabled Prevention, Senior Re-employment, and Climate Risk - Pension Policy International",
-      "title_zh": "健康长寿作为再生资本：人工智能预防、老年人再就业和气候风险-国际养老金政策",
-      "title_en": "Healthy Longevity as Regenerative Capital: AI-Enabled Prevention, Senior Re-employment, and Climate Risk - Pension Policy International",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
-      "published_at": "2026-08-28T16:45:06Z",
-      "first_seen_at": "2026-08-28T18:43:53.222583Z",
-      "last_seen_at": "2026-08-29T14:29:42.397043Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -357,53 +310,6 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "66ca9ba39d6cf825b68b9f4a37ea217d95087406",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Healthy Longevity as Regenerative Capital: AI-Enabled Prevention, Senior Re-employment, and Climate Risk - Pension Policy International",
-      "title_zh": "健康长寿作为再生资本：人工智能预防、老年人再就业和气候风险-国际养老金政策",
-      "title_en": "Healthy Longevity as Regenerative Capital: AI-Enabled Prevention, Senior Re-employment, and Climate Risk - Pension Policy International",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHdtOVZvdXJEVDZxbjRwaE02aEZoU1Z1ajNySFZmZ3l0SWFJVDVaOW5HNDFqd0RNUG1mNktON2tZbEctMnF6TjN0dFhielQ1TzRQcElHcHB5dElRcEN2c3dzUkdFQUd2T1NYMFgyc1RQZjNRdldJVTVnazFxWnBzWnA0TUtzT2VGbnNmM1hHVVg0dy00RDc4Wnc4VHE1S1RsZ3hSZXVyTWtXcVdaQTFlVDA0ZlZ4NW16X25MV3dYSWtWQkNvZHJXaEFLd00wVGlnY0pTczdxdHhaT0VEVUE?oc=5",
-      "published_at": "2026-08-28T16:45:06Z",
-      "first_seen_at": "2026-08-28T18:43:53.222583Z",
-      "last_seen_at": "2026-08-29T14:29:42.397043Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
