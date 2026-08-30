@@ -1,16 +1,123 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-30T21:07:50.127466Z",
+  "generated_at": "2026-08-30T23:31:02.119889Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_raw": 262,
-  "total_items_all_mode": 262,
-  "archive_total": 8961,
-  "site_count": 0,
-  "source_count": 0,
-  "site_stats": [],
-  "items": [],
-  "items_ai": [],
+  "total_items": 1,
+  "total_items_raw": 276,
+  "total_items_all_mode": 276,
+  "archive_total": 8996,
+  "site_count": 1,
+  "source_count": 1,
+  "site_stats": [
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "d996ab0804306d9f1140b93a372d7b6333c5ed59",
+      "canonical_key": "repo:guven-code/classification_alzheimer-s_huntington-s_diseases-",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
+      "source_type": "project",
+      "title": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
+      "title_zh": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases- ：使用差异表达基因分析通过机器学习识别的阿尔茨海默氏症和亨廷顿氏病的转录组生物标志物代码",
+      "title_en": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
+      "url": "https://github.com/guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
+      "published_at": "2026-08-30T22:10:09Z",
+      "first_seen_at": "2026-08-30T23:31:02.119889Z",
+      "last_seen_at": "2026-08-30T23:31:02.119889Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers",
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "d996ab0804306d9f1140b93a372d7b6333c5ed59",
+      "canonical_key": "repo:guven-code/classification_alzheimer-s_huntington-s_diseases-",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
+      "source_type": "project",
+      "title": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
+      "title_zh": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases- ：使用差异表达基因分析通过机器学习识别的阿尔茨海默氏症和亨廷顿氏病的转录组生物标志物代码",
+      "title_en": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
+      "url": "https://github.com/guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
+      "published_at": "2026-08-30T22:10:09Z",
+      "first_seen_at": "2026-08-30T23:31:02.119889Z",
+      "last_seen_at": "2026-08-30T23:31:02.119889Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers",
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    }
+  ],
   "relevant_data_url": "data/latest-relevant.json",
   "all_mode_data_url": "data/latest-24h-all.json",
   "methodology_url": "https://radar.aibioo.cn/methodology.html",
