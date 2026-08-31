@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-31T20:06:34.979647Z",
+  "generated_at": "2026-08-31T23:51:43.864999Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 180,
-  "total_items_all_mode": 180,
+  "total_items": 2,
+  "total_items_raw": 145,
+  "total_items_all_mode": 145,
   "archive_total": 9145,
-  "site_count": 2,
-  "source_count": 3,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 17
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
+      "raw_count": 18
     }
   ],
   "items": [
@@ -36,7 +30,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
       "published_at": "2026-08-31T18:12:46Z",
       "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-08-31T20:06:34.979647Z",
+      "last_seen_at": "2026-08-31T23:51:43.864999Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -128,55 +122,6 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "d996ab0804306d9f1140b93a372d7b6333c5ed59",
-      "canonical_key": "repo:guven-code/classification_alzheimer-s_huntington-s_diseases-",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
-      "source_type": "project",
-      "title": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
-      "title_zh": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases- ：使用差异表达基因分析通过机器学习识别的阿尔茨海默氏症和亨廷顿氏病的转录组生物标志物代码",
-      "title_en": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
-      "url": "https://github.com/guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
-      "published_at": "2026-08-30T22:10:09Z",
-      "first_seen_at": "2026-08-30T23:31:02.119889Z",
-      "last_seen_at": "2026-08-31T20:06:34.979647Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers",
-        "transcriptomic"
-      ],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -193,7 +138,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
       "published_at": "2026-08-31T18:12:46Z",
       "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-08-31T20:06:34.979647Z",
+      "last_seen_at": "2026-08-31T23:51:43.864999Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -285,55 +230,6 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "d996ab0804306d9f1140b93a372d7b6333c5ed59",
-      "canonical_key": "repo:guven-code/classification_alzheimer-s_huntington-s_diseases-",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
-      "source_type": "project",
-      "title": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
-      "title_zh": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases- ：使用差异表达基因分析通过机器学习识别的阿尔茨海默氏症和亨廷顿氏病的转录组生物标志物代码",
-      "title_en": "guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-: code of Transcriptomic Biomarkers of Alzheimer’s and Huntington’s Diseases Identified by Machine Learning Using Differentially Expressed Gene Analysis",
-      "url": "https://github.com/guven-code/Classification_Alzheimer-s_Huntington-s_Diseases-",
-      "published_at": "2026-08-30T22:10:09Z",
-      "first_seen_at": "2026-08-30T23:31:02.119889Z",
-      "last_seen_at": "2026-08-31T20:06:34.979647Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers",
-        "transcriptomic"
-      ],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
