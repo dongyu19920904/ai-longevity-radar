@@ -1,14 +1,20 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-08-31T23:51:43.864999Z",
+  "generated_at": "2026-09-01T05:11:10.646037Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 145,
-  "total_items_all_mode": 145,
-  "archive_total": 9145,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items": 4,
+  "total_items_raw": 92,
+  "total_items_all_mode": 92,
+  "archive_total": 9151,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 2,
+      "raw_count": 11
+    },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
@@ -17,6 +23,108 @@
     }
   ],
   "items": [
+    {
+      "id": "a6a062da8f1514d505491eb8909dce4a478d2381",
+      "canonical_key": "doi:10.1096/fj.202504766r",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
+      "title_en": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
+      "url": "https://europepmc.org/article/MED/42663999",
+      "published_at": "2026-09-01T00:00:00Z",
+      "first_seen_at": "2026-09-01T05:11:10.646037Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "multi_omics"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": [
+        "disease",
+        "immune"
+      ]
+    },
+    {
+      "id": "88a7b2f7bff7bbef07fa4bafbd60d1514522efcc",
+      "canonical_key": "doi:10.1182/bloodadvances.2026020504",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
+      "title_en": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
+      "url": "https://europepmc.org/article/MED/42664000",
+      "published_at": "2026-09-01T00:00:00Z",
+      "first_seen_at": "2026-09-01T05:11:10.646037Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "sarcopenia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "cell",
+        "disease",
+        "patients",
+        "sarcopenia"
+      ]
+    },
     {
       "id": "0d26aedda827272431c66ca91b117a1487e66c77",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
@@ -30,7 +138,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
       "published_at": "2026-08-31T18:12:46Z",
       "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-08-31T23:51:43.864999Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -126,6 +234,108 @@
   ],
   "items_ai": [
     {
+      "id": "a6a062da8f1514d505491eb8909dce4a478d2381",
+      "canonical_key": "doi:10.1096/fj.202504766r",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
+      "title_en": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
+      "url": "https://europepmc.org/article/MED/42663999",
+      "published_at": "2026-09-01T00:00:00Z",
+      "first_seen_at": "2026-09-01T05:11:10.646037Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "multi_omics"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": [
+        "disease",
+        "immune"
+      ]
+    },
+    {
+      "id": "88a7b2f7bff7bbef07fa4bafbd60d1514522efcc",
+      "canonical_key": "doi:10.1182/bloodadvances.2026020504",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
+      "title_en": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
+      "url": "https://europepmc.org/article/MED/42664000",
+      "published_at": "2026-09-01T00:00:00Z",
+      "first_seen_at": "2026-09-01T05:11:10.646037Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "sarcopenia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "cell",
+        "disease",
+        "patients",
+        "sarcopenia"
+      ]
+    },
+    {
       "id": "0d26aedda827272431c66ca91b117a1487e66c77",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
       "site_id": "official_rss",
@@ -138,7 +348,7 @@
       "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
       "published_at": "2026-08-31T18:12:46Z",
       "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-08-31T23:51:43.864999Z",
+      "last_seen_at": "2026-09-01T05:11:10.646037Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
