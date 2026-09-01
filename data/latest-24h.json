@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-01T14:54:43.424854Z",
+  "generated_at": "2026-09-01T18:32:16.471101Z",
   "window_hours": 24,
   "total_items": 6,
-  "total_items_raw": 278,
-  "total_items_all_mode": 278,
-  "archive_total": 9421,
+  "total_items_raw": 336,
+  "total_items_all_mode": 336,
+  "archive_total": 9530,
   "site_count": 2,
-  "source_count": 4,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 4,
-      "raw_count": 26
+      "raw_count": 24
     },
     {
       "site_id": "europepmc",
@@ -36,7 +36,7 @@
       "url": "https://europepmc.org/article/MED/42663999",
       "published_at": "2026-09-01T00:00:00Z",
       "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -88,7 +88,7 @@
       "url": "https://europepmc.org/article/MED/42664000",
       "published_at": "2026-09-01T00:00:00Z",
       "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -128,34 +128,33 @@
       ]
     },
     {
-      "id": "0d26aedda827272431c66ca91b117a1487e66c77",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
+      "id": "7635081bc5de576e2c6e90206efc5b98c28d8e43",
+      "canonical_key": "url:https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
+      "source": "News-Medical Aging",
       "source_type": "news",
-      "title": "What Can Be Learned About Aging Clocks from Existing Clinical Trial Data for Longevity Interventions?",
-      "title_zh": "从现有的长寿干预临床试验数据中可以学到哪些关于时钟老化的知识？",
-      "title_en": "What Can Be Learned About Aging Clocks from Existing Clinical Trial Data for Longevity Interventions?",
-      "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
-      "published_at": "2026-08-31T18:12:46Z",
-      "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "title": "AI platform uncovers new molecular targets for Alzheimer's disease",
+      "title_zh": "人工智能平台揭示阿尔茨海默病的新分子靶点",
+      "title_en": "AI platform uncovers new molecular targets for Alzheimer's disease",
+      "url": "https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
+      "published_at": "2026-09-01T16:33:59Z",
+      "first_seen_at": "2026-09-01T18:32:16.471101Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.94,
-      "signal_score": 0.708,
-      "domain_score": 0.94,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "clinical_trial"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -164,23 +163,69 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock",
-        "longevity",
-        "mortality risk"
+        "alzheimer",
+        "dementia",
+        "neurodegeneration"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "clinical trial"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "clinical"
+        "disease"
+      ]
+    },
+    {
+      "id": "6e769c5640da7e1d72b35c3aca0e62fd056f17ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxQR3o1NHZ4ZTRjcFpnTm9zYk5JS2ZTaVpUdDliRklraG1vQ0I0cWlKaThqdDZ4Q1lhZDNQTUNOV18xLWRacmYyMTd2OUhnNEF5WkVaSVNlb3Nvamp1ZU80R1ZXRm1CMkpIYWI5d0w1X0VtV0pydXh6bUZuelRKTDR4MVJuNVNYSmpORjBfRGQ3M0pkQk9RaFUxTXVnMTA3dVMtV2tReE01QUo5c1lJSXQ0NFFWMA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI platform uncovers new molecular targets for Alzheimer's disease - News-Medical",
+      "title_zh": "人工智能平台揭示阿尔茨海默病的新分子靶点-新闻-医学",
+      "title_en": "AI platform uncovers new molecular targets for Alzheimer's disease - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR3o1NHZ4ZTRjcFpnTm9zYk5JS2ZTaVpUdDliRklraG1vQ0I0cWlKaThqdDZ4Q1lhZDNQTUNOV18xLWRacmYyMTd2OUhnNEF5WkVaSVNlb3Nvamp1ZU80R1ZXRm1CMkpIYWI5d0w1X0VtV0pydXh6bUZuelRKTDR4MVJuNVNYSmpORjBfRGQ3M0pkQk9RaFUxTXVnMTA3dVMtV2tReE01QUo5c1lJSXQ0NFFWMA?oc=5",
+      "published_at": "2026-09-01T16:33:00Z",
+      "first_seen_at": "2026-09-01T18:32:16.471101Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "medical"
       ]
     },
     {
@@ -196,7 +241,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFNVTk5WcS1nLXZ4T3BDTURYMDNWSWhPaF93V0g0Z1pwb2RWLXFlYzUycUxpV0RiVXUyU283U1c4Z0hwbGowLUYzZUJwbWlNSVNfWmppM2gwUDhKUmcxbmo0c0hoN3ppc1ZWU1h6RFo3VE1teHhab3g3RmxVUGJHOWpuVHFvTVRlM0Y4VVJRazR2WC1DTFJERV82UHhQcmJWM19Zbmc2SUNDTEk1YmJ4UncxeXUzNFNqdWRCS3ctZFdTZUdSSDVCZ3JxcVhyRUFSQkE?oc=5",
       "published_at": "2026-09-01T12:49:54Z",
       "first_seen_at": "2026-09-01T14:54:43.424854Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -278,56 +323,6 @@
       "biological_context_signals": [
         "disease",
         "medicine"
-      ]
-    },
-    {
-      "id": "3553cf310e852cf8b8e1f779432cb73c7e351474",
-      "canonical_key": "url:https://longevity.technology/news/fda-clears-software-that-quantifies-amyloid-in-alzheimers",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "FDA clears software that quantifies amyloid in Alzheimer’s",
-      "title_zh": "FDA清除量化阿尔茨海默氏症淀粉样蛋白的软件",
-      "title_en": "FDA clears software that quantifies amyloid in Alzheimer’s",
-      "url": "https://longevity.technology/news/fda-clears-software-that-quantifies-amyloid-in-alzheimers",
-      "published_at": "2026-08-31T16:35:36Z",
-      "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-09-01T10:09:41.815999Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
       ]
     }
   ],
@@ -345,7 +340,7 @@
       "url": "https://europepmc.org/article/MED/42663999",
       "published_at": "2026-09-01T00:00:00Z",
       "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -397,7 +392,7 @@
       "url": "https://europepmc.org/article/MED/42664000",
       "published_at": "2026-09-01T00:00:00Z",
       "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -437,34 +432,33 @@
       ]
     },
     {
-      "id": "0d26aedda827272431c66ca91b117a1487e66c77",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
+      "id": "7635081bc5de576e2c6e90206efc5b98c28d8e43",
+      "canonical_key": "url:https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
+      "source": "News-Medical Aging",
       "source_type": "news",
-      "title": "What Can Be Learned About Aging Clocks from Existing Clinical Trial Data for Longevity Interventions?",
-      "title_zh": "从现有的长寿干预临床试验数据中可以学到哪些关于时钟老化的知识？",
-      "title_en": "What Can Be Learned About Aging Clocks from Existing Clinical Trial Data for Longevity Interventions?",
-      "url": "https://www.fightaging.org/archives/2026/08/what-can-be-learned-about-aging-clocks-from-existing-clinical-trial-data-for-longevity-interventions",
-      "published_at": "2026-08-31T18:12:46Z",
-      "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "title": "AI platform uncovers new molecular targets for Alzheimer's disease",
+      "title_zh": "人工智能平台揭示阿尔茨海默病的新分子靶点",
+      "title_en": "AI platform uncovers new molecular targets for Alzheimer's disease",
+      "url": "https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
+      "published_at": "2026-09-01T16:33:59Z",
+      "first_seen_at": "2026-09-01T18:32:16.471101Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.94,
-      "signal_score": 0.708,
-      "domain_score": 0.94,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "clinical_trial"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -473,23 +467,69 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock",
-        "longevity",
-        "mortality risk"
+        "alzheimer",
+        "dementia",
+        "neurodegeneration"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "clinical trial"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "clinical"
+        "disease"
+      ]
+    },
+    {
+      "id": "6e769c5640da7e1d72b35c3aca0e62fd056f17ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxQR3o1NHZ4ZTRjcFpnTm9zYk5JS2ZTaVpUdDliRklraG1vQ0I0cWlKaThqdDZ4Q1lhZDNQTUNOV18xLWRacmYyMTd2OUhnNEF5WkVaSVNlb3Nvamp1ZU80R1ZXRm1CMkpIYWI5d0w1X0VtV0pydXh6bUZuelRKTDR4MVJuNVNYSmpORjBfRGQ3M0pkQk9RaFUxTXVnMTA3dVMtV2tReE01QUo5c1lJSXQ0NFFWMA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI platform uncovers new molecular targets for Alzheimer's disease - News-Medical",
+      "title_zh": "人工智能平台揭示阿尔茨海默病的新分子靶点-新闻-医学",
+      "title_en": "AI platform uncovers new molecular targets for Alzheimer's disease - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR3o1NHZ4ZTRjcFpnTm9zYk5JS2ZTaVpUdDliRklraG1vQ0I0cWlKaThqdDZ4Q1lhZDNQTUNOV18xLWRacmYyMTd2OUhnNEF5WkVaSVNlb3Nvamp1ZU80R1ZXRm1CMkpIYWI5d0w1X0VtV0pydXh6bUZuelRKTDR4MVJuNVNYSmpORjBfRGQ3M0pkQk9RaFUxTXVnMTA3dVMtV2tReE01QUo5c1lJSXQ0NFFWMA?oc=5",
+      "published_at": "2026-09-01T16:33:00Z",
+      "first_seen_at": "2026-09-01T18:32:16.471101Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "medical"
       ]
     },
     {
@@ -505,7 +545,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFNVTk5WcS1nLXZ4T3BDTURYMDNWSWhPaF93V0g0Z1pwb2RWLXFlYzUycUxpV0RiVXUyU283U1c4Z0hwbGowLUYzZUJwbWlNSVNfWmppM2gwUDhKUmcxbmo0c0hoN3ppc1ZWU1h6RFo3VE1teHhab3g3RmxVUGJHOWpuVHFvTVRlM0Y4VVJRazR2WC1DTFJERV82UHhQcmJWM19Zbmc2SUNDTEk1YmJ4UncxeXUzNFNqdWRCS3ctZFdTZUdSSDVCZ3JxcVhyRUFSQkE?oc=5",
       "published_at": "2026-09-01T12:49:54Z",
       "first_seen_at": "2026-09-01T14:54:43.424854Z",
-      "last_seen_at": "2026-09-01T14:54:43.424854Z",
+      "last_seen_at": "2026-09-01T18:32:16.471101Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -587,56 +627,6 @@
       "biological_context_signals": [
         "disease",
         "medicine"
-      ]
-    },
-    {
-      "id": "3553cf310e852cf8b8e1f779432cb73c7e351474",
-      "canonical_key": "url:https://longevity.technology/news/fda-clears-software-that-quantifies-amyloid-in-alzheimers",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "FDA clears software that quantifies amyloid in Alzheimer’s",
-      "title_zh": "FDA清除量化阿尔茨海默氏症淀粉样蛋白的软件",
-      "title_en": "FDA clears software that quantifies amyloid in Alzheimer’s",
-      "url": "https://longevity.technology/news/fda-clears-software-that-quantifies-amyloid-in-alzheimers",
-      "published_at": "2026-08-31T16:35:36Z",
-      "first_seen_at": "2026-08-31T20:06:34.979647Z",
-      "last_seen_at": "2026-09-01T10:09:41.815999Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
       ]
     }
   ],
