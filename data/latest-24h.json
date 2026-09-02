@@ -1,132 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-01T21:47:51.890629Z",
+  "generated_at": "2026-09-02T00:15:51.125199Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 322,
-  "total_items_all_mode": 322,
-  "archive_total": 9541,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items": 5,
+  "total_items_raw": 285,
+  "total_items_all_mode": 285,
+  "archive_total": 9537,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 5,
       "raw_count": 35
-    },
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 2,
-      "raw_count": 11
     }
   ],
   "items": [
-    {
-      "id": "a6a062da8f1514d505491eb8909dce4a478d2381",
-      "canonical_key": "doi:10.1096/fj.202504766r",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
-      "title_zh": "小胶质细胞吞噬的转录组特征揭示了阿尔茨海默病的诊断标志物和免疫景观。",
-      "title_en": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
-      "url": "https://europepmc.org/article/MED/42663999",
-      "published_at": "2026-09-01T00:00:00Z",
-      "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
-      "biological_context_signals": [
-        "disease",
-        "immune"
-      ]
-    },
-    {
-      "id": "88a7b2f7bff7bbef07fa4bafbd60d1514522efcc",
-      "canonical_key": "doi:10.1182/bloodadvances.2026020504",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
-      "title_zh": "机器学习衍生的肌肉减少症指数与DLBCL的存活率和非复发死亡率相关。",
-      "title_en": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
-      "url": "https://europepmc.org/article/MED/42664000",
-      "published_at": "2026-09-01T00:00:00Z",
-      "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "sarcopenia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "cell",
-        "disease",
-        "patients",
-        "sarcopenia"
-      ]
-    },
     {
       "id": "7635081bc5de576e2c6e90206efc5b98c28d8e43",
       "canonical_key": "url:https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
@@ -140,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
       "published_at": "2026-09-01T16:33:59Z",
       "first_seen_at": "2026-09-01T18:32:16.471101Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -191,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
       "published_at": "2026-09-01T20:52:06Z",
       "first_seen_at": "2026-09-01T21:47:51.890629Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -290,7 +180,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFNVTk5WcS1nLXZ4T3BDTURYMDNWSWhPaF93V0g0Z1pwb2RWLXFlYzUycUxpV0RiVXUyU283U1c4Z0hwbGowLUYzZUJwbWlNSVNfWmppM2gwUDhKUmcxbmo0c0hoN3ppc1ZWU1h6RFo3VE1teHhab3g3RmxVUGJHOWpuVHFvTVRlM0Y4VVJRazR2WC1DTFJERV82UHhQcmJWM19Zbmc2SUNDTEk1YmJ4UncxeXUzNFNqdWRCS3ctZFdTZUdSSDVCZ3JxcVhyRUFSQkE?oc=5",
       "published_at": "2026-09-01T12:49:54Z",
       "first_seen_at": "2026-09-01T14:54:43.424854Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -377,110 +267,6 @@
   ],
   "items_ai": [
     {
-      "id": "a6a062da8f1514d505491eb8909dce4a478d2381",
-      "canonical_key": "doi:10.1096/fj.202504766r",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
-      "title_zh": "小胶质细胞吞噬的转录组特征揭示了阿尔茨海默病的诊断标志物和免疫景观。",
-      "title_en": "Transcriptomic Signatures of Microglial Phagocytosis Reveal Diagnostic Markers and Immune Landscape in Alzheimer's Disease.",
-      "url": "https://europepmc.org/article/MED/42663999",
-      "published_at": "2026-09-01T00:00:00Z",
-      "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
-      "biological_context_signals": [
-        "disease",
-        "immune"
-      ]
-    },
-    {
-      "id": "88a7b2f7bff7bbef07fa4bafbd60d1514522efcc",
-      "canonical_key": "doi:10.1182/bloodadvances.2026020504",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
-      "title_zh": "机器学习衍生的肌肉减少症指数与DLBCL的存活率和非复发死亡率相关。",
-      "title_en": "A machine learning-derived sarcopenia index is associated with survival and nonrelapse mortality in DLBCL.",
-      "url": "https://europepmc.org/article/MED/42664000",
-      "published_at": "2026-09-01T00:00:00Z",
-      "first_seen_at": "2026-09-01T05:11:10.646037Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "sarcopenia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "cell",
-        "disease",
-        "patients",
-        "sarcopenia"
-      ]
-    },
-    {
       "id": "7635081bc5de576e2c6e90206efc5b98c28d8e43",
       "canonical_key": "url:https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
       "site_id": "official_rss",
@@ -493,7 +279,7 @@
       "url": "https://www.news-medical.net/news/20260901/AI-platform-uncovers-new-molecular-targets-for-Alzheimers-disease.aspx",
       "published_at": "2026-09-01T16:33:59Z",
       "first_seen_at": "2026-09-01T18:32:16.471101Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -544,7 +330,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
       "published_at": "2026-09-01T20:52:06Z",
       "first_seen_at": "2026-09-01T21:47:51.890629Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -643,7 +429,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFNVTk5WcS1nLXZ4T3BDTURYMDNWSWhPaF93V0g0Z1pwb2RWLXFlYzUycUxpV0RiVXUyU283U1c4Z0hwbGowLUYzZUJwbWlNSVNfWmppM2gwUDhKUmcxbmo0c0hoN3ppc1ZWU1h6RFo3VE1teHhab3g3RmxVUGJHOWpuVHFvTVRlM0Y4VVJRazR2WC1DTFJERV82UHhQcmJWM19Zbmc2SUNDTEk1YmJ4UncxeXUzNFNqdWRCS3ctZFdTZUdSSDVCZ3JxcVhyRUFSQkE?oc=5",
       "published_at": "2026-09-01T12:49:54Z",
       "first_seen_at": "2026-09-01T14:54:43.424854Z",
-      "last_seen_at": "2026-09-01T21:47:51.890629Z",
+      "last_seen_at": "2026-09-02T00:15:51.125199Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
