@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-02T19:48:04.772514Z",
+  "generated_at": "2026-09-02T22:39:44.345274Z",
   "window_hours": 24,
   "total_items": 5,
-  "total_items_raw": 46,
-  "total_items_all_mode": 46,
-  "archive_total": 9352,
+  "total_items_raw": 43,
+  "total_items_all_mode": 43,
+  "archive_total": 9285,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 4,
-      "raw_count": 42
+      "raw_count": 41
     },
     {
       "site_id": "clinicaltrials",
@@ -36,7 +36,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07200739",
       "published_at": "2026-09-02T00:00:00Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
       "ai_is_related": true,
       "ai_score": 0.85,
       "longevity_is_related": true,
@@ -72,6 +72,53 @@
         "cognitive",
         "patients"
       ]
+    },
+    {
+      "id": "499df3f41e634279f45475150330aad638799fcb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "NewDays closes $16M seed for AI dementia care, launches in Nevada - Dealroom",
+      "title_zh": "NewDays关闭$ 1600万AI痴呆症护理种子，在内华达州推出- Dealroom",
+      "title_en": "NewDays closes $16M seed for AI dementia care, launches in Nevada - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
+      "published_at": "2026-09-02T21:47:28Z",
+      "first_seen_at": "2026-09-02T22:39:44.345274Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "a0706110a9a445ba23930ff334d1501963e54648",
@@ -133,7 +180,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -213,55 +260,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "d89e40b95afa6e7c142b96e1856d39ff030f672f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI gets a voice in the fight against Alzheimer’s disease - Digital Journal",
-      "title_zh": "人工智能在对抗阿尔茨海默病的斗争中获得发言权-数字杂志",
-      "title_en": "AI gets a voice in the fight against Alzheimer’s disease - Digital Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
-      "published_at": "2026-09-01T20:52:06Z",
-      "first_seen_at": "2026-09-01T21:47:51.890629Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
     }
   ],
   "items_ai": [
@@ -278,7 +276,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07200739",
       "published_at": "2026-09-02T00:00:00Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
       "ai_is_related": true,
       "ai_score": 0.85,
       "longevity_is_related": true,
@@ -314,6 +312,53 @@
         "cognitive",
         "patients"
       ]
+    },
+    {
+      "id": "499df3f41e634279f45475150330aad638799fcb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "NewDays closes $16M seed for AI dementia care, launches in Nevada - Dealroom",
+      "title_zh": "NewDays关闭$ 1600万AI痴呆症护理种子，在内华达州推出- Dealroom",
+      "title_en": "NewDays closes $16M seed for AI dementia care, launches in Nevada - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
+      "published_at": "2026-09-02T21:47:28Z",
+      "first_seen_at": "2026-09-02T22:39:44.345274Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "a0706110a9a445ba23930ff334d1501963e54648",
@@ -375,7 +420,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T22:39:44.345274Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -455,55 +500,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "d89e40b95afa6e7c142b96e1856d39ff030f672f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI gets a voice in the fight against Alzheimer’s disease - Digital Journal",
-      "title_zh": "人工智能在对抗阿尔茨海默病的斗争中获得发言权-数字杂志",
-      "title_en": "AI gets a voice in the fight against Alzheimer’s disease - Digital Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTZaVVluUnBIZ1g5bnM0eEJKU1dHSjJGbzRRRHZEcnVvRC0tMDBfSGN1bkZYUkFIYUdDNjVJNHBKN1pRVk81ZTk3cnZBcEFUVV8zc3pBaXA5OFpSVVhJNjl2SHpqRzlubk9iLVRvelJwRGtMdVpuX2ZySlR4eFVIOVNmalZKU1VleWxoMVhVUy1oSnVhaEgxS2tiTQ?oc=5",
-      "published_at": "2026-09-01T20:52:06Z",
-      "first_seen_at": "2026-09-01T21:47:51.890629Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
