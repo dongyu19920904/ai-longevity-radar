@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-02T16:35:51.973948Z",
+  "generated_at": "2026-09-02T19:48:04.772514Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 41,
-  "total_items_all_mode": 41,
-  "archive_total": 9435,
+  "total_items": 5,
+  "total_items_raw": 46,
+  "total_items_all_mode": 46,
+  "archive_total": 9352,
   "site_count": 2,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 37
+      "count": 4,
+      "raw_count": 42
     },
     {
       "site_id": "clinicaltrials",
@@ -36,7 +36,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07200739",
       "published_at": "2026-09-02T00:00:00Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
       "ai_is_related": true,
       "ai_score": 0.85,
       "longevity_is_related": true,
@@ -74,11 +74,58 @@
       ]
     },
     {
+      "id": "a0706110a9a445ba23930ff334d1501963e54648",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlVVRlp6TEVyU0pyZFIxUURxOEpNU2Y2SGpYaEx1cXNSNVpkX0hnb1h5NXNiaWhVb3lBeDhTdGtwcVRDT2xwRTZoUHBKeHU0SWR3SWdMN0FnR0lvX09ONFh5dkNiMm9hMHlGV2hTOXlyeGI3SVFCeWYzcVlmUTA0RXFhczlORW1aWmlfVE1xRTV2X1lFbThtQU8wZi1PbGhQSDVzaU9wSjhlckdtMTQ5eHZDS2pUUTBsc2c?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "NewDays brings its AI-driven dementia care platform to Nevada, expands seed round to $16M - GeekWire",
+      "title_zh": "NewDays将其人工智能驱动的痴呆症护理平台带到内华达州，将种子轮扩展到1600万美元- GeekWire",
+      "title_en": "NewDays brings its AI-driven dementia care platform to Nevada, expands seed round to $16M - GeekWire",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlVVRlp6TEVyU0pyZFIxUURxOEpNU2Y2SGpYaEx1cXNSNVpkX0hnb1h5NXNiaWhVb3lBeDhTdGtwcVRDT2xwRTZoUHBKeHU0SWR3SWdMN0FnR0lvX09ONFh5dkNiMm9hMHlGV2hTOXlyeGI3SVFCeWYzcVlmUTA0RXFhczlORW1aWmlfVE1xRTV2X1lFbThtQU8wZi1PbGhQSDVzaU9wSjhlckdtMTQ5eHZDS2pUUTBsc2c?oc=5",
+      "published_at": "2026-09-02T14:00:00Z",
+      "first_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "b326bea5620bdf6f94dcd27962bc0cbcbdcf96bf",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "Meet Wispy, the AI assistant helping people with dementia live independently - Big Issue",
       "title_zh": "认识Wispy ，帮助痴呆症患者独立生活的人工智能助手-大问题",
@@ -86,7 +133,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -231,7 +278,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07200739",
       "published_at": "2026-09-02T00:00:00Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
       "ai_is_related": true,
       "ai_score": 0.85,
       "longevity_is_related": true,
@@ -269,11 +316,58 @@
       ]
     },
     {
+      "id": "a0706110a9a445ba23930ff334d1501963e54648",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlVVRlp6TEVyU0pyZFIxUURxOEpNU2Y2SGpYaEx1cXNSNVpkX0hnb1h5NXNiaWhVb3lBeDhTdGtwcVRDT2xwRTZoUHBKeHU0SWR3SWdMN0FnR0lvX09ONFh5dkNiMm9hMHlGV2hTOXlyeGI3SVFCeWYzcVlmUTA0RXFhczlORW1aWmlfVE1xRTV2X1lFbThtQU8wZi1PbGhQSDVzaU9wSjhlckdtMTQ5eHZDS2pUUTBsc2c?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "NewDays brings its AI-driven dementia care platform to Nevada, expands seed round to $16M - GeekWire",
+      "title_zh": "NewDays将其人工智能驱动的痴呆症护理平台带到内华达州，将种子轮扩展到1600万美元- GeekWire",
+      "title_en": "NewDays brings its AI-driven dementia care platform to Nevada, expands seed round to $16M - GeekWire",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlVVRlp6TEVyU0pyZFIxUURxOEpNU2Y2SGpYaEx1cXNSNVpkX0hnb1h5NXNiaWhVb3lBeDhTdGtwcVRDT2xwRTZoUHBKeHU0SWR3SWdMN0FnR0lvX09ONFh5dkNiMm9hMHlGV2hTOXlyeGI3SVFCeWYzcVlmUTA0RXFhczlORW1aWmlfVE1xRTV2X1lFbThtQU8wZi1PbGhQSDVzaU9wSjhlckdtMTQ5eHZDS2pUUTBsc2c?oc=5",
+      "published_at": "2026-09-02T14:00:00Z",
+      "first_seen_at": "2026-09-02T19:48:04.772514Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "b326bea5620bdf6f94dcd27962bc0cbcbdcf96bf",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "Meet Wispy, the AI assistant helping people with dementia live independently - Big Issue",
       "title_zh": "认识Wispy ，帮助痴呆症患者独立生活的人工智能助手-大问题",
@@ -281,7 +375,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrM1RQMEZud3gwcGVISVB5Z3FydWY1RkFOV2o1blpObGdOSmo1b1hKaF9JTFFrVm5xT2htQmJFT19CQWRobm1BM0lOSVlyQUI4cGl2T0tKbV9oTkxGcmlrM0plMVNORGJtN3Rn?oc=5",
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T16:35:51.973948Z",
+      "last_seen_at": "2026-09-02T19:48:04.772514Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
