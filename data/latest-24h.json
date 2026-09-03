@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-03T01:07:18.459816Z",
+  "generated_at": "2026-09-03T05:49:29.980011Z",
   "window_hours": 24,
   "total_items": 4,
-  "total_items_raw": 36,
-  "total_items_all_mode": 36,
-  "archive_total": 9207,
+  "total_items_raw": 38,
+  "total_items_all_mode": 38,
+  "archive_total": 9072,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -17,6 +17,53 @@
     }
   ],
   "items": [
+    {
+      "id": "4e06459511fea2f97b9cf5c4f199427ca06e8007",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihgFBVV95cUxPUlBpQXFlTUNRX29XcFNaTG9LcjNiQmo0MzEtdXBTYTRWSnBnTXV1Q2x4Y1RVUC12ZXM1Y1UxV3ZWcUc3T0Q5Y0syWGpGZFU3SVl1WkN3dnFIcEUwZF9aWkVYN0pUYVRoTXZNb18tMkE4dTh5dWpYb0FPc2ctS3FXUEpLX0dnZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI hunts new uses for Phase 3 metabolic drug - Longevity.Technology",
+      "title_zh": "人工智能寻找3期代谢药物的新用途- Longevity.Technology",
+      "title_en": "AI hunts new uses for Phase 3 metabolic drug - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUlBpQXFlTUNRX29XcFNaTG9LcjNiQmo0MzEtdXBTYTRWSnBnTXV1Q2x4Y1RVUC12ZXM1Y1UxV3ZWcUc3T0Q5Y0syWGpGZFU3SVl1WkN3dnFIcEUwZF9aWkVYN0pUYVRoTXZNb18tMkE4dTh5dWpYb0FPc2ctS3FXUEpLX0dnZw?oc=5",
+      "published_at": "2026-09-02T23:23:06Z",
+      "first_seen_at": "2026-09-03T05:49:29.980011Z",
+      "last_seen_at": "2026-09-03T05:49:29.980011Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "499df3f41e634279f45475150330aad638799fcb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
@@ -30,7 +77,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "published_at": "2026-09-02T21:47:28Z",
       "first_seen_at": "2026-09-02T22:39:44.345274Z",
-      "last_seen_at": "2026-09-03T01:07:18.459816Z",
+      "last_seen_at": "2026-09-03T05:49:29.980011Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -125,53 +172,6 @@
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
       "last_seen_at": "2026-09-02T22:39:44.345274Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "40da7cb1381a696ab2e4550e5c85f4719d02078b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMifEFVX3lxTFBib1dwZDdGQjhIVmY3LWpuM2l1aGt5RXpDeWJvYUFlTWQtd0J4VG9YZENyZWllN200Unp3VGVsR08tMTFsSFJYMjQ1WHp6R3dRS2pZZWQ0Tzg3RDlHS09oNUVtRFlPUUQ4WjF4dmtiWDMxN0lieExwbXd3Mzk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Meet Wispy, the AI assistant helping people with dementia live independently - Yahoo News UK",
-      "title_zh": "认识帮助痴呆症患者独立生活的人工智能助手Wispy -雅虎英国新闻",
-      "title_en": "Meet Wispy, the AI assistant helping people with dementia live independently - Yahoo News UK",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBib1dwZDdGQjhIVmY3LWpuM2l1aGt5RXpDeWJvYUFlTWQtd0J4VG9YZENyZWllN200Unp3VGVsR08tMTFsSFJYMjQ1WHp6R3dRS2pZZWQ0Tzg3RDlHS09oNUVtRFlPUUQ4WjF4dmtiWDMxN0lieExwbXd3Mzk?oc=5",
-      "published_at": "2026-09-02T03:20:00Z",
-      "first_seen_at": "2026-09-02T11:20:23.836220Z",
-      "last_seen_at": "2026-09-02T11:20:23.836220Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -208,6 +208,53 @@
   ],
   "items_ai": [
     {
+      "id": "4e06459511fea2f97b9cf5c4f199427ca06e8007",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihgFBVV95cUxPUlBpQXFlTUNRX29XcFNaTG9LcjNiQmo0MzEtdXBTYTRWSnBnTXV1Q2x4Y1RVUC12ZXM1Y1UxV3ZWcUc3T0Q5Y0syWGpGZFU3SVl1WkN3dnFIcEUwZF9aWkVYN0pUYVRoTXZNb18tMkE4dTh5dWpYb0FPc2ctS3FXUEpLX0dnZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI hunts new uses for Phase 3 metabolic drug - Longevity.Technology",
+      "title_zh": "人工智能寻找3期代谢药物的新用途- Longevity.Technology",
+      "title_en": "AI hunts new uses for Phase 3 metabolic drug - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUlBpQXFlTUNRX29XcFNaTG9LcjNiQmo0MzEtdXBTYTRWSnBnTXV1Q2x4Y1RVUC12ZXM1Y1UxV3ZWcUc3T0Q5Y0syWGpGZFU3SVl1WkN3dnFIcEUwZF9aWkVYN0pUYVRoTXZNb18tMkE4dTh5dWpYb0FPc2ctS3FXUEpLX0dnZw?oc=5",
+      "published_at": "2026-09-02T23:23:06Z",
+      "first_seen_at": "2026-09-03T05:49:29.980011Z",
+      "last_seen_at": "2026-09-03T05:49:29.980011Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "499df3f41e634279f45475150330aad638799fcb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "site_id": "official_rss",
@@ -220,7 +267,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "published_at": "2026-09-02T21:47:28Z",
       "first_seen_at": "2026-09-02T22:39:44.345274Z",
-      "last_seen_at": "2026-09-03T01:07:18.459816Z",
+      "last_seen_at": "2026-09-03T05:49:29.980011Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -315,53 +362,6 @@
       "published_at": "2026-09-02T08:18:28Z",
       "first_seen_at": "2026-09-02T16:35:51.973948Z",
       "last_seen_at": "2026-09-02T22:39:44.345274Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "40da7cb1381a696ab2e4550e5c85f4719d02078b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMifEFVX3lxTFBib1dwZDdGQjhIVmY3LWpuM2l1aGt5RXpDeWJvYUFlTWQtd0J4VG9YZENyZWllN200Unp3VGVsR08tMTFsSFJYMjQ1WHp6R3dRS2pZZWQ0Tzg3RDlHS09oNUVtRFlPUUQ4WjF4dmtiWDMxN0lieExwbXd3Mzk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Meet Wispy, the AI assistant helping people with dementia live independently - Yahoo News UK",
-      "title_zh": "认识帮助痴呆症患者独立生活的人工智能助手Wispy -雅虎英国新闻",
-      "title_en": "Meet Wispy, the AI assistant helping people with dementia live independently - Yahoo News UK",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBib1dwZDdGQjhIVmY3LWpuM2l1aGt5RXpDeWJvYUFlTWQtd0J4VG9YZENyZWllN200Unp3VGVsR08tMTFsSFJYMjQ1WHp6R3dRS2pZZWQ0Tzg3RDlHS09oNUVtRFlPUUQ4WjF4dmtiWDMxN0lieExwbXd3Mzk?oc=5",
-      "published_at": "2026-09-02T03:20:00Z",
-      "first_seen_at": "2026-09-02T11:20:23.836220Z",
-      "last_seen_at": "2026-09-02T11:20:23.836220Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
