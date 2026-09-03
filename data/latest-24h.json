@@ -1,78 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-02T22:39:44.345274Z",
+  "generated_at": "2026-09-03T01:07:18.459816Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 43,
-  "total_items_all_mode": 43,
-  "archive_total": 9285,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items": 4,
+  "total_items_raw": 36,
+  "total_items_all_mode": 36,
+  "archive_total": 9207,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 4,
-      "raw_count": 41
-    },
-    {
-      "site_id": "clinicaltrials",
-      "site_name": "ClinicalTrials.gov",
-      "count": 1,
-      "raw_count": 1
+      "raw_count": 35
     }
   ],
   "items": [
-    {
-      "id": "4014d496fa873702c025b53a24d6e66e1e1f719b",
-      "canonical_key": "nct:nct07200739",
-      "site_id": "clinicaltrials",
-      "site_name": "ClinicalTrials.gov",
-      "source": "NCT07200739",
-      "source_type": "trial",
-      "title": "Speech-Based Artificial Intelligence for Detection of Dementia in Danish Patients (DetectAI)",
-      "title_zh": "用于检测丹麦患者痴呆症的基于语音的人工智能（ DetectAI ）",
-      "title_en": "Speech-Based Artificial Intelligence for Detection of Dementia in Danish Patients (DetectAI)",
-      "url": "https://clinicaltrials.gov/study/NCT07200739",
-      "published_at": "2026-09-02T00:00:00Z",
-      "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T22:39:44.345274Z",
-      "ai_is_related": true,
-      "ai_score": 0.85,
-      "longevity_is_related": true,
-      "longevity_score": 0.74,
-      "signal_score": 0.802,
-      "domain_score": 0.74,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "registered_trial",
-      "evidence_type": "trial_registry",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model",
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cognitive",
-        "patients"
-      ]
-    },
     {
       "id": "499df3f41e634279f45475150330aad638799fcb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
@@ -86,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "published_at": "2026-09-02T21:47:28Z",
       "first_seen_at": "2026-09-02T22:39:44.345274Z",
-      "last_seen_at": "2026-09-02T22:39:44.345274Z",
+      "last_seen_at": "2026-09-03T01:07:18.459816Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -264,56 +208,6 @@
   ],
   "items_ai": [
     {
-      "id": "4014d496fa873702c025b53a24d6e66e1e1f719b",
-      "canonical_key": "nct:nct07200739",
-      "site_id": "clinicaltrials",
-      "site_name": "ClinicalTrials.gov",
-      "source": "NCT07200739",
-      "source_type": "trial",
-      "title": "Speech-Based Artificial Intelligence for Detection of Dementia in Danish Patients (DetectAI)",
-      "title_zh": "用于检测丹麦患者痴呆症的基于语音的人工智能（ DetectAI ）",
-      "title_en": "Speech-Based Artificial Intelligence for Detection of Dementia in Danish Patients (DetectAI)",
-      "url": "https://clinicaltrials.gov/study/NCT07200739",
-      "published_at": "2026-09-02T00:00:00Z",
-      "first_seen_at": "2026-09-02T16:35:51.973948Z",
-      "last_seen_at": "2026-09-02T22:39:44.345274Z",
-      "ai_is_related": true,
-      "ai_score": 0.85,
-      "longevity_is_related": true,
-      "longevity_score": 0.74,
-      "signal_score": 0.802,
-      "domain_score": 0.74,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "registered_trial",
-      "evidence_type": "trial_registry",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model",
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cognitive",
-        "patients"
-      ]
-    },
-    {
       "id": "499df3f41e634279f45475150330aad638799fcb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "site_id": "official_rss",
@@ -326,7 +220,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZzV21CMTRTemMwN29EcWJUWUlwUmtBTjZJMzBNeTNGM3hFUEFKQUkzaE1LZXNCeWNydFhGcGhFRGVEY3AyR2twR3g2cS0wN0xPZE9QYkNxdmVHZUhZUFZ2d3M3WXA1UjkyQzVyV0k4N3hIRDJNMjl0YS1uZFMzZEF3MC1nNHFqZzg4MkVSMlZfcG5CU2VpZDBRM3Awa0RW?oc=5",
       "published_at": "2026-09-02T21:47:28Z",
       "first_seen_at": "2026-09-02T22:39:44.345274Z",
-      "last_seen_at": "2026-09-02T22:39:44.345274Z",
+      "last_seen_at": "2026-09-03T01:07:18.459816Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
