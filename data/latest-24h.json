@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-04T05:55:36.210005Z",
+  "generated_at": "2026-09-04T11:19:52.698881Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 362,
-  "total_items_all_mode": 362,
-  "archive_total": 8824,
+  "total_items": 2,
+  "total_items_raw": 298,
+  "total_items_all_mode": 298,
+  "archive_total": 8646,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 27
+      "count": 2,
+      "raw_count": 25
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnhTVDVLODY4TFB5X0N1UXdBUndfWmtURGlQaWNGUXFNYTdjV09BZllYSmd0OUpzV3RsQXhuNW93cmFFei1GSDFaTTBJR0FLcUNYZ1lQcV9VX3ZYYUhsSmpyd2I3ZEJjTkRuZTRkeVU4SzQyQUJWX2g5QzRNeGhYbUVSMEFpVThHNlV4SHJFcTY1OERWNlBDNjlEd3g1X1p2?oc=5",
       "published_at": "2026-09-04T05:28:20Z",
       "first_seen_at": "2026-09-04T05:55:36.210005Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
+      "last_seen_at": "2026-09-04T11:19:52.698881Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,7 +77,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVlprVi1wOFRoNTM3SnN6cV80SFFNQVdDWGI2RFZ1ekZyYk1FLTZ6eGFwSFl0cEV2Mmw4UkkwX2NWZ2RfT3BUN3NNSF84TUp2TkFiOGIxRDdPVllYYlpXOV9GODF0YndNN290RXY3Q21BakszeXN2R0tfS3RZUUY0bGxWSUlEM2FIS1lGWlFsY0NIbFE?oc=5",
       "published_at": "2026-09-04T01:50:43Z",
       "first_seen_at": "2026-09-04T05:55:36.210005Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
+      "last_seen_at": "2026-09-04T11:19:52.698881Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -92,53 +92,6 @@
         "neurodegeneration"
       ],
       "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "cc4c740136f36edf9adeb7403341729c345ae59b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI helps identify drugs that may slow childhood dementia - The Times of India",
-      "title_zh": "人工智能帮助识别可能减缓儿童痴呆症的药物-印度时报",
-      "title_en": "AI helps identify drugs that may slow childhood dementia - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
-      "published_at": "2026-09-03T10:56:00Z",
-      "first_seen_at": "2026-08-21T07:58:11.499325Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -174,7 +127,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnhTVDVLODY4TFB5X0N1UXdBUndfWmtURGlQaWNGUXFNYTdjV09BZllYSmd0OUpzV3RsQXhuNW93cmFFei1GSDFaTTBJR0FLcUNYZ1lQcV9VX3ZYYUhsSmpyd2I3ZEJjTkRuZTRkeVU4SzQyQUJWX2g5QzRNeGhYbUVSMEFpVThHNlV4SHJFcTY1OERWNlBDNjlEd3g1X1p2?oc=5",
       "published_at": "2026-09-04T05:28:20Z",
       "first_seen_at": "2026-09-04T05:55:36.210005Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
+      "last_seen_at": "2026-09-04T11:19:52.698881Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -221,7 +174,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVlprVi1wOFRoNTM3SnN6cV80SFFNQVdDWGI2RFZ1ekZyYk1FLTZ6eGFwSFl0cEV2Mmw4UkkwX2NWZ2RfT3BUN3NNSF84TUp2TkFiOGIxRDdPVllYYlpXOV9GODF0YndNN290RXY3Q21BakszeXN2R0tfS3RZUUY0bGxWSUlEM2FIS1lGWlFsY0NIbFE?oc=5",
       "published_at": "2026-09-04T01:50:43Z",
       "first_seen_at": "2026-09-04T05:55:36.210005Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
+      "last_seen_at": "2026-09-04T11:19:52.698881Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -236,53 +189,6 @@
         "neurodegeneration"
       ],
       "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "cc4c740136f36edf9adeb7403341729c345ae59b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI helps identify drugs that may slow childhood dementia - The Times of India",
-      "title_zh": "人工智能帮助识别可能减缓儿童痴呆症的药物-印度时报",
-      "title_en": "AI helps identify drugs that may slow childhood dementia - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPanJxV1BaamNvek1ub1lNMTRQZ0dNTnQ0czhpQzRXWHNnd0cta3VfQW9HYzRNQ0V2b3FYdS15T2wwRzRvOFgyQlMyb2xqenRUR1puSDVPbXFSWUM4RFZLNXVHVTFMN3BockdiVlJ1WmFtWHFfLXRGai1nWlIyd2RraDVDV1dTeDdlSTFLODg0MXZHVkhWNFBHTkc3ajI5SzZIc0RkVnlpcFZSNWhsTy1xWDFSYS1MN1hFY2lmcEhkUjVpRjc1UmhvVS1OMkJrd9IB0wFBVV95cUxNWU93MjFLNXpyTmdjQU81V3V4c0RRSE5lVG9pcmZfa2Q5eE5pMUJQUVMxeDVFRklOa2VCRVZNQ21CM0cwZGFxdmpvRG4wSFNoMEEyUkxCMElfa2VvQkU2TXFHNXlXeW44Wl8tdGwyRU1aTTFPMV8yb1dSUDRNVlI3SWxBcGtIMEk1d0p2OFF5blA0SnZPLWxjNUhnQjJFNGlJNEstM0E4NVpLMmFfR08tXzJhZWVMX0VtVDRMTnRIZmhkOG9yclFZdW5hb0tOaXNSMDZJ?oc=5",
-      "published_at": "2026-09-03T10:56:00Z",
-      "first_seen_at": "2026-08-21T07:58:11.499325Z",
-      "last_seen_at": "2026-09-04T05:55:36.210005Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
