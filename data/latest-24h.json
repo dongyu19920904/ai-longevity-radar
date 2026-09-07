@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-07T10:20:26.061595Z",
+  "generated_at": "2026-09-07T16:28:30.329549Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 338,
-  "total_items_all_mode": 338,
-  "archive_total": 8034,
+  "total_items": 11,
+  "total_items_raw": 417,
+  "total_items_all_mode": 417,
+  "archive_total": 7999,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 5,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 14
+      "count": 11,
+      "raw_count": 35
     }
   ],
   "items": [
@@ -22,7 +22,7 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Senescence",
       "source_type": "news",
       "title": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
       "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估-马尼拉时报",
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
       "published_at": "2026-09-07T10:02:22Z",
       "first_seen_at": "2026-09-07T10:20:26.061595Z",
-      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -72,11 +72,464 @@
       ]
     },
     {
+      "id": "8a3cda9367bfaec565dc11caca74c4534bdad065",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQWERqLTNXS19lRkJPZEZNMVpyeEpRa1UtUDczSF9MMTc0X3F5STZaSXFHbS1LbG40amtMM3V1MDZ3TkVCTFFMQVUxdjZHWlduQjg5S05HT1N4dFhPT2lWSWVVZ0lfNmpicHl0eFJSODNWcGRvNWxmNUgwdnd0b2ExRXU5WVljNE5pcU1qOTlJU1o3MFgwVjBrQm9SYw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Proteomic Aging Clocks Track Biological Age Reversal in Rentosertib Trial - Unite.AI",
+      "title_zh": "蛋白质组老化时钟在Rentosertib试验中跟踪生物学年龄逆转- Unite.AI",
+      "title_en": "Proteomic Aging Clocks Track Biological Age Reversal in Rentosertib Trial - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWERqLTNXS19lRkJPZEZNMVpyeEpRa1UtUDczSF9MMTc0X3F5STZaSXFHbS1LbG40amtMM3V1MDZ3TkVCTFFMQVUxdjZHWlduQjg5S05HT1N4dFhPT2lWSWVVZ0lfNmpicHl0eFJSODNWcGRvNWxmNUgwdnd0b2ExRXU5WVljNE5pcU1qOTlJU1o3MFgwVjBrQm9SYw?oc=5",
+      "published_at": "2026-09-07T09:58:02Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
+    {
+      "id": "0314b601a1ac3436319105d7cde4a2466979e0e4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE53UUhqZVRlOWIwMmxhTVg2b2ZVbjVpdjJ1MFpoQWJodE5WeVMtWW5uQkFPZXRTX05GeXpIRDlaZTBvcnFwWnYwaFpZQlk3WlN0ZWpsTFZtT1VENW5VYXhUWVp5NFZ5THZvYXFlekhoNGxnLVI4VEdkR0NUSQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Nature Biotechnology | Insilico’s AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - insilico.com",
+      "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估- insilico.com",
+      "title_en": "Nature Biotechnology | Insilico’s AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - insilico.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53UUhqZVRlOWIwMmxhTVg2b2ZVbjVpdjJ1MFpoQWJodE5WeVMtWW5uQkFPZXRTX05GeXpIRDlaZTBvcnFwWnYwaFpZQlk3WlN0ZWpsTFZtT1VENW5VYXhUWVp5NFZ5THZvYXFlekhoNGxnLVI4VEdkR0NUSQ?oc=5",
+      "published_at": "2026-09-07T08:59:37Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
+    {
+      "id": "d982cffdbdebca8507676f135e9fd5254201346f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXB3M3RMZGh4QW52MnJIek5qXzV4OWRhckVnVlYtX1E0cUFDWlBJRW1mRmoxSzdoWjI3S2FZekk4T0NJYTJ1NFZNQWk3NE8zVWdRM0EySVNuZ2tiRm5QTFB0YVZUUDB4eW54QzBvSW1Jd05MR0NJR1RtZ0gzYzFlWncyWXFyNjhfbGRpOFlsT3pLeUQ4cVA1TEZ0SDNLODIzRXdON1VLckxfem9lQWEtZHNPZkVpVkgyOVlOdjJ4WGFqR1lWUmp5b2NxUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-designed lung drug reverses aging clock signals, but not aging itself - PRESS Insider",
+      "title_zh": "人工智能设计的肺部药物可逆转衰老时钟信号，但不会自行衰老- PRESS Insider",
+      "title_en": "AI-designed lung drug reverses aging clock signals, but not aging itself - PRESS Insider",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXB3M3RMZGh4QW52MnJIek5qXzV4OWRhckVnVlYtX1E0cUFDWlBJRW1mRmoxSzdoWjI3S2FZekk4T0NJYTJ1NFZNQWk3NE8zVWdRM0EySVNuZ2tiRm5QTFB0YVZUUDB4eW54QzBvSW1Jd05MR0NJR1RtZ0gzYzFlWncyWXFyNjhfbGRpOFlsT3pLeUQ4cVA1TEZ0SDNLODIzRXdON1VLckxfem9lQWEtZHNPZkVpVkgyOVlOdjJ4WGFqR1lWUmp5b2NxUQ?oc=5",
+      "published_at": "2026-09-07T13:08:43Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a57f7da1082bb619a5cdd08d73f2d24c7421d18c",
+      "canonical_key": "url:https://www.news-medical.net/news/20260907/AI-designed-drug-candidate-reverses-biological-age-in-clinical-study.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "AI-designed drug candidate reverses biological age in clinical study",
+      "title_zh": "AI设计的候选药物在临床研究中逆转生物学年龄",
+      "title_en": "AI-designed drug candidate reverses biological age in clinical study",
+      "url": "https://www.news-medical.net/news/20260907/AI-designed-drug-candidate-reverses-biological-age-in-clinical-study.aspx",
+      "published_at": "2026-09-07T15:13:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "drug_discovery"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "drug discovery"
+      ],
+      "biological_context_signals": [
+        "clinical",
+        "medical",
+        "medicine"
+      ]
+    },
+    {
+      "id": "d57697869c0b781fc6547183a6e8b31260ea69e7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3Zib1lEX2NVUEcwdEd4UWtOUnZScU5TS1REaUk4YmJKQnNtbGZERTZSRjVxTWljZkdhZk1TQUZCVmt2SXJTT1hQT0JybHc3UGk5WUZqQVNwUEJVWXFjaHNORjB5MWktR3pMaGd6UU52RTdtZGlqb0duaGV0VzBSNTFOU0pCZ3FxcVJXT2QtdE9ENjNYU2JuU1ZNNVV2MERNNms3TFlZcElud2gyb0F1WS1OZndhckU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "AI-designed drug candidate reverses biological age in clinical study - News-Medical",
+      "title_zh": "AI设计的候选药物在临床研究中逆转生物学年龄-新闻-医学",
+      "title_en": "AI-designed drug candidate reverses biological age in clinical study - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3Zib1lEX2NVUEcwdEd4UWtOUnZScU5TS1REaUk4YmJKQnNtbGZERTZSRjVxTWljZkdhZk1TQUZCVmt2SXJTT1hQT0JybHc3UGk5WUZqQVNwUEJVWXFjaHNORjB5MWktR3pMaGd6UU52RTdtZGlqb0duaGV0VzBSNTFOU0pCZ3FxcVJXT2QtdE9ENjNYU2JuU1ZNNVV2MERNNms3TFlZcElud2gyb0F1WS1OZndhckU?oc=5",
+      "published_at": "2026-09-07T15:13:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "medical"
+      ]
+    },
+    {
+      "id": "839dffd8f1b886637bd2cb1527a97d13bd3b3876",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxQX19tZFRXN3hyRXBQYXd3RDc4WUVpUTZSQ3VzM3BfZGhrTl82MGFLRm9qYWhOSms0a3NzY21rb20xYnFfVEN3UlIxeVRkWlZseFpocGpzalk1MWhiZktKNUQyeXNLRkE2cXBObERyRWE2cUQwbWd6aTJzb1BXRXM0QUt0YnpxVm9SVUxueHdYUHExRHhoblVBUmF0eThpMHBDb19oZlVsekdtLVlzMHc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI helped create a drug that reduced patients' \"biological age\" by 6 years. How does it work? - dev.ua",
+      "title_zh": "人工智能帮助创造了一种药物，将患者的“生物学年龄”降低了6岁。它是如何工作的？ - dev.ua",
+      "title_en": "AI helped create a drug that reduced patients' \"biological age\" by 6 years. How does it work? - dev.ua",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX19tZFRXN3hyRXBQYXd3RDc4WUVpUTZSQ3VzM3BfZGhrTl82MGFLRm9qYWhOSms0a3NzY21rb20xYnFfVEN3UlIxeVRkWlZseFpocGpzalk1MWhiZktKNUQyeXNLRkE2cXBObERyRWE2cUQwbWd6aTJzb1BXRXM0QUt0YnpxVm9SVUxueHdYUHExRHhoblVBUmF0eThpMHBDb19oZlVsekdtLVlzMHc?oc=5",
+      "published_at": "2026-09-07T14:50:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patients"
+      ]
+    },
+    {
+      "id": "b8c2173bcf0387498161a471265c815442018e86",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZW9jRkpXMWpYb0x2YldRaXM5YmRFMnd0SDlMNnVlNW0zRkxIY1VHMHhwR2sxMU9kQ05IeVR1ejNUOVFnUnpwazhIazBxNk80NGd5b0c0UlY3NURRYXlFTVJCVVVGMkNUYTAxMVJPejlCZmtGR1NQNkJtamJlZm1PNy1oaV92MXhZNFVTMVd1U09nYllfM2ZKVmlPbl9QbHp0YWlPVDBGaGk4d9IBrwFBVV95cUxNTVFRV0ZHM05RVndFOFkxUHZKYXc1Z3kzckxLbVlnRTZhbDlmMG1wN3k2UW1UMk53WndNRll3bDhlOU53Q0VfdmFGeU5lMER6bFRkdDhZSlIxQ1N4eVZROHdza2pEQmxZc0FoQXdpNUMxV3Q0eC1WbWI4YlBTMlpDWHNpdm1CeTJOZTdyNkF2eEIxZWNXNWFYemNhUjduSWtaZk5yQVJHOGRWZlVCby1z?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI platform identifies potential Alzheimer's drug targets - Labroots",
+      "title_zh": "人工智能平台识别潜在的阿尔茨海默氏症药物靶点- Labroots",
+      "title_en": "AI platform identifies potential Alzheimer's drug targets - Labroots",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZW9jRkpXMWpYb0x2YldRaXM5YmRFMnd0SDlMNnVlNW0zRkxIY1VHMHhwR2sxMU9kQ05IeVR1ejNUOVFnUnpwazhIazBxNk80NGd5b0c0UlY3NURRYXlFTVJCVVVGMkNUYTAxMVJPejlCZmtGR1NQNkJtamJlZm1PNy1oaV92MXhZNFVTMVd1U09nYllfM2ZKVmlPbl9QbHp0YWlPVDBGaGk4d9IBrwFBVV95cUxNTVFRV0ZHM05RVndFOFkxUHZKYXc1Z3kzckxLbVlnRTZhbDlmMG1wN3k2UW1UMk53WndNRll3bDhlOU53Q0VfdmFGeU5lMER6bFRkdDhZSlIxQ1N4eVZROHdza2pEQmxZc0FoQXdpNUMxV3Q0eC1WbWI4YlBTMlpDWHNpdm1CeTJOZTdyNkF2eEIxZWNXNWFYemNhUjduSWtaZk5yQVJHOGRWZlVCby1z?oc=5",
+      "published_at": "2026-09-07T13:05:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a7a876d3cea63e9c2b17e059e0598c4967e424c8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcUxKNW83YTZocExBZmNpenBjdl9aZ1JMZDBUalpOa2FMZEhOV2t2eWp1NnF0MFpReWRtc19hTjRsY0dCcm9JOW5yX2tzZW10Zm9UYk03M1VtVmhpbEZ5SVdGMkFPZUtudnRkZktYRzVRVEY1RUxZRlZXWQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico says its AI-designed lung drug lowered biological age markers in a 42-patient trial - The Next Web",
+      "title_zh": "Insilico表示，其人工智能设计的肺部药物在一项42名患者的试验中降低了生物年龄标志物- The Next Web",
+      "title_en": "Insilico says its AI-designed lung drug lowered biological age markers in a 42-patient trial - The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcUxKNW83YTZocExBZmNpenBjdl9aZ1JMZDBUalpOa2FMZEhOV2t2eWp1NnF0MFpReWRtc19hTjRsY0dCcm9JOW5yX2tzZW10Zm9UYk03M1VtVmhpbEZ5SVdGMkFPZUtudnRkZktYRzVRVEY1RUxZRlZXWQ?oc=5",
+      "published_at": "2026-09-07T12:14:40Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patient"
+      ]
+    },
+    {
+      "id": "d0f7ac76370db1513c25fb4de21c2316bad5b897",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVVmZjE0SF90MU9acUljU2o4NnVwWGxCVWhkU3RZOWtOby1VRmhLSk43bi1iWjM3LWdjNmI2dFZpblcwYVFfVHJ2WU0xY2VSWEhmeWdud2k3RkNTNDJLdWFUeEc2Y0ZjdzU4N2RwMmloSldMZjlpY1VzZWtqcnNmYklKVERRaFZQbTdiQUZVSXpSU0RJUFJBQjNpSXdEMi1GdGlod1pFcHRLYVlucHJoN0xB?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Will AI Make Death Optional? - longevity.technology",
+      "title_zh": "人工智能会让死亡成为可选吗？ - longevity.technology",
+      "title_en": "Will AI Make Death Optional? - longevity.technology",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVVmZjE0SF90MU9acUljU2o4NnVwWGxCVWhkU3RZOWtOby1VRmhLSk43bi1iWjM3LWdjNmI2dFZpblcwYVFfVHJ2WU0xY2VSWEhmeWdud2k3RkNTNDJLdWFUeEc2Y0ZjdzU4N2RwMmloSldMZjlpY1VzZWtqcnNmYklKVERRaFZQbTdiQUZVSXpSU0RJUFJBQjNpSXdEMi1GdGlod1pFcHRLYVlucHJoN0xB?oc=5",
+      "published_at": "2026-09-07T11:54:25Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "3193ebf573df00b3e3dd6b52fe3d0248a0698e30",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "AI-Powered Memory Games bring Personal Stories into Dementia Care - Cyprus Shipping News",
       "title_zh": "人工智能记忆游戏将个人故事带入痴呆症护理-塞浦路斯航运新闻",
@@ -84,7 +537,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "published_at": "2026-09-07T02:19:32Z",
       "first_seen_at": "2026-09-07T04:43:53.313777Z",
-      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -125,7 +578,7 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Senescence",
       "source_type": "news",
       "title": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
       "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估-马尼拉时报",
@@ -133,7 +586,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
       "published_at": "2026-09-07T10:02:22Z",
       "first_seen_at": "2026-09-07T10:20:26.061595Z",
-      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,11 +628,464 @@
       ]
     },
     {
+      "id": "8a3cda9367bfaec565dc11caca74c4534bdad065",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQWERqLTNXS19lRkJPZEZNMVpyeEpRa1UtUDczSF9MMTc0X3F5STZaSXFHbS1LbG40amtMM3V1MDZ3TkVCTFFMQVUxdjZHWlduQjg5S05HT1N4dFhPT2lWSWVVZ0lfNmpicHl0eFJSODNWcGRvNWxmNUgwdnd0b2ExRXU5WVljNE5pcU1qOTlJU1o3MFgwVjBrQm9SYw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Proteomic Aging Clocks Track Biological Age Reversal in Rentosertib Trial - Unite.AI",
+      "title_zh": "蛋白质组老化时钟在Rentosertib试验中跟踪生物学年龄逆转- Unite.AI",
+      "title_en": "Proteomic Aging Clocks Track Biological Age Reversal in Rentosertib Trial - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWERqLTNXS19lRkJPZEZNMVpyeEpRa1UtUDczSF9MMTc0X3F5STZaSXFHbS1LbG40amtMM3V1MDZ3TkVCTFFMQVUxdjZHWlduQjg5S05HT1N4dFhPT2lWSWVVZ0lfNmpicHl0eFJSODNWcGRvNWxmNUgwdnd0b2ExRXU5WVljNE5pcU1qOTlJU1o3MFgwVjBrQm9SYw?oc=5",
+      "published_at": "2026-09-07T09:58:02Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
+    {
+      "id": "0314b601a1ac3436319105d7cde4a2466979e0e4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE53UUhqZVRlOWIwMmxhTVg2b2ZVbjVpdjJ1MFpoQWJodE5WeVMtWW5uQkFPZXRTX05GeXpIRDlaZTBvcnFwWnYwaFpZQlk3WlN0ZWpsTFZtT1VENW5VYXhUWVp5NFZ5THZvYXFlekhoNGxnLVI4VEdkR0NUSQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Nature Biotechnology | Insilico’s AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - insilico.com",
+      "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估- insilico.com",
+      "title_en": "Nature Biotechnology | Insilico’s AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - insilico.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53UUhqZVRlOWIwMmxhTVg2b2ZVbjVpdjJ1MFpoQWJodE5WeVMtWW5uQkFPZXRTX05GeXpIRDlaZTBvcnFwWnYwaFpZQlk3WlN0ZWpsTFZtT1VENW5VYXhUWVp5NFZ5THZvYXFlekhoNGxnLVI4VEdkR0NUSQ?oc=5",
+      "published_at": "2026-09-07T08:59:37Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
+    {
+      "id": "d982cffdbdebca8507676f135e9fd5254201346f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXB3M3RMZGh4QW52MnJIek5qXzV4OWRhckVnVlYtX1E0cUFDWlBJRW1mRmoxSzdoWjI3S2FZekk4T0NJYTJ1NFZNQWk3NE8zVWdRM0EySVNuZ2tiRm5QTFB0YVZUUDB4eW54QzBvSW1Jd05MR0NJR1RtZ0gzYzFlWncyWXFyNjhfbGRpOFlsT3pLeUQ4cVA1TEZ0SDNLODIzRXdON1VLckxfem9lQWEtZHNPZkVpVkgyOVlOdjJ4WGFqR1lWUmp5b2NxUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-designed lung drug reverses aging clock signals, but not aging itself - PRESS Insider",
+      "title_zh": "人工智能设计的肺部药物可逆转衰老时钟信号，但不会自行衰老- PRESS Insider",
+      "title_en": "AI-designed lung drug reverses aging clock signals, but not aging itself - PRESS Insider",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXB3M3RMZGh4QW52MnJIek5qXzV4OWRhckVnVlYtX1E0cUFDWlBJRW1mRmoxSzdoWjI3S2FZekk4T0NJYTJ1NFZNQWk3NE8zVWdRM0EySVNuZ2tiRm5QTFB0YVZUUDB4eW54QzBvSW1Jd05MR0NJR1RtZ0gzYzFlWncyWXFyNjhfbGRpOFlsT3pLeUQ4cVA1TEZ0SDNLODIzRXdON1VLckxfem9lQWEtZHNPZkVpVkgyOVlOdjJ4WGFqR1lWUmp5b2NxUQ?oc=5",
+      "published_at": "2026-09-07T13:08:43Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a57f7da1082bb619a5cdd08d73f2d24c7421d18c",
+      "canonical_key": "url:https://www.news-medical.net/news/20260907/AI-designed-drug-candidate-reverses-biological-age-in-clinical-study.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "AI-designed drug candidate reverses biological age in clinical study",
+      "title_zh": "AI设计的候选药物在临床研究中逆转生物学年龄",
+      "title_en": "AI-designed drug candidate reverses biological age in clinical study",
+      "url": "https://www.news-medical.net/news/20260907/AI-designed-drug-candidate-reverses-biological-age-in-clinical-study.aspx",
+      "published_at": "2026-09-07T15:13:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "drug_discovery"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "drug discovery"
+      ],
+      "biological_context_signals": [
+        "clinical",
+        "medical",
+        "medicine"
+      ]
+    },
+    {
+      "id": "d57697869c0b781fc6547183a6e8b31260ea69e7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3Zib1lEX2NVUEcwdEd4UWtOUnZScU5TS1REaUk4YmJKQnNtbGZERTZSRjVxTWljZkdhZk1TQUZCVmt2SXJTT1hQT0JybHc3UGk5WUZqQVNwUEJVWXFjaHNORjB5MWktR3pMaGd6UU52RTdtZGlqb0duaGV0VzBSNTFOU0pCZ3FxcVJXT2QtdE9ENjNYU2JuU1ZNNVV2MERNNms3TFlZcElud2gyb0F1WS1OZndhckU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "AI-designed drug candidate reverses biological age in clinical study - News-Medical",
+      "title_zh": "AI设计的候选药物在临床研究中逆转生物学年龄-新闻-医学",
+      "title_en": "AI-designed drug candidate reverses biological age in clinical study - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3Zib1lEX2NVUEcwdEd4UWtOUnZScU5TS1REaUk4YmJKQnNtbGZERTZSRjVxTWljZkdhZk1TQUZCVmt2SXJTT1hQT0JybHc3UGk5WUZqQVNwUEJVWXFjaHNORjB5MWktR3pMaGd6UU52RTdtZGlqb0duaGV0VzBSNTFOU0pCZ3FxcVJXT2QtdE9ENjNYU2JuU1ZNNVV2MERNNms3TFlZcElud2gyb0F1WS1OZndhckU?oc=5",
+      "published_at": "2026-09-07T15:13:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "medical"
+      ]
+    },
+    {
+      "id": "839dffd8f1b886637bd2cb1527a97d13bd3b3876",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxQX19tZFRXN3hyRXBQYXd3RDc4WUVpUTZSQ3VzM3BfZGhrTl82MGFLRm9qYWhOSms0a3NzY21rb20xYnFfVEN3UlIxeVRkWlZseFpocGpzalk1MWhiZktKNUQyeXNLRkE2cXBObERyRWE2cUQwbWd6aTJzb1BXRXM0QUt0YnpxVm9SVUxueHdYUHExRHhoblVBUmF0eThpMHBDb19oZlVsekdtLVlzMHc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI helped create a drug that reduced patients' \"biological age\" by 6 years. How does it work? - dev.ua",
+      "title_zh": "人工智能帮助创造了一种药物，将患者的“生物学年龄”降低了6岁。它是如何工作的？ - dev.ua",
+      "title_en": "AI helped create a drug that reduced patients' \"biological age\" by 6 years. How does it work? - dev.ua",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX19tZFRXN3hyRXBQYXd3RDc4WUVpUTZSQ3VzM3BfZGhrTl82MGFLRm9qYWhOSms0a3NzY21rb20xYnFfVEN3UlIxeVRkWlZseFpocGpzalk1MWhiZktKNUQyeXNLRkE2cXBObERyRWE2cUQwbWd6aTJzb1BXRXM0QUt0YnpxVm9SVUxueHdYUHExRHhoblVBUmF0eThpMHBDb19oZlVsekdtLVlzMHc?oc=5",
+      "published_at": "2026-09-07T14:50:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patients"
+      ]
+    },
+    {
+      "id": "b8c2173bcf0387498161a471265c815442018e86",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZW9jRkpXMWpYb0x2YldRaXM5YmRFMnd0SDlMNnVlNW0zRkxIY1VHMHhwR2sxMU9kQ05IeVR1ejNUOVFnUnpwazhIazBxNk80NGd5b0c0UlY3NURRYXlFTVJCVVVGMkNUYTAxMVJPejlCZmtGR1NQNkJtamJlZm1PNy1oaV92MXhZNFVTMVd1U09nYllfM2ZKVmlPbl9QbHp0YWlPVDBGaGk4d9IBrwFBVV95cUxNTVFRV0ZHM05RVndFOFkxUHZKYXc1Z3kzckxLbVlnRTZhbDlmMG1wN3k2UW1UMk53WndNRll3bDhlOU53Q0VfdmFGeU5lMER6bFRkdDhZSlIxQ1N4eVZROHdza2pEQmxZc0FoQXdpNUMxV3Q0eC1WbWI4YlBTMlpDWHNpdm1CeTJOZTdyNkF2eEIxZWNXNWFYemNhUjduSWtaZk5yQVJHOGRWZlVCby1z?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI platform identifies potential Alzheimer's drug targets - Labroots",
+      "title_zh": "人工智能平台识别潜在的阿尔茨海默氏症药物靶点- Labroots",
+      "title_en": "AI platform identifies potential Alzheimer's drug targets - Labroots",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZW9jRkpXMWpYb0x2YldRaXM5YmRFMnd0SDlMNnVlNW0zRkxIY1VHMHhwR2sxMU9kQ05IeVR1ejNUOVFnUnpwazhIazBxNk80NGd5b0c0UlY3NURRYXlFTVJCVVVGMkNUYTAxMVJPejlCZmtGR1NQNkJtamJlZm1PNy1oaV92MXhZNFVTMVd1U09nYllfM2ZKVmlPbl9QbHp0YWlPVDBGaGk4d9IBrwFBVV95cUxNTVFRV0ZHM05RVndFOFkxUHZKYXc1Z3kzckxLbVlnRTZhbDlmMG1wN3k2UW1UMk53WndNRll3bDhlOU53Q0VfdmFGeU5lMER6bFRkdDhZSlIxQ1N4eVZROHdza2pEQmxZc0FoQXdpNUMxV3Q0eC1WbWI4YlBTMlpDWHNpdm1CeTJOZTdyNkF2eEIxZWNXNWFYemNhUjduSWtaZk5yQVJHOGRWZlVCby1z?oc=5",
+      "published_at": "2026-09-07T13:05:00Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a7a876d3cea63e9c2b17e059e0598c4967e424c8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcUxKNW83YTZocExBZmNpenBjdl9aZ1JMZDBUalpOa2FMZEhOV2t2eWp1NnF0MFpReWRtc19hTjRsY0dCcm9JOW5yX2tzZW10Zm9UYk03M1VtVmhpbEZ5SVdGMkFPZUtudnRkZktYRzVRVEY1RUxZRlZXWQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico says its AI-designed lung drug lowered biological age markers in a 42-patient trial - The Next Web",
+      "title_zh": "Insilico表示，其人工智能设计的肺部药物在一项42名患者的试验中降低了生物年龄标志物- The Next Web",
+      "title_en": "Insilico says its AI-designed lung drug lowered biological age markers in a 42-patient trial - The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcUxKNW83YTZocExBZmNpenBjdl9aZ1JMZDBUalpOa2FMZEhOV2t2eWp1NnF0MFpReWRtc19hTjRsY0dCcm9JOW5yX2tzZW10Zm9UYk03M1VtVmhpbEZ5SVdGMkFPZUtudnRkZktYRzVRVEY1RUxZRlZXWQ?oc=5",
+      "published_at": "2026-09-07T12:14:40Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patient"
+      ]
+    },
+    {
+      "id": "d0f7ac76370db1513c25fb4de21c2316bad5b897",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVVmZjE0SF90MU9acUljU2o4NnVwWGxCVWhkU3RZOWtOby1VRmhLSk43bi1iWjM3LWdjNmI2dFZpblcwYVFfVHJ2WU0xY2VSWEhmeWdud2k3RkNTNDJLdWFUeEc2Y0ZjdzU4N2RwMmloSldMZjlpY1VzZWtqcnNmYklKVERRaFZQbTdiQUZVSXpSU0RJUFJBQjNpSXdEMi1GdGlod1pFcHRLYVlucHJoN0xB?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Will AI Make Death Optional? - longevity.technology",
+      "title_zh": "人工智能会让死亡成为可选吗？ - longevity.technology",
+      "title_en": "Will AI Make Death Optional? - longevity.technology",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVVmZjE0SF90MU9acUljU2o4NnVwWGxCVWhkU3RZOWtOby1VRmhLSk43bi1iWjM3LWdjNmI2dFZpblcwYVFfVHJ2WU0xY2VSWEhmeWdud2k3RkNTNDJLdWFUeEc2Y0ZjdzU4N2RwMmloSldMZjlpY1VzZWtqcnNmYklKVERRaFZQbTdiQUZVSXpSU0RJUFJBQjNpSXdEMi1GdGlod1pFcHRLYVlucHJoN0xB?oc=5",
+      "published_at": "2026-09-07T11:54:25Z",
+      "first_seen_at": "2026-09-07T16:28:30.329549Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "3193ebf573df00b3e3dd6b52fe3d0248a0698e30",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "AI-Powered Memory Games bring Personal Stories into Dementia Care - Cyprus Shipping News",
       "title_zh": "人工智能记忆游戏将个人故事带入痴呆症护理-塞浦路斯航运新闻",
@@ -187,7 +1093,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "published_at": "2026-09-07T02:19:32Z",
       "first_seen_at": "2026-09-07T04:43:53.313777Z",
-      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T16:28:30.329549Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
