@@ -1,22 +1,76 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-07T04:43:53.313777Z",
+  "generated_at": "2026-09-07T10:20:26.061595Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 313,
-  "total_items_all_mode": 313,
-  "archive_total": 8110,
+  "total_items": 2,
+  "total_items_raw": 338,
+  "total_items_all_mode": 338,
+  "archive_total": 8034,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 8
+      "count": 2,
+      "raw_count": 14
     }
   ],
   "items": [
+    {
+      "id": "2b94af7eee3c2b0ae36ce1e3e8da37525319a40f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
+      "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估-马尼拉时报",
+      "title_en": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
+      "published_at": "2026-09-07T10:02:22Z",
+      "first_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
     {
       "id": "3193ebf573df00b3e3dd6b52fe3d0248a0698e30",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
@@ -30,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "published_at": "2026-09-07T02:19:32Z",
       "first_seen_at": "2026-09-07T04:43:53.313777Z",
-      "last_seen_at": "2026-09-07T04:43:53.313777Z",
+      "last_seen_at": "2026-09-07T10:20:26.061595Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -67,6 +121,60 @@
   ],
   "items_ai": [
     {
+      "id": "2b94af7eee3c2b0ae36ce1e3e8da37525319a40f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
+      "title_zh": "自然生物技术| Insilico的人工智能驱动的IPF候选Rentosertib显示出生物年龄逆转的潜力，通过六个蛋白质组老化时钟进行评估-马尼拉时报",
+      "title_en": "Nature Biotechnology | Insilico's AI-Driven IPF Candidate Rentosertib Shows Potential for Biological Age Reversal, as Assessed by Six Proteomic Aging Clocks - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSTNZT19VQzhlaTk0eVJrT29Iam1ucVBWQ2hWU0xOeHI0NnFYWmtVUzlOQ3hXb2JnSmVDSXVFd2g5b2VIbW5Zb1FfQ21iQURDUGFFMmhhV0NGMDlacGhtVERzQ3ctSTV1LUo4R2xCcmFBVzlKNnhKQnFnNU5fUEY2SlNkU1gxbEtmQTE3Ym9HcWZqa0otOHRueF9kaWR0cjZaSVlndUVWMjlPWE0wOHFaT1dieURQX2c3cXJYV1RtZHBVRUlWdGh5UUJaNl9vdmlLMkp5VzJzWXRDNFJRMDdyYmw1RVBNMExLMTRxODd4UDhnejVZM293UFNfb2xFOUYyOFJfckxHTHEtMFhKRzNCdmNqQl9EUE9XbXEwWEk2cU5IMFF2QUhwdm5ub0tKSzFKaU9fc2pxR0dWT3BaYk03bmFYSWNZam_SAcwCQVVfeXFMTTRFSlphVUdETWZWbGgzOWFBNFJBcElLU0o1LVdmeVIyMndpcjFtYzRwTGJVeV9vRlhGYWlhZUlhQ3lQN2szajlOck5zMVBFRWFTX1ZGam9mX2p5bEtaY0dQSWhZQzg2OWNhSnNwMW9iTGlVX2hIZ1VoV29KYWxJcTRpUXFwUGRWWkQtekM0N05DbExuSlBTQXRqaXEyQnJmcWVqQ3Iwd2Q4a3E2czB1TTYxYk5ZV01ORXE5Q2xqRkRhdXI2cUVQbnMtbC1IdlZaSUJ4bmZ6Z1h3bmhid3VSN19iNm9zNm5iOUxwdDBNbnJJQzBQWHBYZURmZVFnZ191ZTl2b2VmYnhVMU00a1Nrd0NBaDdEVVRvSXNRNTB4dC1IZDVTZ0tGSVpiLXA4UnFhTlJqRllDQUNTOFlCVnI1V2NDWWlXYmZxU3ZOMUQ?oc=5",
+      "published_at": "2026-09-07T10:02:22Z",
+      "first_seen_at": "2026-09-07T10:20:26.061595Z",
+      "last_seen_at": "2026-09-07T10:20:26.061595Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "proteomic"
+      ],
+      "biological_context_signals": [
+        "proteomic"
+      ]
+    },
+    {
       "id": "3193ebf573df00b3e3dd6b52fe3d0248a0698e30",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "site_id": "official_rss",
@@ -79,7 +187,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZG1lU01zYktWLWZyRVI4bjZ2Y3R5aEd5cGRtbGN3N3FzdkVBNzNVVEt6QnNOREt0MW5mUlI5cmNXTFRSVXgyTkFNRXRSWlJBVGNsU3JTT3dPdkRkNWNFLTFMNklUQUxzRjFmWVo3QnBpTExZVFF3SWJDb0g0dVhLWXd2UUpTcDBsUzVXN21vYXdRNWh5djB3VV80b1lRNlNVQmthY1NZdWhfS1RJ?oc=5",
       "published_at": "2026-09-07T02:19:32Z",
       "first_seen_at": "2026-09-07T04:43:53.313777Z",
-      "last_seen_at": "2026-09-07T04:43:53.313777Z",
+      "last_seen_at": "2026-09-07T10:20:26.061595Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
