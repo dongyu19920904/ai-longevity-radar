@@ -1,23 +1,123 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-10T05:59:20.972003Z",
+  "generated_at": "2026-09-10T11:21:51.517840Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 44,
-  "total_items_all_mode": 44,
-  "archive_total": 6879,
+  "total_items": 6,
+  "total_items_raw": 39,
+  "total_items_all_mode": 39,
+  "archive_total": 6709,
   "site_count": 1,
-  "source_count": 4,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 40
+      "count": 6,
+      "raw_count": 35
     }
   ],
   "items": [
     {
+      "id": "66f5d4962e33dca9ea710b52db406f8a78d03520",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/09/a-long-discussion-of-aging-clocks-and-what-they-actually-measure",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "A Long Discussion of Aging Clocks and What They Actually Measure",
+      "title_zh": "关于老化时钟及其实际测量的长篇讨论",
+      "title_en": "A Long Discussion of Aging Clocks and What They Actually Measure",
+      "url": "https://www.fightaging.org/archives/2026/09/a-long-discussion-of-aging-clocks-and-what-they-actually-measure",
+      "published_at": "2026-09-10T10:22:54Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age",
+        "mortality risk"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "1634531b150b962b6906494c748599e10de3a05e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS295czZkVzYwZ1lzdDhNdVBzNlpicml6ZUF0SUoxSXllZk81dHdrZjl3cW1HUzhYWGRWOXc5SkQ3NXpQbFk4dWQ5REtMVHo0ZkVzX3pIYl80S3pQbkxSUlFzZG13Zm5hcnRSYjZGdS15Mi0yREdsbDVJbnNtRlQ1dUlqS1pPOUYwcFlSZjczbDdfdUhCSnNuanptM2I2T1Y5T3kwRmZjdXlBWElCZ29NQnhCd3V5NnQ0TmVV0gG7AUFVX3lxTE1Lb3lzNmRXNjBnWXN0OE11UHM2WmJyaXplQXRJSjFJeWVmTzV0d2tmOXdxbUdTOFhYZFY5dzlKRDc1elBsWTh1ZDlES0xUejRmRXNfekhiXzRLelBuTFJSUXNkbXdmbmFydFJiNkZ1LXkyLTJER2xsNUluc21GVDV1SWpLWk85RjBwWVJmNzNsN191SEJKc25qem0zYjZPVjlPeTBGZmN1eUFYSUJnb01CeEJ3dXk2dDROZVU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "[ROUNDTABLE] AI-driven anti-aging fuels next Korea's medical tourism wave - The Korea Times",
+      "title_zh": "[圆桌会议]人工智能驱动的抗衰老助推下一波韩国医疗旅游浪潮-《韩国时报》",
+      "title_en": "[ROUNDTABLE] AI-driven anti-aging fuels next Korea's medical tourism wave - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS295czZkVzYwZ1lzdDhNdVBzNlpicml6ZUF0SUoxSXllZk81dHdrZjl3cW1HUzhYWGRWOXc5SkQ3NXpQbFk4dWQ5REtMVHo0ZkVzX3pIYl80S3pQbkxSUlFzZG13Zm5hcnRSYjZGdS15Mi0yREdsbDVJbnNtRlQ1dUlqS1pPOUYwcFlSZjczbDdfdUhCSnNuanptM2I2T1Y5T3kwRmZjdXlBWElCZ29NQnhCd3V5NnQ0TmVV0gG7AUFVX3lxTE1Lb3lzNmRXNjBnWXN0OE11UHM2WmJyaXplQXRJSjFJeWVmTzV0d2tmOXdxbUdTOFhYZFY5dzlKRDc1elBsWTh1ZDlES0xUejRmRXNfekhiXzRLelBuTFJSUXNkbXdmbmFydFJiNkZ1LXkyLTJER2xsNUluc21GVDV1SWpLWk85RjBwWVJmNzNsN191SEJKc25qem0zYjZPVjlPeTBGZmN1eUFYSUJnb01CeEJ3dXk2dDROZVU?oc=5",
+      "published_at": "2026-09-10T06:24:03Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "anti-aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "3e8d7d33f0ea1df9d22c05f02168f2aa771acf3a",
       "canonical_key": "url:https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx",
       "site_id": "official_rss",
@@ -30,7 +130,7 @@
       "url": "https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx",
       "published_at": "2026-09-09T17:27:58Z",
       "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -74,11 +174,58 @@
       ]
     },
     {
+      "id": "d14f9595d1c9d1612e2b9ea0ea6e19e3510bb168",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1A2RVNySTdDaVFDc0RKUzUxcndfNi02NFYtdXd6S3B3UEU5VWVrWDZuZEQ3cDY2Q3g5TVFocWlIdHIxdko1OWg3c3Z6a2dsc00xLW1PekJnLWNCMTRBbk80RUt5TmJ1QldSVDNMb244ZWhPa1Y2LVJ2UmZPZDEzbm0zT3R5TDZORHdlTXZUOWpTOFBqMDlPQlhpN1RvZXJiVG1NUldWR0hfTEEzRzdTeDJZQUtOVFE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "title_zh": "Rentosertib在小型AI药物研究中显示出降低生物学年龄的潜力- AIM Media House",
+      "title_en": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1A2RVNySTdDaVFDc0RKUzUxcndfNi02NFYtdXd6S3B3UEU5VWVrWDZuZEQ3cDY2Q3g5TVFocWlIdHIxdko1OWg3c3Z6a2dsc00xLW1PekJnLWNCMTRBbk80RUt5TmJ1QldSVDNMb244ZWhPa1Y2LVJ2UmZPZDEzbm0zT3R5TDZORHdlTXZUOWpTOFBqMDlPQlhpN1RvZXJiVG1NUldWR0hfTEEzRzdTeDJZQUtOVFE?oc=5",
+      "published_at": "2026-09-10T09:12:07Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "67595d0b16c2ef37f2c1168b8d2fc151705f55d3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHdaSzEtZFF2a0w5VmlFRWIzdHJ5Z2tqOVBiSTd5MnFSVDhaR2NyZWNnUmROM0ZvRzVaMklmTF9QNlBFM2Q1dXlXd3E2bjU1dExwRzRvbXNhbVYyR0JkUlhpbUphOFhFVXRGVWVHUFB5VDNvUWFpcXJLdVNYZGdRT0xCdE9ralkxaTJoaXRPVVdOWWdmS3lFY1BOZDMwbUlZdktYMDZ3cS0xM1dsWDA3ODlQQ1JjOGc?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
       "title": "Deep learning ties retinal features to Alzheimer's risk factors - Glance by Eyes On Eyecare",
       "title_zh": "深度学习将视网膜特征与阿尔茨海默氏症的风险因素联系起来- Eyes On Eyecare的Glance",
@@ -86,7 +233,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHdaSzEtZFF2a0w5VmlFRWIzdHJ5Z2tqOVBiSTd5MnFSVDhaR2NyZWNnUmROM0ZvRzVaMklmTF9QNlBFM2Q1dXlXd3E2bjU1dExwRzRvbXNhbVYyR0JkUlhpbUphOFhFVXRGVWVHUFB5VDNvUWFpcXJLdVNYZGdRT0xCdE9ralkxaTJoaXRPVVdOWWdmS3lFY1BOZDMwbUlZdktYMDZ3cS0xM1dsWDA3ODlQQ1JjOGc?oc=5",
       "published_at": "2026-09-09T18:41:48Z",
       "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -134,7 +281,7 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xeEtUbXNMczhlRHVXSnZwdEwwN0ROeWZVNGFNaEpNNkJGcnlnVF95bG5saXA3SWpodHNlejRRLUQtYVdQSHVfZVdRekNWcW1HbG9FQlpmaWpGbkhpVE1iQ3BKOVlEZG1Ocm1sOF9JaUVjZw?oc=5",
       "published_at": "2026-09-09T18:31:52Z",
       "first_seen_at": "2026-09-09T22:34:12.607452Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -169,106 +316,110 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "6f431827ded595304d5a8dca61fda16fe120a4f5",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVdicnZMOVNFSlJOQXdKYmR2YjhHLWFHSGFlM0UyWEhfMnBzU0diMFhtc3N4UVp4ejFBMnR4SDR3ZHdYMjY1RU5iZnVJYVFUNUM1UEQ3QWlSU1FZUmhjTXlOYUlrLWVJRkp5U1g4Qks1X21uTHU4S0pFY2o5R25tS1huc1NySE52Uzd1eXFwNA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-Developed Drug Reduces Estimated Biological Age in Patients - ForkLog",
-      "title_zh": "人工智能开发的药物降低患者的估计生物学年龄- ForkLog",
-      "title_en": "AI-Developed Drug Reduces Estimated Biological Age in Patients - ForkLog",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVdicnZMOVNFSlJOQXdKYmR2YjhHLWFHSGFlM0UyWEhfMnBzU0diMFhtc3N4UVp4ejFBMnR4SDR3ZHdYMjY1RU5iZnVJYVFUNUM1UEQ3QWlSU1FZUmhjTXlOYUlrLWVJRkp5U1g4Qks1X21uTHU4S0pFY2o5R25tS1huc1NySE52Uzd1eXFwNA?oc=5",
-      "published_at": "2026-09-09T10:26:37Z",
-      "first_seen_at": "2026-09-09T16:39:52.688533Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "5d00cf8c0d6ef6b06e7083f3f4dee8e409379ad4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWJKUHBTcEt6bEJ2V2YxSjZoalJyV25IT0RqbGpZaUdBdE9hbnNkYXBtbWIxOFcwUnNzS2pCTUNEYmJ2N1hSbWdXQ2FqYmJ5N3N2dE9JOEp2LUNvN1NXOVBxa0t0ZTA0dkRRc0I1TWpvRG9xS0tzNGtLLUdoT0tmTERZcFVFaUx6?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
-      "source_type": "news",
-      "title": "Drug designed by AI shows potential lower biological age - Yahoo",
-      "title_zh": "人工智能设计的药物显示潜在的较低生物学年龄-雅虎",
-      "title_en": "Drug designed by AI shows potential lower biological age - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWJKUHBTcEt6bEJ2V2YxSjZoalJyV25IT0RqbGpZaUdBdE9hbnNkYXBtbWIxOFcwUnNzS2pCTUNEYmJ2N1hSbWdXQ2FqYmJ5N3N2dE9JOEp2LUNvN1NXOVBxa0t0ZTA0dkRRc0I1TWpvRG9xS0tzNGtLLUdoT0tmTERZcFVFaUx6?oc=5",
-      "published_at": "2026-09-09T10:04:15Z",
-      "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
+      "id": "66f5d4962e33dca9ea710b52db406f8a78d03520",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/09/a-long-discussion-of-aging-clocks-and-what-they-actually-measure",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "A Long Discussion of Aging Clocks and What They Actually Measure",
+      "title_zh": "关于老化时钟及其实际测量的长篇讨论",
+      "title_en": "A Long Discussion of Aging Clocks and What They Actually Measure",
+      "url": "https://www.fightaging.org/archives/2026/09/a-long-discussion-of-aging-clocks-and-what-they-actually-measure",
+      "published_at": "2026-09-10T10:22:54Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "biological age",
+        "mortality risk"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "1634531b150b962b6906494c748599e10de3a05e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS295czZkVzYwZ1lzdDhNdVBzNlpicml6ZUF0SUoxSXllZk81dHdrZjl3cW1HUzhYWGRWOXc5SkQ3NXpQbFk4dWQ5REtMVHo0ZkVzX3pIYl80S3pQbkxSUlFzZG13Zm5hcnRSYjZGdS15Mi0yREdsbDVJbnNtRlQ1dUlqS1pPOUYwcFlSZjczbDdfdUhCSnNuanptM2I2T1Y5T3kwRmZjdXlBWElCZ29NQnhCd3V5NnQ0TmVV0gG7AUFVX3lxTE1Lb3lzNmRXNjBnWXN0OE11UHM2WmJyaXplQXRJSjFJeWVmTzV0d2tmOXdxbUdTOFhYZFY5dzlKRDc1elBsWTh1ZDlES0xUejRmRXNfekhiXzRLelBuTFJSUXNkbXdmbmFydFJiNkZ1LXkyLTJER2xsNUluc21GVDV1SWpLWk85RjBwWVJmNzNsN191SEJKc25qem0zYjZPVjlPeTBGZmN1eUFYSUJnb01CeEJ3dXk2dDROZVU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "[ROUNDTABLE] AI-driven anti-aging fuels next Korea's medical tourism wave - The Korea Times",
+      "title_zh": "[圆桌会议]人工智能驱动的抗衰老助推下一波韩国医疗旅游浪潮-《韩国时报》",
+      "title_en": "[ROUNDTABLE] AI-driven anti-aging fuels next Korea's medical tourism wave - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS295czZkVzYwZ1lzdDhNdVBzNlpicml6ZUF0SUoxSXllZk81dHdrZjl3cW1HUzhYWGRWOXc5SkQ3NXpQbFk4dWQ5REtMVHo0ZkVzX3pIYl80S3pQbkxSUlFzZG13Zm5hcnRSYjZGdS15Mi0yREdsbDVJbnNtRlQ1dUlqS1pPOUYwcFlSZjczbDdfdUhCSnNuanptM2I2T1Y5T3kwRmZjdXlBWElCZ29NQnhCd3V5NnQ0TmVV0gG7AUFVX3lxTE1Lb3lzNmRXNjBnWXN0OE11UHM2WmJyaXplQXRJSjFJeWVmTzV0d2tmOXdxbUdTOFhYZFY5dzlKRDc1elBsWTh1ZDlES0xUejRmRXNfekhiXzRLelBuTFJSUXNkbXdmbmFydFJiNkZ1LXkyLTJER2xsNUluc21GVDV1SWpLWk85RjBwWVJmNzNsN191SEJKc25qem0zYjZPVjlPeTBGZmN1eUFYSUJnb01CeEJ3dXk2dDROZVU?oc=5",
+      "published_at": "2026-09-10T06:24:03Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "anti-aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "3e8d7d33f0ea1df9d22c05f02168f2aa771acf3a",
       "canonical_key": "url:https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx",
       "site_id": "official_rss",
@@ -281,7 +432,7 @@
       "url": "https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx",
       "published_at": "2026-09-09T17:27:58Z",
       "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -325,11 +476,58 @@
       ]
     },
     {
+      "id": "d14f9595d1c9d1612e2b9ea0ea6e19e3510bb168",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1A2RVNySTdDaVFDc0RKUzUxcndfNi02NFYtdXd6S3B3UEU5VWVrWDZuZEQ3cDY2Q3g5TVFocWlIdHIxdko1OWg3c3Z6a2dsc00xLW1PekJnLWNCMTRBbk80RUt5TmJ1QldSVDNMb244ZWhPa1Y2LVJ2UmZPZDEzbm0zT3R5TDZORHdlTXZUOWpTOFBqMDlPQlhpN1RvZXJiVG1NUldWR0hfTEEzRzdTeDJZQUtOVFE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "title_zh": "Rentosertib在小型AI药物研究中显示出降低生物学年龄的潜力- AIM Media House",
+      "title_en": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1A2RVNySTdDaVFDc0RKUzUxcndfNi02NFYtdXd6S3B3UEU5VWVrWDZuZEQ3cDY2Q3g5TVFocWlIdHIxdko1OWg3c3Z6a2dsc00xLW1PekJnLWNCMTRBbk80RUt5TmJ1QldSVDNMb244ZWhPa1Y2LVJ2UmZPZDEzbm0zT3R5TDZORHdlTXZUOWpTOFBqMDlPQlhpN1RvZXJiVG1NUldWR0hfTEEzRzdTeDJZQUtOVFE?oc=5",
+      "published_at": "2026-09-10T09:12:07Z",
+      "first_seen_at": "2026-09-10T11:21:51.517840Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "67595d0b16c2ef37f2c1168b8d2fc151705f55d3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHdaSzEtZFF2a0w5VmlFRWIzdHJ5Z2tqOVBiSTd5MnFSVDhaR2NyZWNnUmROM0ZvRzVaMklmTF9QNlBFM2Q1dXlXd3E2bjU1dExwRzRvbXNhbVYyR0JkUlhpbUphOFhFVXRGVWVHUFB5VDNvUWFpcXJLdVNYZGdRT0xCdE9ralkxaTJoaXRPVVdOWWdmS3lFY1BOZDMwbUlZdktYMDZ3cS0xM1dsWDA3ODlQQ1JjOGc?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
       "title": "Deep learning ties retinal features to Alzheimer's risk factors - Glance by Eyes On Eyecare",
       "title_zh": "深度学习将视网膜特征与阿尔茨海默氏症的风险因素联系起来- Eyes On Eyecare的Glance",
@@ -337,7 +535,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHdaSzEtZFF2a0w5VmlFRWIzdHJ5Z2tqOVBiSTd5MnFSVDhaR2NyZWNnUmROM0ZvRzVaMklmTF9QNlBFM2Q1dXlXd3E2bjU1dExwRzRvbXNhbVYyR0JkUlhpbUphOFhFVXRGVWVHUFB5VDNvUWFpcXJLdVNYZGdRT0xCdE9ralkxaTJoaXRPVVdOWWdmS3lFY1BOZDMwbUlZdktYMDZ3cS0xM1dsWDA3ODlQQ1JjOGc?oc=5",
       "published_at": "2026-09-09T18:41:48Z",
       "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -385,7 +583,7 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xeEtUbXNMczhlRHVXSnZwdEwwN0ROeWZVNGFNaEpNNkJGcnlnVF95bG5saXA3SWpodHNlejRRLUQtYVdQSHVfZVdRekNWcW1HbG9FQlpmaWpGbkhpVE1iQ3BKOVlEZG1Ocm1sOF9JaUVjZw?oc=5",
       "published_at": "2026-09-09T18:31:52Z",
       "first_seen_at": "2026-09-09T22:34:12.607452Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
+      "last_seen_at": "2026-09-10T11:21:51.517840Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -420,102 +618,6 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "6f431827ded595304d5a8dca61fda16fe120a4f5",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVdicnZMOVNFSlJOQXdKYmR2YjhHLWFHSGFlM0UyWEhfMnBzU0diMFhtc3N4UVp4ejFBMnR4SDR3ZHdYMjY1RU5iZnVJYVFUNUM1UEQ3QWlSU1FZUmhjTXlOYUlrLWVJRkp5U1g4Qks1X21uTHU4S0pFY2o5R25tS1huc1NySE52Uzd1eXFwNA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-Developed Drug Reduces Estimated Biological Age in Patients - ForkLog",
-      "title_zh": "人工智能开发的药物降低患者的估计生物学年龄- ForkLog",
-      "title_en": "AI-Developed Drug Reduces Estimated Biological Age in Patients - ForkLog",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVdicnZMOVNFSlJOQXdKYmR2YjhHLWFHSGFlM0UyWEhfMnBzU0diMFhtc3N4UVp4ejFBMnR4SDR3ZHdYMjY1RU5iZnVJYVFUNUM1UEQ3QWlSU1FZUmhjTXlOYUlrLWVJRkp5U1g4Qks1X21uTHU4S0pFY2o5R25tS1huc1NySE52Uzd1eXFwNA?oc=5",
-      "published_at": "2026-09-09T10:26:37Z",
-      "first_seen_at": "2026-09-09T16:39:52.688533Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "5d00cf8c0d6ef6b06e7083f3f4dee8e409379ad4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWJKUHBTcEt6bEJ2V2YxSjZoalJyV25IT0RqbGpZaUdBdE9hbnNkYXBtbWIxOFcwUnNzS2pCTUNEYmJ2N1hSbWdXQ2FqYmJ5N3N2dE9JOEp2LUNvN1NXOVBxa0t0ZTA0dkRRc0I1TWpvRG9xS0tzNGtLLUdoT0tmTERZcFVFaUx6?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
-      "source_type": "news",
-      "title": "Drug designed by AI shows potential lower biological age - Yahoo",
-      "title_zh": "人工智能设计的药物显示潜在的较低生物学年龄-雅虎",
-      "title_en": "Drug designed by AI shows potential lower biological age - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWJKUHBTcEt6bEJ2V2YxSjZoalJyV25IT0RqbGpZaUdBdE9hbnNkYXBtbWIxOFcwUnNzS2pCTUNEYmJ2N1hSbWdXQ2FqYmJ5N3N2dE9JOEp2LUNvN1NXOVBxa0t0ZTA0dkRRc0I1TWpvRG9xS0tzNGtLLUdoT0tmTERZcFVFaUx6?oc=5",
-      "published_at": "2026-09-09T10:04:15Z",
-      "first_seen_at": "2026-09-09T19:46:45.202615Z",
-      "last_seen_at": "2026-09-10T05:59:20.972003Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
