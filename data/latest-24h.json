@@ -1,22 +1,69 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-11T16:30:36.732161Z",
+  "generated_at": "2026-09-11T19:44:03.000909Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 33,
-  "total_items_all_mode": 33,
-  "archive_total": 5873,
+  "total_items": 5,
+  "total_items_raw": 30,
+  "total_items_all_mode": 30,
+  "archive_total": 5772,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 32
+      "count": 5,
+      "raw_count": 29
     }
   ],
   "items": [
+    {
+      "id": "f712334db77f927f1f19b6c43a04881654e8cdd2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI detect Alzheimer’s before symptoms appear? Mass. researchers are trying - The Boston Globe",
+      "title_zh": "AI能否在症状出现之前检测到阿尔茨海默氏症？马萨诸塞州研究人员正在尝试-波士顿环球报",
+      "title_en": "Can AI detect Alzheimer’s before symptoms appear? Mass. researchers are trying - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
+      "published_at": "2026-09-11T17:32:53Z",
+      "first_seen_at": "2026-09-11T19:44:03.000909Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "43a67572393714817523bfad2dbe4020d39f1801",
       "canonical_key": "url:https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
@@ -30,56 +77,7 @@
       "url": "https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
       "published_at": "2026-09-11T14:34:47Z",
       "first_seen_at": "2026-09-11T16:30:36.732161Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "f9f13a75b7c34b709e73b1b2d11a4aed38ad41c9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
-      "title_zh": "光的谨慎智能，介于人工智能和长寿之间-米兰国际家具展（ Salone del Mobile Milano ）",
-      "title_en": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
-      "published_at": "2026-09-11T08:37:38Z",
-      "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -114,6 +112,100 @@
       "biological_context_signals": []
     },
     {
+      "id": "f9f13a75b7c34b709e73b1b2d11a4aed38ad41c9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
+      "title_zh": "光的谨慎智能，介于人工智能和长寿之间-米兰国际家具展（ Salone del Mobile Milano ）",
+      "title_en": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
+      "published_at": "2026-09-11T08:37:38Z",
+      "first_seen_at": "2026-09-11T11:23:16.008974Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "78b932e827cc16cc3bc8f1ba0dd58e13e24e131f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZ9IBwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "title_zh": "Rentosertib在小型AI药物研究中显示出降低生物学年龄的潜力- AIM Media House",
+      "title_en": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZ9IBwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZw?oc=5",
+      "published_at": "2026-09-11T07:10:14Z",
+      "first_seen_at": "2026-09-11T19:44:03.000909Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "a0e2c9a2e1bfde8cc9db1c0f541cc9620fbeca11",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "site_id": "official_rss",
@@ -126,7 +218,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "published_at": "2026-09-11T06:02:35Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -163,19 +255,19 @@
   ],
   "items_ai": [
     {
-      "id": "43a67572393714817523bfad2dbe4020d39f1801",
-      "canonical_key": "url:https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
+      "id": "f712334db77f927f1f19b6c43a04881654e8cdd2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Lifespan.io",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Your Personal Longevity Assistant: Evipedia Grok Bot",
-      "title_zh": "您的个人长寿助手： Evipedia Grok Bot",
-      "title_en": "Your Personal Longevity Assistant: Evipedia Grok Bot",
-      "url": "https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
-      "published_at": "2026-09-11T14:34:47Z",
-      "first_seen_at": "2026-09-11T16:30:36.732161Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
+      "title": "Can AI detect Alzheimer’s before symptoms appear? Mass. researchers are trying - The Boston Globe",
+      "title_zh": "AI能否在症状出现之前检测到阿尔茨海默氏症？马萨诸塞州研究人员正在尝试-波士顿环球报",
+      "title_en": "Can AI detect Alzheimer’s before symptoms appear? Mass. researchers are trying - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
+      "published_at": "2026-09-11T17:32:53Z",
+      "first_seen_at": "2026-09-11T19:44:03.000909Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -186,9 +278,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -201,30 +293,28 @@
         "ai"
       ],
       "longevity_signals": [
-        "longevity"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
+      "biological_context_signals": []
     },
     {
-      "id": "f9f13a75b7c34b709e73b1b2d11a4aed38ad41c9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
+      "id": "43a67572393714817523bfad2dbe4020d39f1801",
+      "canonical_key": "url:https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Lifespan.io",
       "source_type": "news",
-      "title": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
-      "title_zh": "光的谨慎智能，介于人工智能和长寿之间-米兰国际家具展（ Salone del Mobile Milano ）",
-      "title_en": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
-      "published_at": "2026-09-11T08:37:38Z",
-      "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
+      "title": "Your Personal Longevity Assistant: Evipedia Grok Bot",
+      "title_zh": "您的个人长寿助手： Evipedia Grok Bot",
+      "title_en": "Your Personal Longevity Assistant: Evipedia Grok Bot",
+      "url": "https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
+      "published_at": "2026-09-11T14:34:47Z",
+      "first_seen_at": "2026-09-11T16:30:36.732161Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -259,6 +349,100 @@
       "biological_context_signals": []
     },
     {
+      "id": "f9f13a75b7c34b709e73b1b2d11a4aed38ad41c9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
+      "title_zh": "光的谨慎智能，介于人工智能和长寿之间-米兰国际家具展（ Salone del Mobile Milano ）",
+      "title_en": "The discreet intelligence of light, between AI and longevity - Salone del Mobile Milano",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
+      "published_at": "2026-09-11T08:37:38Z",
+      "first_seen_at": "2026-09-11T11:23:16.008974Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "78b932e827cc16cc3bc8f1ba0dd58e13e24e131f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZ9IBwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "title_zh": "Rentosertib在小型AI药物研究中显示出降低生物学年龄的潜力- AIM Media House",
+      "title_en": "Rentosertib Shows Potential to Lower Biological Age in Small AI Drug Study - AIM Media House",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZ9IBwgFBVV95cUxNZThJSlUtYnpKdGR6UWl6bHUtM3FjYnFPMDZEaDhxZmNJUHVvYTlmUmxYTEFseXlySXJLZmRKc21ZeFZhNzJVUm1VV0R1ODBfWU1reS1pSmVGRThzRDF4ZUtkb1lOaTRlMl83NVVGOXBBS2V5em5mbTVsZlpHSzZ1S1RoYkxQRTRyTXppY0NIVnlpR2lGdGV1U2tpNFluVmNMaE9MX1JoSV9SbzlyU1dGNVZabzl1Tk5uRVEwczFPSkxkZw?oc=5",
+      "published_at": "2026-09-11T07:10:14Z",
+      "first_seen_at": "2026-09-11T19:44:03.000909Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "a0e2c9a2e1bfde8cc9db1c0f541cc9620fbeca11",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "site_id": "official_rss",
@@ -271,7 +455,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "published_at": "2026-09-11T06:02:35Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T16:30:36.732161Z",
+      "last_seen_at": "2026-09-11T19:44:03.000909Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
