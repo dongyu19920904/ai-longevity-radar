@@ -1,74 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-11T22:36:01.214926Z",
+  "generated_at": "2026-09-12T01:07:53.277710Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 35,
-  "total_items_all_mode": 35,
-  "archive_total": 5738,
+  "total_items": 6,
+  "total_items_raw": 347,
+  "total_items_all_mode": 347,
+  "archive_total": 6019,
   "site_count": 1,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 34
+      "count": 6,
+      "raw_count": 33
     }
   ],
   "items": [
-    {
-      "id": "974953365d95755bb5e429ae833a1f7cfae08216",
-      "canonical_key": "url:https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Lifespan.io",
-      "source_type": "news",
-      "title": "Lung Fibrosis Drug Lowers Biological Age Estimates",
-      "title_zh": "肺纤维化药物降低生物学年龄估计值",
-      "title_en": "Lung Fibrosis Drug Lowers Biological Age Estimates",
-      "url": "https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates",
-      "published_at": "2026-09-11T17:22:17Z",
-      "first_seen_at": "2026-09-11T19:44:03.000909Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.691,
-      "domain_score": 0.9,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock",
-        "anti-aging",
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
     {
       "id": "e0bda4f1a22e730cd76da82c37a1ef0980435f91",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RcXItY0l4OFI3TjhkUDluQkxMX3IzNHEwaU1qb25OeDRJc2VKcndET1Rxa094eVltWlIwTDlDYXdpLVhPS04wUVBjTjU1Wko0dXVhdjNKSXV4SWM?oc=5",
@@ -82,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RcXItY0l4OFI3TjhkUDluQkxMX3IzNHEwaU1qb25OeDRJc2VKcndET1Rxa094eVltWlIwTDlDYXdpLVhPS04wUVBjTjU1Wko0dXVhdjNKSXV4SWM?oc=5",
       "published_at": "2026-09-11T21:08:00Z",
       "first_seen_at": "2026-09-11T22:36:01.214926Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -129,7 +77,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
       "published_at": "2026-09-11T17:32:53Z",
       "first_seen_at": "2026-09-11T19:44:03.000909Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -176,7 +124,7 @@
       "url": "https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
       "published_at": "2026-09-11T14:34:47Z",
       "first_seen_at": "2026-09-11T16:30:36.732161Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -223,7 +171,7 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
       "published_at": "2026-09-11T08:37:38Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -317,7 +265,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "published_at": "2026-09-11T06:02:35Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -354,58 +302,6 @@
   ],
   "items_ai": [
     {
-      "id": "974953365d95755bb5e429ae833a1f7cfae08216",
-      "canonical_key": "url:https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Lifespan.io",
-      "source_type": "news",
-      "title": "Lung Fibrosis Drug Lowers Biological Age Estimates",
-      "title_zh": "肺纤维化药物降低生物学年龄估计值",
-      "title_en": "Lung Fibrosis Drug Lowers Biological Age Estimates",
-      "url": "https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates",
-      "published_at": "2026-09-11T17:22:17Z",
-      "first_seen_at": "2026-09-11T19:44:03.000909Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.691,
-      "domain_score": 0.9,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock",
-        "anti-aging",
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
       "id": "e0bda4f1a22e730cd76da82c37a1ef0980435f91",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RcXItY0l4OFI3TjhkUDluQkxMX3IzNHEwaU1qb25OeDRJc2VKcndET1Rxa094eVltWlIwTDlDYXdpLVhPS04wUVBjTjU1Wko0dXVhdjNKSXV4SWM?oc=5",
       "site_id": "official_rss",
@@ -418,7 +314,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RcXItY0l4OFI3TjhkUDluQkxMX3IzNHEwaU1qb25OeDRJc2VKcndET1Rxa094eVltWlIwTDlDYXdpLVhPS04wUVBjTjU1Wko0dXVhdjNKSXV4SWM?oc=5",
       "published_at": "2026-09-11T21:08:00Z",
       "first_seen_at": "2026-09-11T22:36:01.214926Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -465,7 +361,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemtnRGl5UnhySE5MNDhuUTBESUZMeVhaNVAtMDg1aGtSQ21POVN1MmoyYXdhZThnOTliSFJ1VXRYZnRFcUV1VmJkQnd0U291MmRWLVUzblVPVDhXaEJ0SUx1RjVETUlSLW55OWFaX2EzaDRUWTFPR2dpc29IbDAzWXh5MVJ5UkhuVDR3RWx4eUlYT21IaEtCTEdIWkxwYmhaemMzTF80OGJHblUzZHI1UWMyTjlPNFIyRURoemstRzFIT3V1c3FVc0RZVjU4c2s?oc=5",
       "published_at": "2026-09-11T17:32:53Z",
       "first_seen_at": "2026-09-11T19:44:03.000909Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -512,7 +408,7 @@
       "url": "https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot",
       "published_at": "2026-09-11T14:34:47Z",
       "first_seen_at": "2026-09-11T16:30:36.732161Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -559,7 +455,7 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUmsxRXJKR256MHpkSUpFdGV5VlhlaWhQWVZxSi1oY1ZDbUgyMDNZQmJkTURtZkhnRzNZX2hnNVpnM2YtaGlXOFFtWEo0T3NHaE1FNHZLV2tlRXRDVERQbWdFa2tVMk9rOW45c3NzRTQ2c3YxYXFCaThzLTRkdw?oc=5",
       "published_at": "2026-09-11T08:37:38Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -653,7 +549,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWFUV0FIS0N1LUVFQXp4V28xS1V0eGRTYnlmRWR3R2UxWlNaZVZ5QmVGS0E1Y2pBQnNNTDUyY1hOOTh3dW9SZ2R2NWtJbmNYdG9iYkh3c0ZnQ081TjNoeGVFODN4UHUwT3lEZThUV1NpZTRLUlcyU09uXzZXNmVqd2ZaUlUtT1hhTHpJc3F6bTcyUQ?oc=5",
       "published_at": "2026-09-11T06:02:35Z",
       "first_seen_at": "2026-09-11T11:23:16.008974Z",
-      "last_seen_at": "2026-09-11T22:36:01.214926Z",
+      "last_seen_at": "2026-09-12T01:07:53.277710Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
