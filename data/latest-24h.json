@@ -1,25 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-14T14:04:52.211876Z",
+  "generated_at": "2026-09-14T19:22:55.268586Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 424,
-  "total_items_all_mode": 424,
-  "archive_total": 6096,
+  "total_items": 2,
+  "total_items_raw": 513,
+  "total_items_all_mode": 513,
+  "archive_total": 6227,
   "site_count": 2,
-  "source_count": 3,
+  "source_count": 2,
   "site_stats": [
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 2,
-      "raw_count": 2
-    },
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "count": 1,
       "raw_count": 2
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "items": [
@@ -36,7 +36,7 @@
       "url": "https://europepmc.org/article/MED/42734057",
       "published_at": "2026-09-14T00:00:00Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-09-14T19:22:55.268586Z",
       "ai_is_related": true,
       "ai_score": 0.98,
       "longevity_is_related": true,
@@ -75,58 +75,6 @@
       ]
     },
     {
-      "id": "7e37b0f62d4b9734c3425f33224cd49a5d3233cc",
-      "canonical_key": "repo:hema-kn-git/ml-powered-multi-modal-system-for-early-detection-of-alzheimer-s-disease",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease",
-      "source_type": "project",
-      "title": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease: Built a machine learning system for early detection of Alzheimer's Disease using multimodal analysis, combining imaging and clinical data for improved diagnostic accuracy. ● Applied ML techniques including classification and feature extraction to identify early-stage biomarkers across multiple data modalities.",
-      "title_zh": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease ：构建了一个机器学习系统，用于使用多模态分析早期检测阿尔茨海默病，结合成像和临床数据以提高诊断准确性。●应用机器学习技术，包括分类和特征提取，以确定跨多种数据模式的早期生物标志物。",
-      "title_en": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease: Built a machine learning system for early detection of Alzheimer's Disease using multimodal analysis, combining imaging and clinical data for improved diagnostic accuracy. ● Applied ML techniques including classification and feature extraction to identify early-stage biomarkers across multiple data modalities.",
-      "url": "https://github.com/Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease",
-      "published_at": "2026-09-13T15:49:40Z",
-      "first_seen_at": "2026-09-13T16:18:59.366516Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
-      "ai_is_related": true,
-      "ai_score": 0.78,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.59,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "ml",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "clinical",
-        "disease"
-      ]
-    },
-    {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
       "site_id": "github_projects",
@@ -139,7 +87,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-09-14T12:17:55Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-09-14T19:22:55.268586Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -188,7 +136,7 @@
       "url": "https://europepmc.org/article/MED/42734057",
       "published_at": "2026-09-14T00:00:00Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-09-14T19:22:55.268586Z",
       "ai_is_related": true,
       "ai_score": 0.98,
       "longevity_is_related": true,
@@ -227,58 +175,6 @@
       ]
     },
     {
-      "id": "7e37b0f62d4b9734c3425f33224cd49a5d3233cc",
-      "canonical_key": "repo:hema-kn-git/ml-powered-multi-modal-system-for-early-detection-of-alzheimer-s-disease",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease",
-      "source_type": "project",
-      "title": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease: Built a machine learning system for early detection of Alzheimer's Disease using multimodal analysis, combining imaging and clinical data for improved diagnostic accuracy. ● Applied ML techniques including classification and feature extraction to identify early-stage biomarkers across multiple data modalities.",
-      "title_zh": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease ：构建了一个机器学习系统，用于使用多模态分析早期检测阿尔茨海默病，结合成像和临床数据以提高诊断准确性。●应用机器学习技术，包括分类和特征提取，以确定跨多种数据模式的早期生物标志物。",
-      "title_en": "Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease: Built a machine learning system for early detection of Alzheimer's Disease using multimodal analysis, combining imaging and clinical data for improved diagnostic accuracy. ● Applied ML techniques including classification and feature extraction to identify early-stage biomarkers across multiple data modalities.",
-      "url": "https://github.com/Hema-kn-git/ML-Powered-Multi-Modal-System-for-Early-Detection-of-Alzheimer-s-Disease",
-      "published_at": "2026-09-13T15:49:40Z",
-      "first_seen_at": "2026-09-13T16:18:59.366516Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
-      "ai_is_related": true,
-      "ai_score": 0.78,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.59,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "ml",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "clinical",
-        "disease"
-      ]
-    },
-    {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
       "site_id": "github_projects",
@@ -291,7 +187,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-09-14T12:17:55Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-09-14T19:22:55.268586Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
