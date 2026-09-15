@@ -1,31 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-15T13:34:49.876170Z",
+  "generated_at": "2026-09-15T18:12:57.267281Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 102,
-  "total_items_all_mode": 102,
-  "archive_total": 6250,
-  "site_count": 3,
+  "total_items": 7,
+  "total_items_raw": 56,
+  "total_items_all_mode": 56,
+  "archive_total": 6253,
+  "site_count": 2,
   "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 4,
+      "raw_count": 32
+    },
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "count": 3,
       "raw_count": 22
-    },
-    {
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "count": 1,
-      "raw_count": 2
-    },
-    {
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 29
     }
   ],
   "items": [
@@ -42,7 +36,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572803",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.76,
       "longevity_is_related": true,
@@ -89,7 +83,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572632",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.76,
       "longevity_is_related": true,
@@ -138,7 +132,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572675",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -176,54 +170,61 @@
       ]
     },
     {
-      "id": "cf36ab251bbcb185bb2b772c50302b82350eff42",
-      "canonical_key": "url:https://papers.cool/arxiv/2609.15888",
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "source": "Papers.cool cs.CV",
-      "source_type": "paper",
-      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
-      "title_zh": "结构MRI对阿尔茨海默病分类的解剖接地和渗漏感知多模态对比学习",
-      "title_en": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
-      "url": "https://papers.cool/arxiv/2609.15888",
-      "published_at": "2026-09-14T17:13:12Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "id": "a098d28b60d0f02805e24be9a7e6315c8e601737",
+      "canonical_key": "url:https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Insilico Medicine launches AI initiative to develop longevity vaccines",
+      "title_zh": "Insilico Medicine推出人工智能计划，开发长寿疫苗",
+      "title_en": "Insilico Medicine launches AI initiative to develop longevity vaccines",
+      "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
+      "published_at": "2026-09-15T16:40:36Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
-      "ai_score": 0.72,
+      "ai_score": 0.7,
       "longevity_is_related": true,
-      "longevity_score": 0.62,
-      "signal_score": 0.701,
-      "domain_score": 0.62,
+      "longevity_score": 0.7,
+      "signal_score": 0.638,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "drug_discovery"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "drug_discovery",
       "study_subject": "human",
-      "publication_stage": "preprint",
-      "evidence_type": "preprint",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
       "risk_flags": [
-        "preprint_not_peer_reviewed"
+        "secondary_source",
+        "not_primary_evidence"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "multimodal",
-        "transformer"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "age-related",
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "drug discovery"
+      ],
       "biological_context_signals": [
+        "cellular",
         "clinical",
-        "cognitive",
-        "disease"
+        "disease",
+        "immune",
+        "medicine",
+        "patient"
       ]
     },
     {
@@ -239,7 +240,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
       "published_at": "2026-09-15T02:53:31Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -276,6 +277,100 @@
         "human",
         "medicine"
       ]
+    },
+    {
+      "id": "0fc1bdbc1b6e452a833186245a11c23efcbf7ecb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Using AI to stay one step ahead of dementia - The European Sting",
+      "title_zh": "使用人工智能领先痴呆症一步-欧洲叮咬",
+      "title_en": "Using AI to stay one step ahead of dementia - The European Sting",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
+      "published_at": "2026-09-15T15:24:50Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "7ab607a921fdc7820c6080fd483bc682a92c53dc",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI tool for early dementia detection earns Fast Company honor - Bryan College Station Eagle",
+      "title_zh": "用于早期痴呆症检测的人工智能工具赢得了Fast Company的荣誉- Bryan College Station Eagle",
+      "title_en": "AI tool for early dementia detection earns Fast Company honor - Bryan College Station Eagle",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
+      "published_at": "2026-09-15T14:14:05Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -292,7 +387,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572803",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.76,
       "longevity_is_related": true,
@@ -339,7 +434,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572632",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.76,
       "longevity_is_related": true,
@@ -388,7 +483,7 @@
       "url": "https://europepmc.org/article/MED/PMC13572675",
       "published_at": "2026-09-15T00:00:00Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.65,
       "longevity_is_related": true,
@@ -426,54 +521,61 @@
       ]
     },
     {
-      "id": "cf36ab251bbcb185bb2b772c50302b82350eff42",
-      "canonical_key": "url:https://papers.cool/arxiv/2609.15888",
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "source": "Papers.cool cs.CV",
-      "source_type": "paper",
-      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
-      "title_zh": "结构MRI对阿尔茨海默病分类的解剖接地和渗漏感知多模态对比学习",
-      "title_en": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
-      "url": "https://papers.cool/arxiv/2609.15888",
-      "published_at": "2026-09-14T17:13:12Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "id": "a098d28b60d0f02805e24be9a7e6315c8e601737",
+      "canonical_key": "url:https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Insilico Medicine launches AI initiative to develop longevity vaccines",
+      "title_zh": "Insilico Medicine推出人工智能计划，开发长寿疫苗",
+      "title_en": "Insilico Medicine launches AI initiative to develop longevity vaccines",
+      "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
+      "published_at": "2026-09-15T16:40:36Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
-      "ai_score": 0.72,
+      "ai_score": 0.7,
       "longevity_is_related": true,
-      "longevity_score": 0.62,
-      "signal_score": 0.701,
-      "domain_score": 0.62,
+      "longevity_score": 0.7,
+      "signal_score": 0.638,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "drug_discovery"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "drug_discovery",
       "study_subject": "human",
-      "publication_stage": "preprint",
-      "evidence_type": "preprint",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
       "risk_flags": [
-        "preprint_not_peer_reviewed"
+        "secondary_source",
+        "not_primary_evidence"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "multimodal",
-        "transformer"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "age-related",
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "drug discovery"
+      ],
       "biological_context_signals": [
+        "cellular",
         "clinical",
-        "cognitive",
-        "disease"
+        "disease",
+        "immune",
+        "medicine",
+        "patient"
       ]
     },
     {
@@ -489,7 +591,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
       "published_at": "2026-09-15T02:53:31Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -526,6 +628,100 @@
         "human",
         "medicine"
       ]
+    },
+    {
+      "id": "0fc1bdbc1b6e452a833186245a11c23efcbf7ecb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Using AI to stay one step ahead of dementia - The European Sting",
+      "title_zh": "使用人工智能领先痴呆症一步-欧洲叮咬",
+      "title_en": "Using AI to stay one step ahead of dementia - The European Sting",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
+      "published_at": "2026-09-15T15:24:50Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "7ab607a921fdc7820c6080fd483bc682a92c53dc",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI tool for early dementia detection earns Fast Company honor - Bryan College Station Eagle",
+      "title_zh": "用于早期痴呆症检测的人工智能工具赢得了Fast Company的荣誉- Bryan College Station Eagle",
+      "title_en": "AI tool for early dementia detection earns Fast Company honor - Bryan College Station Eagle",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
+      "published_at": "2026-09-15T14:14:05Z",
+      "first_seen_at": "2026-09-15T18:12:57.267281Z",
+      "last_seen_at": "2026-09-15T18:12:57.267281Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
