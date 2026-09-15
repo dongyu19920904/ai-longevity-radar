@@ -1,54 +1,163 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-15T07:46:20.114744Z",
+  "generated_at": "2026-09-15T13:34:49.876170Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 228,
-  "total_items_all_mode": 228,
-  "archive_total": 6214,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items": 5,
+  "total_items_raw": 102,
+  "total_items_all_mode": 102,
+  "archive_total": 6250,
+  "site_count": 3,
+  "source_count": 3,
   "site_stats": [
     {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 3,
+      "raw_count": 22
+    },
+    {
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
       "count": 1,
-      "raw_count": 1
+      "raw_count": 2
+    },
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 1,
+      "raw_count": 29
     }
   ],
   "items": [
     {
-      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
-      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "source_type": "project",
-      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
-      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "published_at": "2026-09-14T12:17:55Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-15T07:46:20.114744Z",
+      "id": "c48b895db79d9ccb4dd310a236d9a5ee62935e35",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572803",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
+      "title_zh": "解码骨眼轴：机器学习用于年龄相关的黄斑变性风险预测",
+      "title_en": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
+      "url": "https://europepmc.org/article/MED/PMC13572803",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.76,
       "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration",
-        "research_tool"
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "age-related"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "e5f12a00315d82007b6072348e5ad5636905b708",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572632",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
+      "title_zh": "基于多模态MRI放射组学的可解释机器学习模型用于阿尔茨海默病诊断",
+      "title_en": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
+      "url": "https://europepmc.org/article/MED/PMC13572632",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "afeccfd8d62481d3c09e161aaffaa2eb39854f61",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572675",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
+      "title_zh": "利用基于BERT的语言模型利用语音衍生生物标志物检测阿尔茨海默病：一项机器学习研究",
+      "title_en": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
+      "url": "https://europepmc.org/article/MED/PMC13572675",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
         "machine learning"
@@ -62,42 +171,243 @@
       "biomedical_signals": [
         "biomarkers"
       ],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "cf36ab251bbcb185bb2b772c50302b82350eff42",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.15888",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.CV",
+      "source_type": "paper",
+      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "title_zh": "结构MRI对阿尔茨海默病分类的解剖接地和渗漏感知多模态对比学习",
+      "title_en": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "url": "https://papers.cool/arxiv/2609.15888",
+      "published_at": "2026-09-14T17:13:12Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.701,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "multimodal",
+        "transformer"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive",
+        "disease"
+      ]
+    },
+    {
+      "id": "74577e8c9ea91041dc4fb93bd8fa2ab2a37889ea",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
+      "title_zh": "Insilico推出针对衰老相关疾病和人类长寿的人工智能驱动长寿疫苗研究- Insilico Medicine",
+      "title_en": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
+      "published_at": "2026-09-15T02:53:31Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "human",
+        "medicine"
+      ]
     }
   ],
   "items_ai": [
     {
-      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
-      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "source_type": "project",
-      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
-      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "published_at": "2026-09-14T12:17:55Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-15T07:46:20.114744Z",
+      "id": "c48b895db79d9ccb4dd310a236d9a5ee62935e35",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572803",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
+      "title_zh": "解码骨眼轴：机器学习用于年龄相关的黄斑变性风险预测",
+      "title_en": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
+      "url": "https://europepmc.org/article/MED/PMC13572803",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.76,
       "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration",
-        "research_tool"
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "age-related"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "e5f12a00315d82007b6072348e5ad5636905b708",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572632",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
+      "title_zh": "基于多模态MRI放射组学的可解释机器学习模型用于阿尔茨海默病诊断",
+      "title_en": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
+      "url": "https://europepmc.org/article/MED/PMC13572632",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "afeccfd8d62481d3c09e161aaffaa2eb39854f61",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572675",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
+      "title_zh": "利用基于BERT的语言模型利用语音衍生生物标志物检测阿尔茨海默病：一项机器学习研究",
+      "title_en": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
+      "url": "https://europepmc.org/article/MED/PMC13572675",
+      "published_at": "2026-09-15T00:00:00Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
         "machine learning"
@@ -111,7 +421,111 @@
       "biomedical_signals": [
         "biomarkers"
       ],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "cf36ab251bbcb185bb2b772c50302b82350eff42",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.15888",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.CV",
+      "source_type": "paper",
+      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "title_zh": "结构MRI对阿尔茨海默病分类的解剖接地和渗漏感知多模态对比学习",
+      "title_en": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "url": "https://papers.cool/arxiv/2609.15888",
+      "published_at": "2026-09-14T17:13:12Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.701,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "multimodal",
+        "transformer"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive",
+        "disease"
+      ]
+    },
+    {
+      "id": "74577e8c9ea91041dc4fb93bd8fa2ab2a37889ea",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
+      "title_zh": "Insilico推出针对衰老相关疾病和人类长寿的人工智能驱动长寿疫苗研究- Insilico Medicine",
+      "title_en": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
+      "published_at": "2026-09-15T02:53:31Z",
+      "first_seen_at": "2026-09-15T13:34:49.876170Z",
+      "last_seen_at": "2026-09-15T13:34:49.876170Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "human",
+        "medicine"
+      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
