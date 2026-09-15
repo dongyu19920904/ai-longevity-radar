@@ -1,20 +1,14 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-14T23:08:43.746459Z",
+  "generated_at": "2026-09-15T01:29:19.631731Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 448,
-  "total_items_all_mode": 448,
-  "archive_total": 6231,
-  "site_count": 2,
-  "source_count": 2,
+  "total_items": 1,
+  "total_items_raw": 396,
+  "total_items_all_mode": 396,
+  "archive_total": 6217,
+  "site_count": 1,
+  "source_count": 1,
   "site_stats": [
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 1,
-      "raw_count": 2
-    },
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
@@ -23,57 +17,6 @@
     }
   ],
   "items": [
-    {
-      "id": "8845f860918b803ba78a5703a0ab4d334d3fa2ce",
-      "canonical_key": "doi:10.1111/jgs.70704",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Hospital Artificial Intelligence Tools and Inpatient Utilization and Costs in Older Adults with Alzheimer's Disease and Related Dementias.",
-      "title_zh": "老年阿尔茨海默病和相关痴呆症患者的医院人工智能工具和住院利用率及费用。",
-      "title_en": "Hospital Artificial Intelligence Tools and Inpatient Utilization and Costs in Older Adults with Alzheimer's Disease and Related Dementias.",
-      "url": "https://europepmc.org/article/MED/42734057",
-      "published_at": "2026-09-14T00:00:00Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T23:08:43.746459Z",
-      "ai_is_related": true,
-      "ai_score": 0.98,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.817,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "artificial intelligence",
-        "machine learning",
-        "ml"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "disease",
-        "patient"
-      ]
-    },
     {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
@@ -87,7 +30,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-09-14T12:17:55Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T23:08:43.746459Z",
+      "last_seen_at": "2026-09-15T01:29:19.631731Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -124,57 +67,6 @@
   ],
   "items_ai": [
     {
-      "id": "8845f860918b803ba78a5703a0ab4d334d3fa2ce",
-      "canonical_key": "doi:10.1111/jgs.70704",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Hospital Artificial Intelligence Tools and Inpatient Utilization and Costs in Older Adults with Alzheimer's Disease and Related Dementias.",
-      "title_zh": "老年阿尔茨海默病和相关痴呆症患者的医院人工智能工具和住院利用率及费用。",
-      "title_en": "Hospital Artificial Intelligence Tools and Inpatient Utilization and Costs in Older Adults with Alzheimer's Disease and Related Dementias.",
-      "url": "https://europepmc.org/article/MED/42734057",
-      "published_at": "2026-09-14T00:00:00Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T23:08:43.746459Z",
-      "ai_is_related": true,
-      "ai_score": 0.98,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.817,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "artificial intelligence",
-        "machine learning",
-        "ml"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "disease",
-        "patient"
-      ]
-    },
-    {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
       "site_id": "github_projects",
@@ -187,7 +79,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-09-14T12:17:55Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-09-14T23:08:43.746459Z",
+      "last_seen_at": "2026-09-15T01:29:19.631731Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
