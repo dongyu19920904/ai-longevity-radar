@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-16T00:22:21.836772Z",
+  "generated_at": "2026-09-16T06:03:23.930503Z",
   "window_hours": 24,
-  "total_items": 9,
-  "total_items_raw": 45,
-  "total_items_all_mode": 45,
-  "archive_total": 6263,
+  "total_items": 10,
+  "total_items_raw": 48,
+  "total_items_all_mode": 48,
+  "archive_total": 6269,
   "site_count": 1,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 9,
-      "raw_count": 45
+      "count": 10,
+      "raw_count": 47
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
       "published_at": "2026-09-15T16:40:36Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -88,7 +88,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
       "published_at": "2026-09-15T20:02:14Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -132,13 +132,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI may have cracked the anti-aging code - theweek.com",
-      "title_zh": "人工智能可能已经破解了抗衰老密码- theweek.com",
-      "title_en": "AI may have cracked the anti-aging code - theweek.com",
+      "title": "AI may have cracked the anti-aging code - The Week",
+      "title_zh": "人工智能可能已经破解了抗衰老密码-本周",
+      "title_en": "AI may have cracked the anti-aging code - The Week",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "published_at": "2026-09-15T18:22:05Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -174,57 +174,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "74577e8c9ea91041dc4fb93bd8fa2ab2a37889ea",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
-      "title_zh": "Insilico推出针对衰老相关疾病和人类长寿的人工智能驱动长寿疫苗研究- Insilico Medicine",
-      "title_en": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
-      "published_at": "2026-09-15T02:53:31Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medicine"
-      ]
-    },
-    {
       "id": "450de9152dc45c0fef112c667027d55a77897718",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "site_id": "official_rss",
@@ -237,7 +186,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "published_at": "2026-09-15T22:13:35Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -272,6 +221,55 @@
       "biological_context_signals": []
     },
     {
+      "id": "6babc3e4443397ec2a2e9b2215de40a134805265",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "The BioPharm Brief: AI, T-Cell Engagers, and Longevity Research - BioPharm International",
+      "title_zh": "BioPharm简介：人工智能、T细胞参与和长寿研究- BioPharm International",
+      "title_en": "The BioPharm Brief: AI, T-Cell Engagers, and Longevity Research - BioPharm International",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
+      "published_at": "2026-09-15T21:23:49Z",
+      "first_seen_at": "2026-09-16T06:03:23.930503Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
       "id": "444e10adce6a160bc90a3a2695d74ff230ab63b4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "site_id": "official_rss",
@@ -284,7 +282,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -370,6 +368,53 @@
       ]
     },
     {
+      "id": "a2ae47dc4902cf4b1333e224f94bc714e6575ba2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjd5Ui11STFxT2xCU1FVblp5a19yU3d6d2JGa2JTN2NsQjdxbENmZnpqUGVZdDR5SHh0amFCS2xoQWV3MXh6ZlhaSFJuTnNKS1gyVi1ZQ2dfQ0QzaWg3NzNwMkFKeHpBUXdXcHE0MEl6dmhiRFdMRHU5ZjhRQkRjV2N1elJlMGZRNWtpWmFuTUhSeGs?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Launches AI-Driven Longevity Vaccines Research Program - BioPharm International",
+      "title_zh": "Insilico推出人工智能驱动的长寿疫苗研究项目- BioPharm International",
+      "title_en": "Insilico Launches AI-Driven Longevity Vaccines Research Program - BioPharm International",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjd5Ui11STFxT2xCU1FVblp5a19yU3d6d2JGa2JTN2NsQjdxbENmZnpqUGVZdDR5SHh0amFCS2xoQWV3MXh6ZlhaSFJuTnNKS1gyVi1ZQ2dfQ0QzaWg3NzNwMkFKeHpBUXdXcHE0MEl6dmhiRFdMRHU5ZjhRQkRjV2N1elJlMGZRNWtpWmFuTUhSeGs?oc=5",
+      "published_at": "2026-09-15T15:41:42Z",
+      "first_seen_at": "2026-09-16T06:03:23.930503Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "0fc1bdbc1b6e452a833186245a11c23efcbf7ecb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "site_id": "official_rss",
@@ -382,7 +427,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "published_at": "2026-09-15T15:24:50Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -478,7 +523,7 @@
       "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
       "published_at": "2026-09-15T16:40:36Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -536,7 +581,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
       "published_at": "2026-09-15T20:02:14Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -580,13 +625,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI may have cracked the anti-aging code - theweek.com",
-      "title_zh": "人工智能可能已经破解了抗衰老密码- theweek.com",
-      "title_en": "AI may have cracked the anti-aging code - theweek.com",
+      "title": "AI may have cracked the anti-aging code - The Week",
+      "title_zh": "人工智能可能已经破解了抗衰老密码-本周",
+      "title_en": "AI may have cracked the anti-aging code - The Week",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "published_at": "2026-09-15T18:22:05Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -622,57 +667,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "74577e8c9ea91041dc4fb93bd8fa2ab2a37889ea",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
-      "title_zh": "Insilico推出针对衰老相关疾病和人类长寿的人工智能驱动长寿疫苗研究- Insilico Medicine",
-      "title_en": "Insilico Launches AI-driven Longevity Vaccines Research for Aging-related Diseases and Human Longevity - Insilico Medicine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
-      "published_at": "2026-09-15T02:53:31Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "medicine"
-      ]
-    },
-    {
       "id": "450de9152dc45c0fef112c667027d55a77897718",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "site_id": "official_rss",
@@ -685,7 +679,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "published_at": "2026-09-15T22:13:35Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -720,6 +714,55 @@
       "biological_context_signals": []
     },
     {
+      "id": "6babc3e4443397ec2a2e9b2215de40a134805265",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "The BioPharm Brief: AI, T-Cell Engagers, and Longevity Research - BioPharm International",
+      "title_zh": "BioPharm简介：人工智能、T细胞参与和长寿研究- BioPharm International",
+      "title_en": "The BioPharm Brief: AI, T-Cell Engagers, and Longevity Research - BioPharm International",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
+      "published_at": "2026-09-15T21:23:49Z",
+      "first_seen_at": "2026-09-16T06:03:23.930503Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
       "id": "444e10adce6a160bc90a3a2695d74ff230ab63b4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "site_id": "official_rss",
@@ -732,7 +775,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -818,6 +861,53 @@
       ]
     },
     {
+      "id": "a2ae47dc4902cf4b1333e224f94bc714e6575ba2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjd5Ui11STFxT2xCU1FVblp5a19yU3d6d2JGa2JTN2NsQjdxbENmZnpqUGVZdDR5SHh0amFCS2xoQWV3MXh6ZlhaSFJuTnNKS1gyVi1ZQ2dfQ0QzaWg3NzNwMkFKeHpBUXdXcHE0MEl6dmhiRFdMRHU5ZjhRQkRjV2N1elJlMGZRNWtpWmFuTUhSeGs?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Launches AI-Driven Longevity Vaccines Research Program - BioPharm International",
+      "title_zh": "Insilico推出人工智能驱动的长寿疫苗研究项目- BioPharm International",
+      "title_en": "Insilico Launches AI-Driven Longevity Vaccines Research Program - BioPharm International",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjd5Ui11STFxT2xCU1FVblp5a19yU3d6d2JGa2JTN2NsQjdxbENmZnpqUGVZdDR5SHh0amFCS2xoQWV3MXh6ZlhaSFJuTnNKS1gyVi1ZQ2dfQ0QzaWg3NzNwMkFKeHpBUXdXcHE0MEl6dmhiRFdMRHU5ZjhRQkRjV2N1elJlMGZRNWtpWmFuTUhSeGs?oc=5",
+      "published_at": "2026-09-15T15:41:42Z",
+      "first_seen_at": "2026-09-16T06:03:23.930503Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "0fc1bdbc1b6e452a833186245a11c23efcbf7ecb",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "site_id": "official_rss",
@@ -830,7 +920,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "published_at": "2026-09-15T15:24:50Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T06:03:23.930503Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
