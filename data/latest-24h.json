@@ -1,50 +1,51 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-16T16:58:10.382161Z",
+  "generated_at": "2026-09-16T20:08:34.832180Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 35,
-  "total_items_all_mode": 35,
-  "archive_total": 6262,
+  "total_items": 6,
+  "total_items_raw": 27,
+  "total_items_all_mode": 27,
+  "archive_total": 6265,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 35
+      "count": 6,
+      "raw_count": 27
     }
   ],
   "items": [
     {
-      "id": "6e5026e650c3e9bce4251ab1bbe6949f6bb1c363",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "id": "41dbb53682e073b78bf015e376a6631ccae56bde",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-09-ai-retinal-age-revealing-sex.html",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "MedicalXpress Healthy Aging",
       "source_type": "news",
-      "title": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
-      "title_zh": "人工智能设计的“长寿疫苗”针对细胞衰老的最早罪魁祸首-神经科学新闻",
-      "title_en": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
-      "published_at": "2026-09-15T20:02:14Z",
-      "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "title": "AI estimates retinal age, revealing sex-specific aging patterns and links to disease risk",
+      "title_zh": "人工智能估计视网膜年龄，揭示特定性别的衰老模式和与疾病风险的联系",
+      "title_en": "AI estimates retinal age, revealing sex-specific aging patterns and links to disease risk",
+      "url": "https://medicalxpress.com/news/2026-09-ai-retinal-age-revealing-sex.html",
+      "published_at": "2026-09-16T19:40:08Z",
+      "first_seen_at": "2026-09-16T20:08:34.832180Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.7,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.8,
+      "signal_score": 0.681,
+      "domain_score": 0.8,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "aging_clock",
+        "digital_biomarker"
       ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
+      "primary_topic": "aging_clock",
+      "study_subject": "computational_or_dataset",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -53,18 +54,23 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
+        "age-related",
         "aging",
-        "longevity"
+        "retinal age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "disease risk"
+      ],
       "biological_context_signals": [
-        "cellular"
+        "disease",
+        "health"
       ]
     },
     {
@@ -80,7 +86,7 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFFVWGVoVWF2YUhkbHMwQ0dIQXVpbzJVRlFKT3h4a0FBanlVdlZyTUZwTVJrZzhxWGJGejBublNOUHdBUzJ2NFNra2NhNE5zREhlUkNZUHFSYTExVkRhNFRROUNJVjZnbVRvSU5iS2NWdHJ0dDgyM28ySEs4azFnbnR5bmdPZGpINmxZVDk1OXVPM3FXWVoycXhmMjNFVWlaeE1rd1ZkazlITlN5RXQ4?oc=5",
       "published_at": "2026-09-16T12:17:00Z",
       "first_seen_at": "2026-09-16T16:58:10.382161Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -127,7 +133,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ296QWZGNHVsVWxyWlpXc3BCU0NYaTJsS0NqbWdBcnpZOXpWMFE0Y2dfeUJTNTFMa2NJaVVheWhkQzgyLUJyMkRmWm9rM2hDN0ZYVzFGZl9Ld1JYU1NYa0F4SWsxNU1HT0tLYl8xcWhSa0xTT2l1ZTB5Vk1idUFSazdXQkFwTWZ2RUZzamZZMHltWmFVdUR4M2xzZmhCOUM0R0NDYVFNUQ?oc=5",
       "published_at": "2026-09-16T07:51:25Z",
       "first_seen_at": "2026-09-16T11:36:47.888843Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -174,7 +180,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "published_at": "2026-09-15T22:13:35Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -221,7 +227,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
       "published_at": "2026-09-15T21:23:49Z",
       "first_seen_at": "2026-09-16T06:03:23.930503Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -270,7 +276,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -303,88 +309,38 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e1eadeecec906ed88bf7ad95ca672689f2591b6f",
-      "canonical_key": "url:https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "The overlooked leak draining longevity clinic revenue",
-      "title_zh": "被忽视的泄漏耗尽长寿诊所收入",
-      "title_en": "The overlooked leak draining longevity clinic revenue",
-      "url": "https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
-      "published_at": "2026-09-15T17:13:15Z",
-      "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health",
-        "healthcare",
-        "patient"
-      ]
     }
   ],
   "items_ai": [
     {
-      "id": "6e5026e650c3e9bce4251ab1bbe6949f6bb1c363",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "id": "41dbb53682e073b78bf015e376a6631ccae56bde",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-09-ai-retinal-age-revealing-sex.html",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "MedicalXpress Healthy Aging",
       "source_type": "news",
-      "title": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
-      "title_zh": "人工智能设计的“长寿疫苗”针对细胞衰老的最早罪魁祸首-神经科学新闻",
-      "title_en": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
-      "published_at": "2026-09-15T20:02:14Z",
-      "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "title": "AI estimates retinal age, revealing sex-specific aging patterns and links to disease risk",
+      "title_zh": "人工智能估计视网膜年龄，揭示特定性别的衰老模式和与疾病风险的联系",
+      "title_en": "AI estimates retinal age, revealing sex-specific aging patterns and links to disease risk",
+      "url": "https://medicalxpress.com/news/2026-09-ai-retinal-age-revealing-sex.html",
+      "published_at": "2026-09-16T19:40:08Z",
+      "first_seen_at": "2026-09-16T20:08:34.832180Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.7,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.8,
+      "signal_score": 0.681,
+      "domain_score": 0.8,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "aging_clock",
+        "digital_biomarker"
       ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
+      "primary_topic": "aging_clock",
+      "study_subject": "computational_or_dataset",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -393,18 +349,23 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
+        "age-related",
         "aging",
-        "longevity"
+        "retinal age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "disease risk"
+      ],
       "biological_context_signals": [
-        "cellular"
+        "disease",
+        "health"
       ]
     },
     {
@@ -420,7 +381,7 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFFVWGVoVWF2YUhkbHMwQ0dIQXVpbzJVRlFKT3h4a0FBanlVdlZyTUZwTVJrZzhxWGJGejBublNOUHdBUzJ2NFNra2NhNE5zREhlUkNZUHFSYTExVkRhNFRROUNJVjZnbVRvSU5iS2NWdHJ0dDgyM28ySEs4azFnbnR5bmdPZGpINmxZVDk1OXVPM3FXWVoycXhmMjNFVWlaeE1rd1ZkazlITlN5RXQ4?oc=5",
       "published_at": "2026-09-16T12:17:00Z",
       "first_seen_at": "2026-09-16T16:58:10.382161Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -467,7 +428,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ296QWZGNHVsVWxyWlpXc3BCU0NYaTJsS0NqbWdBcnpZOXpWMFE0Y2dfeUJTNTFMa2NJaVVheWhkQzgyLUJyMkRmWm9rM2hDN0ZYVzFGZl9Ld1JYU1NYa0F4SWsxNU1HT0tLYl8xcWhSa0xTT2l1ZTB5Vk1idUFSazdXQkFwTWZ2RUZzamZZMHltWmFVdUR4M2xzZmhCOUM0R0NDYVFNUQ?oc=5",
       "published_at": "2026-09-16T07:51:25Z",
       "first_seen_at": "2026-09-16T11:36:47.888843Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -514,7 +475,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
       "published_at": "2026-09-15T22:13:35Z",
       "first_seen_at": "2026-09-16T00:22:21.836772Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -561,7 +522,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHpyaTctdHJHZGEtMXlMeGM5LWZqNVBZMXQ1aFB2WmVod0VtdTlsRFkxNzlQMHdaUVFaYVlieDR3eWlNSVZrQ1JRai0tLVlDUm8zQXZKR0M3RUExdXRzV1NoOGhFVWZMdE1NYXBYMldYUU90SnBrbkg2ZU8waFdOdXZHWURTXzM3ZUktWG84ODN3eExYRGRFOHVrVQ?oc=5",
       "published_at": "2026-09-15T21:23:49Z",
       "first_seen_at": "2026-09-16T06:03:23.930503Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -610,7 +571,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T16:58:10.382161Z",
+      "last_seen_at": "2026-09-16T20:08:34.832180Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -643,57 +604,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e1eadeecec906ed88bf7ad95ca672689f2591b6f",
-      "canonical_key": "url:https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "The overlooked leak draining longevity clinic revenue",
-      "title_zh": "被忽视的泄漏耗尽长寿诊所收入",
-      "title_en": "The overlooked leak draining longevity clinic revenue",
-      "url": "https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
-      "published_at": "2026-09-15T17:13:15Z",
-      "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-16T00:22:21.836772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health",
-        "healthcare",
-        "patient"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
