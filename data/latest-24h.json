@@ -1,174 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-15T21:26:06.199601Z",
+  "generated_at": "2026-09-16T00:22:21.836772Z",
   "window_hours": 24,
-  "total_items": 10,
-  "total_items_raw": 67,
-  "total_items_all_mode": 67,
+  "total_items": 9,
+  "total_items_raw": 45,
+  "total_items_all_mode": 45,
   "archive_total": 6263,
-  "site_count": 2,
-  "source_count": 4,
+  "site_count": 1,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 43
-    },
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 3,
-      "raw_count": 22
+      "count": 9,
+      "raw_count": 45
     }
   ],
   "items": [
-    {
-      "id": "c48b895db79d9ccb4dd310a236d9a5ee62935e35",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572803",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
-      "title_zh": "解码骨眼轴：机器学习用于年龄相关的黄斑变性风险预测",
-      "title_en": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
-      "url": "https://europepmc.org/article/MED/PMC13572803",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.76,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.751,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "risk prediction"
-      ],
-      "longevity_signals": [
-        "age-related"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "e5f12a00315d82007b6072348e5ad5636905b708",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572632",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
-      "title_zh": "基于多模态MRI放射组学的可解释机器学习模型用于阿尔茨海默病诊断",
-      "title_en": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
-      "url": "https://europepmc.org/article/MED/PMC13572632",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.76,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.751,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "afeccfd8d62481d3c09e161aaffaa2eb39854f61",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572675",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
-      "title_zh": "利用基于BERT的语言模型利用语音衍生生物标志物检测阿尔茨海默病：一项机器学习研究",
-      "title_en": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
-      "url": "https://europepmc.org/article/MED/PMC13572675",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
     {
       "id": "a098d28b60d0f02805e24be9a7e6315c8e601737",
       "canonical_key": "url:https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
@@ -182,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
       "published_at": "2026-09-15T16:40:36Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -228,6 +76,56 @@
       ]
     },
     {
+      "id": "6e5026e650c3e9bce4251ab1bbe6949f6bb1c363",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
+      "title_zh": "人工智能设计的“长寿疫苗”针对细胞衰老的最早罪魁祸首-神经科学新闻",
+      "title_en": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "published_at": "2026-09-15T20:02:14Z",
+      "first_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cellular"
+      ]
+    },
+    {
       "id": "b4ed63deea81b776eeab9b805a9c2a01fc0483cf",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "site_id": "official_rss",
@@ -240,7 +138,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "published_at": "2026-09-15T18:22:05Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -288,7 +186,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
       "published_at": "2026-09-15T02:53:31Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -327,6 +225,53 @@
       ]
     },
     {
+      "id": "450de9152dc45c0fef112c667027d55a77897718",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI in dementia care could give doctors time to listen - KevinMD.com",
+      "title_zh": "痴呆症护理中的人工智能可以让医生有时间倾听- KevinMD.com",
+      "title_en": "AI in dementia care could give doctors time to listen - KevinMD.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
+      "published_at": "2026-09-15T22:13:35Z",
+      "first_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "444e10adce6a160bc90a3a2695d74ff230ab63b4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "site_id": "official_rss",
@@ -337,9 +282,9 @@
       "title_zh": "晨报：汉森的女儿面临审查、老年痴呆症焦虑症和人工智能的“超现实” Joycean方言--《卫报》",
       "title_en": "Morning Mail: Hanson’s daughter faces scrutiny, Alzheimer’s anxieties, and AI’s ‘surreal’ Joycean dialect - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
-      "published_at": "2026-09-15T21:05:00Z",
+      "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -386,7 +331,7 @@
       "url": "https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
       "published_at": "2026-09-15T17:13:15Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -437,7 +382,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "published_at": "2026-09-15T15:24:50Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -484,7 +429,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
       "published_at": "2026-09-15T14:14:05Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -521,152 +466,6 @@
   ],
   "items_ai": [
     {
-      "id": "c48b895db79d9ccb4dd310a236d9a5ee62935e35",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572803",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
-      "title_zh": "解码骨眼轴：机器学习用于年龄相关的黄斑变性风险预测",
-      "title_en": "Decoding the Bone–Eye Axis: Machine Learning for Age-Related Macular Degeneration Risk Prediction",
-      "url": "https://europepmc.org/article/MED/PMC13572803",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.76,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.751,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "risk prediction"
-      ],
-      "longevity_signals": [
-        "age-related"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "e5f12a00315d82007b6072348e5ad5636905b708",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572632",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
-      "title_zh": "基于多模态MRI放射组学的可解释机器学习模型用于阿尔茨海默病诊断",
-      "title_en": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
-      "url": "https://europepmc.org/article/MED/PMC13572632",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.76,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.751,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "afeccfd8d62481d3c09e161aaffaa2eb39854f61",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13572675",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
-      "title_zh": "利用基于BERT的语言模型利用语音衍生生物标志物检测阿尔茨海默病：一项机器学习研究",
-      "title_en": "Utilising speech-derived biomarkers to detect Alzheimer's disease with BERT-based language models: a machine learning study",
-      "url": "https://europepmc.org/article/MED/PMC13572675",
-      "published_at": "2026-09-15T00:00:00Z",
-      "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
       "id": "a098d28b60d0f02805e24be9a7e6315c8e601737",
       "canonical_key": "url:https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
       "site_id": "official_rss",
@@ -679,7 +478,7 @@
       "url": "https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx",
       "published_at": "2026-09-15T16:40:36Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -725,6 +524,56 @@
       ]
     },
     {
+      "id": "6e5026e650c3e9bce4251ab1bbe6949f6bb1c363",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
+      "title_zh": "人工智能设计的“长寿疫苗”针对细胞衰老的最早罪魁祸首-神经科学新闻",
+      "title_en": "AI-Designed “Longevity Vaccines” Target the Earliest Culprits of Cellular Aging - Neuroscience News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OVnJTMEhBWk5SYWc2ZU1GUDZxdnFTSVZ0TWZwOXJTVU1qWFdibFhaUVFVbkpmTjhWSHF2bVA0OHhwOHVqVXB1U3VYeExqbVZ1X3p4Y2RBbVIyWW9iQWU4Q25IM2piNzQ2LVRwc2hnYk9mRHF6M1FTVnNxTQ?oc=5",
+      "published_at": "2026-09-15T20:02:14Z",
+      "first_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cellular"
+      ]
+    },
+    {
       "id": "b4ed63deea81b776eeab9b805a9c2a01fc0483cf",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "site_id": "official_rss",
@@ -737,7 +586,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzd1J4WGRka0VhYkZMczZlZHBveVdqMkFCRXlpdmNHRl9haGxhYkJzS1FocUN6ZEczVUc4VVRQTzI1MjU2TGtuamxsZVlscktsbWZ6X3VQYTBEWmQyUGY4Y1J6dHY5SGJJQ2tHV2xzYzlUWjkw?oc=5",
       "published_at": "2026-09-15T18:22:05Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -785,7 +634,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSU5QTXNUdmtaaGl0RTVlTW9zUzE0ZnRfQ0U5NGNIUUJaWXQwWnVVZkIxRXlkc0tWUjk2OHR2cW1vMnNPR3hJT0k5TVZDVXZqcUlFa3FndmxxTDZMYnc1R2ZJbk0ycTgybF8zQXRBd2tXYUxr?oc=5",
       "published_at": "2026-09-15T02:53:31Z",
       "first_seen_at": "2026-09-15T13:34:49.876170Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -824,6 +673,53 @@
       ]
     },
     {
+      "id": "450de9152dc45c0fef112c667027d55a77897718",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI in dementia care could give doctors time to listen - KevinMD.com",
+      "title_zh": "痴呆症护理中的人工智能可以让医生有时间倾听- KevinMD.com",
+      "title_en": "AI in dementia care could give doctors time to listen - KevinMD.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1FoY19nR3JoR0VsQnJEUk0yMUdIaEkyWlBrdllUNWF4OWIxMUhSczNMZlNBZVFENWlsTmFNMy1seW5aRmFrckhpZDYxOEkxczZZTXY4OWdUbnhqM1F2Z1BqOUhQblQ0Wms2LTZUZ2NrU2xtY0d0YU9WS1lwNmdZVXpGYjNyU2pFTTk1cGZsVQ?oc=5",
+      "published_at": "2026-09-15T22:13:35Z",
+      "first_seen_at": "2026-09-16T00:22:21.836772Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "444e10adce6a160bc90a3a2695d74ff230ab63b4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
       "site_id": "official_rss",
@@ -834,9 +730,9 @@
       "title_zh": "晨报：汉森的女儿面临审查、老年痴呆症焦虑症和人工智能的“超现实” Joycean方言--《卫报》",
       "title_en": "Morning Mail: Hanson’s daughter faces scrutiny, Alzheimer’s anxieties, and AI’s ‘surreal’ Joycean dialect - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNQTFhLR3Q4NTF4NFUwRW4yQ2NVM2stdmpidFRuanAzTEE2QkVQR19Gem9zMGhORDhic3lRdDk0V08xUWxFQnRJQXI4eFpjdFpkZFR0T3ZhN21KVEsxUy1yWTdXSWdOZjVIY19qV3N0bFNmTXliRUZ3V0FScG1hSkxzTV9ScFBXNk5XeQ?oc=5",
-      "published_at": "2026-09-15T21:05:00Z",
+      "published_at": "2026-09-15T21:08:56Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -883,7 +779,7 @@
       "url": "https://longevity.technology/news/the-overlooked-leak-draining-longevity-clinic-revenue",
       "published_at": "2026-09-15T17:13:15Z",
       "first_seen_at": "2026-09-15T21:26:06.199601Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -934,7 +830,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREFBUzFkdEJDNXJ5Mm1Zcng4MW1hOUtibkpfYmYwb2VPOGVXb252OUlPWW9nQXhOX3RjaExLMjVuNXVDdmNWajFFV1BPaXlQUVgySmg2NTBzN2xpemdiNWY4NFRqZjhJaVJfTVhodV94SklQZzMtS2kxVWhPR0VUY2pCcE9sRzJM?oc=5",
       "published_at": "2026-09-15T15:24:50Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -981,7 +877,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnM5a3JmVnhzcVBmLXdQTHBNRnExLVlzWnkzRndsSnZuTEJrOUFCakdtZm9Ia1JQVmo4QjVwZVVueWVkV3dEUVpMd0s3YjVfZjA1WWFKNDg2MmFCR3FJQy1KSFZvNWEwcUJySkhxQ3oyMkRXNk5ob1BXNEhKSU9TY3pfWGlHeVBkM2V6anN3?oc=5",
       "published_at": "2026-09-15T14:14:05Z",
       "first_seen_at": "2026-09-15T18:12:57.267281Z",
-      "last_seen_at": "2026-09-15T21:26:06.199601Z",
+      "last_seen_at": "2026-09-16T00:22:21.836772Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
