@@ -1,36 +1,149 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-18T11:17:17.402407Z",
+  "generated_at": "2026-09-18T16:25:16.955072Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 68,
-  "total_items_all_mode": 68,
-  "archive_total": 6525,
+  "total_items": 5,
+  "total_items_raw": 392,
+  "total_items_all_mode": 392,
+  "archive_total": 6830,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 32
+      "count": 5,
+      "raw_count": 38
     }
   ],
   "items": [
     {
-      "id": "5534363e021910f23cf233e5729bcea5e0e0bd0a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
+      "id": "e6fc5b7ff1cd04123ba1fb48b013647c2d6df098",
+      "canonical_key": "url:https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "AI-driven ‘longevity vaccines’ target aging cells",
+      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞",
+      "title_en": "AI-driven ‘longevity vaccines’ target aging cells",
+      "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
+      "published_at": "2026-09-18T14:34:06Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.681,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "cellular",
+        "disease",
+        "immune",
+        "medicine",
+        "patient"
+      ]
+    },
+    {
+      "id": "24fd98938674b06734a64c39b4a63e3f41c411af",
+      "canonical_key": "url:https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Insilico Medicine opens AI longevity discovery toolkit",
+      "title_zh": "Insilico Medicine推出AI长寿发现工具包",
+      "title_en": "Insilico Medicine opens AI longevity discovery toolkit",
+      "url": "https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
+      "published_at": "2026-09-18T07:41:11Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity",
+        "multi-omics aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "clinical",
+        "medicine"
+      ]
+    },
+    {
+      "id": "79a0a168d2ba322052b396db8d9e97d6f5607f71",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "title_zh": "女性问AI关于健康老龄化的问题- WorldHealth.net",
-      "title_en": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
-      "published_at": "2026-09-17T23:53:57Z",
-      "first_seen_at": "2026-09-18T00:21:16.065548Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
+      "title": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
+      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞- Longevity.Technology",
+      "title_en": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
+      "published_at": "2026-09-18T14:37:53Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -57,13 +170,62 @@
       ],
       "longevity_signals": [
         "aging",
-        "healthy aging"
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
+    },
+    {
+      "id": "6fa37579b2a65a8517ed690a37e4991aeaa68a19",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Medicine launches open-source AI longevity research toolkit - Drug Target Review",
+      "title_zh": "Insilico Medicine推出开源AI长寿研究工具包-药物目标审查",
+      "title_en": "Insilico Medicine launches open-source AI longevity research toolkit - Drug Target Review",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
+      "published_at": "2026-09-18T12:21:17Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "research_tool"
+      ],
+      "primary_topic": "research_tool",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medicine"
+      ]
     },
     {
       "id": "adc2fd07efe917abb22bbde4957972077ed5d6e4",
@@ -76,9 +238,9 @@
       "title_zh": "人工智能工具发现隐性心脏病发作， FDA同意-长寿。技术",
       "title_en": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
-      "published_at": "2026-09-17T19:32:51Z",
+      "published_at": "2026-09-17T22:03:38Z",
       "first_seen_at": "2026-09-18T05:56:30.578386Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -111,123 +273,136 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "51fffb5e9e35754009fa3be8119a81fe24b66d4b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Medicine Releases Open Longevity AI Toolkit in Cell Study - Unite.AI",
-      "title_zh": "Insilico Medicine在细胞研究中发布开放式长寿AI工具包- Unite.AI",
-      "title_en": "Insilico Medicine Releases Open Longevity AI Toolkit in Cell Study - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
-      "published_at": "2026-09-17T15:44:02Z",
-      "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "research_tool"
-      ],
-      "primary_topic": "research_tool",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
-      ]
-    },
-    {
-      "id": "f37de01ce7abac577a294b2b3f3f8f84814b55d4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Medicine Opens AI Longevity Discovery Toolkit to Researchers Worldwide in Cell Cover Study - Insilico Medicine",
-      "title_zh": "Insilico Medicine向全球研究人员开放细胞覆盖研究AI长寿发现工具包- Insilico Medicine",
-      "title_en": "Insilico Medicine Opens AI Longevity Discovery Toolkit to Researchers Worldwide in Cell Cover Study - Insilico Medicine",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
-      "published_at": "2026-09-17T15:11:13Z",
-      "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "research_tool"
-      ],
-      "primary_topic": "research_tool",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
-      ]
     }
   ],
   "items_ai": [
     {
-      "id": "5534363e021910f23cf233e5729bcea5e0e0bd0a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
+      "id": "e6fc5b7ff1cd04123ba1fb48b013647c2d6df098",
+      "canonical_key": "url:https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "AI-driven ‘longevity vaccines’ target aging cells",
+      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞",
+      "title_en": "AI-driven ‘longevity vaccines’ target aging cells",
+      "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
+      "published_at": "2026-09-18T14:34:06Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.681,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "cellular",
+        "disease",
+        "immune",
+        "medicine",
+        "patient"
+      ]
+    },
+    {
+      "id": "24fd98938674b06734a64c39b4a63e3f41c411af",
+      "canonical_key": "url:https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Insilico Medicine opens AI longevity discovery toolkit",
+      "title_zh": "Insilico Medicine推出AI长寿发现工具包",
+      "title_en": "Insilico Medicine opens AI longevity discovery toolkit",
+      "url": "https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
+      "published_at": "2026-09-18T07:41:11Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "longevity",
+        "multi-omics aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "clinical",
+        "medicine"
+      ]
+    },
+    {
+      "id": "79a0a168d2ba322052b396db8d9e97d6f5607f71",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "title_zh": "女性问AI关于健康老龄化的问题- WorldHealth.net",
-      "title_en": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
-      "published_at": "2026-09-17T23:53:57Z",
-      "first_seen_at": "2026-09-18T00:21:16.065548Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
+      "title": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
+      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞- Longevity.Technology",
+      "title_en": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
+      "published_at": "2026-09-18T14:37:53Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -254,13 +429,62 @@
       ],
       "longevity_signals": [
         "aging",
-        "healthy aging"
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
+    },
+    {
+      "id": "6fa37579b2a65a8517ed690a37e4991aeaa68a19",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Insilico Medicine launches open-source AI longevity research toolkit - Drug Target Review",
+      "title_zh": "Insilico Medicine推出开源AI长寿研究工具包-药物目标审查",
+      "title_en": "Insilico Medicine launches open-source AI longevity research toolkit - Drug Target Review",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
+      "published_at": "2026-09-18T12:21:17Z",
+      "first_seen_at": "2026-09-18T16:25:16.955072Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "research_tool"
+      ],
+      "primary_topic": "research_tool",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medicine"
+      ]
     },
     {
       "id": "adc2fd07efe917abb22bbde4957972077ed5d6e4",
@@ -273,9 +497,9 @@
       "title_zh": "人工智能工具发现隐性心脏病发作， FDA同意-长寿。技术",
       "title_en": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
-      "published_at": "2026-09-17T19:32:51Z",
+      "published_at": "2026-09-17T22:03:38Z",
       "first_seen_at": "2026-09-18T05:56:30.578386Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
+      "last_seen_at": "2026-09-18T16:25:16.955072Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -308,106 +532,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "51fffb5e9e35754009fa3be8119a81fe24b66d4b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Medicine Releases Open Longevity AI Toolkit in Cell Study - Unite.AI",
-      "title_zh": "Insilico Medicine在细胞研究中发布开放式长寿AI工具包- Unite.AI",
-      "title_en": "Insilico Medicine Releases Open Longevity AI Toolkit in Cell Study - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
-      "published_at": "2026-09-17T15:44:02Z",
-      "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "research_tool"
-      ],
-      "primary_topic": "research_tool",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
-      ]
-    },
-    {
-      "id": "f37de01ce7abac577a294b2b3f3f8f84814b55d4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Insilico Medicine Opens AI Longevity Discovery Toolkit to Researchers Worldwide in Cell Cover Study - Insilico Medicine",
-      "title_zh": "Insilico Medicine向全球研究人员开放细胞覆盖研究AI长寿发现工具包- Insilico Medicine",
-      "title_en": "Insilico Medicine Opens AI Longevity Discovery Toolkit to Researchers Worldwide in Cell Cover Study - Insilico Medicine",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
-      "published_at": "2026-09-17T15:11:13Z",
-      "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T11:17:17.402407Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "research_tool"
-      ],
-      "primary_topic": "research_tool",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
