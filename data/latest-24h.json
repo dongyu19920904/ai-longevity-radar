@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-18T00:21:16.065548Z",
+  "generated_at": "2026-09-18T05:56:30.578386Z",
   "window_hours": 24,
   "total_items": 7,
-  "total_items_raw": 220,
-  "total_items_all_mode": 220,
-  "archive_total": 6648,
+  "total_items_raw": 114,
+  "total_items_all_mode": 114,
+  "archive_total": 6558,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 7,
-      "raw_count": 38
+      "raw_count": 37
     }
   ],
   "items": [
@@ -24,13 +24,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "title_zh": "女性问AI关于健康老龄化的问题- WorldHealth.net",
-      "title_en": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
+      "title": "The Questions Women Are Asking AI About Healthy Aging - worldhealth.net",
+      "title_zh": "女性问AI关于健康老龄化的问题- worldhealth.net",
+      "title_en": "The Questions Women Are Asking AI About Healthy Aging - worldhealth.net",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
-      "published_at": "2026-09-17T23:40:04Z",
+      "published_at": "2026-09-17T23:53:57Z",
       "first_seen_at": "2026-09-18T00:21:16.065548Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -78,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0VHpEXzBTR3BsZzI0NHN5djRlaTVEdkxubzRNNWdKekI5X2ZJSEtJNzNxZUdDR281NkZHOHZfSEdTQkVJZ3FEM1ZsWHI3S3p5ZVhIdlFiTjk?oc=5",
       "published_at": "2026-09-17T10:18:28Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -114,6 +114,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "adc2fd07efe917abb22bbde4957972077ed5d6e4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
+      "title_zh": "人工智能工具发现隐性心脏病发作， FDA同意-长寿。技术",
+      "title_en": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
+      "published_at": "2026-09-17T19:32:51Z",
+      "first_seen_at": "2026-09-18T05:56:30.578386Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "51fffb5e9e35754009fa3be8119a81fe24b66d4b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
       "site_id": "official_rss",
@@ -126,7 +173,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
       "published_at": "2026-09-17T15:44:02Z",
       "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -176,7 +223,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
       "published_at": "2026-09-17T15:11:13Z",
       "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -226,7 +273,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUVBMOXhSeUJaMWhzNUY4b09LQ3dzTU5ibGczR3ZFQ2FOX3FYWkV3Wi1WeTJQaWdxV2dUUDBvQ0poNzRHb1pOSW8waVZ2OGNMYkZSeWcwWTZCdUlNRlQxeU1TZmNXbU9mTEV0XzUtNHQ4WUtlMDJUSk9ETk5LM0hTNlpod3FZSU1hSG44dmlRYllVYUVQTlp4QlFOTTNDdDBwVzJzQl9YNmVBQmtHVUZqekRnaDdUal9vbXBNdg?oc=5",
       "published_at": "2026-09-17T09:03:17Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -275,7 +322,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93NjRtaW5vemV5Q09MaEFjYWtDaEVjclB5LUtFeHloT0tyaUpWb0pHMExNZVZwWnNCem42V3h5VFBLay04MW9MRHRjRV93dDRhenYwT29GVVowV1p0U3lpODljM0JaY21reFd0dVBSeElfSTVBRUYweg?oc=5",
       "published_at": "2026-09-17T09:01:49Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -310,53 +357,6 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "e530e8dd5d301c9f8cf0fe59be7d499b2d41fad5",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pVjdoSlNoMUw1eUVDRVNKNTdXX0Zjb09mTTVWUHlRdkxqZTYxei1YdEJjLTNDeFY1ZlNyREZ5ZVlMMUFLRm9WelNaY0VUNndaOVZmMg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "POSTECH AI precisely predicts immunotherapy effectiveness using tumor senescence - DongA Science",
-      "title_zh": "POSTECH AI使用肿瘤衰老精确预测免疫疗效- DongA Science",
-      "title_en": "POSTECH AI precisely predicts immunotherapy effectiveness using tumor senescence - DongA Science",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pVjdoSlNoMUw1eUVDRVNKNTdXX0Zjb09mTTVWUHlRdkxqZTYxei1YdEJjLTNDeFY1ZlNyREZ5ZVlMMUFLRm9WelNaY0VUNndaOVZmMg?oc=5",
-      "published_at": "2026-09-17T02:33:00Z",
-      "first_seen_at": "2026-09-17T07:41:43.342108Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_mechanism"
-      ],
-      "primary_topic": "aging_mechanism",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "senescence"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -367,13 +367,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
-      "title_zh": "女性问AI关于健康老龄化的问题- WorldHealth.net",
-      "title_en": "The Questions Women Are Asking AI About Healthy Aging - WorldHealth.net",
+      "title": "The Questions Women Are Asking AI About Healthy Aging - worldhealth.net",
+      "title_zh": "女性问AI关于健康老龄化的问题- worldhealth.net",
+      "title_en": "The Questions Women Are Asking AI About Healthy Aging - worldhealth.net",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDVldUwzLTd6dmpfQkxJRENTdXYzMlFWTHBLS1ZhN0dXZ2ZMd1d0YUN0d0hRbzFNQWhQeFRjcDFVM01icmMtcEJyN3dKbEhheEZOTXBmdW43WXpNSUtKUXF1U0ZSNS11WUcyVW1oMGVlaDdSTmJDUEJxSHNKYnhHQg?oc=5",
-      "published_at": "2026-09-17T23:40:04Z",
+      "published_at": "2026-09-17T23:53:57Z",
       "first_seen_at": "2026-09-18T00:21:16.065548Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -421,7 +421,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0VHpEXzBTR3BsZzI0NHN5djRlaTVEdkxubzRNNWdKekI5X2ZJSEtJNzNxZUdDR281NkZHOHZfSEdTQkVJZ3FEM1ZsWHI3S3p5ZVhIdlFiTjk?oc=5",
       "published_at": "2026-09-17T10:18:28Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -457,6 +457,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "adc2fd07efe917abb22bbde4957972077ed5d6e4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
+      "title_zh": "人工智能工具发现隐性心脏病发作， FDA同意-长寿。技术",
+      "title_en": "AI tool spots hidden heart attacks, FDA says yes - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzFjZkRyMjlmUkFYQ3YyOTVXclVIUmgwSVN5cmZaX29TZ29Bc2FtTVZITmVXMEdQQkNsb3pBRmhEbjYwT015R2RRTXRlUmpUaEEwcENzemNqQ2RmZmNObkp2dXlwSmsyaE5BcWpDMUtIYTExNjJweEhhSlhuZGVKTklFWExYamdKQkE?oc=5",
+      "published_at": "2026-09-17T19:32:51Z",
+      "first_seen_at": "2026-09-18T05:56:30.578386Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "51fffb5e9e35754009fa3be8119a81fe24b66d4b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
       "site_id": "official_rss",
@@ -469,7 +516,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWW5BUlVDWWVJMEJDelZKV1pzWlF4YXdiTkZHWVpsVUVQanVKaGQyOFhscEc4V05FYXN6S0hybmhhWENWazU0UGkwaUpyZE4xQWxVd3l3UG1STjJNekRPYnVsU3d4QzBFRUdJeE1iaUI1N2h6Z3JrYUtKOVo4aEhGRDM5aFgzYlZBcGpETXQ0eWgzUQ?oc=5",
       "published_at": "2026-09-17T15:44:02Z",
       "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -519,7 +566,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12RVFKbnZZMlh1ZUUzRi10bjlQWUR4UHdNT3N4R0JxWjdGazkzbWt4MDJmODU2bVBPOEtSTnFZRTFFUWNKVVZtbTAwbUdGWURBcUZWQzMxYnB0c1llUjR1MHJMUm9lT25xbTVYQnkwcFlDd2xlRHBqWg?oc=5",
       "published_at": "2026-09-17T15:11:13Z",
       "first_seen_at": "2026-09-17T18:15:17.259130Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -569,7 +616,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUVBMOXhSeUJaMWhzNUY4b09LQ3dzTU5ibGczR3ZFQ2FOX3FYWkV3Wi1WeTJQaWdxV2dUUDBvQ0poNzRHb1pOSW8waVZ2OGNMYkZSeWcwWTZCdUlNRlQxeU1TZmNXbU9mTEV0XzUtNHQ4WUtlMDJUSk9ETk5LM0hTNlpod3FZSU1hSG44dmlRYllVYUVQTlp4QlFOTTNDdDBwVzJzQl9YNmVBQmtHVUZqekRnaDdUal9vbXBNdg?oc=5",
       "published_at": "2026-09-17T09:03:17Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -618,7 +665,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93NjRtaW5vemV5Q09MaEFjYWtDaEVjclB5LUtFeHloT0tyaUpWb0pHMExNZVZwWnNCem42V3h5VFBLay04MW9MRHRjRV93dDRhenYwT29GVVowV1p0U3lpODljM0JaY21reFd0dVBSeElfSTVBRUYweg?oc=5",
       "published_at": "2026-09-17T09:01:49Z",
       "first_seen_at": "2026-09-17T13:29:55.604970Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
+      "last_seen_at": "2026-09-18T05:56:30.578386Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -653,53 +700,6 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "e530e8dd5d301c9f8cf0fe59be7d499b2d41fad5",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pVjdoSlNoMUw1eUVDRVNKNTdXX0Zjb09mTTVWUHlRdkxqZTYxei1YdEJjLTNDeFY1ZlNyREZ5ZVlMMUFLRm9WelNaY0VUNndaOVZmMg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "POSTECH AI precisely predicts immunotherapy effectiveness using tumor senescence - DongA Science",
-      "title_zh": "POSTECH AI使用肿瘤衰老精确预测免疫疗效- DongA Science",
-      "title_en": "POSTECH AI precisely predicts immunotherapy effectiveness using tumor senescence - DongA Science",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pVjdoSlNoMUw1eUVDRVNKNTdXX0Zjb09mTTVWUHlRdkxqZTYxei1YdEJjLTNDeFY1ZlNyREZ5ZVlMMUFLRm9WelNaY0VUNndaOVZmMg?oc=5",
-      "published_at": "2026-09-17T02:33:00Z",
-      "first_seen_at": "2026-09-17T07:41:43.342108Z",
-      "last_seen_at": "2026-09-18T00:21:16.065548Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_mechanism"
-      ],
-      "primary_topic": "aging_mechanism",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "senescence"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
