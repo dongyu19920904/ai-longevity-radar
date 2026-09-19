@@ -1,79 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-19T14:26:14.381846Z",
+  "generated_at": "2026-09-19T18:02:14.922799Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 507,
-  "total_items_all_mode": 507,
-  "archive_total": 7240,
+  "total_items": 1,
+  "total_items_raw": 436,
+  "total_items_all_mode": 436,
+  "archive_total": 7225,
   "site_count": 1,
-  "source_count": 3,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 14
+      "count": 1,
+      "raw_count": 6
     }
   ],
   "items": [
-    {
-      "id": "e6fc5b7ff1cd04123ba1fb48b013647c2d6df098",
-      "canonical_key": "url:https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "AI-driven ‘longevity vaccines’ target aging cells",
-      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞",
-      "title_en": "AI-driven ‘longevity vaccines’ target aging cells",
-      "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
-      "published_at": "2026-09-18T14:34:06Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T11:01:12.158406Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.681,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "generative ai"
-      ],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "disease",
-        "immune",
-        "medicine",
-        "patient"
-      ]
-    },
     {
       "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
@@ -87,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "published_at": "2026-09-18T18:32:11Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
+      "last_seen_at": "2026-09-19T18:02:14.922799Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -115,102 +58,6 @@
       "longevity_signals": [
         "aging",
         "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "cb24d0cfcd764ae39254dd219c86521082589126",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3NxX1RJSFRnUUZ5RmxuUTY5d2dSbjM5ODZUZW8zdDRHNkNVeXAyWWIwQzZoT0ZDS0pLSFBvc1QtY2JqM0FjUG1RNjhTRWh6QWVwakdURUw0aDMwX2ZFYlVScVJkOUpoM2tMVkRQS3BqXzdYcEZTTFVDVjlJWWJac1F2dDd6TlJIWVVaMmlDbkx6bGNmY3FvRHVJWUg5My1HaWtadHl4bTFnR3I0MmZhcFBDY0g2Z2M?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - einnews.com",
-      "title_zh": "Refresh研究2026年人工智能和健康老龄化如何重塑美学- einnews.com",
-      "title_en": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - einnews.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3NxX1RJSFRnUUZ5RmxuUTY5d2dSbjM5ODZUZW8zdDRHNkNVeXAyWWIwQzZoT0ZDS0pLSFBvc1QtY2JqM0FjUG1RNjhTRWh6QWVwakdURUw0aDMwX2ZFYlVScVJkOUpoM2tMVkRQS3BqXzdYcEZTTFVDVjlJWWJac1F2dDd6TlJIWVVaMmlDbkx6bGNmY3FvRHVJWUg5My1HaWtadHl4bTFnR3I0MmZhcFBDY0g2Z2M?oc=5",
-      "published_at": "2026-09-18T16:32:00Z",
-      "first_seen_at": "2026-09-19T14:26:14.381846Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "79a0a168d2ba322052b396db8d9e97d6f5607f71",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
-      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞- Longevity.Technology",
-      "title_en": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
-      "published_at": "2026-09-18T16:09:05Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -221,63 +68,6 @@
   ],
   "items_ai": [
     {
-      "id": "e6fc5b7ff1cd04123ba1fb48b013647c2d6df098",
-      "canonical_key": "url:https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "AI-driven ‘longevity vaccines’ target aging cells",
-      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞",
-      "title_en": "AI-driven ‘longevity vaccines’ target aging cells",
-      "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
-      "published_at": "2026-09-18T14:34:06Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T11:01:12.158406Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.681,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "generative ai"
-      ],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "disease",
-        "immune",
-        "medicine",
-        "patient"
-      ]
-    },
-    {
       "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "site_id": "official_rss",
@@ -290,7 +80,7 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "published_at": "2026-09-18T18:32:11Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
+      "last_seen_at": "2026-09-19T18:02:14.922799Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -318,102 +108,6 @@
       "longevity_signals": [
         "aging",
         "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "cb24d0cfcd764ae39254dd219c86521082589126",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3NxX1RJSFRnUUZ5RmxuUTY5d2dSbjM5ODZUZW8zdDRHNkNVeXAyWWIwQzZoT0ZDS0pLSFBvc1QtY2JqM0FjUG1RNjhTRWh6QWVwakdURUw0aDMwX2ZFYlVScVJkOUpoM2tMVkRQS3BqXzdYcEZTTFVDVjlJWWJac1F2dDd6TlJIWVVaMmlDbkx6bGNmY3FvRHVJWUg5My1HaWtadHl4bTFnR3I0MmZhcFBDY0g2Z2M?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - einnews.com",
-      "title_zh": "Refresh研究2026年人工智能和健康老龄化如何重塑美学- einnews.com",
-      "title_en": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - einnews.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3NxX1RJSFRnUUZ5RmxuUTY5d2dSbjM5ODZUZW8zdDRHNkNVeXAyWWIwQzZoT0ZDS0pLSFBvc1QtY2JqM0FjUG1RNjhTRWh6QWVwakdURUw0aDMwX2ZFYlVScVJkOUpoM2tMVkRQS3BqXzdYcEZTTFVDVjlJWWJac1F2dDd6TlJIWVVaMmlDbkx6bGNmY3FvRHVJWUg5My1HaWtadHl4bTFnR3I0MmZhcFBDY0g2Z2M?oc=5",
-      "published_at": "2026-09-18T16:32:00Z",
-      "first_seen_at": "2026-09-19T14:26:14.381846Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "79a0a168d2ba322052b396db8d9e97d6f5607f71",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
-      "title_zh": "人工智能驱动的“长寿疫苗”靶向衰老细胞- Longevity.Technology",
-      "title_en": "AI-driven ‘longevity vaccines’ target aging cells - Longevity.Technology",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
-      "published_at": "2026-09-18T16:09:05Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T14:26:14.381846Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
