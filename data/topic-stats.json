@@ -1,22 +1,21 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-19T05:55:34.331740Z",
+  "generated_at": "2026-09-19T11:01:12.158406Z",
   "topics": {
     "ai_longevity": 3,
-    "multi_omics": 1,
-    "research_tool": 3,
+    "research_tool": 2,
     "aging_clock": 1
   },
   "source_types": {
-    "news": 5,
+    "news": 4,
     "project": 1
   },
   "study_subjects": {
-    "human": 2,
+    "human": 1,
     "unknown": 4
   },
   "publication_stages": {
-    "secondary_report": 5,
+    "secondary_report": 4,
     "software_project": 1
   },
   "relevant_topics": {

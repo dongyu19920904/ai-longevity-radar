@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-19T05:55:34.331740Z",
+  "generated_at": "2026-09-19T11:01:12.158406Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 543,
-  "total_items_all_mode": 543,
-  "archive_total": 7106,
+  "total_items": 5,
+  "total_items_raw": 550,
+  "total_items_all_mode": 550,
+  "archive_total": 7158,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 24
+      "count": 4,
+      "raw_count": 17
     },
     {
       "site_id": "github_projects",
@@ -36,7 +36,7 @@
       "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
       "published_at": "2026-09-18T14:34:06Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T01:11:04.046839Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -81,62 +81,6 @@
       ]
     },
     {
-      "id": "24fd98938674b06734a64c39b4a63e3f41c411af",
-      "canonical_key": "url:https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Insilico Medicine opens AI longevity discovery toolkit",
-      "title_zh": "Insilico Medicine推出AI长寿发现工具包",
-      "title_en": "Insilico Medicine opens AI longevity discovery toolkit",
-      "url": "https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
-      "published_at": "2026-09-18T07:41:11Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T01:11:04.046839Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "multi_omics",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity",
-        "multi-omics aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "clinical",
-        "medicine"
-      ]
-    },
-    {
       "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "site_id": "official_rss",
@@ -149,7 +93,7 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "published_at": "2026-09-18T18:32:11Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -197,7 +141,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
       "published_at": "2026-09-18T16:09:05Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -245,7 +189,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
       "published_at": "2026-09-18T12:40:28Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -294,7 +238,7 @@
       "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
       "published_at": "2026-09-18T13:06:22Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -341,7 +285,7 @@
       "url": "https://longevity.technology/news/ai-driven-longevity-vaccines-target-aging-cells",
       "published_at": "2026-09-18T14:34:06Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T01:11:04.046839Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -386,62 +330,6 @@
       ]
     },
     {
-      "id": "24fd98938674b06734a64c39b4a63e3f41c411af",
-      "canonical_key": "url:https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Insilico Medicine opens AI longevity discovery toolkit",
-      "title_zh": "Insilico Medicine推出AI长寿发现工具包",
-      "title_en": "Insilico Medicine opens AI longevity discovery toolkit",
-      "url": "https://longevity.technology/news/insilico-medicine-opens-ai-longevity-discovery-toolkit",
-      "published_at": "2026-09-18T07:41:11Z",
-      "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T01:11:04.046839Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "multi_omics",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity",
-        "multi-omics aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "clinical",
-        "medicine"
-      ]
-    },
-    {
       "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "site_id": "official_rss",
@@ -454,7 +342,7 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
       "published_at": "2026-09-18T18:32:11Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -502,7 +390,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYU5nUTJ5WmRVLTZZZFBGWWRSdTREYnhBUlNCSDh2YnBmWVBrRFlfNDJkYkxGcU9EZW5EY3RrbDVqSWhWb1pTZHk0eVRfakNBOWRObE81WDAzcXVVa0kwZ0ItWVNGeVd0ekVRN2FoRGtNNGtsRG1Rc3dmaTdmOENNQTYwckFCekpIdkE?oc=5",
       "published_at": "2026-09-18T16:09:05Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -550,7 +438,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNlUxTkU2WnFIV0FLZDUwZDdteUJqMUQzdlZzQ3dkSG1OSzl4ZHJRNDZMNlYtSkxwOGhBOUNMSnUzclZtb0RjMEo0MmJ3bXpsclRhbTUtTzhVa2d0RDVZdUUyTHFJOGdYYldqLVVBV2JvalpNeXd3WkFIbFZyY0paNzQ5bmI4ZFFSUDlOc3h3bEt0TXU3bTJibmhkcHhnb1lJWjl5OHdGQ1F4ZWFuM01vQUxTY1Q3SUJi?oc=5",
       "published_at": "2026-09-18T12:40:28Z",
       "first_seen_at": "2026-09-18T16:25:16.955072Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -599,7 +487,7 @@
       "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
       "published_at": "2026-09-18T13:06:22Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T05:55:34.331740Z",
+      "last_seen_at": "2026-09-19T11:01:12.158406Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
