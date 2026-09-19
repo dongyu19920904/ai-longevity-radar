@@ -1,121 +1,16 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-19T18:02:14.922799Z",
+  "generated_at": "2026-09-19T20:42:08.441247Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 436,
-  "total_items_all_mode": 436,
-  "archive_total": 7225,
-  "site_count": 1,
-  "source_count": 1,
-  "site_stats": [
-    {
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 6
-    }
-  ],
-  "items": [
-    {
-      "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - The National Law Review",
-      "title_zh": "刷新考察人工智能和健康老龄化如何在2026年重塑美学-国家法律评论",
-      "title_en": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
-      "published_at": "2026-09-18T18:32:11Z",
-      "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T18:02:14.922799Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "43e9c92b6b1ec38608e842635724d7d848b757f8",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - The National Law Review",
-      "title_zh": "刷新考察人工智能和健康老龄化如何在2026年重塑美学-国家法律评论",
-      "title_en": "Refresh Examines How AI and Healthy Aging Are Reshaping Aesthetics in 2026 - The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSktKYjMzcldGR2NrZDRyTklZdmltRDdQQWdmcXVULWF5MmdscGwxcVIwcVJ5elhCLU9GZUFvUmp2dFBUUW8yUDhzdEFxalVpUW5YNld1UGFBbnZuRkp1N1lGVzdHUGNBQkowWmxoTmpOeERVMGVUejR5cmxBZUN0eDU4TGhzYXljME1vV01SSy10OXlBN1V1b1RWbjI3WEJvRFZMZ0psTXZ4TFNEbE9qcw?oc=5",
-      "published_at": "2026-09-18T18:32:11Z",
-      "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-19T18:02:14.922799Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "healthy aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    }
-  ],
+  "total_items": 0,
+  "total_items_raw": 427,
+  "total_items_all_mode": 427,
+  "archive_total": 7252,
+  "site_count": 0,
+  "source_count": 0,
+  "site_stats": [],
+  "items": [],
+  "items_ai": [],
   "relevant_data_url": "data/latest-relevant.json",
   "all_mode_data_url": "data/latest-24h-all.json",
   "methodology_url": "https://radar.aibioo.cn/methodology.html",
