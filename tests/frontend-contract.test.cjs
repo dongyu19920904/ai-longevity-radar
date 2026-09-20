@@ -34,6 +34,9 @@ test("visible ecosystem navigation links the Aivora sites", () => {
   assert.match(html, /href="https:\/\/www\.aivora\.cn\/"/);
   assert.match(html, /href="https:\/\/news\.aivora\.cn\/"/);
   assert.match(html, /href="https:\/\/news\.aibioo\.cn\/"/);
+  assert.match(html, /href="https:\/\/news\.aibioo\.cn\/opportunity\/"/);
+  assert.match(html, /href="https:\/\/news\.aibioo\.cn\/project-opportunity\/"/);
+  assert.match(html, /href="https:\/\/news\.aibioo\.cn\/timeline\/"/);
   assert.match(html, /href="https:\/\/radar\.aivora\.cn\/"/);
 });
 
