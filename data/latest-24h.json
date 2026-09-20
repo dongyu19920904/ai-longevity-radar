@@ -1,16 +1,139 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-19T23:07:45.795232Z",
+  "generated_at": "2026-09-20T01:10:54.306061Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_raw": 414,
-  "total_items_all_mode": 414,
-  "archive_total": 7283,
-  "site_count": 0,
-  "source_count": 0,
-  "site_stats": [],
-  "items": [],
-  "items_ai": [],
+  "total_items": 1,
+  "total_items_raw": 387,
+  "total_items_all_mode": 387,
+  "archive_total": 7291,
+  "site_count": 1,
+  "source_count": 1,
+  "site_stats": [
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 1,
+      "raw_count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "dfb0a337f4ae48452885995940c467076687e2c8",
+      "canonical_key": "doi:10.5662/wjm.117916",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
+      "title_zh": "肿瘤麻醉中的人工智能：当前的应用、挑战和未来方向。",
+      "title_en": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
+      "url": "https://europepmc.org/article/MED/42625971",
+      "published_at": "2026-09-20T00:00:00Z",
+      "first_seen_at": "2026-09-20T01:10:54.306061Z",
+      "last_seen_at": "2026-09-20T01:10:54.306061Z",
+      "ai_is_related": true,
+      "ai_score": 0.98,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.817,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "artificial intelligence",
+        "deep learning",
+        "machine learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "genomics",
+        "wearable"
+      ],
+      "biological_context_signals": [
+        "frailty",
+        "health",
+        "immune"
+      ]
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "dfb0a337f4ae48452885995940c467076687e2c8",
+      "canonical_key": "doi:10.5662/wjm.117916",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
+      "title_zh": "肿瘤麻醉中的人工智能：当前的应用、挑战和未来方向。",
+      "title_en": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
+      "url": "https://europepmc.org/article/MED/42625971",
+      "published_at": "2026-09-20T00:00:00Z",
+      "first_seen_at": "2026-09-20T01:10:54.306061Z",
+      "last_seen_at": "2026-09-20T01:10:54.306061Z",
+      "ai_is_related": true,
+      "ai_score": 0.98,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.817,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "artificial intelligence",
+        "deep learning",
+        "machine learning",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "genomics",
+        "wearable"
+      ],
+      "biological_context_signals": [
+        "frailty",
+        "health",
+        "immune"
+      ]
+    }
+  ],
   "relevant_data_url": "data/latest-relevant.json",
   "all_mode_data_url": "data/latest-24h-all.json",
   "methodology_url": "https://radar.aibioo.cn/methodology.html",
