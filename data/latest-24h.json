@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-20T12:23:22.763284Z",
+  "generated_at": "2026-09-20T16:48:47.175622Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 468,
-  "total_items_all_mode": 468,
-  "archive_total": 7423,
-  "site_count": 2,
-  "source_count": 2,
+  "total_items": 4,
+  "total_items_raw": 471,
+  "total_items_all_mode": 471,
+  "archive_total": 7473,
+  "site_count": 3,
+  "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 2,
+      "raw_count": 7
+    },
     {
       "site_id": "europepmc",
       "site_name": "Europe PMC",
       "count": 1,
-      "raw_count": 6
+      "raw_count": 16
     },
     {
       "site_id": "github_projects",
@@ -36,7 +42,7 @@
       "url": "https://europepmc.org/article/MED/42625971",
       "published_at": "2026-09-20T00:00:00Z",
       "first_seen_at": "2026-09-20T01:10:54.306061Z",
-      "last_seen_at": "2026-09-20T12:23:22.763284Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
       "ai_is_related": true,
       "ai_score": 0.98,
       "longevity_is_related": true,
@@ -93,7 +99,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-09-20T09:47:48Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-20T12:23:22.763284Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -131,6 +137,100 @@
         "organ",
         "proteomic"
       ]
+    },
+    {
+      "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
+      "title_zh": "AI-Mind AI工具评估痴呆症风险—塞浦路斯邮政- UA.NEWS",
+      "title_en": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
+      "published_at": "2026-09-20T12:40:15Z",
+      "first_seen_at": "2026-09-20T16:48:47.175622Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "2b2c46a440c64cdbaf7877be9584c2452f8d7f5b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "title_zh": "使用人工智能领先于痴呆症- cyprus-mail.com",
+      "title_en": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
+      "published_at": "2026-09-20T12:30:00Z",
+      "first_seen_at": "2026-09-20T16:48:47.175622Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -147,7 +247,7 @@
       "url": "https://europepmc.org/article/MED/42625971",
       "published_at": "2026-09-20T00:00:00Z",
       "first_seen_at": "2026-09-20T01:10:54.306061Z",
-      "last_seen_at": "2026-09-20T12:23:22.763284Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
       "ai_is_related": true,
       "ai_score": 0.98,
       "longevity_is_related": true,
@@ -204,7 +304,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-09-20T09:47:48Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-20T12:23:22.763284Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -242,6 +342,100 @@
         "organ",
         "proteomic"
       ]
+    },
+    {
+      "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
+      "title_zh": "AI-Mind AI工具评估痴呆症风险—塞浦路斯邮政- UA.NEWS",
+      "title_en": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
+      "published_at": "2026-09-20T12:40:15Z",
+      "first_seen_at": "2026-09-20T16:48:47.175622Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "2b2c46a440c64cdbaf7877be9584c2452f8d7f5b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "title_zh": "使用人工智能领先于痴呆症- cyprus-mail.com",
+      "title_en": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
+      "published_at": "2026-09-20T12:30:00Z",
+      "first_seen_at": "2026-09-20T16:48:47.175622Z",
+      "last_seen_at": "2026-09-20T16:48:47.175622Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
