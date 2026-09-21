@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-21T06:23:03.094603Z",
+  "generated_at": "2026-09-21T14:10:45.073433Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 415,
-  "total_items_all_mode": 415,
-  "archive_total": 7441,
+  "total_items": 3,
+  "total_items_raw": 355,
+  "total_items_all_mode": 355,
+  "archive_total": 7562,
   "site_count": 2,
-  "source_count": 3,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 11
+      "count": 2,
+      "raw_count": 19
     },
     {
       "site_id": "github_projects",
@@ -24,56 +24,52 @@
   ],
   "items": [
     {
-      "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
-      "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "jjnezz67/synthetic-proteomic-aging-clock",
-      "source_type": "project",
-      "title": "jjnezz67/synthetic-proteomic-aging-clock: Reproducing a multi-organ proteomic aging clock using synthetic data and machine learning models.",
-      "title_zh": "jjnezz67/synthetic-proteomic-aging-clock ：使用合成数据和机器学习模型重现多器官蛋白质组老化时钟。",
-      "title_en": "jjnezz67/synthetic-proteomic-aging-clock: Reproducing a multi-organ proteomic aging clock using synthetic data and machine learning models.",
-      "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
-      "published_at": "2026-09-20T09:47:48Z",
-      "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "id": "9444da7113c1d45059238b4a4d3adfb3a11ce67d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXVIQVFuamk5Z0ZPaHFTMXVUQnNSWXV6NjdmVk5scHVMcy0xbXByRFUzbzJVci1EWlYxdEd2cUVHa0lnQkR4NjZVUFRQdUlQbWxRWFFGN2RTNnFvRWprRlFRQU9VcTcxTEhjZFE4RWVOVWFCSTI2blBmSTlFNE00a05LeGlTY2cyN1R2X3N5eW1nV1Y5dkI1Unl3SEFBN0VibDRhdmZESnBEeV80SU55WnNjZHZsODhEaDVmdlFwXzVFZTdU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Alzheimer’s Society: How AI is giving it more time to help people affected by dementia - Microsoft UK Stories",
+      "title_zh": "阿尔茨海默氏症协会：人工智能如何给它更多的时间来帮助受痴呆症影响的人-微软英国故事",
+      "title_en": "Alzheimer’s Society: How AI is giving it more time to help people affected by dementia - Microsoft UK Stories",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXVIQVFuamk5Z0ZPaHFTMXVUQnNSWXV6NjdmVk5scHVMcy0xbXByRFUzbzJVci1EWlYxdEd2cUVHa0lnQkR4NjZVUFRQdUlQbWxRWFFGN2RTNnFvRWprRlFRQU9VcTcxTEhjZFE4RWVOVWFCSTI2blBmSTlFNE00a05LeGlTY2cyN1R2X3N5eW1nV1Y5dkI1Unl3SEFBN0VibDRhdmZESnBEeV80SU55WnNjZHZsODhEaDVmdlFwXzVFZTdU?oc=5",
+      "published_at": "2026-09-21T08:12:43Z",
+      "first_seen_at": "2026-09-21T14:10:45.073433Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock"
+        "alzheimer",
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "proteomic"
-      ],
-      "biological_context_signals": [
-        "organ",
-        "proteomic"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "c44c7a89019b678eb295bcd314ce8164cc215f78",
@@ -88,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
       "published_at": "2026-09-21T04:00:47Z",
       "first_seen_at": "2026-09-21T06:23:03.094603Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -125,92 +121,43 @@
       ]
     },
     {
-      "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
-      "title_zh": "AI-Mind AI工具评估痴呆症风险—塞浦路斯邮政- UA.NEWS",
-      "title_en": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
-      "published_at": "2026-09-20T12:40:15Z",
-      "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "id": "8bac9be2973e6a739e1a01da8502b063fbbc5d45",
+      "canonical_key": "repo:maastrichtu-cds/faceage-weekend-van-de-wetenschap",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
+      "source_type": "project",
+      "title": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
+      "title_zh": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap ： FaceAge工具的Dockerized版本：使用深度学习从人脸照片中解码生物年龄。",
+      "title_en": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
+      "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
+      "published_at": "2026-09-21T07:48:57Z",
+      "first_seen_at": "2026-09-18T19:37:34.581780Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock",
+        "research_tool"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "deep learning"
       ],
       "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "2b2c46a440c64cdbaf7877be9584c2452f8d7f5b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
-      "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
-      "title_en": "Using AI to stay one step ahead of dementia - Cyprus Mail",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
-      "published_at": "2026-09-20T12:30:00Z",
-      "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -221,56 +168,52 @@
   ],
   "items_ai": [
     {
-      "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
-      "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "jjnezz67/synthetic-proteomic-aging-clock",
-      "source_type": "project",
-      "title": "jjnezz67/synthetic-proteomic-aging-clock: Reproducing a multi-organ proteomic aging clock using synthetic data and machine learning models.",
-      "title_zh": "jjnezz67/synthetic-proteomic-aging-clock ：使用合成数据和机器学习模型重现多器官蛋白质组老化时钟。",
-      "title_en": "jjnezz67/synthetic-proteomic-aging-clock: Reproducing a multi-organ proteomic aging clock using synthetic data and machine learning models.",
-      "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
-      "published_at": "2026-09-20T09:47:48Z",
-      "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "id": "9444da7113c1d45059238b4a4d3adfb3a11ce67d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXVIQVFuamk5Z0ZPaHFTMXVUQnNSWXV6NjdmVk5scHVMcy0xbXByRFUzbzJVci1EWlYxdEd2cUVHa0lnQkR4NjZVUFRQdUlQbWxRWFFGN2RTNnFvRWprRlFRQU9VcTcxTEhjZFE4RWVOVWFCSTI2blBmSTlFNE00a05LeGlTY2cyN1R2X3N5eW1nV1Y5dkI1Unl3SEFBN0VibDRhdmZESnBEeV80SU55WnNjZHZsODhEaDVmdlFwXzVFZTdU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Alzheimer’s Society: How AI is giving it more time to help people affected by dementia - Microsoft UK Stories",
+      "title_zh": "阿尔茨海默氏症协会：人工智能如何给它更多的时间来帮助受痴呆症影响的人-微软英国故事",
+      "title_en": "Alzheimer’s Society: How AI is giving it more time to help people affected by dementia - Microsoft UK Stories",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXVIQVFuamk5Z0ZPaHFTMXVUQnNSWXV6NjdmVk5scHVMcy0xbXByRFUzbzJVci1EWlYxdEd2cUVHa0lnQkR4NjZVUFRQdUlQbWxRWFFGN2RTNnFvRWprRlFRQU9VcTcxTEhjZFE4RWVOVWFCSTI2blBmSTlFNE00a05LeGlTY2cyN1R2X3N5eW1nV1Y5dkI1Unl3SEFBN0VibDRhdmZESnBEeV80SU55WnNjZHZsODhEaDVmdlFwXzVFZTdU?oc=5",
+      "published_at": "2026-09-21T08:12:43Z",
+      "first_seen_at": "2026-09-21T14:10:45.073433Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock"
+        "alzheimer",
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "proteomic"
-      ],
-      "biological_context_signals": [
-        "organ",
-        "proteomic"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "c44c7a89019b678eb295bcd314ce8164cc215f78",
@@ -285,7 +228,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
       "published_at": "2026-09-21T04:00:47Z",
       "first_seen_at": "2026-09-21T06:23:03.094603Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -322,92 +265,43 @@
       ]
     },
     {
-      "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
-      "title_zh": "AI-Mind AI工具评估痴呆症风险—塞浦路斯邮政- UA.NEWS",
-      "title_en": "AI-Mind AI tools assess dementia risk — Cyprus Mail - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
-      "published_at": "2026-09-20T12:40:15Z",
-      "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "id": "8bac9be2973e6a739e1a01da8502b063fbbc5d45",
+      "canonical_key": "repo:maastrichtu-cds/faceage-weekend-van-de-wetenschap",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
+      "source_type": "project",
+      "title": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
+      "title_zh": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap ： FaceAge工具的Dockerized版本：使用深度学习从人脸照片中解码生物年龄。",
+      "title_en": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
+      "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
+      "published_at": "2026-09-21T07:48:57Z",
+      "first_seen_at": "2026-09-18T19:37:34.581780Z",
+      "last_seen_at": "2026-09-21T14:10:45.073433Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock",
+        "research_tool"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "deep learning"
       ],
       "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "2b2c46a440c64cdbaf7877be9584c2452f8d7f5b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
-      "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
-      "title_en": "Using AI to stay one step ahead of dementia - Cyprus Mail",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
-      "published_at": "2026-09-20T12:30:00Z",
-      "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T06:23:03.094603Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
