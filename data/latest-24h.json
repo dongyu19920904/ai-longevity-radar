@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-20T22:27:14.564523Z",
+  "generated_at": "2026-09-21T01:07:14.549470Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 451,
-  "total_items_all_mode": 451,
-  "archive_total": 7500,
-  "site_count": 3,
-  "source_count": 3,
+  "total_items": 3,
+  "total_items_raw": 428,
+  "total_items_all_mode": 428,
+  "archive_total": 7479,
+  "site_count": 2,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 2,
-      "raw_count": 8
-    },
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 1,
-      "raw_count": 16
+      "raw_count": 10
     },
     {
       "site_id": "github_projects",
@@ -29,63 +23,6 @@
     }
   ],
   "items": [
-    {
-      "id": "dfb0a337f4ae48452885995940c467076687e2c8",
-      "canonical_key": "doi:10.5662/wjm.117916",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
-      "title_zh": "肿瘤麻醉中的人工智能：当前的应用、挑战和未来方向。",
-      "title_en": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
-      "url": "https://europepmc.org/article/MED/42625971",
-      "published_at": "2026-09-20T00:00:00Z",
-      "first_seen_at": "2026-09-20T01:10:54.306061Z",
-      "last_seen_at": "2026-09-20T16:48:47.175622Z",
-      "ai_is_related": true,
-      "ai_score": 0.98,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.817,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "artificial intelligence",
-        "deep learning",
-        "machine learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "genomics",
-        "wearable"
-      ],
-      "biological_context_signals": [
-        "frailty",
-        "health",
-        "immune"
-      ]
-    },
     {
       "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
       "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
@@ -99,7 +36,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-09-20T09:47:48Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -151,7 +88,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "published_at": "2026-09-20T12:40:15Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -192,13 +129,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
-      "title_zh": "使用人工智能领先于痴呆症- cyprus-mail.com",
-      "title_en": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
+      "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
+      "title_en": "Using AI to stay one step ahead of dementia - Cyprus Mail",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "published_at": "2026-09-20T12:30:00Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -235,63 +172,6 @@
   ],
   "items_ai": [
     {
-      "id": "dfb0a337f4ae48452885995940c467076687e2c8",
-      "canonical_key": "doi:10.5662/wjm.117916",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
-      "title_zh": "肿瘤麻醉中的人工智能：当前的应用、挑战和未来方向。",
-      "title_en": "Artificial intelligence in onco-anaesthesia: Current applications, challenges, and future directions.",
-      "url": "https://europepmc.org/article/MED/42625971",
-      "published_at": "2026-09-20T00:00:00Z",
-      "first_seen_at": "2026-09-20T01:10:54.306061Z",
-      "last_seen_at": "2026-09-20T16:48:47.175622Z",
-      "ai_is_related": true,
-      "ai_score": 0.98,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.817,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "artificial intelligence",
-        "deep learning",
-        "machine learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "genomics",
-        "wearable"
-      ],
-      "biological_context_signals": [
-        "frailty",
-        "health",
-        "immune"
-      ]
-    },
-    {
       "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
       "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
       "site_id": "github_projects",
@@ -304,7 +184,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-09-20T09:47:48Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -356,7 +236,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "published_at": "2026-09-20T12:40:15Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -397,13 +277,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
-      "title_zh": "使用人工智能领先于痴呆症- cyprus-mail.com",
-      "title_en": "Using AI to stay one step ahead of dementia - cyprus-mail.com",
+      "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
+      "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
+      "title_en": "Using AI to stay one step ahead of dementia - Cyprus Mail",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "published_at": "2026-09-20T12:30:00Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-20T22:27:14.564523Z",
+      "last_seen_at": "2026-09-21T01:07:14.549470Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
