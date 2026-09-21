@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-21T01:07:14.549470Z",
+  "generated_at": "2026-09-21T06:23:03.094603Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 428,
-  "total_items_all_mode": 428,
-  "archive_total": 7479,
+  "total_items": 4,
+  "total_items_raw": 415,
+  "total_items_all_mode": 415,
+  "archive_total": 7441,
   "site_count": 2,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 10
+      "count": 3,
+      "raw_count": 11
     },
     {
       "site_id": "github_projects",
@@ -76,6 +76,55 @@
       ]
     },
     {
+      "id": "c44c7a89019b678eb295bcd314ce8164cc215f78",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI Spot Alzheimer’s Early? - BW Healthcare World",
+      "title_zh": "AI能早期发现阿尔茨海默氏症吗？ - BW Healthcare World",
+      "title_en": "Can AI Spot Alzheimer’s Early? - BW Healthcare World",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
+      "published_at": "2026-09-21T04:00:47Z",
+      "first_seen_at": "2026-09-21T06:23:03.094603Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "healthcare"
+      ]
+    },
+    {
       "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "site_id": "official_rss",
@@ -88,7 +137,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "published_at": "2026-09-20T12:40:15Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -127,7 +176,7 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
       "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
@@ -135,7 +184,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "published_at": "2026-09-20T12:30:00Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -224,6 +273,55 @@
       ]
     },
     {
+      "id": "c44c7a89019b678eb295bcd314ce8164cc215f78",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI Spot Alzheimer’s Early? - BW Healthcare World",
+      "title_zh": "AI能早期发现阿尔茨海默氏症吗？ - BW Healthcare World",
+      "title_en": "Can AI Spot Alzheimer’s Early? - BW Healthcare World",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2Q5ZDU0eE1XZmRQM092SGJ0NEltYlBVNmVlWUVyTWRMOERwMm1DMkF3MEZWMUxjbnVRazAtX3BjNnBVczdYam1iYm9yV21EaWpTdXVEZkhSUDctMlpjVEFOckN6UGt5LXNPbWFLdTVyVUlDSGYzMXdyOHlFY080T2lUdzk?oc=5",
+      "published_at": "2026-09-21T04:00:47Z",
+      "first_seen_at": "2026-09-21T06:23:03.094603Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "healthcare"
+      ]
+    },
+    {
       "id": "5006044c45c3e6950dcf91a392f87099b72d8cc2",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "site_id": "official_rss",
@@ -236,7 +334,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamlxdF9MZjJRbldmUmRaYk5CcWVZYktKYnBqVWJ5NjZHMTdqRGMzWUNjWldhZWZrakJiNEEtcmNzdzRLYldoRTJRZ1RlLWktUl9HMjRhd1o5UlpudFpLZzVoend0MERnaVJVbkUyaWxSU2NUR2NoY0dYRHU5WVYwcDBSVFFKRUZqRXVKNDc5c096SWs?oc=5",
       "published_at": "2026-09-20T12:40:15Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -275,7 +373,7 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
       "title": "Using AI to stay one step ahead of dementia - Cyprus Mail",
       "title_zh": "使用人工智能领先于痴呆症-塞浦路斯邮政",
@@ -283,7 +381,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMm9fTWdKSm9CQ0JmSDEzNFZvY3R1cjBWZTZmUFd0eEFQS3M2UWZoeWZpLTlYYTlpdXJyMFE3aFRydW5oSGVrOWZuTjV4OElkVU9LU2NhT0hiamFnUTE4QkNFbVFZTU5kcUpYSVU0eDVsWDViN3pXcWpaR3dMWjdPRktuU3c?oc=5",
       "published_at": "2026-09-20T12:30:00Z",
       "first_seen_at": "2026-09-20T16:48:47.175622Z",
-      "last_seen_at": "2026-09-21T01:07:14.549470Z",
+      "last_seen_at": "2026-09-21T06:23:03.094603Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
