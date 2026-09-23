@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-23T00:35:22.962303Z",
+  "generated_at": "2026-09-23T05:59:56.776605Z",
   "window_hours": 24,
-  "total_items": 8,
-  "total_items_raw": 519,
-  "total_items_all_mode": 519,
-  "archive_total": 8092,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items": 7,
+  "total_items_raw": 540,
+  "total_items_all_mode": 540,
+  "archive_total": 8176,
+  "site_count": 3,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 31
+      "count": 5,
+      "raw_count": 28
+    },
+    {
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "count": 1,
+      "raw_count": 1
     },
     {
       "site_id": "github_projects",
@@ -23,6 +29,61 @@
     }
   ],
   "items": [
+    {
+      "id": "39b8642ccea9a17a27adeecc3754e70474b09f18",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.26617",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.CV",
+      "source_type": "paper",
+      "title": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "title_zh": "MMAP ：用于纵向阿尔茨海默病预测的多模式缺失感知预训练",
+      "title_en": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "url": "https://papers.cool/arxiv/2609.26617",
+      "published_at": "2026-09-22T15:50:42Z",
+      "first_seen_at": "2026-09-23T05:59:56.776605Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
+      "ai_is_related": true,
+      "ai_score": 0.94,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.767,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model",
+        "foundation model",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "disease",
+        "health",
+        "medical",
+        "patient"
+      ]
+    },
     {
       "id": "51a784f8cd144ab8c82cd78368572ed439afbb56",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjkzMEVsTXYxMVB3YU03a0pIeDc5ekN0eER0TTFBZ2pIZWlrLXY2VGNrTVJQQ0Z0M3hfd0dzVTI4TmlqTlVfVS1pRXFQODRrNHlZMGZPTFU1c2VjU2pIbjlKRjRod0pocDZaaDZxRmM5YjlvRVJsTi0zQVFDb0s2TmxHclB1cHljNjczMnNQSmlhOUJGQVRN?oc=5",
@@ -36,7 +97,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjkzMEVsTXYxMVB3YU03a0pIeDc5ekN0eER0TTFBZ2pIZWlrLXY2VGNrTVJQQ0Z0M3hfd0dzVTI4TmlqTlVfVS1pRXFQODRrNHlZMGZPTFU1c2VjU2pIbjlKRjRod0pocDZaaDZxRmM5YjlvRVJsTi0zQVFDb0s2TmxHclB1cHljNjczMnNQSmlhOUJGQVRN?oc=5",
       "published_at": "2026-09-22T20:19:04Z",
       "first_seen_at": "2026-09-22T22:10:22.859913Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,13 +138,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - Futura, le média qui explore le monde",
-      "title_zh": "人工智能如何安静地改变阿尔茨海默病患者和家庭的日常生活- Futura ， le média qui explore le monde",
-      "title_en": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - Futura, le média qui explore le monde",
+      "title": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - futura-sciences.com",
+      "title_zh": "人工智能如何安静地改变阿尔茨海默病患者和家庭的日常生活- futura-sciences.com",
+      "title_en": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - futura-sciences.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS2VNUldyS3AySEg1T3Y2a2VGWkxmTGp1aG5BME9rTjEwck9PWnhNSWUtVG1BTmh6aHJtRFBfWHViZ25YcFJEbXhzbkFLSE03Y3Atd185SHZfU2RpQjNienhkM1hUY3k3TTV5RVZvU0VUa2tVNXlHbEVyNUt0ck4zLXV1VGdaS2tlMmllTWVEaHd5UHUtWlVVdDh6OVQwMUljLVpCZVQxY2xubUVoOVA2SVU3R3JiVHB4Y0d4MHRB?oc=5",
       "published_at": "2026-09-22T19:20:08Z",
       "first_seen_at": "2026-09-22T22:10:22.859913Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -132,7 +193,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkRGUWd6RURsLThnQjBWdTdtWWNGelg5OXB3aTJiQmhrQmpqTy01dVFxSnZuamJIdkdUZlJtVnphaHA3T2QwVEhRMU91cFJZaENkOU5RVEd6X0ZDOGpfQXlQVjZiYnJWd0dkclRoblF1dXZYd1pQa2Yyc1E5TlJpTVV1Njk2NXgtalFRTnoySm80eTFudmVXYVVoVQ?oc=5",
       "published_at": "2026-09-22T14:36:53Z",
       "first_seen_at": "2026-09-22T14:55:46.002156Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -173,13 +234,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - ehealth.eletsonline.com",
-      "title_zh": "Mahajan Imaging & Labs专家称，血液生物标志物和人工智能成像重塑了早期阿尔茨海默氏症诊断的道路- ehealth.eletsonline.com",
-      "title_en": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - ehealth.eletsonline.com",
+      "title": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - eHealth Magazine",
+      "title_zh": "Mahajan Imaging & Labs专家称，血液生物标志物和人工智能成像重塑了早期阿尔茨海默氏症诊断的道路- eHealth杂志",
+      "title_en": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - eHealth Magazine",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMXpaZjNqWTY1U0QyUl90amxwUUxNbExrY180MEJlMFQ5T1lUN0Z0VUFfWW1WWUh3eURxcWROd2NLSG1EU1ZIRzhWSzdaTENORVN2OFNCZ1FvRlVLRFNBeUJMa3B1SFJjaC0wY3dhNjAwUm1oNEU2MEdmeGNEMmNWcm9KWkl2TFpaVDZETFJ2V2FCdXlKZ1dTdXhCV0czSW1iSTZubXVnQ3VlTkNfaWdwRXhRSkxpZFI2OWVZSWRubkVqV3JDS21uWFpjZ21LYlZOeFh3bHdNQ3k1bmMtLUZWRWRQbWZERFF4Nk4wR3pn?oc=5",
       "published_at": "2026-09-22T10:49:27Z",
       "first_seen_at": "2026-09-22T14:55:46.002156Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -228,7 +289,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0I2V2hPSTBPNGdUeWQ3QXBFNXMwcjhwSElXVDFUR3BTNkdWU1VtSkNEZzdUQmZwRUxKaC0xdnV3V0UyQ2RQMzFyVDlTalg2c09GY3lzSGZfd2ZHMGV2RlB6Q3dwUnhkQnhNWWFqRHhBdlp1bHlLYWFqTllHeE1nQUZvSzQ4b1JSNEJBRG5RZUFxTWNhdUFxN1pQUU1ZdHNpTnA3MWtveElwdlZQNVROTm5JRUp3Y21WVEE?oc=5",
       "published_at": "2026-09-22T06:06:42Z",
       "first_seen_at": "2026-09-22T18:55:46.704182Z",
-      "last_seen_at": "2026-09-22T22:10:22.859913Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -262,102 +323,6 @@
       "biomedical_signals": [
         "biomarkers"
       ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8c5c536dca91481df7d2af602e524d05aa587f43",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmppakotZENrMzlScVZTVWJMMDlsdk1tQWZTU0NrLVJ4U3phUlVHaXdwbXg1bDFYWWxyN3FVTE5Ca1N1RDJYZlJyRHktUmxjcGllcFFiNVBycmpaaXk5Sl9zcTRacXFvUE9MR2lpOWlpWmFQRmx3MFhqemdIS1JRUjRwZHVtN2w5akxBeEQtekhQTDZhZGZCdGtsYW9YVkJTNnB5WEFjVDA2X244NGtCLTB1aWk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Blood biomarkers and AI imaging support earlier Alzheimer’s diagnosis - expresshealthcare.in",
-      "title_zh": "血液生物标志物和人工智能成像支持早期阿尔茨海默氏症诊断- expresshealthcare.in",
-      "title_en": "Blood biomarkers and AI imaging support earlier Alzheimer’s diagnosis - expresshealthcare.in",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmppakotZENrMzlScVZTVWJMMDlsdk1tQWZTU0NrLVJ4U3phUlVHaXdwbXg1bDFYWWxyN3FVTE5Ca1N1RDJYZlJyRHktUmxjcGllcFFiNVBycmpaaXk5Sl9zcTRacXFvUE9MR2lpOWlpWmFQRmx3MFhqemdIS1JRUjRwZHVtN2w5akxBeEQtekhQTDZhZGZCdGtsYW9YVkJTNnB5WEFjVDA2X244NGtCLTB1aWk?oc=5",
-      "published_at": "2026-09-22T05:07:42Z",
-      "first_seen_at": "2026-09-23T00:35:22.962303Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "47dbaaf20010ba08d1597ea72fff0f80f2175c3d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zVVAzeGtHVlBnZGpPNHJzUTg3Rk5aWWcwdGNTWlo0VjhIeGU0dmhzd21jdkZYRDhneFJyc0NOQ2lBTXVtcTRDUlhscENUWVE3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Panel backs radiologist-supervised AI for monitoring Alzheimer's therapy - DOTmed",
-      "title_zh": "专家组支持放射科医生监督的人工智能监测阿尔茨海默氏症治疗- DOTmed",
-      "title_en": "Panel backs radiologist-supervised AI for monitoring Alzheimer's therapy - DOTmed",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zVVAzeGtHVlBnZGpPNHJzUTg3Rk5aWWcwdGNTWlo0VjhIeGU0dmhzd21jdkZYRDhneFJyc0NOQ2lBTXVtcTRDUlhscENUWVE3?oc=5",
-      "published_at": "2026-09-22T04:00:08Z",
-      "first_seen_at": "2026-09-22T04:58:28.780580Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -373,7 +338,7 @@
       "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
       "published_at": "2026-09-22T17:34:17Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -408,6 +373,61 @@
   ],
   "items_ai": [
     {
+      "id": "39b8642ccea9a17a27adeecc3754e70474b09f18",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.26617",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.CV",
+      "source_type": "paper",
+      "title": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "title_zh": "MMAP ：用于纵向阿尔茨海默病预测的多模式缺失感知预训练",
+      "title_en": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "url": "https://papers.cool/arxiv/2609.26617",
+      "published_at": "2026-09-22T15:50:42Z",
+      "first_seen_at": "2026-09-23T05:59:56.776605Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
+      "ai_is_related": true,
+      "ai_score": 0.94,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.767,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model",
+        "foundation model",
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "disease",
+        "health",
+        "medical",
+        "patient"
+      ]
+    },
+    {
       "id": "51a784f8cd144ab8c82cd78368572ed439afbb56",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjkzMEVsTXYxMVB3YU03a0pIeDc5ekN0eER0TTFBZ2pIZWlrLXY2VGNrTVJQQ0Z0M3hfd0dzVTI4TmlqTlVfVS1pRXFQODRrNHlZMGZPTFU1c2VjU2pIbjlKRjRod0pocDZaaDZxRmM5YjlvRVJsTi0zQVFDb0s2TmxHclB1cHljNjczMnNQSmlhOUJGQVRN?oc=5",
       "site_id": "official_rss",
@@ -420,7 +440,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjkzMEVsTXYxMVB3YU03a0pIeDc5ekN0eER0TTFBZ2pIZWlrLXY2VGNrTVJQQ0Z0M3hfd0dzVTI4TmlqTlVfVS1pRXFQODRrNHlZMGZPTFU1c2VjU2pIbjlKRjRod0pocDZaaDZxRmM5YjlvRVJsTi0zQVFDb0s2TmxHclB1cHljNjczMnNQSmlhOUJGQVRN?oc=5",
       "published_at": "2026-09-22T20:19:04Z",
       "first_seen_at": "2026-09-22T22:10:22.859913Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -461,13 +481,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - Futura, le média qui explore le monde",
-      "title_zh": "人工智能如何安静地改变阿尔茨海默病患者和家庭的日常生活- Futura ， le média qui explore le monde",
-      "title_en": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - Futura, le média qui explore le monde",
+      "title": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - futura-sciences.com",
+      "title_zh": "人工智能如何安静地改变阿尔茨海默病患者和家庭的日常生活- futura-sciences.com",
+      "title_en": "How AI Is Quietly Transforming Daily Life for Alzheimer’s Patients and Families - futura-sciences.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS2VNUldyS3AySEg1T3Y2a2VGWkxmTGp1aG5BME9rTjEwck9PWnhNSWUtVG1BTmh6aHJtRFBfWHViZ25YcFJEbXhzbkFLSE03Y3Atd185SHZfU2RpQjNienhkM1hUY3k3TTV5RVZvU0VUa2tVNXlHbEVyNUt0ck4zLXV1VGdaS2tlMmllTWVEaHd5UHUtWlVVdDh6OVQwMUljLVpCZVQxY2xubUVoOVA2SVU3R3JiVHB4Y0d4MHRB?oc=5",
       "published_at": "2026-09-22T19:20:08Z",
       "first_seen_at": "2026-09-22T22:10:22.859913Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -516,7 +536,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkRGUWd6RURsLThnQjBWdTdtWWNGelg5OXB3aTJiQmhrQmpqTy01dVFxSnZuamJIdkdUZlJtVnphaHA3T2QwVEhRMU91cFJZaENkOU5RVEd6X0ZDOGpfQXlQVjZiYnJWd0dkclRoblF1dXZYd1pQa2Yyc1E5TlJpTVV1Njk2NXgtalFRTnoySm80eTFudmVXYVVoVQ?oc=5",
       "published_at": "2026-09-22T14:36:53Z",
       "first_seen_at": "2026-09-22T14:55:46.002156Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -557,13 +577,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - ehealth.eletsonline.com",
-      "title_zh": "Mahajan Imaging & Labs专家称，血液生物标志物和人工智能成像重塑了早期阿尔茨海默氏症诊断的道路- ehealth.eletsonline.com",
-      "title_en": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - ehealth.eletsonline.com",
+      "title": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - eHealth Magazine",
+      "title_zh": "Mahajan Imaging & Labs专家称，血液生物标志物和人工智能成像重塑了早期阿尔茨海默氏症诊断的道路- eHealth杂志",
+      "title_en": "Blood Biomarkers and AI Imaging Reshape the Path to Earlier Alzheimer's Diagnosis, Experts at Mahajan Imaging & Labs Say - eHealth Magazine",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMXpaZjNqWTY1U0QyUl90amxwUUxNbExrY180MEJlMFQ5T1lUN0Z0VUFfWW1WWUh3eURxcWROd2NLSG1EU1ZIRzhWSzdaTENORVN2OFNCZ1FvRlVLRFNBeUJMa3B1SFJjaC0wY3dhNjAwUm1oNEU2MEdmeGNEMmNWcm9KWkl2TFpaVDZETFJ2V2FCdXlKZ1dTdXhCV0czSW1iSTZubXVnQ3VlTkNfaWdwRXhRSkxpZFI2OWVZSWRubkVqV3JDS21uWFpjZ21LYlZOeFh3bHdNQ3k1bmMtLUZWRWRQbWZERFF4Nk4wR3pn?oc=5",
       "published_at": "2026-09-22T10:49:27Z",
       "first_seen_at": "2026-09-22T14:55:46.002156Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -612,7 +632,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0I2V2hPSTBPNGdUeWQ3QXBFNXMwcjhwSElXVDFUR3BTNkdWU1VtSkNEZzdUQmZwRUxKaC0xdnV3V0UyQ2RQMzFyVDlTalg2c09GY3lzSGZfd2ZHMGV2RlB6Q3dwUnhkQnhNWWFqRHhBdlp1bHlLYWFqTllHeE1nQUZvSzQ4b1JSNEJBRG5RZUFxTWNhdUFxN1pQUU1ZdHNpTnA3MWtveElwdlZQNVROTm5JRUp3Y21WVEE?oc=5",
       "published_at": "2026-09-22T06:06:42Z",
       "first_seen_at": "2026-09-22T18:55:46.704182Z",
-      "last_seen_at": "2026-09-22T22:10:22.859913Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -646,102 +666,6 @@
       "biomedical_signals": [
         "biomarkers"
       ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8c5c536dca91481df7d2af602e524d05aa587f43",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmppakotZENrMzlScVZTVWJMMDlsdk1tQWZTU0NrLVJ4U3phUlVHaXdwbXg1bDFYWWxyN3FVTE5Ca1N1RDJYZlJyRHktUmxjcGllcFFiNVBycmpaaXk5Sl9zcTRacXFvUE9MR2lpOWlpWmFQRmx3MFhqemdIS1JRUjRwZHVtN2w5akxBeEQtekhQTDZhZGZCdGtsYW9YVkJTNnB5WEFjVDA2X244NGtCLTB1aWk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Blood biomarkers and AI imaging support earlier Alzheimer’s diagnosis - expresshealthcare.in",
-      "title_zh": "血液生物标志物和人工智能成像支持早期阿尔茨海默氏症诊断- expresshealthcare.in",
-      "title_en": "Blood biomarkers and AI imaging support earlier Alzheimer’s diagnosis - expresshealthcare.in",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmppakotZENrMzlScVZTVWJMMDlsdk1tQWZTU0NrLVJ4U3phUlVHaXdwbXg1bDFYWWxyN3FVTE5Ca1N1RDJYZlJyRHktUmxjcGllcFFiNVBycmpaaXk5Sl9zcTRacXFvUE9MR2lpOWlpWmFQRmx3MFhqemdIS1JRUjRwZHVtN2w5akxBeEQtekhQTDZhZGZCdGtsYW9YVkJTNnB5WEFjVDA2X244NGtCLTB1aWk?oc=5",
-      "published_at": "2026-09-22T05:07:42Z",
-      "first_seen_at": "2026-09-23T00:35:22.962303Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "47dbaaf20010ba08d1597ea72fff0f80f2175c3d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zVVAzeGtHVlBnZGpPNHJzUTg3Rk5aWWcwdGNTWlo0VjhIeGU0dmhzd21jdkZYRDhneFJyc0NOQ2lBTXVtcTRDUlhscENUWVE3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Panel backs radiologist-supervised AI for monitoring Alzheimer's therapy - DOTmed",
-      "title_zh": "专家组支持放射科医生监督的人工智能监测阿尔茨海默氏症治疗- DOTmed",
-      "title_en": "Panel backs radiologist-supervised AI for monitoring Alzheimer's therapy - DOTmed",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zVVAzeGtHVlBnZGpPNHJzUTg3Rk5aWWcwdGNTWlo0VjhIeGU0dmhzd21jdkZYRDhneFJyc0NOQ2lBTXVtcTRDUlhscENUWVE3?oc=5",
-      "published_at": "2026-09-22T04:00:08Z",
-      "first_seen_at": "2026-09-22T04:58:28.780580Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -757,7 +681,7 @@
       "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
       "published_at": "2026-09-22T17:34:17Z",
       "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-09-23T00:35:22.962303Z",
+      "last_seen_at": "2026-09-23T05:59:56.776605Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
