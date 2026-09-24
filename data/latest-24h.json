@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-24T15:07:55.447778Z",
+  "generated_at": "2026-09-24T19:11:26.884478Z",
   "window_hours": 24,
   "total_items": 5,
-  "total_items_raw": 402,
-  "total_items_all_mode": 402,
-  "archive_total": 8502,
+  "total_items_raw": 472,
+  "total_items_all_mode": 472,
+  "archive_total": 8558,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -13,11 +13,62 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 5,
-      "raw_count": 42
+      "raw_count": 47
     }
   ],
   "items": [
     {
+      "id": "d7e4490aba30d5a27147b96316303aadf0bbe2fb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
+      "title_zh": "加州大学洛杉矶分校卫生部获得2500万美元拨款，用于推进以人工智能为中心的阿尔茨海默氏症和痴呆症患者研究-加州大学洛杉矶分校卫生部",
+      "title_en": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
+      "published_at": "2026-09-24T18:20:03Z",
+      "first_seen_at": "2026-09-24T19:11:26.884478Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health",
+        "patients"
+      ]
+    },
+    {
       "id": "aca68c44a1b04494cc113a8e6f5eee4d89540a77",
       "canonical_key": "url:https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
       "site_id": "official_rss",
@@ -30,7 +81,7 @@
       "url": "https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
       "published_at": "2026-09-24T12:51:11Z",
       "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -84,7 +135,7 @@
       "url": "https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
       "published_at": "2026-09-24T12:36:11Z",
       "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -131,9 +182,9 @@
       "title_zh": "卡内基梅隆大学的研究人员使用人工智能工具来发现阿尔茨海默氏症如何改变脑细胞- TribLIVE.com",
       "title_en": "Carnegie Mellon researchers use AI tool to find how Alzheimer’s changes brain cells - TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ01GQXplc2pMSV8xT0N0M3N1ZlRtX0hGbUsyTXpwQ3JrbmwtQlBPQl9MMldpbkxBUUlXM2s4alA3ZGc2bXFiWFk4cUg5akF1NHBzeWRGUC1EclNaN003X1ZISXZBd3ZucUFSVURKS2VheGd6U1p2bENSc2Y1V2lCMU11OWl5R3ZPaDBhVEZub0VQNDRreFdnWUZZNVEtSUJyLXRpOHYzcG05eTkzNl9jMVZCelJrRTFHT0JPdQ?oc=5",
-      "published_at": "2026-09-23T21:16:17Z",
+      "published_at": "2026-09-24T09:11:15Z",
       "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -176,13 +227,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI-Powered Longevity Tracking - Trend Hunter",
-      "title_zh": "人工智能长寿追踪-趋势猎人",
-      "title_en": "AI-Powered Longevity Tracking - Trend Hunter",
+      "title": "AI-Powered Longevity Tracking - trendhunter.com",
+      "title_zh": "人工智能长寿追踪- trendhunter.com",
+      "title_en": "AI-Powered Longevity Tracking - trendhunter.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51SXVybmdDanJQQTFaTldfTkM5LTZEUWdoNk4tWDVaZFJSNkt2QU5wcUUtYjFsQlQyT1ctanh5a0lpcUd2M050Y1E1bXMyWDZjQUEtdnRxdFNMQ2ZMVTJz?oc=5",
       "published_at": "2026-09-23T19:59:53Z",
       "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -215,63 +266,61 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "d19dce9f9c829edff1ab84dd64c8eb061dfd100e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mdy1vTWtCM3diVUNXTVN3ZE9ZODJ6alhBNmRGMHloNjEyemszT3NnSlp3dllHRnUzMGJqRTVmLVU5dVdSMXBGd3NtTGFvc0hONGZkMjdockR0RXBQSzNN?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data - Nature",
-      "title_zh": "基于人群规模单细胞数据的基于人工智能的阿尔茨海默病表型表征-自然",
-      "title_en": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mdy1vTWtCM3diVUNXTVN3ZE9ZODJ6alhBNmRGMHloNjEyemszT3NnSlp3dllHRnUzMGJqRTVmLVU5dVdSMXBGd3NtTGFvc0hONGZkMjdockR0RXBQSzNN?oc=5",
-      "published_at": "2026-09-23T15:35:53Z",
-      "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "single-cell"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "disease"
-      ]
     }
   ],
   "items_ai": [
     {
+      "id": "d7e4490aba30d5a27147b96316303aadf0bbe2fb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
+      "title_zh": "加州大学洛杉矶分校卫生部获得2500万美元拨款，用于推进以人工智能为中心的阿尔茨海默氏症和痴呆症患者研究-加州大学洛杉矶分校卫生部",
+      "title_en": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
+      "published_at": "2026-09-24T18:20:03Z",
+      "first_seen_at": "2026-09-24T19:11:26.884478Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health",
+        "patients"
+      ]
+    },
+    {
       "id": "aca68c44a1b04494cc113a8e6f5eee4d89540a77",
       "canonical_key": "url:https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
       "site_id": "official_rss",
@@ -284,7 +333,7 @@
       "url": "https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
       "published_at": "2026-09-24T12:51:11Z",
       "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -338,7 +387,7 @@
       "url": "https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
       "published_at": "2026-09-24T12:36:11Z",
       "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -385,9 +434,9 @@
       "title_zh": "卡内基梅隆大学的研究人员使用人工智能工具来发现阿尔茨海默氏症如何改变脑细胞- TribLIVE.com",
       "title_en": "Carnegie Mellon researchers use AI tool to find how Alzheimer’s changes brain cells - TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ01GQXplc2pMSV8xT0N0M3N1ZlRtX0hGbUsyTXpwQ3JrbmwtQlBPQl9MMldpbkxBUUlXM2s4alA3ZGc2bXFiWFk4cUg5akF1NHBzeWRGUC1EclNaN003X1ZISXZBd3ZucUFSVURKS2VheGd6U1p2bENSc2Y1V2lCMU11OWl5R3ZPaDBhVEZub0VQNDRreFdnWUZZNVEtSUJyLXRpOHYzcG05eTkzNl9jMVZCelJrRTFHT0JPdQ?oc=5",
-      "published_at": "2026-09-23T21:16:17Z",
+      "published_at": "2026-09-24T09:11:15Z",
       "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -430,13 +479,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI-Powered Longevity Tracking - Trend Hunter",
-      "title_zh": "人工智能长寿追踪-趋势猎人",
-      "title_en": "AI-Powered Longevity Tracking - Trend Hunter",
+      "title": "AI-Powered Longevity Tracking - trendhunter.com",
+      "title_zh": "人工智能长寿追踪- trendhunter.com",
+      "title_en": "AI-Powered Longevity Tracking - trendhunter.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51SXVybmdDanJQQTFaTldfTkM5LTZEUWdoNk4tWDVaZFJSNkt2QU5wcUUtYjFsQlQyT1ctanh5a0lpcUd2M050Y1E1bXMyWDZjQUEtdnRxdFNMQ2ZMVTJz?oc=5",
       "published_at": "2026-09-23T19:59:53Z",
       "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
+      "last_seen_at": "2026-09-24T19:11:26.884478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -469,59 +518,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "d19dce9f9c829edff1ab84dd64c8eb061dfd100e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mdy1vTWtCM3diVUNXTVN3ZE9ZODJ6alhBNmRGMHloNjEyemszT3NnSlp3dllHRnUzMGJqRTVmLVU5dVdSMXBGd3NtTGFvc0hONGZkMjdockR0RXBQSzNN?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data - Nature",
-      "title_zh": "基于人群规模单细胞数据的基于人工智能的阿尔茨海默病表型表征-自然",
-      "title_en": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mdy1vTWtCM3diVUNXTVN3ZE9ZODJ6alhBNmRGMHloNjEyemszT3NnSlp3dllHRnUzMGJqRTVmLVU5dVdSMXBGd3NtTGFvc0hONGZkMjdockR0RXBQSzNN?oc=5",
-      "published_at": "2026-09-23T15:35:53Z",
-      "first_seen_at": "2026-09-23T23:43:07.118812Z",
-      "last_seen_at": "2026-09-24T15:07:55.447778Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "single-cell"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "disease"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
