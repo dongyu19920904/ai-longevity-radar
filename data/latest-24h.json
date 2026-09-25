@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-25T13:49:07.746872Z",
+  "generated_at": "2026-09-25T18:37:58.490450Z",
   "window_hours": 24,
   "total_items": 9,
-  "total_items_raw": 498,
-  "total_items_all_mode": 498,
-  "archive_total": 8971,
+  "total_items_raw": 452,
+  "total_items_all_mode": 452,
+  "archive_total": 9029,
   "site_count": 1,
   "source_count": 3,
   "site_stats": [
@@ -13,10 +13,58 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 9,
-      "raw_count": 42
+      "raw_count": 38
     }
   ],
   "items": [
+    {
+      "id": "9e3a65e9d21c9ac8b87da63975eb40afb707c4c8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxPMUpvWnFVZk1nYkRzanVGbWtxb01LOTkzRmY3MHZKWENBdlZQVHJVVEFtTm5scWpQUGlBZUp5Nkt0NFlyMXVzYUVjcnZzd0VwWG1CME5WZ2oxSUtGbUJrTjZpbWZzWl9qV2c2X0djcC05c3NJUkd2QmcxTnhUYVcyNXhmYkN1cmVsYVE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Putting AI To Test For Alzheimer's And Dementia - Mirage News",
+      "title_zh": "将人工智能用于测试阿尔茨海默氏症和痴呆症-幻影新闻",
+      "title_en": "Putting AI To Test For Alzheimer's And Dementia - Mirage News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMUpvWnFVZk1nYkRzanVGbWtxb01LOTkzRmY3MHZKWENBdlZQVHJVVEFtTm5scWpQUGlBZUp5Nkt0NFlyMXVzYUVjcnZzd0VwWG1CME5WZ2oxSUtGbUJrTjZpbWZzWl9qV2c2X0djcC05c3NJUkd2QmcxTnhUYVcyNXhmYkN1cmVsYVE?oc=5",
+      "published_at": "2026-09-25T16:38:00Z",
+      "first_seen_at": "2026-09-25T18:37:58.490450Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "ad7a1931df00f222b8aa75a5cb7c2ba5cb4db8c5",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQm9LNExDc0xYeDR2VTVOTllGUFJyQnZucHlzOHRKU2NPbG0zVXhaM3hOSERUNVpYd3R4OGtoUFh4QS1OdTEzbXRZMmVDd3N6WGY3bm9ISlF4U0Z4N1hTWGcxSHZBOE5KeWc0eVZWZUgtVXFFa0ZRbE40Qzg2ZXp1eVFBWVlPc3liWlFTemtXN3pHQ0ZyQVNKcEdZaTJ5ajlJd05FX0RZZ09XcTdnVDlHSVZSdzNpdkR1MmhFUE1ac0lTNUVpN3pZdFE1UzVab1dYVmdTQW52NDjSAdgBQVVfeXFMTkJvSzRMQ3NMWHg0dlU1Tk5ZRlBSckJ2bnB5czh0SlNjT2xtM1V4WjN4TkhEVDVaWHd0eDhraFBYeEEtTnUxM210WTJlQ3dzelhmN25vSEpReFNGeDdYU1hnMUh2QThOSnlnNHlWVmVILVVxRWtGUWxONEM4NmV6dXlRQVlZT3N5YlpRU3prVzd6R0NGckFTSnBHWWkyeWo5SXdORV9EWWdPV3E3Z1Q5R0lWUnczaXZEdTJoRVBNWnNJUzVFaTd6WXRRNVM1Wm9XWFZnU0FudjQ4?oc=5",
@@ -69,57 +117,6 @@
       ]
     },
     {
-      "id": "d7e4490aba30d5a27147b96316303aadf0bbe2fb",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
-      "title_zh": "加州大学洛杉矶分校卫生部获得2500万美元拨款，用于推进以人工智能为中心的阿尔茨海默氏症和痴呆症患者研究-加州大学洛杉矶分校卫生部",
-      "title_en": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
-      "published_at": "2026-09-24T18:20:03Z",
-      "first_seen_at": "2026-09-24T19:11:26.884478Z",
-      "last_seen_at": "2026-09-24T19:11:26.884478Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health",
-        "patients"
-      ]
-    },
-    {
       "id": "518d1f719c0ef27fe4e76fb61d07c947c5603e85",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "site_id": "official_rss",
@@ -132,7 +129,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "published_at": "2026-09-25T12:02:00Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -181,7 +178,7 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
       "published_at": "2026-09-25T09:46:36Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -275,7 +272,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm1BemlBckhPczRJS2xmMmZSYVo3S2E1YTVfUk9pMktNRENPZmxmQ2lzTmc0VlAycVVMSjUzVlo5U0FaRG9HdFZMb0dlckp2Y3Z0WXNsTXhscGxOdXd1eGYycmFxTFpnbVFFZXVfbFNEZHpGRklGY2tQRkd0c29RSm0tRVdFNGRLYXRudm54WncwNVo3VncyckE3OEdGdGhwTVc4a0tpakR4OHRH?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -322,7 +319,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -416,7 +413,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjhpOUJHQW5nSXp0b3JQcnd1WmxUTjdKVHh1V2xZSFdIRzBzMVpNeHZIT3MzY3lwRkUtbUxHOXU4YVlZejN2ajFjaTNJRktOcWN4Qmdld0R5YUNpSksxd3RrbVYwVWNYNnV1dGlVeHBrdGVqUUxZWkR6cWtYNHdMZWZ6VGhaLUp3UnRiZ3BhbkVud3JxX2I3SXlRM3ZOLVhncTFFNWRuVVU0NHhtMVBBa3pWUndVY0tuMmUyV2hqR010Y0k?oc=5",
       "published_at": "2026-09-25T06:33:53Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -453,6 +450,54 @@
   ],
   "items_ai": [
     {
+      "id": "9e3a65e9d21c9ac8b87da63975eb40afb707c4c8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxPMUpvWnFVZk1nYkRzanVGbWtxb01LOTkzRmY3MHZKWENBdlZQVHJVVEFtTm5scWpQUGlBZUp5Nkt0NFlyMXVzYUVjcnZzd0VwWG1CME5WZ2oxSUtGbUJrTjZpbWZzWl9qV2c2X0djcC05c3NJUkd2QmcxTnhUYVcyNXhmYkN1cmVsYVE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Putting AI To Test For Alzheimer's And Dementia - Mirage News",
+      "title_zh": "将人工智能用于测试阿尔茨海默氏症和痴呆症-幻影新闻",
+      "title_en": "Putting AI To Test For Alzheimer's And Dementia - Mirage News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMUpvWnFVZk1nYkRzanVGbWtxb01LOTkzRmY3MHZKWENBdlZQVHJVVEFtTm5scWpQUGlBZUp5Nkt0NFlyMXVzYUVjcnZzd0VwWG1CME5WZ2oxSUtGbUJrTjZpbWZzWl9qV2c2X0djcC05c3NJUkd2QmcxTnhUYVcyNXhmYkN1cmVsYVE?oc=5",
+      "published_at": "2026-09-25T16:38:00Z",
+      "first_seen_at": "2026-09-25T18:37:58.490450Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "ad7a1931df00f222b8aa75a5cb7c2ba5cb4db8c5",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQm9LNExDc0xYeDR2VTVOTllGUFJyQnZucHlzOHRKU2NPbG0zVXhaM3hOSERUNVpYd3R4OGtoUFh4QS1OdTEzbXRZMmVDd3N6WGY3bm9ISlF4U0Z4N1hTWGcxSHZBOE5KeWc0eVZWZUgtVXFFa0ZRbE40Qzg2ZXp1eVFBWVlPc3liWlFTemtXN3pHQ0ZyQVNKcEdZaTJ5ajlJd05FX0RZZ09XcTdnVDlHSVZSdzNpdkR1MmhFUE1ac0lTNUVpN3pZdFE1UzVab1dYVmdTQW52NDjSAdgBQVVfeXFMTkJvSzRMQ3NMWHg0dlU1Tk5ZRlBSckJ2bnB5czh0SlNjT2xtM1V4WjN4TkhEVDVaWHd0eDhraFBYeEEtTnUxM210WTJlQ3dzelhmN25vSEpReFNGeDdYU1hnMUh2QThOSnlnNHlWVmVILVVxRWtGUWxONEM4NmV6dXlRQVlZT3N5YlpRU3prVzd6R0NGckFTSnBHWWkyeWo5SXdORV9EWWdPV3E3Z1Q5R0lWUnczaXZEdTJoRVBNWnNJUzVFaTd6WXRRNVM1Wm9XWFZnU0FudjQ4?oc=5",
       "site_id": "official_rss",
@@ -504,57 +549,6 @@
       ]
     },
     {
-      "id": "d7e4490aba30d5a27147b96316303aadf0bbe2fb",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
-      "title_zh": "加州大学洛杉矶分校卫生部获得2500万美元拨款，用于推进以人工智能为中心的阿尔茨海默氏症和痴呆症患者研究-加州大学洛杉矶分校卫生部",
-      "title_en": "UCLA Health receives $25 million grant to advance AI-centered research for Alzheimer’s and dementia patients - UCLA Health",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjBwajVVRTRjZEVOYVQ3RGE0bEZnenN3X0lVTVZKSGdPX24ybXJfZmNJVDhoVmhaOC1vRnN0VVlvV2tCamEyWGtzUlVyXzVTMHktcmQxanFMdkg4c0YxVTdPcktKQ2hwcjdMakw3TkVqSXZXS1luLS1UZkd5OTZGenctaWhIZFpMRTVnNUUtbGJfdXN1dUhlVkhua0dfZw?oc=5",
-      "published_at": "2026-09-24T18:20:03Z",
-      "first_seen_at": "2026-09-24T19:11:26.884478Z",
-      "last_seen_at": "2026-09-24T19:11:26.884478Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health",
-        "patients"
-      ]
-    },
-    {
       "id": "518d1f719c0ef27fe4e76fb61d07c947c5603e85",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "site_id": "official_rss",
@@ -567,7 +561,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "published_at": "2026-09-25T12:02:00Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -616,7 +610,7 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
       "published_at": "2026-09-25T09:46:36Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -710,7 +704,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm1BemlBckhPczRJS2xmMmZSYVo3S2E1YTVfUk9pMktNRENPZmxmQ2lzTmc0VlAycVVMSjUzVlo5U0FaRG9HdFZMb0dlckp2Y3Z0WXNsTXhscGxOdXd1eGYycmFxTFpnbVFFZXVfbFNEZHpGRklGY2tQRkd0c29RSm0tRVdFNGRLYXRudm54WncwNVo3VncyckE3OEdGdGhwTVc4a0tpakR4OHRH?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -757,7 +751,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T13:49:07.746872Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -851,7 +845,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjhpOUJHQW5nSXp0b3JQcnd1WmxUTjdKVHh1V2xZSFdIRzBzMVpNeHZIT3MzY3lwRkUtbUxHOXU4YVlZejN2ajFjaTNJRktOcWN4Qmdld0R5YUNpSksxd3RrbVYwVWNYNnV1dGlVeHBrdGVqUUxZWkR6cWtYNHdMZWZ6VGhaLUp3UnRiZ3BhbkVud3JxX2I3SXlRM3ZOLVhncTFFNWRuVVU0NHhtMVBBa3pWUndVY0tuMmUyV2hqR010Y0k?oc=5",
       "published_at": "2026-09-25T06:33:53Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T18:37:58.490450Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,

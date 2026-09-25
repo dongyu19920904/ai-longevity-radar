@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-25T13:49:07.746872Z",
+  "generated_at": "2026-09-25T18:37:58.490450Z",
   "sites": [
     {
       "site_id": "europepmc",
@@ -8,7 +8,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 98,
-      "duration_ms": 1680,
+      "duration_ms": 1348,
       "error": null
     },
     {
@@ -16,24 +16,24 @@
       "site_name": "ClinicalTrials.gov",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 508,
+      "duration_ms": 929,
       "error": null
     },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "ok": true,
-      "partial_failures": 0,
-      "item_count": 176,
-      "duration_ms": 17141,
-      "error": null,
+      "partial_failures": 1,
+      "item_count": 123,
+      "duration_ms": 12072,
+      "error": "1 feeds failed",
       "feeds": [
         {
           "feed_name": "Nature Aging",
           "feed_url": "https://www.nature.com/subjects/ageing.rss",
           "ok": true,
           "item_count": 14,
-          "duration_ms": 243,
+          "duration_ms": 78,
           "error": null
         },
         {
@@ -41,7 +41,7 @@
           "feed_url": "https://www.fightaging.org/feed/",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 882,
+          "duration_ms": 934,
           "error": null
         },
         {
@@ -49,7 +49,7 @@
           "feed_url": "https://www.lifespan.io/feed/",
           "ok": true,
           "item_count": 5,
-          "duration_ms": 474,
+          "duration_ms": 390,
           "error": null
         },
         {
@@ -57,23 +57,23 @@
           "feed_url": "https://www.buckinstitute.org/feed/",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 427,
+          "duration_ms": 285,
           "error": null
         },
         {
           "feed_name": "Longevity.Technology",
           "feed_url": "https://longevity.technology/feed/",
-          "ok": true,
-          "item_count": 50,
-          "duration_ms": 17141,
-          "error": null
+          "ok": false,
+          "item_count": 0,
+          "duration_ms": 12072,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='longevity.technology', port=443): Read timed out. (read timeout=12)"
         },
         {
           "feed_name": "ScienceDaily Healthy Aging",
           "feed_url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
           "ok": true,
           "item_count": 3,
-          "duration_ms": 215,
+          "duration_ms": 341,
           "error": null
         },
         {
@@ -81,7 +81,7 @@
           "feed_url": "https://www.sciencedaily.com/rss/mind_brain/dementia.xml",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 269,
+          "duration_ms": 309,
           "error": null
         },
         {
@@ -89,7 +89,7 @@
           "feed_url": "https://medicalxpress.com/rss-feed/healthy-aging-news/",
           "ok": true,
           "item_count": 30,
-          "duration_ms": 186,
+          "duration_ms": 240,
           "error": null
         },
         {
@@ -97,7 +97,7 @@
           "feed_url": "https://www.news-medical.net/tag/feed/Aging.aspx",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 218,
+          "duration_ms": 180,
           "error": null
         },
         {
@@ -105,7 +105,7 @@
           "feed_url": "https://www.news-medical.net/tag/feed/Alzheimers-Disease.aspx",
           "ok": true,
           "item_count": 10,
-          "duration_ms": 163,
+          "duration_ms": 161,
           "error": null
         },
         {
@@ -113,7 +113,7 @@
           "feed_url": "https://news.google.com/rss/search?q=(AI%20OR%20%22artificial%20intelligence%22%20OR%20%22machine%20learning%22)%20(longevity%20OR%20aging%20OR%20%22biological%20age%22%20OR%20dementia%20OR%20alzheimer)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
           "item_count": 21,
-          "duration_ms": 920,
+          "duration_ms": 658,
           "error": null
         },
         {
@@ -121,23 +121,23 @@
           "feed_url": "https://news.google.com/rss/search?q=(%22biological%20age%22%20OR%20%22epigenetic%20clock%22%20OR%20%22aging%20clock%22%20OR%20%22brain%20age%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20model)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 711,
+          "duration_ms": 771,
           "error": null
         },
         {
           "feed_name": "Google News · Senescence",
           "feed_url": "https://news.google.com/rss/search?q=(senescence%20OR%20senolytic%20OR%20%22partial%20reprogramming%22%20OR%20rejuvenation)%20(AI%20OR%20%22machine%20learning%22%20OR%20biotech)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
-          "item_count": 4,
-          "duration_ms": 812,
+          "item_count": 3,
+          "duration_ms": 841,
           "error": null
         },
         {
           "feed_name": "Google News · Brain Age",
           "feed_url": "https://news.google.com/rss/search?q=(%22brain%20age%22%20OR%20dementia%20OR%20alzheimer%20OR%20%22digital%20biomarker%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20wearable)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
-          "item_count": 16,
-          "duration_ms": 1058,
+          "item_count": 15,
+          "duration_ms": 778,
           "error": null
         },
         {
@@ -145,15 +145,15 @@
           "feed_url": "https://news.google.com/rss/search?q=(%22single-cell%22%20OR%20%22multi-omics%22%20OR%20metabolomics%20OR%20proteomics)%20(aging%20OR%20senescence%20OR%20rejuvenation)%20(AI%20OR%20%22machine%20learning%22%20OR%20model)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 522,
+          "duration_ms": 456,
           "error": null
         },
         {
           "feed_name": "Google News · Healthy Aging AI",
           "feed_url": "https://news.google.com/rss/search?q=(frailty%20OR%20sarcopenia%20OR%20healthspan%20OR%20%22healthy%20aging%22)%20(AI%20OR%20%22machine%20learning%22%20OR%20wearable%20OR%20biomarker)&hl=en-US&gl=US&ceid=US:en",
           "ok": true,
-          "item_count": 3,
-          "duration_ms": 829,
+          "item_count": 2,
+          "duration_ms": 515,
           "error": null
         }
       ]
@@ -164,7 +164,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 5,
-      "duration_ms": 2458,
+      "duration_ms": 2198,
       "error": null,
       "feeds": [
         {
@@ -172,7 +172,7 @@
           "feed_url": "https://papers.cool/arxiv/q-bio/feed",
           "ok": true,
           "item_count": 4,
-          "duration_ms": 1164,
+          "duration_ms": 898,
           "error": null
         },
         {
@@ -180,7 +180,7 @@
           "feed_url": "https://papers.cool/arxiv/cs.LG/feed",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 2295,
+          "duration_ms": 2198,
           "error": null
         },
         {
@@ -188,7 +188,7 @@
           "feed_url": "https://papers.cool/arxiv/cs.AI/feed",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 2458,
+          "duration_ms": 2117,
           "error": null
         },
         {
@@ -196,7 +196,7 @@
           "feed_url": "https://papers.cool/arxiv/cs.CV/feed",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 2037,
+          "duration_ms": 1824,
           "error": null
         },
         {
@@ -204,7 +204,7 @@
           "feed_url": "https://papers.cool/arxiv/stat.ML/feed",
           "ok": true,
           "item_count": 1,
-          "duration_ms": 1421,
+          "duration_ms": 1090,
           "error": null
         },
         {
@@ -212,7 +212,7 @@
           "feed_url": "https://papers.cool/arxiv/physics.med-ph/feed",
           "ok": true,
           "item_count": 0,
-          "duration_ms": 989,
+          "duration_ms": 639,
           "error": null
         }
       ]
@@ -223,79 +223,81 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 50,
-      "duration_ms": 902,
+      "duration_ms": 878,
       "error": null
     },
     {
       "site_id": "ai_radar_bridge",
       "site_name": "爱窝啦 AI雷达",
       "ok": true,
-      "item_count": 535,
+      "item_count": 479,
       "source_count": 10,
       "upstream_sources": [
         {
           "site_id": "buzzing",
           "site_name": "Buzzing",
-          "item_count": 176
+          "item_count": 138
         },
         {
           "site_id": "techurls",
           "site_name": "TechURLs",
-          "item_count": 136
-        },
-        {
-          "site_id": "zeli",
-          "site_name": "Zeli",
-          "item_count": 62
+          "item_count": 125
         },
         {
           "site_id": "iris",
           "site_name": "Info Flow",
-          "item_count": 59
+          "item_count": 62
         },
         {
           "site_id": "tophub",
           "site_name": "TopHub",
-          "item_count": 51
+          "item_count": 57
+        },
+        {
+          "site_id": "zeli",
+          "site_name": "Zeli",
+          "item_count": 49
         },
         {
           "site_id": "newsnow",
           "site_name": "NewsNow",
-          "item_count": 19
+          "item_count": 18
         },
         {
           "site_id": "aihot",
           "site_name": "AI HOT",
-          "item_count": 9
-        },
-        {
-          "site_id": "opmlrss",
-          "site_name": "OPML RSS",
-          "item_count": 9
+          "item_count": 10
         },
         {
           "site_id": "official_ai",
           "site_name": "Official AI Updates",
+          "item_count": 8
+        },
+        {
+          "site_id": "opmlrss",
+          "site_name": "OPML RSS",
           "item_count": 7
         },
         {
           "site_id": "followbuilders",
           "site_name": "Follow Builders",
-          "item_count": 7
+          "item_count": 5
         }
       ],
       "endpoint_used": "https://radar.aivora.cn/data/latest-24h.json",
       "fallback_errors": [],
-      "duration_ms": 690,
+      "duration_ms": 621,
       "error": null
     }
   ],
   "successful_sites": 6,
   "failed_sites": [],
-  "partial_sites": [],
+  "partial_sites": [
+    "official_rss"
+  ],
   "zero_item_sites": [],
-  "fetched_raw_items": 914,
-  "items_before_topic_filter": 498,
+  "fetched_raw_items": 805,
+  "items_before_topic_filter": 452,
   "items_in_24h": 9,
   "items_core_7d": 43,
   "items_relevant_21d": 60,
