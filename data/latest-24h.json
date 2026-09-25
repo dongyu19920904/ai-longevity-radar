@@ -1,18 +1,18 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-25T07:50:37.125304Z",
+  "generated_at": "2026-09-25T13:49:07.746872Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 578,
-  "total_items_all_mode": 578,
-  "archive_total": 8843,
+  "total_items": 9,
+  "total_items_raw": 498,
+  "total_items_all_mode": 498,
+  "archive_total": 8971,
   "site_count": 1,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
+      "count": 9,
       "raw_count": 42
     }
   ],
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQm9LNExDc0xYeDR2VTVOTllGUFJyQnZucHlzOHRKU2NPbG0zVXhaM3hOSERUNVpYd3R4OGtoUFh4QS1OdTEzbXRZMmVDd3N6WGY3bm9ISlF4U0Z4N1hTWGcxSHZBOE5KeWc0eVZWZUgtVXFFa0ZRbE40Qzg2ZXp1eVFBWVlPc3liWlFTemtXN3pHQ0ZyQVNKcEdZaTJ5ajlJd05FX0RZZ09XcTdnVDlHSVZSdzNpdkR1MmhFUE1ac0lTNUVpN3pZdFE1UzVab1dYVmdTQW52NDjSAdgBQVVfeXFMTkJvSzRMQ3NMWHg0dlU1Tk5ZRlBSckJ2bnB5czh0SlNjT2xtM1V4WjN4TkhEVDVaWHd0eDhraFBYeEEtTnUxM210WTJlQ3dzelhmN25vSEpReFNGeDdYU1hnMUh2QThOSnlnNHlWVmVILVVxRWtGUWxONEM4NmV6dXlRQVlZT3N5YlpRU3prVzd6R0NGckFTSnBHWWkyeWo5SXdORV9EWWdPV3E3Z1Q5R0lWUnczaXZEdTJoRVBNWnNJUzVFaTd6WXRRNVM1Wm9XWFZnU0FudjQ4?oc=5",
       "published_at": "2026-09-24T23:15:00Z",
       "first_seen_at": "2026-09-24T22:26:41.583152Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -120,24 +120,24 @@
       ]
     },
     {
-      "id": "aca68c44a1b04494cc113a8e6f5eee4d89540a77",
-      "canonical_key": "url:https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
+      "id": "518d1f719c0ef27fe4e76fb61d07c947c5603e85",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "Circular Genomics, Altoida partner on multimodal Alzheimer’s testing",
-      "title_zh": "Circular Genomics ， Altoida在多模式阿尔茨海默氏症检测方面的合作伙伴",
-      "title_en": "Circular Genomics, Altoida partner on multimodal Alzheimer’s testing",
-      "url": "https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
-      "published_at": "2026-09-24T12:51:11Z",
-      "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-25T01:31:55.266772Z",
+      "title": "Cambridge Cognition (LSE:COG) joins a dementia diagnosis push this week: where does digital testing fit in AI-era healthcare? - Kalkine Media",
+      "title_zh": "Cambridge Cognition (LSE: COG)本周加入了痴呆症诊断活动：数字测试在人工智能时代的医疗保健中占据什么位置？ - Kalkine Media",
+      "title_en": "Cambridge Cognition (LSE:COG) joins a dementia diagnosis push this week: where does digital testing fit in AI-era healthcare? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
+      "published_at": "2026-09-25T12:02:00Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -146,7 +146,7 @@
         "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "human",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -155,23 +155,65 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "multimodal"
+        "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker",
-        "genomics"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "biomarker",
-        "patient"
+        "healthcare"
       ]
+    },
+    {
+      "id": "592e1b480d6c46415ee842f48fa2236cf8b14b4d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI speeds up dementia drug hunt - Yahoo",
+      "title_zh": "人工智能加速痴呆症药物搜寻-雅虎",
+      "title_en": "AI speeds up dementia drug hunt - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
+      "published_at": "2026-09-25T09:46:36Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "eac57f6b9fabeb90f2556b844d8620da008c1c2e",
@@ -233,7 +275,101 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm1BemlBckhPczRJS2xmMmZSYVo3S2E1YTVfUk9pMktNRENPZmxmQ2lzTmc0VlAycVVMSjUzVlo5U0FaRG9HdFZMb0dlckp2Y3Z0WXNsTXhscGxOdXd1eGYycmFxTFpnbVFFZXVfbFNEZHpGRklGY2tQRkd0c29RSm0tRVdFNGRLYXRudm54WncwNVo3VncyckE3OEdGdGhwTVc4a0tpakR4OHRH?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "080e98fdb18c140b8a9c861a04fc34993116d304",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI and robots provide companionship for people with Alzheimer’s - Euronews.com",
+      "title_zh": "人工智能和机器人如何为阿尔茨海默氏症患者提供陪伴- Euronews.com",
+      "title_en": "How AI and robots provide companionship for people with Alzheimer’s - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
+      "published_at": "2026-09-25T07:35:44Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "7a584f475fe64c10092c55a30c81edffc69ee379",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3hQQUNMN0U1WEtodFBoWFBDSnplVl96RzV3dENPbWhjTllQdTNqVFowZTI3S1ZjbXNnV0o4bU53bE1ycjVhQTdHMXVYV0tnOG5LbGFHbFZwQ3Yzem9Cenp3TlhVSXBLT3BIVVNxby1qYVN2SV9BSWVoTmVrTEdZQjRXLUQwVVFhRUxOVnI1SE1jb1FPemlIQkhZZjY5SXRuNWpScmRQcmNMVFRiUmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI and robots provide companionship for people with Alzheimer’s - Inbox.eu",
+      "title_zh": "人工智能和机器人如何为阿尔茨海默氏症患者提供陪伴- Inbox.eu",
+      "title_en": "How AI and robots provide companionship for people with Alzheimer’s - Inbox.eu",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3hQQUNMN0U1WEtodFBoWFBDSnplVl96RzV3dENPbWhjTllQdTNqVFowZTI3S1ZjbXNnV0o4bU53bE1ycjVhQTdHMXVYV0tnOG5LbGFHbFZwQ3Yzem9Cenp3TlhVSXBLT3BIVVNxby1qYVN2SV9BSWVoTmVrTEdZQjRXLUQwVVFhRUxOVnI1SE1jb1FPemlIQkhZZjY5SXRuNWpScmRQcmNMVFRiUmc?oc=5",
+      "published_at": "2026-09-25T07:35:44Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -278,9 +414,9 @@
       "title_zh": "趋势跟踪器： AI的利弊、健康跨越新产品发布等- NutraIngredients.com",
       "title_en": "Trend tracker: AI’s pros and cons, healthspan new product launches and more - NutraIngredients.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjhpOUJHQW5nSXp0b3JQcnd1WmxUTjdKVHh1V2xZSFdIRzBzMVpNeHZIT3MzY3lwRkUtbUxHOXU4YVlZejN2ajFjaTNJRktOcWN4Qmdld0R5YUNpSksxd3RrbVYwVWNYNnV1dGlVeHBrdGVqUUxZWkR6cWtYNHdMZWZ6VGhaLUp3UnRiZ3BhbkVud3JxX2I3SXlRM3ZOLVhncTFFNWRuVVU0NHhtMVBBa3pWUndVY0tuMmUyV2hqR010Y0k?oc=5",
-      "published_at": "2026-09-25T06:37:29Z",
+      "published_at": "2026-09-25T06:33:53Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -313,55 +449,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "0c84b69bb5b8777d108905b9203f920382721cd5",
-      "canonical_key": "url:https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Annovis taps Weave Bio’s AI to speed FDA submission for Alzheimer’s drug",
-      "title_zh": "Annovis利用Weave Bio的人工智能加速FDA提交阿尔茨海默氏症药物申请",
-      "title_en": "Annovis taps Weave Bio’s AI to speed FDA submission for Alzheimer’s drug",
-      "url": "https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
-      "published_at": "2026-09-24T12:36:11Z",
-      "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-25T01:31:55.266772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
     }
   ],
   "items_ai": [
@@ -378,7 +465,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQm9LNExDc0xYeDR2VTVOTllGUFJyQnZucHlzOHRKU2NPbG0zVXhaM3hOSERUNVpYd3R4OGtoUFh4QS1OdTEzbXRZMmVDd3N6WGY3bm9ISlF4U0Z4N1hTWGcxSHZBOE5KeWc0eVZWZUgtVXFFa0ZRbE40Qzg2ZXp1eVFBWVlPc3liWlFTemtXN3pHQ0ZyQVNKcEdZaTJ5ajlJd05FX0RZZ09XcTdnVDlHSVZSdzNpdkR1MmhFUE1ac0lTNUVpN3pZdFE1UzVab1dYVmdTQW52NDjSAdgBQVVfeXFMTkJvSzRMQ3NMWHg0dlU1Tk5ZRlBSckJ2bnB5czh0SlNjT2xtM1V4WjN4TkhEVDVaWHd0eDhraFBYeEEtTnUxM210WTJlQ3dzelhmN25vSEpReFNGeDdYU1hnMUh2QThOSnlnNHlWVmVILVVxRWtGUWxONEM4NmV6dXlRQVlZT3N5YlpRU3prVzd6R0NGckFTSnBHWWkyeWo5SXdORV9EWWdPV3E3Z1Q5R0lWUnczaXZEdTJoRVBNWnNJUzVFaTd6WXRRNVM1Wm9XWFZnU0FudjQ4?oc=5",
       "published_at": "2026-09-24T23:15:00Z",
       "first_seen_at": "2026-09-24T22:26:41.583152Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -468,24 +555,24 @@
       ]
     },
     {
-      "id": "aca68c44a1b04494cc113a8e6f5eee4d89540a77",
-      "canonical_key": "url:https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
+      "id": "518d1f719c0ef27fe4e76fb61d07c947c5603e85",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "Circular Genomics, Altoida partner on multimodal Alzheimer’s testing",
-      "title_zh": "Circular Genomics ， Altoida在多模式阿尔茨海默氏症检测方面的合作伙伴",
-      "title_en": "Circular Genomics, Altoida partner on multimodal Alzheimer’s testing",
-      "url": "https://longevity.technology/news/circular-genomics-altoida-partner-on-multimodal-alzheimers-testing",
-      "published_at": "2026-09-24T12:51:11Z",
-      "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-25T01:31:55.266772Z",
+      "title": "Cambridge Cognition (LSE:COG) joins a dementia diagnosis push this week: where does digital testing fit in AI-era healthcare? - Kalkine Media",
+      "title_zh": "Cambridge Cognition (LSE: COG)本周加入了痴呆症诊断活动：数字测试在人工智能时代的医疗保健中占据什么位置？ - Kalkine Media",
+      "title_en": "Cambridge Cognition (LSE:COG) joins a dementia diagnosis push this week: where does digital testing fit in AI-era healthcare? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5",
+      "published_at": "2026-09-25T12:02:00Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -494,7 +581,7 @@
         "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "human",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -503,23 +590,65 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "multimodal"
+        "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker",
-        "genomics"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "biomarker",
-        "patient"
+        "healthcare"
       ]
+    },
+    {
+      "id": "592e1b480d6c46415ee842f48fa2236cf8b14b4d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI speeds up dementia drug hunt - Yahoo",
+      "title_zh": "人工智能加速痴呆症药物搜寻-雅虎",
+      "title_en": "AI speeds up dementia drug hunt - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmU2MWFlS28wVGFraTlUd3JkUUV3VEc1NkJKR2pFQllXRzJ6SllkdUM2TEhtYTg1SjdHbURkbjNUZmZfeGllRm9oTXpGNnp6Y0tYeU9fZmE2c20xNmJqUThEdF8tbVN5R0p5aTkwblZ1OVdGTTRZZkpxTWF0MDF5WDZDVQ?oc=5",
+      "published_at": "2026-09-25T09:46:36Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "eac57f6b9fabeb90f2556b844d8620da008c1c2e",
@@ -581,7 +710,101 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm1BemlBckhPczRJS2xmMmZSYVo3S2E1YTVfUk9pMktNRENPZmxmQ2lzTmc0VlAycVVMSjUzVlo5U0FaRG9HdFZMb0dlckp2Y3Z0WXNsTXhscGxOdXd1eGYycmFxTFpnbVFFZXVfbFNEZHpGRklGY2tQRkd0c29RSm0tRVdFNGRLYXRudm54WncwNVo3VncyckE3OEdGdGhwTVc4a0tpakR4OHRH?oc=5",
       "published_at": "2026-09-25T07:35:44Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "080e98fdb18c140b8a9c861a04fc34993116d304",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI and robots provide companionship for people with Alzheimer’s - Euronews.com",
+      "title_zh": "人工智能和机器人如何为阿尔茨海默氏症患者提供陪伴- Euronews.com",
+      "title_en": "How AI and robots provide companionship for people with Alzheimer’s - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXFmQ0Y5T2MxQmFsMlFUQmVLWEdraWFmb3o4U2g3NV9RaXd1b0hkWDNZMk9na3JnUTJDVnFQSDNpT0hFZGpyNk9hVkJwVkt3SGtjTmtPdy1KVUx2dGc1RjgwZjVta3FUZmFabldLd0F3anRHQ3F1TF9WekFVOExmTjF5STdjSlgyVHk4VmcwNGdILTFqNEdQNkhyTy1ZYzZnWFFhdQ?oc=5",
+      "published_at": "2026-09-25T07:35:44Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "7a584f475fe64c10092c55a30c81edffc69ee379",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3hQQUNMN0U1WEtodFBoWFBDSnplVl96RzV3dENPbWhjTllQdTNqVFowZTI3S1ZjbXNnV0o4bU53bE1ycjVhQTdHMXVYV0tnOG5LbGFHbFZwQ3Yzem9Cenp3TlhVSXBLT3BIVVNxby1qYVN2SV9BSWVoTmVrTEdZQjRXLUQwVVFhRUxOVnI1SE1jb1FPemlIQkhZZjY5SXRuNWpScmRQcmNMVFRiUmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI and robots provide companionship for people with Alzheimer’s - Inbox.eu",
+      "title_zh": "人工智能和机器人如何为阿尔茨海默氏症患者提供陪伴- Inbox.eu",
+      "title_en": "How AI and robots provide companionship for people with Alzheimer’s - Inbox.eu",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3hQQUNMN0U1WEtodFBoWFBDSnplVl96RzV3dENPbWhjTllQdTNqVFowZTI3S1ZjbXNnV0o4bU53bE1ycjVhQTdHMXVYV0tnOG5LbGFHbFZwQ3Yzem9Cenp3TlhVSXBLT3BIVVNxby1qYVN2SV9BSWVoTmVrTEdZQjRXLUQwVVFhRUxOVnI1SE1jb1FPemlIQkhZZjY5SXRuNWpScmRQcmNMVFRiUmc?oc=5",
+      "published_at": "2026-09-25T07:35:44Z",
+      "first_seen_at": "2026-09-25T13:49:07.746872Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -626,9 +849,9 @@
       "title_zh": "趋势跟踪器： AI的利弊、健康跨越新产品发布等- NutraIngredients.com",
       "title_en": "Trend tracker: AI’s pros and cons, healthspan new product launches and more - NutraIngredients.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjhpOUJHQW5nSXp0b3JQcnd1WmxUTjdKVHh1V2xZSFdIRzBzMVpNeHZIT3MzY3lwRkUtbUxHOXU4YVlZejN2ajFjaTNJRktOcWN4Qmdld0R5YUNpSksxd3RrbVYwVWNYNnV1dGlVeHBrdGVqUUxZWkR6cWtYNHdMZWZ6VGhaLUp3UnRiZ3BhbkVud3JxX2I3SXlRM3ZOLVhncTFFNWRuVVU0NHhtMVBBa3pWUndVY0tuMmUyV2hqR010Y0k?oc=5",
-      "published_at": "2026-09-25T06:37:29Z",
+      "published_at": "2026-09-25T06:33:53Z",
       "first_seen_at": "2026-09-25T07:50:37.125304Z",
-      "last_seen_at": "2026-09-25T07:50:37.125304Z",
+      "last_seen_at": "2026-09-25T13:49:07.746872Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -661,55 +884,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "0c84b69bb5b8777d108905b9203f920382721cd5",
-      "canonical_key": "url:https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Annovis taps Weave Bio’s AI to speed FDA submission for Alzheimer’s drug",
-      "title_zh": "Annovis利用Weave Bio的人工智能加速FDA提交阿尔茨海默氏症药物申请",
-      "title_en": "Annovis taps Weave Bio’s AI to speed FDA submission for Alzheimer’s drug",
-      "url": "https://longevity.technology/news/annovis-taps-weave-bios-ai-to-speed-fda-submission-for-alzheimers-drug",
-      "published_at": "2026-09-24T12:36:11Z",
-      "first_seen_at": "2026-09-24T15:07:55.447778Z",
-      "last_seen_at": "2026-09-25T01:31:55.266772Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
