@@ -1,17 +1,17 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-26T17:11:41.633718Z",
+  "generated_at": "2026-09-26T19:54:04.693006Z",
   "topics": {
-    "neurodegeneration": 2
+    "neurodegeneration": 1
   },
   "source_types": {
-    "news": 2
+    "news": 1
   },
   "study_subjects": {
-    "unknown": 2
+    "unknown": 1
   },
   "publication_stages": {
-    "secondary_report": 2
+    "secondary_report": 1
   },
   "relevant_topics": {
     "digital_biomarker": 3,
