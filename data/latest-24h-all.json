@@ -1,10 +1,101 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-09-30T00:28:43.588608Z",
+  "generated_at": "2026-09-30T06:44:39.513267Z",
   "window_hours": 24,
-  "total_items_raw": 22,
-  "total_items_all_mode": 22,
+  "total_items_raw": 33,
+  "total_items_all_mode": 33,
   "items_all": [
+    {
+      "id": "1dfd146212417dbc874cfdb75a5e7bedbf1b1fa1",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE5hM2ViM0x6cVdmNEU3WmU1Vi1adFpURFVLZ05YWVNqRWxBeTRfbmREaFFwMWhPYWpkUXJKbTl6VGNoY1Y4dFE1LXlIWHFKQ0p2ZWNQOUotZE1aRjhjN2ZjcTdBZmNQZG5qNDBDNDkwXzh1UWtxVC1OZlo1LW5YMFVrV0NwdnhyR0ZXa1pSalRJU3Bpc29JYWJyUmJVMmtNT2JUN3hJeGZORGs0bHBKQ3ZB?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Mizzou research offers new hope for those at higher risk of Alzheimer’s disease - Show Me Mizzou",
+      "title_en": "Mizzou research offers new hope for those at higher risk of Alzheimer’s disease - Show Me Mizzou",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE5hM2ViM0x6cVdmNEU3WmU1Vi1adFpURFVLZ05YWVNqRWxBeTRfbmREaFFwMWhPYWpkUXJKbTl6VGNoY1Y4dFE1LXlIWHFKQ0p2ZWNQOUotZE1aRjhjN2ZjcTdBZmNQZG5qNDBDNDkwXzh1UWtxVC1OZlo1LW5YMFVrV0NwdnhyR0ZXa1pSalRJU3Bpc29JYWJyUmJVMmtNT2JUN3hJeGZORGs0bHBKQ3ZB?oc=5",
+      "published_at": "2026-09-30T05:40:13Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "de4a5b36af6ceecbc59afead011e7f6e85ba41b6",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-09-multimorbidity-japanese-home-patients.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Multimorbidity identified in most Japanese home care patients",
+      "title_en": "Multimorbidity identified in most Japanese home care patients",
+      "url": "https://medicalxpress.com/news/2026-09-multimorbidity-japanese-home-patients.html",
+      "published_at": "2026-09-30T01:40:01Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical",
+        "patients"
+      ]
+    },
     {
       "id": "09e6e3ee8739bbee67cd19f5289f503da4c0f3f9",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-attention-biological-aging-breast-cancer.html",
@@ -17,7 +108,7 @@
       "url": "https://medicalxpress.com/news/2026-09-attention-biological-aging-breast-cancer.html",
       "published_at": "2026-09-30T00:10:01Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -98,6 +189,52 @@
       "biological_context_signals": []
     },
     {
+      "id": "e002562a9b5bc2d74b7d0b3005a85114c5760c20",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUdIBZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI can detect when your aging parent falls or needs help. It can also hear everything else they say - Kansas City Star",
+      "title_en": "AI can detect when your aging parent falls or needs help. It can also hear everything else they say - Kansas City Star",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUdIBZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUQ?oc=5",
+      "published_at": "2026-09-29T23:30:00Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.137,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "weak_aging_without_biological_context",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7be36c62d446d23d54105ec37c81125ed58181c9",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-night-owls-struggle-age.html",
       "site_id": "official_rss",
@@ -109,7 +246,7 @@
       "url": "https://medicalxpress.com/news/2026-09-night-owls-struggle-age.html",
       "published_at": "2026-09-29T22:30:04Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -153,7 +290,7 @@
       "url": "https://medicalxpress.com/news/2026-09-blueberries-gut-microbiome-older-adults.html",
       "published_at": "2026-09-29T22:00:10Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -195,7 +332,7 @@
       "url": "https://medicalxpress.com/news/2026-09-medicine-joints-aging-osteoarthritis.html",
       "published_at": "2026-09-29T22:00:02Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -244,6 +381,52 @@
       "published_at": "2026-09-29T21:36:48Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
       "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.137,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "weak_aging_without_biological_context",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "756bb0955ffde321ef333ff8e34f4942958bbea9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0bUp4U1VSNmxOMUFNU002QkF5enc1SHg5NmJpVFppd2RwNmZoSWtUZFcxT3o0dmxobmRwcWZ5LXNSakg5NnZmQVFkVU5aTF9Zb19VMmliVmUxaUgxRzhyei1BT3BTVlRU0gFoQVVfeXFMUHRtSnhTVVI2bE4xQU1TTTZCQXl6dzVIeDk2YmlUWml3ZHA2ZmhJa1RkVzFPejR2bGhuZHBxZnktc1JqSDk2dmZBUWRVTlpMX1lvX1UyaWJWZTFpSDFHOHJ6LUFPcFNWVFQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "More families are letting AI monitor aging parents at home. The privacy tradeoff is bigger than you think - News & Observer",
+      "title_en": "More families are letting AI monitor aging parents at home. The privacy tradeoff is bigger than you think - News & Observer",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0bUp4U1VSNmxOMUFNU002QkF5enc1SHg5NmJpVFppd2RwNmZoSWtUZFcxT3o0dmxobmRwcWZ5LXNSakg5NnZmQVFkVU5aTF9Zb19VMmliVmUxaUgxRzhyei1BT3BTVlRU0gFoQVVfeXFMUHRtSnhTVVI2bE4xQU1TTTZCQXl6dzVIeDk2YmlUWml3ZHA2ZmhJa1RkVzFPejR2bGhuZHBxZnktc1JqSDk2dmZBUWRVTlpMX1lvX1UyaWJWZTFpSDFHOHJ6LUFPcFNWVFQ?oc=5",
+      "published_at": "2026-09-29T21:36:48Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -379,7 +562,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/dont-view-mtor-as-a-single-pharmaceutical-target-as-context-matters",
       "published_at": "2026-09-29T18:04:42Z",
       "first_seen_at": "2026-09-29T20:48:17.207584Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -420,6 +603,202 @@
       ]
     },
     {
+      "id": "c3883c0e62c8430ad4e6922cec2dc55b6ceddd30",
+      "canonical_key": "url:https://longevity.technology/news/johns-hopkins-team-wins-1m-xprize-for-immune-aging-research",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Johns Hopkins team wins $1m XPRIZE for immune aging research",
+      "title_en": "Johns Hopkins team wins $1m XPRIZE for immune aging research",
+      "url": "https://longevity.technology/news/johns-hopkins-team-wins-1m-xprize-for-immune-aging-research",
+      "published_at": "2026-09-29T17:33:48Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthspan",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune"
+      ]
+    },
+    {
+      "id": "5da6207781cc9a1db56d76536b8b686a0d33e0a0",
+      "canonical_key": "url:https://longevity.technology/news/lysoway-drug-tackles-two-brain-diseases-in-mice",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Lysoway drug tackles two brain diseases in mice",
+      "title_en": "Lysoway drug tackles two brain diseases in mice",
+      "url": "https://longevity.technology/news/lysoway-drug-tackles-two-brain-diseases-in-mice",
+      "published_at": "2026-09-29T17:14:35Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cell",
+        "mice",
+        "mouse"
+      ]
+    },
+    {
+      "id": "95227bd77f434acdb3051f96d72037f47ffa493b",
+      "canonical_key": "url:https://longevity.technology/news/heartseed-eyes-japan-approval-for-heart-cell-therapy",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Heartseed eyes Japan approval for heart cell therapy",
+      "title_en": "Heartseed eyes Japan approval for heart cell therapy",
+      "url": "https://longevity.technology/news/heartseed-eyes-japan-approval-for-heart-cell-therapy",
+      "published_at": "2026-09-29T17:12:14Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "medicine",
+        "patients"
+      ]
+    },
+    {
+      "id": "5bdf5ffe44dc7c6f662f10aa19dbddc05e7767d1",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37956",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",
+      "title_en": "BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",
+      "url": "https://papers.cool/arxiv/2609.37956",
+      "published_at": "2026-09-29T16:30:13Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.94,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.26,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "research_tool"
+      ],
+      "primary_topic": "research_tool",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "deep learning",
+        "large language model",
+        "neural network",
+        "predictive model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "brain"
+      ]
+    },
+    {
       "id": "566d1c1f825e7077e53f604ac3414f6598f6f671",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-gene-approach-potential-route-alzheimer.html",
       "site_id": "official_rss",
@@ -431,7 +810,7 @@
       "url": "https://medicalxpress.com/news/2026-09-gene-approach-potential-route-alzheimer.html",
       "published_at": "2026-09-29T16:20:21Z",
       "first_seen_at": "2026-09-29T20:48:17.207584Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -464,6 +843,99 @@
       "biological_context_signals": []
     },
     {
+      "id": "194664f94bc7dfa630cfe3e6f7d19c85c208a3fc",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37735",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "CancerZigZag: Iterative Seed-Anchored Diffusion for Generative Modeling of Single-Cell State Transitions",
+      "title_en": "CancerZigZag: Iterative Seed-Anchored Diffusion for Generative Modeling of Single-Cell State Transitions",
+      "url": "https://papers.cool/arxiv/2609.37735",
+      "published_at": "2026-09-29T14:54:14Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
+      "id": "5a45bde92bf62c3fe781fe7c5528cf1d71f43313",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37703",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Stochastic gradient descent on the epigenetic landscape: a unified framework for cellular plasticity, tumor heterogeneity, and the asymptotic irrelevance of fitness",
+      "title_en": "Stochastic gradient descent on the epigenetic landscape: a unified framework for cellular plasticity, tumor heterogeneity, and the asymptotic irrelevance of fitness",
+      "url": "https://papers.cool/arxiv/2609.37703",
+      "published_at": "2026-09-29T14:39:00Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "cellular"
+      ]
+    },
+    {
       "id": "76eb31b5693e98607b045c8446c7609884042bf9",
       "canonical_key": "url:https://lifespan.io/transplanted-hearts-shift-toward-recipients-molecular-age",
       "site_id": "official_rss",
@@ -475,20 +947,20 @@
       "url": "https://lifespan.io/transplanted-hearts-shift-toward-recipients-molecular-age",
       "published_at": "2026-09-29T14:19:48Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
       "topics": [
-        "ai_longevity"
+        "rejuvenation"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "rejuvenation",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -498,12 +970,16 @@
       ],
       "relevance_reason": "missing_ai_signal",
       "ai_signals": [],
-      "longevity_signals": [],
+      "longevity_signals": [
+        "rejuvenation"
+      ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "organ"
+      ]
     },
     {
       "id": "535e6835bd949a4f1494cb73f68134f030d53662",
@@ -517,7 +993,7 @@
       "url": "https://medicalxpress.com/news/2026-09-eu-screening-week-heart-diabetes.html",
       "published_at": "2026-09-29T13:50:01Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -550,6 +1026,50 @@
       ]
     },
     {
+      "id": "53d3a350c198bd2829d7ce9686c713f472130b35",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37550",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "How 'Foundational' Are Current Molecular Foundation Models?",
+      "title_en": "How 'Foundational' Are Current Molecular Foundation Models?",
+      "url": "https://papers.cool/arxiv/2609.37550",
+      "published_at": "2026-09-29T13:28:06Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "foundation model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "1812143e2ab8d79b0a516313360889f84814a671",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-denmark-uk-alcohol-habits.html",
       "site_id": "official_rss",
@@ -561,7 +1081,7 @@
       "url": "https://medicalxpress.com/news/2026-09-denmark-uk-alcohol-habits.html",
       "published_at": "2026-09-29T13:00:01Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -592,6 +1112,48 @@
       "biological_context_signals": []
     },
     {
+      "id": "8006993186f0895c43a56cb0d75efec73eb3cac9",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37414",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "title_en": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "url": "https://papers.cool/arxiv/2609.37414",
+      "published_at": "2026-09-29T12:45:24Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "19081829b2104d1acaae35ddcac8f12d201ce8ae",
       "canonical_key": "url:https://longevity.technology/news/junevity-takes-gene-network-reset-into-skincare",
       "site_id": "official_rss",
@@ -603,7 +1165,7 @@
       "url": "https://longevity.technology/news/junevity-takes-gene-network-reset-into-skincare",
       "published_at": "2026-09-29T12:00:45Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.0,
       "longevity_is_related": false,
@@ -651,7 +1213,7 @@
       "url": "https://medicalxpress.com/news/2026-09-genetic-analysis-reveals-potential-benefit.html",
       "published_at": "2026-09-29T11:40:07Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -695,7 +1257,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/the-peptide-catestatin-reduces-tau-pathology-in-mice",
       "published_at": "2026-09-29T10:22:29Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -745,7 +1307,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/light-sensitive-nanoparticles-bypass-dysfunctional-photoreceptor-cells",
       "published_at": "2026-09-29T10:11:56Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -787,7 +1349,7 @@
       "url": "https://longevity.technology/news/abbvie-juvmo-approved-by-fda-for-parkinsons-disease",
       "published_at": "2026-09-29T09:41:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -831,7 +1393,7 @@
       "url": "https://longevity.technology/news/arvinas-advances-new-oral-immunotherapy-into-phase-1-clinical-trial",
       "published_at": "2026-09-29T09:36:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -878,7 +1440,7 @@
       "url": "https://longevity.technology/news/4dmt-advances-4d-150-into-phase-3-for-diabetic-macular-edema",
       "published_at": "2026-09-29T09:31:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -922,7 +1484,7 @@
       "url": "https://medicalxpress.com/news/2026-09-hidden-biggest-paradoxes-aging-muscle.html",
       "published_at": "2026-09-29T09:00:02Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -955,52 +1517,101 @@
       "biological_context_signals": [
         "cell"
       ]
-    },
-    {
-      "id": "c4668be3eeeb7552a25498aa3c8f82c9472cff9c",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-09-childhood-cancer-survivors-symptoms-anxiety.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "Nearly half of childhood cancer survivors experience symptoms of anxiety or depression as adults",
-      "title_en": "Nearly half of childhood cancer survivors experience symptoms of anxiety or depression as adults",
-      "url": "https://medicalxpress.com/news/2026-09-childhood-cancer-survivors-symptoms-anxiety.html",
-      "published_at": "2026-09-29T03:00:04Z",
-      "first_seen_at": "2026-09-29T08:32:42.668429Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_all_raw": [
     {
+      "id": "1dfd146212417dbc874cfdb75a5e7bedbf1b1fa1",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE5hM2ViM0x6cVdmNEU3WmU1Vi1adFpURFVLZ05YWVNqRWxBeTRfbmREaFFwMWhPYWpkUXJKbTl6VGNoY1Y4dFE1LXlIWHFKQ0p2ZWNQOUotZE1aRjhjN2ZjcTdBZmNQZG5qNDBDNDkwXzh1UWtxVC1OZlo1LW5YMFVrV0NwdnhyR0ZXa1pSalRJU3Bpc29JYWJyUmJVMmtNT2JUN3hJeGZORGs0bHBKQ3ZB?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Mizzou research offers new hope for those at higher risk of Alzheimer’s disease - Show Me Mizzou",
+      "title_en": "Mizzou research offers new hope for those at higher risk of Alzheimer’s disease - Show Me Mizzou",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE5hM2ViM0x6cVdmNEU3WmU1Vi1adFpURFVLZ05YWVNqRWxBeTRfbmREaFFwMWhPYWpkUXJKbTl6VGNoY1Y4dFE1LXlIWHFKQ0p2ZWNQOUotZE1aRjhjN2ZjcTdBZmNQZG5qNDBDNDkwXzh1UWtxVC1OZlo1LW5YMFVrV0NwdnhyR0ZXa1pSalRJU3Bpc29JYWJyUmJVMmtNT2JUN3hJeGZORGs0bHBKQ3ZB?oc=5",
+      "published_at": "2026-09-30T05:40:13Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "de4a5b36af6ceecbc59afead011e7f6e85ba41b6",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-09-multimorbidity-japanese-home-patients.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Multimorbidity identified in most Japanese home care patients",
+      "title_en": "Multimorbidity identified in most Japanese home care patients",
+      "url": "https://medicalxpress.com/news/2026-09-multimorbidity-japanese-home-patients.html",
+      "published_at": "2026-09-30T01:40:01Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical",
+        "patients"
+      ]
+    },
+    {
       "id": "09e6e3ee8739bbee67cd19f5289f503da4c0f3f9",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-attention-biological-aging-breast-cancer.html",
       "site_id": "official_rss",
@@ -1012,7 +1623,7 @@
       "url": "https://medicalxpress.com/news/2026-09-attention-biological-aging-breast-cancer.html",
       "published_at": "2026-09-30T00:10:01Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1093,6 +1704,52 @@
       "biological_context_signals": []
     },
     {
+      "id": "e002562a9b5bc2d74b7d0b3005a85114c5760c20",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUdIBZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI can detect when your aging parent falls or needs help. It can also hear everything else they say - Kansas City Star",
+      "title_en": "AI can detect when your aging parent falls or needs help. It can also hear everything else they say - Kansas City Star",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUdIBZkFVX3lxTE0zUnpxRXNHLXNVSDJucVAtNUpib3VySkZndW50NE90b01faGZPZlNsYmN0RmVxTEw0N3hPSjZKck1qMHFLSVhCV2dKRG1LWG13YkJxMUU5UFJzMHA4eW1LYVVoanVzUQ?oc=5",
+      "published_at": "2026-09-29T23:30:00Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.137,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "weak_aging_without_biological_context",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7be36c62d446d23d54105ec37c81125ed58181c9",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-night-owls-struggle-age.html",
       "site_id": "official_rss",
@@ -1104,7 +1761,7 @@
       "url": "https://medicalxpress.com/news/2026-09-night-owls-struggle-age.html",
       "published_at": "2026-09-29T22:30:04Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1148,7 +1805,7 @@
       "url": "https://medicalxpress.com/news/2026-09-blueberries-gut-microbiome-older-adults.html",
       "published_at": "2026-09-29T22:00:10Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1190,7 +1847,7 @@
       "url": "https://medicalxpress.com/news/2026-09-medicine-joints-aging-osteoarthritis.html",
       "published_at": "2026-09-29T22:00:02Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1239,6 +1896,52 @@
       "published_at": "2026-09-29T21:36:48Z",
       "first_seen_at": "2026-09-30T00:28:43.588608Z",
       "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.137,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "weak_aging_without_biological_context",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "756bb0955ffde321ef333ff8e34f4942958bbea9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0bUp4U1VSNmxOMUFNU002QkF5enc1SHg5NmJpVFppd2RwNmZoSWtUZFcxT3o0dmxobmRwcWZ5LXNSakg5NnZmQVFkVU5aTF9Zb19VMmliVmUxaUgxRzhyei1BT3BTVlRU0gFoQVVfeXFMUHRtSnhTVVI2bE4xQU1TTTZCQXl6dzVIeDk2YmlUWml3ZHA2ZmhJa1RkVzFPejR2bGhuZHBxZnktc1JqSDk2dmZBUWRVTlpMX1lvX1UyaWJWZTFpSDFHOHJ6LUFPcFNWVFQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "More families are letting AI monitor aging parents at home. The privacy tradeoff is bigger than you think - News & Observer",
+      "title_en": "More families are letting AI monitor aging parents at home. The privacy tradeoff is bigger than you think - News & Observer",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0bUp4U1VSNmxOMUFNU002QkF5enc1SHg5NmJpVFppd2RwNmZoSWtUZFcxT3o0dmxobmRwcWZ5LXNSakg5NnZmQVFkVU5aTF9Zb19VMmliVmUxaUgxRzhyei1BT3BTVlRU0gFoQVVfeXFMUHRtSnhTVVI2bE4xQU1TTTZCQXl6dzVIeDk2YmlUWml3ZHA2ZmhJa1RkVzFPejR2bGhuZHBxZnktc1JqSDk2dmZBUWRVTlpMX1lvX1UyaWJWZTFpSDFHOHJ6LUFPcFNWVFQ?oc=5",
+      "published_at": "2026-09-29T21:36:48Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -1374,7 +2077,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/dont-view-mtor-as-a-single-pharmaceutical-target-as-context-matters",
       "published_at": "2026-09-29T18:04:42Z",
       "first_seen_at": "2026-09-29T20:48:17.207584Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1415,6 +2118,202 @@
       ]
     },
     {
+      "id": "c3883c0e62c8430ad4e6922cec2dc55b6ceddd30",
+      "canonical_key": "url:https://longevity.technology/news/johns-hopkins-team-wins-1m-xprize-for-immune-aging-research",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Johns Hopkins team wins $1m XPRIZE for immune aging research",
+      "title_en": "Johns Hopkins team wins $1m XPRIZE for immune aging research",
+      "url": "https://longevity.technology/news/johns-hopkins-team-wins-1m-xprize-for-immune-aging-research",
+      "published_at": "2026-09-29T17:33:48Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "healthspan",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune"
+      ]
+    },
+    {
+      "id": "5da6207781cc9a1db56d76536b8b686a0d33e0a0",
+      "canonical_key": "url:https://longevity.technology/news/lysoway-drug-tackles-two-brain-diseases-in-mice",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Lysoway drug tackles two brain diseases in mice",
+      "title_en": "Lysoway drug tackles two brain diseases in mice",
+      "url": "https://longevity.technology/news/lysoway-drug-tackles-two-brain-diseases-in-mice",
+      "published_at": "2026-09-29T17:14:35Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cell",
+        "mice",
+        "mouse"
+      ]
+    },
+    {
+      "id": "95227bd77f434acdb3051f96d72037f47ffa493b",
+      "canonical_key": "url:https://longevity.technology/news/heartseed-eyes-japan-approval-for-heart-cell-therapy",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Heartseed eyes Japan approval for heart cell therapy",
+      "title_en": "Heartseed eyes Japan approval for heart cell therapy",
+      "url": "https://longevity.technology/news/heartseed-eyes-japan-approval-for-heart-cell-therapy",
+      "published_at": "2026-09-29T17:12:14Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "medicine",
+        "patients"
+      ]
+    },
+    {
+      "id": "5bdf5ffe44dc7c6f662f10aa19dbddc05e7767d1",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37956",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",
+      "title_en": "BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",
+      "url": "https://papers.cool/arxiv/2609.37956",
+      "published_at": "2026-09-29T16:30:13Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.94,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.26,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "research_tool"
+      ],
+      "primary_topic": "research_tool",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "deep learning",
+        "large language model",
+        "neural network",
+        "predictive model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "brain"
+      ]
+    },
+    {
       "id": "566d1c1f825e7077e53f604ac3414f6598f6f671",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-gene-approach-potential-route-alzheimer.html",
       "site_id": "official_rss",
@@ -1426,7 +2325,7 @@
       "url": "https://medicalxpress.com/news/2026-09-gene-approach-potential-route-alzheimer.html",
       "published_at": "2026-09-29T16:20:21Z",
       "first_seen_at": "2026-09-29T20:48:17.207584Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1459,6 +2358,99 @@
       "biological_context_signals": []
     },
     {
+      "id": "194664f94bc7dfa630cfe3e6f7d19c85c208a3fc",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37735",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "CancerZigZag: Iterative Seed-Anchored Diffusion for Generative Modeling of Single-Cell State Transitions",
+      "title_en": "CancerZigZag: Iterative Seed-Anchored Diffusion for Generative Modeling of Single-Cell State Transitions",
+      "url": "https://papers.cool/arxiv/2609.37735",
+      "published_at": "2026-09-29T14:54:14Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
+      "id": "5a45bde92bf62c3fe781fe7c5528cf1d71f43313",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37703",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Stochastic gradient descent on the epigenetic landscape: a unified framework for cellular plasticity, tumor heterogeneity, and the asymptotic irrelevance of fitness",
+      "title_en": "Stochastic gradient descent on the epigenetic landscape: a unified framework for cellular plasticity, tumor heterogeneity, and the asymptotic irrelevance of fitness",
+      "url": "https://papers.cool/arxiv/2609.37703",
+      "published_at": "2026-09-29T14:39:00Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "cellular"
+      ]
+    },
+    {
       "id": "76eb31b5693e98607b045c8446c7609884042bf9",
       "canonical_key": "url:https://lifespan.io/transplanted-hearts-shift-toward-recipients-molecular-age",
       "site_id": "official_rss",
@@ -1470,20 +2462,20 @@
       "url": "https://lifespan.io/transplanted-hearts-shift-toward-recipients-molecular-age",
       "published_at": "2026-09-29T14:19:48Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
       "topics": [
-        "ai_longevity"
+        "rejuvenation"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "rejuvenation",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -1493,12 +2485,16 @@
       ],
       "relevance_reason": "missing_ai_signal",
       "ai_signals": [],
-      "longevity_signals": [],
+      "longevity_signals": [
+        "rejuvenation"
+      ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "organ"
+      ]
     },
     {
       "id": "535e6835bd949a4f1494cb73f68134f030d53662",
@@ -1512,7 +2508,7 @@
       "url": "https://medicalxpress.com/news/2026-09-eu-screening-week-heart-diabetes.html",
       "published_at": "2026-09-29T13:50:01Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1545,6 +2541,50 @@
       ]
     },
     {
+      "id": "53d3a350c198bd2829d7ce9686c713f472130b35",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37550",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "How 'Foundational' Are Current Molecular Foundation Models?",
+      "title_en": "How 'Foundational' Are Current Molecular Foundation Models?",
+      "url": "https://papers.cool/arxiv/2609.37550",
+      "published_at": "2026-09-29T13:28:06Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "foundation model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "1812143e2ab8d79b0a516313360889f84814a671",
       "canonical_key": "url:https://medicalxpress.com/news/2026-09-denmark-uk-alcohol-habits.html",
       "site_id": "official_rss",
@@ -1556,7 +2596,7 @@
       "url": "https://medicalxpress.com/news/2026-09-denmark-uk-alcohol-habits.html",
       "published_at": "2026-09-29T13:00:01Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1587,6 +2627,48 @@
       "biological_context_signals": []
     },
     {
+      "id": "8006993186f0895c43a56cb0d75efec73eb3cac9",
+      "canonical_key": "url:https://papers.cool/arxiv/2609.37414",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "title_en": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "url": "https://papers.cool/arxiv/2609.37414",
+      "published_at": "2026-09-29T12:45:24Z",
+      "first_seen_at": "2026-09-30T06:44:39.513267Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "19081829b2104d1acaae35ddcac8f12d201ce8ae",
       "canonical_key": "url:https://longevity.technology/news/junevity-takes-gene-network-reset-into-skincare",
       "site_id": "official_rss",
@@ -1598,7 +2680,7 @@
       "url": "https://longevity.technology/news/junevity-takes-gene-network-reset-into-skincare",
       "published_at": "2026-09-29T12:00:45Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.0,
       "longevity_is_related": false,
@@ -1646,7 +2728,7 @@
       "url": "https://medicalxpress.com/news/2026-09-genetic-analysis-reveals-potential-benefit.html",
       "published_at": "2026-09-29T11:40:07Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1690,7 +2772,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/the-peptide-catestatin-reduces-tau-pathology-in-mice",
       "published_at": "2026-09-29T10:22:29Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1740,7 +2822,7 @@
       "url": "https://www.fightaging.org/archives/2026/09/light-sensitive-nanoparticles-bypass-dysfunctional-photoreceptor-cells",
       "published_at": "2026-09-29T10:11:56Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1782,7 +2864,7 @@
       "url": "https://longevity.technology/news/abbvie-juvmo-approved-by-fda-for-parkinsons-disease",
       "published_at": "2026-09-29T09:41:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1826,7 +2908,7 @@
       "url": "https://longevity.technology/news/arvinas-advances-new-oral-immunotherapy-into-phase-1-clinical-trial",
       "published_at": "2026-09-29T09:36:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1873,7 +2955,7 @@
       "url": "https://longevity.technology/news/4dmt-advances-4d-150-into-phase-3-for-diabetic-macular-edema",
       "published_at": "2026-09-29T09:31:23Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-29T15:53:18.617098Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1917,7 +2999,7 @@
       "url": "https://medicalxpress.com/news/2026-09-hidden-biggest-paradoxes-aging-muscle.html",
       "published_at": "2026-09-29T09:00:02Z",
       "first_seen_at": "2026-09-29T15:53:18.617098Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
+      "last_seen_at": "2026-09-30T06:44:39.513267Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1950,48 +3032,6 @@
       "biological_context_signals": [
         "cell"
       ]
-    },
-    {
-      "id": "c4668be3eeeb7552a25498aa3c8f82c9472cff9c",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-09-childhood-cancer-survivors-symptoms-anxiety.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "Nearly half of childhood cancer survivors experience symptoms of anxiety or depression as adults",
-      "title_en": "Nearly half of childhood cancer survivors experience symptoms of anxiety or depression as adults",
-      "url": "https://medicalxpress.com/news/2026-09-childhood-cancer-survivors-symptoms-anxiety.html",
-      "published_at": "2026-09-29T03:00:04Z",
-      "first_seen_at": "2026-09-29T08:32:42.668429Z",
-      "last_seen_at": "2026-09-30T00:28:43.588608Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ]
 }
