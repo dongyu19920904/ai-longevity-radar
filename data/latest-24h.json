@@ -1,12 +1,12 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-01T05:56:54.377014Z",
+  "generated_at": "2026-10-01T13:18:20.293784Z",
   "window_hours": 24,
-  "total_items": 10,
-  "total_items_raw": 300,
-  "total_items_all_mode": 300,
-  "archive_total": 9413,
-  "site_count": 4,
+  "total_items": 11,
+  "total_items_raw": 414,
+  "total_items_all_mode": 414,
+  "archive_total": 9721,
+  "site_count": 3,
   "source_count": 5,
   "site_stats": [
     {
@@ -18,20 +18,14 @@
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 30
+      "count": 4,
+      "raw_count": 35
     },
     {
       "site_id": "papers_cool",
       "site_name": "Papers.cool 论文精选",
       "count": 1,
       "raw_count": 2
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
     }
   ],
   "items": [
@@ -213,7 +207,7 @@
       "url": "https://papers.cool/arxiv/2609.40202",
       "published_at": "2026-09-30T17:17:13Z",
       "first_seen_at": "2026-10-01T05:56:54.377014Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.83,
       "longevity_is_related": true,
@@ -400,32 +394,32 @@
       ]
     },
     {
-      "id": "4acf367dcb48d5372367859f17ba42794ae51881",
-      "canonical_key": "url:https://longevity.technology/news/deep-longevity-launches-accrua-telehealth-platform-in-us",
+      "id": "2566f821108bacd564b984af7b7662c48f397048",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Deep Longevity launches Accrua telehealth platform in US",
-      "title_zh": "Deep Longevity在美国推出Accrua远程医疗平台",
-      "title_en": "Deep Longevity launches Accrua telehealth platform in US",
-      "url": "https://longevity.technology/news/deep-longevity-launches-accrua-telehealth-platform-in-us",
-      "published_at": "2026-09-30T08:31:11Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "title": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
+      "title_zh": "随着人工智能和长寿颠覆退休数学，客户担心过度储蓄- InvestmentNews",
+      "title_en": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
+      "published_at": "2026-10-01T11:01:39Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "ai_longevity"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -438,66 +432,58 @@
         "ai"
       ],
       "longevity_signals": [
-        "biological age",
         "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "digital health"
-      ],
-      "biological_context_signals": [
-        "health"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source_type": "project",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-09-30T09:24:18Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "id": "e677d3555c3d046a07025420b004ba4e5c0dcfeb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
+      "title_en": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "published_at": "2026-10-01T10:09:09Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
+        "ai_longevity"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock"
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -513,7 +499,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcUExems3OV9uem5WV2FpTHRtSDJycHR4OFZaaEpNUUFsUGxkaDVqMk1URkhxZVduWEpMcHdsemhYU29BaEtfQVNObkw5QWVuaGQzSkI4allpMWxJV2VvUngxOHBGWjFzbWpuQjFyRk1RQzVSdjh1WEFHLXFtZWdKM18wa2pjNWQ5dE1RdXB2aHNKWmZhb2tseTdYQVcyV2xWb1JOb2RlQQ?oc=5",
       "published_at": "2026-10-01T03:55:42Z",
       "first_seen_at": "2026-10-01T05:56:54.377014Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -547,6 +533,57 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "disease"
+      ]
+    },
+    {
+      "id": "aa82ec500518b928486bc61dff73c897b4fa71db",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQV3BHenNfSmZwbWt2WUJ2ZXp2bFhQZko4ZVJxeUx1SVUtZWxMNVdnZk9kQ2lHT055VWJoMEN0VDY1RVNlSEk2RXRHdDBXcUU1bGlMNTAxN1BPRW1icDhTVFE3MEM1ekFTZFVPc2xpdWcxNVdXNnhkTVhkcWNFRWVFS0JyUUozb2VVazBBUjdqQWJxWTRqUW1uWk1qc2huZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "WISeR, “Medical Frailty,” and AI’s Impact on Healthcare Affordability – RACmonitor - MedLearn Publishing",
+      "title_zh": "WISeR、“医疗虚弱”和人工智能对医疗保健负担能力的影响– RACmonitor - MedLearn Publishing",
+      "title_en": "WISeR, “Medical Frailty,” and AI’s Impact on Healthcare Affordability – RACmonitor - MedLearn Publishing",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV3BHenNfSmZwbWt2WUJ2ZXp2bFhQZko4ZVJxeUx1SVUtZWxMNVdnZk9kQ2lHT055VWJoMEN0VDY1RVNlSEk2RXRHdDBXcUU1bGlMNTAxN1BPRW1icDhTVFE3MEM1ekFTZFVPc2xpdWcxNVdXNnhkTVhkcWNFRWVFS0JyUUozb2VVazBBUjdqQWJxWTRqUW1uWk1qc2huZw?oc=5",
+      "published_at": "2026-10-01T02:34:19Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "frailty",
+        "healthcare",
+        "medical"
       ]
     }
   ],
@@ -729,7 +766,7 @@
       "url": "https://papers.cool/arxiv/2609.40202",
       "published_at": "2026-09-30T17:17:13Z",
       "first_seen_at": "2026-10-01T05:56:54.377014Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.83,
       "longevity_is_related": true,
@@ -916,32 +953,32 @@
       ]
     },
     {
-      "id": "4acf367dcb48d5372367859f17ba42794ae51881",
-      "canonical_key": "url:https://longevity.technology/news/deep-longevity-launches-accrua-telehealth-platform-in-us",
+      "id": "2566f821108bacd564b984af7b7662c48f397048",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Deep Longevity launches Accrua telehealth platform in US",
-      "title_zh": "Deep Longevity在美国推出Accrua远程医疗平台",
-      "title_en": "Deep Longevity launches Accrua telehealth platform in US",
-      "url": "https://longevity.technology/news/deep-longevity-launches-accrua-telehealth-platform-in-us",
-      "published_at": "2026-09-30T08:31:11Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "title": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
+      "title_zh": "随着人工智能和长寿颠覆退休数学，客户担心过度储蓄- InvestmentNews",
+      "title_en": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
+      "published_at": "2026-10-01T11:01:39Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "ai_longevity"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -954,66 +991,58 @@
         "ai"
       ],
       "longevity_signals": [
-        "biological age",
         "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "digital health"
-      ],
-      "biological_context_signals": [
-        "health"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source_type": "project",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-09-30T09:24:18Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "id": "e677d3555c3d046a07025420b004ba4e5c0dcfeb",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
+      "title_en": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "published_at": "2026-10-01T10:09:09Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
+        "ai_longevity"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock"
+        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -1029,7 +1058,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcUExems3OV9uem5WV2FpTHRtSDJycHR4OFZaaEpNUUFsUGxkaDVqMk1URkhxZVduWEpMcHdsemhYU29BaEtfQVNObkw5QWVuaGQzSkI4allpMWxJV2VvUngxOHBGWjFzbWpuQjFyRk1RQzVSdjh1WEFHLXFtZWdKM18wa2pjNWQ5dE1RdXB2aHNKWmZhb2tseTdYQVcyV2xWb1JOb2RlQQ?oc=5",
       "published_at": "2026-10-01T03:55:42Z",
       "first_seen_at": "2026-10-01T05:56:54.377014Z",
-      "last_seen_at": "2026-10-01T05:56:54.377014Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1063,6 +1092,57 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "disease"
+      ]
+    },
+    {
+      "id": "aa82ec500518b928486bc61dff73c897b4fa71db",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQV3BHenNfSmZwbWt2WUJ2ZXp2bFhQZko4ZVJxeUx1SVUtZWxMNVdnZk9kQ2lHT055VWJoMEN0VDY1RVNlSEk2RXRHdDBXcUU1bGlMNTAxN1BPRW1icDhTVFE3MEM1ekFTZFVPc2xpdWcxNVdXNnhkTVhkcWNFRWVFS0JyUUozb2VVazBBUjdqQWJxWTRqUW1uWk1qc2huZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "WISeR, “Medical Frailty,” and AI’s Impact on Healthcare Affordability – RACmonitor - MedLearn Publishing",
+      "title_zh": "WISeR、“医疗虚弱”和人工智能对医疗保健负担能力的影响– RACmonitor - MedLearn Publishing",
+      "title_en": "WISeR, “Medical Frailty,” and AI’s Impact on Healthcare Affordability – RACmonitor - MedLearn Publishing",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV3BHenNfSmZwbWt2WUJ2ZXp2bFhQZko4ZVJxeUx1SVUtZWxMNVdnZk9kQ2lHT055VWJoMEN0VDY1RVNlSEk2RXRHdDBXcUU1bGlMNTAxN1BPRW1icDhTVFE3MEM1ekFTZFVPc2xpdWcxNVdXNnhkTVhkcWNFRWVFS0JyUUozb2VVazBBUjdqQWJxWTRqUW1uWk1qc2huZw?oc=5",
+      "published_at": "2026-10-01T02:34:19Z",
+      "first_seen_at": "2026-10-01T13:18:20.293784Z",
+      "last_seen_at": "2026-10-01T13:18:20.293784Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "frailty",
+        "healthcare",
+        "medical"
       ]
     }
   ],
