@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-02T18:25:40.636674Z",
+  "generated_at": "2026-10-02T22:58:29.082356Z",
   "window_hours": 24,
   "total_items": 2,
-  "total_items_raw": 306,
-  "total_items_all_mode": 306,
-  "archive_total": 10004,
+  "total_items_raw": 211,
+  "total_items_all_mode": 211,
+  "archive_total": 9919,
   "site_count": 2,
   "source_count": 2,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 23
+      "raw_count": 22
     },
     {
       "site_id": "github_projects",
@@ -24,32 +24,34 @@
   ],
   "items": [
     {
-      "id": "e677d3555c3d046a07025420b004ba4e5c0dcfeb",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "id": "8431e4c2e910da3e1ca29070a7c78e222dded159",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/accelerated-epigenetic-aging-correlates-with-later-loss-of-memory-function",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
-      "title_en": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
-      "published_at": "2026-10-01T21:35:52Z",
-      "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T18:25:40.636674Z",
+      "title": "Accelerated Epigenetic Aging Correlates with Later Loss of Memory Function",
+      "title_zh": "加速表观遗传衰老与后期记忆功能丧失相关",
+      "title_en": "Accelerated Epigenetic Aging Correlates with Later Loss of Memory Function",
+      "url": "https://www.fightaging.org/archives/2026/10/accelerated-epigenetic-aging-correlates-with-later-loss-of-memory-function",
+      "published_at": "2026-10-02T18:22:39Z",
+      "first_seen_at": "2026-10-02T22:58:29.082356Z",
+      "last_seen_at": "2026-10-02T22:58:29.082356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "aging_clock",
+        "multi_omics"
       ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -58,16 +60,23 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "aging",
+        "aging clock",
+        "epigenetic clock",
+        "mortality risk"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "cell",
+        "patient",
+        "tissue"
+      ]
     },
     {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
@@ -82,7 +91,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-02T07:51:14Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-02T18:25:40.636674Z",
+      "last_seen_at": "2026-10-02T22:58:29.082356Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -119,32 +128,34 @@
   ],
   "items_ai": [
     {
-      "id": "e677d3555c3d046a07025420b004ba4e5c0dcfeb",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
+      "id": "8431e4c2e910da3e1ca29070a7c78e222dded159",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/accelerated-epigenetic-aging-correlates-with-later-loss-of-memory-function",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
-      "title_en": "Longevity, AI Concerns Take Toll on Retirement Readiness, per TIAA - planadviser",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
-      "published_at": "2026-10-01T21:35:52Z",
-      "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T18:25:40.636674Z",
+      "title": "Accelerated Epigenetic Aging Correlates with Later Loss of Memory Function",
+      "title_zh": "加速表观遗传衰老与后期记忆功能丧失相关",
+      "title_en": "Accelerated Epigenetic Aging Correlates with Later Loss of Memory Function",
+      "url": "https://www.fightaging.org/archives/2026/10/accelerated-epigenetic-aging-correlates-with-later-loss-of-memory-function",
+      "published_at": "2026-10-02T18:22:39Z",
+      "first_seen_at": "2026-10-02T22:58:29.082356Z",
+      "last_seen_at": "2026-10-02T22:58:29.082356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "aging_clock",
+        "multi_omics"
       ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
+      "primary_topic": "aging_clock",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -153,16 +164,23 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "aging",
+        "aging clock",
+        "epigenetic clock",
+        "mortality risk"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "cell",
+        "patient",
+        "tissue"
+      ]
     },
     {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
@@ -177,7 +195,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-02T07:51:14Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-02T18:25:40.636674Z",
+      "last_seen_at": "2026-10-02T22:58:29.082356Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
