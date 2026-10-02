@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-02T05:39:33.046485Z",
+  "generated_at": "2026-10-02T12:37:25.303879Z",
   "window_hours": 24,
   "total_items": 3,
-  "total_items_raw": 233,
-  "total_items_all_mode": 233,
-  "archive_total": 9830,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items_raw": 129,
+  "total_items_all_mode": 129,
+  "archive_total": 9793,
+  "site_count": 2,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 31
+      "count": 2,
+      "raw_count": 30
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "items": [
@@ -29,7 +35,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
       "published_at": "2026-10-01T21:35:52Z",
       "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -70,13 +76,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Health, AI Innovations Prompt Longevity Concerns - 401k Specialist",
-      "title_zh": "健康、人工智能创新引发长寿问题- 401k专家",
-      "title_en": "Health, AI Innovations Prompt Longevity Concerns - 401k Specialist",
+      "title": "Health, AI Innovations Prompt Longevity Concerns - 401kspecialistmag.com",
+      "title_zh": "健康、人工智能创新引发长寿问题- 401kspecialistmag.com",
+      "title_en": "Health, AI Innovations Prompt Longevity Concerns - 401kspecialistmag.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR25rQ0RhUHJ5alRSTVJCYmhpVE5RTk9YWlB0SEF6TFpEalZHU3lhSk1pY1RGNHF2STJkQWZNQzFRMDR1aGtyVUZna0FpeTUtRTNyem9Lb3JsNUFGbFRzczQwZjBfUWpHS25MeVEtSHM3cEt0QmFBSjZxWGg4aXdRTzZB?oc=5",
       "published_at": "2026-10-01T13:43:45Z",
       "first_seen_at": "2026-10-01T19:32:29.717321Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -113,50 +119,50 @@
       ]
     },
     {
-      "id": "2566f821108bacd564b984af7b7662c48f397048",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
-      "title_zh": "随着人工智能和长寿颠覆退休数学，客户担心过度储蓄- InvestmentNews",
-      "title_en": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
-      "published_at": "2026-10-01T11:01:39Z",
-      "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
+      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
+      "source_type": "project",
+      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
+      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
+      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
+      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
+      "published_at": "2026-10-02T07:51:14Z",
+      "first_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration",
+        "research_tool"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
       "biological_context_signals": []
     }
   ],
@@ -173,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzFoaG1YYnZDYVJGbEExU2JrX20wM3RZbzlhd2xVWFFJd3B5VDZxLXFFNHpvMnNSUmpfektHVzhXNnY5N3ZoVm5jRGpPZjJlQ2dPS05nQjVKRUtJYzNYX2kwSHo5bzhhbjVwRzdBWG4yWGNNTVp5bGxNN1Z1RnZsdlpOZmdCRE0wRlVYMVplRzYyc0pUMVZXaA?oc=5",
       "published_at": "2026-10-01T21:35:52Z",
       "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -214,13 +220,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Health, AI Innovations Prompt Longevity Concerns - 401k Specialist",
-      "title_zh": "健康、人工智能创新引发长寿问题- 401k专家",
-      "title_en": "Health, AI Innovations Prompt Longevity Concerns - 401k Specialist",
+      "title": "Health, AI Innovations Prompt Longevity Concerns - 401kspecialistmag.com",
+      "title_zh": "健康、人工智能创新引发长寿问题- 401kspecialistmag.com",
+      "title_en": "Health, AI Innovations Prompt Longevity Concerns - 401kspecialistmag.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR25rQ0RhUHJ5alRSTVJCYmhpVE5RTk9YWlB0SEF6TFpEalZHU3lhSk1pY1RGNHF2STJkQWZNQzFRMDR1aGtyVUZna0FpeTUtRTNyem9Lb3JsNUFGbFRzczQwZjBfUWpHS25MeVEtSHM3cEt0QmFBSjZxWGg4aXdRTzZB?oc=5",
       "published_at": "2026-10-01T13:43:45Z",
       "first_seen_at": "2026-10-01T19:32:29.717321Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -257,50 +263,50 @@
       ]
     },
     {
-      "id": "2566f821108bacd564b984af7b7662c48f397048",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
-      "title_zh": "随着人工智能和长寿颠覆退休数学，客户担心过度储蓄- InvestmentNews",
-      "title_en": "Clients fear outliving savings as AI and longevity upend retirement math - InvestmentNews",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczRwTFktUGcwcGFvb08xT3EtbHVqckxHUWdLOGFVUkU3OEx5UkRQT0xjMWZNSnRYMEpJUDB2Y1RHaFpUVG5xN1pVOFNwYnZ0eEFpUWluVGRBcjZzRi1VbVgweTF6cDViTzRVMVNrdFI5NFJEb0VsME9fMy1vOUdRNUpnY0lWS1czeW5aVGdBNklMNGd2Z05CSXNTNGt0ZFhCQmlnTkNwaVd1QXA1Wmw2ZzhZX0xvQ0dyNk1kNTBSUUwtVDFOVzdDUkZB?oc=5",
-      "published_at": "2026-10-01T11:01:39Z",
-      "first_seen_at": "2026-10-01T13:18:20.293784Z",
-      "last_seen_at": "2026-10-02T05:39:33.046485Z",
+      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
+      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
+      "source_type": "project",
+      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
+      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
+      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
+      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
+      "published_at": "2026-10-02T07:51:14Z",
+      "first_seen_at": "2026-09-14T14:04:52.211876Z",
+      "last_seen_at": "2026-10-02T12:37:25.303879Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration",
+        "research_tool"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
       "biological_context_signals": []
     }
   ],
