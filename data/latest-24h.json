@@ -1,28 +1,69 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-04T06:50:24.124745Z",
+  "generated_at": "2026-10-04T13:12:21.483031Z",
   "window_hours": 24,
   "total_items": 3,
-  "total_items_raw": 295,
-  "total_items_all_mode": 295,
-  "archive_total": 10043,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items_raw": 290,
+  "total_items_all_mode": 290,
+  "archive_total": 10027,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 5
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
+      "count": 3,
+      "raw_count": 6
     }
   ],
   "items": [
+    {
+      "id": "a22353007f00b3994b6ded91d72919dff58a88e9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "III develops AI-powered audiovisual technology for dementia care - Focus Taiwan - CNA English News",
+      "title_zh": "III开发用于痴呆症护理的人工智能视听技术-聚焦台湾- CNA中文新闻",
+      "title_en": "III develops AI-powered audiovisual technology for dementia care - Focus Taiwan - CNA English News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "published_at": "2026-10-04T09:21:00Z",
+      "first_seen_at": "2026-10-04T13:12:21.483031Z",
+      "last_seen_at": "2026-10-04T13:12:21.483031Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "a8e5e1bfb970b094150cdbeac5e2b7b83c55e843",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxNd3B6THRMVTI0REx5VGRNbDBQRlFqc0Zmb19uRUtwUWJFQ1h4WGNsN0xGLUptbEY2M1hZQmdMYnIxVTNJWXowOVNSdHhSd3k3NXQtalNFNkt6azZBUmd5T0o0LU9lSzVKTXgwMnZNLUt6UmFsVm9nc0ctbVNDVF92S1kwZm1fWGJ1MC1nbjRQeE5DaTY1LWpFTGNLejRsZUZPdnVyanhKSmZQN0JsWThr?oc=5",
@@ -75,15 +116,15 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWNvQWFGdDBrNTFkUHFDdmtoX3ZlUDM0UTl1RkRKOXFNWjF5MV9Nc19sekdkcUMtbEpCMEV5SUdCVnF1TXg0eWI4N2ppU3ZHMXIzdmlHQVFpN1BYYVpsXzZUX2U0TWRXeV9SWnlxM1RzVGxsaUwxdzdvTTBYVHdxSXBEMmpqd1hEamNUX3otTHN6SW1MTjN5YTc1WThoQ3pLREVyYkV5ancxd2s?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "AI may detect dementia risk through a person’s speech, study finds - The Eastleigh Voice",
-      "title_zh": "研究发现，人工智能可以通过一个人的言语来检测痴呆症风险- The Eastleigh Voice",
-      "title_en": "AI may detect dementia risk through a person’s speech, study finds - The Eastleigh Voice",
+      "title": "AI may detect dementia risk through a person’s speech, study finds - eastleighvoice.co.ke",
+      "title_zh": "研究发现，人工智能可以通过一个人的言语来检测痴呆症风险- eastleighvoice.co.ke",
+      "title_en": "AI may detect dementia risk through a person’s speech, study finds - eastleighvoice.co.ke",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWNvQWFGdDBrNTFkUHFDdmtoX3ZlUDM0UTl1RkRKOXFNWjF5MV9Nc19sekdkcUMtbEpCMEV5SUdCVnF1TXg0eWI4N2ppU3ZHMXIzdmlHQVFpN1BYYVpsXzZUX2U0TWRXeV9SWnlxM1RzVGxsaUwxdzdvTTBYVHdxSXBEMmpqd1hEamNUX3otTHN6SW1MTjN5YTc1WThoQ3pLREVyYkV5ancxd2s?oc=5",
       "published_at": "2026-10-03T14:30:39Z",
       "first_seen_at": "2026-10-03T21:17:23.107974Z",
-      "last_seen_at": "2026-10-04T06:50:24.124745Z",
+      "last_seen_at": "2026-10-04T13:12:21.483031Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -110,51 +151,6 @@
       ],
       "longevity_signals": [
         "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8bac9be2973e6a739e1a01da8502b063fbbc5d45",
-      "canonical_key": "repo:maastrichtu-cds/faceage-weekend-van-de-wetenschap",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
-      "source_type": "project",
-      "title": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
-      "title_zh": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap ： FaceAge工具的Dockerized版本：使用深度学习从人脸照片中解码生物年龄。",
-      "title_en": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
-      "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
-      "published_at": "2026-10-03T13:08:36Z",
-      "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-10-04T06:50:24.124745Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -165,6 +161,53 @@
   ],
   "items_ai": [
     {
+      "id": "a22353007f00b3994b6ded91d72919dff58a88e9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "III develops AI-powered audiovisual technology for dementia care - Focus Taiwan - CNA English News",
+      "title_zh": "III开发用于痴呆症护理的人工智能视听技术-聚焦台湾- CNA中文新闻",
+      "title_en": "III develops AI-powered audiovisual technology for dementia care - Focus Taiwan - CNA English News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "published_at": "2026-10-04T09:21:00Z",
+      "first_seen_at": "2026-10-04T13:12:21.483031Z",
+      "last_seen_at": "2026-10-04T13:12:21.483031Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "a8e5e1bfb970b094150cdbeac5e2b7b83c55e843",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxNd3B6THRMVTI0REx5VGRNbDBQRlFqc0Zmb19uRUtwUWJFQ1h4WGNsN0xGLUptbEY2M1hZQmdMYnIxVTNJWXowOVNSdHhSd3k3NXQtalNFNkt6azZBUmd5T0o0LU9lSzVKTXgwMnZNLUt6UmFsVm9nc0ctbVNDVF92S1kwZm1fWGJ1MC1nbjRQeE5DaTY1LWpFTGNLejRsZUZPdnVyanhKSmZQN0JsWThr?oc=5",
       "site_id": "official_rss",
@@ -216,15 +259,15 @@
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWNvQWFGdDBrNTFkUHFDdmtoX3ZlUDM0UTl1RkRKOXFNWjF5MV9Nc19sekdkcUMtbEpCMEV5SUdCVnF1TXg0eWI4N2ppU3ZHMXIzdmlHQVFpN1BYYVpsXzZUX2U0TWRXeV9SWnlxM1RzVGxsaUwxdzdvTTBYVHdxSXBEMmpqd1hEamNUX3otTHN6SW1MTjN5YTc1WThoQ3pLREVyYkV5ancxd2s?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Brain Age",
       "source_type": "news",
-      "title": "AI may detect dementia risk through a person’s speech, study finds - The Eastleigh Voice",
-      "title_zh": "研究发现，人工智能可以通过一个人的言语来检测痴呆症风险- The Eastleigh Voice",
-      "title_en": "AI may detect dementia risk through a person’s speech, study finds - The Eastleigh Voice",
+      "title": "AI may detect dementia risk through a person’s speech, study finds - eastleighvoice.co.ke",
+      "title_zh": "研究发现，人工智能可以通过一个人的言语来检测痴呆症风险- eastleighvoice.co.ke",
+      "title_en": "AI may detect dementia risk through a person’s speech, study finds - eastleighvoice.co.ke",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWNvQWFGdDBrNTFkUHFDdmtoX3ZlUDM0UTl1RkRKOXFNWjF5MV9Nc19sekdkcUMtbEpCMEV5SUdCVnF1TXg0eWI4N2ppU3ZHMXIzdmlHQVFpN1BYYVpsXzZUX2U0TWRXeV9SWnlxM1RzVGxsaUwxdzdvTTBYVHdxSXBEMmpqd1hEamNUX3otTHN6SW1MTjN5YTc1WThoQ3pLREVyYkV5ancxd2s?oc=5",
       "published_at": "2026-10-03T14:30:39Z",
       "first_seen_at": "2026-10-03T21:17:23.107974Z",
-      "last_seen_at": "2026-10-04T06:50:24.124745Z",
+      "last_seen_at": "2026-10-04T13:12:21.483031Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -251,51 +294,6 @@
       ],
       "longevity_signals": [
         "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8bac9be2973e6a739e1a01da8502b063fbbc5d45",
-      "canonical_key": "repo:maastrichtu-cds/faceage-weekend-van-de-wetenschap",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
-      "source_type": "project",
-      "title": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
-      "title_zh": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap ： FaceAge工具的Dockerized版本：使用深度学习从人脸照片中解码生物年龄。",
-      "title_en": "MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap: Dockerised version of the FaceAge tool: Decoding biological age from face photographs using deep learning.",
-      "url": "https://github.com/MaastrichtU-CDS/FaceAge-Weekend-van-de-Wetenschap",
-      "published_at": "2026-10-03T13:08:36Z",
-      "first_seen_at": "2026-09-18T19:37:34.581780Z",
-      "last_seen_at": "2026-10-04T06:50:24.124745Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
