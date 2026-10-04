@@ -1,17 +1,17 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-04T13:12:21.483031Z",
+  "generated_at": "2026-10-04T17:36:57.309485Z",
   "topics": {
-    "neurodegeneration": 3
+    "neurodegeneration": 1
   },
   "source_types": {
-    "news": 3
+    "news": 1
   },
   "study_subjects": {
-    "unknown": 3
+    "unknown": 1
   },
   "publication_stages": {
-    "secondary_report": 3
+    "secondary_report": 1
   },
   "relevant_topics": {
     "ai_longevity": 17,
