@@ -1,29 +1,82 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-05T07:04:02.091172Z",
+  "generated_at": "2026-10-05T16:02:43.216198Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 261,
-  "total_items_all_mode": 261,
-  "archive_total": 9803,
+  "total_items": 4,
+  "total_items_raw": 253,
+  "total_items_all_mode": 253,
+  "archive_total": 9672,
   "site_count": 2,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 3,
+      "raw_count": 20
+    },
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
       "count": 1,
       "raw_count": 1
-    },
-    {
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 6
     }
   ],
   "items": [
     {
+      "id": "82ee89c977cc169848a9bcdc00d28c32cb3cb129",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/an-aging-clock-based-on-images-of-hematopoietic-stem-cell-nuclei",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "An Aging Clock Based on Images of Hematopoietic Stem Cell Nuclei",
+      "title_zh": "基于造血干细胞核图像的衰老时钟",
+      "title_en": "An Aging Clock Based on Images of Hematopoietic Stem Cell Nuclei",
+      "url": "https://www.fightaging.org/archives/2026/10/an-aging-clock-based-on-images-of-hematopoietic-stem-cell-nuclei",
+      "published_at": "2026-10-05T10:22:04Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "cell_or_organoid",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "cell_or_organoid_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "aging clock",
+        "healthspan"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
       "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
       "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
       "site_id": "github_projects",
@@ -36,7 +89,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-10-04T23:06:47Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-10-05T07:04:02.091172Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -76,19 +129,19 @@
       ]
     },
     {
-      "id": "a22353007f00b3994b6ded91d72919dff58a88e9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "id": "f89959ae31118da39c40777de78507bd029d0732",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGJMYlZ1akp4S0FmQkdvRV8tWEtrbWhSX2FCejBJd3VmSnAxWFBjUTMwMEM3N01vcFl3OGltZE5sNUY4MzQzRnZ0V2lzTXpucDlFd0d1OGlrcVdQWWluVlZBR0FPcFhZanF0aElPTEVzSEY4RS10clY4Ukg2UHNkWEhfblFtLUZhMnBLdmNrSG5KM04wZFlGSVRWOA?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "III develops AI-powered audiovisual technology for dementia care - focustaiwan.tw",
-      "title_zh": "III开发用于痴呆症护理的人工智能视听技术- focustaiwan.tw",
-      "title_en": "III develops AI-powered audiovisual technology for dementia care - focustaiwan.tw",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
-      "published_at": "2026-10-04T09:21:00Z",
-      "first_seen_at": "2026-10-04T13:12:21.483031Z",
-      "last_seen_at": "2026-10-05T07:04:02.091172Z",
+      "title": "AI Reads Brain Scan Sequences to Spot Alzheimer’s With New Hybrid Model - Bioengineer.org",
+      "title_zh": "人工智能使用新的混合模型读取脑部扫描序列以发现阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "AI Reads Brain Scan Sequences to Spot Alzheimer’s With New Hybrid Model - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGJMYlZ1akp4S0FmQkdvRV8tWEtrbWhSX2FCejBJd3VmSnAxWFBjUTMwMEM3N01vcFl3OGltZE5sNUY4MzQzRnZ0V2lzTXpucDlFd0d1OGlrcVdQWWluVlZBR0FPcFhZanF0aElPTEVzSEY4RS10clY4Ukg2UHNkWEhfblFtLUZhMnBLdmNrSG5KM04wZFlGSVRWOA?oc=5",
+      "published_at": "2026-10-05T15:46:14Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -114,17 +167,121 @@
         "ai"
       ],
       "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "8b20faa1f869d09bfcc3214b616b9e6cedf8c65f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFV1cmw2c0tUeWRiR2I0THUyRDZrS25NcmtJMzJoMS1zTm1yd2dDR0lSZnUyQnB0eUE5Y0VIZDN1cmhxZm9zWkNVVzFnUEZ6V0hyZ1phUkVnNFk1X0F1RHdJZTJTcHpiMFYtZFRNcGtTNEdkNjRNaHZ0UTU3dS0wV3NhUXdfbFZnQWFDV1R3aWNhbmJ1?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Human-supervised AI brings proven dementia care to scale - Dealroom",
+      "title_zh": "人类监督的人工智能使经过验证的痴呆症护理规模化- Dealroom",
+      "title_en": "Human-supervised AI brings proven dementia care to scale - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFV1cmw2c0tUeWRiR2I0THUyRDZrS25NcmtJMzJoMS1zTm1yd2dDR0lSZnUyQnB0eUE5Y0VIZDN1cmhxZm9zWkNVVzFnUEZ6V0hyZ1phUkVnNFk1X0F1RHdJZTJTcHpiMFYtZFRNcGtTNEdkNjRNaHZ0UTU3dS0wV3NhUXdfbFZnQWFDV1R3aWNhbmJ1?oc=5",
+      "published_at": "2026-10-05T07:59:20Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
         "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "human"
+      ]
     }
   ],
   "items_ai": [
     {
+      "id": "82ee89c977cc169848a9bcdc00d28c32cb3cb129",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/an-aging-clock-based-on-images-of-hematopoietic-stem-cell-nuclei",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "An Aging Clock Based on Images of Hematopoietic Stem Cell Nuclei",
+      "title_zh": "基于造血干细胞核图像的衰老时钟",
+      "title_en": "An Aging Clock Based on Images of Hematopoietic Stem Cell Nuclei",
+      "url": "https://www.fightaging.org/archives/2026/10/an-aging-clock-based-on-images-of-hematopoietic-stem-cell-nuclei",
+      "published_at": "2026-10-05T10:22:04Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.691,
+      "domain_score": 0.9,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "cell_or_organoid",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "cell_or_organoid_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "aging clock",
+        "healthspan"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell"
+      ]
+    },
+    {
       "id": "18ce9ec409e0b8ea6ebd39669c7b22dc18475e21",
       "canonical_key": "repo:jjnezz67/synthetic-proteomic-aging-clock",
       "site_id": "github_projects",
@@ -137,7 +294,7 @@
       "url": "https://github.com/jjnezz67/synthetic-proteomic-aging-clock",
       "published_at": "2026-10-04T23:06:47Z",
       "first_seen_at": "2026-09-20T06:19:54.137726Z",
-      "last_seen_at": "2026-10-05T07:04:02.091172Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -177,19 +334,19 @@
       ]
     },
     {
-      "id": "a22353007f00b3994b6ded91d72919dff58a88e9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
+      "id": "f89959ae31118da39c40777de78507bd029d0732",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGJMYlZ1akp4S0FmQkdvRV8tWEtrbWhSX2FCejBJd3VmSnAxWFBjUTMwMEM3N01vcFl3OGltZE5sNUY4MzQzRnZ0V2lzTXpucDlFd0d1OGlrcVdQWWluVlZBR0FPcFhZanF0aElPTEVzSEY4RS10clY4Ukg2UHNkWEhfblFtLUZhMnBLdmNrSG5KM04wZFlGSVRWOA?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "III develops AI-powered audiovisual technology for dementia care - focustaiwan.tw",
-      "title_zh": "III开发用于痴呆症护理的人工智能视听技术- focustaiwan.tw",
-      "title_en": "III develops AI-powered audiovisual technology for dementia care - focustaiwan.tw",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ycDdwcl8tQ2dfWFVYYl9zQXFZZ2hkMFFIQjdEa2pYcWVsYjdvN1hXMlFpVk9qa2xMTXBmd0RSanV0eWVrRWJVSnJUQ1laUkVrNTMyRjZhMA?oc=5",
-      "published_at": "2026-10-04T09:21:00Z",
-      "first_seen_at": "2026-10-04T13:12:21.483031Z",
-      "last_seen_at": "2026-10-05T07:04:02.091172Z",
+      "title": "AI Reads Brain Scan Sequences to Spot Alzheimer’s With New Hybrid Model - Bioengineer.org",
+      "title_zh": "人工智能使用新的混合模型读取脑部扫描序列以发现阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "AI Reads Brain Scan Sequences to Spot Alzheimer’s With New Hybrid Model - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGJMYlZ1akp4S0FmQkdvRV8tWEtrbWhSX2FCejBJd3VmSnAxWFBjUTMwMEM3N01vcFl3OGltZE5sNUY4MzQzRnZ0V2lzTXpucDlFd0d1OGlrcVdQWWluVlZBR0FPcFhZanF0aElPTEVzSEY4RS10clY4Ukg2UHNkWEhfblFtLUZhMnBLdmNrSG5KM04wZFlGSVRWOA?oc=5",
+      "published_at": "2026-10-05T15:46:14Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -215,13 +372,64 @@
         "ai"
       ],
       "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "8b20faa1f869d09bfcc3214b616b9e6cedf8c65f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFV1cmw2c0tUeWRiR2I0THUyRDZrS25NcmtJMzJoMS1zTm1yd2dDR0lSZnUyQnB0eUE5Y0VIZDN1cmhxZm9zWkNVVzFnUEZ6V0hyZ1phUkVnNFk1X0F1RHdJZTJTcHpiMFYtZFRNcGtTNEdkNjRNaHZ0UTU3dS0wV3NhUXdfbFZnQWFDV1R3aWNhbmJ1?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Human-supervised AI brings proven dementia care to scale - Dealroom",
+      "title_zh": "人类监督的人工智能使经过验证的痴呆症护理规模化- Dealroom",
+      "title_en": "Human-supervised AI brings proven dementia care to scale - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFV1cmw2c0tUeWRiR2I0THUyRDZrS25NcmtJMzJoMS1zTm1yd2dDR0lSZnUyQnB0eUE5Y0VIZDN1cmhxZm9zWkNVVzFnUEZ6V0hyZ1phUkVnNFk1X0F1RHdJZTJTcHpiMFYtZFRNcGtTNEdkNjRNaHZ0UTU3dS0wV3NhUXdfbFZnQWFDV1R3aWNhbmJ1?oc=5",
+      "published_at": "2026-10-05T07:59:20Z",
+      "first_seen_at": "2026-10-05T16:02:43.216198Z",
+      "last_seen_at": "2026-10-05T16:02:43.216198Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
         "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "human"
+      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
