@@ -1,75 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-06T21:40:05.697483Z",
+  "generated_at": "2026-10-07T01:33:25.163281Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 480,
-  "total_items_all_mode": 480,
-  "archive_total": 10249,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items": 3,
+  "total_items_raw": 467,
+  "total_items_all_mode": 467,
+  "archive_total": 10264,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 3,
-      "raw_count": 26
-    },
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 1,
-      "raw_count": 26
+      "raw_count": 31
     }
   ],
   "items": [
-    {
-      "id": "19c53ec0884d8090669f3e85ac2ac8950a239f6a",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13634868",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Development and validation of a predictive model for sarcopenia in patients with type 2 diabetes based on the synergistic mechanism of insulin resistance and inflammation",
-      "title_zh": "基于胰岛素抵抗和炎症协同机制的2型糖尿病患者肌肉减少症预测模型的开发和验证",
-      "title_en": "Development and validation of a predictive model for sarcopenia in patients with type 2 diabetes based on the synergistic mechanism of insulin resistance and inflammation",
-      "url": "https://europepmc.org/article/MED/PMC13634868",
-      "published_at": "2026-10-06T00:00:00Z",
-      "first_seen_at": "2026-10-06T17:12:06.284358Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "predictive model"
-      ],
-      "longevity_signals": [
-        "sarcopenia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients",
-        "sarcopenia"
-      ]
-    },
     {
       "id": "2b1b60b0b4dc5bbd3de51240ef4433bde687e5b0",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEZPRUxYdzh0WklqWGVZTnFpV0E4ak1ITzdVMHJNQ1VmRk5FLTdkOTM1RDRWeDJFZ0lnWm51TklTUWZYNTNjT25SNHh4TElqMnloa2NReU9xTFBPOW5WRV85ZE5aTUJlOHM1VVVOcDhMTF9sS1VjQXA4dDFCZUN4VVpOMEtSNjR6cVNrSWo3S21Db2Vx?oc=5",
@@ -83,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEZPRUxYdzh0WklqWGVZTnFpV0E4ak1ITzdVMHJNQ1VmRk5FLTdkOTM1RDRWeDJFZ0lnWm51TklTUWZYNTNjT25SNHh4TElqMnloa2NReU9xTFBPOW5WRV85ZE5aTUJlOHM1VVVOcDhMTF9sS1VjQXA4dDFCZUN4VVpOMEtSNjR6cVNrSWo3S21Db2Vx?oc=5",
       "published_at": "2026-10-06T04:18:13Z",
       "first_seen_at": "2026-10-06T02:59:27.296727Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -131,7 +78,7 @@
       "url": "https://longevity.technology/news/show-me-the-error-bars-before-you-sell-me-longevity",
       "published_at": "2026-10-06T08:31:05Z",
       "first_seen_at": "2026-10-06T10:20:19.536875Z",
-      "last_seen_at": "2026-10-06T10:20:19.536875Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -179,7 +126,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOVRaNFhoUkp0eTdTSFpVTUdfU21JX2QzbmdXQThVcURUZl9pT1NWaURTSDdFdUd6blc3djV3b2JQeFlLZTVVQmVUbnNndy0tSTBDMUp2T19aNHVFT0tSTGtNUUo5cjl5N0VUU21GWEZiQkR3OXE1eEI0anhYWElFUlRYVUNVczNGbW40RjhjLWJySi1FdlZiR0I4eW5mU3o4NGFScg?oc=5",
       "published_at": "2026-10-06T18:10:05Z",
       "first_seen_at": "2026-10-06T21:40:05.697483Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -218,53 +165,6 @@
   ],
   "items_ai": [
     {
-      "id": "19c53ec0884d8090669f3e85ac2ac8950a239f6a",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13634868",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Development and validation of a predictive model for sarcopenia in patients with type 2 diabetes based on the synergistic mechanism of insulin resistance and inflammation",
-      "title_zh": "基于胰岛素抵抗和炎症协同机制的2型糖尿病患者肌肉减少症预测模型的开发和验证",
-      "title_en": "Development and validation of a predictive model for sarcopenia in patients with type 2 diabetes based on the synergistic mechanism of insulin resistance and inflammation",
-      "url": "https://europepmc.org/article/MED/PMC13634868",
-      "published_at": "2026-10-06T00:00:00Z",
-      "first_seen_at": "2026-10-06T17:12:06.284358Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "predictive model"
-      ],
-      "longevity_signals": [
-        "sarcopenia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients",
-        "sarcopenia"
-      ]
-    },
-    {
       "id": "2b1b60b0b4dc5bbd3de51240ef4433bde687e5b0",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEZPRUxYdzh0WklqWGVZTnFpV0E4ak1ITzdVMHJNQ1VmRk5FLTdkOTM1RDRWeDJFZ0lnWm51TklTUWZYNTNjT25SNHh4TElqMnloa2NReU9xTFBPOW5WRV85ZE5aTUJlOHM1VVVOcDhMTF9sS1VjQXA4dDFCZUN4VVpOMEtSNjR6cVNrSWo3S21Db2Vx?oc=5",
       "site_id": "official_rss",
@@ -277,7 +177,7 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEZPRUxYdzh0WklqWGVZTnFpV0E4ak1ITzdVMHJNQ1VmRk5FLTdkOTM1RDRWeDJFZ0lnWm51TklTUWZYNTNjT25SNHh4TElqMnloa2NReU9xTFBPOW5WRV85ZE5aTUJlOHM1VVVOcDhMTF9sS1VjQXA4dDFCZUN4VVpOMEtSNjR6cVNrSWo3S21Db2Vx?oc=5",
       "published_at": "2026-10-06T04:18:13Z",
       "first_seen_at": "2026-10-06T02:59:27.296727Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -325,7 +225,7 @@
       "url": "https://longevity.technology/news/show-me-the-error-bars-before-you-sell-me-longevity",
       "published_at": "2026-10-06T08:31:05Z",
       "first_seen_at": "2026-10-06T10:20:19.536875Z",
-      "last_seen_at": "2026-10-06T10:20:19.536875Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -373,7 +273,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOVRaNFhoUkp0eTdTSFpVTUdfU21JX2QzbmdXQThVcURUZl9pT1NWaURTSDdFdUd6blc3djV3b2JQeFlLZTVVQmVUbnNndy0tSTBDMUp2T19aNHVFT0tSTGtNUUo5cjl5N0VUU21GWEZiQkR3OXE1eEI0anhYWElFUlRYVUNVczNGbW40RjhjLWJySi1FdlZiR0I4eW5mU3o4NGFScg?oc=5",
       "published_at": "2026-10-06T18:10:05Z",
       "first_seen_at": "2026-10-06T21:40:05.697483Z",
-      "last_seen_at": "2026-10-06T21:40:05.697483Z",
+      "last_seen_at": "2026-10-07T01:33:25.163281Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
