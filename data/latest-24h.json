@@ -1,22 +1,267 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-07T08:41:12.391660Z",
+  "generated_at": "2026-10-07T16:30:20.429478Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 444,
-  "total_items_all_mode": 444,
-  "archive_total": 10344,
+  "total_items": 7,
+  "total_items_raw": 314,
+  "total_items_all_mode": 314,
+  "archive_total": 10251,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 28
+      "count": 7,
+      "raw_count": 31
     }
   ],
   "items": [
+    {
+      "id": "3e936716a5c037a9b27bab1d62a8bb6f042ec31a",
+      "canonical_key": "url:https://longevity.technology/news/ucla-lands-25m-to-test-dementia-ai-tools",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "UCLA lands $25m to test dementia AI tools",
+      "title_zh": "加州大学洛杉矶分校拨款$ 2500万用于测试痴呆症人工智能工具",
+      "title_en": "UCLA lands $25m to test dementia AI tools",
+      "url": "https://longevity.technology/news/ucla-lands-25m-to-test-dementia-ai-tools",
+      "published_at": "2026-10-07T16:10:10Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "2e976486c0f148316c5dedac1bee6ef5d07a41d5",
+      "canonical_key": "url:https://longevity.technology/news/why-the-future-of-skin-longevity-belongs-to-generative-bio-platforms",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Why the future of skin longevity belongs to generative bio-platforms",
+      "title_zh": "为什么皮肤长寿的未来属于生成性生物平台",
+      "title_en": "Why the future of skin longevity belongs to generative bio-platforms",
+      "url": "https://longevity.technology/news/why-the-future-of-skin-longevity-belongs-to-generative-bio-platforms",
+      "published_at": "2026-10-07T16:19:36Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.638,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "longevity",
+        "rejuvenation"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "114013d2d2666db0ae6bf4e50c519bd2aa0d2cad",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkUwWXRPR09kMGxkNmp1dHIxSVZlbWxtMHVuWFBOZzJZTTFZYm1HdnRScHdIWDRLRWtrR193TXo1dkloeGlCMFM1ZURyODNCcGpNamsxeExpdEJ1bEdZSEJTREtodjZ0NzRzZENadXNCNDhtOW9ncjdMVHJBWWtJMQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UCLA lands $25m to test dementia AI tools - Longevity.Technology",
+      "title_zh": "加州大学洛杉矶分校拨款$ 2500万用于测试痴呆症人工智能工具- Longevity.Technology",
+      "title_en": "UCLA lands $25m to test dementia AI tools - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkUwWXRPR09kMGxkNmp1dHIxSVZlbWxtMHVuWFBOZzJZTTFZYm1HdnRScHdIWDRLRWtrR193TXo1dkloeGlCMFM1ZURyODNCcGpNamsxeExpdEJ1bEdZSEJTREtodjZ0NzRzZENadXNCNDhtOW9ncjdMVHJBWWtJMQ?oc=5",
+      "published_at": "2026-10-07T16:11:03Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "d9fa90174543fa306020468a6f6af135bbaf2b66",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODBDSFM4VDZzdWRPaHlVX0lJcWVEX1ZzRGtLclNtRkFNU3BDLURWLTBhMGZsZ282bm9ZVmg5TGpXS2ZldnVsT3J5aElvWlZFWUQ1X0VRU2M4WjJUM1h0V0ZqRlZUbmNIeWRvTTZxM3VvVFlNclRTRlZDTjBUcHRtUE0zT2NVTndl?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Analyzes Speech Patterns to Detect Dementia Signs - 조선일보",
+      "title_zh": "人工智能分析言语模式以检测痴呆症体征- 조선일보",
+      "title_en": "AI Analyzes Speech Patterns to Detect Dementia Signs - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODBDSFM4VDZzdWRPaHlVX0lJcWVEX1ZzRGtLclNtRkFNU3BDLURWLTBhMGZsZ282bm9ZVmg5TGpXS2ZldnVsT3J5aElvWlZFWUQ1X0VRU2M4WjJUM1h0V0ZqRlZUbmNIeWRvTTZxM3VvVFlNclRTRlZDTjBUcHRtUE0zT2NVTndl?oc=5",
+      "published_at": "2026-10-07T15:36:13Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "31ade961a5ba64b67c0010d3cab15881b3d86508",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOZzdET2xZQXBuMXYta2Q3OTNqaGdsbUF0V05lTHZuOVZnWmNHMTB4ZmtwWVpIekhUbnVzc2w5SGc2R3RFRlVRUzNMTlZ3NzVNd0plZVQtVHNvdDhsaEFSTTZfV09GWVU5WC1LcnpTYThiTk1RYmFpUW5iSW9vRlJxUm5jeTdnQ1hvRTF5MDBjRFFHazdhRml6R1JubTZxNEdmTUE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Maps the Hidden Diversity of Amyloid Plaques Across the Alzheimer’s Brain - Bioengineer.org",
+      "title_zh": "人工智能绘制阿尔茨海默氏症大脑中淀粉样蛋白斑块的隐藏多样性- Bioengineer.org",
+      "title_en": "AI Maps the Hidden Diversity of Amyloid Plaques Across the Alzheimer’s Brain - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZzdET2xZQXBuMXYta2Q3OTNqaGdsbUF0V05lTHZuOVZnWmNHMTB4ZmtwWVpIekhUbnVzc2w5SGc2R3RFRlVRUzNMTlZ3NzVNd0plZVQtVHNvdDhsaEFSTTZfV09GWVU5WC1LcnpTYThiTk1RYmFpUW5iSW9vRlJxUm5jeTdnQ1hvRTF5MDBjRFFHazdhRml6R1JubTZxNEdmTUE?oc=5",
+      "published_at": "2026-10-07T14:25:58Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
     {
       "id": "b6e99b251ccb541d0a11e4d5c5758c1c064c2ea2",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmhndEtmN0dkdTFaRlJ6Z2hubGF0aWRNUWJUT2IwMWxiUWxpOE5XZ2ZjVXF4NHIzLVVPd1JmaERWU0JQQ3RyQV8wOFhsQUhqd0FGNUFlZmZCcnREWnVkRDdieTJ5WTBNanlpRk1iSEtadDYtN0ppdDZ3Z05NM1R2WHQtSHk2NF9P?oc=5",
@@ -30,7 +275,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmhndEtmN0dkdTFaRlJ6Z2hubGF0aWRNUWJUT2IwMWxiUWxpOE5XZ2ZjVXF4NHIzLVVPd1JmaERWU0JQQ3RyQV8wOFhsQUhqd0FGNUFlZmZCcnREWnVkRDdieTJ5WTBNanlpRk1iSEtadDYtN0ppdDZ3Z05NM1R2WHQtSHk2NF9P?oc=5",
       "published_at": "2026-10-07T06:47:24Z",
       "first_seen_at": "2026-10-07T08:41:12.391660Z",
-      "last_seen_at": "2026-10-07T08:41:12.391660Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,7 +322,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOVRaNFhoUkp0eTdTSFpVTUdfU21JX2QzbmdXQThVcURUZl9pT1NWaURTSDdFdUd6blc3djV3b2JQeFlLZTVVQmVUbnNndy0tSTBDMUp2T19aNHVFT0tSTGtNUUo5cjl5N0VUU21GWEZiQkR3OXE1eEI0anhYWElFUlRYVUNVczNGbW40RjhjLWJySi1FdlZiR0I4eW5mU3o4NGFScg?oc=5",
       "published_at": "2026-10-06T18:10:05Z",
       "first_seen_at": "2026-10-06T21:40:05.697483Z",
-      "last_seen_at": "2026-10-07T08:41:12.391660Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -116,6 +361,251 @@
   ],
   "items_ai": [
     {
+      "id": "3e936716a5c037a9b27bab1d62a8bb6f042ec31a",
+      "canonical_key": "url:https://longevity.technology/news/ucla-lands-25m-to-test-dementia-ai-tools",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "UCLA lands $25m to test dementia AI tools",
+      "title_zh": "加州大学洛杉矶分校拨款$ 2500万用于测试痴呆症人工智能工具",
+      "title_en": "UCLA lands $25m to test dementia AI tools",
+      "url": "https://longevity.technology/news/ucla-lands-25m-to-test-dementia-ai-tools",
+      "published_at": "2026-10-07T16:10:10Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "2e976486c0f148316c5dedac1bee6ef5d07a41d5",
+      "canonical_key": "url:https://longevity.technology/news/why-the-future-of-skin-longevity-belongs-to-generative-bio-platforms",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Why the future of skin longevity belongs to generative bio-platforms",
+      "title_zh": "为什么皮肤长寿的未来属于生成性生物平台",
+      "title_en": "Why the future of skin longevity belongs to generative bio-platforms",
+      "url": "https://longevity.technology/news/why-the-future-of-skin-longevity-belongs-to-generative-bio-platforms",
+      "published_at": "2026-10-07T16:19:36Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.638,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "generative ai"
+      ],
+      "longevity_signals": [
+        "longevity",
+        "rejuvenation"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "114013d2d2666db0ae6bf4e50c519bd2aa0d2cad",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkUwWXRPR09kMGxkNmp1dHIxSVZlbWxtMHVuWFBOZzJZTTFZYm1HdnRScHdIWDRLRWtrR193TXo1dkloeGlCMFM1ZURyODNCcGpNamsxeExpdEJ1bEdZSEJTREtodjZ0NzRzZENadXNCNDhtOW9ncjdMVHJBWWtJMQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UCLA lands $25m to test dementia AI tools - Longevity.Technology",
+      "title_zh": "加州大学洛杉矶分校拨款$ 2500万用于测试痴呆症人工智能工具- Longevity.Technology",
+      "title_en": "UCLA lands $25m to test dementia AI tools - Longevity.Technology",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkUwWXRPR09kMGxkNmp1dHIxSVZlbWxtMHVuWFBOZzJZTTFZYm1HdnRScHdIWDRLRWtrR193TXo1dkloeGlCMFM1ZURyODNCcGpNamsxeExpdEJ1bEdZSEJTREtodjZ0NzRzZENadXNCNDhtOW9ncjdMVHJBWWtJMQ?oc=5",
+      "published_at": "2026-10-07T16:11:03Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "d9fa90174543fa306020468a6f6af135bbaf2b66",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODBDSFM4VDZzdWRPaHlVX0lJcWVEX1ZzRGtLclNtRkFNU3BDLURWLTBhMGZsZ282bm9ZVmg5TGpXS2ZldnVsT3J5aElvWlZFWUQ1X0VRU2M4WjJUM1h0V0ZqRlZUbmNIeWRvTTZxM3VvVFlNclRTRlZDTjBUcHRtUE0zT2NVTndl?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Analyzes Speech Patterns to Detect Dementia Signs - 조선일보",
+      "title_zh": "人工智能分析言语模式以检测痴呆症体征- 조선일보",
+      "title_en": "AI Analyzes Speech Patterns to Detect Dementia Signs - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODBDSFM4VDZzdWRPaHlVX0lJcWVEX1ZzRGtLclNtRkFNU3BDLURWLTBhMGZsZ282bm9ZVmg5TGpXS2ZldnVsT3J5aElvWlZFWUQ1X0VRU2M4WjJUM1h0V0ZqRlZUbmNIeWRvTTZxM3VvVFlNclRTRlZDTjBUcHRtUE0zT2NVTndl?oc=5",
+      "published_at": "2026-10-07T15:36:13Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "31ade961a5ba64b67c0010d3cab15881b3d86508",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOZzdET2xZQXBuMXYta2Q3OTNqaGdsbUF0V05lTHZuOVZnWmNHMTB4ZmtwWVpIekhUbnVzc2w5SGc2R3RFRlVRUzNMTlZ3NzVNd0plZVQtVHNvdDhsaEFSTTZfV09GWVU5WC1LcnpTYThiTk1RYmFpUW5iSW9vRlJxUm5jeTdnQ1hvRTF5MDBjRFFHazdhRml6R1JubTZxNEdmTUE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Maps the Hidden Diversity of Amyloid Plaques Across the Alzheimer’s Brain - Bioengineer.org",
+      "title_zh": "人工智能绘制阿尔茨海默氏症大脑中淀粉样蛋白斑块的隐藏多样性- Bioengineer.org",
+      "title_en": "AI Maps the Hidden Diversity of Amyloid Plaques Across the Alzheimer’s Brain - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZzdET2xZQXBuMXYta2Q3OTNqaGdsbUF0V05lTHZuOVZnWmNHMTB4ZmtwWVpIekhUbnVzc2w5SGc2R3RFRlVRUzNMTlZ3NzVNd0plZVQtVHNvdDhsaEFSTTZfV09GWVU5WC1LcnpTYThiTk1RYmFpUW5iSW9vRlJxUm5jeTdnQ1hvRTF5MDBjRFFHazdhRml6R1JubTZxNEdmTUE?oc=5",
+      "published_at": "2026-10-07T14:25:58Z",
+      "first_seen_at": "2026-10-07T16:30:20.429478Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
       "id": "b6e99b251ccb541d0a11e4d5c5758c1c064c2ea2",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmhndEtmN0dkdTFaRlJ6Z2hubGF0aWRNUWJUT2IwMWxiUWxpOE5XZ2ZjVXF4NHIzLVVPd1JmaERWU0JQQ3RyQV8wOFhsQUhqd0FGNUFlZmZCcnREWnVkRDdieTJ5WTBNanlpRk1iSEtadDYtN0ppdDZ3Z05NM1R2WHQtSHk2NF9P?oc=5",
       "site_id": "official_rss",
@@ -128,7 +618,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmhndEtmN0dkdTFaRlJ6Z2hubGF0aWRNUWJUT2IwMWxiUWxpOE5XZ2ZjVXF4NHIzLVVPd1JmaERWU0JQQ3RyQV8wOFhsQUhqd0FGNUFlZmZCcnREWnVkRDdieTJ5WTBNanlpRk1iSEtadDYtN0ppdDZ3Z05NM1R2WHQtSHk2NF9P?oc=5",
       "published_at": "2026-10-07T06:47:24Z",
       "first_seen_at": "2026-10-07T08:41:12.391660Z",
-      "last_seen_at": "2026-10-07T08:41:12.391660Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +665,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOVRaNFhoUkp0eTdTSFpVTUdfU21JX2QzbmdXQThVcURUZl9pT1NWaURTSDdFdUd6blc3djV3b2JQeFlLZTVVQmVUbnNndy0tSTBDMUp2T19aNHVFT0tSTGtNUUo5cjl5N0VUU21GWEZiQkR3OXE1eEI0anhYWElFUlRYVUNVczNGbW40RjhjLWJySi1FdlZiR0I4eW5mU3o4NGFScg?oc=5",
       "published_at": "2026-10-06T18:10:05Z",
       "first_seen_at": "2026-10-06T21:40:05.697483Z",
-      "last_seen_at": "2026-10-07T08:41:12.391660Z",
+      "last_seen_at": "2026-10-07T16:30:20.429478Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
