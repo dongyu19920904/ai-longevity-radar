@@ -1,75 +1,73 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-09T09:08:49.167893Z",
+  "generated_at": "2026-10-09T16:14:12.775058Z",
   "window_hours": 24,
-  "total_items": 9,
-  "total_items_raw": 388,
-  "total_items_all_mode": 388,
-  "archive_total": 10455,
-  "site_count": 1,
-  "source_count": 3,
+  "total_items": 4,
+  "total_items_raw": 237,
+  "total_items_all_mode": 237,
+  "archive_total": 10248,
+  "site_count": 2,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 9,
-      "raw_count": 34
+      "count": 3,
+      "raw_count": 26
+    },
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 1,
+      "raw_count": 33
     }
   ],
   "items": [
     {
-      "id": "78cdb386abdb8e89b983d603dacb05e4280f81bb",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/an-aging-clock-built-on-speech-analysis-data",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "An Aging Clock Built on Speech Analysis Data",
-      "title_zh": "基于语音分析数据的老化时钟",
-      "title_en": "An Aging Clock Built on Speech Analysis Data",
-      "url": "https://www.fightaging.org/archives/2026/10/an-aging-clock-built-on-speech-analysis-data",
-      "published_at": "2026-10-08T10:22:06Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "id": "a551ebb0a7ccd816f569ddd24ccd964fc52a348b",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13646070",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Alzheimer's detection using quanvolutional neural networks with federated training",
+      "title_zh": "使用具有联合训练的quanvolutional神经网络检测阿尔茨海默氏症",
+      "title_en": "Alzheimer's detection using quanvolutional neural networks with federated training",
+      "url": "https://europepmc.org/article/MED/PMC13646070",
+      "published_at": "2026-10-09T00:00:00Z",
+      "first_seen_at": "2026-10-09T16:14:12.775058Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.94,
-      "signal_score": 0.708,
-      "domain_score": 0.94,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "rejuvenation"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
       "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
+        "study_subject_unknown"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "neural network"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock",
-        "mortality risk",
-        "rejuvenation"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "b78b692391b868b1ffbb35902d6e4f83fb9bf837",
@@ -84,7 +82,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdy03MGRPdllnT1MxVkJKYkx2WTBSOVdPUDFnOW4ydmh3Nl9vRUJOTWc2aXJqMXVUSHM0cmdUY255Z2dGcUpmYzV3OE5TekxXOHZwUGxMVEJhUWpPNlNzX3FVVFVvaTZrWHcyUVF2LXlBdW1XMWdMeEJwTloxWTR2ejFIWnllMDBCcFdZcmlENlFDczlQZ012UWZYRDNndFJJTjZoMA?oc=5",
       "published_at": "2026-10-08T20:33:03Z",
       "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -122,32 +120,32 @@
       ]
     },
     {
-      "id": "757477851c0a9ea7dff326614554536235274f4e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPZjNVZnlCYW5qanpYUGxldHpsblU5OHdId1pzblF5N2I0YjdyMUV3YzVGTk96NjRTV1pQYmZOVUVvQVBmVUNhVEtOQ1VmVjJWZlVGckd0WTlRTXRtaW5jYWdzT0trRGZ3YUJCZXp3NWJYRjhfN1hEYWlzblJTTzlmd2RkaG5wTUc0bk1xbE5HdmU3Qlc4QVdKMHhMXzdKUUhFUlFyVHVFT0s5eDdkdEMtQjVnY25Md3lBdnc?oc=5",
+      "id": "00b334181b37de7a72e6b42d38ccb31033034261",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Smaller AI models challenge ‘bigger is better’ thinking in longevity research - Arab News",
-      "title_zh": "较小的人工智能模型挑战长寿研究中的“越大越好”思维-阿拉伯新闻",
-      "title_en": "Smaller AI models challenge ‘bigger is better’ thinking in longevity research - Arab News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZjNVZnlCYW5qanpYUGxldHpsblU5OHdId1pzblF5N2I0YjdyMUV3YzVGTk96NjRTV1pQYmZOVUVvQVBmVUNhVEtOQ1VmVjJWZlVGckd0WTlRTXRtaW5jYWdzT0trRGZ3YUJCZXp3NWJYRjhfN1hEYWlzblJTTzlmd2RkaG5wTUc0bk1xbE5HdmU3Qlc4QVdKMHhMXzdKUUhFUlFyVHVFT0s5eDdkdEMtQjVnY25Md3lBdnc?oc=5",
-      "published_at": "2026-10-08T15:02:35Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "title": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
+      "title_zh": "中国古代公式解码：机器学习揭示了补肾益智如何对抗阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
+      "published_at": "2026-10-09T08:58:12Z",
+      "first_seen_at": "2026-10-09T16:14:12.775058Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -157,67 +155,16 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "5645e719884ad0dbd7989e34f07a805e5827650d",
-      "canonical_key": "url:https://longevity.technology/news/shift-uses-ai-virtual-cells-to-improve-discovery-of-age-related-disease-treatments",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Shift uses AI virtual cells to improve discovery of age-related disease treatments",
-      "title_zh": "SHIFT使用人工智能虚拟细胞来改善与年龄相关的疾病治疗的发现",
-      "title_en": "Shift uses AI virtual cells to improve discovery of age-related disease treatments",
-      "url": "https://longevity.technology/news/shift-uses-ai-virtual-cells-to-improve-discovery-of-age-related-disease-treatments",
-      "published_at": "2026-10-08T12:46:16Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "age-related"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
     },
     {
       "id": "2e4fe3cba47d8c3d45d4a2c13073d54ebcf37cb7",
@@ -232,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
       "published_at": "2026-10-08T21:18:03Z",
       "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -266,260 +213,55 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "brain"
-      ]
-    },
-    {
-      "id": "b55302a9d0cf36c24e1ccb605439f4f3d6a3e2c3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQdVBQZFhDbGJ4X0ZSZW42Q1ExUlduMUJ1NndrTHJYRnFRWjRFazZxZUkzMWVIaFhpQVRvYVl1ZmNnUkZQQU9pUU94VE52eFRvT1BZbXN3aEpEQ1owTjQ1cWhWc0haMklIanlqbUMtT1VIUjZEdnRXQm5yR3V0TTFJX0dZb1pETW4zblNLcHo5VDFfZy1hYWgtYkhjTjFMTG9BblJhYg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Would you trust AI to calculate your true 'biological age'? - Live Science",
-      "title_zh": "您是否相信人工智能可以计算出您真正的“生物年龄” ？ - Live Science",
-      "title_en": "Would you trust AI to calculate your true 'biological age'? - Live Science",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdVBQZFhDbGJ4X0ZSZW42Q1ExUlduMUJ1NndrTHJYRnFRWjRFazZxZUkzMWVIaFhpQVRvYVl1ZmNnUkZQQU9pUU94VE52eFRvT1BZbXN3aEpEQ1owTjQ1cWhWc0haMklIanlqbUMtT1VIUjZEdnRXQm5yR3V0TTFJX0dZb1pETW4zblNLcHo5VDFfZy1hYWgtYkhjTjFMTG9BblJhYg?oc=5",
-      "published_at": "2026-10-08T16:09:52Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a2b5a3ae0ce5b3db61d46aa02cdee9890a14da7b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQWlRqYkF6RjhuaDd3MGxrNlNiS0g3cTJtdHNKRzE5S21TYW1BWEJyM3VCN25MM3I3V0trMjdIa0FLRkJSQWVvR0s5a3hUd0VqZE8yV3F6dnBMb2MzUDUxNV9ZR0I0Z1VJcGVYdE5RNFRVQm4zS3BlVFZzRzFVT2VOTTBPZV9nRUg3dVFJaE1Ybzh3RUI5?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "£80m dementia challenge to test AI and digital tools - Home | Digital Health",
-      "title_zh": "£ 8000万痴呆症挑战赛，测试人工智能和数字工具-首页|数字健康",
-      "title_en": "£80m dementia challenge to test AI and digital tools - Home | Digital Health",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWlRqYkF6RjhuaDd3MGxrNlNiS0g3cTJtdHNKRzE5S21TYW1BWEJyM3VCN25MM3I3V0trMjdIa0FLRkJSQWVvR0s5a3hUd0VqZE8yV3F6dnBMb2MzUDUxNV9ZR0I0Z1VJcGVYdE5RNFRVQm4zS3BlVFZzRzFVT2VOTTBPZV9nRUg3dVFJaE1Ybzh3RUI5?oc=5",
-      "published_at": "2026-10-08T12:32:06Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "digital health"
-      ],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "6b2df2d2407e9d830ad3393109930283a504abd9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2o3QUtHRWN6djBYaVVFeUtQQ3o3aXBJdm9LZjRnRURPMU9KUC1PRC1Ec2hVaU1Ld19TX3VmVGYwU1YzbUZVRFZ2V2d0NTctR2ttY0J3MFVkR0ZMWnZ4cFJoRXVGVEsybzhDbGRjeGM0bFhiaXh2V3YzcnBxX0hrNEhqcGQ4cDlhUDRDdHZKelhCUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Graph-Based AI Reads microRNA Networks to Spot Alzheimer’s Early - Bioengineer.org",
-      "title_zh": "基于图的人工智能读取microRNA网络以发现阿尔茨海默氏症的早期- Bioengineer.org",
-      "title_en": "Graph-Based AI Reads microRNA Networks to Spot Alzheimer’s Early - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2o3QUtHRWN6djBYaVVFeUtQQ3o3aXBJdm9LZjRnRURPMU9KUC1PRC1Ec2hVaU1Ld19TX3VmVGYwU1YzbUZVRFZ2V2d0NTctR2ttY0J3MFVkR0ZMWnZ4cFJoRXVGVEsybzhDbGRjeGM0bFhiaXh2V3YzcnBxX0hrNEhqcGQ4cDlhUDRDdHZKelhCUQ?oc=5",
-      "published_at": "2026-10-08T11:40:40Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "dd460f526109b3540bc11636e572bb2dcc5e9b18",
-      "canonical_key": "url:https://longevity.technology/news/building-the-infrastructure-for-preventive-care",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Building the infrastructure for preventive care",
-      "title_zh": "建设预防性护理的基础设施",
-      "title_en": "Building the infrastructure for preventive care",
-      "url": "https://longevity.technology/news/building-the-infrastructure-for-preventive-care",
-      "published_at": "2026-10-08T11:08:34Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "health",
-        "medicine",
-        "patients"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "78cdb386abdb8e89b983d603dacb05e4280f81bb",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/an-aging-clock-built-on-speech-analysis-data",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "An Aging Clock Built on Speech Analysis Data",
-      "title_zh": "基于语音分析数据的老化时钟",
-      "title_en": "An Aging Clock Built on Speech Analysis Data",
-      "url": "https://www.fightaging.org/archives/2026/10/an-aging-clock-built-on-speech-analysis-data",
-      "published_at": "2026-10-08T10:22:06Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "id": "a551ebb0a7ccd816f569ddd24ccd964fc52a348b",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13646070",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Alzheimer's detection using quanvolutional neural networks with federated training",
+      "title_zh": "使用具有联合训练的quanvolutional神经网络检测阿尔茨海默氏症",
+      "title_en": "Alzheimer's detection using quanvolutional neural networks with federated training",
+      "url": "https://europepmc.org/article/MED/PMC13646070",
+      "published_at": "2026-10-09T00:00:00Z",
+      "first_seen_at": "2026-10-09T16:14:12.775058Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.94,
-      "signal_score": 0.708,
-      "domain_score": 0.94,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "rejuvenation"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
       "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
+        "study_subject_unknown"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "neural network"
       ],
       "longevity_signals": [
-        "age-related",
-        "aging",
-        "aging clock",
-        "mortality risk",
-        "rejuvenation"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "b78b692391b868b1ffbb35902d6e4f83fb9bf837",
@@ -534,7 +276,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdy03MGRPdllnT1MxVkJKYkx2WTBSOVdPUDFnOW4ydmh3Nl9vRUJOTWc2aXJqMXVUSHM0cmdUY255Z2dGcUpmYzV3OE5TekxXOHZwUGxMVEJhUWpPNlNzX3FVVFVvaTZrWHcyUVF2LXlBdW1XMWdMeEJwTloxWTR2ejFIWnllMDBCcFdZcmlENlFDczlQZ012UWZYRDNndFJJTjZoMA?oc=5",
       "published_at": "2026-10-08T20:33:03Z",
       "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -572,32 +314,32 @@
       ]
     },
     {
-      "id": "757477851c0a9ea7dff326614554536235274f4e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPZjNVZnlCYW5qanpYUGxldHpsblU5OHdId1pzblF5N2I0YjdyMUV3YzVGTk96NjRTV1pQYmZOVUVvQVBmVUNhVEtOQ1VmVjJWZlVGckd0WTlRTXRtaW5jYWdzT0trRGZ3YUJCZXp3NWJYRjhfN1hEYWlzblJTTzlmd2RkaG5wTUc0bk1xbE5HdmU3Qlc4QVdKMHhMXzdKUUhFUlFyVHVFT0s5eDdkdEMtQjVnY25Md3lBdnc?oc=5",
+      "id": "00b334181b37de7a72e6b42d38ccb31033034261",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Smaller AI models challenge ‘bigger is better’ thinking in longevity research - Arab News",
-      "title_zh": "较小的人工智能模型挑战长寿研究中的“越大越好”思维-阿拉伯新闻",
-      "title_en": "Smaller AI models challenge ‘bigger is better’ thinking in longevity research - Arab News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZjNVZnlCYW5qanpYUGxldHpsblU5OHdId1pzblF5N2I0YjdyMUV3YzVGTk96NjRTV1pQYmZOVUVvQVBmVUNhVEtOQ1VmVjJWZlVGckd0WTlRTXRtaW5jYWdzT0trRGZ3YUJCZXp3NWJYRjhfN1hEYWlzblJTTzlmd2RkaG5wTUc0bk1xbE5HdmU3Qlc4QVdKMHhMXzdKUUhFUlFyVHVFT0s5eDdkdEMtQjVnY25Md3lBdnc?oc=5",
-      "published_at": "2026-10-08T15:02:35Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "title": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
+      "title_zh": "中国古代公式解码：机器学习揭示了补肾益智如何对抗阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
+      "published_at": "2026-10-09T08:58:12Z",
+      "first_seen_at": "2026-10-09T16:14:12.775058Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -607,67 +349,16 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "machine learning"
       ],
       "longevity_signals": [
-        "longevity"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "5645e719884ad0dbd7989e34f07a805e5827650d",
-      "canonical_key": "url:https://longevity.technology/news/shift-uses-ai-virtual-cells-to-improve-discovery-of-age-related-disease-treatments",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Shift uses AI virtual cells to improve discovery of age-related disease treatments",
-      "title_zh": "SHIFT使用人工智能虚拟细胞来改善与年龄相关的疾病治疗的发现",
-      "title_en": "Shift uses AI virtual cells to improve discovery of age-related disease treatments",
-      "url": "https://longevity.technology/news/shift-uses-ai-virtual-cells-to-improve-discovery-of-age-related-disease-treatments",
-      "published_at": "2026-10-08T12:46:16Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "age-related"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
     },
     {
       "id": "2e4fe3cba47d8c3d45d4a2c13073d54ebcf37cb7",
@@ -682,7 +373,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
       "published_at": "2026-10-08T21:18:03Z",
       "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
+      "last_seen_at": "2026-10-09T16:14:12.775058Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -716,203 +407,6 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "brain"
-      ]
-    },
-    {
-      "id": "b55302a9d0cf36c24e1ccb605439f4f3d6a3e2c3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQdVBQZFhDbGJ4X0ZSZW42Q1ExUlduMUJ1NndrTHJYRnFRWjRFazZxZUkzMWVIaFhpQVRvYVl1ZmNnUkZQQU9pUU94VE52eFRvT1BZbXN3aEpEQ1owTjQ1cWhWc0haMklIanlqbUMtT1VIUjZEdnRXQm5yR3V0TTFJX0dZb1pETW4zblNLcHo5VDFfZy1hYWgtYkhjTjFMTG9BblJhYg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Would you trust AI to calculate your true 'biological age'? - Live Science",
-      "title_zh": "您是否相信人工智能可以计算出您真正的“生物年龄” ？ - Live Science",
-      "title_en": "Would you trust AI to calculate your true 'biological age'? - Live Science",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdVBQZFhDbGJ4X0ZSZW42Q1ExUlduMUJ1NndrTHJYRnFRWjRFazZxZUkzMWVIaFhpQVRvYVl1ZmNnUkZQQU9pUU94VE52eFRvT1BZbXN3aEpEQ1owTjQ1cWhWc0haMklIanlqbUMtT1VIUjZEdnRXQm5yR3V0TTFJX0dZb1pETW4zblNLcHo5VDFfZy1hYWgtYkhjTjFMTG9BblJhYg?oc=5",
-      "published_at": "2026-10-08T16:09:52Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a2b5a3ae0ce5b3db61d46aa02cdee9890a14da7b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxQWlRqYkF6RjhuaDd3MGxrNlNiS0g3cTJtdHNKRzE5S21TYW1BWEJyM3VCN25MM3I3V0trMjdIa0FLRkJSQWVvR0s5a3hUd0VqZE8yV3F6dnBMb2MzUDUxNV9ZR0I0Z1VJcGVYdE5RNFRVQm4zS3BlVFZzRzFVT2VOTTBPZV9nRUg3dVFJaE1Ybzh3RUI5?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "£80m dementia challenge to test AI and digital tools - Home | Digital Health",
-      "title_zh": "£ 8000万痴呆症挑战赛，测试人工智能和数字工具-首页|数字健康",
-      "title_en": "£80m dementia challenge to test AI and digital tools - Home | Digital Health",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWlRqYkF6RjhuaDd3MGxrNlNiS0g3cTJtdHNKRzE5S21TYW1BWEJyM3VCN25MM3I3V0trMjdIa0FLRkJSQWVvR0s5a3hUd0VqZE8yV3F6dnBMb2MzUDUxNV9ZR0I0Z1VJcGVYdE5RNFRVQm4zS3BlVFZzRzFVT2VOTTBPZV9nRUg3dVFJaE1Ybzh3RUI5?oc=5",
-      "published_at": "2026-10-08T12:32:06Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "digital health"
-      ],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "6b2df2d2407e9d830ad3393109930283a504abd9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2o3QUtHRWN6djBYaVVFeUtQQ3o3aXBJdm9LZjRnRURPMU9KUC1PRC1Ec2hVaU1Ld19TX3VmVGYwU1YzbUZVRFZ2V2d0NTctR2ttY0J3MFVkR0ZMWnZ4cFJoRXVGVEsybzhDbGRjeGM0bFhiaXh2V3YzcnBxX0hrNEhqcGQ4cDlhUDRDdHZKelhCUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Graph-Based AI Reads microRNA Networks to Spot Alzheimer’s Early - Bioengineer.org",
-      "title_zh": "基于图的人工智能读取microRNA网络以发现阿尔茨海默氏症的早期- Bioengineer.org",
-      "title_en": "Graph-Based AI Reads microRNA Networks to Spot Alzheimer’s Early - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2o3QUtHRWN6djBYaVVFeUtQQ3o3aXBJdm9LZjRnRURPMU9KUC1PRC1Ec2hVaU1Ld19TX3VmVGYwU1YzbUZVRFZ2V2d0NTctR2ttY0J3MFVkR0ZMWnZ4cFJoRXVGVEsybzhDbGRjeGM0bFhiaXh2V3YzcnBxX0hrNEhqcGQ4cDlhUDRDdHZKelhCUQ?oc=5",
-      "published_at": "2026-10-08T11:40:40Z",
-      "first_seen_at": "2026-10-08T16:30:03.729389Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "dd460f526109b3540bc11636e572bb2dcc5e9b18",
-      "canonical_key": "url:https://longevity.technology/news/building-the-infrastructure-for-preventive-care",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Building the infrastructure for preventive care",
-      "title_zh": "建设预防性护理的基础设施",
-      "title_en": "Building the infrastructure for preventive care",
-      "url": "https://longevity.technology/news/building-the-infrastructure-for-preventive-care",
-      "published_at": "2026-10-08T11:08:34Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T09:08:49.167893Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "health",
-        "medicine",
-        "patients"
       ]
     }
   ],
