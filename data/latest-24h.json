@@ -1,75 +1,23 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-09T20:59:26.973184Z",
+  "generated_at": "2026-10-10T00:52:56.277414Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 101,
-  "total_items_all_mode": 101,
-  "archive_total": 10113,
-  "site_count": 2,
-  "source_count": 2,
+  "total_items": 2,
+  "total_items_raw": 29,
+  "total_items_all_mode": 29,
+  "archive_total": 10022,
+  "site_count": 1,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 24
-    },
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 1,
-      "raw_count": 33
+      "count": 2,
+      "raw_count": 29
     }
   ],
   "items": [
     {
-      "id": "a551ebb0a7ccd816f569ddd24ccd964fc52a348b",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13646070",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Alzheimer's detection using quanvolutional neural networks with federated training",
-      "title_zh": "使用具有联合训练的quanvolutional神经网络检测阿尔茨海默氏症",
-      "title_en": "Alzheimer's detection using quanvolutional neural networks with federated training",
-      "url": "https://europepmc.org/article/MED/PMC13646070",
-      "published_at": "2026-10-09T00:00:00Z",
-      "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "neural network"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "d2006315685602176d96d21f26453736a5a40ab8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
       "site_id": "official_rss",
@@ -80,9 +28,9 @@
       "title_zh": "NewDays将其人工智能驱动的痴呆症护理平台带到内华达州，将种子轮扩展到1600万美元-今天的医疗保健IT",
       "title_en": "NewDays Brings Its AI-Driven Dementia Care Platform to Nevada, Expands Seed Round to $16M - Healthcare IT Today",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
-      "published_at": "2026-10-09T16:52:30Z",
+      "published_at": "2026-10-09T16:56:31Z",
       "first_seen_at": "2026-10-09T20:59:26.973184Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
+      "last_seen_at": "2026-10-10T00:52:56.277414Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -131,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
       "published_at": "2026-10-09T08:58:12Z",
       "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
+      "last_seen_at": "2026-10-10T00:52:56.277414Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -164,105 +112,10 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "2e4fe3cba47d8c3d45d4a2c13073d54ebcf37cb7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "New AI Reads Brain Scans Four Ways to Spot Alzheimer’s Stages and Know When It Is Unsure - Bioengineer.org",
-      "title_zh": "新的人工智能读取大脑扫描四种方法来发现阿尔茨海默氏症的阶段并知道何时不确定- Bioengineer.org",
-      "title_en": "New AI Reads Brain Scans Four Ways to Spot Alzheimer’s Stages and Know When It Is Unsure - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
-      "published_at": "2026-10-08T21:18:03Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
     }
   ],
   "items_ai": [
     {
-      "id": "a551ebb0a7ccd816f569ddd24ccd964fc52a348b",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13646070",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Alzheimer's detection using quanvolutional neural networks with federated training",
-      "title_zh": "使用具有联合训练的quanvolutional神经网络检测阿尔茨海默氏症",
-      "title_en": "Alzheimer's detection using quanvolutional neural networks with federated training",
-      "url": "https://europepmc.org/article/MED/PMC13646070",
-      "published_at": "2026-10-09T00:00:00Z",
-      "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "neural network"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "d2006315685602176d96d21f26453736a5a40ab8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
       "site_id": "official_rss",
@@ -273,9 +126,9 @@
       "title_zh": "NewDays将其人工智能驱动的痴呆症护理平台带到内华达州，将种子轮扩展到1600万美元-今天的医疗保健IT",
       "title_en": "NewDays Brings Its AI-Driven Dementia Care Platform to Nevada, Expands Seed Round to $16M - Healthcare IT Today",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
-      "published_at": "2026-10-09T16:52:30Z",
+      "published_at": "2026-10-09T16:56:31Z",
       "first_seen_at": "2026-10-09T20:59:26.973184Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
+      "last_seen_at": "2026-10-10T00:52:56.277414Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -324,7 +177,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
       "published_at": "2026-10-09T08:58:12Z",
       "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
+      "last_seen_at": "2026-10-10T00:52:56.277414Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -357,55 +210,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "2e4fe3cba47d8c3d45d4a2c13073d54ebcf37cb7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "New AI Reads Brain Scans Four Ways to Spot Alzheimer’s Stages and Know When It Is Unsure - Bioengineer.org",
-      "title_zh": "新的人工智能读取大脑扫描四种方法来发现阿尔茨海默氏症的阶段并知道何时不确定- Bioengineer.org",
-      "title_en": "New AI Reads Brain Scans Four Ways to Spot Alzheimer’s Stages and Know When It Is Unsure - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHJoRDFmM3g4aFZTNEFuTFRrZzA2bUd1S2lvelZMOHRtNjVuN3dyam5YOVcxWk13ck9LMjZqU1h5RjFxSHZPMVU1UVFjdldpemNURXRBOEYxaktIMUJxVlE3N0ZyVzdhZU1wclpKRU12UDEyMUdmQ3dUeUNJRjF5aFhPNUJGMFpQeXpGU0tqUFZWZTJOLWdsUUFocnFQMUM0VW9XUWtjU25GR3dHU0toalpn?oc=5",
-      "published_at": "2026-10-08T21:18:03Z",
-      "first_seen_at": "2026-10-08T22:05:29.324425Z",
-      "last_seen_at": "2026-10-09T20:59:26.973184Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
