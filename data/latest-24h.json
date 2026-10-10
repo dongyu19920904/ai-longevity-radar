@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-10T07:09:58.744801Z",
+  "generated_at": "2026-10-10T13:44:16.455867Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 32,
-  "total_items_all_mode": 32,
-  "archive_total": 9904,
+  "total_items": 3,
+  "total_items_raw": 24,
+  "total_items_all_mode": 24,
+  "archive_total": 9792,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 32
+      "count": 3,
+      "raw_count": 24
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb1I3THZvbG9vYmRmSllWM0tlUWw4c042WDJDYjZOUFlUcXVrNS10VXZIWnEwcXh2V2tzMnNQWXV0a09weTAxR3lsRFdTUTV1bndFcVVmT2ExT2ZVS2xBSXhvZ2VwRFMwcUN2NlVNQjlmczBtb1d0STNOTU13OEJvbDU2Uk5LNEVQalprRkZfOUdkS0tJOW5IRDBBMmJpaTJsdHU1SkNUTWd2NWc2LW11b2tCbE5DMzN4dklpVXIzR1pnTEpxZkxsQTVkMWhmY2ZSNzFFRnN1MF93aENLSExlVVU3V1A3bXM?oc=5",
       "published_at": "2026-10-10T06:00:00Z",
       "first_seen_at": "2026-10-10T07:09:58.744801Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -79,9 +79,9 @@
       "title_zh": "只有当人工智能帮助人类，而不是取代人类时，公众才会相信人工智能在痴呆症护理中的作用- Bioengineer.org",
       "title_en": "Public Trusts AI in Dementia Care Only When It Assists, Not Replaces, Humans - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSl9pNEJLMDc3RjZjWDV6WHZoWHpxR0ItY3FGN0hXdWpIakdMUFdqZ3VGeS1DbU4wT3pJQW9sako3ckFVWklGQzB5UnVoaUtfRzkzdkVhclpESWIwLWVSXzZsUG9PS3JCcjJrOHJVbmNwQy1KaGN5cy11VFZ0Zll2djk2RkhSY2t6bHdwcFY5a2RFcWpGSE9JUjlFcE9KajBa?oc=5",
-      "published_at": "2026-10-10T04:52:30Z",
+      "published_at": "2026-10-10T04:53:20Z",
       "first_seen_at": "2026-10-10T07:09:58.744801Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -128,7 +128,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
       "published_at": "2026-10-09T16:56:31Z",
       "first_seen_at": "2026-10-09T20:59:26.973184Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -163,53 +163,6 @@
       "biological_context_signals": [
         "healthcare"
       ]
-    },
-    {
-      "id": "00b334181b37de7a72e6b42d38ccb31033034261",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
-      "title_zh": "中国古代公式解码：机器学习揭示了补肾益智如何对抗阿尔茨海默氏症- Bioengineer.org",
-      "title_en": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
-      "published_at": "2026-10-09T08:58:12Z",
-      "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -226,7 +179,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb1I3THZvbG9vYmRmSllWM0tlUWw4c042WDJDYjZOUFlUcXVrNS10VXZIWnEwcXh2V2tzMnNQWXV0a09weTAxR3lsRFdTUTV1bndFcVVmT2ExT2ZVS2xBSXhvZ2VwRFMwcUN2NlVNQjlmczBtb1d0STNOTU13OEJvbDU2Uk5LNEVQalprRkZfOUdkS0tJOW5IRDBBMmJpaTJsdHU1SkNUTWd2NWc2LW11b2tCbE5DMzN4dklpVXIzR1pnTEpxZkxsQTVkMWhmY2ZSNzFFRnN1MF93aENLSExlVVU3V1A3bXM?oc=5",
       "published_at": "2026-10-10T06:00:00Z",
       "first_seen_at": "2026-10-10T07:09:58.744801Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -275,9 +228,9 @@
       "title_zh": "只有当人工智能帮助人类，而不是取代人类时，公众才会相信人工智能在痴呆症护理中的作用- Bioengineer.org",
       "title_en": "Public Trusts AI in Dementia Care Only When It Assists, Not Replaces, Humans - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSl9pNEJLMDc3RjZjWDV6WHZoWHpxR0ItY3FGN0hXdWpIakdMUFdqZ3VGeS1DbU4wT3pJQW9sako3ckFVWklGQzB5UnVoaUtfRzkzdkVhclpESWIwLWVSXzZsUG9PS3JCcjJrOHJVbmNwQy1KaGN5cy11VFZ0Zll2djk2RkhSY2t6bHdwcFY5a2RFcWpGSE9JUjlFcE9KajBa?oc=5",
-      "published_at": "2026-10-10T04:52:30Z",
+      "published_at": "2026-10-10T04:53:20Z",
       "first_seen_at": "2026-10-10T07:09:58.744801Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -324,7 +277,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWJWWXFRRXd5eU45YTdZcU9RZ1Z4WDdsU0hKSWt1RVY4UlE3WXczNFdoZy1LeHRZamRHTHE1UlZROURzMW9kclRqcHpwT3V5bVhpU0hNUnlCQ2Q1WTZtMjd1SUpleHF2YUtEZnhJWDJjZXlFbUZUTWU5d1ZDSU1TQ0d6Q3FKdmQySTVoQy1QVjRlTzh3dTdtMWNfS0x2MEFqVXp2ZXV1dUFuSHM5bE1rdUJ2SDFjVnZhbWtlLWxmMDlDQVRrYlZ2dmJIbkRqUQ?oc=5",
       "published_at": "2026-10-09T16:56:31Z",
       "first_seen_at": "2026-10-09T20:59:26.973184Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
+      "last_seen_at": "2026-10-10T13:44:16.455867Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -359,53 +312,6 @@
       "biological_context_signals": [
         "healthcare"
       ]
-    },
-    {
-      "id": "00b334181b37de7a72e6b42d38ccb31033034261",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
-      "title_zh": "中国古代公式解码：机器学习揭示了补肾益智如何对抗阿尔茨海默氏症- Bioengineer.org",
-      "title_en": "Ancient Chinese Formula Decoded: Machine Learning Reveals How Bushen-Yizhi May Fight Alzheimer’s - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeURkakkwTUdWS3hfT044ZklRNGhPN291R0swV1puVlZGMmJBWnhLYjhKUDZnQk5ZSEpKOEJBZGZoMVZYV3JxUTRTcXlidDRmYmZ2c2tnclhCYmRGbmJObDhmSWVuVjA3dzZCNU9Oc3JFTjBERVFINXVNS0hrOHE3WmxQWk15S2RVajR5cFpRYk5xVjhSVHBtY215Y2FmUmZ4ak5wV1otNHRtRGpYWDZsVzl0UlJXd0Z2ODdv?oc=5",
-      "published_at": "2026-10-09T08:58:12Z",
-      "first_seen_at": "2026-10-09T16:14:12.775058Z",
-      "last_seen_at": "2026-10-10T07:09:58.744801Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
