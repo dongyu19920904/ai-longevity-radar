@@ -1,24 +1,125 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-11T08:53:55.078442Z",
+  "generated_at": "2026-10-11T15:42:32.041762Z",
   "window_hours": 24,
   "total_items_raw": 7,
   "total_items_all_mode": 7,
   "items_all": [
     {
+      "id": "afc368e56a30fdb831ce24483d197023589812ca",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-12th-2026",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Fight Aging! Newsletter, October 12th 2026",
+      "title_en": "Fight Aging! Newsletter, October 12th 2026",
+      "url": "https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-12th-2026",
+      "published_at": "2026-10-11T11:53:13Z",
+      "first_seen_at": "2026-10-11T15:42:32.041762Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "disease",
+        "medicine",
+        "tissue"
+      ]
+    },
+    {
+      "id": "b8b6bd376dceb8ba110e4c4d97fa61c7c96a676e",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-10-extremely-giant-tortoise-jonathan-secret.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "An extremely old giant tortoise named Jonathan may hold the secret to a long, healthy life",
+      "title_en": "An extremely old giant tortoise named Jonathan may hold the secret to a long, healthy life",
+      "url": "https://medicalxpress.com/news/2026-10-extremely-giant-tortoise-jonathan-secret.html",
+      "published_at": "2026-10-11T11:00:02Z",
+      "first_seen_at": "2026-10-11T15:42:32.041762Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "genomics"
+      ],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
       "id": "7bc28b21cc8ed24c54c0486887bebafac8050fdd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFU5SGxaZjlHRUo0Uko3R2Ryd0JPUlBCMVFkakFWejFlamVSQ0RScGYtXzBpcHl3SUxkWmtmZlBVNWh4dEpTRUhJbTNPbzV6Sk1YYlRaY1F5QXZBRG1FcXFXODR6enUyVXEyOE9xdTJtWkxDdm84emR0YTZvbDRKd2p0UWc2MHdkeEJFVEtnOWZycXNKeS15Wi13M3ZBc2dQUnpqTGRjdDdIdU00cnNVS2FSMTVpUQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Would you trust artificial intelligence to calculate your true biological age? - www.cna.al",
-      "title_zh": "您是否相信人工智能可以计算您的真实生物年龄？ - www.cna.al",
-      "title_en": "Would you trust artificial intelligence to calculate your true biological age? - www.cna.al",
+      "title": "Would you trust artificial intelligence to calculate your true biological age? - cna.al",
+      "title_zh": "您是否相信人工智能可以计算您的真实生物年龄？ - cna.al",
+      "title_en": "Would you trust artificial intelligence to calculate your true biological age? - cna.al",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFU5SGxaZjlHRUo0Uko3R2Ryd0JPUlBCMVFkakFWejFlamVSQ0RScGYtXzBpcHl3SUxkWmtmZlBVNWh4dEpTRUhJbTNPbzV6Sk1YYlRaY1F5QXZBRG1FcXFXODR6enUyVXEyOE9xdTJtWkxDdm84emR0YTZvbDRKd2p0UWc2MHdkeEJFVEtnOWZycXNKeS15Wi13M3ZBc2dQUnpqTGRjdDdIdU00cnNVS2FSMTVpUQ?oc=5",
       "published_at": "2026-10-11T07:58:00Z",
       "first_seen_at": "2026-10-11T08:53:55.078442Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -65,7 +166,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSzBZWFhiSi1uUF9tUWJNdkM0cnlOdkJUZTdleW9QYlRiSTUxcXhuVm45emlTWExPSGFSZWU4X2tUVFlJcnJvTlhhTmtqVHk1NkZYSmVKMXJTR2ViYnpkdXlDcy1TVVNVeEVLdFpSS2NuSEpnVFg5SXVDenQ1T3liekV1ZWtuMVFndmhxX0lNY05TemdvekEyYW53U3ozd1JN?oc=5",
       "published_at": "2026-10-11T02:58:23Z",
       "first_seen_at": "2026-10-11T08:53:55.078442Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -114,7 +215,7 @@
       "url": "https://medicalxpress.com/news/2026-10-daily-peanut-consumption-beneficially-affects.html",
       "published_at": "2026-10-10T22:00:06Z",
       "first_seen_at": "2026-10-10T22:33:47.994440Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -159,7 +260,7 @@
       "url": "https://medicalxpress.com/news/2026-10-early-onset-alzheimer-disease-factors.html",
       "published_at": "2026-10-10T20:00:02Z",
       "first_seen_at": "2026-10-10T22:33:47.994440Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -208,7 +309,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOakptaEc0Ni1iZkZtdU1uTF8tb1hyMWd4RzRoVjB5ektQamE4VW1zMFI5NFBydGhvMGRzaF9TdzFUWm1Ibmx4Z0xNeWt0bUgteGpHTWY4S0ktX1pQcFQ0ZFNBQVVlOFo2UlotUFlqTXdRUGt4VV9ISEJSNHRXUE83dm1hNUNsdGlFeFVTd2NGTjA2ZTl4WVF4UG9yOXNBS0V0d0hBMGxLOUU2TmkyNUhFZFFqczRHVEVE?oc=5",
       "published_at": "2026-10-10T16:48:23Z",
       "first_seen_at": "2026-10-10T18:37:30.078501Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -243,113 +344,125 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "disease"
-      ]
-    },
-    {
-      "id": "3084324212b11bcecec4be60030ef29c0004ce58",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-10-circumstances-linked.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "The circumstances you grow up in are linked to how long you live",
-      "title_en": "The circumstances you grow up in are linked to how long you live",
-      "url": "https://medicalxpress.com/news/2026-10-circumstances-linked.html",
-      "published_at": "2026-10-10T15:40:01Z",
-      "first_seen_at": "2026-10-10T18:37:30.078501Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "5e0fe34682c2414d35e4a76b79006c5fd1c2ba68",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-10-medicine-future-driven-mechanical-cell.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "The medicine of the future could be driven by mechanical cell memory",
-      "title_en": "The medicine of the future could be driven by mechanical cell memory",
-      "url": "https://medicalxpress.com/news/2026-10-medicine-future-driven-mechanical-cell.html",
-      "published_at": "2026-10-10T13:40:01Z",
-      "first_seen_at": "2026-10-10T13:44:16.455867Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
       ]
     }
   ],
   "items_all_raw": [
     {
+      "id": "afc368e56a30fdb831ce24483d197023589812ca",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-12th-2026",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Fight Aging! Newsletter, October 12th 2026",
+      "title_en": "Fight Aging! Newsletter, October 12th 2026",
+      "url": "https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-12th-2026",
+      "published_at": "2026-10-11T11:53:13Z",
+      "first_seen_at": "2026-10-11T15:42:32.041762Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "disease",
+        "medicine",
+        "tissue"
+      ]
+    },
+    {
+      "id": "b8b6bd376dceb8ba110e4c4d97fa61c7c96a676e",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-10-extremely-giant-tortoise-jonathan-secret.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "An extremely old giant tortoise named Jonathan may hold the secret to a long, healthy life",
+      "title_en": "An extremely old giant tortoise named Jonathan may hold the secret to a long, healthy life",
+      "url": "https://medicalxpress.com/news/2026-10-extremely-giant-tortoise-jonathan-secret.html",
+      "published_at": "2026-10-11T11:00:02Z",
+      "first_seen_at": "2026-10-11T15:42:32.041762Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "genomics"
+      ],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
       "id": "7bc28b21cc8ed24c54c0486887bebafac8050fdd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFU5SGxaZjlHRUo0Uko3R2Ryd0JPUlBCMVFkakFWejFlamVSQ0RScGYtXzBpcHl3SUxkWmtmZlBVNWh4dEpTRUhJbTNPbzV6Sk1YYlRaY1F5QXZBRG1FcXFXODR6enUyVXEyOE9xdTJtWkxDdm84emR0YTZvbDRKd2p0UWc2MHdkeEJFVEtnOWZycXNKeS15Wi13M3ZBc2dQUnpqTGRjdDdIdU00cnNVS2FSMTVpUQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Would you trust artificial intelligence to calculate your true biological age? - www.cna.al",
-      "title_zh": "您是否相信人工智能可以计算您的真实生物年龄？ - www.cna.al",
-      "title_en": "Would you trust artificial intelligence to calculate your true biological age? - www.cna.al",
+      "title": "Would you trust artificial intelligence to calculate your true biological age? - cna.al",
+      "title_zh": "您是否相信人工智能可以计算您的真实生物年龄？ - cna.al",
+      "title_en": "Would you trust artificial intelligence to calculate your true biological age? - cna.al",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFU5SGxaZjlHRUo0Uko3R2Ryd0JPUlBCMVFkakFWejFlamVSQ0RScGYtXzBpcHl3SUxkWmtmZlBVNWh4dEpTRUhJbTNPbzV6Sk1YYlRaY1F5QXZBRG1FcXFXODR6enUyVXEyOE9xdTJtWkxDdm84emR0YTZvbDRKd2p0UWc2MHdkeEJFVEtnOWZycXNKeS15Wi13M3ZBc2dQUnpqTGRjdDdIdU00cnNVS2FSMTVpUQ?oc=5",
       "published_at": "2026-10-11T07:58:00Z",
       "first_seen_at": "2026-10-11T08:53:55.078442Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -396,7 +509,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSzBZWFhiSi1uUF9tUWJNdkM0cnlOdkJUZTdleW9QYlRiSTUxcXhuVm45emlTWExPSGFSZWU4X2tUVFlJcnJvTlhhTmtqVHk1NkZYSmVKMXJTR2ViYnpkdXlDcy1TVVNVeEVLdFpSS2NuSEpnVFg5SXVDenQ1T3liekV1ZWtuMVFndmhxX0lNY05TemdvekEyYW53U3ozd1JN?oc=5",
       "published_at": "2026-10-11T02:58:23Z",
       "first_seen_at": "2026-10-11T08:53:55.078442Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -445,7 +558,7 @@
       "url": "https://medicalxpress.com/news/2026-10-daily-peanut-consumption-beneficially-affects.html",
       "published_at": "2026-10-10T22:00:06Z",
       "first_seen_at": "2026-10-10T22:33:47.994440Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -490,7 +603,7 @@
       "url": "https://medicalxpress.com/news/2026-10-early-onset-alzheimer-disease-factors.html",
       "published_at": "2026-10-10T20:00:02Z",
       "first_seen_at": "2026-10-10T22:33:47.994440Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -539,7 +652,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOakptaEc0Ni1iZkZtdU1uTF8tb1hyMWd4RzRoVjB5ektQamE4VW1zMFI5NFBydGhvMGRzaF9TdzFUWm1Ibmx4Z0xNeWt0bUgteGpHTWY4S0ktX1pQcFQ0ZFNBQVVlOFo2UlotUFlqTXdRUGt4VV9ISEJSNHRXUE83dm1hNUNsdGlFeFVTd2NGTjA2ZTl4WVF4UG9yOXNBS0V0d0hBMGxLOUU2TmkyNUhFZFFqczRHVEVE?oc=5",
       "published_at": "2026-10-10T16:48:23Z",
       "first_seen_at": "2026-10-10T18:37:30.078501Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
+      "last_seen_at": "2026-10-11T15:42:32.041762Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -574,95 +687,6 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "disease"
-      ]
-    },
-    {
-      "id": "3084324212b11bcecec4be60030ef29c0004ce58",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-10-circumstances-linked.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "The circumstances you grow up in are linked to how long you live",
-      "title_en": "The circumstances you grow up in are linked to how long you live",
-      "url": "https://medicalxpress.com/news/2026-10-circumstances-linked.html",
-      "published_at": "2026-10-10T15:40:01Z",
-      "first_seen_at": "2026-10-10T18:37:30.078501Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "5e0fe34682c2414d35e4a76b79006c5fd1c2ba68",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-10-medicine-future-driven-mechanical-cell.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "The medicine of the future could be driven by mechanical cell memory",
-      "title_en": "The medicine of the future could be driven by mechanical cell memory",
-      "url": "https://medicalxpress.com/news/2026-10-medicine-future-driven-mechanical-cell.html",
-      "published_at": "2026-10-10T13:40:01Z",
-      "first_seen_at": "2026-10-10T13:44:16.455867Z",
-      "last_seen_at": "2026-10-11T08:53:55.078442Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "medicine"
       ]
     }
   ]
