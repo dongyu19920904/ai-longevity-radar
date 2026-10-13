@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-13T07:43:48.149960Z",
+  "generated_at": "2026-10-13T16:00:37.592412Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 41,
-  "total_items_all_mode": 41,
-  "archive_total": 8426,
+  "total_items": 8,
+  "total_items_raw": 35,
+  "total_items_all_mode": 35,
+  "archive_total": 8283,
   "site_count": 2,
-  "source_count": 3,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 39
+      "count": 6,
+      "raw_count": 33
     },
     {
       "site_id": "github_projects",
@@ -24,19 +24,19 @@
   ],
   "items": [
     {
-      "id": "013d043c11fce190e77bcd67c6d759e05fe805e9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
+      "id": "eaf4be00e29e9741fd9e225b007cb1072145c869",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Immorta Bio Pioneers AI-Designed Senolytic Immunotherapy Targeting Diseases of Aging - PR Newswire",
-      "title_zh": "Immorta Bio Pioneers AI设计的针对衰老疾病的Senolytic免疫疗法-美通社",
-      "title_en": "Immorta Bio Pioneers AI-Designed Senolytic Immunotherapy Targeting Diseases of Aging - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
-      "published_at": "2026-10-12T13:22:00Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "title": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
+      "title_zh": "Ultrahuman的新AI戒指将计算您的真实生物年龄：它会告诉您衰老的速度- MARCA",
+      "title_en": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
+      "published_at": "2026-10-13T08:44:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -47,9 +47,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "rejuvenation"
+        "aging_clock"
       ],
-      "primary_topic": "rejuvenation",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -63,63 +63,13 @@
       ],
       "longevity_signals": [
         "aging",
-        "senolytic"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "a42d307732adb091c2abba08939bbfad2ec14625",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Duke launches national hub to advance trustworthy AI for aging and dementia care - Duke School of Medicine",
-      "title_zh": "杜克大学推出国家中心，以推进值得信赖的老龄化和痴呆症护理人工智能-杜克大学医学院",
-      "title_en": "Duke launches national hub to advance trustworthy AI for aging and dementia care - Duke School of Medicine",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
-      "published_at": "2026-10-12T12:00:00Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "medicine"
-      ]
     },
     {
       "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
@@ -132,9 +82,9 @@
       "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
       "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-13T07:19:30Z",
+      "published_at": "2026-10-13T07:54:24Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -173,6 +123,108 @@
       ]
     },
     {
+      "id": "9c7ffbf5c8b6ebea2ffa7f3f472e69912e29bb85",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilgJBVV95cUxOTk1JMFNXRUZZbXBhYXFJbENqVzR1eS1RR0tfUUhBZzQtN2I1TFl2YXh6OXZTLVpJeFBKbWJHWmtqbDJsSU1RbnljMmRBX3RxN0V0R1Z0ekFBS0NEZVpZVzk3YkxSQm9JZ3hXMlBQOWlNWFFwUkR1bTcxTnJ2a05jVmRXRnY5T0xjeS13bkRWOWk4bTNSb0pGSjJCRkZ1M2xiRzFZVDR6QmVlOUVLRTJxN2hsby14SEs4UFJib0tmNktDdU8ydmRyR0FqN1J4bzJCeG5YdGt1Q3UzTlFISDlxNmNsb3g2WjA2UElpZXpiUGUzVDlUWnFkeFpQOVNDTXF0eHhrek9xcGstQmVUcnJ1V3ljQWxCdw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Corsicana Daily Sun",
+      "title_zh": "IGC Pharma推出PRISM AI平台，将阿尔茨海默氏症风险预测转向大脑健康行动和商业部署- Corsicana Daily Sun",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Corsicana Daily Sun",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOTk1JMFNXRUZZbXBhYXFJbENqVzR1eS1RR0tfUUhBZzQtN2I1TFl2YXh6OXZTLVpJeFBKbWJHWmtqbDJsSU1RbnljMmRBX3RxN0V0R1Z0ekFBS0NEZVpZVzk3YkxSQm9JZ3hXMlBQOWlNWFFwUkR1bTcxTnJ2a05jVmRXRnY5T0xjeS13bkRWOWk4bTNSb0pGSjJCRkZ1M2xiRzFZVDR6QmVlOUVLRTJxN2hsby14SEs4UFJib0tmNktDdU8ydmRyR0FqN1J4bzJCeG5YdGt1Q3UzTlFISDlxNmNsb3g2WjA2UElpZXpiUGUzVDlUWnFkeFpQOVNDTXF0eHhrek9xcGstQmVUcnJ1V3ljQWxCdw?oc=5",
+      "published_at": "2026-10-13T12:03:52Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "e2b0738443addacd9119bc320b67eb96f2aed51b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "An AI tool aims to turn Alzheimer's risk predictions into ongoing brain-health tracking. - Stock Titan",
+      "title_zh": "人工智能工具旨在将阿尔茨海默氏症的风险预测转化为持续的大脑健康跟踪。- Stock Titan",
+      "title_en": "An AI tool aims to turn Alzheimer's risk predictions into ongoing brain-health tracking. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
+      "published_at": "2026-10-13T12:00:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
       "id": "8e8cf7609e7027f39efb47f5919b6dda35563048",
       "canonical_key": "repo:vanitha938/qadiag-ml",
       "site_id": "github_projects",
@@ -185,7 +237,7 @@
       "url": "https://github.com/Vanitha938/QADiag-ML",
       "published_at": "2026-10-13T06:18:45Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "longevity_is_related": true,
@@ -222,23 +274,169 @@
       "biological_context_signals": [
         "disease"
       ]
+    },
+    {
+      "id": "161e42058a0117b66957721e0c3edd9cfd7abac3",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Muse adds AI-powered brain age tracking to its existing headbands - Gadgets & Wearables",
+      "title_zh": "Muse将人工智能驱动的大脑年龄跟踪添加到其现有的头带-小工具和可穿戴设备",
+      "title_en": "Muse adds AI-powered brain age tracking to its existing headbands - Gadgets & Wearables",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
+      "published_at": "2026-10-13T14:32:33Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "e0b59df1314939c81c1c3566e4e9dc130682868a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Longevitix Announces Collaboration with Dr. Eric Verdin to Advance AI-Powered Preventive and Longevity Medicine - GlobeNewswire",
+      "title_zh": "Longevitix宣布与Eric Verdin博士合作推进人工智能预防和长寿医学- GlobeNewswire",
+      "title_en": "Longevitix Announces Collaboration with Dr. Eric Verdin to Advance AI-Powered Preventive and Longevity Medicine - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
+      "published_at": "2026-10-13T13:02:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "452810e471098d60352e465fccdb76f306c7c3f2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform for Alzheimer’s Care - ACCESS Newswire",
+      "title_zh": "IGC Pharma推出用于阿尔茨海默病护理的PRISM AI平台- ACCESS Newswire",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform for Alzheimer’s Care - ACCESS Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
+      "published_at": "2026-10-13T12:18:23Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
-      "id": "013d043c11fce190e77bcd67c6d759e05fe805e9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
+      "id": "eaf4be00e29e9741fd9e225b007cb1072145c869",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Immorta Bio Pioneers AI-Designed Senolytic Immunotherapy Targeting Diseases of Aging - PR Newswire",
-      "title_zh": "Immorta Bio Pioneers AI设计的针对衰老疾病的Senolytic免疫疗法-美通社",
-      "title_en": "Immorta Bio Pioneers AI-Designed Senolytic Immunotherapy Targeting Diseases of Aging - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
-      "published_at": "2026-10-12T13:22:00Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "title": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
+      "title_zh": "Ultrahuman的新AI戒指将计算您的真实生物年龄：它会告诉您衰老的速度- MARCA",
+      "title_en": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
+      "published_at": "2026-10-13T08:44:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -249,9 +447,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "rejuvenation"
+        "aging_clock"
       ],
-      "primary_topic": "rejuvenation",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -265,63 +463,13 @@
       ],
       "longevity_signals": [
         "aging",
-        "senolytic"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "a42d307732adb091c2abba08939bbfad2ec14625",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Duke launches national hub to advance trustworthy AI for aging and dementia care - Duke School of Medicine",
-      "title_zh": "杜克大学推出国家中心，以推进值得信赖的老龄化和痴呆症护理人工智能-杜克大学医学院",
-      "title_en": "Duke launches national hub to advance trustworthy AI for aging and dementia care - Duke School of Medicine",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
-      "published_at": "2026-10-12T12:00:00Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "medicine"
-      ]
     },
     {
       "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
@@ -334,9 +482,9 @@
       "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
       "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-13T07:19:30Z",
+      "published_at": "2026-10-13T07:54:24Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -375,6 +523,108 @@
       ]
     },
     {
+      "id": "9c7ffbf5c8b6ebea2ffa7f3f472e69912e29bb85",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilgJBVV95cUxOTk1JMFNXRUZZbXBhYXFJbENqVzR1eS1RR0tfUUhBZzQtN2I1TFl2YXh6OXZTLVpJeFBKbWJHWmtqbDJsSU1RbnljMmRBX3RxN0V0R1Z0ekFBS0NEZVpZVzk3YkxSQm9JZ3hXMlBQOWlNWFFwUkR1bTcxTnJ2a05jVmRXRnY5T0xjeS13bkRWOWk4bTNSb0pGSjJCRkZ1M2xiRzFZVDR6QmVlOUVLRTJxN2hsby14SEs4UFJib0tmNktDdU8ydmRyR0FqN1J4bzJCeG5YdGt1Q3UzTlFISDlxNmNsb3g2WjA2UElpZXpiUGUzVDlUWnFkeFpQOVNDTXF0eHhrek9xcGstQmVUcnJ1V3ljQWxCdw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Corsicana Daily Sun",
+      "title_zh": "IGC Pharma推出PRISM AI平台，将阿尔茨海默氏症风险预测转向大脑健康行动和商业部署- Corsicana Daily Sun",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Corsicana Daily Sun",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOTk1JMFNXRUZZbXBhYXFJbENqVzR1eS1RR0tfUUhBZzQtN2I1TFl2YXh6OXZTLVpJeFBKbWJHWmtqbDJsSU1RbnljMmRBX3RxN0V0R1Z0ekFBS0NEZVpZVzk3YkxSQm9JZ3hXMlBQOWlNWFFwUkR1bTcxTnJ2a05jVmRXRnY5T0xjeS13bkRWOWk4bTNSb0pGSjJCRkZ1M2xiRzFZVDR6QmVlOUVLRTJxN2hsby14SEs4UFJib0tmNktDdU8ydmRyR0FqN1J4bzJCeG5YdGt1Q3UzTlFISDlxNmNsb3g2WjA2UElpZXpiUGUzVDlUWnFkeFpQOVNDTXF0eHhrek9xcGstQmVUcnJ1V3ljQWxCdw?oc=5",
+      "published_at": "2026-10-13T12:03:52Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "e2b0738443addacd9119bc320b67eb96f2aed51b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "An AI tool aims to turn Alzheimer's risk predictions into ongoing brain-health tracking. - Stock Titan",
+      "title_zh": "人工智能工具旨在将阿尔茨海默氏症的风险预测转化为持续的大脑健康跟踪。- Stock Titan",
+      "title_en": "An AI tool aims to turn Alzheimer's risk predictions into ongoing brain-health tracking. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
+      "published_at": "2026-10-13T12:00:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
       "id": "8e8cf7609e7027f39efb47f5919b6dda35563048",
       "canonical_key": "repo:vanitha938/qadiag-ml",
       "site_id": "github_projects",
@@ -387,7 +637,7 @@
       "url": "https://github.com/Vanitha938/QADiag-ML",
       "published_at": "2026-10-13T06:18:45Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "longevity_is_related": true,
@@ -424,6 +674,152 @@
       "biological_context_signals": [
         "disease"
       ]
+    },
+    {
+      "id": "161e42058a0117b66957721e0c3edd9cfd7abac3",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Muse adds AI-powered brain age tracking to its existing headbands - Gadgets & Wearables",
+      "title_zh": "Muse将人工智能驱动的大脑年龄跟踪添加到其现有的头带-小工具和可穿戴设备",
+      "title_en": "Muse adds AI-powered brain age tracking to its existing headbands - Gadgets & Wearables",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
+      "published_at": "2026-10-13T14:32:33Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
+      "id": "e0b59df1314939c81c1c3566e4e9dc130682868a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Longevitix Announces Collaboration with Dr. Eric Verdin to Advance AI-Powered Preventive and Longevity Medicine - GlobeNewswire",
+      "title_zh": "Longevitix宣布与Eric Verdin博士合作推进人工智能预防和长寿医学- GlobeNewswire",
+      "title_en": "Longevitix Announces Collaboration with Dr. Eric Verdin to Advance AI-Powered Preventive and Longevity Medicine - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
+      "published_at": "2026-10-13T13:02:00Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medicine"
+      ]
+    },
+    {
+      "id": "452810e471098d60352e465fccdb76f306c7c3f2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform for Alzheimer’s Care - ACCESS Newswire",
+      "title_zh": "IGC Pharma推出用于阿尔茨海默病护理的PRISM AI平台- ACCESS Newswire",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform for Alzheimer’s Care - ACCESS Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
+      "published_at": "2026-10-13T12:18:23Z",
+      "first_seen_at": "2026-10-13T16:00:37.592412Z",
+      "last_seen_at": "2026-10-13T16:00:37.592412Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
