@@ -734,5 +734,7 @@
   "Immorta Bio Pioneers AI-Designed Senolytic Immunotherapy Targeting Diseases of Aging - PR Newswire": "Immorta Bio Pioneers AI设计的针对衰老疾病的Senolytic免疫疗法-美通社",
   "Duke launches national hub to advance trustworthy AI for aging and dementia care - Duke School of Medicine": "杜克大学推出国家中心，以推进值得信赖的老龄化和痴呆症护理人工智能-杜克大学医学院",
   "AI Learns to Say I Don’t Know: Risk-Calibrated Transformer Brings Safer Alzheimer’s Staging - Bioengineer.org": "人工智能学会说我不知道：风险校准的变压器带来更安全的阿尔茨海默氏症分期- Bioengineer.org",
-  "ARDD 2026 Signals a New Era for Longevity Biotechnology as Frontier AI, Big Pharma, and Scientific Pioneers Converge at Harvard - Insilico Medicine": "ARDD 2026标志着长寿生物技术的新时代，前沿人工智能、大型制药和科学先驱在哈佛- Insilico Medicine汇聚"
+  "ARDD 2026 Signals a New Era for Longevity Biotechnology as Frontier AI, Big Pharma, and Scientific Pioneers Converge at Harvard - Insilico Medicine": "ARDD 2026标志着长寿生物技术的新时代，前沿人工智能、大型制药和科学先驱在哈佛- Insilico Medicine汇聚",
+  "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
+  "Vanitha938/QADiag-ML: QADiag-ML is a quantum-inspired machine learning framework for early Alzheimer’s disease diagnosis using multimodal biomarkers. It integrates nonlinear feature mapping, matrix product state tensor networks, prototype-based kernel refinement, and adaptive gated fusion. The framework supports disease classification, longitudinal progression.": "Vanitha938/QADiag-ML ： QADiag-ML是一种量子启发的机器学习框架，用于使用多模式生物标志物进行早期阿尔茨海默病诊断。它集成了非线性特征映射、矩阵乘积状态张量网络、基于原型的核细化和自适应门控融合。该框架支持疾病分类、纵向进展。"
 }

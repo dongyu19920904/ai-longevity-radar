@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-13T00:41:56.288693Z",
+  "generated_at": "2026-10-13T07:43:48.149960Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 39,
-  "total_items_all_mode": 39,
-  "archive_total": 8486,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items": 4,
+  "total_items_raw": 41,
+  "total_items_all_mode": 41,
+  "archive_total": 8426,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
+      "count": 2,
       "raw_count": 39
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 2,
+      "raw_count": 2
     }
   ],
   "items": [
@@ -30,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
       "published_at": "2026-10-12T13:22:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -78,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
       "published_at": "2026-10-12T12:00:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -116,43 +122,93 @@
       ]
     },
     {
-      "id": "86d2d0b22c11360a6d1da1c1f6f4f17b9c3ca3ff",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI Learns to Say I Don’t Know: Risk-Calibrated Transformer Brings Safer Alzheimer’s Staging - Bioengineer.org",
-      "title_zh": "人工智能学会说我不知道：风险校准的变压器带来更安全的阿尔茨海默氏症分期- Bioengineer.org",
-      "title_en": "AI Learns to Say I Don’t Know: Risk-Calibrated Transformer Brings Safer Alzheimer’s Staging - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
-      "published_at": "2026-10-12T05:33:24Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
+      "canonical_key": "repo:ismailtatli/brainage-xai",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ismailtatli/BrainAge-XAI",
+      "source_type": "project",
+      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
+      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "url": "https://github.com/ismailtatli/BrainAge-XAI",
+      "published_at": "2026-10-13T07:19:30Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.67,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
+      "longevity_score": 0.67,
+      "signal_score": 0.6,
+      "domain_score": 0.67,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "xai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive"
+      ]
+    },
+    {
+      "id": "8e8cf7609e7027f39efb47f5919b6dda35563048",
+      "canonical_key": "repo:vanitha938/qadiag-ml",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "Vanitha938/QADiag-ML",
+      "source_type": "project",
+      "title": "Vanitha938/QADiag-ML: QADiag-ML is a quantum-inspired machine learning framework for early Alzheimer’s disease diagnosis using multimodal biomarkers. It integrates nonlinear feature mapping, matrix product state tensor networks, prototype-based kernel refinement, and adaptive gated fusion. The framework supports disease classification, longitudinal progression.",
+      "title_zh": "Vanitha938/QADiag-ML ： QADiag-ML是一种量子启发的机器学习框架，用于使用多模式生物标志物进行早期阿尔茨海默病诊断。它集成了非线性特征映射、矩阵乘积状态张量网络、基于原型的核细化和自适应门控融合。该框架支持疾病分类、纵向进展。",
+      "title_en": "Vanitha938/QADiag-ML: QADiag-ML is a quantum-inspired machine learning framework for early Alzheimer’s disease diagnosis using multimodal biomarkers. It integrates nonlinear feature mapping, matrix product state tensor networks, prototype-based kernel refinement, and adaptive gated fusion. The framework supports disease classification, longitudinal progression.",
+      "url": "https://github.com/Vanitha938/QADiag-ML",
+      "published_at": "2026-10-13T06:18:45Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "ai_is_related": true,
+      "ai_score": 0.78,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.59,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "research_tool"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "transformer"
+        "machine learning",
+        "ml",
+        "multimodal"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -160,8 +216,12 @@
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": [
+        "disease"
+      ]
     }
   ],
   "items_ai": [
@@ -178,7 +238,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
       "published_at": "2026-10-12T13:22:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -226,7 +286,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
       "published_at": "2026-10-12T12:00:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -264,43 +324,93 @@
       ]
     },
     {
-      "id": "86d2d0b22c11360a6d1da1c1f6f4f17b9c3ca3ff",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI Learns to Say I Don’t Know: Risk-Calibrated Transformer Brings Safer Alzheimer’s Staging - Bioengineer.org",
-      "title_zh": "人工智能学会说我不知道：风险校准的变压器带来更安全的阿尔茨海默氏症分期- Bioengineer.org",
-      "title_en": "AI Learns to Say I Don’t Know: Risk-Calibrated Transformer Brings Safer Alzheimer’s Staging - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
-      "published_at": "2026-10-12T05:33:24Z",
-      "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-13T00:41:56.288693Z",
+      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
+      "canonical_key": "repo:ismailtatli/brainage-xai",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ismailtatli/BrainAge-XAI",
+      "source_type": "project",
+      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
+      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "url": "https://github.com/ismailtatli/BrainAge-XAI",
+      "published_at": "2026-10-13T07:19:30Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.67,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
+      "longevity_score": 0.67,
+      "signal_score": 0.6,
+      "domain_score": 0.67,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "xai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive"
+      ]
+    },
+    {
+      "id": "8e8cf7609e7027f39efb47f5919b6dda35563048",
+      "canonical_key": "repo:vanitha938/qadiag-ml",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "Vanitha938/QADiag-ML",
+      "source_type": "project",
+      "title": "Vanitha938/QADiag-ML: QADiag-ML is a quantum-inspired machine learning framework for early Alzheimer’s disease diagnosis using multimodal biomarkers. It integrates nonlinear feature mapping, matrix product state tensor networks, prototype-based kernel refinement, and adaptive gated fusion. The framework supports disease classification, longitudinal progression.",
+      "title_zh": "Vanitha938/QADiag-ML ： QADiag-ML是一种量子启发的机器学习框架，用于使用多模式生物标志物进行早期阿尔茨海默病诊断。它集成了非线性特征映射、矩阵乘积状态张量网络、基于原型的核细化和自适应门控融合。该框架支持疾病分类、纵向进展。",
+      "title_en": "Vanitha938/QADiag-ML: QADiag-ML is a quantum-inspired machine learning framework for early Alzheimer’s disease diagnosis using multimodal biomarkers. It integrates nonlinear feature mapping, matrix product state tensor networks, prototype-based kernel refinement, and adaptive gated fusion. The framework supports disease classification, longitudinal progression.",
+      "url": "https://github.com/Vanitha938/QADiag-ML",
+      "published_at": "2026-10-13T06:18:45Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-13T07:43:48.149960Z",
+      "ai_is_related": true,
+      "ai_score": 0.78,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.59,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "research_tool"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "transformer"
+        "machine learning",
+        "ml",
+        "multimodal"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -308,8 +418,12 @@
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": [
+        "disease"
+      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
