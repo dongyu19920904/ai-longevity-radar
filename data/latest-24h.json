@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-12T17:56:43.737412Z",
+  "generated_at": "2026-10-13T00:41:56.288693Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 27,
-  "total_items_all_mode": 27,
-  "archive_total": 8710,
+  "total_items": 3,
+  "total_items_raw": 39,
+  "total_items_all_mode": 39,
+  "archive_total": 8486,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 27
+      "count": 3,
+      "raw_count": 39
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
       "published_at": "2026-10-12T13:22:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -78,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
       "published_at": "2026-10-12T12:00:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -128,7 +128,7 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
       "published_at": "2026-10-12T05:33:24Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -162,56 +162,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "7a3066d91671a515025b01eb4a2b1ec0cc4e29d6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxPR242UXl5ekdpaXhfbmFreU43RTQ0Q3M5WkpWUWR5LWl1dmJPWlIxbm1FX1BkcVBIUTVDNEhXRUtTbEdSakxoLUc2TEtzaFM2WWVobnMzUWJpbXc3U2dkMjRyUTlSODVhcWtfa05ySFk3empUUzB6a09MUXlDVm1JZEdjR2paVWhNektzMVIxbWViZGowZG1uTDJ4UnFZeEk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI That Reads Brain Scans and Medical Records Boosts Alzheimer’s Diagnosis - Bioengineer.org",
-      "title_zh": "阅读脑部扫描和医疗记录的人工智能促进老年痴呆症的诊断- Bioengineer.org",
-      "title_en": "AI That Reads Brain Scans and Medical Records Boosts Alzheimer’s Diagnosis - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR242UXl5ekdpaXhfbmFreU43RTQ0Q3M5WkpWUWR5LWl1dmJPWlIxbm1FX1BkcVBIUTVDNEhXRUtTbEdSakxoLUc2TEtzaFM2WWVobnMzUWJpbXc3U2dkMjRyUTlSODVhcWtfa05ySFk3empUUzB6a09MUXlDVm1JZEdjR2paVWhNektzMVIxbWViZGowZG1uTDJ4UnFZeEk?oc=5",
-      "published_at": "2026-10-11T23:55:35Z",
-      "first_seen_at": "2026-10-12T00:33:35.827160Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "medical"
-      ]
     }
   ],
   "items_ai": [
@@ -228,7 +178,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlRbTNYTWd4MFZvaUdwb3pudGozZ3VGcG56ZUw2ZF9Icmxud0gtM0ZIX19ra29uaDVMNW1DSkY3Mk5jRlhUY1BybnVTamF2TG4zWEUxRXY2SjJleHRSOC1feERQX0cwbmg5akFybG91X3dtWGRtejA3Y1VDZUVwM3NWcUJfbVRlZ0xMelU5QXdzRUN4NklfSHhUM3hYVnZDUnVxekFRbS1TZ2tjNXdXS3hoTmNoWmE5ZHpMMjF0bXJycS1lLU9CQlZnQ1FpT2NaTzBidDR0QQ?oc=5",
       "published_at": "2026-10-12T13:22:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -276,7 +226,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2hSRE1DZ2ZPVllULThXR2ZMN0JNSlN2c1ZlT2JJMGpSMENudjRiUzJqMDk4Q2hhOW11cnV2emFiUXRYanFwd0hBR3VEdExhSkdSM3gtV1hMU19iajl6VjBSLWpMWXptdFBoaU9XdFVFQk5sQkE4Mk9adzNVWkhxdldDeW5iUnpfcmNzd09lMHFpOVo1b0RMVGpldWljU25PUTVjT3djMVNLUVk?oc=5",
       "published_at": "2026-10-12T12:00:00Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -326,7 +276,7 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzU3R0tLMDlvMUpvQ0E1VXBVNDZoMWtON1lTS3AwWllEejlLSFcweUd4SUVMclpiSjZHOXEtTGM3eXJfRndZclI1NWM4SjVaSGpuNWVQd016alpUUElheXZqeFdERDhSclhwUkdIT0w4QmZkdTBfXzE3anlKWURwVVJQc0I3SUJZbmQ0MlJjZHVOeWl2bWZLYkJFQ1VrV1JFOXNhMzE3QlB5YmRsRzJqMVo4MA?oc=5",
       "published_at": "2026-10-12T05:33:24Z",
       "first_seen_at": "2026-10-12T17:56:43.737412Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
+      "last_seen_at": "2026-10-13T00:41:56.288693Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -360,56 +310,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "7a3066d91671a515025b01eb4a2b1ec0cc4e29d6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxPR242UXl5ekdpaXhfbmFreU43RTQ0Q3M5WkpWUWR5LWl1dmJPWlIxbm1FX1BkcVBIUTVDNEhXRUtTbEdSakxoLUc2TEtzaFM2WWVobnMzUWJpbXc3U2dkMjRyUTlSODVhcWtfa05ySFk3empUUzB6a09MUXlDVm1JZEdjR2paVWhNektzMVIxbWViZGowZG1uTDJ4UnFZeEk?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI That Reads Brain Scans and Medical Records Boosts Alzheimer’s Diagnosis - Bioengineer.org",
-      "title_zh": "阅读脑部扫描和医疗记录的人工智能促进老年痴呆症的诊断- Bioengineer.org",
-      "title_en": "AI That Reads Brain Scans and Medical Records Boosts Alzheimer’s Diagnosis - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR242UXl5ekdpaXhfbmFreU43RTQ0Q3M5WkpWUWR5LWl1dmJPWlIxbm1FX1BkcVBIUTVDNEhXRUtTbEdSakxoLUc2TEtzaFM2WWVobnMzUWJpbXc3U2dkMjRyUTlSODVhcWtfa05ySFk3empUUzB6a09MUXlDVm1JZEdjR2paVWhNektzMVIxbWViZGowZG1uTDJ4UnFZeEk?oc=5",
-      "published_at": "2026-10-11T23:55:35Z",
-      "first_seen_at": "2026-10-12T00:33:35.827160Z",
-      "last_seen_at": "2026-10-12T17:56:43.737412Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "medical"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
