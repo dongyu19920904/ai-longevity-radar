@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-13T21:16:04.984946Z",
+  "generated_at": "2026-10-14T01:13:49.405979Z",
   "window_hours": 24,
-  "total_items": 9,
-  "total_items_raw": 32,
-  "total_items_all_mode": 32,
-  "archive_total": 8024,
+  "total_items": 12,
+  "total_items_raw": 37,
+  "total_items_all_mode": 37,
+  "archive_total": 7910,
   "site_count": 2,
-  "source_count": 5,
+  "source_count": 6,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 30
+      "count": 10,
+      "raw_count": 35
     },
     {
       "site_id": "github_projects",
@@ -36,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
       "published_at": "2026-10-13T08:44:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -84,7 +84,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-13T18:46:56Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -186,7 +186,58 @@
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQTZQWGs2akMwbnRSVGZjaXdzSFdKb2YwUGJFRWJoVnVuNjNmWXJabzF6aXh3QjFCTHF5TlNDdmkzVTVDb3dtbXJ5ZlczYWRmRHJrUllzVjJWVUpVTkN4OEw5NmFtSXVXZUJjeHFEMExLaEkta0gxVjhzaFBJX2VQMWlxVW04VU4wUEkzNWVJWGVucVNoT0FCbmVqWGN6eHQ0blFxTnAxampwLVFqRFVlWVpuZmdqY1hLOVJQWXJOejh5bTJnQXNSWjJWQzFJOTVVYWJuVUF5MVpETUl4bWhHd3p3dVBfM01LWHVvalJobFZGTlVwSkZ1a21FRlluZVI3aXl0RF9qODd4ZFJVejNXUVJjQk9zQQ?oc=5",
       "published_at": "2026-10-13T12:03:52Z",
       "first_seen_at": "2026-10-13T21:16:04.984946Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "3e25fe8f97849f4365d0187cb8cfa48534b46169",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwJBVV95cUxQRnl6RUUyem1ydHRjVklkZWdzc2puazREQ19YVGtNQ2NHa2FSR28tMGxVcXUwM0ZoeW9maVliWTlsSU9WbFdaR3JmbHA4SGhQbE5NaTItbnJ2T2hRWWFQd2FJRFFyN3hObk1JelkzWGt5VnRjdDM1NWVOOVpyRTZfa3FFWDBhYXVWYUN1NV9GWXlBNkVFdTVFcTlLWE4yVHpDSmdnNW9TbHF1NmNRbEw3ZThYaUpQWDRuMmtReXd3aDhQNjdOVDRoNmJZQmpvekpXb0N0cFBVREIteGFSQ1k0MGVYVV8zOGdMSmRIVEtzTDZFQllNQUlCRElmaF9VTklWNkRmdnREQXZVT0t3aVNDaE9fYWdMUlY4b1Fz?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Weatherford Democrat",
+      "title_zh": "IGC Pharma推出PRISM AI平台，将阿尔茨海默氏症风险预测转向大脑健康行动和商业部署- Weatherford Democrat",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Weatherford Democrat",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRnl6RUUyem1ydHRjVklkZWdzc2puazREQ19YVGtNQ2NHa2FSR28tMGxVcXUwM0ZoeW9maVliWTlsSU9WbFdaR3JmbHA4SGhQbE5NaTItbnJ2T2hRWWFQd2FJRFFyN3hObk1JelkzWGt5VnRjdDM1NWVOOVpyRTZfa3FFWDBhYXVWYUN1NV9GWXlBNkVFdTVFcTlLWE4yVHpDSmdnNW9TbHF1NmNRbEw3ZThYaUpQWDRuMmtReXd3aDhQNjdOVDRoNmJZQmpvekpXb0N0cFBVREIteGFSQ1k0MGVYVV8zOGdMSmRIVEtzTDZFQllNQUlCRElmaF9VTklWNkRmdnREQXZVT0t3aVNDaE9fYWdMUlY4b1Fz?oc=5",
+      "published_at": "2026-10-13T12:03:52Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -237,7 +288,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
       "published_at": "2026-10-13T12:00:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -288,7 +339,7 @@
       "url": "https://github.com/Vanitha938/QADiag-ML",
       "published_at": "2026-10-13T06:18:45Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "longevity_is_related": true,
@@ -327,6 +378,53 @@
       ]
     },
     {
+      "id": "0620eafb8bb97fc84fb5a416f0e0d743c2eff900",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeTQ2dmpmeDNUak90bEE5QXhkU0dhQnJGWGR4cG1YS3VoWlNlVW1mLWZOZDJ6b3FwdlNvMG5mMTg4RzBhYlZndnVJSWxWb19rb3pkWHRTZTdxSExUbjQ5M2VETTR6WWZzSTlSZVlyUEZsZnFkZ1Y2M3poeGNYMVVpd0x1Vy15RDIwUldtMDYxU2NBM1RPQURuWGl6ejRqNGp6RndjRm8ySTU0UDA0Y1BTSFdYV0ZYZmNBNUNZbnR5UzhWM0VHNnpMa3huOXJCX0EyU1E?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "'I won't trust AI': Readers share mixed reaction to AI tools that calculate people's biological ages - Live Science",
+      "title_zh": "“我不会相信人工智能” ：读者对计算人类生物年龄的人工智能工具的反应喜忧参半- Live Science",
+      "title_en": "'I won't trust AI': Readers share mixed reaction to AI tools that calculate people's biological ages - Live Science",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeTQ2dmpmeDNUak90bEE5QXhkU0dhQnJGWGR4cG1YS3VoWlNlVW1mLWZOZDJ6b3FwdlNvMG5mMTg4RzBhYlZndnVJSWxWb19rb3pkWHRTZTdxSExUbjQ5M2VETTR6WWZzSTlSZVlyUEZsZnFkZ1Y2M3poeGNYMVVpd0x1Vy15RDIwUldtMDYxU2NBM1RPQURuWGl6ejRqNGp6RndjRm8ySTU0UDA0Y1BTSFdYV0ZYZmNBNUNZbnR5UzhWM0VHNnpMa3huOXJCX0EyU1E?oc=5",
+      "published_at": "2026-10-13T20:40:36Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "161e42058a0117b66957721e0c3edd9cfd7abac3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
       "site_id": "official_rss",
@@ -339,7 +437,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
       "published_at": "2026-10-13T14:38:39Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -377,6 +475,56 @@
       ]
     },
     {
+      "id": "6abac792718e311d81c7da0c8c7f79a1be9d1a80",
+      "canonical_key": "url:https://longevity.technology/news/immorta-bio-develops-ai-designed-senolytic-immunotherapy",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Immorta Bio develops AI-designed senolytic immunotherapy",
+      "title_zh": "Immorta Bio开发人工智能设计的抗衰老免疫疗法",
+      "title_en": "Immorta Bio develops AI-designed senolytic immunotherapy",
+      "url": "https://longevity.technology/news/immorta-bio-develops-ai-designed-senolytic-immunotherapy",
+      "published_at": "2026-10-13T13:31:11Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "senolytic"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "immune"
+      ]
+    },
+    {
       "id": "e0b59df1314939c81c1c3566e4e9dc130682868a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
       "site_id": "official_rss",
@@ -389,7 +537,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
       "published_at": "2026-10-13T13:02:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -438,7 +586,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
       "published_at": "2026-10-13T12:18:23Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -487,7 +635,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
       "published_at": "2026-10-13T08:44:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -535,7 +683,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-13T18:46:56Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -637,7 +785,58 @@
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQTZQWGs2akMwbnRSVGZjaXdzSFdKb2YwUGJFRWJoVnVuNjNmWXJabzF6aXh3QjFCTHF5TlNDdmkzVTVDb3dtbXJ5ZlczYWRmRHJrUllzVjJWVUpVTkN4OEw5NmFtSXVXZUJjeHFEMExLaEkta0gxVjhzaFBJX2VQMWlxVW04VU4wUEkzNWVJWGVucVNoT0FCbmVqWGN6eHQ0blFxTnAxampwLVFqRFVlWVpuZmdqY1hLOVJQWXJOejh5bTJnQXNSWjJWQzFJOTVVYWJuVUF5MVpETUl4bWhHd3p3dVBfM01LWHVvalJobFZGTlVwSkZ1a21FRlluZVI3aXl0RF9qODd4ZFJVejNXUVJjQk9zQQ?oc=5",
       "published_at": "2026-10-13T12:03:52Z",
       "first_seen_at": "2026-10-13T21:16:04.984946Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "3e25fe8f97849f4365d0187cb8cfa48534b46169",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwJBVV95cUxQRnl6RUUyem1ydHRjVklkZWdzc2puazREQ19YVGtNQ2NHa2FSR28tMGxVcXUwM0ZoeW9maVliWTlsSU9WbFdaR3JmbHA4SGhQbE5NaTItbnJ2T2hRWWFQd2FJRFFyN3hObk1JelkzWGt5VnRjdDM1NWVOOVpyRTZfa3FFWDBhYXVWYUN1NV9GWXlBNkVFdTVFcTlLWE4yVHpDSmdnNW9TbHF1NmNRbEw3ZThYaUpQWDRuMmtReXd3aDhQNjdOVDRoNmJZQmpvekpXb0N0cFBVREIteGFSQ1k0MGVYVV8zOGdMSmRIVEtzTDZFQllNQUlCRElmaF9VTklWNkRmdnREQXZVT0t3aVNDaE9fYWdMUlY4b1Fz?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Weatherford Democrat",
+      "title_zh": "IGC Pharma推出PRISM AI平台，将阿尔茨海默氏症风险预测转向大脑健康行动和商业部署- Weatherford Democrat",
+      "title_en": "IGC Pharma Unveils PRISM AI Platform to Move Alzheimer's Risk Prediction to Brain-Health Action and Commercial Deployment - Weatherford Democrat",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRnl6RUUyem1ydHRjVklkZWdzc2puazREQ19YVGtNQ2NHa2FSR28tMGxVcXUwM0ZoeW9maVliWTlsSU9WbFdaR3JmbHA4SGhQbE5NaTItbnJ2T2hRWWFQd2FJRFFyN3hObk1JelkzWGt5VnRjdDM1NWVOOVpyRTZfa3FFWDBhYXVWYUN1NV9GWXlBNkVFdTVFcTlLWE4yVHpDSmdnNW9TbHF1NmNRbEw3ZThYaUpQWDRuMmtReXd3aDhQNjdOVDRoNmJZQmpvekpXb0N0cFBVREIteGFSQ1k0MGVYVV8zOGdMSmRIVEtzTDZFQllNQUlCRElmaF9VTklWNkRmdnREQXZVT0t3aVNDaE9fYWdMUlY4b1Fz?oc=5",
+      "published_at": "2026-10-13T12:03:52Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -688,7 +887,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlBKQkdWYkthcWNydmdLRXNfMEVuMUZtNXluSkk1QmR2YndWVk9kUDJTZENCSWt2OWN3dHZkR19LLUNiRmQzWnZocWNKMWttX0FObS01UE9TZDRWZVFsNEp3VFhndTd2RmtkcjctYXcyd0ZrMkR2THFOeWhWbzdRWWMwUkwxMFQ5VmF0T2ZPZVhoWlVEMmhCNzBFc3VfdlhtVHJ0YzZzS3YwbkVNNGFtb2ZJOFNwQQ?oc=5",
       "published_at": "2026-10-13T12:00:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -739,7 +938,7 @@
       "url": "https://github.com/Vanitha938/QADiag-ML",
       "published_at": "2026-10-13T06:18:45Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "longevity_is_related": true,
@@ -778,6 +977,53 @@
       ]
     },
     {
+      "id": "0620eafb8bb97fc84fb5a416f0e0d743c2eff900",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeTQ2dmpmeDNUak90bEE5QXhkU0dhQnJGWGR4cG1YS3VoWlNlVW1mLWZOZDJ6b3FwdlNvMG5mMTg4RzBhYlZndnVJSWxWb19rb3pkWHRTZTdxSExUbjQ5M2VETTR6WWZzSTlSZVlyUEZsZnFkZ1Y2M3poeGNYMVVpd0x1Vy15RDIwUldtMDYxU2NBM1RPQURuWGl6ejRqNGp6RndjRm8ySTU0UDA0Y1BTSFdYV0ZYZmNBNUNZbnR5UzhWM0VHNnpMa3huOXJCX0EyU1E?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "'I won't trust AI': Readers share mixed reaction to AI tools that calculate people's biological ages - Live Science",
+      "title_zh": "“我不会相信人工智能” ：读者对计算人类生物年龄的人工智能工具的反应喜忧参半- Live Science",
+      "title_en": "'I won't trust AI': Readers share mixed reaction to AI tools that calculate people's biological ages - Live Science",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeTQ2dmpmeDNUak90bEE5QXhkU0dhQnJGWGR4cG1YS3VoWlNlVW1mLWZOZDJ6b3FwdlNvMG5mMTg4RzBhYlZndnVJSWxWb19rb3pkWHRTZTdxSExUbjQ5M2VETTR6WWZzSTlSZVlyUEZsZnFkZ1Y2M3poeGNYMVVpd0x1Vy15RDIwUldtMDYxU2NBM1RPQURuWGl6ejRqNGp6RndjRm8ySTU0UDA0Y1BTSFdYV0ZYZmNBNUNZbnR5UzhWM0VHNnpMa3huOXJCX0EyU1E?oc=5",
+      "published_at": "2026-10-13T20:40:36Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "161e42058a0117b66957721e0c3edd9cfd7abac3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
       "site_id": "official_rss",
@@ -790,7 +1036,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WcUh5eDluTS1EVG45Tlc4RVNkcG8xQzBiUlpsTDNJbU5hZC1iWGRPRlJiMHVBMGViTGRkcW11TFQ5TjY0MGJVMWtFOERqYnAtNElZUHRIMnBENzdMaVJaZFJCQVZZaXFPZmpRalFZdmpCOVdqLTFFOTVOUQ?oc=5",
       "published_at": "2026-10-13T14:38:39Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -828,6 +1074,56 @@
       ]
     },
     {
+      "id": "6abac792718e311d81c7da0c8c7f79a1be9d1a80",
+      "canonical_key": "url:https://longevity.technology/news/immorta-bio-develops-ai-designed-senolytic-immunotherapy",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "Immorta Bio develops AI-designed senolytic immunotherapy",
+      "title_zh": "Immorta Bio开发人工智能设计的抗衰老免疫疗法",
+      "title_en": "Immorta Bio develops AI-designed senolytic immunotherapy",
+      "url": "https://longevity.technology/news/immorta-bio-develops-ai-designed-senolytic-immunotherapy",
+      "published_at": "2026-10-13T13:31:11Z",
+      "first_seen_at": "2026-10-14T01:13:49.405979Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "rejuvenation"
+      ],
+      "primary_topic": "rejuvenation",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "senolytic"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "immune"
+      ]
+    },
+    {
       "id": "e0b59df1314939c81c1c3566e4e9dc130682868a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
       "site_id": "official_rss",
@@ -840,7 +1136,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUU2N3dPbThETkV4b2hDS1Bpa09PdmhRUERvX1VLSWdCOEcxd1U5WHMtTEFkTms4b21KRXpkbjZld3RNbFF6NUhiZDlCejdrVkxkYUdFWE9CQTczZThPcVZaSmNKY0xUeDVZXzFOUEloZGNGRjNvbllPckpJeGN2TTE1Mm1uWGlHN2FyeS1iQjNXeVIyakZwMExRaFdjSUR2Q1d2cFIyaHVSamRZUERWLXRXUFF4UmJoNk4wQmJpMDhydmJVai1MSHBOODVfaTBLWDNXVmJWSjFfSV8zS240cHY2YWZHMG1JNm8xeXR4Z0ZpakFLeFFPZ09sVGozV0swMzhZT3BDV251c2ZIeEhR?oc=5",
       "published_at": "2026-10-13T13:02:00Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -889,7 +1185,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0UtVTl4ZnRSQ01VXzFWeUExSEZNUksyN3dKQTM1NW1HZHY5UFEtdU9MR0VGTURNZGJrUk5KZjU0bTZWcmNLVVN3WWVJYW5tTnM1ZmREb3BfZTdvWTA4Yl9GNWo3b0pLRGlqbEJSdkN1T3JOTnNPRUJUaVV1bGN4QVgzT21lQlVNcVY4Y3JWV3pfQU15UHBuTFlFN20yb2k4R2hFLWpWRWxHZk5TQXA1UERlRmd5bldoR3daLTdDeXdWenRRNlAwTVNrbFpRckdnYzhzTkgxbnpQdEdCLWZWWUVUQjA?oc=5",
       "published_at": "2026-10-13T12:18:23Z",
       "first_seen_at": "2026-10-13T16:00:37.592412Z",
-      "last_seen_at": "2026-10-13T21:16:04.984946Z",
+      "last_seen_at": "2026-10-14T01:13:49.405979Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
