@@ -1,25 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-15T09:56:37.436374Z",
+  "generated_at": "2026-10-15T15:02:30.844038Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 31,
-  "total_items_all_mode": 31,
-  "archive_total": 7219,
+  "total_items": 5,
+  "total_items_raw": 37,
+  "total_items_all_mode": 37,
+  "archive_total": 7039,
   "site_count": 2,
-  "source_count": 4,
+  "source_count": 5,
   "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 3,
+      "raw_count": 35
+    },
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
       "count": 2,
       "raw_count": 2
-    },
-    {
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 29
     }
   ],
   "items": [
@@ -36,7 +36,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-15T06:23:05Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -75,24 +75,24 @@
       ]
     },
     {
-      "id": "7f70050a8cdec6731aa5e471d57c05ca2d74e1d8",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "id": "f00de865345a92335724d24a8063b953c9379e38",
+      "canonical_key": "url:https://www.news-medical.net/news/20261015/INmune-Bio-Inc-and-Quantum-Computing-Inc-partner-to-apply-quantum-optimization-and-AI-to-advance-Alzheimere28099s-drug-research-and-explore-new-applications-for-XPro.aspx",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
+      "source": "News-Medical Alzheimer",
       "source_type": "news",
-      "title": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
-      "title_zh": "量子优化和人工智能开发阿尔茨海默氏症药物- NextBigFuture.com",
-      "title_en": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
-      "published_at": "2026-10-14T22:03:49Z",
-      "first_seen_at": "2026-10-15T04:41:43.292764Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "title": "INmune Bio Inc. and Quantum Computing Inc. partner to apply quantum optimization and AI to advance Alzheimer’s drug research and explore new applications for XPro",
+      "title_zh": "INmune Bio Inc.和Quantum Computing Inc.合作应用量子优化和人工智能来推进阿尔茨海默氏症药物研究并探索XPro的新应用",
+      "title_en": "INmune Bio Inc. and Quantum Computing Inc. partner to apply quantum optimization and AI to advance Alzheimer’s drug research and explore new applications for XPro",
+      "url": "https://www.news-medical.net/news/20261015/INmune-Bio-Inc-and-Quantum-Computing-Inc-partner-to-apply-quantum-optimization-and-AI-to-advance-Alzheimere28099s-drug-research-and-explore-new-applications-for-XPro.aspx",
+      "published_at": "2026-10-15T12:11:00Z",
+      "first_seen_at": "2026-10-15T15:02:30.844038Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.7,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.562,
+      "signal_score": 0.595,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -110,7 +110,8 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -119,22 +120,75 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "disease"
+      ]
     },
     {
-      "id": "09408500b3c7a052527e271e88a9013a984f5d84",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzZlYXdlbjk0RTBsV1JpdmI3SFBCVTdfWlpxNURDdXEwRXNPWF9BeWJ3X2hTV2d2Q1Zmbk5QcWswalVsOUZMbDQyZ2FJSjdwcWtHWTRMWmhreUljMElKaFYyRGhWYkdlQzctcXgxTkVGaDh4U2NDcmtjR3RjUjViVmRxME1PUzdYZDdtaQ?oc=5",
+      "id": "2336a0830598d77262e2a5e0e9e806cae4948887",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOYjdHWXZCNTVCWjhvWWtac3BnSEF5SFMtYU9ZazJROXRGUFA5RTRnNC1sb196b0Q1Z0ZPcmJySHJHLTBXbktoYjZfVmlmcC1MLTZ4MDdXRC02NmJvS1ZXTUs3bG1YWE5nTGZuNFM1eDdjeGFET0NVTUJ3VWswMlFhcWdqbnNiWVdQLXY1ZWhjSldfQkZqRkphb0xCMndNZHh0SG5yU21KY2FueWFLaFFmcXB1R2JpLTl6SW1iemJFUFFvZ29CaXVyQTZn?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "INmune Bio and Quantum Computing partner to apply quantum optimization and AI to advance Alzheimer's drug research and explore new applications for XPro - The Next Web",
-      "title_zh": "INmune Bio和Quantum Computing合作应用量子优化和人工智能来推进阿尔茨海默氏症药物研究并探索XPro - The Next Web的新应用",
-      "title_en": "INmune Bio and Quantum Computing partner to apply quantum optimization and AI to advance Alzheimer's drug research and explore new applications for XPro - The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzZlYXdlbjk0RTBsV1JpdmI3SFBCVTdfWlpxNURDdXEwRXNPWF9BeWJ3X2hTV2d2Q1Zmbk5QcWswalVsOUZMbDQyZ2FJSjdwcWtHWTRMWmhreUljMElKaFYyRGhWYkdlQzctcXgxTkVGaDh4U2NDcmtjR3RjUjViVmRxME1PUzdYZDdtaQ?oc=5",
-      "published_at": "2026-10-14T12:56:47Z",
-      "first_seen_at": "2026-10-14T17:12:06.300092Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "title": "Potomac's IGC Pharma Unveils PRISM™ AI Platform to Turn Alzheimer's Risk Prediction Into Brain-Health Action - BioBuzz",
+      "title_zh": "Potomac的IGC Pharma推出PRISM™人工智能平台，将阿尔茨海默氏症风险预测转化为大脑健康行动- BioBuzz",
+      "title_en": "Potomac's IGC Pharma Unveils PRISM™ AI Platform to Turn Alzheimer's Risk Prediction Into Brain-Health Action - BioBuzz",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYjdHWXZCNTVCWjhvWWtac3BnSEF5SFMtYU9ZazJROXRGUFA5RTRnNC1sb196b0Q1Z0ZPcmJySHJHLTBXbktoYjZfVmlmcC1MLTZ4MDdXRC02NmJvS1ZXTUs3bG1YWE5nTGZuNFM1eDdjeGFET0NVTUJ3VWswMlFhcWdqbnNiWVdQLXY1ZWhjSldfQkZqRkphb0xCMndNZHh0SG5yU21KY2FueWFLaFFmcXB1R2JpLTl6SW1iemJFUFFvZ29CaXVyQTZn?oc=5",
+      "published_at": "2026-10-14T17:03:50Z",
+      "first_seen_at": "2026-10-15T15:02:30.844038Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "7f70050a8cdec6731aa5e471d57c05ca2d74e1d8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
+      "title_zh": "量子优化和人工智能开发阿尔茨海默氏症药物- NextBigFuture.com",
+      "title_en": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "published_at": "2026-10-14T22:03:49Z",
+      "first_seen_at": "2026-10-15T04:41:43.292764Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -181,7 +235,7 @@
       "url": "https://github.com/TomorrowTodayShow/Tomorrow-Today-Show",
       "published_at": "2026-10-15T06:47:16Z",
       "first_seen_at": "2026-10-15T09:56:37.436374Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -227,7 +281,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-15T06:23:05Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -266,24 +320,24 @@
       ]
     },
     {
-      "id": "7f70050a8cdec6731aa5e471d57c05ca2d74e1d8",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "id": "f00de865345a92335724d24a8063b953c9379e38",
+      "canonical_key": "url:https://www.news-medical.net/news/20261015/INmune-Bio-Inc-and-Quantum-Computing-Inc-partner-to-apply-quantum-optimization-and-AI-to-advance-Alzheimere28099s-drug-research-and-explore-new-applications-for-XPro.aspx",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
+      "source": "News-Medical Alzheimer",
       "source_type": "news",
-      "title": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
-      "title_zh": "量子优化和人工智能开发阿尔茨海默氏症药物- NextBigFuture.com",
-      "title_en": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
-      "published_at": "2026-10-14T22:03:49Z",
-      "first_seen_at": "2026-10-15T04:41:43.292764Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "title": "INmune Bio Inc. and Quantum Computing Inc. partner to apply quantum optimization and AI to advance Alzheimer’s drug research and explore new applications for XPro",
+      "title_zh": "INmune Bio Inc.和Quantum Computing Inc.合作应用量子优化和人工智能来推进阿尔茨海默氏症药物研究并探索XPro的新应用",
+      "title_en": "INmune Bio Inc. and Quantum Computing Inc. partner to apply quantum optimization and AI to advance Alzheimer’s drug research and explore new applications for XPro",
+      "url": "https://www.news-medical.net/news/20261015/INmune-Bio-Inc-and-Quantum-Computing-Inc-partner-to-apply-quantum-optimization-and-AI-to-advance-Alzheimere28099s-drug-research-and-explore-new-applications-for-XPro.aspx",
+      "published_at": "2026-10-15T12:11:00Z",
+      "first_seen_at": "2026-10-15T15:02:30.844038Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.7,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.562,
+      "signal_score": 0.595,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -301,7 +355,8 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "ai",
+        "artificial intelligence"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -310,22 +365,75 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "disease"
+      ]
     },
     {
-      "id": "09408500b3c7a052527e271e88a9013a984f5d84",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzZlYXdlbjk0RTBsV1JpdmI3SFBCVTdfWlpxNURDdXEwRXNPWF9BeWJ3X2hTV2d2Q1Zmbk5QcWswalVsOUZMbDQyZ2FJSjdwcWtHWTRMWmhreUljMElKaFYyRGhWYkdlQzctcXgxTkVGaDh4U2NDcmtjR3RjUjViVmRxME1PUzdYZDdtaQ?oc=5",
+      "id": "2336a0830598d77262e2a5e0e9e806cae4948887",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOYjdHWXZCNTVCWjhvWWtac3BnSEF5SFMtYU9ZazJROXRGUFA5RTRnNC1sb196b0Q1Z0ZPcmJySHJHLTBXbktoYjZfVmlmcC1MLTZ4MDdXRC02NmJvS1ZXTUs3bG1YWE5nTGZuNFM1eDdjeGFET0NVTUJ3VWswMlFhcWdqbnNiWVdQLXY1ZWhjSldfQkZqRkphb0xCMndNZHh0SG5yU21KY2FueWFLaFFmcXB1R2JpLTl6SW1iemJFUFFvZ29CaXVyQTZn?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "INmune Bio and Quantum Computing partner to apply quantum optimization and AI to advance Alzheimer's drug research and explore new applications for XPro - The Next Web",
-      "title_zh": "INmune Bio和Quantum Computing合作应用量子优化和人工智能来推进阿尔茨海默氏症药物研究并探索XPro - The Next Web的新应用",
-      "title_en": "INmune Bio and Quantum Computing partner to apply quantum optimization and AI to advance Alzheimer's drug research and explore new applications for XPro - The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzZlYXdlbjk0RTBsV1JpdmI3SFBCVTdfWlpxNURDdXEwRXNPWF9BeWJ3X2hTV2d2Q1Zmbk5QcWswalVsOUZMbDQyZ2FJSjdwcWtHWTRMWmhreUljMElKaFYyRGhWYkdlQzctcXgxTkVGaDh4U2NDcmtjR3RjUjViVmRxME1PUzdYZDdtaQ?oc=5",
-      "published_at": "2026-10-14T12:56:47Z",
-      "first_seen_at": "2026-10-14T17:12:06.300092Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "title": "Potomac's IGC Pharma Unveils PRISM™ AI Platform to Turn Alzheimer's Risk Prediction Into Brain-Health Action - BioBuzz",
+      "title_zh": "Potomac的IGC Pharma推出PRISM™人工智能平台，将阿尔茨海默氏症风险预测转化为大脑健康行动- BioBuzz",
+      "title_en": "Potomac's IGC Pharma Unveils PRISM™ AI Platform to Turn Alzheimer's Risk Prediction Into Brain-Health Action - BioBuzz",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYjdHWXZCNTVCWjhvWWtac3BnSEF5SFMtYU9ZazJROXRGUFA5RTRnNC1sb196b0Q1Z0ZPcmJySHJHLTBXbktoYjZfVmlmcC1MLTZ4MDdXRC02NmJvS1ZXTUs3bG1YWE5nTGZuNFM1eDdjeGFET0NVTUJ3VWswMlFhcWdqbnNiWVdQLXY1ZWhjSldfQkZqRkphb0xCMndNZHh0SG5yU21KY2FueWFLaFFmcXB1R2JpLTl6SW1iemJFUFFvZ29CaXVyQTZn?oc=5",
+      "published_at": "2026-10-14T17:03:50Z",
+      "first_seen_at": "2026-10-15T15:02:30.844038Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "health"
+      ]
+    },
+    {
+      "id": "7f70050a8cdec6731aa5e471d57c05ca2d74e1d8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
+      "title_zh": "量子优化和人工智能开发阿尔茨海默氏症药物- NextBigFuture.com",
+      "title_en": "Quantum Optimization and AI to Develop Alzheimer’s Drugs - NextBigFuture.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTB3WGZ4MFVjRG5pR2xRZlhZdFFwbVhsUnF1NWc4eDNtU0pDTGpRdkZYdnlEckxmZjFWTVh4d1NrZjM5U1BnYko1eEpDNDIyU3VxcUlPN0dQemNrX2NQeFNaNmprX1djbDRqUzdxU0gzY0FRc1JJOEg2ZEViMkpMSVowMmhGdHVXMkJxd1NZMUt0ZHNyb0F3b0FwWVJZU1k?oc=5",
+      "published_at": "2026-10-14T22:03:49Z",
+      "first_seen_at": "2026-10-15T04:41:43.292764Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -372,7 +480,7 @@
       "url": "https://github.com/TomorrowTodayShow/Tomorrow-Today-Show",
       "published_at": "2026-10-15T06:47:16Z",
       "first_seen_at": "2026-10-15T09:56:37.436374Z",
-      "last_seen_at": "2026-10-15T09:56:37.436374Z",
+      "last_seen_at": "2026-10-15T15:02:30.844038Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
