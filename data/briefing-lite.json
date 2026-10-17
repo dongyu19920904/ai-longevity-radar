@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-17T17:11:43.609411Z",
+  "generated_at": "2026-10-17T19:26:38.889621Z",
   "window_hours": 504,
   "selection_mode": "core_first_related_fallback",
   "item_count": 8,
@@ -18,7 +18,7 @@
       "published_at": "2026-10-13T17:40:34Z",
       "signal_score": 0.82,
       "domain_score": 0.82,
-      "freshness_score": 0.431,
+      "freshness_score": 0.418,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -42,7 +42,7 @@
       "published_at": "2026-10-14T00:00:00Z",
       "signal_score": 0.817,
       "domain_score": 0.66,
-      "freshness_score": 0.469,
+      "freshness_score": 0.456,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -51,6 +51,30 @@
       "publication_stage": "preprint",
       "risk_flags": [
         "preprint_not_peer_reviewed"
+      ]
+    },
+    {
+      "id": "33bf2e986c501c7ffcf435c7153627f1c69a91cf",
+      "title": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
+      "title_zh": "人工智能老化时钟：机器如何学会测量你真正衰老的速度- Bioengineer.org",
+      "title_en": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5",
+      "source": "Google News · AI Longevity",
+      "site_id": "official_rss",
+      "source_type": "news",
+      "published_at": "2026-10-17T17:51:18Z",
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "freshness_score": 0.991,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
       ]
     },
     {
@@ -65,7 +89,7 @@
       "published_at": "2026-10-16T10:05:00Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.815,
+      "freshness_score": 0.801,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -74,30 +98,6 @@
       "publication_stage": "secondary_report",
       "risk_flags": [
         "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ]
-    },
-    {
-      "id": "eaf4be00e29e9741fd9e225b007cb1072145c869",
-      "title": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
-      "title_zh": "Ultrahuman的新AI戒指将计算您的真实生物年龄：它会告诉您衰老的速度- MARCA",
-      "title_en": "Ultrahuman's new AI ring will calculate your true biological age: it will tell you how fast you are aging - MARCA",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNWJoSHMyTUhQQ285WlRtZzBieFNkU1NVb3ZjR1loM3g2OUNIMl9NNS1iVG5lTGNLZGk2bUxESTYzVFFCbDRXaGU3S25WS3lqY2gxX2NBaFVhNTRFOWZiQUctSzdLSUQ0MEE5UjZnRk5XOHFFTlIxRkFadl9aWHkyeWNTQV9Zc3AtVDNYVEdYLXVscVo1d0NuMzJFLVRhdTlqUTNJYUZJQXZMa2xsUDVzbWs5R2ZkLVcwRms2ZHQ4VGF5WG9MX0w1OTF6YnlSSEd2YVVlei1hblZuLVZBMTRKbGttU1lOZm41WXA5SdIB7AFBVV95cUxNdXJXYnFGVmlvWThwMC1vanktcFFvRHIzYmFRN1U0U0U1ZG10ZFFOcy1HLXVQR2JkNVpsX1R2Y2lheW1WWDZUMUM4YkFqZUxfY2QtZk5qMW1BbTBuSHV0MjFOTmlFT2RSVHM1dG82ZWEzdWM3V3JCZkY2NE9mZlZXVk80alJFNlhSUVNJTGtTNDlHa2hWS1FfZ0tzbG9yZ1NIcEtweEpGdnpXaHRPS2FZM2RINWNYUFRqX3BEdWRQLVBlNERRcG8tSHotbmZ3RHd5MmtEN0NpSnNYdUdLZUtiOXBGbGRUS3FNNDRaWA?oc=5",
-      "source": "Google News · AI Longevity",
-      "site_id": "official_rss",
-      "source_type": "news",
-      "published_at": "2026-10-13T08:44:00Z",
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "freshness_score": 0.378,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "risk_flags": [
         "secondary_source",
         "not_primary_evidence"
       ]
@@ -114,7 +114,7 @@
       "published_at": "2026-10-15T06:23:05Z",
       "signal_score": 0.6,
       "domain_score": 0.67,
-      "freshness_score": 0.65,
+      "freshness_score": 0.637,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -135,7 +135,7 @@
       "published_at": "2026-10-15T12:11:00Z",
       "signal_score": 0.595,
       "domain_score": 0.6,
-      "freshness_score": 0.684,
+      "freshness_score": 0.671,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -159,7 +159,7 @@
       "published_at": "2026-10-13T12:03:52Z",
       "signal_score": 0.595,
       "domain_score": 0.6,
-      "freshness_score": 0.398,
+      "freshness_score": 0.385,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -183,7 +183,7 @@
       "published_at": "2026-10-13T06:18:45Z",
       "signal_score": 0.59,
       "domain_score": 0.57,
-      "freshness_score": 0.364,
+      "freshness_score": 0.35,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
