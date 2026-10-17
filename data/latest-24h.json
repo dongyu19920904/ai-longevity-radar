@@ -1,22 +1,122 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-17T13:44:10.861573Z",
+  "generated_at": "2026-10-17T17:11:43.609411Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 15,
-  "total_items_all_mode": 15,
-  "archive_total": 6668,
+  "total_items": 5,
+  "total_items_raw": 13,
+  "total_items_all_mode": 13,
+  "archive_total": 6611,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 12
+      "count": 5,
+      "raw_count": 13
     }
   ],
   "items": [
+    {
+      "id": "b8bd133c62ef66017241563126a69d296b75daa3",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
+      "title_zh": "MEMOIR-VLM ：一种读取脑部扫描并回答有关阿尔茨海默病问题的人工智能- Bioengineer.org",
+      "title_en": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
+      "published_at": "2026-10-17T15:41:15Z",
+      "first_seen_at": "2026-10-17T17:11:43.609411Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "fc3642f872a9527f4694c1affb9128a73ae1bde8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPclg5STVoY1kwVlI4YTZiZUpuSC1PcS1jS1l4c01XRjNYTFlzcDNzdFN3X2ZzOU82cW5jT0pDdENtQU5WRDdieHlqZ1ZRcE53RjROell6VE90M0YzYmFEVjhaeUc4ZFpFM0NkS0xqSnVlaE5GT01KYk1JenFHUlNlaXVUQUJSbG5OS1JBM2dzbzJaRUk1dG5MbTN3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Hybrid AI reads brain scans to stage Alzheimer’s disease in four steps - Bioengineer.org",
+      "title_zh": "混合人工智能通过四个步骤读取脑部扫描来分期阿尔茨海默病- Bioengineer.org",
+      "title_en": "Hybrid AI reads brain scans to stage Alzheimer’s disease in four steps - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPclg5STVoY1kwVlI4YTZiZUpuSC1PcS1jS1l4c01XRjNYTFlzcDNzdFN3X2ZzOU82cW5jT0pDdENtQU5WRDdieHlqZ1ZRcE53RjROell6VE90M0YzYmFEVjhaeUc4ZFpFM0NkS0xqSnVlaE5GT01KYk1JenFHUlNlaXVUQUJSbG5OS1JBM2dzbzJaRUk1dG5MbTN3?oc=5",
+      "published_at": "2026-10-17T11:21:15Z",
+      "first_seen_at": "2026-10-17T17:11:43.609411Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
     {
       "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
@@ -30,7 +130,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
       "published_at": "2026-10-17T09:08:35Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,9 +177,9 @@
       "title_zh": "人工智能相机捕捉痴呆症药物切割时类似帕金森的步态变化- Bioengineer.org",
       "title_en": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
-      "published_at": "2026-10-17T07:41:50Z",
+      "published_at": "2026-10-17T08:10:57Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -127,7 +227,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
       "published_at": "2026-10-17T04:36:15Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -164,6 +264,106 @@
   ],
   "items_ai": [
     {
+      "id": "b8bd133c62ef66017241563126a69d296b75daa3",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
+      "title_zh": "MEMOIR-VLM ：一种读取脑部扫描并回答有关阿尔茨海默病问题的人工智能- Bioengineer.org",
+      "title_en": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
+      "published_at": "2026-10-17T15:41:15Z",
+      "first_seen_at": "2026-10-17T17:11:43.609411Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "fc3642f872a9527f4694c1affb9128a73ae1bde8",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPclg5STVoY1kwVlI4YTZiZUpuSC1PcS1jS1l4c01XRjNYTFlzcDNzdFN3X2ZzOU82cW5jT0pDdENtQU5WRDdieHlqZ1ZRcE53RjROell6VE90M0YzYmFEVjhaeUc4ZFpFM0NkS0xqSnVlaE5GT01KYk1JenFHUlNlaXVUQUJSbG5OS1JBM2dzbzJaRUk1dG5MbTN3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Hybrid AI reads brain scans to stage Alzheimer’s disease in four steps - Bioengineer.org",
+      "title_zh": "混合人工智能通过四个步骤读取脑部扫描来分期阿尔茨海默病- Bioengineer.org",
+      "title_en": "Hybrid AI reads brain scans to stage Alzheimer’s disease in four steps - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPclg5STVoY1kwVlI4YTZiZUpuSC1PcS1jS1l4c01XRjNYTFlzcDNzdFN3X2ZzOU82cW5jT0pDdENtQU5WRDdieHlqZ1ZRcE53RjROell6VE90M0YzYmFEVjhaeUc4ZFpFM0NkS0xqSnVlaE5GT01KYk1JenFHUlNlaXVUQUJSbG5OS1JBM2dzbzJaRUk1dG5MbTN3?oc=5",
+      "published_at": "2026-10-17T11:21:15Z",
+      "first_seen_at": "2026-10-17T17:11:43.609411Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
       "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
       "site_id": "official_rss",
@@ -176,7 +376,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
       "published_at": "2026-10-17T09:08:35Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -223,9 +423,9 @@
       "title_zh": "人工智能相机捕捉痴呆症药物切割时类似帕金森的步态变化- Bioengineer.org",
       "title_en": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
-      "published_at": "2026-10-17T07:41:50Z",
+      "published_at": "2026-10-17T08:10:57Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -273,7 +473,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
       "published_at": "2026-10-17T04:36:15Z",
       "first_seen_at": "2026-10-17T09:23:05.865883Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T17:11:43.609411Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
