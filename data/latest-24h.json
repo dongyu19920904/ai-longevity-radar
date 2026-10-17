@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-17T04:28:48.514159Z",
+  "generated_at": "2026-10-17T09:23:05.865883Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 161,
-  "total_items_all_mode": 161,
-  "archive_total": 6741,
+  "total_items": 6,
+  "total_items_raw": 30,
+  "total_items_all_mode": 30,
+  "archive_total": 6720,
   "site_count": 2,
-  "source_count": 3,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 20
+      "count": 5,
+      "raw_count": 22
     },
     {
       "site_id": "github_projects",
@@ -36,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
       "published_at": "2026-10-16T10:05:00Z",
       "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -75,6 +75,150 @@
       ]
     },
     {
+      "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Saturday Longforms October 17, 2026: Alzheimer’s, measles immune amnesia, generic drugs, AI and diagnosis and coding - Substack",
+      "title_zh": "Saturday Longforms 2026年10月17日：阿尔茨海默氏症、麻疹免疫失忆症、仿制药、人工智能以及诊断和编码- Substack",
+      "title_en": "Saturday Longforms October 17, 2026: Alzheimer’s, measles immune amnesia, generic drugs, AI and diagnosis and coding - Substack",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
+      "published_at": "2026-10-17T09:08:35Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune"
+      ]
+    },
+    {
+      "id": "ca9e41f7bccf16da194b90dc984e4d8aeb894767",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
+      "title_zh": "人工智能相机捕捉痴呆症药物切割时类似帕金森的步态变化- Bioengineer.org",
+      "title_en": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
+      "published_at": "2026-10-17T07:41:50Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker",
+        "neurodegeneration"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "810a0fd5578c701c0f276090c1645cf6fb77cc70",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Interpretable AI for neural signal decoding in dementia: an EEG ensemble approach to differential diagnosis - Bioengineer.org",
+      "title_zh": "用于痴呆症神经信号解码的可解释人工智能：脑电图集成鉴别诊断方法- Bioengineer.org",
+      "title_en": "Interpretable AI for neural signal decoding in dementia: an EEG ensemble approach to differential diagnosis - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
+      "published_at": "2026-10-17T04:36:15Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7867060e869054ec97c54b4ec9f31c994bdbd7cf",
       "canonical_key": "url:https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "site_id": "official_rss",
@@ -87,7 +231,7 @@
       "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "published_at": "2026-10-16T10:31:13Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -128,56 +272,6 @@
       ]
     },
     {
-      "id": "7595cdab2bc49cb8a22ee9e35f83938230c7eff2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "Harvard AI identifies SRSF1 gene that extends old mice’s lifespan by 14% - DongA Science",
-      "title_zh": "哈佛人工智能识别出将老年小鼠寿命延长14%的SRSF1基因- DongA Science",
-      "title_en": "Harvard AI identifies SRSF1 gene that extends old mice’s lifespan by 14% - DongA Science",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
-      "published_at": "2026-10-16T08:45:00Z",
-      "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "lifespan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "mice"
-      ]
-    },
-    {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
       "site_id": "github_projects",
@@ -190,7 +284,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-16T13:05:13Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -239,7 +333,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
       "published_at": "2026-10-16T10:05:00Z",
       "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -278,6 +372,150 @@
       ]
     },
     {
+      "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Saturday Longforms October 17, 2026: Alzheimer’s, measles immune amnesia, generic drugs, AI and diagnosis and coding - Substack",
+      "title_zh": "Saturday Longforms 2026年10月17日：阿尔茨海默氏症、麻疹免疫失忆症、仿制药、人工智能以及诊断和编码- Substack",
+      "title_en": "Saturday Longforms October 17, 2026: Alzheimer’s, measles immune amnesia, generic drugs, AI and diagnosis and coding - Substack",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
+      "published_at": "2026-10-17T09:08:35Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune"
+      ]
+    },
+    {
+      "id": "ca9e41f7bccf16da194b90dc984e4d8aeb894767",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
+      "title_zh": "人工智能相机捕捉痴呆症药物切割时类似帕金森的步态变化- Bioengineer.org",
+      "title_en": "AI Cameras Catch Parkinson-Like Gait Changes When Dementia Drugs Are Cut - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenNicmpPTWdGd1FhSWRyVm9kc2V1ODdkSXVmb1FYVWltQ3VPelhiRFhlbEdBbmZUV2ZCbElsdTgtSHk1WUR2bzBpcUFjOGVKRW9pSDBqZHVGY0tPVjhRZW9MR3k4WkRKaTgyRHpXd1Q2SVdITUt4SXoyb1pJSW5EVHBXR0NpeHk3eWhtWHRhTWZaSVRPaGVURGF5OVF5UQ?oc=5",
+      "published_at": "2026-10-17T07:41:50Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "digital_biomarker",
+        "neurodegeneration"
+      ],
+      "primary_topic": "digital_biomarker",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "810a0fd5578c701c0f276090c1645cf6fb77cc70",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Interpretable AI for neural signal decoding in dementia: an EEG ensemble approach to differential diagnosis - Bioengineer.org",
+      "title_zh": "用于痴呆症神经信号解码的可解释人工智能：脑电图集成鉴别诊断方法- Bioengineer.org",
+      "title_en": "Interpretable AI for neural signal decoding in dementia: an EEG ensemble approach to differential diagnosis - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2VoR0pudURVYUxEYUpWMVpoRElIU042cnlSVmpMOGZFR3FfY2tYRVhuQWJFcXRIMGFxQV9PbnJzMk9CM05PY1loNmFFbkFfM3p6aklfZXFDTnFLUnJrb2ZSRjU3TkZ2WjRaVlA2RWstY0ZSaEpnVXRtaHRiZ3plb1RCMGIzNU13VE1vd01IOGNqd2dNNklOci1FR2tiVTBxcEoxNUlQX0lId0VGMlhpTlRva3pxcGhQcXpkOW9GczR5SU02Q29zaTFPWQ?oc=5",
+      "published_at": "2026-10-17T04:36:15Z",
+      "first_seen_at": "2026-10-17T09:23:05.865883Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7867060e869054ec97c54b4ec9f31c994bdbd7cf",
       "canonical_key": "url:https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "site_id": "official_rss",
@@ -290,7 +528,7 @@
       "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "published_at": "2026-10-16T10:31:13Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -331,56 +569,6 @@
       ]
     },
     {
-      "id": "7595cdab2bc49cb8a22ee9e35f83938230c7eff2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "Harvard AI identifies SRSF1 gene that extends old mice’s lifespan by 14% - DongA Science",
-      "title_zh": "哈佛人工智能识别出将老年小鼠寿命延长14%的SRSF1基因- DongA Science",
-      "title_en": "Harvard AI identifies SRSF1 gene that extends old mice’s lifespan by 14% - DongA Science",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
-      "published_at": "2026-10-16T08:45:00Z",
-      "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "lifespan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "mice"
-      ]
-    },
-    {
       "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
       "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
       "site_id": "github_projects",
@@ -393,7 +581,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-16T13:05:13Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-17T04:28:48.514159Z",
+      "last_seen_at": "2026-10-17T09:23:05.865883Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
