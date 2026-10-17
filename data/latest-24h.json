@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-16T23:37:42.080645Z",
+  "generated_at": "2026-10-17T04:28:48.514159Z",
   "window_hours": 24,
-  "total_items": 9,
-  "total_items_raw": 294,
-  "total_items_all_mode": 294,
-  "archive_total": 6783,
-  "site_count": 3,
-  "source_count": 4,
+  "total_items": 4,
+  "total_items_raw": 161,
+  "total_items_all_mode": 161,
+  "archive_total": 6741,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
-    {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 5,
-      "raw_count": 96
-    },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 3,
-      "raw_count": 23
+      "raw_count": 20
     },
     {
       "site_id": "github_projects",
@@ -29,251 +23,6 @@
     }
   ],
   "items": [
-    {
-      "id": "e84c62f54283a1cb4bb24a6cdb4f71d11f56358c",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13654746",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Pain as a predictor of incident frailty in middle-aged and older adults with metabolic dysfunction-associated steatotic liver disease: a prospective cohort study using machine learning and external validation",
-      "title_zh": "疼痛作为中老年人代谢功能障碍相关性脂肪性肝病事件脆弱性的预测指标：一项使用机器学习和外部验证的前瞻性队列研究",
-      "title_en": "Pain as a predictor of incident frailty in middle-aged and older adults with metabolic dysfunction-associated steatotic liver disease: a prospective cohort study using machine learning and external validation",
-      "url": "https://europepmc.org/article/MED/PMC13654746",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease",
-        "frailty"
-      ]
-    },
-    {
-      "id": "a739b9dff811cb66c36b8a7e2c453415b7ff0654",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13656680",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Construction and validation of an identification model for frailty in maintenance hemodialysis patients using multiple machine learning algorithms: a cross-sectional study of retrospectively collected data",
-      "title_zh": "使用多种机器学习算法构建和验证维持性血液透析患者虚弱的识别模型：回顾性收集数据的横断面研究",
-      "title_en": "Construction and validation of an identification model for frailty in maintenance hemodialysis patients using multiple machine learning algorithms: a cross-sectional study of retrospectively collected data",
-      "url": "https://europepmc.org/article/MED/PMC13656680",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "frailty",
-        "patients"
-      ]
-    },
-    {
-      "id": "01c4f91bad11897491d726c15116e601430e9910",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13655240",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Immune-related molecular links between asthma and Alzheimer’s disease identified by multi-omics, machine learning and single-cell analysis",
-      "title_zh": "通过多组学、机器学习和单细胞分析确定的哮喘和阿尔茨海默病之间的免疫相关分子联系",
-      "title_en": "Immune-related molecular links between asthma and Alzheimer’s disease identified by multi-omics, machine learning and single-cell analysis",
-      "url": "https://europepmc.org/article/MED/PMC13655240",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics",
-        "single-cell"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "disease",
-        "immune"
-      ]
-    },
-    {
-      "id": "b97eb6001d6b4fc497704f406527ea905b0fac56",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13661320",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers",
-      "title_zh": "使用多尺度信息保留变换的基于脑电图的阿尔茨海默病检测：机器学习分类器的学科级比较",
-      "title_en": "Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers",
-      "url": "https://europepmc.org/article/MED/PMC13661320",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T21:11:03.389225Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "95c8c031c597f9eef6b8b77fa91112d36ec755c9",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13662426",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Evolution of deep learning for structural magnetic resonance imaging analysis in Alzheimer’s disease: from slice-level classification to brain structure modeling",
-      "title_zh": "阿尔茨海默病结构磁共振成像分析深度学习的演变：从切片级分类到脑结构建模",
-      "title_en": "Evolution of deep learning for structural magnetic resonance imaging analysis in Alzheimer’s disease: from slice-level classification to brain structure modeling",
-      "url": "https://europepmc.org/article/MED/PMC13662426",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T21:11:03.389225Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "disease"
-      ]
-    },
     {
       "id": "0b768327297061baf589634456bc8ca1409ebf2b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
@@ -287,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
       "published_at": "2026-10-16T10:05:00Z",
       "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -338,7 +87,7 @@
       "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "published_at": "2026-10-16T10:31:13Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -391,7 +140,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
       "published_at": "2026-10-16T08:45:00Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -441,7 +190,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-16T13:05:13Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -478,251 +227,6 @@
   ],
   "items_ai": [
     {
-      "id": "e84c62f54283a1cb4bb24a6cdb4f71d11f56358c",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13654746",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Pain as a predictor of incident frailty in middle-aged and older adults with metabolic dysfunction-associated steatotic liver disease: a prospective cohort study using machine learning and external validation",
-      "title_zh": "疼痛作为中老年人代谢功能障碍相关性脂肪性肝病事件脆弱性的预测指标：一项使用机器学习和外部验证的前瞻性队列研究",
-      "title_en": "Pain as a predictor of incident frailty in middle-aged and older adults with metabolic dysfunction-associated steatotic liver disease: a prospective cohort study using machine learning and external validation",
-      "url": "https://europepmc.org/article/MED/PMC13654746",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease",
-        "frailty"
-      ]
-    },
-    {
-      "id": "a739b9dff811cb66c36b8a7e2c453415b7ff0654",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13656680",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Construction and validation of an identification model for frailty in maintenance hemodialysis patients using multiple machine learning algorithms: a cross-sectional study of retrospectively collected data",
-      "title_zh": "使用多种机器学习算法构建和验证维持性血液透析患者虚弱的识别模型：回顾性收集数据的横断面研究",
-      "title_en": "Construction and validation of an identification model for frailty in maintenance hemodialysis patients using multiple machine learning algorithms: a cross-sectional study of retrospectively collected data",
-      "url": "https://europepmc.org/article/MED/PMC13656680",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "frailty",
-        "patients"
-      ]
-    },
-    {
-      "id": "01c4f91bad11897491d726c15116e601430e9910",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13655240",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Immune-related molecular links between asthma and Alzheimer’s disease identified by multi-omics, machine learning and single-cell analysis",
-      "title_zh": "通过多组学、机器学习和单细胞分析确定的哮喘和阿尔茨海默病之间的免疫相关分子联系",
-      "title_en": "Immune-related molecular links between asthma and Alzheimer’s disease identified by multi-omics, machine learning and single-cell analysis",
-      "url": "https://europepmc.org/article/MED/PMC13655240",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "multi_omics"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics",
-        "single-cell"
-      ],
-      "biological_context_signals": [
-        "cell",
-        "disease",
-        "immune"
-      ]
-    },
-    {
-      "id": "b97eb6001d6b4fc497704f406527ea905b0fac56",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13661320",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers",
-      "title_zh": "使用多尺度信息保留变换的基于脑电图的阿尔茨海默病检测：机器学习分类器的学科级比较",
-      "title_en": "Electroencephalography-based Alzheimer's disease detection using multi-scale information retention transform: a subject-level comparison of machine learning classifiers",
-      "url": "https://europepmc.org/article/MED/PMC13661320",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T21:11:03.389225Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "95c8c031c597f9eef6b8b77fa91112d36ec755c9",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13662426",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Evolution of deep learning for structural magnetic resonance imaging analysis in Alzheimer’s disease: from slice-level classification to brain structure modeling",
-      "title_zh": "阿尔茨海默病结构磁共振成像分析深度学习的演变：从切片级分类到脑结构建模",
-      "title_en": "Evolution of deep learning for structural magnetic resonance imaging analysis in Alzheimer’s disease: from slice-level classification to brain structure modeling",
-      "url": "https://europepmc.org/article/MED/PMC13662426",
-      "published_at": "2026-10-16T00:00:00Z",
-      "first_seen_at": "2026-10-16T21:11:03.389225Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "disease"
-      ]
-    },
-    {
       "id": "0b768327297061baf589634456bc8ca1409ebf2b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
       "site_id": "official_rss",
@@ -735,7 +239,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
       "published_at": "2026-10-16T10:05:00Z",
       "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -786,7 +290,7 @@
       "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
       "published_at": "2026-10-16T10:31:13Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -839,7 +343,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuVzZ2b2xhY3BIZHF5LThkczVjZVFWaTFmNTc1VVQxN01Pd3NzWVdlQzliWUhJVkYwVENHT2w4TUlhQmpiQ3E5SzhmUE4wQmt2SnVDVw?oc=5",
       "published_at": "2026-10-16T08:45:00Z",
       "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -889,7 +393,7 @@
       "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
       "published_at": "2026-10-16T13:05:13Z",
       "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-16T23:37:42.080645Z",
+      "last_seen_at": "2026-10-17T04:28:48.514159Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
