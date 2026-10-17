@@ -1,79 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-17T09:23:05.865883Z",
+  "generated_at": "2026-10-17T13:44:10.861573Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 30,
-  "total_items_all_mode": 30,
-  "archive_total": 6720,
-  "site_count": 2,
-  "source_count": 4,
+  "total_items": 3,
+  "total_items_raw": 15,
+  "total_items_all_mode": 15,
+  "archive_total": 6668,
+  "site_count": 1,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 22
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 1,
-      "raw_count": 1
+      "count": 3,
+      "raw_count": 12
     }
   ],
   "items": [
-    {
-      "id": "0b768327297061baf589634456bc8ca1409ebf2b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "AI-Discovered Rejuvenation Gene SRSF1 Extends Lifespan of Aged Mice by 14% - BigGo Finance",
-      "title_zh": "人工智能发现的复兴基因SRSF1将老龄小鼠的寿命延长了14% - BigGo Finance",
-      "title_en": "AI-Discovered Rejuvenation Gene SRSF1 Extends Lifespan of Aged Mice by 14% - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
-      "published_at": "2026-10-16T10:05:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "lifespan",
-        "rejuvenation"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "mice"
-      ]
-    },
     {
       "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
@@ -216,162 +159,11 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "7867060e869054ec97c54b4ec9f31c994bdbd7cf",
-      "canonical_key": "url:https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Inmune Bio, Quantum Computing partner on Alzheimer’s research",
-      "title_zh": "Inmune Bio ，阿尔茨海默病研究的量子计算合作伙伴",
-      "title_en": "Inmune Bio, Quantum Computing partner on Alzheimer’s research",
-      "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
-      "published_at": "2026-10-16T10:31:13Z",
-      "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "clinical_trial"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers",
-        "clinical trial"
-      ],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
-      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "source_type": "project",
-      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
-      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "published_at": "2026-10-16T13:05:13Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
       "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
-      "id": "0b768327297061baf589634456bc8ca1409ebf2b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "AI-Discovered Rejuvenation Gene SRSF1 Extends Lifespan of Aged Mice by 14% - BigGo Finance",
-      "title_zh": "人工智能发现的复兴基因SRSF1将老龄小鼠的寿命延长了14% - BigGo Finance",
-      "title_en": "AI-Discovered Rejuvenation Gene SRSF1 Extends Lifespan of Aged Mice by 14% - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg4QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc?oc=5",
-      "published_at": "2026-10-16T10:05:00Z",
-      "first_seen_at": "2026-10-16T17:25:32.965647Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "lifespan",
-        "rejuvenation"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "mice"
-      ]
-    },
-    {
       "id": "0b4e29dadfec318c297097372b1636ea8c99979a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE04bkdOLW95amowWHdOVUxqVlotZFF6MkwwUWxqbG8tVmhHa2JlVnFBVzNKdUhvOWIzYVNteE1zMXMyb29GSXZDOTlVcXJ0SkVERTMyUEREX3h6akRvdUtUTHMydlpRQ1pjdDlvQ2pBMXlxTVpuV3BHUGZIWXhvUlU?oc=5",
       "site_id": "official_rss",
@@ -513,106 +305,6 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "7867060e869054ec97c54b4ec9f31c994bdbd7cf",
-      "canonical_key": "url:https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Inmune Bio, Quantum Computing partner on Alzheimer’s research",
-      "title_zh": "Inmune Bio ，阿尔茨海默病研究的量子计算合作伙伴",
-      "title_en": "Inmune Bio, Quantum Computing partner on Alzheimer’s research",
-      "url": "https://longevity.technology/news/inmune-bio-quantum-computing-partner-on-alzheimers-research",
-      "published_at": "2026-10-16T10:31:13Z",
-      "first_seen_at": "2026-10-16T12:28:26.258977Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "clinical_trial"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers",
-        "clinical trial"
-      ],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "70c5dcacf2c344fecd3944bbae1cfa0fcbdd193c",
-      "canonical_key": "repo:sharaisabell/eeg-alzheimer-biomarkers-analysis",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "source_type": "project",
-      "title": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "title_zh": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando机器学习。",
-      "title_en": "SharaIsabell/eeg-alzheimer-biomarkers-analysis: Pipeline de extração e classificação de biomarcadores avançados de EEG (PAC, LZC, Kuramoto) para detecção da Doença de Alzheimer usando Machine Learning.",
-      "url": "https://github.com/SharaIsabell/eeg-alzheimer-biomarkers-analysis",
-      "published_at": "2026-10-16T13:05:13Z",
-      "first_seen_at": "2026-09-14T14:04:52.211876Z",
-      "last_seen_at": "2026-10-17T09:23:05.865883Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.524,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarkers"
-      ],
       "biological_context_signals": []
     }
   ],
