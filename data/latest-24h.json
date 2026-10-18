@@ -1,70 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-18T14:35:45.958348Z",
+  "generated_at": "2026-10-18T18:06:57.664026Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 10,
-  "total_items_all_mode": 10,
-  "archive_total": 6332,
+  "total_items": 2,
+  "total_items_raw": 8,
+  "total_items_all_mode": 8,
+  "archive_total": 6275,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 10
+      "count": 2,
+      "raw_count": 8
     }
   ],
   "items": [
-    {
-      "id": "33bf2e986c501c7ffcf435c7153627f1c69a91cf",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
-      "title_zh": "人工智能老化时钟：机器如何学会测量你真正衰老的速度- Bioengineer.org",
-      "title_en": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5",
-      "published_at": "2026-10-17T17:51:18Z",
-      "first_seen_at": "2026-10-17T19:26:38.889621Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
     {
       "id": "15921d39a988064d3d7e2fb99a3146b956f584bd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVZKRGxOUHJLbVdTWE5aZDZqaTRibWZvcWt4X2tWQWw3RlRrVXBEX3NTam9sOXNIeW1udkduTmUxYW93Ui1salYzaHRfUEhnWDc0MERLMjcxY25ua2xsZ04zQ3h5VVQ4U1piYUJwdllia1NBYlhPeDdIVzVNeXVlWHNKcng4NFI5ZDE5cDdSWE9iQm9BREJfdmxjUEltYTBJYk5pcFJhX0VOWUhmVWhuMkt6VXhCQ1RuSVV1RWlB?oc=5",
@@ -78,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVZKRGxOUHJLbVdTWE5aZDZqaTRibWZvcWt4X2tWQWw3RlRrVXBEX3NTam9sOXNIeW1udkduTmUxYW93Ui1salYzaHRfUEhnWDc0MERLMjcxY25ua2xsZ04zQ3h5VVQ4U1piYUJwdllia1NBYlhPeDdIVzVNeXVlWHNKcng4NFI5ZDE5cDdSWE9iQm9BREJfdmxjUEltYTBJYk5pcFJhX0VOWUhmVWhuMkt6VXhCQ1RuSVV1RWlB?oc=5",
       "published_at": "2026-10-17T18:36:18Z",
       "first_seen_at": "2026-10-17T22:20:18.778874Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
+      "last_seen_at": "2026-10-18T18:06:57.664026Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -116,68 +68,19 @@
       ]
     },
     {
-      "id": "20669c87cbb622e8f6799849fe21eca00382ab63",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxPby1pTldPZHBVclNBUDBHT2tpOHlZYjRLVWpPVExVX1NRYXFfVzJENTNma1d4b0V6Z3l5dUM0Zk1Da0VDaDNYNE84a0lXR3hBRXh5MmNPU0pDWFkya0VEODhRZjBKSXZBWUk4NXhkaW4wUXBBbDc2aTJ3VFo5OXpuNkRnamhMOE5Vdm9zZGtBR2E1TzBP?oc=5",
+      "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI Finds Hidden Brain Landmarks on CT to Catch Treatable Dementia - Bioengineer.org",
-      "title_zh": "人工智能在CT上发现隐藏的大脑标志，以发现可治疗的痴呆症- Bioengineer.org",
-      "title_en": "AI Finds Hidden Brain Landmarks on CT to Catch Treatable Dementia - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPby1pTldPZHBVclNBUDBHT2tpOHlZYjRLVWpPVExVX1NRYXFfVzJENTNma1d4b0V6Z3l5dUM0Zk1Da0VDaDNYNE84a0lXR3hBRXh5MmNPU0pDWFkya0VEODhRZjBKSXZBWUk4NXhkaW4wUXBBbDc2aTJ3VFo5OXpuNkRnamhMOE5Vdm9zZGtBR2E1TzBP?oc=5",
-      "published_at": "2026-10-17T17:21:18Z",
-      "first_seen_at": "2026-10-18T01:03:52.405121Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
-    },
-    {
-      "id": "b8bd133c62ef66017241563126a69d296b75daa3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
-      "title_zh": "MEMOIR-VLM ：一种读取脑部扫描并回答有关阿尔茨海默病问题的人工智能- Bioengineer.org",
-      "title_en": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
-      "published_at": "2026-10-17T15:41:15Z",
-      "first_seen_at": "2026-10-17T17:11:43.609411Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
+      "title": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
+      "title_zh": "模型模型能帮助解开阿尔茨海默病的谜团吗？ - Unite.AI",
+      "title_en": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
+      "published_at": "2026-10-18T16:56:22Z",
+      "first_seen_at": "2026-10-18T18:06:57.664026Z",
+      "last_seen_at": "2026-10-18T18:06:57.664026Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -210,61 +113,12 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
         "disease"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "33bf2e986c501c7ffcf435c7153627f1c69a91cf",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
-      "title_zh": "人工智能老化时钟：机器如何学会测量你真正衰老的速度- Bioengineer.org",
-      "title_en": "AI aging clocks: how machines learn to measure how fast you are really aging - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5",
-      "published_at": "2026-10-17T17:51:18Z",
-      "first_seen_at": "2026-10-17T19:26:38.889621Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "15921d39a988064d3d7e2fb99a3146b956f584bd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVZKRGxOUHJLbVdTWE5aZDZqaTRibWZvcWt4X2tWQWw3RlRrVXBEX3NTam9sOXNIeW1udkduTmUxYW93Ui1salYzaHRfUEhnWDc0MERLMjcxY25ua2xsZ04zQ3h5VVQ4U1piYUJwdllia1NBYlhPeDdIVzVNeXVlWHNKcng4NFI5ZDE5cDdSWE9iQm9BREJfdmxjUEltYTBJYk5pcFJhX0VOWUhmVWhuMkt6VXhCQ1RuSVV1RWlB?oc=5",
       "site_id": "official_rss",
@@ -277,7 +131,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVZKRGxOUHJLbVdTWE5aZDZqaTRibWZvcWt4X2tWQWw3RlRrVXBEX3NTam9sOXNIeW1udkduTmUxYW93Ui1salYzaHRfUEhnWDc0MERLMjcxY25ua2xsZ04zQ3h5VVQ4U1piYUJwdllia1NBYlhPeDdIVzVNeXVlWHNKcng4NFI5ZDE5cDdSWE9iQm9BREJfdmxjUEltYTBJYk5pcFJhX0VOWUhmVWhuMkt6VXhCQ1RuSVV1RWlB?oc=5",
       "published_at": "2026-10-17T18:36:18Z",
       "first_seen_at": "2026-10-17T22:20:18.778874Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
+      "last_seen_at": "2026-10-18T18:06:57.664026Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -315,68 +169,19 @@
       ]
     },
     {
-      "id": "20669c87cbb622e8f6799849fe21eca00382ab63",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilAFBVV95cUxPby1pTldPZHBVclNBUDBHT2tpOHlZYjRLVWpPVExVX1NRYXFfVzJENTNma1d4b0V6Z3l5dUM0Zk1Da0VDaDNYNE84a0lXR3hBRXh5MmNPU0pDWFkya0VEODhRZjBKSXZBWUk4NXhkaW4wUXBBbDc2aTJ3VFo5OXpuNkRnamhMOE5Vdm9zZGtBR2E1TzBP?oc=5",
+      "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI Finds Hidden Brain Landmarks on CT to Catch Treatable Dementia - Bioengineer.org",
-      "title_zh": "人工智能在CT上发现隐藏的大脑标志，以发现可治疗的痴呆症- Bioengineer.org",
-      "title_en": "AI Finds Hidden Brain Landmarks on CT to Catch Treatable Dementia - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPby1pTldPZHBVclNBUDBHT2tpOHlZYjRLVWpPVExVX1NRYXFfVzJENTNma1d4b0V6Z3l5dUM0Zk1Da0VDaDNYNE84a0lXR3hBRXh5MmNPU0pDWFkya0VEODhRZjBKSXZBWUk4NXhkaW4wUXBBbDc2aTJ3VFo5OXpuNkRnamhMOE5Vdm9zZGtBR2E1TzBP?oc=5",
-      "published_at": "2026-10-17T17:21:18Z",
-      "first_seen_at": "2026-10-18T01:03:52.405121Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
-    },
-    {
-      "id": "b8bd133c62ef66017241563126a69d296b75daa3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
-      "title_zh": "MEMOIR-VLM ：一种读取脑部扫描并回答有关阿尔茨海默病问题的人工智能- Bioengineer.org",
-      "title_en": "MEMOIR-VLM: an AI that reads brain scans and answers questions about Alzheimer’s disease - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJSalAxS3lmTENpVEZlQkdjbFVqTUY3T3h6dk1BbVM3cG5YVnNaaXN2Mk0yRUhsemg3SW15aHJoZjd3bi1YQkhDY1hkZjVRWjZuMU9pN1BGYnlMRmpjMDNrWWFyWTBPOVN2WjZYMXVZNWM2SjhaTTBxNnRIMXEyUGVrQjBDU1BUaVZnQjlQT1E2OVpEdzJNLTVuaE5iWlZCX0JOMDBfWVVRZUxQMHBIdQ?oc=5",
-      "published_at": "2026-10-17T15:41:15Z",
-      "first_seen_at": "2026-10-17T17:11:43.609411Z",
-      "last_seen_at": "2026-10-18T14:35:45.958348Z",
+      "title": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
+      "title_zh": "模型模型能帮助解开阿尔茨海默病的谜团吗？ - Unite.AI",
+      "title_en": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
+      "published_at": "2026-10-18T16:56:22Z",
+      "first_seen_at": "2026-10-18T18:06:57.664026Z",
+      "last_seen_at": "2026-10-18T18:06:57.664026Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -409,7 +214,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
         "disease"
       ]
     }
