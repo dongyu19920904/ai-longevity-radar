@@ -1,22 +1,132 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-19T07:48:23.604133Z",
+  "generated_at": "2026-10-19T15:37:27.964606Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 5,
-  "total_items_all_mode": 5,
-  "archive_total": 5996,
-  "site_count": 1,
-  "source_count": 1,
+  "total_items": 3,
+  "total_items_raw": 22,
+  "total_items_all_mode": 22,
+  "archive_total": 5806,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 2,
+      "raw_count": 2
+    },
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 5
+      "raw_count": 18
     }
   ],
   "items": [
+    {
+      "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
+      "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "shayanmostafaei/Omics_ADRD_Integrated_Modeling",
+      "source_type": "project",
+      "title": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
+      "title_zh": "shayanmostafaei/Omics_ADRD_Integrated_Modeling ：该项目结合了多组学生物老化时钟、多基因风险评分（ PRS ）和先进的机器学习技术，使用英国生物库数据预测阿尔茨海默病和相关痴呆症（ ADRD ）。它包括用于数据预处理、模型构建、生存和竞争风险分析以及可视化的R和Python代码。",
+      "title_en": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
+      "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
+      "published_at": "2026-10-19T13:47:27Z",
+      "first_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.77,
+      "signal_score": 0.61,
+      "domain_score": 0.77,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
+      "canonical_key": "repo:ismailtatli/brainage-xai",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ismailtatli/BrainAge-XAI",
+      "source_type": "project",
+      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
+      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "url": "https://github.com/ismailtatli/BrainAge-XAI",
+      "published_at": "2026-10-19T09:36:45Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "ai_is_related": true,
+      "ai_score": 0.67,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.6,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "xai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive"
+      ]
+    },
     {
       "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
@@ -30,7 +140,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
       "published_at": "2026-10-18T16:56:22Z",
       "first_seen_at": "2026-10-18T18:06:57.664026Z",
-      "last_seen_at": "2026-10-19T07:48:23.604133Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -69,6 +179,110 @@
   ],
   "items_ai": [
     {
+      "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
+      "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "shayanmostafaei/Omics_ADRD_Integrated_Modeling",
+      "source_type": "project",
+      "title": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
+      "title_zh": "shayanmostafaei/Omics_ADRD_Integrated_Modeling ：该项目结合了多组学生物老化时钟、多基因风险评分（ PRS ）和先进的机器学习技术，使用英国生物库数据预测阿尔茨海默病和相关痴呆症（ ADRD ）。它包括用于数据预处理、模型构建、生存和竞争风险分析以及可视化的R和Python代码。",
+      "title_en": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
+      "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
+      "published_at": "2026-10-19T13:47:27Z",
+      "first_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.77,
+      "signal_score": 0.61,
+      "domain_score": 0.77,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock",
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
+      "canonical_key": "repo:ismailtatli/brainage-xai",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ismailtatli/BrainAge-XAI",
+      "source_type": "project",
+      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
+      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
+      "url": "https://github.com/ismailtatli/BrainAge-XAI",
+      "published_at": "2026-10-19T09:36:45Z",
+      "first_seen_at": "2026-10-13T07:43:48.149960Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "ai_is_related": true,
+      "ai_score": 0.67,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.6,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "xai"
+      ],
+      "longevity_signals": [
+        "aging",
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive"
+      ]
+    },
+    {
       "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
       "site_id": "official_rss",
@@ -81,7 +295,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
       "published_at": "2026-10-18T16:56:22Z",
       "first_seen_at": "2026-10-18T18:06:57.664026Z",
-      "last_seen_at": "2026-10-19T07:48:23.604133Z",
+      "last_seen_at": "2026-10-19T15:37:27.964606Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
