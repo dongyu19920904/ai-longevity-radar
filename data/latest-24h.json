@@ -1,28 +1,170 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-19T15:37:27.964606Z",
+  "generated_at": "2026-10-19T21:04:19.628472Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 22,
-  "total_items_all_mode": 22,
-  "archive_total": 5806,
+  "total_items": 5,
+  "total_items_raw": 56,
+  "total_items_all_mode": 56,
+  "archive_total": 5708,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 3,
+      "raw_count": 26
+    },
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
       "count": 2,
       "raw_count": 2
-    },
-    {
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 18
     }
   ],
   "items": [
+    {
+      "id": "a7370717d30a8efe8f2df1a433106b1f1e608919",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669113",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
+      "title_zh": "基于眼动追踪的机器学习方法在回顾性队列研究中识别帕金森病痴呆：一项可解释的模型开发研究",
+      "title_en": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
+      "url": "https://europepmc.org/article/MED/PMC13669113",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "5523edd49a47a78536523d3451e133406bbae50d",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669838",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
+      "title_zh": "人工智能在阿尔茨海默病诊断中的应用进展",
+      "title_en": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
+      "url": "https://europepmc.org/article/MED/PMC13669838",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "d50cea9a27798f9513416c202543594bf77e743e",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13668829",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
+      "title_zh": "MEMOIR-VLM -一种用于阿尔茨海默病分类和问答的多模式视觉语言模型",
+      "title_en": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
+      "url": "https://europepmc.org/article/MED/PMC13668829",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
     {
       "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
       "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
@@ -125,60 +267,153 @@
       "biological_context_signals": [
         "brain",
         "cognitive"
-      ]
-    },
-    {
-      "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
-      "title_zh": "模型模型能帮助解开阿尔茨海默病的谜团吗？ - Unite.AI",
-      "title_en": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
-      "published_at": "2026-10-18T16:56:22Z",
-      "first_seen_at": "2026-10-18T18:06:57.664026Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
       ]
     }
   ],
   "items_ai": [
     {
+      "id": "a7370717d30a8efe8f2df1a433106b1f1e608919",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669113",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
+      "title_zh": "基于眼动追踪的机器学习方法在回顾性队列研究中识别帕金森病痴呆：一项可解释的模型开发研究",
+      "title_en": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
+      "url": "https://europepmc.org/article/MED/PMC13669113",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "5523edd49a47a78536523d3451e133406bbae50d",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669838",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
+      "title_zh": "人工智能在阿尔茨海默病诊断中的应用进展",
+      "title_en": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
+      "url": "https://europepmc.org/article/MED/PMC13669838",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "d50cea9a27798f9513416c202543594bf77e743e",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13668829",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
+      "title_zh": "MEMOIR-VLM -一种用于阿尔茨海默病分类和问答的多模式视觉语言模型",
+      "title_en": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
+      "url": "https://europepmc.org/article/MED/PMC13668829",
+      "published_at": "2026-10-19T00:00:00Z",
+      "first_seen_at": "2026-10-19T21:04:19.628472Z",
+      "last_seen_at": "2026-10-19T21:04:19.628472Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "multimodal"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
       "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
       "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
       "site_id": "github_projects",
@@ -280,55 +515,6 @@
       "biological_context_signals": [
         "brain",
         "cognitive"
-      ]
-    },
-    {
-      "id": "3551fd9aa299fae5117e1106e77e0e40bb48554a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
-      "title_zh": "模型模型能帮助解开阿尔茨海默病的谜团吗？ - Unite.AI",
-      "title_en": "Could a Model of Models Help Untangle Alzheimer’s Disease? - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlZmV2ZXQVk2Q2UyVVljRmhvek5TTHM4Z09iOG4tb3BIYnpnajdMdUo4bzdGd3p4cm1NdTZNSU1VcGQwWGFVNHJDbmVac1djdVpiV0xnTmlGVFA1SHpqZmJGaHd4WEpoU0g1bXpHTHpFSXU1bkRqWjZhM3k0bGtybHZCaGE?oc=5",
-      "published_at": "2026-10-18T16:56:22Z",
-      "first_seen_at": "2026-10-18T18:06:57.664026Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
       ]
     }
   ],
