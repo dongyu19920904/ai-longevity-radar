@@ -1,79 +1,77 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-20T11:39:32.055335Z",
+  "generated_at": "2026-10-20T17:09:12.844716Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 44,
-  "total_items_all_mode": 44,
-  "archive_total": 5676,
+  "total_items": 11,
+  "total_items_raw": 53,
+  "total_items_all_mode": 53,
+  "archive_total": 5611,
   "site_count": 2,
   "source_count": 6,
   "site_stats": [
     {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 4,
-      "raw_count": 4
-    },
-    {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
+      "count": 8,
+      "raw_count": 49
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
       "count": 3,
-      "raw_count": 37
+      "raw_count": 3
     }
   ],
   "items": [
     {
-      "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
-      "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "shayanmostafaei/Omics_ADRD_Integrated_Modeling",
-      "source_type": "project",
-      "title": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
-      "title_zh": "shayanmostafaei/Omics_ADRD_Integrated_Modeling ：该项目结合了多组学生物老化时钟、多基因风险评分（ PRS ）和先进的机器学习技术，使用英国生物库数据预测阿尔茨海默病和相关痴呆症（ ADRD ）。它包括用于数据预处理、模型构建、生存和竞争风险分析以及可视化的R和Python代码。",
-      "title_en": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
-      "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
-      "published_at": "2026-10-19T13:47:27Z",
-      "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "id": "cedc77137f339a52f434255008a7693646efb0bb",
+      "canonical_key": "url:https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Advanced AI tool estimates biological age and predicts cancer survival from face photos",
+      "title_zh": "先进的人工智能工具估算生物学年龄并从人脸照片预测癌症存活率",
+      "title_en": "Advanced AI tool estimates biological age and predicts cancer survival from face photos",
+      "url": "https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
+      "published_at": "2026-10-20T12:25:28Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.81,
       "longevity_is_related": true,
-      "longevity_score": 0.77,
-      "signal_score": 0.61,
-      "domain_score": 0.77,
+      "longevity_score": 0.6,
+      "signal_score": 0.628,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "multi_omics",
-        "research_tool"
+        "aging_clock"
       ],
       "primary_topic": "aging_clock",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai",
+        "artificial intelligence",
+        "foundation model"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock",
-        "alzheimer"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "health"
       ]
     },
     {
@@ -89,7 +87,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -140,7 +138,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
       "published_at": "2026-10-20T00:42:24Z",
       "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -188,7 +186,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-10-20T03:20:02Z",
       "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -225,11 +223,201 @@
       "biological_context_signals": []
     },
     {
+      "id": "0f08cca05d91868170ec958c54447c6715db92fd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Fasano Longevity Conference to Cover Politics, Artificial Intelligence, and Life Expectancy Research - Business Wire",
+      "title_zh": "Fasano长寿大会将讨论政治、人工智能和预期寿命研究-美国商业资讯",
+      "title_en": "Fasano Longevity Conference to Cover Politics, Artificial Intelligence, and Life Expectancy Research - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
+      "published_at": "2026-10-20T15:29:00Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "05ea1eae8fcba6d44ede1d48357e075c73b3e3c4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Cross-modal AI links speech and text for Alzheimer’s detection - Bioengineer.org",
+      "title_zh": "跨模式人工智能链接语音和文本以检测阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "Cross-modal AI links speech and text for Alzheimer’s detection - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
+      "published_at": "2026-10-20T13:58:33Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "34d0728c0c791eac55e32bb900b3cb61587af703",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Sapiens author warns: 'AI's biggest danger isn't killer robots but collective dementia' - Business Today",
+      "title_zh": "智人作者警告： “人工智能最大的危险不是杀手机器人，而是集体痴呆症” --《今日商业》",
+      "title_en": "Sapiens author warns: 'AI's biggest danger isn't killer robots but collective dementia' - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
+      "published_at": "2026-10-20T13:43:54Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "69beb18404ce7f3b6658f39b925f714add92ce75",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Advanced AI tool estimates biological age and predicts cancer survival from face photos - News-Medical",
+      "title_zh": "先进的人工智能工具可预测生物学年龄，并从人脸照片中预测癌症存活率- News-Medical",
+      "title_en": "Advanced AI tool estimates biological age and predicts cancer survival from face photos - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
+      "published_at": "2026-10-20T12:25:00Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "551403431955162bc8cb0dbb8e96d39ab95133f3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Aging Clocks",
       "source_type": "news",
       "title": "AI tool can predict cancer survival, biological age from single face photo, study suggests - bdnews24.com",
       "title_zh": "研究表明，人工智能工具可以从单张照片中预测癌症存活率、生物学年龄- bdnews24.com",
@@ -237,7 +425,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "published_at": "2026-10-20T10:30:00Z",
       "first_seen_at": "2026-10-20T11:39:32.055335Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -284,7 +472,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
       "published_at": "2026-10-20T01:46:21Z",
       "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -331,7 +519,7 @@
       "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
       "published_at": "2026-10-19T22:42:11Z",
       "first_seen_at": "2026-10-20T00:21:48.634141Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -369,56 +557,54 @@
   ],
   "items_ai": [
     {
-      "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
-      "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "shayanmostafaei/Omics_ADRD_Integrated_Modeling",
-      "source_type": "project",
-      "title": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
-      "title_zh": "shayanmostafaei/Omics_ADRD_Integrated_Modeling ：该项目结合了多组学生物老化时钟、多基因风险评分（ PRS ）和先进的机器学习技术，使用英国生物库数据预测阿尔茨海默病和相关痴呆症（ ADRD ）。它包括用于数据预处理、模型构建、生存和竞争风险分析以及可视化的R和Python代码。",
-      "title_en": "shayanmostafaei/Omics_ADRD_Integrated_Modeling: This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict Alzheimer's disease and related dementias (ADRD) using UK Biobank data. It includes R and Python code for data preprocessing, model construction, survival and competing risk analysis, and visualization.",
-      "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
-      "published_at": "2026-10-19T13:47:27Z",
-      "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "id": "cedc77137f339a52f434255008a7693646efb0bb",
+      "canonical_key": "url:https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Advanced AI tool estimates biological age and predicts cancer survival from face photos",
+      "title_zh": "先进的人工智能工具估算生物学年龄并从人脸照片预测癌症存活率",
+      "title_en": "Advanced AI tool estimates biological age and predicts cancer survival from face photos",
+      "url": "https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
+      "published_at": "2026-10-20T12:25:28Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
-      "ai_score": 0.56,
+      "ai_score": 0.81,
       "longevity_is_related": true,
-      "longevity_score": 0.77,
-      "signal_score": 0.61,
-      "domain_score": 0.77,
+      "longevity_score": 0.6,
+      "signal_score": 0.628,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "multi_omics",
-        "research_tool"
+        "aging_clock"
       ],
       "primary_topic": "aging_clock",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai",
+        "artificial intelligence",
+        "foundation model"
       ],
       "longevity_signals": [
-        "aging",
-        "aging clock",
-        "alzheimer"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "multi-omics"
-      ],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "health"
       ]
     },
     {
@@ -434,7 +620,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -485,7 +671,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
       "published_at": "2026-10-20T00:42:24Z",
       "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -533,7 +719,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-10-20T03:20:02Z",
       "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -570,11 +756,201 @@
       "biological_context_signals": []
     },
     {
+      "id": "0f08cca05d91868170ec958c54447c6715db92fd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Fasano Longevity Conference to Cover Politics, Artificial Intelligence, and Life Expectancy Research - Business Wire",
+      "title_zh": "Fasano长寿大会将讨论政治、人工智能和预期寿命研究-美国商业资讯",
+      "title_en": "Fasano Longevity Conference to Cover Politics, Artificial Intelligence, and Life Expectancy Research - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
+      "published_at": "2026-10-20T15:29:00Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "05ea1eae8fcba6d44ede1d48357e075c73b3e3c4",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Cross-modal AI links speech and text for Alzheimer’s detection - Bioengineer.org",
+      "title_zh": "跨模式人工智能链接语音和文本以检测阿尔茨海默氏症- Bioengineer.org",
+      "title_en": "Cross-modal AI links speech and text for Alzheimer’s detection - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
+      "published_at": "2026-10-20T13:58:33Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "34d0728c0c791eac55e32bb900b3cb61587af703",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Sapiens author warns: 'AI's biggest danger isn't killer robots but collective dementia' - Business Today",
+      "title_zh": "智人作者警告： “人工智能最大的危险不是杀手机器人，而是集体痴呆症” --《今日商业》",
+      "title_en": "Sapiens author warns: 'AI's biggest danger isn't killer robots but collective dementia' - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
+      "published_at": "2026-10-20T13:43:54Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "69beb18404ce7f3b6658f39b925f714add92ce75",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Advanced AI tool estimates biological age and predicts cancer survival from face photos - News-Medical",
+      "title_zh": "先进的人工智能工具可预测生物学年龄，并从人脸照片中预测癌症存活率- News-Medical",
+      "title_en": "Advanced AI tool estimates biological age and predicts cancer survival from face photos - News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
+      "published_at": "2026-10-20T12:25:00Z",
+      "first_seen_at": "2026-10-20T17:09:12.844716Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "551403431955162bc8cb0dbb8e96d39ab95133f3",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Aging Clocks",
       "source_type": "news",
       "title": "AI tool can predict cancer survival, biological age from single face photo, study suggests - bdnews24.com",
       "title_zh": "研究表明，人工智能工具可以从单张照片中预测癌症存活率、生物学年龄- bdnews24.com",
@@ -582,7 +958,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "published_at": "2026-10-20T10:30:00Z",
       "first_seen_at": "2026-10-20T11:39:32.055335Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -629,7 +1005,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
       "published_at": "2026-10-20T01:46:21Z",
       "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -676,7 +1052,7 @@
       "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
       "published_at": "2026-10-19T22:42:11Z",
       "first_seen_at": "2026-10-20T00:21:48.634141Z",
-      "last_seen_at": "2026-10-20T11:39:32.055335Z",
+      "last_seen_at": "2026-10-20T17:09:12.844716Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
