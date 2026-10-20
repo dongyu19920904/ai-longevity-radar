@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-20T00:21:48.634141Z",
+  "generated_at": "2026-10-20T06:02:44.412160Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 33,
-  "total_items_all_mode": 33,
-  "archive_total": 5685,
-  "site_count": 1,
-  "source_count": 3,
+  "total_items": 6,
+  "total_items_raw": 50,
+  "total_items_all_mode": 50,
+  "archive_total": 5706,
+  "site_count": 2,
+  "source_count": 6,
   "site_stats": [
     {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
-      "count": 3,
-      "raw_count": 3
+      "count": 4,
+      "raw_count": 4
+    },
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 2,
+      "raw_count": 43
     }
   ],
   "items": [
@@ -30,7 +36,7 @@
       "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
       "published_at": "2026-10-19T13:47:27Z",
       "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -83,7 +89,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -122,6 +128,150 @@
       ]
     },
     {
+      "id": "a0aee1c25a77e0b8c846cc1ab53fbf2a6c4f6aa7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
+      "title_zh": "人工智能模型如何分析面部特征以估计生物年龄和癌症生存结果- EurekAlert ！",
+      "title_en": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
+      "published_at": "2026-10-20T00:42:24Z",
+      "first_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
+      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "source_type": "project",
+      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
+      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "published_at": "2026-10-20T03:20:02Z",
+      "first_seen_at": "2026-09-30T13:45:20.804467Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.567,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "66ff6d05856910772c8c8b51e5370c1f8ee59a95",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
+      "title_zh": "面部人工智能估计生物学年龄并预测癌症存活率- Bioengineer.org",
+      "title_en": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
+      "published_at": "2026-10-20T01:46:21Z",
+      "first_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "42e333eb89897b77bb67103d7a0304929aad3a4f",
       "canonical_key": "repo:mayorhao/physiology-informed-sleep-eeg-brain-age",
       "site_id": "github_projects",
@@ -134,7 +284,7 @@
       "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
       "published_at": "2026-10-19T22:42:11Z",
       "first_seen_at": "2026-10-20T00:21:48.634141Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -184,7 +334,7 @@
       "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
       "published_at": "2026-10-19T13:47:27Z",
       "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -237,7 +387,7 @@
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
       "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -276,6 +426,150 @@
       ]
     },
     {
+      "id": "a0aee1c25a77e0b8c846cc1ab53fbf2a6c4f6aa7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
+      "title_zh": "人工智能模型如何分析面部特征以估计生物年龄和癌症生存结果- EurekAlert ！",
+      "title_en": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
+      "published_at": "2026-10-20T00:42:24Z",
+      "first_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
+      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "source_type": "project",
+      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
+      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "published_at": "2026-10-20T03:20:02Z",
+      "first_seen_at": "2026-09-30T13:45:20.804467Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.567,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "66ff6d05856910772c8c8b51e5370c1f8ee59a95",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
+      "title_zh": "面部人工智能估计生物学年龄并预测癌症存活率- Bioengineer.org",
+      "title_en": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
+      "published_at": "2026-10-20T01:46:21Z",
+      "first_seen_at": "2026-10-20T06:02:44.412160Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "42e333eb89897b77bb67103d7a0304929aad3a4f",
       "canonical_key": "repo:mayorhao/physiology-informed-sleep-eeg-brain-age",
       "site_id": "github_projects",
@@ -288,7 +582,7 @@
       "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
       "published_at": "2026-10-19T22:42:11Z",
       "first_seen_at": "2026-10-20T00:21:48.634141Z",
-      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T06:02:44.412160Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
