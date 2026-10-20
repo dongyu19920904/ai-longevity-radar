@@ -802,5 +802,8 @@
   "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study": "基于眼动追踪的机器学习方法在回顾性队列研究中识别帕金森病痴呆：一项可解释的模型开发研究",
   "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease": "人工智能在阿尔茨海默病诊断中的应用进展",
   "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering": "MEMOIR-VLM -一种用于阿尔茨海默病分类和问答的多模式视觉语言模型",
-  "Assessment of change in drug-induced parkinsonism in daily-life gait using vision-based machine learning.": "利用基于视觉的机器学习方法评估药物引起的帕金森症对日常生活步态的影响。"
+  "Assessment of change in drug-induced parkinsonism in daily-life gait using vision-based machine learning.": "利用基于视觉的机器学习方法评估药物引起的帕金森症对日常生活步态的影响。",
+  "Improving the fairness and robustness of deep learning classification models through bias mitigation and post hoc calibration.": "通过偏差缓解和事后校准来提高深度学习分类模型的公平性和鲁棒性。",
+  "Identification of SGK1 as a candidate regulator associated with myeloid cell senescence in ME/CFS: An integrative transcriptomic and experimental study.": "SGK1作为ME/CFS中与骨髓细胞衰老相关的候选调节因子的鉴定：一项综合转录组学和实验研究。",
+  "mayorhao/physiology-informed-sleep-eeg-brain-age: Supplementary materials for \"A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation\".": "mayorhao/physiology-informed-sleep-eeg-brain-age ： “A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation”的补充材料。"
 }

@@ -1,170 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-19T21:04:19.628472Z",
+  "generated_at": "2026-10-20T00:21:48.634141Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 56,
-  "total_items_all_mode": 56,
-  "archive_total": 5708,
-  "site_count": 2,
+  "total_items": 3,
+  "total_items_raw": 33,
+  "total_items_all_mode": 33,
+  "archive_total": 5685,
+  "site_count": 1,
   "source_count": 3,
   "site_stats": [
     {
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "count": 3,
-      "raw_count": 26
-    },
-    {
       "site_id": "github_projects",
       "site_name": "GitHub 研究项目",
-      "count": 2,
-      "raw_count": 2
+      "count": 3,
+      "raw_count": 3
     }
   ],
   "items": [
-    {
-      "id": "a7370717d30a8efe8f2df1a433106b1f1e608919",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669113",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
-      "title_zh": "基于眼动追踪的机器学习方法在回顾性队列研究中识别帕金森病痴呆：一项可解释的模型开发研究",
-      "title_en": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
-      "url": "https://europepmc.org/article/MED/PMC13669113",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "5523edd49a47a78536523d3451e133406bbae50d",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669838",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
-      "title_zh": "人工智能在阿尔茨海默病诊断中的应用进展",
-      "title_en": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
-      "url": "https://europepmc.org/article/MED/PMC13669838",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "d50cea9a27798f9513416c202543594bf77e743e",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13668829",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
-      "title_zh": "MEMOIR-VLM -一种用于阿尔茨海默病分类和问答的多模式视觉语言模型",
-      "title_en": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
-      "url": "https://europepmc.org/article/MED/PMC13668829",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
     {
       "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
       "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
@@ -178,7 +30,7 @@
       "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
       "published_at": "2026-10-19T13:47:27Z",
       "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -229,9 +81,9 @@
       "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
       "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-19T09:36:45Z",
+      "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -267,153 +119,59 @@
       "biological_context_signals": [
         "brain",
         "cognitive"
+      ]
+    },
+    {
+      "id": "42e333eb89897b77bb67103d7a0304929aad3a4f",
+      "canonical_key": "repo:mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "source_type": "project",
+      "title": "mayorhao/physiology-informed-sleep-eeg-brain-age: Supplementary materials for \"A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation\".",
+      "title_zh": "mayorhao/physiology-informed-sleep-eeg-brain-age ： “A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation”的补充材料。",
+      "title_en": "mayorhao/physiology-informed-sleep-eeg-brain-age: Supplementary materials for \"A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation\".",
+      "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "published_at": "2026-10-19T22:42:11Z",
+      "first_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning"
+      ],
+      "longevity_signals": [
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "a7370717d30a8efe8f2df1a433106b1f1e608919",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669113",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
-      "title_zh": "基于眼动追踪的机器学习方法在回顾性队列研究中识别帕金森病痴呆：一项可解释的模型开发研究",
-      "title_en": "Eye-movement-based machine learning for identifying Parkinson’s disease dementia in a retrospective cohort: an interpretable model-development study",
-      "url": "https://europepmc.org/article/MED/PMC13669113",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "5523edd49a47a78536523d3451e133406bbae50d",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13669838",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
-      "title_zh": "人工智能在阿尔茨海默病诊断中的应用进展",
-      "title_en": "The application progress of artificial intelligence in the diagnosis of Alzheimer’s disease",
-      "url": "https://europepmc.org/article/MED/PMC13669838",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "d50cea9a27798f9513416c202543594bf77e743e",
-      "canonical_key": "url:https://europepmc.org/article/MED/PMC13668829",
-      "site_id": "europepmc",
-      "site_name": "Europe PMC",
-      "source": "Europe PMC",
-      "source_type": "paper",
-      "title": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
-      "title_zh": "MEMOIR-VLM -一种用于阿尔茨海默病分类和问答的多模式视觉语言模型",
-      "title_en": "MEMOIR-VLM—a multimodal vision-language model for Alzheimer's disease classification and question answering",
-      "url": "https://europepmc.org/article/MED/PMC13668829",
-      "published_at": "2026-10-19T00:00:00Z",
-      "first_seen_at": "2026-10-19T21:04:19.628472Z",
-      "last_seen_at": "2026-10-19T21:04:19.628472Z",
-      "ai_is_related": true,
-      "ai_score": 0.65,
-      "longevity_is_related": true,
-      "longevity_score": 0.66,
-      "signal_score": 0.718,
-      "domain_score": 0.66,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "peer_review_status_unknown",
-      "evidence_type": "paper",
-      "risk_flags": [
-        "study_subject_unknown"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
       "id": "b3a8b9adfc62187c678ea4f55fc27c28583a4f7d",
       "canonical_key": "repo:shayanmostafaei/omics_adrd_integrated_modeling",
       "site_id": "github_projects",
@@ -426,7 +184,7 @@
       "url": "https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling",
       "published_at": "2026-10-19T13:47:27Z",
       "first_seen_at": "2026-10-19T15:37:27.964606Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -477,9 +235,9 @@
       "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
       "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
       "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-19T09:36:45Z",
+      "published_at": "2026-10-20T00:21:10Z",
       "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-19T15:37:27.964606Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
       "ai_is_related": true,
       "ai_score": 0.67,
       "longevity_is_related": true,
@@ -515,6 +273,54 @@
       "biological_context_signals": [
         "brain",
         "cognitive"
+      ]
+    },
+    {
+      "id": "42e333eb89897b77bb67103d7a0304929aad3a4f",
+      "canonical_key": "repo:mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "source_type": "project",
+      "title": "mayorhao/physiology-informed-sleep-eeg-brain-age: Supplementary materials for \"A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation\".",
+      "title_zh": "mayorhao/physiology-informed-sleep-eeg-brain-age ： “A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation”的补充材料。",
+      "title_en": "mayorhao/physiology-informed-sleep-eeg-brain-age: Supplementary materials for \"A Physiology-Informed Deep Learning Approach for Sleep-EEG Brain Age Estimation\".",
+      "url": "https://github.com/mayorhao/physiology-informed-sleep-eeg-brain-age",
+      "published_at": "2026-10-19T22:42:11Z",
+      "first_seen_at": "2026-10-20T00:21:48.634141Z",
+      "last_seen_at": "2026-10-20T00:21:48.634141Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning"
+      ],
+      "longevity_signals": [
+        "brain age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
       ]
     }
   ],
