@@ -1,25 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-20T23:53:57.810183Z",
+  "generated_at": "2026-10-21T04:50:40.049361Z",
   "window_hours": 24,
-  "total_items": 13,
-  "total_items_raw": 57,
-  "total_items_all_mode": 57,
-  "archive_total": 5454,
-  "site_count": 2,
-  "source_count": 5,
+  "total_items": 9,
+  "total_items_raw": 62,
+  "total_items_all_mode": 62,
+  "archive_total": 5340,
+  "site_count": 1,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 11,
-      "raw_count": 55
-    },
-    {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "count": 2,
-      "raw_count": 2
+      "count": 9,
+      "raw_count": 59
     }
   ],
   "items": [
@@ -36,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
       "published_at": "2026-10-20T12:25:28Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "longevity_is_related": true,
@@ -75,57 +69,6 @@
       ]
     },
     {
-      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
-      "canonical_key": "repo:ismailtatli/brainage-xai",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ismailtatli/BrainAge-XAI",
-      "source_type": "project",
-      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
-      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
-      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
-      "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-20T00:21:10Z",
-      "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.6,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning",
-        "xai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "brain age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive"
-      ]
-    },
-    {
       "id": "cdc58350c2602990bb753253820a20045f1dd8ef",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQU1c1TmthOWVOcGhtckktakpyU2xJM1liT2lsREpVUFMwa0VhOUhueTdBMl9VQTU1b3JkVERENld3dkpwY2NnNmlQWDdYVk5vTUFuVGFubWNUOG45X0FOWER6S3E3QUwzb1dlbXBKTnNkVE1aaEJqYUxQNGYwY1dVTWotR2FVSjItX2FlQ05wdExwUGJjdXZPSGItRkZqdw?oc=5",
       "site_id": "official_rss",
@@ -138,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU1c1TmthOWVOcGhtckktakpyU2xJM1liT2lsREpVUFMwa0VhOUhueTdBMl9VQTU1b3JkVERENld3dkpwY2NnNmlQWDdYVk5vTUFuVGFubWNUOG45X0FOWER6S3E3QUwzb1dlbXBKTnNkVE1aaEJqYUxQNGYwY1dVTWotR2FVSjItX2FlQ05wdExwUGJjdXZPSGItRkZqdw?oc=5",
       "published_at": "2026-10-20T19:02:20Z",
       "first_seen_at": "2026-10-20T20:36:19.611489Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -174,150 +117,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "a0aee1c25a77e0b8c846cc1ab53fbf2a6c4f6aa7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
-      "source_type": "news",
-      "title": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "title_zh": "人工智能模型如何分析面部特征以估计生物年龄和癌症生存结果- EurekAlert ！",
-      "title_en": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
-      "published_at": "2026-10-20T00:42:24Z",
-      "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source_type": "project",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-10-20T03:20:02Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "6e9c5a7dbe616ef9f1cb9f96b4fc90759f26f547",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
-      "title_zh": "您现在可以将自拍照上传到Mass General Brigham人工智能工具，它会估计您的生物年龄-波士顿环球报",
-      "title_en": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
-      "published_at": "2026-10-20T19:27:55Z",
-      "first_seen_at": "2026-10-20T20:36:19.611489Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "0f08cca05d91868170ec958c54447c6715db92fd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
       "site_id": "official_rss",
@@ -330,7 +129,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
       "published_at": "2026-10-20T15:29:00Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -365,6 +164,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "6e9c5a7dbe616ef9f1cb9f96b4fc90759f26f547",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
+      "title_zh": "您现在可以将自拍照上传到Mass General Brigham人工智能工具，它会估计您的生物年龄-波士顿环球报",
+      "title_en": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
+      "published_at": "2026-10-20T15:23:00Z",
+      "first_seen_at": "2026-10-20T20:36:19.611489Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "4439ac421bb0bfc263461ab4db6086af69b21bc8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilgFBVV95cUxPbG5iSXNLZGNXV3FxVE9Nbjh6enNKQmNUbXNyZDlLZGlsUTJDbEJoSVB6TFN0THJVQ0kxY0FNT3F0eXpyUHVJWVZHbkR5OFI2ZlpTTlhMcmNxTkZsemFHUnV3Z2d1TXRDNkRJcUNDaV8wdFNVbS1taDJSOGRDeEV1ZEl2b2haY3BWMVE2dmhVVmhVSHFUYVE?oc=5",
       "site_id": "official_rss",
@@ -377,7 +223,7 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbG5iSXNLZGNXV3FxVE9Nbjh6enNKQmNUbXNyZDlLZGlsUTJDbEJoSVB6TFN0THJVQ0kxY0FNT3F0eXpyUHVJWVZHbkR5OFI2ZlpTTlhMcmNxTkZsemFHUnV3Z2d1TXRDNkRJcUNDaV8wdFNVbS1taDJSOGRDeEV1ZEl2b2haY3BWMVE2dmhVVmhVSHFUYVE?oc=5",
       "published_at": "2026-10-20T15:15:00Z",
       "first_seen_at": "2026-10-20T23:53:57.810183Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -424,7 +270,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
       "published_at": "2026-10-20T13:58:07Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -471,7 +317,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
       "published_at": "2026-10-20T13:43:54Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -518,7 +364,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
       "published_at": "2026-10-20T12:25:00Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -567,54 +413,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "published_at": "2026-10-20T10:30:00Z",
       "first_seen_at": "2026-10-20T11:39:32.055335Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "66ff6d05856910772c8c8b51e5370c1f8ee59a95",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
-      "title_zh": "面部人工智能估计生物学年龄并预测癌症存活率- Bioengineer.org",
-      "title_en": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
-      "published_at": "2026-10-20T01:46:21Z",
-      "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -663,7 +462,7 @@
       "url": "https://www.news-medical.net/news/20261020/Advanced-AI-tool-estimates-biological-age-and-predicts-cancer-survival-from-face-photos.aspx",
       "published_at": "2026-10-20T12:25:28Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "longevity_is_related": true,
@@ -702,57 +501,6 @@
       ]
     },
     {
-      "id": "21fa130c12fccb7581434de0a5a48351ba7a76eb",
-      "canonical_key": "repo:ismailtatli/brainage-xai",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ismailtatli/BrainAge-XAI",
-      "source_type": "project",
-      "title": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
-      "title_zh": "ismailtatli/BrainAge-XAI ：结构MRI用于脑年龄差距估计和认知衰老分析的可解释深度学习。",
-      "title_en": "ismailtatli/BrainAge-XAI: Explainable deep learning for brain age gap estimation and cognitive aging analysis from structural MRI.",
-      "url": "https://github.com/ismailtatli/BrainAge-XAI",
-      "published_at": "2026-10-20T00:21:10Z",
-      "first_seen_at": "2026-10-13T07:43:48.149960Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.6,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning",
-        "xai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "brain age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive"
-      ]
-    },
-    {
       "id": "cdc58350c2602990bb753253820a20045f1dd8ef",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQU1c1TmthOWVOcGhtckktakpyU2xJM1liT2lsREpVUFMwa0VhOUhueTdBMl9VQTU1b3JkVERENld3dkpwY2NnNmlQWDdYVk5vTUFuVGFubWNUOG45X0FOWER6S3E3QUwzb1dlbXBKTnNkVE1aaEJqYUxQNGYwY1dVTWotR2FVSjItX2FlQ05wdExwUGJjdXZPSGItRkZqdw?oc=5",
       "site_id": "official_rss",
@@ -765,7 +513,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU1c1TmthOWVOcGhtckktakpyU2xJM1liT2lsREpVUFMwa0VhOUhueTdBMl9VQTU1b3JkVERENld3dkpwY2NnNmlQWDdYVk5vTUFuVGFubWNUOG45X0FOWER6S3E3QUwzb1dlbXBKTnNkVE1aaEJqYUxQNGYwY1dVTWotR2FVSjItX2FlQ05wdExwUGJjdXZPSGItRkZqdw?oc=5",
       "published_at": "2026-10-20T19:02:20Z",
       "first_seen_at": "2026-10-20T20:36:19.611489Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -801,150 +549,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "a0aee1c25a77e0b8c846cc1ab53fbf2a6c4f6aa7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
-      "source_type": "news",
-      "title": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "title_zh": "人工智能模型如何分析面部特征以估计生物年龄和癌症生存结果- EurekAlert ！",
-      "title_en": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
-      "published_at": "2026-10-20T00:42:24Z",
-      "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source_type": "project",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-10-20T03:20:02Z",
-      "first_seen_at": "2026-09-30T13:45:20.804467Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "multi_omics",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "aging",
-        "aging clock"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "transcriptomic"
-      ],
-      "biological_context_signals": []
-    },
-    {
-      "id": "6e9c5a7dbe616ef9f1cb9f96b4fc90759f26f547",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
-      "title_zh": "您现在可以将自拍照上传到Mass General Brigham人工智能工具，它会估计您的生物年龄-波士顿环球报",
-      "title_en": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
-      "published_at": "2026-10-20T19:27:55Z",
-      "first_seen_at": "2026-10-20T20:36:19.611489Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "0f08cca05d91868170ec958c54447c6715db92fd",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
       "site_id": "official_rss",
@@ -957,7 +561,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY25JT2I3emVJdFhXRGdMajNWSjVTMzFQT0NYWC1KMHB6TEllVktPYmJ3Q293VkI2LUkxLVE5VDFNMmIyeG0xbUp2aFR1dFdidXFTaXFBakhGWUFRT0puNnFjMW9HOFBHNEphNEdXanhkLUp6VDZmM2ZfWllGcUh6UU1wNFplNVpJNzE0Q09NNFdTTXpSb2huUUR6NXd1U1Nia2xxcmhMenVmU1B4NDJ1ZG1veC1SLWpzSnBzN3c3b0tobWcyc21wR2xua3FsZmFLMG0wRnk0MHNvNzV6MzR0WFhGVGxKaHM5Rk9R?oc=5",
       "published_at": "2026-10-20T15:29:00Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -992,6 +596,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "6e9c5a7dbe616ef9f1cb9f96b4fc90759f26f547",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
+      "title_zh": "您现在可以将自拍照上传到Mass General Brigham人工智能工具，它会估计您的生物年龄-波士顿环球报",
+      "title_en": "You can now upload a selfie to a Mass General Brigham AI tool and it’ll estimate your biological age - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeG4ta1JFRjlNVTZaR3hvU0JrS19ZV3FfUE9yRlphUzlrdGktQ0g3NVpVdkRkTDIyZE1JNTdFcFVOczlBZDZZbF94ZjlSa0RqdHljOUlwZW10WnVjTVRwMWRqdmd6NjdBX1QzTzhkWkRmeldoNTJQT3M3SHpqb1hEWklJSm50SzNxNXRKeTRn?oc=5",
+      "published_at": "2026-10-20T15:23:00Z",
+      "first_seen_at": "2026-10-20T20:36:19.611489Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "4439ac421bb0bfc263461ab4db6086af69b21bc8",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMilgFBVV95cUxPbG5iSXNLZGNXV3FxVE9Nbjh6enNKQmNUbXNyZDlLZGlsUTJDbEJoSVB6TFN0THJVQ0kxY0FNT3F0eXpyUHVJWVZHbkR5OFI2ZlpTTlhMcmNxTkZsemFHUnV3Z2d1TXRDNkRJcUNDaV8wdFNVbS1taDJSOGRDeEV1ZEl2b2haY3BWMVE2dmhVVmhVSHFUYVE?oc=5",
       "site_id": "official_rss",
@@ -1004,7 +655,7 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbG5iSXNLZGNXV3FxVE9Nbjh6enNKQmNUbXNyZDlLZGlsUTJDbEJoSVB6TFN0THJVQ0kxY0FNT3F0eXpyUHVJWVZHbkR5OFI2ZlpTTlhMcmNxTkZsemFHUnV3Z2d1TXRDNkRJcUNDaV8wdFNVbS1taDJSOGRDeEV1ZEl2b2haY3BWMVE2dmhVVmhVSHFUYVE?oc=5",
       "published_at": "2026-10-20T15:15:00Z",
       "first_seen_at": "2026-10-20T23:53:57.810183Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1051,7 +702,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2N5Wm5kaWZEQVc4X2t6RkZLNGFLQjM4R2pUQ1hNcnhnSHZlRXJlTDNnSGJ6VWRycmVQZW13akN1c0p5dnpJV0dyU1ZvUnpFT1ZuS3lYOTRuMmlzOW5WTVlUbnVlTkpsWmlibFFmMTBOS3Vqb3dMRm9pVjVXTFNNdHhWUEtZYWFYZHF0Ni12dw?oc=5",
       "published_at": "2026-10-20T13:58:07Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1098,7 +749,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHZ3WDJJNjdlQ09EUGhQV2dLVXA0NU1lTGNTcXdnUi1Qcm9iVWZ3dkdjcVVXTVZTclBKY0U3Sms2eWFISXg1c2FOMWI2WVNPYklpU0s4dTltaENSYms0ZGFxeXQ0VmtSVlR4TU42NV84WWwyRklyZVpDYXVfQzhuYkJvaW1GcDZ1b0NTRUFhRVo2SjBQeWV3WWtWYkt0T3JOWW9RZmNDWU1rRUtxcEdsUEhjQnkzY2laLUJUeHRVZTI4M041N2JSbk5EY3dnZ3F2VHFrVWZTQktISXlQcjlj0gHkAUFVX3lxTFA5SFZFUDNlTzRsbjVxbXhtbnRnVkMxbGo3TUlsSkFaRzJYdy1lQ0ZYWnpvUEdKNVZ4M0UtTjNNYVFGc1BiV2pHakdicThjUF8wSXp2bGV3TVFMUWExYVhvcXQtYk0zdUNzbXF5SkdIcjJRY19OUFRRb1NoSkhPU2JBOFFrcEZOSnkzSW5ZZzVJY21ybkdVamdRZ0hsVEVKVVVUdkFWRkljRTNnQ29SUm5HNUdmX0FIdHF6QjJadDBiODJpSmxEUVl2T1BuOVV3d2RvZHpLM3RCSUM4VDBsanQ4ZFRDSA?oc=5",
       "published_at": "2026-10-20T13:43:54Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1145,7 +796,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUFxWHdwQ3RDSFJmeTZ5Z0RqcndRdFRuaU5lbmZWTkJpUVpaN2RuZzl6N25zUkFmYlRib3JoQzlnd0dlN3hVMmxqMmlCRFpJNkJacnhCVG5zWnh6OU5xZy1qM2dqWWxSMnp0R281UDgwWTJla3B0VW56ZTBIMVREM2tGU0dmbzdjT25GVkdtcmR0ckdMTlYxNmc5eGJkRVFOZkxfQUM5WTE0azNTTGZHc19ydFlsVjRET3luRldmNHl0NDh4V1h5MldUa2hYcWlh?oc=5",
       "published_at": "2026-10-20T12:25:00Z",
       "first_seen_at": "2026-10-20T17:09:12.844716Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1194,54 +845,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RSjJEVkFHNXFTRGQzQ1BlVnpkMjlTU3BaOWR5SFpDcWh1QVg5YmxMQm5sSm11YU80MlIzSlY0Zk5KRGtETnZ4Y2JYMEx1bms?oc=5",
       "published_at": "2026-10-20T10:30:00Z",
       "first_seen_at": "2026-10-20T11:39:32.055335Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "66ff6d05856910772c8c8b51e5370c1f8ee59a95",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
-      "title_zh": "面部人工智能估计生物学年龄并预测癌症存活率- Bioengineer.org",
-      "title_en": "Facial AI estimates biological age and predicts cancer survival - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUZjbjBWN2FsNjAxTnN3blpubExjZWg4cEVXM2g1U09qQTM0RG9Xb0lYNFdtM2lXeFhKN0wtMGRHZXZxV0hUNTNjblpSOElCREJwOENrZTJfV2ZvRG9VenF3QW5FMFpyNDBjZGhVeXB0dzJENzZUbmhZOG9ETXJMYWVqZnUwTkhZNVN5bkVMNU1Ldw?oc=5",
-      "published_at": "2026-10-20T01:46:21Z",
-      "first_seen_at": "2026-10-20T06:02:44.412160Z",
-      "last_seen_at": "2026-10-20T23:53:57.810183Z",
+      "last_seen_at": "2026-10-21T04:50:40.049361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
