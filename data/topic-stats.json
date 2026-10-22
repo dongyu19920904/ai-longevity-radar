@@ -1,30 +1,31 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-22T15:20:03.446363Z",
+  "generated_at": "2026-10-22T20:07:57.757444Z",
   "topics": {
-    "aging_clock": 4,
-    "neurodegeneration": 5,
-    "research_tool": 1,
-    "ai_longevity": 3
+    "aging_clock": 8,
+    "neurodegeneration": 7,
+    "research_tool": 2,
+    "ai_longevity": 4
   },
   "source_types": {
-    "news": 10,
+    "news": 17,
     "project": 1
   },
   "study_subjects": {
-    "unknown": 11
+    "unknown": 17,
+    "human": 1
   },
   "publication_stages": {
-    "secondary_report": 10,
+    "secondary_report": 17,
     "software_project": 1
   },
   "relevant_topics": {
-    "neurodegeneration": 29,
+    "neurodegeneration": 30,
     "multi_omics": 8,
     "aging_mechanism": 3,
     "ai_longevity": 12,
-    "aging_clock": 15,
-    "research_tool": 7,
+    "aging_clock": 14,
+    "research_tool": 8,
     "rejuvenation": 3,
     "digital_biomarker": 1,
     "clinical_trial": 2
