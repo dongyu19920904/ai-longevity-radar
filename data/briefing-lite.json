@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-22T10:12:46.105481Z",
+  "generated_at": "2026-10-22T15:20:03.446363Z",
   "window_hours": 504,
   "selection_mode": "core_first_related_fallback",
   "item_count": 8,
@@ -18,7 +18,7 @@
       "published_at": "2026-10-17T00:00:00Z",
       "signal_score": 0.794,
       "domain_score": 0.76,
-      "freshness_score": 0.225,
+      "freshness_score": 0.194,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -39,7 +39,7 @@
       "published_at": "2026-10-19T18:44:09Z",
       "signal_score": 0.668,
       "domain_score": 0.62,
-      "freshness_score": 0.622,
+      "freshness_score": 0.592,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -48,6 +48,30 @@
       "publication_stage": "preprint",
       "risk_flags": [
         "preprint_not_peer_reviewed"
+      ]
+    },
+    {
+      "id": "29e83a9f5478576bed0723b6e4ee1c09eee997ca",
+      "title": "Thoughts on When Aging Clocks Can Be Trusted",
+      "title_zh": "关于何时可以信任老化时钟的想法",
+      "title_en": "Thoughts on When Aging Clocks Can Be Trusted",
+      "url": "https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted",
+      "source": "Fight Aging!",
+      "site_id": "official_rss",
+      "source_type": "news",
+      "published_at": "2026-10-22T10:11:00Z",
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "freshness_score": 0.969,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
       ]
     },
     {
@@ -62,7 +86,7 @@
       "published_at": "2026-10-20T12:25:28Z",
       "signal_score": 0.628,
       "domain_score": 0.6,
-      "freshness_score": 0.727,
+      "freshness_score": 0.697,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -86,7 +110,7 @@
       "published_at": "2026-10-19T13:47:27Z",
       "signal_score": 0.61,
       "domain_score": 0.77,
-      "freshness_score": 0.593,
+      "freshness_score": 0.562,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -107,7 +131,7 @@
       "published_at": "2026-10-17T17:51:18Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.331,
+      "freshness_score": 0.301,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -131,7 +155,7 @@
       "published_at": "2026-10-16T10:05:00Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.142,
+      "freshness_score": 0.112,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -156,7 +180,7 @@
       "published_at": "2026-10-22T10:00:14Z",
       "signal_score": 0.6,
       "domain_score": 0.67,
-      "freshness_score": 0.999,
+      "freshness_score": 0.968,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -164,30 +188,6 @@
       "study_subject": "unknown",
       "publication_stage": "software_project",
       "risk_flags": []
-    },
-    {
-      "id": "a0aee1c25a77e0b8c846cc1ab53fbf2a6c4f6aa7",
-      "title": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "title_zh": "人工智能模型如何分析面部特征以估计生物年龄和癌症生存结果- EurekAlert ！",
-      "title_en": "How AI Models Analyze Facial Features to Estimate Biological Age and Cancer Survival Outcomes - EurekAlert!",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVmhvYlpIb1FYalhoZUEwRXNCX3lIUkpoWkVjUzR4VmhHZC1MN2otbW9kVmVLTlVpa1JRSTZLbXVwUkZsUGVBNllneHFfc3hnTW12ZVpXemI?oc=5",
-      "source": "Google News · Aging Clocks",
-      "site_id": "official_rss",
-      "source_type": "news",
-      "published_at": "2026-10-20T00:42:24Z",
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "freshness_score": 0.658,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ]
     }
   ]
 }
