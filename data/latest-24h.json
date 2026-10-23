@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-23T19:14:55.256186Z",
+  "generated_at": "2026-10-23T22:20:02.308152Z",
   "window_hours": 24,
-  "total_items": 12,
-  "total_items_raw": 36,
-  "total_items_all_mode": 36,
-  "archive_total": 4157,
+  "total_items": 10,
+  "total_items_raw": 32,
+  "total_items_all_mode": 32,
+  "archive_total": 4096,
   "site_count": 1,
   "source_count": 5,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 12,
-      "raw_count": 35
+      "count": 10,
+      "raw_count": 31
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "published_at": "2026-10-23T10:11:09Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-23T22:20:02.308152Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -472,7 +472,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-23T22:20:02.308152Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -509,100 +509,6 @@
         "cognitive",
         "disease"
       ]
-    },
-    {
-      "id": "2e898f91a5b20e7a4002e8efd8e65be16b6bb5dd",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjF5Y2dhVjh6VHAwZFU3ZTlwcExPVHhxdlV4ZXFSU2hJNjU2UkNpbE16UlpYSVFqYUpKaVJCeS0taklWekhFV1Z6cm96U2l0QUpzZjhGNEtlcDBtMTNoOFFpa294dFd2Qkk4dUpnU2NEcHhmZ0wzeUxPVG9LZFphb01TVUpCNW13RjUwc19WVVNRVDJRZGln?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - Yahoo Finance",
-      "title_zh": "瑞银投资组合经理：到2027年6月，标准普尔500指数在人工智能、长寿、能源繁荣方面可能达到9,500点-雅虎财经",
-      "title_en": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjF5Y2dhVjh6VHAwZFU3ZTlwcExPVHhxdlV4ZXFSU2hJNjU2UkNpbE16UlpYSVFqYUpKaVJCeS0taklWekhFV1Z6cm96U2l0QUpzZjhGNEtlcDBtMTNoOFFpa294dFd2Qkk4dUpnU2NEcHhmZ0wzeUxPVG9LZFphb01TVUpCNW13RjUwc19WVVNRVDJRZGln?oc=5",
-      "published_at": "2026-10-22T19:15:31Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T04:52:01.014638Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "bcc0b3f0c7e39a79115682a6931ee683e4f8f4ed",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - 24/7 Wall St.",
-      "title_zh": "瑞银投资组合经理：到2027年6月，标准普尔500指数可能会在人工智能、长寿、能源繁荣方面达到9500点--全天候华尔街",
-      "title_en": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
-      "published_at": "2026-10-22T19:15:00Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -619,7 +525,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "published_at": "2026-10-23T10:11:09Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-23T22:20:02.308152Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1061,7 +967,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-23T22:20:02.308152Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1098,100 +1004,6 @@
         "cognitive",
         "disease"
       ]
-    },
-    {
-      "id": "2e898f91a5b20e7a4002e8efd8e65be16b6bb5dd",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjF5Y2dhVjh6VHAwZFU3ZTlwcExPVHhxdlV4ZXFSU2hJNjU2UkNpbE16UlpYSVFqYUpKaVJCeS0taklWekhFV1Z6cm96U2l0QUpzZjhGNEtlcDBtMTNoOFFpa294dFd2Qkk4dUpnU2NEcHhmZ0wzeUxPVG9LZFphb01TVUpCNW13RjUwc19WVVNRVDJRZGln?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - Yahoo Finance",
-      "title_zh": "瑞银投资组合经理：到2027年6月，标准普尔500指数在人工智能、长寿、能源繁荣方面可能达到9,500点-雅虎财经",
-      "title_en": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjF5Y2dhVjh6VHAwZFU3ZTlwcExPVHhxdlV4ZXFSU2hJNjU2UkNpbE16UlpYSVFqYUpKaVJCeS0taklWekhFV1Z6cm96U2l0QUpzZjhGNEtlcDBtMTNoOFFpa294dFd2Qkk4dUpnU2NEcHhmZ0wzeUxPVG9LZFphb01TVUpCNW13RjUwc19WVVNRVDJRZGln?oc=5",
-      "published_at": "2026-10-22T19:15:31Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T04:52:01.014638Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "bcc0b3f0c7e39a79115682a6931ee683e4f8f4ed",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - 24/7 Wall St.",
-      "title_zh": "瑞银投资组合经理：到2027年6月，标准普尔500指数可能会在人工智能、长寿、能源繁荣方面达到9500点--全天候华尔街",
-      "title_en": "UBS portfolio manager: S&P 500 could hit 9,500 by June 2027 on AI, longevity, energy boom - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
-      "published_at": "2026-10-22T19:15:00Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
