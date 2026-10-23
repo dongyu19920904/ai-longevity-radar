@@ -1,36 +1,36 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-23T10:05:23.958023Z",
+  "generated_at": "2026-10-23T15:05:46.590246Z",
   "window_hours": 24,
-  "total_items": 12,
-  "total_items_raw": 33,
-  "total_items_all_mode": 33,
-  "archive_total": 4349,
+  "total_items": 14,
+  "total_items_raw": 36,
+  "total_items_all_mode": 36,
+  "archive_total": 4223,
   "site_count": 1,
-  "source_count": 7,
+  "source_count": 6,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 12,
-      "raw_count": 30
+      "count": 14,
+      "raw_count": 33
     }
   ],
   "items": [
     {
-      "id": "29e83a9f5478576bed0723b6e4ee1c09eee997ca",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted",
+      "id": "15e6e4b70eea33b1f9c48768c3f458b6a4cac40e",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Thoughts on When Aging Clocks Can Be Trusted",
-      "title_zh": "关于何时可以信任老化时钟的想法",
-      "title_en": "Thoughts on When Aging Clocks Can Be Trusted",
-      "url": "https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted",
-      "published_at": "2026-10-22T10:11:00Z",
-      "first_seen_at": "2026-10-22T15:20:03.446363Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "title": "The APOEε4 Variant Interferes in Myelination in the Aging Brain",
+      "title_zh": "APOEε4变异体干扰衰老大脑中的髓鞘形成",
+      "title_en": "The APOEε4 Variant Interferes in Myelination in the Aging Brain",
+      "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
+      "published_at": "2026-10-23T10:11:09Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -41,9 +41,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -53,18 +53,75 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "neural network"
       ],
       "longevity_signals": [
         "aging",
-        "aging clock",
-        "mortality risk"
+        "alzheimer",
+        "neurodegeneration"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "0279d3a1e717f71222bf0f0873971adda06284be",
+      "canonical_key": "url:https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "FDA clears NeuroXT’s AI software to assess Alzheimer’s progression risk",
+      "title_zh": "FDA批准NeuroXT的人工智能软件来评估阿尔茨海默氏症的进展风险",
+      "title_en": "FDA clears NeuroXT’s AI software to assess Alzheimer’s progression risk",
+      "url": "https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
+      "published_at": "2026-10-23T13:46:14Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "medical",
+        "patients"
+      ]
     },
     {
       "id": "7c875b0721b5c1cc41bf61cc9469ec2e5f95ae99",
@@ -121,13 +178,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive.com",
-      "title_zh": "马萨诸塞州研究人员获得2450万美元用于开发用于老年和痴呆症护理的人工智能- MassLive.com",
-      "title_en": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive.com",
+      "title": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive",
+      "title_zh": "马萨诸塞州研究人员获得2450万美元用于开发用于老龄化和痴呆症护理的人工智能- MassLive",
+      "title_en": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNkk5bzRXOUdqMUZ4SHFONGdNSXYwN0FlbVVwWkdsQjhYSU15aGdJY3d0TURuaURjVHpoM3htNjhwZFotR3NvcE84Y2NvSGZ5Z3gyOVlnV21uNGpQQkMwZmE4RGtQVnVYV0FtUjEySGlsZVUtMWFuUFM5eEg0bEs4Z0QyQ2ZkWWZsQnhnRk05cHE2WjJUZ1E2elVSc0hvb3A2YU5WTnNFZGVCTzcxUlpDZlRWWFZqTzdyQ0hEdlRSSzVmUXBOemVV?oc=5",
       "published_at": "2026-10-22T15:44:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +232,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02RUlMQ29jWVlIOFljMkF3cG1VMFpPZFpBLUdTZzRzcGF1RE0tOTdxTzlkWkZ2VUVsRUpaRDFBUjdSeWk1bXVISmhYUzBaTW42OFpUUlFpQVRzNWJEYnNF0gFcQVVfeXFMTVQwWjV0Q0ZwVEY2czZTa0dXdnp1NFhIYmZtd2x6OEFlWVpWb1pGNVdqVEs4RFRSVGE5MkE5N1QyUUVvZjU0YmFiZDRZOU91RVJzZmZYUHVFdGc4LTU?oc=5",
       "published_at": "2026-10-22T18:53:25Z",
       "first_seen_at": "2026-10-22T23:23:42.356270Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -271,7 +328,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYlN2Q0V4ZkQtakxXNTZsWFAxOGVtTGowTW9FLWt5eTBNSDlWQTFSc0QzT3pvMUo2THVMZ0JDVFBnaG44V0RfQVFIaEFkSlpGZnBLZXNCQVptWkZEVUFrdlhXSVNiLUN5eWNYRXN2S2o4WW1ZWDBuckZURkotaFN1Sl85ZGduT190Y1dFcG9qVVNGdkhVanhPVTV4V2p6YnJfTFo4Q2FiaHdSdFhLb3pDQ1NidnlnQkZUSWZ1U01n?oc=5",
       "published_at": "2026-10-22T17:25:21Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -307,6 +364,149 @@
       "biological_context_signals": []
     },
     {
+      "id": "f2a1e1821a924794d6248f7ebbb1bf0c80f7e69d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺-欧洲医学杂志",
+      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
+      "published_at": "2026-10-23T12:03:32Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
+      "id": "bcd64ac54541320e493635f64c7b43a5db125d6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "BMS leads Pathos AI's $237M series E alongside Alzheimer's link-up - Fierce Biotech",
+      "title_zh": "BMS领导Pathos AI的$ 2.37亿E系列，并与阿尔茨海默氏症挂钩- Fierce Biotech",
+      "title_en": "BMS leads Pathos AI's $237M series E alongside Alzheimer's link-up - Fierce Biotech",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
+      "published_at": "2026-10-23T12:00:01Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "51cbb1642e2e3bbaa0e072efe5106dd710b3edff",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "title_zh": "人工智能工具使用面部照片来估计生物年龄和癌症存活率- Khaama Press",
+      "title_en": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "published_at": "2026-10-23T10:06:22Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "ca4448bea8b599dc578bbd0a991e6c802cd227e2",
       "canonical_key": "url:https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "site_id": "official_rss",
@@ -319,7 +519,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -417,7 +617,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
       "published_at": "2026-10-22T19:15:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -464,7 +664,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdGJ1NUFMNldzRG1EUUdWR0hjNzJpWkZ1SmdXTTlHNmhQQmhZSjFVdVNRZFNyMjhFS29mRlFRczNrZnpuUGFQSGR5b055NV9XOVhabW41TzFyckFWY1IzcHhoY1U4M2xWU3k0TEtLWXQyblJBV3liSk1vVGQwN0t5ODhheVNPSFU5YWRZN3Bqczdlb01uSFhVRDgteVRDcUtsS3VjWHNCbWlnMHotbldDTjNIVkp2eURDX0pTa1FFX1pYZ1VTcTlXdzhnQ1p2dkE?oc=5",
       "published_at": "2026-10-22T16:24:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -498,126 +698,24 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "health"
-      ]
-    },
-    {
-      "id": "7da8f57c49b02c40d87b59e041e33136d9b9ea5c",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRklNenRMM3lYcjJ5bVlMbkxLbTh1VTNwZjJramFYd2lJZERmZG9sR1FFRnlTZ2tlSVBmN2xkQkN2VTR5aUwyb19yNkFtOTlXWjJTTGRIbm5TRVg4ZlV6eFQwdUtGSUZJbzVzVEFYUy1jQmdybUdQV2t4ZUZFZXRJRDdQMlNOaUtNUm9sTDQzeGJvbk8yV293QmtSclJVbzBycnNMUC1OMXIwNm8?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "Healthspan Wealth Launches AI Health Tool for Advisors - Wealth Management",
-      "title_zh": "Healthspan Wealth为顾问推出AI健康工具-财富管理",
-      "title_en": "Healthspan Wealth Launches AI Health Tool for Advisors - Wealth Management",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRklNenRMM3lYcjJ5bVlMbkxLbTh1VTNwZjJramFYd2lJZERmZG9sR1FFRnlTZ2tlSVBmN2xkQkN2VTR5aUwyb19yNkFtOTlXWjJTTGRIbm5TRVg4ZlV6eFQwdUtGSUZJbzVzVEFYUy1jQmdybUdQV2t4ZUZFZXRJRDdQMlNOaUtNUm9sTDQzeGJvbk8yV293QmtSclJVbzBycnNMUC1OMXIwNm8?oc=5",
-      "published_at": "2026-10-22T13:09:07Z",
-      "first_seen_at": "2026-10-22T10:12:46.105481Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "healthspan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "7c2fdb08003b234fe90d0881cec7bb33397c4f3b",
-      "canonical_key": "url:https://longevity.technology/news/neuroxt-earns-fda-clearance-for-ai-brain-scan-analyzer-for-alzheimers",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "NeuroXT earns FDA clearance for AI brain scan analyzer for Alzheimer’s",
-      "title_zh": "NeuroXT获得FDA批准用于阿尔茨海默氏症的AI脑部扫描分析仪",
-      "title_en": "NeuroXT earns FDA clearance for AI brain scan analyzer for Alzheimer’s",
-      "url": "https://longevity.technology/news/neuroxt-earns-fda-clearance-for-ai-brain-scan-analyzer-for-alzheimers",
-      "published_at": "2026-10-22T10:36:12Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-22T23:23:42.356270Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "medical",
-        "patients"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "29e83a9f5478576bed0723b6e4ee1c09eee997ca",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted",
+      "id": "15e6e4b70eea33b1f9c48768c3f458b6a4cac40e",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Thoughts on When Aging Clocks Can Be Trusted",
-      "title_zh": "关于何时可以信任老化时钟的想法",
-      "title_en": "Thoughts on When Aging Clocks Can Be Trusted",
-      "url": "https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted",
-      "published_at": "2026-10-22T10:11:00Z",
-      "first_seen_at": "2026-10-22T15:20:03.446363Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "title": "The APOEε4 Variant Interferes in Myelination in the Aging Brain",
+      "title_zh": "APOEε4变异体干扰衰老大脑中的髓鞘形成",
+      "title_en": "The APOEε4 Variant Interferes in Myelination in the Aging Brain",
+      "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
+      "published_at": "2026-10-23T10:11:09Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -628,9 +726,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -640,18 +738,75 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "neural network"
       ],
       "longevity_signals": [
         "aging",
-        "aging clock",
-        "mortality risk"
+        "alzheimer",
+        "neurodegeneration"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "0279d3a1e717f71222bf0f0873971adda06284be",
+      "canonical_key": "url:https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Longevity.Technology",
+      "source_type": "news",
+      "title": "FDA clears NeuroXT’s AI software to assess Alzheimer’s progression risk",
+      "title_zh": "FDA批准NeuroXT的人工智能软件来评估阿尔茨海默氏症的进展风险",
+      "title_en": "FDA clears NeuroXT’s AI software to assess Alzheimer’s progression risk",
+      "url": "https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
+      "published_at": "2026-10-23T13:46:14Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "research_tool"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "medical",
+        "patients"
+      ]
     },
     {
       "id": "7c875b0721b5c1cc41bf61cc9469ec2e5f95ae99",
@@ -708,13 +863,13 @@
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive.com",
-      "title_zh": "马萨诸塞州研究人员获得2450万美元用于开发用于老年和痴呆症护理的人工智能- MassLive.com",
-      "title_en": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive.com",
+      "title": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive",
+      "title_zh": "马萨诸塞州研究人员获得2450万美元用于开发用于老龄化和痴呆症护理的人工智能- MassLive",
+      "title_en": "Massachusetts researchers get $24.5M to develop AI for aging and dementia care - MassLive",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNkk5bzRXOUdqMUZ4SHFONGdNSXYwN0FlbVVwWkdsQjhYSU15aGdJY3d0TURuaURjVHpoM3htNjhwZFotR3NvcE84Y2NvSGZ5Z3gyOVlnV21uNGpQQkMwZmE4RGtQVnVYV0FtUjEySGlsZVUtMWFuUFM5eEg0bEs4Z0QyQ2ZkWWZsQnhnRk05cHE2WjJUZ1E2elVSc0hvb3A2YU5WTnNFZGVCTzcxUlpDZlRWWFZqTzdyQ0hEdlRSSzVmUXBOemVV?oc=5",
       "published_at": "2026-10-22T15:44:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -762,7 +917,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02RUlMQ29jWVlIOFljMkF3cG1VMFpPZFpBLUdTZzRzcGF1RE0tOTdxTzlkWkZ2VUVsRUpaRDFBUjdSeWk1bXVISmhYUzBaTW42OFpUUlFpQVRzNWJEYnNF0gFcQVVfeXFMTVQwWjV0Q0ZwVEY2czZTa0dXdnp1NFhIYmZtd2x6OEFlWVpWb1pGNVdqVEs4RFRSVGE5MkE5N1QyUUVvZjU0YmFiZDRZOU91RVJzZmZYUHVFdGc4LTU?oc=5",
       "published_at": "2026-10-22T18:53:25Z",
       "first_seen_at": "2026-10-22T23:23:42.356270Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -858,7 +1013,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYlN2Q0V4ZkQtakxXNTZsWFAxOGVtTGowTW9FLWt5eTBNSDlWQTFSc0QzT3pvMUo2THVMZ0JDVFBnaG44V0RfQVFIaEFkSlpGZnBLZXNCQVptWkZEVUFrdlhXSVNiLUN5eWNYRXN2S2o4WW1ZWDBuckZURkotaFN1Sl85ZGduT190Y1dFcG9qVVNGdkhVanhPVTV4V2p6YnJfTFo4Q2FiaHdSdFhLb3pDQ1NidnlnQkZUSWZ1U01n?oc=5",
       "published_at": "2026-10-22T17:25:21Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -894,6 +1049,149 @@
       "biological_context_signals": []
     },
     {
+      "id": "f2a1e1821a924794d6248f7ebbb1bf0c80f7e69d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺-欧洲医学杂志",
+      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
+      "published_at": "2026-10-23T12:03:32Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
+      "id": "bcd64ac54541320e493635f64c7b43a5db125d6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "BMS leads Pathos AI's $237M series E alongside Alzheimer's link-up - Fierce Biotech",
+      "title_zh": "BMS领导Pathos AI的$ 2.37亿E系列，并与阿尔茨海默氏症挂钩- Fierce Biotech",
+      "title_en": "BMS leads Pathos AI's $237M series E alongside Alzheimer's link-up - Fierce Biotech",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
+      "published_at": "2026-10-23T12:00:01Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "51cbb1642e2e3bbaa0e072efe5106dd710b3edff",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "title_zh": "人工智能工具使用面部照片来估计生物年龄和癌症存活率- Khaama Press",
+      "title_en": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "published_at": "2026-10-23T10:06:22Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "ca4448bea8b599dc578bbd0a991e6c802cd227e2",
       "canonical_key": "url:https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "site_id": "official_rss",
@@ -906,7 +1204,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1004,7 +1302,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0I2UldwWTgwNnRBR042UVN1amx5V1NuUllsMFpHMWJuTXlaaHdVUlhsNXB6LTJwTG1ubnlIckJrRWx3czJUWGt4Q0JqQ2kwTDJXM2g1WEl0aHB6Q3JuVTNlOUt6akZ0dmhRclN4RG51dVlXSWx5QXZLZzZZaTlkRTUyM3BXYXVydzFaMldQRUpzMmlSQ3YxRTg5emtfNDF0dGJMN2xiampxcFRHQzc4TlNXM0ZkN2FJWFJNQnhRTGdlNEtwX0Vr?oc=5",
       "published_at": "2026-10-22T19:15:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1051,7 +1349,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdGJ1NUFMNldzRG1EUUdWR0hjNzJpWkZ1SmdXTTlHNmhQQmhZSjFVdVNRZFNyMjhFS29mRlFRczNrZnpuUGFQSGR5b055NV9XOVhabW41TzFyckFWY1IzcHhoY1U4M2xWU3k0TEtLWXQyblJBV3liSk1vVGQwN0t5ODhheVNPSFU5YWRZN3Bqczdlb01uSFhVRDgteVRDcUtsS3VjWHNCbWlnMHotbldDTjNIVkp2eURDX0pTa1FFX1pYZ1VTcTlXdzhnQ1p2dkE?oc=5",
       "published_at": "2026-10-22T16:24:00Z",
       "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
+      "last_seen_at": "2026-10-23T15:05:46.590246Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1085,108 +1383,6 @@
       "biomedical_signals": [],
       "biological_context_signals": [
         "health"
-      ]
-    },
-    {
-      "id": "7da8f57c49b02c40d87b59e041e33136d9b9ea5c",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRklNenRMM3lYcjJ5bVlMbkxLbTh1VTNwZjJramFYd2lJZERmZG9sR1FFRnlTZ2tlSVBmN2xkQkN2VTR5aUwyb19yNkFtOTlXWjJTTGRIbm5TRVg4ZlV6eFQwdUtGSUZJbzVzVEFYUy1jQmdybUdQV2t4ZUZFZXRJRDdQMlNOaUtNUm9sTDQzeGJvbk8yV293QmtSclJVbzBycnNMUC1OMXIwNm8?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
-      "source_type": "news",
-      "title": "Healthspan Wealth Launches AI Health Tool for Advisors - Wealth Management",
-      "title_zh": "Healthspan Wealth为顾问推出AI健康工具-财富管理",
-      "title_en": "Healthspan Wealth Launches AI Health Tool for Advisors - Wealth Management",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRklNenRMM3lYcjJ5bVlMbkxLbTh1VTNwZjJramFYd2lJZERmZG9sR1FFRnlTZ2tlSVBmN2xkQkN2VTR5aUwyb19yNkFtOTlXWjJTTGRIbm5TRVg4ZlV6eFQwdUtGSUZJbzVzVEFYUy1jQmdybUdQV2t4ZUZFZXRJRDdQMlNOaUtNUm9sTDQzeGJvbk8yV293QmtSclJVbzBycnNMUC1OMXIwNm8?oc=5",
-      "published_at": "2026-10-22T13:09:07Z",
-      "first_seen_at": "2026-10-22T10:12:46.105481Z",
-      "last_seen_at": "2026-10-23T10:05:23.958023Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "healthspan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "7c2fdb08003b234fe90d0881cec7bb33397c4f3b",
-      "canonical_key": "url:https://longevity.technology/news/neuroxt-earns-fda-clearance-for-ai-brain-scan-analyzer-for-alzheimers",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "NeuroXT earns FDA clearance for AI brain scan analyzer for Alzheimer’s",
-      "title_zh": "NeuroXT获得FDA批准用于阿尔茨海默氏症的AI脑部扫描分析仪",
-      "title_en": "NeuroXT earns FDA clearance for AI brain scan analyzer for Alzheimer’s",
-      "url": "https://longevity.technology/news/neuroxt-earns-fda-clearance-for-ai-brain-scan-analyzer-for-alzheimers",
-      "published_at": "2026-10-22T10:36:12Z",
-      "first_seen_at": "2026-10-22T20:07:57.757444Z",
-      "last_seen_at": "2026-10-22T23:23:42.356270Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "medical",
-        "patients"
       ]
     }
   ],
