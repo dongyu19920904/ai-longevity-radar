@@ -1,70 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-24T16:35:47.485352Z",
+  "generated_at": "2026-10-24T19:29:37.976743Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 13,
-  "total_items_all_mode": 13,
-  "archive_total": 3935,
+  "total_items": 2,
+  "total_items_raw": 7,
+  "total_items_all_mode": 7,
+  "archive_total": 3890,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 6,
-      "raw_count": 12
+      "count": 2,
+      "raw_count": 7
     }
   ],
   "items": [
-    {
-      "id": "6b6fe6f8808aab70b526f6758a871ce7d5f769a1",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro - Longevity.Technology",
-      "title_zh": "超越阿尔茨海默氏症：量子人工智能为XPro寻找新的用途-长寿。技术",
-      "title_en": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro - Longevity.Technology",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
-      "published_at": "2026-10-23T16:49:58Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
     {
       "id": "e765a0e371b4e9547903a75ad89954677b0b840b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
@@ -78,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
       "published_at": "2026-10-23T20:24:45Z",
       "first_seen_at": "2026-10-24T01:35:58.184513Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
+      "last_seen_at": "2026-10-24T19:29:37.976743Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -126,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNWVIRWVwdnloanM5Y2pNS2pmZzlKYWthRmw2QnNGa1MwemhkazV1Mk1zT0hBRDUwdEtIdG9abm9GeVVQZjg3cTNwNGVOemZORFRfNGtrOXlTaFhYZV9Td3d1NGFGakdyNEdNYjNwSWhjVmxPUV9rbmlaZ3czWVdvR3JqNUVLVFptZkJENXA0bG16SzUwYWYtbkhkWnh5RTNqVzhVZXJXSjdTR25nMVVEVWhqTGRyQnY5SXJGaXZEV1dGMWhsOFFkSFlSNHNJdktpdzNoVzhJVXl5NnhoM1pPUXZmaTdZNDVWVktCcg?oc=5",
       "published_at": "2026-10-24T08:00:00Z",
       "first_seen_at": "2026-10-24T16:35:47.485352Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
+      "last_seen_at": "2026-10-24T19:29:37.976743Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -153,151 +105,6 @@
       ],
       "longevity_signals": [
         "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "dbd199a531c1580238a40c898d8b51522601792b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSG4xU0JCRHJBQWtnQ2xCcVJLZGZYUGR1enNOaThsWGQtZno0WUNWU2tVX1g5dHZOSFhlc2ZnTXB3MnFPS0pieWJxV1FCaU9uUWVRcXByY3pxNHdKVEpLZU0xZ2VFTTNRQk5GbW9EaGktejNseTdHZ2RiR2ExU1E4dmFUQ0c2RXE1T0oyUWpZTW5QZTFoRTZkTGkyQ2hPNUdZSHZKdkFuNlpGRFJyXzIzRHB0NE9qbTRSWVZsTFhQZk93cGw1Q2hqeUNnRWF0LWpqS0hQbFZ1VUVROW9JcWRTcTBiVEpDdw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Pathos AI Announces Strategic Collaborations With Bristol Myers Squibb And Tempus AI, Inc. To Advance AI-Driven Drug Development Beginning With Alzheimer?s Disease And Other Neurological Conditions - marketscreener.com",
-      "title_zh": "Pathos AI宣布与Bristol Myers Squibb和Tempus AI, Inc.开展战略合作，从阿尔茨海默病和其他神经系统疾病入手，推进人工智能驱动的药物开发- marketscreener.com",
-      "title_en": "Pathos AI Announces Strategic Collaborations With Bristol Myers Squibb And Tempus AI, Inc. To Advance AI-Driven Drug Development Beginning With Alzheimer?s Disease And Other Neurological Conditions - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSG4xU0JCRHJBQWtnQ2xCcVJLZGZYUGR1enNOaThsWGQtZno0WUNWU2tVX1g5dHZOSFhlc2ZnTXB3MnFPS0pieWJxV1FCaU9uUWVRcXByY3pxNHdKVEpLZU0xZ2VFTTNRQk5GbW9EaGktejNseTdHZ2RiR2ExU1E4dmFUQ0c2RXE1T0oyUWpZTW5QZTFoRTZkTGkyQ2hPNUdZSHZKdkFuNlpGRFJyXzIzRHB0NE9qbTRSWVZsTFhQZk93cGw1Q2hqeUNnRWF0LWpqS0hQbFZ1VUVROW9JcWRTcTBiVEpDdw?oc=5",
-      "published_at": "2026-10-23T19:21:51Z",
-      "first_seen_at": "2026-10-24T12:41:17.224488Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "8de2d44703399ccdab00050a970426a52078c9e4",
-      "canonical_key": "url:https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
-      "title_zh": "超越阿尔茨海默氏症：量子人工智能为XPro寻找新用途",
-      "title_en": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
-      "url": "https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
-      "published_at": "2026-10-23T16:44:49Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "5175947ec02cff42db54622f8cbccf1d6cb0ccf6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxON0VIN3hLSk5hS0ZEZnBUN2JlWjhkRVhtSFg5eHJ5dHg0TnpfSW9rLVBKektFaUFKeTc0ZGJJRU1oUEVUcGc2Vlk1cHpiakRtQjQzN1JNcUYxbFJLVUNKN0Y5ZC1NQjNGX0QxS0F3TjM5UFVpNXhmWnlXRzJmRXdoNmdGWjZGeWdYbXc4Y183LTR5X0Jud3dzZlQ0N05hcDNRRlp1YXJja250QXM3SXc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "ToastX talks cover AI, longevity science, personal stories - KPCW",
-      "title_zh": "ToastX讲座涵盖人工智能、长寿科学、个人故事- KPCW",
-      "title_en": "ToastX talks cover AI, longevity science, personal stories - KPCW",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON0VIN3hLSk5hS0ZEZnBUN2JlWjhkRVhtSFg5eHJ5dHg0TnpfSW9rLVBKektFaUFKeTc0ZGJJRU1oUEVUcGc2Vlk1cHpiakRtQjQzN1JNcUYxbFJLVUNKN0Y5ZC1NQjNGX0QxS0F3TjM5UFVpNXhmWnlXRzJmRXdoNmdGWjZGeWdYbXc4Y183LTR5X0Jud3dzZlQ0N05hcDNRRlp1YXJja250QXM3SXc?oc=5",
-      "published_at": "2026-10-23T16:38:00Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -308,54 +115,6 @@
   ],
   "items_ai": [
     {
-      "id": "6b6fe6f8808aab70b526f6758a871ce7d5f769a1",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro - Longevity.Technology",
-      "title_zh": "超越阿尔茨海默氏症：量子人工智能为XPro寻找新的用途-长寿。技术",
-      "title_en": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro - Longevity.Technology",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
-      "published_at": "2026-10-23T16:49:58Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "e765a0e371b4e9547903a75ad89954677b0b840b",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
       "site_id": "official_rss",
@@ -368,7 +127,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
       "published_at": "2026-10-23T20:24:45Z",
       "first_seen_at": "2026-10-24T01:35:58.184513Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
+      "last_seen_at": "2026-10-24T19:29:37.976743Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -416,7 +175,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNWVIRWVwdnloanM5Y2pNS2pmZzlKYWthRmw2QnNGa1MwemhkazV1Mk1zT0hBRDUwdEtIdG9abm9GeVVQZjg3cTNwNGVOemZORFRfNGtrOXlTaFhYZV9Td3d1NGFGakdyNEdNYjNwSWhjVmxPUV9rbmlaZ3czWVdvR3JqNUVLVFptZkJENXA0bG16SzUwYWYtbkhkWnh5RTNqVzhVZXJXSjdTR25nMVVEVWhqTGRyQnY5SXJGaXZEV1dGMWhsOFFkSFlSNHNJdktpdzNoVzhJVXl5NnhoM1pPUXZmaTdZNDVWVktCcg?oc=5",
       "published_at": "2026-10-24T08:00:00Z",
       "first_seen_at": "2026-10-24T16:35:47.485352Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
+      "last_seen_at": "2026-10-24T19:29:37.976743Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -443,151 +202,6 @@
       ],
       "longevity_signals": [
         "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "dbd199a531c1580238a40c898d8b51522601792b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSG4xU0JCRHJBQWtnQ2xCcVJLZGZYUGR1enNOaThsWGQtZno0WUNWU2tVX1g5dHZOSFhlc2ZnTXB3MnFPS0pieWJxV1FCaU9uUWVRcXByY3pxNHdKVEpLZU0xZ2VFTTNRQk5GbW9EaGktejNseTdHZ2RiR2ExU1E4dmFUQ0c2RXE1T0oyUWpZTW5QZTFoRTZkTGkyQ2hPNUdZSHZKdkFuNlpGRFJyXzIzRHB0NE9qbTRSWVZsTFhQZk93cGw1Q2hqeUNnRWF0LWpqS0hQbFZ1VUVROW9JcWRTcTBiVEpDdw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Pathos AI Announces Strategic Collaborations With Bristol Myers Squibb And Tempus AI, Inc. To Advance AI-Driven Drug Development Beginning With Alzheimer?s Disease And Other Neurological Conditions - marketscreener.com",
-      "title_zh": "Pathos AI宣布与Bristol Myers Squibb和Tempus AI, Inc.开展战略合作，从阿尔茨海默病和其他神经系统疾病入手，推进人工智能驱动的药物开发- marketscreener.com",
-      "title_en": "Pathos AI Announces Strategic Collaborations With Bristol Myers Squibb And Tempus AI, Inc. To Advance AI-Driven Drug Development Beginning With Alzheimer?s Disease And Other Neurological Conditions - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSG4xU0JCRHJBQWtnQ2xCcVJLZGZYUGR1enNOaThsWGQtZno0WUNWU2tVX1g5dHZOSFhlc2ZnTXB3MnFPS0pieWJxV1FCaU9uUWVRcXByY3pxNHdKVEpLZU0xZ2VFTTNRQk5GbW9EaGktejNseTdHZ2RiR2ExU1E4dmFUQ0c2RXE1T0oyUWpZTW5QZTFoRTZkTGkyQ2hPNUdZSHZKdkFuNlpGRFJyXzIzRHB0NE9qbTRSWVZsTFhQZk93cGw1Q2hqeUNnRWF0LWpqS0hQbFZ1VUVROW9JcWRTcTBiVEpDdw?oc=5",
-      "published_at": "2026-10-23T19:21:51Z",
-      "first_seen_at": "2026-10-24T12:41:17.224488Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "8de2d44703399ccdab00050a970426a52078c9e4",
-      "canonical_key": "url:https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Longevity.Technology",
-      "source_type": "news",
-      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
-      "title_zh": "超越阿尔茨海默氏症：量子人工智能为XPro寻找新用途",
-      "title_en": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
-      "url": "https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
-      "published_at": "2026-10-23T16:44:49Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "5175947ec02cff42db54622f8cbccf1d6cb0ccf6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxON0VIN3hLSk5hS0ZEZnBUN2JlWjhkRVhtSFg5eHJ5dHg0TnpfSW9rLVBKektFaUFKeTc0ZGJJRU1oUEVUcGc2Vlk1cHpiakRtQjQzN1JNcUYxbFJLVUNKN0Y5ZC1NQjNGX0QxS0F3TjM5UFVpNXhmWnlXRzJmRXdoNmdGWjZGeWdYbXc4Y183LTR5X0Jud3dzZlQ0N05hcDNRRlp1YXJja250QXM3SXc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "ToastX talks cover AI, longevity science, personal stories - KPCW",
-      "title_zh": "ToastX讲座涵盖人工智能、长寿科学、个人故事- KPCW",
-      "title_en": "ToastX talks cover AI, longevity science, personal stories - KPCW",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON0VIN3hLSk5hS0ZEZnBUN2JlWjhkRVhtSFg5eHJ5dHg0TnpfSW9rLVBKektFaUFKeTc0ZGJJRU1oUEVUcGc2Vlk1cHpiakRtQjQzN1JNcUYxbFJLVUNKN0Y5ZC1NQjNGX0QxS0F3TjM5UFVpNXhmWnlXRzJmRXdoNmdGWjZGeWdYbXc4Y183LTR5X0Jud3dzZlQ0N05hcDNRRlp1YXJja250QXM3SXc?oc=5",
-      "published_at": "2026-10-23T16:38:00Z",
-      "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-24T16:35:47.485352Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
