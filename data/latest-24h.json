@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-23T22:20:02.308152Z",
+  "generated_at": "2026-10-24T01:35:58.184513Z",
   "window_hours": 24,
-  "total_items": 10,
-  "total_items_raw": 32,
-  "total_items_all_mode": 32,
-  "archive_total": 4096,
+  "total_items": 13,
+  "total_items_raw": 34,
+  "total_items_all_mode": 34,
+  "archive_total": 4132,
   "site_count": 1,
   "source_count": 5,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 10,
-      "raw_count": 31
+      "count": 13,
+      "raw_count": 33
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "published_at": "2026-10-23T10:11:09Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T22:20:02.308152Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -82,7 +82,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
       "published_at": "2026-10-23T16:49:58Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -130,7 +130,7 @@
       "url": "https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
       "published_at": "2026-10-23T13:46:14Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -172,6 +172,56 @@
       ]
     },
     {
+      "id": "e765a0e371b4e9547903a75ad89954677b0b840b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Models Show Promise in Alzheimer’s Classification - European Medical Journal",
+      "title_zh": "人工智能模型在阿尔茨海默氏症分类中显示出希望-欧洲医学杂志",
+      "title_en": "AI Models Show Promise in Alzheimer’s Classification - European Medical Journal",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
+      "published_at": "2026-10-23T20:24:45Z",
+      "first_seen_at": "2026-10-24T01:35:58.184513Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "8de2d44703399ccdab00050a970426a52078c9e4",
       "canonical_key": "url:https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
       "site_id": "official_rss",
@@ -184,7 +234,7 @@
       "url": "https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
       "published_at": "2026-10-23T16:44:49Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -329,7 +379,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2NCSjVhM1hFV0dILW1ia3VWckF0MUs2ZUMzNGU2MDB5OC1nQWxMa1FwLS03el8xOFdxX1k3VWlCajlmSnpUSk9US0R3Ymk4MTE1b3Z4V3RMQmZlay0xUE9ZcXZnS2x5MkFkY01pMlZvYTAzZDIwM0dKV1dqZE1PXzZvM2plSjNPQTBLN2hDVGhLcXJlNnB3REhLSXdraV9SVUlpSVNUOUYyNUFrdTBjem1xSWRTd0FYTkdweUs1ZkV5Mnc0dUl4YXhDbHdlOFhUODh5SGhVZzc?oc=5",
       "published_at": "2026-10-23T13:51:57Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -364,19 +414,68 @@
       "biological_context_signals": []
     },
     {
+      "id": "d196679967990f1c50a0ced5bf58ee044ed52765",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSlFnT0J3NnQyNGJxX2VYcUhrVzF6Qm5YTHNwQ3gzX0ZVZnRhV3VzU0VaUkktX3NlN1BpcGl3aGdBNEFrdXJMRXBRUl9mZE9PbXRBdmRlRWtKblE5MkFXdUhVekh3emx0YkJQajRodlp1YWg5Zm41dG1vY3l2S0huQ3I2RFpnZ2pxZ29fd2JaZXpiQVhFYVZaOGV3WDA4MGpxS2dfSm8xTzQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Pathos AI Announces Strategic Collaborations with Bristol Myers Squibb and Tempus AI to Advance AI-Driven Drug Development Beginning with Alzheimer’s Disease and Other Neurological Conditions - Yahoo Finance",
+      "title_zh": "Pathos AI宣布与Bristol Myers Squibb和Tempus AI开展战略合作，从阿尔茨海默病和其他神经系统疾病开始推进人工智能驱动的药物开发-雅虎财经",
+      "title_en": "Pathos AI Announces Strategic Collaborations with Bristol Myers Squibb and Tempus AI to Advance AI-Driven Drug Development Beginning with Alzheimer’s Disease and Other Neurological Conditions - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSlFnT0J3NnQyNGJxX2VYcUhrVzF6Qm5YTHNwQ3gzX0ZVZnRhV3VzU0VaUkktX3NlN1BpcGl3aGdBNEFrdXJMRXBRUl9mZE9PbXRBdmRlRWtKblE5MkFXdUhVekh3emx0YkJQajRodlp1YWg5Zm41dG1vY3l2S0huQ3I2RFpnZ2pxZ29fd2JaZXpiQVhFYVZaOGV3WDA4MGpxS2dfSm8xTzQ?oc=5",
+      "published_at": "2026-10-23T13:00:00Z",
+      "first_seen_at": "2026-10-24T01:35:58.184513Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
       "id": "f2a1e1821a924794d6248f7ebbb1bf0c80f7e69d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
-      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺-欧洲医学杂志",
-      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - EMJ",
+      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺- EMJ",
+      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - EMJ",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
       "published_at": "2026-10-23T12:03:32Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -408,9 +507,7 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "medical"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "bcd64ac54541320e493635f64c7b43a5db125d6c",
@@ -425,7 +522,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
       "published_at": "2026-10-23T12:00:01Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -460,6 +557,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "51cbb1642e2e3bbaa0e072efe5106dd710b3edff",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "title_zh": "人工智能工具使用面部照片来估计生物年龄和癌症存活率- Khaama Press",
+      "title_en": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "published_at": "2026-10-23T10:06:22Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "ca4448bea8b599dc578bbd0a991e6c802cd227e2",
       "canonical_key": "url:https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "site_id": "official_rss",
@@ -472,7 +616,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T22:20:02.308152Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -525,7 +669,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain",
       "published_at": "2026-10-23T10:11:09Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T22:20:02.308152Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -577,7 +721,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
       "published_at": "2026-10-23T16:49:58Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -625,7 +769,7 @@
       "url": "https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk",
       "published_at": "2026-10-23T13:46:14Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -667,6 +811,56 @@
       ]
     },
     {
+      "id": "e765a0e371b4e9547903a75ad89954677b0b840b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Models Show Promise in Alzheimer’s Classification - European Medical Journal",
+      "title_zh": "人工智能模型在阿尔茨海默氏症分类中显示出希望-欧洲医学杂志",
+      "title_en": "AI Models Show Promise in Alzheimer’s Classification - European Medical Journal",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSDRCZXlzYWpFWlNBQW82enJXYnQ0MC1LZmpIXzlaWHR2OHlvQzNqUzhkN2tKcWtYNXg5UDExNzNSWjRPeDVScXZxNURta1RwT0JWR3A2ZTJaVlRsUDM5YWRxSUphcFBnQ2JTRXhCeUZmRHdxZ09DLTNzMV9aTzZhc3pXdF9jekJac25pSWotZzBiMU81SjgyNmt3?oc=5",
+      "published_at": "2026-10-23T20:24:45Z",
+      "first_seen_at": "2026-10-24T01:35:58.184513Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "medical"
+      ]
+    },
+    {
       "id": "8de2d44703399ccdab00050a970426a52078c9e4",
       "canonical_key": "url:https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
       "site_id": "official_rss",
@@ -679,7 +873,7 @@
       "url": "https://longevity.technology/news/beyond-alzheimers-quantum-ai-hunts-new-uses-for-xpro",
       "published_at": "2026-10-23T16:44:49Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -824,7 +1018,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2NCSjVhM1hFV0dILW1ia3VWckF0MUs2ZUMzNGU2MDB5OC1nQWxMa1FwLS03el8xOFdxX1k3VWlCajlmSnpUSk9US0R3Ymk4MTE1b3Z4V3RMQmZlay0xUE9ZcXZnS2x5MkFkY01pMlZvYTAzZDIwM0dKV1dqZE1PXzZvM2plSjNPQTBLN2hDVGhLcXJlNnB3REhLSXdraV9SVUlpSVNUOUYyNUFrdTBjem1xSWRTd0FYTkdweUs1ZkV5Mnc0dUl4YXhDbHdlOFhUODh5SGhVZzc?oc=5",
       "published_at": "2026-10-23T13:51:57Z",
       "first_seen_at": "2026-10-23T19:14:55.256186Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -859,19 +1053,68 @@
       "biological_context_signals": []
     },
     {
+      "id": "d196679967990f1c50a0ced5bf58ee044ed52765",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSlFnT0J3NnQyNGJxX2VYcUhrVzF6Qm5YTHNwQ3gzX0ZVZnRhV3VzU0VaUkktX3NlN1BpcGl3aGdBNEFrdXJMRXBRUl9mZE9PbXRBdmRlRWtKblE5MkFXdUhVekh3emx0YkJQajRodlp1YWg5Zm41dG1vY3l2S0huQ3I2RFpnZ2pxZ29fd2JaZXpiQVhFYVZaOGV3WDA4MGpxS2dfSm8xTzQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Pathos AI Announces Strategic Collaborations with Bristol Myers Squibb and Tempus AI to Advance AI-Driven Drug Development Beginning with Alzheimer’s Disease and Other Neurological Conditions - Yahoo Finance",
+      "title_zh": "Pathos AI宣布与Bristol Myers Squibb和Tempus AI开展战略合作，从阿尔茨海默病和其他神经系统疾病开始推进人工智能驱动的药物开发-雅虎财经",
+      "title_en": "Pathos AI Announces Strategic Collaborations with Bristol Myers Squibb and Tempus AI to Advance AI-Driven Drug Development Beginning with Alzheimer’s Disease and Other Neurological Conditions - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSlFnT0J3NnQyNGJxX2VYcUhrVzF6Qm5YTHNwQ3gzX0ZVZnRhV3VzU0VaUkktX3NlN1BpcGl3aGdBNEFrdXJMRXBRUl9mZE9PbXRBdmRlRWtKblE5MkFXdUhVekh3emx0YkJQajRodlp1YWg5Zm41dG1vY3l2S0huQ3I2RFpnZ2pxZ29fd2JaZXpiQVhFYVZaOGV3WDA4MGpxS2dfSm8xTzQ?oc=5",
+      "published_at": "2026-10-23T13:00:00Z",
+      "first_seen_at": "2026-10-24T01:35:58.184513Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
       "id": "f2a1e1821a924794d6248f7ebbb1bf0c80f7e69d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
-      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺-欧洲医学杂志",
-      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - European Medical Journal",
+      "title": "Machine Learning Shows Promise for Alzheimer’s Classification - EMJ",
+      "title_zh": "机器学习显示出阿尔茨海默氏症分类的承诺- EMJ",
+      "title_en": "Machine Learning Shows Promise for Alzheimer’s Classification - EMJ",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlJ1RkExQ2MyZHdZRUs2YTF4Ul9GT2tjZGxJeWNJN3pMWnIxSGdpMm1yWjRyeVNDTmxYVGxNd3pmRjNfZlZOMHJvLW1OYTFCb2xoaGdUUThnYjd1TXRHVExsZjNFUTl4S1k2VkxESDVLZWpwX3E0YkFEQmFobzJVem5nWUNSRTQzdnhqQkktcUJLVHQzQ3dIODBqcmtnYXJ2Q2c1QUdR?oc=5",
       "published_at": "2026-10-23T12:03:32Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -903,9 +1146,7 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "medical"
-      ]
+      "biological_context_signals": []
     },
     {
       "id": "bcd64ac54541320e493635f64c7b43a5db125d6c",
@@ -920,7 +1161,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbndtaWVvTlEydXd6TlBuT3B0Tl80MUZNQWtTV0g2a1EwbW9nSjRzQ0hYWGx4bHltUTVyRkZ5a0dhY003XzlBSnhadnpzdERyTkpYbUp1VFN6aFhZQ3VuYWVJNENyN01sOWdzMzVLSUlkbFIzekFPVFpWbG45dlJ0MnZKRV9oc1lZRENlY2RZdWJUNFVMblVFOWxn?oc=5",
       "published_at": "2026-10-23T12:00:01Z",
       "first_seen_at": "2026-10-23T15:05:46.590246Z",
-      "last_seen_at": "2026-10-23T19:14:55.256186Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -955,6 +1196,53 @@
       "biological_context_signals": []
     },
     {
+      "id": "51cbb1642e2e3bbaa0e072efe5106dd710b3edff",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "title_zh": "人工智能工具使用面部照片来估计生物年龄和癌症存活率- Khaama Press",
+      "title_en": "AI Tool Uses Facial Photos to Estimate Biological Age and Cancer Survival - Khaama Press",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43SnAySjRBU2ZkazhQSXhXUzlwUVBBV2F4NC1tLWdFNmlaMzBCdEpqMUdUcFFXbW5fU3luOXl4MGl0RmJUZHE5czM2NVZMYXV1ZFdYTHpvbTA4bjVxZnBqQkZNVXduOXBwVUw3Tk9DR0daVF9JNWs5T0FiSmVaQQ?oc=5",
+      "published_at": "2026-10-23T10:06:22Z",
+      "first_seen_at": "2026-10-23T15:05:46.590246Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "ca4448bea8b599dc578bbd0a991e6c802cd227e2",
       "canonical_key": "url:https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "site_id": "official_rss",
@@ -967,7 +1255,7 @@
       "url": "https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx",
       "published_at": "2026-10-23T08:05:00Z",
       "first_seen_at": "2026-10-23T10:05:23.958023Z",
-      "last_seen_at": "2026-10-23T22:20:02.308152Z",
+      "last_seen_at": "2026-10-24T01:35:58.184513Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
