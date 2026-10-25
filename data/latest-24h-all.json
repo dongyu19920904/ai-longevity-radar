@@ -1,10 +1,151 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-25T11:34:48.352513Z",
+  "generated_at": "2026-10-25T16:23:21.381671Z",
   "window_hours": 24,
-  "total_items_raw": 4,
-  "total_items_all_mode": 4,
+  "total_items_raw": 8,
+  "total_items_all_mode": 8,
   "items_all": [
+    {
+      "id": "2779a87cbfc410d6e15909e90e982e39ce7d8022",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-10-postpartum-recovery-window-play-critical.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Postpartum recovery window may play a critical role in maternal aging and long-term health",
+      "title_en": "Postpartum recovery window may play a critical role in maternal aging and long-term health",
+      "url": "https://medicalxpress.com/news/2026-10-postpartum-recovery-window-play-critical.html",
+      "published_at": "2026-10-25T15:00:01Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "977cf4e2a3176db3889e789d2624d541b6510b54",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Fight Aging! Newsletter, October 26th 2026",
+      "title_en": "Fight Aging! Newsletter, October 26th 2026",
+      "url": "https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026",
+      "published_at": "2026-10-25T11:55:02Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "medicine"
+      ]
+    },
+    {
+      "id": "1f3e5d8bf44d1dad2ceb5f4ceaa79c3a700d9525",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+      "title_en": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+      "published_at": "2026-10-25T10:21:48Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "66cf369ad3aa50f8920509d26882a06ef621f90c",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzdtYlBxWmlQa2RGWjJULXoxckhJeUU0YnE5MUYxajNjZW9SUjdnSm9kT0JEVk5iYUlud1hZU044UnV1alFqcndPT0pTWnQ4SV85Z25rVjd4OXJydXB5Y3RwX1RTclMzNkJUVGE5Vk1LcUtGZS1HQ2ViZGNTZmxEZg?oc=5",
@@ -17,7 +158,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzdtYlBxWmlQa2RGWjJULXoxckhJeUU0YnE5MUYxajNjZW9SUjdnSm9kT0JEVk5iYUlud1hZU044UnV1alFqcndPT0pTWnQ4SV85Z25rVjd4OXJydXB5Y3RwX1RTclMzNkJUVGE5Vk1LcUtGZS1HQ2ViZGNTZmxEZg?oc=5",
       "published_at": "2026-10-25T07:35:53Z",
       "first_seen_at": "2026-10-25T11:34:48.352513Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -54,6 +195,56 @@
       ]
     },
     {
+      "id": "ef33789fef9ca6c8c884026c4979153f99e144e3",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
+      "title_en": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
+      "published_at": "2026-10-25T01:38:38Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.61,
+      "domain_score": 0.9,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "alzheimer",
+        "healthy aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
       "id": "927f93c06eb88773a4263cf22b077ddb6971c027",
       "canonical_key": "url:https://medicalxpress.com/news/2026-10-advanced-age-limit-benefits-sodium.html",
       "site_id": "official_rss",
@@ -65,7 +256,7 @@
       "url": "https://medicalxpress.com/news/2026-10-advanced-age-limit-benefits-sodium.html",
       "published_at": "2026-10-24T22:30:01Z",
       "first_seen_at": "2026-10-25T01:11:31.091319Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -109,7 +300,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSWg1d1duS3BGUjdNaWdNejlUV0l3YzdKc0tKQk5XRlNPMUxkNjJqNG96X082ZVVyM3JwdGZ4Sm9CQ051N0hjY0xHMzBCMS1mY3dtMWFrdW1LY1hMdXdNbG9aZ2JXQXhITkEtLXFqVTJEeTFLSUoweFFxcllqX3piMy1yV09Db3pMZnZnMUVPWWpnTUVTbVFBN09wOUpRWG9DRndoS29VTHdDQi1KYWRzdlNmbFY5VmJQeGF3Sm12c1Z2Z25OcnB1REtEa0xpT0dXaF8zZ2tyaVNHRWU4UkZEd1Y5b1pud0hiN2tiZNIB8gFBVV95cUxPV2NfTnUzT1JCVDBWNXQyV3FHM0hyU0YySEJmR1U4RnRzUFlOMmF6eFNIaUt3SXdNMnZGb3Q1OVlsVzJWeWFIYVB6R0hpRUs3MEtaWWdNVVdNOXpBWVFoZHFlQkhRclVjN0RxSWdVZl8xNTZfY0NVQzVTLUNHb1hqbzVDc0hzNkIya2RFODhwSi11MmNiU2sxOS0xcGtXOEVGMGUwZEhOMURUNmNwdGFxTzZndjhNS3hVRVFjRzFuWmdjTHV2bVJwNmJZU2lzZ2M5RFRqSk96NElGYm5yb1F2V24zejc5anFFcUhFQ2tvMWF6UQ?oc=5",
       "published_at": "2026-10-24T21:08:15Z",
       "first_seen_at": "2026-10-24T22:29:06.420854Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -153,7 +344,7 @@
       "url": "https://www.news-medical.net/news/20261024/Massive-study-identifies-genetic-variants-associated-with-five-major-personality-traits.aspx",
       "published_at": "2026-10-24T17:26:44Z",
       "first_seen_at": "2026-10-24T19:29:37.976743Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -186,6 +377,147 @@
   ],
   "items_all_raw": [
     {
+      "id": "2779a87cbfc410d6e15909e90e982e39ce7d8022",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-10-postpartum-recovery-window-play-critical.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Postpartum recovery window may play a critical role in maternal aging and long-term health",
+      "title_en": "Postpartum recovery window may play a critical role in maternal aging and long-term health",
+      "url": "https://medicalxpress.com/news/2026-10-postpartum-recovery-window-play-critical.html",
+      "published_at": "2026-10-25T15:00:01Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "977cf4e2a3176db3889e789d2624d541b6510b54",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Fight Aging! Newsletter, October 26th 2026",
+      "title_en": "Fight Aging! Newsletter, October 26th 2026",
+      "url": "https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026",
+      "published_at": "2026-10-25T11:55:02Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.56,
+      "domain_score": 0.8,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "medicine"
+      ]
+    },
+    {
+      "id": "1f3e5d8bf44d1dad2ceb5f4ceaa79c3a700d9525",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+      "title_en": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+      "published_at": "2026-10-25T10:21:48Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "66cf369ad3aa50f8920509d26882a06ef621f90c",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzdtYlBxWmlQa2RGWjJULXoxckhJeUU0YnE5MUYxajNjZW9SUjdnSm9kT0JEVk5iYUlud1hZU044UnV1alFqcndPT0pTWnQ4SV85Z25rVjd4OXJydXB5Y3RwX1RTclMzNkJUVGE5Vk1LcUtGZS1HQ2ViZGNTZmxEZg?oc=5",
       "site_id": "official_rss",
@@ -197,7 +529,7 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzdtYlBxWmlQa2RGWjJULXoxckhJeUU0YnE5MUYxajNjZW9SUjdnSm9kT0JEVk5iYUlud1hZU044UnV1alFqcndPT0pTWnQ4SV85Z25rVjd4OXJydXB5Y3RwX1RTclMzNkJUVGE5Vk1LcUtGZS1HQ2ViZGNTZmxEZg?oc=5",
       "published_at": "2026-10-25T07:35:53Z",
       "first_seen_at": "2026-10-25T11:34:48.352513Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -234,6 +566,56 @@
       ]
     },
     {
+      "id": "ef33789fef9ca6c8c884026c4979153f99e144e3",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
+      "title_en": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
+      "published_at": "2026-10-25T01:38:38Z",
+      "first_seen_at": "2026-10-25T16:23:21.381671Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.9,
+      "signal_score": 0.61,
+      "domain_score": 0.9,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "alzheimer",
+        "healthy aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
       "id": "927f93c06eb88773a4263cf22b077ddb6971c027",
       "canonical_key": "url:https://medicalxpress.com/news/2026-10-advanced-age-limit-benefits-sodium.html",
       "site_id": "official_rss",
@@ -245,7 +627,7 @@
       "url": "https://medicalxpress.com/news/2026-10-advanced-age-limit-benefits-sodium.html",
       "published_at": "2026-10-24T22:30:01Z",
       "first_seen_at": "2026-10-25T01:11:31.091319Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -289,7 +671,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSWg1d1duS3BGUjdNaWdNejlUV0l3YzdKc0tKQk5XRlNPMUxkNjJqNG96X082ZVVyM3JwdGZ4Sm9CQ051N0hjY0xHMzBCMS1mY3dtMWFrdW1LY1hMdXdNbG9aZ2JXQXhITkEtLXFqVTJEeTFLSUoweFFxcllqX3piMy1yV09Db3pMZnZnMUVPWWpnTUVTbVFBN09wOUpRWG9DRndoS29VTHdDQi1KYWRzdlNmbFY5VmJQeGF3Sm12c1Z2Z25OcnB1REtEa0xpT0dXaF8zZ2tyaVNHRWU4UkZEd1Y5b1pud0hiN2tiZNIB8gFBVV95cUxPV2NfTnUzT1JCVDBWNXQyV3FHM0hyU0YySEJmR1U4RnRzUFlOMmF6eFNIaUt3SXdNMnZGb3Q1OVlsVzJWeWFIYVB6R0hpRUs3MEtaWWdNVVdNOXpBWVFoZHFlQkhRclVjN0RxSWdVZl8xNTZfY0NVQzVTLUNHb1hqbzVDc0hzNkIya2RFODhwSi11MmNiU2sxOS0xcGtXOEVGMGUwZEhOMURUNmNwdGFxTzZndjhNS3hVRVFjRzFuWmdjTHV2bVJwNmJZU2lzZ2M5RFRqSk96NElGYm5yb1F2V24zejc5anFFcUhFQ2tvMWF6UQ?oc=5",
       "published_at": "2026-10-24T21:08:15Z",
       "first_seen_at": "2026-10-24T22:29:06.420854Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -333,7 +715,7 @@
       "url": "https://www.news-medical.net/news/20261024/Massive-study-identifies-genetic-variants-associated-with-five-major-personality-traits.aspx",
       "published_at": "2026-10-24T17:26:44Z",
       "first_seen_at": "2026-10-24T19:29:37.976743Z",
-      "last_seen_at": "2026-10-25T11:34:48.352513Z",
+      "last_seen_at": "2026-10-25T16:23:21.381671Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
