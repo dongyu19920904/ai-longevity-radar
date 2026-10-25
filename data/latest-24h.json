@@ -1,16 +1,123 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-25T16:23:21.381671Z",
+  "generated_at": "2026-10-25T19:38:30.580769Z",
   "window_hours": 24,
-  "total_items": 0,
+  "total_items": 1,
   "total_items_raw": 8,
   "total_items_all_mode": 8,
-  "archive_total": 3759,
-  "site_count": 0,
-  "source_count": 0,
-  "site_stats": [],
-  "items": [],
-  "items_ai": [],
+  "archive_total": 3717,
+  "site_count": 1,
+  "source_count": 1,
+  "site_stats": [
+    {
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "count": 1,
+      "raw_count": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "7813b1b23ad540470235695c0d868a633dc829f2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY1BUWENLT3lFSXd6S3hWYnA2bG5NQzhvZmN6R3ZSVnpCcW9wUENZWVl3TDdvRTRiYTRfVENkWXVQTW5zYWlDak1sQS0tTEs0LV94MmZ3bFZWRTdISTFQWHhGaGtTMU1JSTJmQ2RROUdRU3FOY19TNGhRVXA3d3AzWnQ2eFNONnZHS2pvZ2Q5OXJGcVVfRkFLbmtNTmNEM1RDMzlPTGg2SzdCWXdFTVJQTDRLQ2FpcmdYMlRMUnJXTUgtb09CQ0QxNXY5cmhzN3FJeGtnaFhR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "EverNear Develops AI Voice Companion to Support Older Adults Living With Alzheimer's Disease - EIN Presswire",
+      "title_zh": "EverNear开发人工智能语音伴侣，以支持患有阿尔茨海默病的老年人- EIN Presswire",
+      "title_en": "EverNear Develops AI Voice Companion to Support Older Adults Living With Alzheimer's Disease - EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY1BUWENLT3lFSXd6S3hWYnA2bG5NQzhvZmN6R3ZSVnpCcW9wUENZWVl3TDdvRTRiYTRfVENkWXVQTW5zYWlDak1sQS0tTEs0LV94MmZ3bFZWRTdISTFQWHhGaGtTMU1JSTJmQ2RROUdRU3FOY19TNGhRVXA3d3AzWnQ2eFNONnZHS2pvZ2Q5OXJGcVVfRkFLbmtNTmNEM1RDMzlPTGg2SzdCWXdFTVJQTDRLQ2FpcmdYMlRMUnJXTUgtb09CQ0QxNXY5cmhzN3FJeGtnaFhR?oc=5",
+      "published_at": "2026-10-25T18:15:00Z",
+      "first_seen_at": "2026-10-25T19:38:30.580769Z",
+      "last_seen_at": "2026-10-25T19:38:30.580769Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "7813b1b23ad540470235695c0d868a633dc829f2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY1BUWENLT3lFSXd6S3hWYnA2bG5NQzhvZmN6R3ZSVnpCcW9wUENZWVl3TDdvRTRiYTRfVENkWXVQTW5zYWlDak1sQS0tTEs0LV94MmZ3bFZWRTdISTFQWHhGaGtTMU1JSTJmQ2RROUdRU3FOY19TNGhRVXA3d3AzWnQ2eFNONnZHS2pvZ2Q5OXJGcVVfRkFLbmtNTmNEM1RDMzlPTGg2SzdCWXdFTVJQTDRLQ2FpcmdYMlRMUnJXTUgtb09CQ0QxNXY5cmhzN3FJeGtnaFhR?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "EverNear Develops AI Voice Companion to Support Older Adults Living With Alzheimer's Disease - EIN Presswire",
+      "title_zh": "EverNear开发人工智能语音伴侣，以支持患有阿尔茨海默病的老年人- EIN Presswire",
+      "title_en": "EverNear Develops AI Voice Companion to Support Older Adults Living With Alzheimer's Disease - EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY1BUWENLT3lFSXd6S3hWYnA2bG5NQzhvZmN6R3ZSVnpCcW9wUENZWVl3TDdvRTRiYTRfVENkWXVQTW5zYWlDak1sQS0tTEs0LV94MmZ3bFZWRTdISTFQWHhGaGtTMU1JSTJmQ2RROUdRU3FOY19TNGhRVXA3d3AzWnQ2eFNONnZHS2pvZ2Q5OXJGcVVfRkFLbmtNTmNEM1RDMzlPTGg2SzdCWXdFTVJQTDRLQ2FpcmdYMlRMUnJXTUgtb09CQ0QxNXY5cmhzN3FJeGtnaFhR?oc=5",
+      "published_at": "2026-10-25T18:15:00Z",
+      "first_seen_at": "2026-10-25T19:38:30.580769Z",
+      "last_seen_at": "2026-10-25T19:38:30.580769Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    }
+  ],
   "relevant_data_url": "data/latest-relevant.json",
   "all_mode_data_url": "data/latest-24h-all.json",
   "methodology_url": "https://radar.aibioo.cn/methodology.html",
