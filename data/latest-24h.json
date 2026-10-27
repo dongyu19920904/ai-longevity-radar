@@ -1,78 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-27T13:13:03.606810Z",
+  "generated_at": "2026-10-27T18:43:51.201106Z",
   "window_hours": 24,
   "total_items": 4,
-  "total_items_raw": 30,
-  "total_items_all_mode": 30,
-  "archive_total": 3064,
-  "site_count": 2,
-  "source_count": 3,
+  "total_items_raw": 28,
+  "total_items_all_mode": 28,
+  "archive_total": 2942,
+  "site_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 26
-    },
-    {
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "count": 1,
-      "raw_count": 3
+      "count": 4,
+      "raw_count": 28
     }
   ],
   "items": [
-    {
-      "id": "1c0c0b889d309bb738113433def4de1adfe1451a",
-      "canonical_key": "url:https://papers.cool/arxiv/2610.35761",
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "source": "Papers.cool cs.AI",
-      "source_type": "paper",
-      "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
-      "title_zh": "超越身体疾病：临床叙述能否揭示慢性病患者新出现的心理健康风险？",
-      "title_en": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
-      "url": "https://papers.cool/arxiv/2610.35761",
-      "published_at": "2026-10-26T17:06:33Z",
-      "first_seen_at": "2026-10-27T06:18:03.742425Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
-      "ai_is_related": true,
-      "ai_score": 0.61,
-      "longevity_is_related": true,
-      "longevity_score": 0.62,
-      "signal_score": 0.668,
-      "domain_score": 0.62,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "preprint",
-      "evidence_type": "preprint",
-      "risk_flags": [
-        "preprint_not_peer_reviewed"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "risk prediction"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "health",
-        "patients"
-      ]
-    },
     {
       "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
@@ -86,7 +30,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "published_at": "2026-10-26T18:48:57Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -127,19 +71,19 @@
       ]
     },
     {
-      "id": "f7cc0efc54faecc62c2b08cf56a4e00400749244",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
+      "id": "55d651774e2367e8a1c4d66e9e7f2ba923bb06c2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "title_zh": "Anthropic表示，人工智能将帮助治愈癌症和阿尔茨海默病- “非常令人鼓舞” - Reform UK",
-      "title_en": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
-      "published_at": "2026-10-26T18:23:04Z",
-      "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T06:18:03.742425Z",
+      "title": "The use of biological age and artificial intelligence in health care - Pension Policy International",
+      "title_zh": "生物年龄和人工智能在医疗保健中的应用-国际养老金政策",
+      "title_en": "The use of biological age and artificial intelligence in health care - Pension Policy International",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
+      "published_at": "2026-10-27T15:12:18Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -150,9 +94,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -162,33 +106,80 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "artificial intelligence"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "health"
       ]
     },
     {
-      "id": "804cd5c2674aad334904cb6e9235261478698fa6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFsUDdtYUtBWWhQMVlWWWNhWDJvUGpxM2JqMmhuZjhhNHdFckdhWnAycGNVd01VYUZzMHFCUTI4WDg1dXFNWDlfTlJnLXAyUVU4MEVVRHpwdUVJeTVGdnJoYUhzZ1JBN3lTSDFrZWdHd3ZMV1VzSmJvLUNuM1ludUNReEt0cGVnNjV4QS1XWEx2LVU0Uk1hWlcyZVA3ZVA0ck44?oc=5",
+      "id": "7b840dcf964e045f3a249c98d70258732a1d8104",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "title_zh": "Anthropic表示，人工智能将帮助治愈癌症和阿尔茨海默病- “非常令人鼓舞” - Reform UK",
-      "title_en": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFsUDdtYUtBWWhQMVlWWWNhWDJvUGpxM2JqMmhuZjhhNHdFckdhWnAycGNVd01VYUZzMHFCUTI4WDg1dXFNWDlfTlJnLXAyUVU4MEVVRHpwdUVJeTVGdnJoYUhzZ1JBN3lTSDFrZWdHd3ZMV1VzSmJvLUNuM1ludUNReEt0cGVnNjV4QS1XWEx2LVU0Uk1hWlcyZVA3ZVA0ck44?oc=5",
-      "published_at": "2026-10-26T18:23:04Z",
-      "first_seen_at": "2026-10-27T00:26:46.656173Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "title_zh": "人工智能如何改变数百万痴呆症患者的发现速度- NVIDIA博客",
+      "title_en": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
+      "published_at": "2026-10-27T15:04:46Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
+      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "published_at": "2026-10-27T15:02:13Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -221,62 +212,12 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "brain"
       ]
     }
   ],
   "items_ai": [
     {
-      "id": "1c0c0b889d309bb738113433def4de1adfe1451a",
-      "canonical_key": "url:https://papers.cool/arxiv/2610.35761",
-      "site_id": "papers_cool",
-      "site_name": "Papers.cool 论文精选",
-      "source": "Papers.cool cs.AI",
-      "source_type": "paper",
-      "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
-      "title_zh": "超越身体疾病：临床叙述能否揭示慢性病患者新出现的心理健康风险？",
-      "title_en": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
-      "url": "https://papers.cool/arxiv/2610.35761",
-      "published_at": "2026-10-26T17:06:33Z",
-      "first_seen_at": "2026-10-27T06:18:03.742425Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
-      "ai_is_related": true,
-      "ai_score": 0.61,
-      "longevity_is_related": true,
-      "longevity_score": 0.62,
-      "signal_score": 0.668,
-      "domain_score": 0.62,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "preprint",
-      "evidence_type": "preprint",
-      "risk_flags": [
-        "preprint_not_peer_reviewed"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "risk prediction"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical",
-        "health",
-        "patients"
-      ]
-    },
-    {
       "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "site_id": "official_rss",
@@ -289,7 +230,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "published_at": "2026-10-26T18:48:57Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -330,19 +271,19 @@
       ]
     },
     {
-      "id": "f7cc0efc54faecc62c2b08cf56a4e00400749244",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
+      "id": "55d651774e2367e8a1c4d66e9e7f2ba923bb06c2",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "title_zh": "Anthropic表示，人工智能将帮助治愈癌症和阿尔茨海默病- “非常令人鼓舞” - Reform UK",
-      "title_en": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
-      "published_at": "2026-10-26T18:23:04Z",
-      "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T06:18:03.742425Z",
+      "title": "The use of biological age and artificial intelligence in health care - Pension Policy International",
+      "title_zh": "生物年龄和人工智能在医疗保健中的应用-国际养老金政策",
+      "title_en": "The use of biological age and artificial intelligence in health care - Pension Policy International",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
+      "published_at": "2026-10-27T15:12:18Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -353,9 +294,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "aging_clock"
       ],
-      "primary_topic": "neurodegeneration",
+      "primary_topic": "aging_clock",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -365,33 +306,80 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "artificial intelligence"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "health"
       ]
     },
     {
-      "id": "804cd5c2674aad334904cb6e9235261478698fa6",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFsUDdtYUtBWWhQMVlWWWNhWDJvUGpxM2JqMmhuZjhhNHdFckdhWnAycGNVd01VYUZzMHFCUTI4WDg1dXFNWDlfTlJnLXAyUVU4MEVVRHpwdUVJeTVGdnJoYUhzZ1JBN3lTSDFrZWdHd3ZMV1VzSmJvLUNuM1ludUNReEt0cGVnNjV4QS1XWEx2LVU0Uk1hWlcyZVA3ZVA0ck44?oc=5",
+      "id": "7b840dcf964e045f3a249c98d70258732a1d8104",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "title_zh": "Anthropic表示，人工智能将帮助治愈癌症和阿尔茨海默病- “非常令人鼓舞” - Reform UK",
-      "title_en": "Anthropic says AI will help cure cancer and Alzheimer's disease - 'massively encouraging' - Reform UK",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFsUDdtYUtBWWhQMVlWWWNhWDJvUGpxM2JqMmhuZjhhNHdFckdhWnAycGNVd01VYUZzMHFCUTI4WDg1dXFNWDlfTlJnLXAyUVU4MEVVRHpwdUVJeTVGdnJoYUhzZ1JBN3lTSDFrZWdHd3ZMV1VzSmJvLUNuM1ludUNReEt0cGVnNjV4QS1XWEx2LVU0Uk1hWlcyZVA3ZVA0ck44?oc=5",
-      "published_at": "2026-10-26T18:23:04Z",
-      "first_seen_at": "2026-10-27T00:26:46.656173Z",
-      "last_seen_at": "2026-10-27T13:13:03.606810Z",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "title_zh": "人工智能如何改变数百万痴呆症患者的发现速度- NVIDIA博客",
+      "title_en": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
+      "published_at": "2026-10-27T15:04:46Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
+      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "published_at": "2026-10-27T15:02:13Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T18:43:51.201106Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -424,7 +412,7 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "disease"
+        "brain"
       ]
     }
   ],
