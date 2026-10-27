@@ -1,49 +1,152 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-27T18:43:51.201106Z",
+  "generated_at": "2026-10-27T22:57:19.098804Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 28,
-  "total_items_all_mode": 28,
-  "archive_total": 2942,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items": 7,
+  "total_items_raw": 62,
+  "total_items_all_mode": 62,
+  "archive_total": 2876,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 28
+      "count": 5,
+      "raw_count": 35
+    },
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 2,
+      "raw_count": 27
     }
   ],
   "items": [
     {
-      "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "How Important is Lipid Metabolism Dysfunction in the Aging of Microglia?",
-      "title_zh": "脂质代谢障碍在小胶质细胞衰老中有多重要？",
-      "title_en": "How Important is Lipid Metabolism Dysfunction in the Aging of Microglia?",
-      "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
-      "published_at": "2026-10-26T18:48:57Z",
-      "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "id": "63a7af02a522df79cda3c7ad994cfc5e6a4d4925",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13696274",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Explainable machine learning for identifying high-risk Alzheimer's disease and key health characteristics among community-dwelling adults",
+      "title_zh": "用于识别社区居住成年人中高风险阿尔茨海默病和关键健康特征的可解释机器学习",
+      "title_en": "Explainable machine learning for identifying high-risk Alzheimer's disease and key health characteristics among community-dwelling adults",
+      "url": "https://europepmc.org/article/MED/PMC13696274",
+      "published_at": "2026-10-27T00:00:00Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_mechanism"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_mechanism",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "2065ced04ccd57b11f7ceba3c80a7ba80b2c1751",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13697241",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Application of large language models in early screening of Alzheimer’s disease: a scoping review",
+      "title_zh": "大型语言模型在阿尔茨海默病早期筛查中的应用：范围综述",
+      "title_en": "Application of large language models in early screening of Alzheimer’s disease: a scoping review",
+      "url": "https://europepmc.org/article/MED/PMC13697241",
+      "published_at": "2026-10-27T00:00:00Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "large language model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "42d298c696aed46752c5f8070fe3f038e45b113d",
+      "canonical_key": "url:https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "ARDD 2026: Traditional Biology to AI-Driven Breakthroughs",
+      "title_zh": "ARDD 2026 ：从传统生物学到人工智能驱动的突破",
+      "title_en": "ARDD 2026: Traditional Biology to AI-Driven Breakthroughs",
+      "url": "https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
+      "published_at": "2026-10-27T19:04:19Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -53,21 +156,64 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "neural network"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "senescence"
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
+      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "published_at": "2026-10-27T16:00:00Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
-        "cellular",
-        "immune",
-        "tissue"
+        "brain"
       ]
     },
     {
@@ -120,6 +266,53 @@
       ]
     },
     {
+      "id": "46dca5be8c52256dc582227693037b1b2bf2c520",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "title_zh": "人工智能如何改变数百万痴呆症患者的发现速度- NVIDIA博客",
+      "title_en": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
+      "published_at": "2026-10-27T15:09:28Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7b840dcf964e045f3a249c98d70258732a1d8104",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
       "site_id": "official_rss",
@@ -165,85 +358,133 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
-      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
-      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
-      "published_at": "2026-10-27T15:02:13Z",
-      "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
     }
   ],
   "items_ai": [
     {
-      "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "How Important is Lipid Metabolism Dysfunction in the Aging of Microglia?",
-      "title_zh": "脂质代谢障碍在小胶质细胞衰老中有多重要？",
-      "title_en": "How Important is Lipid Metabolism Dysfunction in the Aging of Microglia?",
-      "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
-      "published_at": "2026-10-26T18:48:57Z",
-      "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "id": "63a7af02a522df79cda3c7ad994cfc5e6a4d4925",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13696274",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Explainable machine learning for identifying high-risk Alzheimer's disease and key health characteristics among community-dwelling adults",
+      "title_zh": "用于识别社区居住成年人中高风险阿尔茨海默病和关键健康特征的可解释机器学习",
+      "title_en": "Explainable machine learning for identifying high-risk Alzheimer's disease and key health characteristics among community-dwelling adults",
+      "url": "https://europepmc.org/article/MED/PMC13696274",
+      "published_at": "2026-10-27T00:00:00Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_mechanism"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_mechanism",
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "2065ced04ccd57b11f7ceba3c80a7ba80b2c1751",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13697241",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Application of large language models in early screening of Alzheimer’s disease: a scoping review",
+      "title_zh": "大型语言模型在阿尔茨海默病早期筛查中的应用：范围综述",
+      "title_en": "Application of large language models in early screening of Alzheimer’s disease: a scoping review",
+      "url": "https://europepmc.org/article/MED/PMC13697241",
+      "published_at": "2026-10-27T00:00:00Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.65,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "large language model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "42d298c696aed46752c5f8070fe3f038e45b113d",
+      "canonical_key": "url:https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Lifespan.io",
+      "source_type": "news",
+      "title": "ARDD 2026: Traditional Biology to AI-Driven Breakthroughs",
+      "title_zh": "ARDD 2026 ：从传统生物学到人工智能驱动的突破",
+      "title_en": "ARDD 2026: Traditional Biology to AI-Driven Breakthroughs",
+      "url": "https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
+      "published_at": "2026-10-27T19:04:19Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -253,21 +494,64 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "neural network"
+        "ai"
       ],
       "longevity_signals": [
-        "aging",
-        "senescence"
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
+      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
+      "published_at": "2026-10-27T16:00:00Z",
+      "first_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
-        "cellular",
-        "immune",
-        "tissue"
+        "brain"
       ]
     },
     {
@@ -320,6 +604,53 @@
       ]
     },
     {
+      "id": "46dca5be8c52256dc582227693037b1b2bf2c520",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "title_zh": "人工智能如何改变数百万痴呆症患者的发现速度- NVIDIA博客",
+      "title_en": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
+      "published_at": "2026-10-27T15:09:28Z",
+      "first_seen_at": "2026-10-27T22:57:19.098804Z",
+      "last_seen_at": "2026-10-27T22:57:19.098804Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "7b840dcf964e045f3a249c98d70258732a1d8104",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MSmRmNDh6aEFESUU1bFI2d3JyUjM4VUwtMDUtTDFraGNQbERleUxRWFBvS2t1WEJuWHlURE5SYU1seWxVb2dSYw?oc=5",
       "site_id": "official_rss",
@@ -365,55 +696,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "867ecab24f06d842ef9053761dd892d8a24ddb54",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
-      "title_zh": "C-BRAIN宣布构建人工智能阿尔茨海默病模型，并通过NVIDIA优化开放存取- PRWeb",
-      "title_en": "C-BRAIN announces construction of AI Alzheimer's models and optimizing open access with NVIDIA - PRWeb",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
-      "published_at": "2026-10-27T15:02:13Z",
-      "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
