@@ -1,28 +1,78 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-27T00:26:46.656173Z",
+  "generated_at": "2026-10-27T06:18:03.742425Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 29,
-  "total_items_all_mode": 29,
-  "archive_total": 3272,
+  "total_items": 5,
+  "total_items_raw": 31,
+  "total_items_all_mode": 31,
+  "archive_total": 3195,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
+      "count": 4,
       "raw_count": 27
     },
     {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
       "count": 1,
-      "raw_count": 2
+      "raw_count": 3
     }
   ],
   "items": [
+    {
+      "id": "1c0c0b889d309bb738113433def4de1adfe1451a",
+      "canonical_key": "url:https://papers.cool/arxiv/2610.35761",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
+      "title_zh": "超越身体疾病：临床叙述能否揭示慢性病患者新出现的心理健康风险？",
+      "title_en": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
+      "url": "https://papers.cool/arxiv/2610.35761",
+      "published_at": "2026-10-26T17:06:33Z",
+      "first_seen_at": "2026-10-27T06:18:03.742425Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.668,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "health",
+        "patients"
+      ]
+    },
     {
       "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
@@ -36,7 +86,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "published_at": "2026-10-26T18:48:57Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,108 +127,6 @@
       ]
     },
     {
-      "id": "6f0ff3198b18d668260f6a72ed382d4d2eaf2e9b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOWRmSVpxVzd0Z0JmUnZkaEhwbUlERTJJclJXeE9PMzNyNHlvZTEwbDlvaWc1ZV82Y2R6d2trbE1TUW5GX1hMR0EyM05jU3VPdk5NREJnaWVrTFRHRTJTMmhJVVlJNkdOaWNTYUhkZ0RGcTRJTzZ3a19XXzh6YVFqNmRwUkkwblRuc1dTdkJ1T2JVUVVMcFFET1RLYm1KeU55WVZjMjE3dElxM1p1eVg0RUlmMVlUY1FHVnZKeVJkN2RaMFNUOUJrTTZHN2ZlZDdxWDV2V3pxMXpGZnZBWV9EYXFWUmVZV2YxdUhJMVZwZGJXLVnSAfgBQVVfeXFMTXBCQTR3Z0lnanBGcnRlOXM3N3ptVmZkeGVHMXV3djAyVFd5bnktd2lNQ2txOFQyYW41Nlo0a1FJU0dwTklDcDVKR0dBa05NUFo1SVJfcVRCTDlZM3JOeTdaeVJKWkk0MzlXNkxzNnM3NWFhYUw2Y2hPdjJNSU9yMWd6U21CQ3BDZVVnTi1NZzlHR1JiMjR0VjRZLXhCN19naUlQa0E0OW5zQXljby1SV0FUY1JtT2Qzb2RZLXJ3UmtQM0NWWDBNbGptSHVrbFljSUtPYkZXSGkxeXBPV1hBRmhlLWRVYkhmS0tiMXlib3djbW8xR0FUYU0?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI model uses face photos to estimate biological age, predict survival risk in cancer patients - The Times of India",
-      "title_zh": "人工智能模型使用面部照片来估计生物学年龄，预测癌症患者的生存风险-印度时报",
-      "title_en": "AI model uses face photos to estimate biological age, predict survival risk in cancer patients - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOWRmSVpxVzd0Z0JmUnZkaEhwbUlERTJJclJXeE9PMzNyNHlvZTEwbDlvaWc1ZV82Y2R6d2trbE1TUW5GX1hMR0EyM05jU3VPdk5NREJnaWVrTFRHRTJTMmhJVVlJNkdOaWNTYUhkZ0RGcTRJTzZ3a19XXzh6YVFqNmRwUkkwblRuc1dTdkJ1T2JVUVVMcFFET1RLYm1KeU55WVZjMjE3dElxM1p1eVg0RUlmMVlUY1FHVnZKeVJkN2RaMFNUOUJrTTZHN2ZlZDdxWDV2V3pxMXpGZnZBWV9EYXFWUmVZV2YxdUhJMVZwZGJXLVnSAfgBQVVfeXFMTXBCQTR3Z0lnanBGcnRlOXM3N3ptVmZkeGVHMXV3djAyVFd5bnktd2lNQ2txOFQyYW41Nlo0a1FJU0dwTklDcDVKR0dBa05NUFo1SVJfcVRCTDlZM3JOeTdaeVJKWkk0MzlXNkxzNnM3NWFhYUw2Y2hPdjJNSU9yMWd6U21CQ3BDZVVnTi1NZzlHR1JiMjR0VjRZLXhCN19naUlQa0E0OW5zQXljby1SV0FUY1JtT2Qzb2RZLXJ3UmtQM0NWWDBNbGptSHVrbFljSUtPYkZXSGkxeXBPV1hBRmhlLWRVYkhmS0tiMXlib3djbW8xR0FUYU0?oc=5",
-      "published_at": "2026-10-26T06:12:00Z",
-      "first_seen_at": "2026-10-26T14:17:31.277154Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "800006765a2a2db20b53fced676ab92691cbe9db",
-      "canonical_key": "repo:wizako-01/brain-age-estimation",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Wizako-01/brain-age-estimation",
-      "source_type": "project",
-      "title": "Wizako-01/brain-age-estimation: Deep learning model for predicting brain age from 3D MRI and estimating Brain Age Gap as a biomarker of neurodegeneration.",
-      "title_zh": "Wizako-01/brain-age-estimation ：用于从3D MRI预测大脑年龄和估计脑年龄差距作为神经退行性疾病生物标志物的深度学习模型。",
-      "title_en": "Wizako-01/brain-age-estimation: Deep learning model for predicting brain age from 3D MRI and estimating Brain Age Gap as a biomarker of neurodegeneration.",
-      "url": "https://github.com/Wizako-01/brain-age-estimation",
-      "published_at": "2026-10-26T02:25:34Z",
-      "first_seen_at": "2026-10-26T06:19:12.088231Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "brain age",
-        "neurodegeneration"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "brain"
-      ]
-    },
-    {
       "id": "f7cc0efc54faecc62c2b08cf56a4e00400749244",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
       "site_id": "official_rss",
@@ -191,7 +139,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
       "published_at": "2026-10-26T18:23:04Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-26T20:29:34.545717Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -289,7 +237,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHY0RWxka1EyYkJQOTR6M3d1UlBVX0VVeGg3S3duZmdZZ2ZSMGFHMkR6UnN1TTh1Zm16RHh3MTAtQXA5ZWl4dXl0NmI5RXMzZV9lX1g0OWdyMUg0MWVzNkd3NVc4YUNlRzRTLTN1WlBSUTdHdzFmR1E5M0h5Q1VFYjRkdl80WFBWV0FSX2Y3c2Z1OEFvWDFLZEZjejZqbWlGZ0xsNFItRVg2VWtGcXNDYVl3?oc=5",
       "published_at": "2026-10-26T07:47:40Z",
       "first_seen_at": "2026-10-26T14:17:31.277154Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -326,6 +274,56 @@
   ],
   "items_ai": [
     {
+      "id": "1c0c0b889d309bb738113433def4de1adfe1451a",
+      "canonical_key": "url:https://papers.cool/arxiv/2610.35761",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
+      "title_zh": "超越身体疾病：临床叙述能否揭示慢性病患者新出现的心理健康风险？",
+      "title_en": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
+      "url": "https://papers.cool/arxiv/2610.35761",
+      "published_at": "2026-10-26T17:06:33Z",
+      "first_seen_at": "2026-10-27T06:18:03.742425Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.668,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "health",
+        "patients"
+      ]
+    },
+    {
       "id": "3dcd5a114497c622fed39407577f6c97f31994c6",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "site_id": "official_rss",
@@ -338,7 +336,7 @@
       "url": "https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia",
       "published_at": "2026-10-26T18:48:57Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -379,108 +377,6 @@
       ]
     },
     {
-      "id": "6f0ff3198b18d668260f6a72ed382d4d2eaf2e9b",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOWRmSVpxVzd0Z0JmUnZkaEhwbUlERTJJclJXeE9PMzNyNHlvZTEwbDlvaWc1ZV82Y2R6d2trbE1TUW5GX1hMR0EyM05jU3VPdk5NREJnaWVrTFRHRTJTMmhJVVlJNkdOaWNTYUhkZ0RGcTRJTzZ3a19XXzh6YVFqNmRwUkkwblRuc1dTdkJ1T2JVUVVMcFFET1RLYm1KeU55WVZjMjE3dElxM1p1eVg0RUlmMVlUY1FHVnZKeVJkN2RaMFNUOUJrTTZHN2ZlZDdxWDV2V3pxMXpGZnZBWV9EYXFWUmVZV2YxdUhJMVZwZGJXLVnSAfgBQVVfeXFMTXBCQTR3Z0lnanBGcnRlOXM3N3ptVmZkeGVHMXV3djAyVFd5bnktd2lNQ2txOFQyYW41Nlo0a1FJU0dwTklDcDVKR0dBa05NUFo1SVJfcVRCTDlZM3JOeTdaeVJKWkk0MzlXNkxzNnM3NWFhYUw2Y2hPdjJNSU9yMWd6U21CQ3BDZVVnTi1NZzlHR1JiMjR0VjRZLXhCN19naUlQa0E0OW5zQXljby1SV0FUY1JtT2Qzb2RZLXJ3UmtQM0NWWDBNbGptSHVrbFljSUtPYkZXSGkxeXBPV1hBRmhlLWRVYkhmS0tiMXlib3djbW8xR0FUYU0?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI model uses face photos to estimate biological age, predict survival risk in cancer patients - The Times of India",
-      "title_zh": "人工智能模型使用面部照片来估计生物学年龄，预测癌症患者的生存风险-印度时报",
-      "title_en": "AI model uses face photos to estimate biological age, predict survival risk in cancer patients - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOWRmSVpxVzd0Z0JmUnZkaEhwbUlERTJJclJXeE9PMzNyNHlvZTEwbDlvaWc1ZV82Y2R6d2trbE1TUW5GX1hMR0EyM05jU3VPdk5NREJnaWVrTFRHRTJTMmhJVVlJNkdOaWNTYUhkZ0RGcTRJTzZ3a19XXzh6YVFqNmRwUkkwblRuc1dTdkJ1T2JVUVVMcFFET1RLYm1KeU55WVZjMjE3dElxM1p1eVg0RUlmMVlUY1FHVnZKeVJkN2RaMFNUOUJrTTZHN2ZlZDdxWDV2V3pxMXpGZnZBWV9EYXFWUmVZV2YxdUhJMVZwZGJXLVnSAfgBQVVfeXFMTXBCQTR3Z0lnanBGcnRlOXM3N3ptVmZkeGVHMXV3djAyVFd5bnktd2lNQ2txOFQyYW41Nlo0a1FJU0dwTklDcDVKR0dBa05NUFo1SVJfcVRCTDlZM3JOeTdaeVJKWkk0MzlXNkxzNnM3NWFhYUw2Y2hPdjJNSU9yMWd6U21CQ3BDZVVnTi1NZzlHR1JiMjR0VjRZLXhCN19naUlQa0E0OW5zQXljby1SV0FUY1JtT2Qzb2RZLXJ3UmtQM0NWWDBNbGptSHVrbFljSUtPYkZXSGkxeXBPV1hBRmhlLWRVYkhmS0tiMXlib3djbW8xR0FUYU0?oc=5",
-      "published_at": "2026-10-26T06:12:00Z",
-      "first_seen_at": "2026-10-26T14:17:31.277154Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "biological age"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "800006765a2a2db20b53fced676ab92691cbe9db",
-      "canonical_key": "repo:wizako-01/brain-age-estimation",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Wizako-01/brain-age-estimation",
-      "source_type": "project",
-      "title": "Wizako-01/brain-age-estimation: Deep learning model for predicting brain age from 3D MRI and estimating Brain Age Gap as a biomarker of neurodegeneration.",
-      "title_zh": "Wizako-01/brain-age-estimation ：用于从3D MRI预测大脑年龄和估计脑年龄差距作为神经退行性疾病生物标志物的深度学习模型。",
-      "title_en": "Wizako-01/brain-age-estimation: Deep learning model for predicting brain age from 3D MRI and estimating Brain Age Gap as a biomarker of neurodegeneration.",
-      "url": "https://github.com/Wizako-01/brain-age-estimation",
-      "published_at": "2026-10-26T02:25:34Z",
-      "first_seen_at": "2026-10-26T06:19:12.088231Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
-      "ai_is_related": true,
-      "ai_score": 0.56,
-      "longevity_is_related": true,
-      "longevity_score": 0.67,
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "neurodegeneration",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning"
-      ],
-      "longevity_signals": [
-        "brain age",
-        "neurodegeneration"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker",
-        "brain"
-      ]
-    },
-    {
       "id": "f7cc0efc54faecc62c2b08cf56a4e00400749244",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
       "site_id": "official_rss",
@@ -493,7 +389,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEpzR1Z1UWlMemRfNVpwVHpTSExWSkx6WlpRbmRhSmhOVHU3WXRRSmwzM0ZUYVZlX2JTYUpuY0ZyQVJSbHE3eHlrV0R0RFE5SzJ1NnVjZzRmaUNNY1pMTG5OQlpkaWRfQUs5TjRaaHc3VUFFTEU2VTg1TGpTVjh2SVNDZ3JFNzRGTmVHSG1fR2xzdWNQYmVMS3ZWTXkyQQ?oc=5",
       "published_at": "2026-10-26T18:23:04Z",
       "first_seen_at": "2026-10-26T20:29:34.545717Z",
-      "last_seen_at": "2026-10-26T20:29:34.545717Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -591,7 +487,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHY0RWxka1EyYkJQOTR6M3d1UlBVX0VVeGg3S3duZmdZZ2ZSMGFHMkR6UnN1TTh1Zm16RHh3MTAtQXA5ZWl4dXl0NmI5RXMzZV9lX1g0OWdyMUg0MWVzNkd3NVc4YUNlRzRTLTN1WlBSUTdHdzFmR1E5M0h5Q1VFYjRkdl80WFBWV0FSX2Y3c2Z1OEFvWDFLZEZjejZqbWlGZ0xsNFItRVg2VWtGcXNDYVl3?oc=5",
       "published_at": "2026-10-26T07:47:40Z",
       "first_seen_at": "2026-10-26T14:17:31.277154Z",
-      "last_seen_at": "2026-10-27T00:26:46.656173Z",
+      "last_seen_at": "2026-10-27T06:18:03.742425Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
