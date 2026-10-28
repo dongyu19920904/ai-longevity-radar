@@ -1,22 +1,79 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-28T02:17:06.729669Z",
+  "generated_at": "2026-10-28T09:41:23.615803Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 33,
-  "total_items_all_mode": 33,
-  "archive_total": 2779,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items": 6,
+  "total_items_raw": 36,
+  "total_items_all_mode": 36,
+  "archive_total": 2678,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 5,
-      "raw_count": 33
+      "raw_count": 31
+    },
+    {
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "count": 1,
+      "raw_count": 5
     }
   ],
   "items": [
+    {
+      "id": "e82dcd102a25f6e3e737c9043da8cdd48fdfe7c4",
+      "canonical_key": "url:https://papers.cool/arxiv/2610.37561",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.LG",
+      "source_type": "paper",
+      "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+      "title_zh": "不确定性定量失败时：临床分类不平衡下的结构脆弱性和选择性预测修正",
+      "title_en": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+      "url": "https://papers.cool/arxiv/2610.37561",
+      "published_at": "2026-10-27T17:08:31Z",
+      "first_seen_at": "2026-10-28T09:41:23.615803Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.668,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "disease",
+        "human",
+        "patients"
+      ]
+    },
     {
       "id": "42d298c696aed46752c5f8070fe3f038e45b113d",
       "canonical_key": "url:https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
@@ -30,7 +87,7 @@
       "url": "https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
       "published_at": "2026-10-27T19:04:19Z",
       "first_seen_at": "2026-10-27T22:57:19.098804Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,7 +134,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
       "published_at": "2026-10-27T16:00:00Z",
       "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -124,9 +181,9 @@
       "title_zh": "生物年龄和人工智能在医疗保健中的应用-国际养老金政策",
       "title_en": "The use of biological age and artificial intelligence in health care - Pension Policy International",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
-      "published_at": "2026-10-27T15:12:18Z",
+      "published_at": "2026-10-27T15:41:45Z",
       "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +232,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
       "published_at": "2026-10-27T15:09:28Z",
       "first_seen_at": "2026-10-27T22:57:19.098804Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -259,6 +316,57 @@
   ],
   "items_ai": [
     {
+      "id": "e82dcd102a25f6e3e737c9043da8cdd48fdfe7c4",
+      "canonical_key": "url:https://papers.cool/arxiv/2610.37561",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.LG",
+      "source_type": "paper",
+      "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+      "title_zh": "不确定性定量失败时：临床分类不平衡下的结构脆弱性和选择性预测修正",
+      "title_en": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+      "url": "https://papers.cool/arxiv/2610.37561",
+      "published_at": "2026-10-27T17:08:31Z",
+      "first_seen_at": "2026-10-28T09:41:23.615803Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": true,
+      "longevity_score": 0.62,
+      "signal_score": 0.668,
+      "domain_score": 0.62,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "artificial intelligence"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "disease",
+        "human",
+        "patients"
+      ]
+    },
+    {
       "id": "42d298c696aed46752c5f8070fe3f038e45b113d",
       "canonical_key": "url:https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
       "site_id": "official_rss",
@@ -271,7 +379,7 @@
       "url": "https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs",
       "published_at": "2026-10-27T19:04:19Z",
       "first_seen_at": "2026-10-27T22:57:19.098804Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -318,7 +426,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlU2YkxuN2ZnTDhidU10MUNLX3B1cm9KVkNnZlBaUndQTFJlUFlZWllRak02NmFocU9YVlRlaEE4UzlndzIybTE3OUwwbGN3YUdkZ2xjVUNHOUlZT0ZwTGlMMFNkQ0V6Q19JTW5qRWt1T3l6LVIxRjJhMUZhV1Q0U3ZxYlllU0JFNTVnODR3Znd4aGFrN0syU2VZNXVQc2QzUXJ3R0pkeXhmSFpoa0ZSa00yTTd5cDhqX2xkZnBUbTlOaW1fcjVxZ1h1cGFjNUp1OWl5ZWR3?oc=5",
       "published_at": "2026-10-27T16:00:00Z",
       "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -365,9 +473,9 @@
       "title_zh": "生物年龄和人工智能在医疗保健中的应用-国际养老金政策",
       "title_en": "The use of biological age and artificial intelligence in health care - Pension Policy International",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
-      "published_at": "2026-10-27T15:12:18Z",
+      "published_at": "2026-10-27T15:41:45Z",
       "first_seen_at": "2026-10-27T18:43:51.201106Z",
-      "last_seen_at": "2026-10-27T18:43:51.201106Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -416,7 +524,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zR3BjX0lCRkVIc3dTazlyN3ZsNmZmLWNPSE5scGowRFJlVWV5dGxhYkllbENvM0pvRU5TX0JpczBSdUFRLUE1dElWdG1Bbm1hUm1qSGpMbVNPTTMzOW5PUmlmUGlWTWl2M2NOOGdObHJRbTBfcEE?oc=5",
       "published_at": "2026-10-27T15:09:28Z",
       "first_seen_at": "2026-10-27T22:57:19.098804Z",
-      "last_seen_at": "2026-10-28T02:17:06.729669Z",
+      "last_seen_at": "2026-10-28T09:41:23.615803Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
