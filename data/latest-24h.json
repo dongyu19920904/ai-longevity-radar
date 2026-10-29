@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-29T08:30:09.101990Z",
+  "generated_at": "2026-10-29T16:08:35.672609Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 31,
-  "total_items_all_mode": 31,
-  "archive_total": 2112,
+  "total_items": 2,
+  "total_items_raw": 33,
+  "total_items_all_mode": 33,
+  "archive_total": 1932,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 30
+      "count": 2,
+      "raw_count": 31
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
+      "last_seen_at": "2026-10-29T16:08:35.672609Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -79,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
       "published_at": "2026-10-28T23:02:30Z",
       "first_seen_at": "2026-10-29T01:48:27.181948Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
+      "last_seen_at": "2026-10-29T16:08:35.672609Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -106,100 +106,6 @@
       ],
       "longevity_signals": [
         "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8929c6f8c8199a97ac6c691b2b1d20b89f1be4b2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHdDS0drZTBtd29RZ0lqTnJ6b01vbXdPM2pNSG5ZWFBoWU9paFNQempHLVdzcER1bjhUVy02WDM1aW9tZ2NvTGN0ZjlURWVIQk8tN3V4eDMxU1ZhUk1xekZEZEZVdHlmakFGeHBCV3VybUhIX19NWHVVQ0VOU19ZbFB1UEZ0X095MElVN2Rsalo?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Eli Lilly Licenses ADDF’s SpeechDx Dataset for Alzheimer’s Research - Unite.AI",
-      "title_zh": "Eli Lilly授权ADDF的SpeechDx数据集用于阿尔茨海默氏症研究- Unite.AI",
-      "title_en": "Eli Lilly Licenses ADDF’s SpeechDx Dataset for Alzheimer’s Research - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHdDS0drZTBtd29RZ0lqTnJ6b01vbXdPM2pNSG5ZWFBoWU9paFNQempHLVdzcER1bjhUVy02WDM1aW9tZ2NvTGN0ZjlURWVIQk8tN3V4eDMxU1ZhUk1xekZEZEZVdHlmakFGeHBCV3VybUhIX19NWHVVQ0VOU19ZbFB1UEZ0X095MElVN2Rsalo?oc=5",
-      "published_at": "2026-10-28T16:06:12Z",
-      "first_seen_at": "2026-10-28T21:39:26.926587Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "computational_or_dataset",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "c5c9c117c7ace114dd8f879f0041c044837cc49e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd3I0a3daU211ODUtR2hpM2laUXNuWVpDdXNnenVyTU5BYWZRNzNjbmhkSm9IYVJ1aGpoQ1dnVXNEcWR0TndndzBIcHIwTGpqNTlBekd4UXZLZVUwemNfVmRuR3IwV3hXNXdYbGNnSzRMSjVWQ2h5OFJ4ZkNUSHJQQk1Md0VfdFk4c2lZeC0wMHRKdmIyRS1CQU9fRWROWi1UeWFObk9FNFJDaEpiQWFiRWUwaVdEY1lHSC1zMXhKVkFQTl9SdlgxZU1FOHBEUVZ4Nm9sOFpJQWtjaEFyRFQzN0Z1cElYZEQyaE1YemRtTllmUlE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Ahead of National Family Caregivers Month, AI Strategist Turns Her Mother's Dementia Into a Guide for Working Caregivers - EIN News",
-      "title_zh": "在全国家庭照顾者月之前，人工智能策略师将母亲的痴呆症转变为工作照顾者的指南- EIN新闻",
-      "title_en": "Ahead of National Family Caregivers Month, AI Strategist Turns Her Mother's Dementia Into a Guide for Working Caregivers - EIN News",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd3I0a3daU211ODUtR2hpM2laUXNuWVpDdXNnenVyTU5BYWZRNzNjbmhkSm9IYVJ1aGpoQ1dnVXNEcWR0TndndzBIcHIwTGpqNTlBekd4UXZLZVUwemNfVmRuR3IwV3hXNXdYbGNnSzRMSjVWQ2h5OFJ4ZkNUSHJQQk1Md0VfdFk4c2lZeC0wMHRKdmIyRS1CQU9fRWROWi1UeWFObk9FNFJDaEpiQWFiRWUwaVdEY1lHSC1zMXhKVkFQTl9SdlgxZU1FOHBEUVZ4Nm9sOFpJQWtjaEFyRFQzN0Z1cElYZEQyaE1YemRtTllmUlE?oc=5",
-      "published_at": "2026-10-28T15:00:00Z",
-      "first_seen_at": "2026-10-28T16:38:29.340604Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -222,7 +128,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
+      "last_seen_at": "2026-10-29T16:08:35.672609Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -271,7 +177,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
       "published_at": "2026-10-28T23:02:30Z",
       "first_seen_at": "2026-10-29T01:48:27.181948Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
+      "last_seen_at": "2026-10-29T16:08:35.672609Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -298,100 +204,6 @@
       ],
       "longevity_signals": [
         "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "8929c6f8c8199a97ac6c691b2b1d20b89f1be4b2",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHdDS0drZTBtd29RZ0lqTnJ6b01vbXdPM2pNSG5ZWFBoWU9paFNQempHLVdzcER1bjhUVy02WDM1aW9tZ2NvTGN0ZjlURWVIQk8tN3V4eDMxU1ZhUk1xekZEZEZVdHlmakFGeHBCV3VybUhIX19NWHVVQ0VOU19ZbFB1UEZ0X095MElVN2Rsalo?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Eli Lilly Licenses ADDF’s SpeechDx Dataset for Alzheimer’s Research - Unite.AI",
-      "title_zh": "Eli Lilly授权ADDF的SpeechDx数据集用于阿尔茨海默氏症研究- Unite.AI",
-      "title_en": "Eli Lilly Licenses ADDF’s SpeechDx Dataset for Alzheimer’s Research - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUHdDS0drZTBtd29RZ0lqTnJ6b01vbXdPM2pNSG5ZWFBoWU9paFNQempHLVdzcER1bjhUVy02WDM1aW9tZ2NvTGN0ZjlURWVIQk8tN3V4eDMxU1ZhUk1xekZEZEZVdHlmakFGeHBCV3VybUhIX19NWHVVQ0VOU19ZbFB1UEZ0X095MElVN2Rsalo?oc=5",
-      "published_at": "2026-10-28T16:06:12Z",
-      "first_seen_at": "2026-10-28T21:39:26.926587Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "computational_or_dataset",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "c5c9c117c7ace114dd8f879f0041c044837cc49e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd3I0a3daU211ODUtR2hpM2laUXNuWVpDdXNnenVyTU5BYWZRNzNjbmhkSm9IYVJ1aGpoQ1dnVXNEcWR0TndndzBIcHIwTGpqNTlBekd4UXZLZVUwemNfVmRuR3IwV3hXNXdYbGNnSzRMSjVWQ2h5OFJ4ZkNUSHJQQk1Md0VfdFk4c2lZeC0wMHRKdmIyRS1CQU9fRWROWi1UeWFObk9FNFJDaEpiQWFiRWUwaVdEY1lHSC1zMXhKVkFQTl9SdlgxZU1FOHBEUVZ4Nm9sOFpJQWtjaEFyRFQzN0Z1cElYZEQyaE1YemRtTllmUlE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Ahead of National Family Caregivers Month, AI Strategist Turns Her Mother's Dementia Into a Guide for Working Caregivers - EIN News",
-      "title_zh": "在全国家庭照顾者月之前，人工智能策略师将母亲的痴呆症转变为工作照顾者的指南- EIN新闻",
-      "title_en": "Ahead of National Family Caregivers Month, AI Strategist Turns Her Mother's Dementia Into a Guide for Working Caregivers - EIN News",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd3I0a3daU211ODUtR2hpM2laUXNuWVpDdXNnenVyTU5BYWZRNzNjbmhkSm9IYVJ1aGpoQ1dnVXNEcWR0TndndzBIcHIwTGpqNTlBekd4UXZLZVUwemNfVmRuR3IwV3hXNXdYbGNnSzRMSjVWQ2h5OFJ4ZkNUSHJQQk1Md0VfdFk4c2lZeC0wMHRKdmIyRS1CQU9fRWROWi1UeWFObk9FNFJDaEpiQWFiRWUwaVdEY1lHSC1zMXhKVkFQTl9SdlgxZU1FOHBEUVZ4Nm9sOFpJQWtjaEFyRFQzN0Z1cElYZEQyaE1YemRtTllmUlE?oc=5",
-      "published_at": "2026-10-28T15:00:00Z",
-      "first_seen_at": "2026-10-28T16:38:29.340604Z",
-      "last_seen_at": "2026-10-29T08:30:09.101990Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
