@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-29T01:48:27.181948Z",
+  "generated_at": "2026-10-29T08:30:09.101990Z",
   "topics": {
     "neurodegeneration": 4
   },
@@ -8,9 +8,8 @@
     "news": 4
   },
   "study_subjects": {
-    "unknown": 2,
-    "computational_or_dataset": 1,
-    "human": 1
+    "unknown": 3,
+    "computational_or_dataset": 1
   },
   "publication_stages": {
     "secondary_report": 4
