@@ -1,23 +1,72 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-29T21:08:05.160254Z",
+  "generated_at": "2026-10-30T01:01:17.956614Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "total_items_raw": 36,
   "total_items_all_mode": 36,
-  "archive_total": 1793,
+  "archive_total": 1692,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 34
+      "count": 4,
+      "raw_count": 35
     }
   ],
   "items": [
     {
+      "id": "886f250584cf774d5fa5c2a8efc1bca7467ef8b9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Explainable AI Fuses MRI and Texture Features to Stage Alzheimer’s Disease - Bioengineer.org",
+      "title_zh": "可解释的AI将MRI和纹理特征与阿尔茨海默病分期融合- Bioengineer.org",
+      "title_en": "Explainable AI Fuses MRI and Texture Features to Stage Alzheimer’s Disease - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
+      "published_at": "2026-10-29T21:28:40Z",
+      "first_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
       "id": "e69df0cd35d436b5fc8129e9dff52a8267901918",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
       "site_id": "official_rss",
@@ -30,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
       "published_at": "2026-10-29T20:02:28Z",
       "first_seen_at": "2026-10-29T21:08:05.160254Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -65,6 +114,55 @@
       "biological_context_signals": []
     },
     {
+      "id": "13367530aa068969590c76f9985ca98ea2420090",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ2U3RnZBZnkzX2UyQWF2aTN6Z0lWY2xHXzE1MU1YbEttaHhCMndkd2h4UDREWVdtUE5jVzlsTGFqMUlZelQ2b2ZkM05KODdSQ2xjS0tFbnYxbDZyQlZ3X2k5MVVBcnN6QmJRRkNXQXBqdXpXZnA2MlNaU2NwdzJOcU1nMVhsYnBrMTB6RjVFYXpzbDloczMyUlQwc2NrZnpkRmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Eli Lilly licenses SpeechDx dataset to explore AI-based Alzheimer's biomarkers - AllSci",
+      "title_zh": "礼来授权SpeechDx数据集探索基于人工智能的阿尔茨海默氏症生物标志物- AllSci",
+      "title_en": "Eli Lilly licenses SpeechDx dataset to explore AI-based Alzheimer's biomarkers - AllSci",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ2U3RnZBZnkzX2UyQWF2aTN6Z0lWY2xHXzE1MU1YbEttaHhCMndkd2h4UDREWVdtUE5jVzlsTGFqMUlZelQ2b2ZkM05KODdSQ2xjS0tFbnYxbDZyQlZ3X2k5MVVBcnN6QmJRRkNXQXBqdXpXZnA2MlNaU2NwdzJOcU1nMVhsYnBrMTB6RjVFYXpzbDloczMyUlQwc2NrZnpkRmc?oc=5",
+      "published_at": "2026-10-29T09:29:44Z",
+      "first_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": []
+    },
+    {
       "id": "aa4ae0ff13f2dbffbfe70a9e65db905df48000fe",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "site_id": "official_rss",
@@ -77,7 +175,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -112,57 +210,59 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "1b0dae6ebf8dbf75b506adcc8fea1d808797cbd7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Speech-based machine learning detects Alzheimer’s across English and Greek cohorts - Bioengineer.org",
-      "title_zh": "基于语音的机器学习在英语和希腊语群体中检测阿尔茨海默氏症- Bioengineer.org",
-      "title_en": "Speech-based machine learning detects Alzheimer’s across English and Greek cohorts - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
-      "published_at": "2026-10-28T23:02:30Z",
-      "first_seen_at": "2026-10-29T01:48:27.181948Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
+      "id": "886f250584cf774d5fa5c2a8efc1bca7467ef8b9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Explainable AI Fuses MRI and Texture Features to Stage Alzheimer’s Disease - Bioengineer.org",
+      "title_zh": "可解释的AI将MRI和纹理特征与阿尔茨海默病分期融合- Bioengineer.org",
+      "title_en": "Explainable AI Fuses MRI and Texture Features to Stage Alzheimer’s Disease - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
+      "published_at": "2026-10-29T21:28:40Z",
+      "first_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
       "id": "e69df0cd35d436b5fc8129e9dff52a8267901918",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
       "site_id": "official_rss",
@@ -175,7 +275,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
       "published_at": "2026-10-29T20:02:28Z",
       "first_seen_at": "2026-10-29T21:08:05.160254Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -210,6 +310,55 @@
       "biological_context_signals": []
     },
     {
+      "id": "13367530aa068969590c76f9985ca98ea2420090",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ2U3RnZBZnkzX2UyQWF2aTN6Z0lWY2xHXzE1MU1YbEttaHhCMndkd2h4UDREWVdtUE5jVzlsTGFqMUlZelQ2b2ZkM05KODdSQ2xjS0tFbnYxbDZyQlZ3X2k5MVVBcnN6QmJRRkNXQXBqdXpXZnA2MlNaU2NwdzJOcU1nMVhsYnBrMTB6RjVFYXpzbDloczMyUlQwc2NrZnpkRmc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Eli Lilly licenses SpeechDx dataset to explore AI-based Alzheimer's biomarkers - AllSci",
+      "title_zh": "礼来授权SpeechDx数据集探索基于人工智能的阿尔茨海默氏症生物标志物- AllSci",
+      "title_en": "Eli Lilly licenses SpeechDx dataset to explore AI-based Alzheimer's biomarkers - AllSci",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ2U3RnZBZnkzX2UyQWF2aTN6Z0lWY2xHXzE1MU1YbEttaHhCMndkd2h4UDREWVdtUE5jVzlsTGFqMUlZelQ2b2ZkM05KODdSQ2xjS0tFbnYxbDZyQlZ3X2k5MVVBcnN6QmJRRkNXQXBqdXpXZnA2MlNaU2NwdzJOcU1nMVhsYnBrMTB6RjVFYXpzbDloczMyUlQwc2NrZnpkRmc?oc=5",
+      "published_at": "2026-10-29T09:29:44Z",
+      "first_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": []
+    },
+    {
       "id": "aa4ae0ff13f2dbffbfe70a9e65db905df48000fe",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "site_id": "official_rss",
@@ -222,7 +371,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
+      "last_seen_at": "2026-10-30T01:01:17.956614Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -257,53 +406,6 @@
       "biological_context_signals": [
         "brain"
       ]
-    },
-    {
-      "id": "1b0dae6ebf8dbf75b506adcc8fea1d808797cbd7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Speech-based machine learning detects Alzheimer’s across English and Greek cohorts - Bioengineer.org",
-      "title_zh": "基于语音的机器学习在英语和希腊语群体中检测阿尔茨海默氏症- Bioengineer.org",
-      "title_en": "Speech-based machine learning detects Alzheimer’s across English and Greek cohorts - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmNibzRVOGxqQ09iVkN2VlJ4Skg4Y0dtWUcxVklkUG9BOUFtNVk4SUNXR3dSQUpxVk5Va1NYQkxRU1pTWWNhOHVSa2FMY2tubDlyMnFDcjBRdHNrcE80XzVYY0F2SmpzbWFXRkVieVM2M18yeEdpUkJFY2hCelV3MjhJZnFfNGlPMVJpQjF4V01HZGlaU2NRSjhxQ1ZDMWtPZXlXVTl6R0ZEdw?oc=5",
-      "published_at": "2026-10-28T23:02:30Z",
-      "first_seen_at": "2026-10-29T01:48:27.181948Z",
-      "last_seen_at": "2026-10-29T21:08:05.160254Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "machine learning"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
