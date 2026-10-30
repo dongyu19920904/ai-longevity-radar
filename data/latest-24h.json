@@ -1,22 +1,168 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-30T01:01:17.956614Z",
+  "generated_at": "2026-10-30T07:08:15.369302Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 36,
-  "total_items_all_mode": 36,
-  "archive_total": 1692,
+  "total_items": 7,
+  "total_items_raw": 47,
+  "total_items_all_mode": 47,
+  "archive_total": 1706,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 35
+      "count": 7,
+      "raw_count": 44
     }
   ],
   "items": [
+    {
+      "id": "1481f5f15e9963b382541c9c5b38eed4dff04b59",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcU9WUVJQU2FoTUtnQ3pRWWZTR2didi1hWks0LXdLUDl2ODRVeDZKUFhMQkxUN3FvR3d4ZjhXcmN0THRQaHBlRXNPQXl6MFpyUW5aSGNJY1JxSVFzOTIza09CZDF2bzRRYWkwUHNzM2xNempZY1BpT3IxaXkwSzVrbFdoUjVmRHRCYUdPNDU3OVBmbnY1VTVJUm9hcE5jbHVHRDNLeHpoM0xHMGFhOTFYUFkzZ0NjeEhsWXNNa3FkakhRV0p1VHNfMjZRdzVsUFBURnlVRHliVHZnUGpnVkNvTE9OQlY3UjdFS1RBX0tabGUybElDUjR0Y3Nsd08?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "AI models use facial images to estimate biological age, predict cancer survival - WKYC",
+      "title_zh": "人工智能模型使用面部图像来估计生物学年龄，预测癌症存活率- WKYC",
+      "title_en": "AI models use facial images to estimate biological age, predict cancer survival - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcU9WUVJQU2FoTUtnQ3pRWWZTR2didi1hWks0LXdLUDl2ODRVeDZKUFhMQkxUN3FvR3d4ZjhXcmN0THRQaHBlRXNPQXl6MFpyUW5aSGNJY1JxSVFzOTIza09CZDF2bzRRYWkwUHNzM2xNempZY1BpT3IxaXkwSzVrbFdoUjVmRHRCYUdPNDU3OVBmbnY1VTVJUm9hcE5jbHVHRDNLeHpoM0xHMGFhOTFYUFkzZ0NjeEhsWXNNa3FkakhRV0p1VHNfMjZRdzVsUFBURnlVRHliVHZnUGpnVkNvTE9OQlY3UjdFS1RBX0tabGUybElDUjR0Y3Nsd08?oc=5",
+      "published_at": "2026-10-29T11:47:00Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "61fda8dc7ebfbb4a38cf9ce8f398e6efec01739d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzhUMHJQTHdFYWx5RS1Rd1ZMb1VDVG9CWlhlUHhoVE1yRjFHNEJ1ZnZvam0wWF9xZnJhOERCODFBVENtai1vZVZXTUx2blJTWkU5X1BRUWdTd2E2RFZVS1c5VmU3eFpnWkdqbmRHbkQ0cW9QWl9jZWVqQWpTSm0yVDNrSG9PeXctQ05VeHlzZDRZUmFodjhVREZ6UkN3WXI1czhwbA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "Inflammatory blood markers sharpen machine learning detection of mild frailty - Bioengineer.org",
+      "title_zh": "炎症血液标志物锐化了轻度虚弱的机器学习检测- Bioengineer.org",
+      "title_en": "Inflammatory blood markers sharpen machine learning detection of mild frailty - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzhUMHJQTHdFYWx5RS1Rd1ZMb1VDVG9CWlhlUHhoVE1yRjFHNEJ1ZnZvam0wWF9xZnJhOERCODFBVENtai1vZVZXTUx2blJTWkU5X1BRUWdTd2E2RFZVS1c5VmU3eFpnWkdqbmRHbkQ0cW9QWl9jZWVqQWpTSm0yVDNrSG9PeXctQ05VeHlzZDRZUmFodjhVREZ6UkN3WXI1czhwbA?oc=5",
+      "published_at": "2026-10-30T03:07:35Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "frailty"
+      ]
+    },
+    {
+      "id": "612a126f4a61f6161510b45ac6d7d28af427cd5b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYU0U4MnhOWWlfM2pxZ3ZuVHBNckRQLWl4alRBa0pCU2NSakVneGdFSi0xRnhtbnNfZG5UVlhtc3B3WUdXd29zUy1OWEFGdzZaZ1VaTFRRUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Danaadata launches integrated AI health management service combining biological age analysis and coaching - 헤럴드경제",
+      "title_zh": "Danaadata推出结合生物年龄分析和辅导的综合人工智能健康管理服务- 헤럴드경제",
+      "title_en": "Danaadata launches integrated AI health management service combining biological age analysis and coaching - 헤럴드경제",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYU0U4MnhOWWlfM2pxZ3ZuVHBNckRQLWl4alRBa0pCU2NSakVneGdFSi0xRnhtbnNfZG5UVlhtc3B3WUdXd29zUy1OWEFGdzZaZ1VaTFRRUQ?oc=5",
+      "published_at": "2026-10-30T00:54:03Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
     {
       "id": "886f250584cf774d5fa5c2a8efc1bca7467ef8b9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
@@ -30,7 +176,7 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
       "published_at": "2026-10-29T21:28:40Z",
       "first_seen_at": "2026-10-30T01:01:17.956614Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,9 +223,9 @@
       "title_zh": "机器学习发现非APOE基因信号太弱，无法预测阿尔茨海默氏症- Bioengineer.org",
       "title_en": "Machine learning finds Non-APOE gene signals too weak to predict Alzheimer’s - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
-      "published_at": "2026-10-29T20:02:28Z",
+      "published_at": "2026-10-29T20:06:58Z",
       "first_seen_at": "2026-10-29T21:08:05.160254Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +321,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -214,6 +360,152 @@
   ],
   "items_ai": [
     {
+      "id": "1481f5f15e9963b382541c9c5b38eed4dff04b59",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcU9WUVJQU2FoTUtnQ3pRWWZTR2didi1hWks0LXdLUDl2ODRVeDZKUFhMQkxUN3FvR3d4ZjhXcmN0THRQaHBlRXNPQXl6MFpyUW5aSGNJY1JxSVFzOTIza09CZDF2bzRRYWkwUHNzM2xNempZY1BpT3IxaXkwSzVrbFdoUjVmRHRCYUdPNDU3OVBmbnY1VTVJUm9hcE5jbHVHRDNLeHpoM0xHMGFhOTFYUFkzZ0NjeEhsWXNNa3FkakhRV0p1VHNfMjZRdzVsUFBURnlVRHliVHZnUGpnVkNvTE9OQlY3UjdFS1RBX0tabGUybElDUjR0Y3Nsd08?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "AI models use facial images to estimate biological age, predict cancer survival - WKYC",
+      "title_zh": "人工智能模型使用面部图像来估计生物学年龄，预测癌症存活率- WKYC",
+      "title_en": "AI models use facial images to estimate biological age, predict cancer survival - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcU9WUVJQU2FoTUtnQ3pRWWZTR2didi1hWks0LXdLUDl2ODRVeDZKUFhMQkxUN3FvR3d4ZjhXcmN0THRQaHBlRXNPQXl6MFpyUW5aSGNJY1JxSVFzOTIza09CZDF2bzRRYWkwUHNzM2xNempZY1BpT3IxaXkwSzVrbFdoUjVmRHRCYUdPNDU3OVBmbnY1VTVJUm9hcE5jbHVHRDNLeHpoM0xHMGFhOTFYUFkzZ0NjeEhsWXNNa3FkakhRV0p1VHNfMjZRdzVsUFBURnlVRHliVHZnUGpnVkNvTE9OQlY3UjdFS1RBX0tabGUybElDUjR0Y3Nsd08?oc=5",
+      "published_at": "2026-10-29T11:47:00Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "61fda8dc7ebfbb4a38cf9ce8f398e6efec01739d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzhUMHJQTHdFYWx5RS1Rd1ZMb1VDVG9CWlhlUHhoVE1yRjFHNEJ1ZnZvam0wWF9xZnJhOERCODFBVENtai1vZVZXTUx2blJTWkU5X1BRUWdTd2E2RFZVS1c5VmU3eFpnWkdqbmRHbkQ0cW9QWl9jZWVqQWpTSm0yVDNrSG9PeXctQ05VeHlzZDRZUmFodjhVREZ6UkN3WXI1czhwbA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "Inflammatory blood markers sharpen machine learning detection of mild frailty - Bioengineer.org",
+      "title_zh": "炎症血液标志物锐化了轻度虚弱的机器学习检测- Bioengineer.org",
+      "title_en": "Inflammatory blood markers sharpen machine learning detection of mild frailty - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzhUMHJQTHdFYWx5RS1Rd1ZMb1VDVG9CWlhlUHhoVE1yRjFHNEJ1ZnZvam0wWF9xZnJhOERCODFBVENtai1vZVZXTUx2blJTWkU5X1BRUWdTd2E2RFZVS1c5VmU3eFpnWkdqbmRHbkQ0cW9QWl9jZWVqQWpTSm0yVDNrSG9PeXctQ05VeHlzZDRZUmFodjhVREZ6UkN3WXI1czhwbA?oc=5",
+      "published_at": "2026-10-30T03:07:35Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "frailty"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "frailty"
+      ]
+    },
+    {
+      "id": "612a126f4a61f6161510b45ac6d7d28af427cd5b",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYU0U4MnhOWWlfM2pxZ3ZuVHBNckRQLWl4alRBa0pCU2NSakVneGdFSi0xRnhtbnNfZG5UVlhtc3B3WUdXd29zUy1OWEFGdzZaZ1VaTFRRUQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Danaadata launches integrated AI health management service combining biological age analysis and coaching - 헤럴드경제",
+      "title_zh": "Danaadata推出结合生物年龄分析和辅导的综合人工智能健康管理服务- 헤럴드경제",
+      "title_en": "Danaadata launches integrated AI health management service combining biological age analysis and coaching - 헤럴드경제",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYU0U4MnhOWWlfM2pxZ3ZuVHBNckRQLWl4alRBa0pCU2NSakVneGdFSi0xRnhtbnNfZG5UVlhtc3B3WUdXd29zUy1OWEFGdzZaZ1VaTFRRUQ?oc=5",
+      "published_at": "2026-10-30T00:54:03Z",
+      "first_seen_at": "2026-10-30T07:08:15.369302Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
       "id": "886f250584cf774d5fa5c2a8efc1bca7467ef8b9",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
       "site_id": "official_rss",
@@ -226,7 +518,7 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdBSVVpU0R1NjZZNU9PSVQ1NG5UR1NYUTdUUjlMOWRYaFltNEhEN1B1T2JMX0MyT3FhQXktcHBURlVmdi1MNl9CNXlodXo1NVEyd241TnFwcHh4cDQwZkJBbXlMdUhLV2RtVjNyanU0SVV2b0VZQ1BldVp1bkEyTkRWWnIxVWFqdDBveVpZZ1ZDY0w2ZkpOUkZGa3pzUEE?oc=5",
       "published_at": "2026-10-29T21:28:40Z",
       "first_seen_at": "2026-10-30T01:01:17.956614Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -273,9 +565,9 @@
       "title_zh": "机器学习发现非APOE基因信号太弱，无法预测阿尔茨海默氏症- Bioengineer.org",
       "title_en": "Machine learning finds Non-APOE gene signals too weak to predict Alzheimer’s - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXM2OGZSakxxUGZyT05VUXA3SzdJek9WZnd6b3J1dHVvX2dlSEQwclRmMFpmSU56OWxGRmtJV29QcWJyQWFmT0o1NXh5N3FCMW1oRFl2RHBjanJzVHg3WUxHczd2dmRqbXE0NXZ6T084VjlRc1V0TkEwM1Z0bDlsc1VSTlgzVmJCNWEtZzN3US0xbExwdThER19TeWpCaTZSVHc?oc=5",
-      "published_at": "2026-10-29T20:02:28Z",
+      "published_at": "2026-10-29T20:06:58Z",
       "first_seen_at": "2026-10-29T21:08:05.160254Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -371,7 +663,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzBlV0R0aFJHeDVhODAwSWFDWWhPMlZYNzZoYklFM05IeDM3NEhmUlR4QUJwcS1CcDVHeWhmaVA1ZVlSNjhXcmRtVlJ0a0NTWXo3ZHdJbTVhMlJ4TmRuMktBZklST05hSWpJTzFTbEJsaklacjJ3SEFabFYxTHAyejU5Y1pyb1c1WEFWa2FsWnFXNDZlTFlFMk5EZw?oc=5",
       "published_at": "2026-10-29T07:37:53Z",
       "first_seen_at": "2026-10-29T08:30:09.101990Z",
-      "last_seen_at": "2026-10-30T01:01:17.956614Z",
+      "last_seen_at": "2026-10-30T07:08:15.369302Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
