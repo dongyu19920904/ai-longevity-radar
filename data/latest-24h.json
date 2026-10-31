@@ -1,42 +1,48 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-31T05:44:21.979793Z",
+  "generated_at": "2026-10-31T12:33:20.454436Z",
   "window_hours": 24,
   "total_items": 4,
-  "total_items_raw": 27,
-  "total_items_all_mode": 27,
-  "archive_total": 1755,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items_raw": 48,
+  "total_items_all_mode": 48,
+  "archive_total": 1802,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 27
+      "count": 3,
+      "raw_count": 17
+    },
+    {
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "count": 1,
+      "raw_count": 31
     }
   ],
   "items": [
     {
-      "id": "853ec0c4e66903eaee748286ec6ce919fe059033",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3AzdjUtLUo3cm1mby0xS2NTN3Vjb3FwQzRpcWtBclJmd21TSThpbWNObzV4djNDaG1GMlVBUzllX2p0U2JoVWFCb21aeHVDWW1PbEpLWW1QV2dIWjZpZkFOYVJwWWVIbjdfcGxqUFRpYktrNWJheldXcFE4bjQ3MkVfMVRSNWR3c3QteDgzQWRRMERfU05yN2dXTWFLa1ZmRmJPNGRYa0V1VjdudVlqeTJQdDB2NlN4cHU0?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UNESCO’s ethics bodies address emerging challenges in ageing, longevity and generative AI - Unesco",
-      "title_zh": "教科文组织伦理机构应对老龄化、长寿和生殖人工智能领域新出现的挑战--教科文组织",
-      "title_en": "UNESCO’s ethics bodies address emerging challenges in ageing, longevity and generative AI - Unesco",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3AzdjUtLUo3cm1mby0xS2NTN3Vjb3FwQzRpcWtBclJmd21TSThpbWNObzV4djNDaG1GMlVBUzllX2p0U2JoVWFCb21aeHVDWW1PbEpLWW1QV2dIWjZpZkFOYVJwWWVIbjdfcGxqUFRpYktrNWJheldXcFE4bjQ3MkVfMVRSNWR3c3QteDgzQWRRMERfU05yN2dXTWFLa1ZmRmJPNGRYa0V1VjdudVlqeTJQdDB2NlN4cHU0?oc=5",
-      "published_at": "2026-10-30T10:33:19Z",
-      "first_seen_at": "2026-10-30T19:24:54.655712Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "id": "37b7e62a89cdb2cac9e8f8d5f31396db1ac8bd97",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13720999",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Correction: Risk prediction model of physical frailty for a rural older population: a cross-sectional study in Hunan Province, China",
+      "title_zh": "更正：农村老年人群身体虚弱的风险预测模型：中国湖南省的一项横断面研究",
+      "title_en": "Correction: Risk prediction model of physical frailty for a rural older population: a cross-sectional study in Hunan Province, China",
+      "url": "https://europepmc.org/article/MED/PMC13720999",
+      "published_at": "2026-10-31T00:00:00Z",
+      "first_seen_at": "2026-10-31T12:33:20.454436Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.638,
-      "domain_score": 0.7,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -45,26 +51,25 @@
       ],
       "primary_topic": "ai_longevity",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
       "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
+        "study_subject_unknown"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "generative ai"
+        "risk prediction"
       ],
       "longevity_signals": [
-        "ageing",
-        "longevity"
+        "frailty"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "frailty"
+      ]
     },
     {
       "id": "36e127bd6a6bee186f74c61b1e8e2a2a9e26c4fe",
@@ -79,7 +84,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUmVzaUFQb0ZPM0VSQWswdGg4NGdvWGFYTzV1MW51NmYyVUFLbEV5S0ZqSW1xLWd4Nmp2ajhsWFdtRi1tTVRKS3ZiZ3pqd1NqMkJlNkFKbEVrR1B3UmtMUElyNEJQOXBsdjB2OERUOHpfSUNQVDg1dFZ2bjRCU1V0X0JNYllhNGF1eC11LXNIMHBWV0Jhal9n?oc=5",
       "published_at": "2026-10-30T18:00:37Z",
       "first_seen_at": "2026-10-30T19:24:54.655712Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -179,7 +184,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSa2t4dkl5RFliR1RFVzlSdjZxRkNXWUVYOVhnS2V1a3JMWl9Ya2paUnFya2ZZbVV1TmxubFZOS1ZoLWtJRzBndkJBampwMk1XRC1vcjAxbVZzVTZWTmFwWmFIVnBVYUg3SVE5clRhVzdHUF9jWlE?oc=5",
       "published_at": "2026-10-30T17:49:51Z",
       "first_seen_at": "2026-10-31T05:44:21.979793Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -216,25 +221,25 @@
   ],
   "items_ai": [
     {
-      "id": "853ec0c4e66903eaee748286ec6ce919fe059033",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3AzdjUtLUo3cm1mby0xS2NTN3Vjb3FwQzRpcWtBclJmd21TSThpbWNObzV4djNDaG1GMlVBUzllX2p0U2JoVWFCb21aeHVDWW1PbEpLWW1QV2dIWjZpZkFOYVJwWWVIbjdfcGxqUFRpYktrNWJheldXcFE4bjQ3MkVfMVRSNWR3c3QteDgzQWRRMERfU05yN2dXTWFLa1ZmRmJPNGRYa0V1VjdudVlqeTJQdDB2NlN4cHU0?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UNESCO’s ethics bodies address emerging challenges in ageing, longevity and generative AI - Unesco",
-      "title_zh": "教科文组织伦理机构应对老龄化、长寿和生殖人工智能领域新出现的挑战--教科文组织",
-      "title_en": "UNESCO’s ethics bodies address emerging challenges in ageing, longevity and generative AI - Unesco",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3AzdjUtLUo3cm1mby0xS2NTN3Vjb3FwQzRpcWtBclJmd21TSThpbWNObzV4djNDaG1GMlVBUzllX2p0U2JoVWFCb21aeHVDWW1PbEpLWW1QV2dIWjZpZkFOYVJwWWVIbjdfcGxqUFRpYktrNWJheldXcFE4bjQ3MkVfMVRSNWR3c3QteDgzQWRRMERfU05yN2dXTWFLa1ZmRmJPNGRYa0V1VjdudVlqeTJQdDB2NlN4cHU0?oc=5",
-      "published_at": "2026-10-30T10:33:19Z",
-      "first_seen_at": "2026-10-30T19:24:54.655712Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "id": "37b7e62a89cdb2cac9e8f8d5f31396db1ac8bd97",
+      "canonical_key": "url:https://europepmc.org/article/MED/PMC13720999",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Correction: Risk prediction model of physical frailty for a rural older population: a cross-sectional study in Hunan Province, China",
+      "title_zh": "更正：农村老年人群身体虚弱的风险预测模型：中国湖南省的一项横断面研究",
+      "title_en": "Correction: Risk prediction model of physical frailty for a rural older population: a cross-sectional study in Hunan Province, China",
+      "url": "https://europepmc.org/article/MED/PMC13720999",
+      "published_at": "2026-10-31T00:00:00Z",
+      "first_seen_at": "2026-10-31T12:33:20.454436Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.65,
       "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.638,
-      "domain_score": 0.7,
+      "longevity_score": 0.66,
+      "signal_score": 0.718,
+      "domain_score": 0.66,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -243,26 +248,25 @@
       ],
       "primary_topic": "ai_longevity",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
       "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
+        "study_subject_unknown"
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "generative ai"
+        "risk prediction"
       ],
       "longevity_signals": [
-        "ageing",
-        "longevity"
+        "frailty"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": []
+      "biological_context_signals": [
+        "frailty"
+      ]
     },
     {
       "id": "36e127bd6a6bee186f74c61b1e8e2a2a9e26c4fe",
@@ -277,7 +281,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUmVzaUFQb0ZPM0VSQWswdGg4NGdvWGFYTzV1MW51NmYyVUFLbEV5S0ZqSW1xLWd4Nmp2ajhsWFdtRi1tTVRKS3ZiZ3pqd1NqMkJlNkFKbEVrR1B3UmtMUElyNEJQOXBsdjB2OERUOHpfSUNQVDg1dFZ2bjRCU1V0X0JNYllhNGF1eC11LXNIMHBWV0Jhal9n?oc=5",
       "published_at": "2026-10-30T18:00:37Z",
       "first_seen_at": "2026-10-30T19:24:54.655712Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -377,7 +381,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSa2t4dkl5RFliR1RFVzlSdjZxRkNXWUVYOVhnS2V1a3JMWl9Ya2paUnFya2ZZbVV1TmxubFZOS1ZoLWtJRzBndkJBampwMk1XRC1vcjAxbVZzVTZWTmFwWmFIVnBVYUg3SVE5clRhVzdHUF9jWlE?oc=5",
       "published_at": "2026-10-30T17:49:51Z",
       "first_seen_at": "2026-10-31T05:44:21.979793Z",
-      "last_seen_at": "2026-10-31T05:44:21.979793Z",
+      "last_seen_at": "2026-10-31T12:33:20.454436Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
