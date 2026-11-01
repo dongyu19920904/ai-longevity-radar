@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-01T15:11:09.437106Z",
+  "generated_at": "2026-11-01T19:42:50.929149Z",
   "topics": {},
   "source_types": {},
   "study_subjects": {},
@@ -17,7 +17,7 @@
     "digital_biomarker": 1
   },
   "relevance_tiers": {
-    "core": 42,
-    "related": 18
+    "core": 43,
+    "related": 17
   }
 }
