@@ -1,18 +1,10 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-10-31T21:36:49.598534Z",
-  "topics": {
-    "ai_longevity": 1
-  },
-  "source_types": {
-    "paper": 1
-  },
-  "study_subjects": {
-    "unknown": 1
-  },
-  "publication_stages": {
-    "peer_review_status_unknown": 1
-  },
+  "generated_at": "2026-11-01T01:11:50.415196Z",
+  "topics": {},
+  "source_types": {},
+  "study_subjects": {},
+  "publication_stages": {},
   "relevant_topics": {
     "neurodegeneration": 33,
     "multi_omics": 9,
