@@ -1,123 +1,117 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-02T06:07:13.755180Z",
+  "generated_at": "2026-11-02T15:56:39.647101Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 305,
-  "total_items_all_mode": 305,
-  "archive_total": 2237,
+  "total_items_raw": 340,
+  "total_items_all_mode": 340,
+  "archive_total": 2361,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 1
+      "raw_count": 12
     }
   ],
   "items": [
     {
-      "id": "0b71aca869fc720e015312e26cf1e10309ece3fc",
-      "canonical_key": "repo:ganesh7671/bioagenet",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Ganesh7671/BioAgeNet",
-      "source_type": "project",
-      "title": "Ganesh7671/BioAgeNet: AI-Based Blood Biomarker Biological Age Prediction Using Deep Learning",
-      "title_zh": "Ganesh7671/BioAgeNet ：基于AI的深度学习血液生物标志物生物学年龄预测",
-      "title_en": "Ganesh7671/BioAgeNet: AI-Based Blood Biomarker Biological Age Prediction Using Deep Learning",
-      "url": "https://github.com/Ganesh7671/BioAgeNet",
-      "published_at": "2026-11-01T09:41:33Z",
-      "first_seen_at": "2026-11-01T23:36:56.759840Z",
-      "last_seen_at": "2026-11-01T23:36:56.759840Z",
+      "id": "9ff325da798154c3c8749b4dbf867b3abb1f32ac",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigwJBVV95cUxQTU02YmU3RXdsenN4YWpHUWZHT0NRSno0VTd0Q294RGU0WmtVMzRkQWprTlFFdFVvSjkwZHJINWhkN0tqbDh3Nm9CZ1RURVI3Sk94OVVncFBZcHAwa2JOZmY4ZUoxUW9TMVhQdTliRmMxNTlWaGRDeVRkOVNWdGcxNVJES3JDUlFSV2puRi01Y2lPSHJzSmdkZTBPSkhGcHFuRUU1VkJSSWoyY3pSaHVjWDRGcnJPZV9DT0VDZ21PU015bm40c0FFTmlNcHl5YjFkbjNjVDZ6RjZWUWR3Q1BMYWItZkxJNGZDMEE2dUVSVVBuUjhNc0txa1pLLUpta0xlMmtv?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Welldoc Extends AI-Powered Digital Support Platform to Early-Stage Dementia and Launches Welldoc Cares Companion App - Business Wire",
+      "title_zh": "Welldoc将人工智能数字支持平台扩展到早期痴呆症，并推出Welldoc Cares Companion应用程序-美国商业资讯",
+      "title_en": "Welldoc Extends AI-Powered Digital Support Platform to Early-Stage Dementia and Launches Welldoc Cares Companion App - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTU02YmU3RXdsenN4YWpHUWZHT0NRSno0VTd0Q294RGU0WmtVMzRkQWprTlFFdFVvSjkwZHJINWhkN0tqbDh3Nm9CZ1RURVI3Sk94OVVncFBZcHAwa2JOZmY4ZUoxUW9TMVhQdTliRmMxNTlWaGRDeVRkOVNWdGcxNVJES3JDUlFSV2puRi01Y2lPSHJzSmdkZTBPSkhGcHFuRUU1VkJSSWoyY3pSaHVjWDRGcnJPZV9DT0VDZ21PU015bm40c0FFTmlNcHl5YjFkbjNjVDZ6RjZWUWR3Q1BMYWItZkxJNGZDMEE2dUVSVVBuUjhNc0txa1pLLUpta0xlMmtv?oc=5",
+      "published_at": "2026-11-02T15:00:00Z",
+      "first_seen_at": "2026-11-02T15:56:39.647101Z",
+      "last_seen_at": "2026-11-02T15:56:39.647101Z",
       "ai_is_related": true,
-      "ai_score": 0.67,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "research_tool"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "deep learning"
+        "ai"
       ],
       "longevity_signals": [
-        "biological age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
-      "id": "0b71aca869fc720e015312e26cf1e10309ece3fc",
-      "canonical_key": "repo:ganesh7671/bioagenet",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "Ganesh7671/BioAgeNet",
-      "source_type": "project",
-      "title": "Ganesh7671/BioAgeNet: AI-Based Blood Biomarker Biological Age Prediction Using Deep Learning",
-      "title_zh": "Ganesh7671/BioAgeNet ：基于AI的深度学习血液生物标志物生物学年龄预测",
-      "title_en": "Ganesh7671/BioAgeNet: AI-Based Blood Biomarker Biological Age Prediction Using Deep Learning",
-      "url": "https://github.com/Ganesh7671/BioAgeNet",
-      "published_at": "2026-11-01T09:41:33Z",
-      "first_seen_at": "2026-11-01T23:36:56.759840Z",
-      "last_seen_at": "2026-11-01T23:36:56.759840Z",
+      "id": "9ff325da798154c3c8749b4dbf867b3abb1f32ac",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigwJBVV95cUxQTU02YmU3RXdsenN4YWpHUWZHT0NRSno0VTd0Q294RGU0WmtVMzRkQWprTlFFdFVvSjkwZHJINWhkN0tqbDh3Nm9CZ1RURVI3Sk94OVVncFBZcHAwa2JOZmY4ZUoxUW9TMVhQdTliRmMxNTlWaGRDeVRkOVNWdGcxNVJES3JDUlFSV2puRi01Y2lPSHJzSmdkZTBPSkhGcHFuRUU1VkJSSWoyY3pSaHVjWDRGcnJPZV9DT0VDZ21PU015bm40c0FFTmlNcHl5YjFkbjNjVDZ6RjZWUWR3Q1BMYWItZkxJNGZDMEE2dUVSVVBuUjhNc0txa1pLLUpta0xlMmtv?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Welldoc Extends AI-Powered Digital Support Platform to Early-Stage Dementia and Launches Welldoc Cares Companion App - Business Wire",
+      "title_zh": "Welldoc将人工智能数字支持平台扩展到早期痴呆症，并推出Welldoc Cares Companion应用程序-美国商业资讯",
+      "title_en": "Welldoc Extends AI-Powered Digital Support Platform to Early-Stage Dementia and Launches Welldoc Cares Companion App - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTU02YmU3RXdsenN4YWpHUWZHT0NRSno0VTd0Q294RGU0WmtVMzRkQWprTlFFdFVvSjkwZHJINWhkN0tqbDh3Nm9CZ1RURVI3Sk94OVVncFBZcHAwa2JOZmY4ZUoxUW9TMVhQdTliRmMxNTlWaGRDeVRkOVNWdGcxNVJES3JDUlFSV2puRi01Y2lPSHJzSmdkZTBPSkhGcHFuRUU1VkJSSWoyY3pSaHVjWDRGcnJPZV9DT0VDZ21PU015bm40c0FFTmlNcHl5YjFkbjNjVDZ6RjZWUWR3Q1BMYWItZkxJNGZDMEE2dUVSVVBuUjhNc0txa1pLLUpta0xlMmtv?oc=5",
+      "published_at": "2026-11-02T15:00:00Z",
+      "first_seen_at": "2026-11-02T15:56:39.647101Z",
+      "last_seen_at": "2026-11-02T15:56:39.647101Z",
       "ai_is_related": true,
-      "ai_score": 0.67,
+      "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
-        "research_tool"
+        "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "deep learning"
+        "ai"
       ],
       "longevity_signals": [
-        "biological age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "biomarker"
-      ],
-      "biological_context_signals": [
-        "biomarker"
-      ]
+      "biomedical_signals": [],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
