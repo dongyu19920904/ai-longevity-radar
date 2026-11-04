@@ -1,70 +1,22 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-04T09:14:40.185971Z",
+  "generated_at": "2026-11-04T17:21:15.592606Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 372,
-  "total_items_all_mode": 372,
-  "archive_total": 3187,
+  "total_items": 1,
+  "total_items_raw": 341,
+  "total_items_all_mode": 341,
+  "archive_total": 3368,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 24
+      "count": 1,
+      "raw_count": 25
     }
   ],
   "items": [
-    {
-      "id": "3d1ee61989677e590e1ab2382447615a6251bc94",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wX0ktQmg0cTZVUjV1SlAyWDBFSk00VEh5SWs2VE5EYS0xX1B5MENfYXJaLVBZekxJTWd0eEppR2RreFhlMEMtY1p4UUZHLVBKSWN4djRBeWZjVGVJZ3plLTUzakY?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "\"Raised $18.4 Billion in One Year Alone\"... Aging and AI Fuel a Longevity Boom - 아시아경제",
-      "title_zh": "“仅一年就筹集了184亿美元” ……老龄化和人工智能助推了长寿热潮-- 아시아경제",
-      "title_en": "\"Raised $18.4 Billion in One Year Alone\"... Aging and AI Fuel a Longevity Boom - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wX0ktQmg0cTZVUjV1SlAyWDBFSk00VEh5SWs2VE5EYS0xX1B5MENfYXJaLVBZekxJTWd0eEppR2RreFhlMEMtY1p4UUZHLVBKSWN4djRBeWZjVGVJZ3plLTUzakY?oc=5",
-      "published_at": "2026-11-03T13:08:21Z",
-      "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
     {
       "id": "2d173b67f4660e7828dbca040931584ed3df170d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
@@ -78,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
       "published_at": "2026-11-04T01:11:50Z",
       "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
+      "last_seen_at": "2026-11-04T17:21:15.592606Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -105,100 +57,6 @@
       ],
       "longevity_signals": [
         "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "f91e82f1074dfed6a40517cc0f909aa265a3ebac",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2JSQWM4RGZHS2Y5OGVKZVR1bkdTdHhzeENqeWRZR2NlbDNWb1Ixb2Y4MTZaV1FoWDlJWk93YkZvcG9JUlRrQ1lQOWhQVTFZQ2NwQ200eGcyTkh0ZF9hN0Q4aHIxRW9EZmpGVHA4Z0xjMXJtZVN5eG9memY5N3ZmU01ISEhJVlBaU0JvanpoNjJaa0RZdGtRc0FEbGNSS05BQXNVdXBzTzB2bHZhX05CaVdQNXZuYUdrYm5yeENDbGtsdTJx0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "title_zh": "大学将为香港的2,700名老年人提供免费的人工智能痴呆症筛查-南华早报",
-      "title_en": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2JSQWM4RGZHS2Y5OGVKZVR1bkdTdHhzeENqeWRZR2NlbDNWb1Ixb2Y4MTZaV1FoWDlJWk93YkZvcG9JUlRrQ1lQOWhQVTFZQ2NwQ200eGcyTkh0ZF9hN0Q4aHIxRW9EZmpGVHA4Z0xjMXJtZVN5eG9memY5N3ZmU01ISEhJVlBaU0JvanpoNjJaa0RZdGtRc0FEbGNSS05BQXNVdXBzTzB2bHZhX05CaVdQNXZuYUdrYm5yeENDbGtsdTJx0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "published_at": "2026-11-03T10:37:52Z",
-      "first_seen_at": "2026-11-03T15:10:01.185254Z",
-      "last_seen_at": "2026-11-03T15:10:01.185254Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "62f186c218b11359ef9b92cf06fd30a8b25cc7b3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhDNGZGSHRMbDdnSFd4S3dEX0NrcXdsNEtleVZJWlM4NDhPT2FnN2V1eS0yTGY0TThPdDlwZEptVzBmWDB0TkEyR2R1aVRWQUo3ckxYcWUxNEZCU0NCZW5zME9nUTFHUUZ1R3BoLVM2b2Q5OUVQMGJ6NUxiZ1I2amxweUpidk43ay1rR3FQX0pJZ1Q5bC1XTEt6OXMzdFdJaWRGU0gyS2hyaGxjRTNqOHR6T3NSNUpLdnJwSlUteG05b0lX0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "title_zh": "大学将为香港的2,700名老年人提供免费的人工智能痴呆症筛查-南华早报",
-      "title_en": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhDNGZGSHRMbDdnSFd4S3dEX0NrcXdsNEtleVZJWlM4NDhPT2FnN2V1eS0yTGY0TThPdDlwZEptVzBmWDB0TkEyR2R1aVRWQUo3ckxYcWUxNEZCU0NCZW5zME9nUTFHUUZ1R3BoLVM2b2Q5OUVQMGJ6NUxiZ1I2amxweUpidk43ay1rR3FQX0pJZ1Q5bC1XTEt6OXMzdFdJaWRGU0gyS2hyaGxjRTNqOHR6T3NSNUpLdnJwSlUteG05b0lX0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "published_at": "2026-11-03T10:37:52Z",
-      "first_seen_at": "2026-11-03T15:10:01.185254Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -209,54 +67,6 @@
   ],
   "items_ai": [
     {
-      "id": "3d1ee61989677e590e1ab2382447615a6251bc94",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wX0ktQmg0cTZVUjV1SlAyWDBFSk00VEh5SWs2VE5EYS0xX1B5MENfYXJaLVBZekxJTWd0eEppR2RreFhlMEMtY1p4UUZHLVBKSWN4djRBeWZjVGVJZ3plLTUzakY?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "\"Raised $18.4 Billion in One Year Alone\"... Aging and AI Fuel a Longevity Boom - 아시아경제",
-      "title_zh": "“仅一年就筹集了184亿美元” ……老龄化和人工智能助推了长寿热潮-- 아시아경제",
-      "title_en": "\"Raised $18.4 Billion in One Year Alone\"... Aging and AI Fuel a Longevity Boom - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wX0ktQmg0cTZVUjV1SlAyWDBFSk00VEh5SWs2VE5EYS0xX1B5MENfYXJaLVBZekxJTWd0eEppR2RreFhlMEMtY1p4UUZHLVBKSWN4djRBeWZjVGVJZ3plLTUzakY?oc=5",
-      "published_at": "2026-11-03T13:08:21Z",
-      "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "2d173b67f4660e7828dbca040931584ed3df170d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
       "site_id": "official_rss",
@@ -269,7 +79,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
       "published_at": "2026-11-04T01:11:50Z",
       "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
+      "last_seen_at": "2026-11-04T17:21:15.592606Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -296,100 +106,6 @@
       ],
       "longevity_signals": [
         "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "f91e82f1074dfed6a40517cc0f909aa265a3ebac",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2JSQWM4RGZHS2Y5OGVKZVR1bkdTdHhzeENqeWRZR2NlbDNWb1Ixb2Y4MTZaV1FoWDlJWk93YkZvcG9JUlRrQ1lQOWhQVTFZQ2NwQ200eGcyTkh0ZF9hN0Q4aHIxRW9EZmpGVHA4Z0xjMXJtZVN5eG9memY5N3ZmU01ISEhJVlBaU0JvanpoNjJaa0RZdGtRc0FEbGNSS05BQXNVdXBzTzB2bHZhX05CaVdQNXZuYUdrYm5yeENDbGtsdTJx0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "title_zh": "大学将为香港的2,700名老年人提供免费的人工智能痴呆症筛查-南华早报",
-      "title_en": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2JSQWM4RGZHS2Y5OGVKZVR1bkdTdHhzeENqeWRZR2NlbDNWb1Ixb2Y4MTZaV1FoWDlJWk93YkZvcG9JUlRrQ1lQOWhQVTFZQ2NwQ200eGcyTkh0ZF9hN0Q4aHIxRW9EZmpGVHA4Z0xjMXJtZVN5eG9memY5N3ZmU01ISEhJVlBaU0JvanpoNjJaa0RZdGtRc0FEbGNSS05BQXNVdXBzTzB2bHZhX05CaVdQNXZuYUdrYm5yeENDbGtsdTJx0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "published_at": "2026-11-03T10:37:52Z",
-      "first_seen_at": "2026-11-03T15:10:01.185254Z",
-      "last_seen_at": "2026-11-03T15:10:01.185254Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "62f186c218b11359ef9b92cf06fd30a8b25cc7b3",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhDNGZGSHRMbDdnSFd4S3dEX0NrcXdsNEtleVZJWlM4NDhPT2FnN2V1eS0yTGY0TThPdDlwZEptVzBmWDB0TkEyR2R1aVRWQUo3ckxYcWUxNEZCU0NCZW5zME9nUTFHUUZ1R3BoLVM2b2Q5OUVQMGJ6NUxiZ1I2amxweUpidk43ay1rR3FQX0pJZ1Q5bC1XTEt6OXMzdFdJaWRGU0gyS2hyaGxjRTNqOHR6T3NSNUpLdnJwSlUteG05b0lX0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "title_zh": "大学将为香港的2,700名老年人提供免费的人工智能痴呆症筛查-南华早报",
-      "title_en": "University will offer free AI dementia screening to 2,700 seniors in Hong Kong - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhDNGZGSHRMbDdnSFd4S3dEX0NrcXdsNEtleVZJWlM4NDhPT2FnN2V1eS0yTGY0TThPdDlwZEptVzBmWDB0TkEyR2R1aVRWQUo3ckxYcWUxNEZCU0NCZW5zME9nUTFHUUZ1R3BoLVM2b2Q5OUVQMGJ6NUxiZ1I2amxweUpidk43ay1rR3FQX0pJZ1Q5bC1XTEt6OXMzdFdJaWRGU0gyS2hyaGxjRTNqOHR6T3NSNUpLdnJwSlUteG05b0lX0gHEAUFVX3lxTFBTYlJBYzhEZkdLZjk4ZUplVHVuR1N0eHN4Q2p5ZFlHY2VsM1ZvUjFvZjgxNlpXUWhYOUlaT3diRm9wb0lSVGtDWVA5aFBVMVlDY3BDbTR4ZzJOSHRkX2E3RDhocjFFb0RmakZUcDhnTGMxcm1lU3l4b2Z6Zjk3dmZTTUhISElWUFpTQm9qemg2MlprRFl0a1FzQURsY1JLTkFBc1V1cHNPMHZsdmFfTkJpV1A1dm5hR2tibnJ4Q0Nsa2x1MnE?oc=5",
-      "published_at": "2026-11-03T10:37:52Z",
-      "first_seen_at": "2026-11-03T15:10:01.185254Z",
-      "last_seen_at": "2026-11-04T09:14:40.185971Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
