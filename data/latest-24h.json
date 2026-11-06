@@ -1,18 +1,18 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-05T21:59:42.529744Z",
+  "generated_at": "2026-11-06T02:28:10.132455Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 375,
-  "total_items_all_mode": 375,
-  "archive_total": 3845,
+  "total_items": 2,
+  "total_items_raw": 477,
+  "total_items_all_mode": 477,
+  "archive_total": 3852,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
+      "count": 2,
       "raw_count": 36
     }
   ],
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBad0FwT3dDWktvbkF4S2hvbnF2enhJLW5EWWlaZ3U1bkFZbVdIRWZLNVkzTkMxVkJ5d3p2YWQyMTFjaTI1SFc2elhOcGJ0MExhQjZkX0JfUDZWX0xpdi00RURrbnp6aGthb01rc0dWd3E2cEFpakE?oc=5",
       "published_at": "2026-11-05T09:25:00Z",
       "first_seen_at": "2026-11-05T15:28:32.479993Z",
-      "last_seen_at": "2026-11-05T21:59:42.529744Z",
+      "last_seen_at": "2026-11-06T02:28:10.132455Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -77,7 +77,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenU4R1ZLb0tDZkozUTRLdVlDTV9Xa3FfbWVWMlN2WmtOYWpxNkxfNVkxdDd2cHZhT0JJR2pmcXNDQXgtU1lYSlNIQVBGdTBDUmprNlhqdVRfVnhkSVNhb2J1aUw5Y3J2UUlLQVk4NmFlLU9waE50X0duY2RNOXBCSTlxMTVxaW02SGV5RjRmeEM0emcxcHVUZ3dfQ255N2cwYmR4X2ZKc2tvVUNDS0MweUI1X2ZMRGlQYVM3QW5PWWZDTlgyel9OTFZkMS1DMTNCd0d1d2VLVGdkQkI4OUlYRFFmSFYyc1o1amdqTG5QZmZXRVBoRGs3QXVmQktQS0dDTm9GdGdXMHlDZUXSAZACQVVfeXFMT3BiUDBnejUwUGFFZXA1LV9XR3FvTVJWT2E4U2ZNVUFsZ0htYzJBNng3TUx4bXRLYmwyT2ZhNW1fOTRmcXFKcFpONlVPVGx0enNBaVhmYjRSZlRocGtMVFhIQUM3eEw2ckN3dVZWNldfRjFMal9LSzlhWjNKUExDOWp6Q2MyMGhsMVF2LTFzMTMwbjNHZUtNQkI0QVFuVmNYYVdydEN5OUs5Qm5IdmRMbExheTlZbHRsajJTbFk3SkF5Z19HdkdPdkNOUzF0dGdCVjNMY0hIN1RQWi02R0RiYlltTjA2OUFkazdZcm81ai1leUNiQmx1YWVCN1NTZWJyakdOVG1zaWNJSXEwMlNkazc?oc=5",
       "published_at": "2026-11-05T08:56:26Z",
       "first_seen_at": "2026-11-05T15:28:32.479993Z",
-      "last_seen_at": "2026-11-05T21:59:42.529744Z",
+      "last_seen_at": "2026-11-06T02:28:10.132455Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -104,53 +104,6 @@
       ],
       "longevity_signals": [
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "2d173b67f4660e7828dbca040931584ed3df170d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Neurophet Partners with RapidAI to Accelerate AI-Powered Alzheimer’s Imaging Solutions in the US - BioPharma APAC",
-      "title_zh": "Neurophet与RapidAI合作，加速美国人工智能驱动的阿尔茨海默氏症影像解决方案- BioPharma APAC",
-      "title_en": "Neurophet Partners with RapidAI to Accelerate AI-Powered Alzheimer’s Imaging Solutions in the US - BioPharma APAC",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
-      "published_at": "2026-11-04T22:07:53Z",
-      "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-05T15:28:32.479993Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -173,7 +126,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBad0FwT3dDWktvbkF4S2hvbnF2enhJLW5EWWlaZ3U1bkFZbVdIRWZLNVkzTkMxVkJ5d3p2YWQyMTFjaTI1SFc2elhOcGJ0MExhQjZkX0JfUDZWX0xpdi00RURrbnp6aGthb01rc0dWd3E2cEFpakE?oc=5",
       "published_at": "2026-11-05T09:25:00Z",
       "first_seen_at": "2026-11-05T15:28:32.479993Z",
-      "last_seen_at": "2026-11-05T21:59:42.529744Z",
+      "last_seen_at": "2026-11-06T02:28:10.132455Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -220,7 +173,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenU4R1ZLb0tDZkozUTRLdVlDTV9Xa3FfbWVWMlN2WmtOYWpxNkxfNVkxdDd2cHZhT0JJR2pmcXNDQXgtU1lYSlNIQVBGdTBDUmprNlhqdVRfVnhkSVNhb2J1aUw5Y3J2UUlLQVk4NmFlLU9waE50X0duY2RNOXBCSTlxMTVxaW02SGV5RjRmeEM0emcxcHVUZ3dfQ255N2cwYmR4X2ZKc2tvVUNDS0MweUI1X2ZMRGlQYVM3QW5PWWZDTlgyel9OTFZkMS1DMTNCd0d1d2VLVGdkQkI4OUlYRFFmSFYyc1o1amdqTG5QZmZXRVBoRGs3QXVmQktQS0dDTm9GdGdXMHlDZUXSAZACQVVfeXFMT3BiUDBnejUwUGFFZXA1LV9XR3FvTVJWT2E4U2ZNVUFsZ0htYzJBNng3TUx4bXRLYmwyT2ZhNW1fOTRmcXFKcFpONlVPVGx0enNBaVhmYjRSZlRocGtMVFhIQUM3eEw2ckN3dVZWNldfRjFMal9LSzlhWjNKUExDOWp6Q2MyMGhsMVF2LTFzMTMwbjNHZUtNQkI0QVFuVmNYYVdydEN5OUs5Qm5IdmRMbExheTlZbHRsajJTbFk3SkF5Z19HdkdPdkNOUzF0dGdCVjNMY0hIN1RQWi02R0RiYlltTjA2OUFkazdZcm81ai1leUNiQmx1YWVCN1NTZWJyakdOVG1zaWNJSXEwMlNkazc?oc=5",
       "published_at": "2026-11-05T08:56:26Z",
       "first_seen_at": "2026-11-05T15:28:32.479993Z",
-      "last_seen_at": "2026-11-05T21:59:42.529744Z",
+      "last_seen_at": "2026-11-06T02:28:10.132455Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -247,53 +200,6 @@
       ],
       "longevity_signals": [
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "2d173b67f4660e7828dbca040931584ed3df170d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Neurophet Partners with RapidAI to Accelerate AI-Powered Alzheimer’s Imaging Solutions in the US - BioPharma APAC",
-      "title_zh": "Neurophet与RapidAI合作，加速美国人工智能驱动的阿尔茨海默氏症影像解决方案- BioPharma APAC",
-      "title_en": "Neurophet Partners with RapidAI to Accelerate AI-Powered Alzheimer’s Imaging Solutions in the US - BioPharma APAC",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUV4V0tMRDlHYkdlTlhFNVBPRDJXNS05amNicTlHRnNQS3dTZ2NuYTgzb1BQVU00VmRmem1zaEItV0tObVIwdzhhcjNQUFRFMDl1RU9aQW1KMVp2UnVUbWVWeF9DWmZHSjdSZkhaajZZcnFRMXJLcFhkanFVMHdzbUpzdmlDSTFQcUs5bW5Eb0x3RE51dFFGZW5WX2tsTHVyUUdGZDJrQWJaZzgzNkFJTjlJWTExRHRfbE5pX3lYVFh3Y1FiNWN2SmFsS3JwbURfbFVDR2VB?oc=5",
-      "published_at": "2026-11-04T22:07:53Z",
-      "first_seen_at": "2026-11-04T01:23:31.414466Z",
-      "last_seen_at": "2026-11-05T15:28:32.479993Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
