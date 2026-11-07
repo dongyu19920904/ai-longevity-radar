@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-07T02:49:14.237395Z",
+  "generated_at": "2026-11-07T10:13:17.662361Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 455,
-  "total_items_all_mode": 455,
-  "archive_total": 4206,
+  "total_items": 3,
+  "total_items_raw": 436,
+  "total_items_all_mode": 436,
+  "archive_total": 4305,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 31
+      "count": 3,
+      "raw_count": 29
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOODBveE9lRXBlTXk5ZXI3OVFlNDA4VEk5UUhDZUV4bFFCeFc4WUM0c3BhOF9Ya0pKTUk0ZGhjX0owUGlIUm5aQXNINVJhQ08ycl82WlN6amMwbDkxMHZvSHN0aV8tVU5xdXBpNkRKT0FBQzhkQ00teTVPMmlJamlqMDRsUVZmSndzZFBoVWFxQk1ab0VOdXlrdkhQNVpwUdIBowFBVV95cUxNMWNiYWc0ZGkzRkVSWWxIR3h4Q21fSVYwNGcyUkRsYzB2MUc4YkJrRTZ5WlNpajZZQU5zMHZ5MDdQaEt2Zi1pTEMzLXcwVUJEbl9HNDJvT2plZTREZnJwYWhxOVdMOGctV3NLeDMyVzFFTVROalhZelZDUFpocm1aZzhaVWpfc2gyTjhwRFJaU3djSGdaamZuRXZOdlA5Q21nanhz?oc=5",
       "published_at": "2026-11-07T00:01:09Z",
       "first_seen_at": "2026-11-07T02:49:14.237395Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -66,54 +66,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "1259fd826d1bb72ef2d361a10f568b704bace57f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPQXl5V0xvRmR2S0RPUVhyN3ZQcGdXYi1kclRoSDR3MDZrNG1MTGg0aDBkeWQzTjA5Sm1aX002TVI4VW5OcmdhektZMkxZd3NoRVpUclhpU2dRVVE4LVpZcUFlWDZnZlg0bl9kUmx1ZWpka3hKTUNiQ0YxNUFzRWFJbdIBlAFBVV95cUxNejFIaDNaY1phT01sbTlZQ0Vyb0dqemJBMk9XaU5KUVlIbm4wU191amhCLTAybEhHYlNHZTA5UzkybW8yeEU5Zm81ejdkUGEtZ2ZJd2VIN1V4NVVzT0RyVVFLLXFWSXhnbHdIYy1iRkJjZ25DNUxjOHVxRG9KNldROFhEdEQ3RFp4bmNMM2VsYVhETXI3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "HIF 2026 spotlights Korea’s longevity push with Alzheimer’s, obesity and AI advances - Chosunbiz",
-      "title_zh": "HIF 2026聚焦韩国对阿尔茨海默氏症、肥胖症和人工智能进步的长寿推动- Chosunbiz",
-      "title_en": "HIF 2026 spotlights Korea’s longevity push with Alzheimer’s, obesity and AI advances - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQXl5V0xvRmR2S0RPUVhyN3ZQcGdXYi1kclRoSDR3MDZrNG1MTGg0aDBkeWQzTjA5Sm1aX002TVI4VW5OcmdhektZMkxZd3NoRVpUclhpU2dRVVE4LVpZcUFlWDZnZlg0bl9kUmx1ZWpka3hKTUNiQ0YxNUFzRWFJbdIBlAFBVV95cUxNejFIaDNaY1phT01sbTlZQ0Vyb0dqemJBMk9XaU5KUVlIbm4wU191amhCLTAybEhHYlNHZTA5UzkybW8yeEU5Zm81ejdkUGEtZ2ZJd2VIN1V4NVVzT0RyVVFLLXFWSXhnbHdIYy1iRkJjZ25DNUxjOHVxRG9KNldROFhEdEQ3RFp4bmNMM2VsYVhETXI3?oc=5",
-      "published_at": "2026-11-06T04:38:00Z",
-      "first_seen_at": "2026-11-06T10:54:56.026269Z",
-      "last_seen_at": "2026-11-06T10:54:56.026269Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "3100faf0b2777d78eaaa3a98b1c2afb46a1e40d7",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGFCYUsyWGdqOXJpdWdtZjR4RGVZNkRQekN0MnVJS3B2b05zM1UyQzZSRG1mNTFJUlR2Q2NrSGtrS2d0RkZfTzhjZ1V5ZDJ3ZnI0NFJ6TElNRENJbm92U0UwNno4QWNVeUgtVmZtVG5JUFJJYWp3eWtxQmZ3MUpGbUIwMTB6ZGtZT0thRUxyVQ?oc=5",
       "site_id": "official_rss",
@@ -126,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGFCYUsyWGdqOXJpdWdtZjR4RGVZNkRQekN0MnVJS3B2b05zM1UyQzZSRG1mNTFJUlR2Q2NrSGtrS2d0RkZfTzhjZ1V5ZDJ3ZnI0NFJ6TElNRENJbm92U0UwNno4QWNVeUgtVmZtVG5JUFJJYWp3eWtxQmZ3MUpGbUIwMTB6ZGtZT0thRUxyVQ?oc=5",
       "published_at": "2026-11-06T14:25:02Z",
       "first_seen_at": "2026-11-06T17:58:26.539060Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +127,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTZNOFZJUmpQYVg2Ri1WV0dQdXRkSklrcFFZN1pMNzZtUFd1aU1YUUJPVUlpNnc2Z2VGdmN3R0RobmtMZlNnSGlmMDNwVVdXVlJRTUt5VERnekx1RmpDV2wzbGZ3a0xxQWNyVkVFRTQ1cTBqREpMSXFCRU52MzNEZU92STd5bkxLOGdVQUd5QlZHektMd0V2aE5RN1ZVVVJDdnNFemhMaUZlTXlYcXhodFFiT3BRWHRrUFFYR2J0RDJNRHdhc0E?oc=5",
       "published_at": "2026-11-06T10:18:00Z",
       "first_seen_at": "2026-11-06T10:54:56.026269Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -224,7 +176,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOODBveE9lRXBlTXk5ZXI3OVFlNDA4VEk5UUhDZUV4bFFCeFc4WUM0c3BhOF9Ya0pKTUk0ZGhjX0owUGlIUm5aQXNINVJhQ08ycl82WlN6amMwbDkxMHZvSHN0aV8tVU5xdXBpNkRKT0FBQzhkQ00teTVPMmlJamlqMDRsUVZmSndzZFBoVWFxQk1ab0VOdXlrdkhQNVpwUdIBowFBVV95cUxNMWNiYWc0ZGkzRkVSWWxIR3h4Q21fSVYwNGcyUkRsYzB2MUc4YkJrRTZ5WlNpajZZQU5zMHZ5MDdQaEt2Zi1pTEMzLXcwVUJEbl9HNDJvT2plZTREZnJwYWhxOVdMOGctV3NLeDMyVzFFTVROalhZelZDUFpocm1aZzhaVWpfc2gyTjhwRFJaU3djSGdaamZuRXZOdlA5Q21nanhz?oc=5",
       "published_at": "2026-11-07T00:01:09Z",
       "first_seen_at": "2026-11-07T02:49:14.237395Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -260,54 +212,6 @@
       "biological_context_signals": []
     },
     {
-      "id": "1259fd826d1bb72ef2d361a10f568b704bace57f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPQXl5V0xvRmR2S0RPUVhyN3ZQcGdXYi1kclRoSDR3MDZrNG1MTGg0aDBkeWQzTjA5Sm1aX002TVI4VW5OcmdhektZMkxZd3NoRVpUclhpU2dRVVE4LVpZcUFlWDZnZlg0bl9kUmx1ZWpka3hKTUNiQ0YxNUFzRWFJbdIBlAFBVV95cUxNejFIaDNaY1phT01sbTlZQ0Vyb0dqemJBMk9XaU5KUVlIbm4wU191amhCLTAybEhHYlNHZTA5UzkybW8yeEU5Zm81ejdkUGEtZ2ZJd2VIN1V4NVVzT0RyVVFLLXFWSXhnbHdIYy1iRkJjZ25DNUxjOHVxRG9KNldROFhEdEQ3RFp4bmNMM2VsYVhETXI3?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "HIF 2026 spotlights Korea’s longevity push with Alzheimer’s, obesity and AI advances - Chosunbiz",
-      "title_zh": "HIF 2026聚焦韩国对阿尔茨海默氏症、肥胖症和人工智能进步的长寿推动- Chosunbiz",
-      "title_en": "HIF 2026 spotlights Korea’s longevity push with Alzheimer’s, obesity and AI advances - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQXl5V0xvRmR2S0RPUVhyN3ZQcGdXYi1kclRoSDR3MDZrNG1MTGg0aDBkeWQzTjA5Sm1aX002TVI4VW5OcmdhektZMkxZd3NoRVpUclhpU2dRVVE4LVpZcUFlWDZnZlg0bl9kUmx1ZWpka3hKTUNiQ0YxNUFzRWFJbdIBlAFBVV95cUxNejFIaDNaY1phT01sbTlZQ0Vyb0dqemJBMk9XaU5KUVlIbm4wU191amhCLTAybEhHYlNHZTA5UzkybW8yeEU5Zm81ejdkUGEtZ2ZJd2VIN1V4NVVzT0RyVVFLLXFWSXhnbHdIYy1iRkJjZ25DNUxjOHVxRG9KNldROFhEdEQ3RFp4bmNMM2VsYVhETXI3?oc=5",
-      "published_at": "2026-11-06T04:38:00Z",
-      "first_seen_at": "2026-11-06T10:54:56.026269Z",
-      "last_seen_at": "2026-11-06T10:54:56.026269Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "3100faf0b2777d78eaaa3a98b1c2afb46a1e40d7",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGFCYUsyWGdqOXJpdWdtZjR4RGVZNkRQekN0MnVJS3B2b05zM1UyQzZSRG1mNTFJUlR2Q2NrSGtrS2d0RkZfTzhjZ1V5ZDJ3ZnI0NFJ6TElNRENJbm92U0UwNno4QWNVeUgtVmZtVG5JUFJJYWp3eWtxQmZ3MUpGbUIwMTB6ZGtZT0thRUxyVQ?oc=5",
       "site_id": "official_rss",
@@ -320,7 +224,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGFCYUsyWGdqOXJpdWdtZjR4RGVZNkRQekN0MnVJS3B2b05zM1UyQzZSRG1mNTFJUlR2Q2NrSGtrS2d0RkZfTzhjZ1V5ZDJ3ZnI0NFJ6TElNRENJbm92U0UwNno4QWNVeUgtVmZtVG5JUFJJYWp3eWtxQmZ3MUpGbUIwMTB6ZGtZT0thRUxyVQ?oc=5",
       "published_at": "2026-11-06T14:25:02Z",
       "first_seen_at": "2026-11-06T17:58:26.539060Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -369,7 +273,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTZNOFZJUmpQYVg2Ri1WV0dQdXRkSklrcFFZN1pMNzZtUFd1aU1YUUJPVUlpNnc2Z2VGdmN3R0RobmtMZlNnSGlmMDNwVVdXVlJRTUt5VERnekx1RmpDV2wzbGZ3a0xxQWNyVkVFRTQ1cTBqREpMSXFCRU52MzNEZU92STd5bkxLOGdVQUd5QlZHektMd0V2aE5RN1ZVVVJDdnNFemhMaUZlTXlYcXhodFFiT3BRWHRrUFFYR2J0RDJNRHdhc0E?oc=5",
       "published_at": "2026-11-06T10:18:00Z",
       "first_seen_at": "2026-11-06T10:54:56.026269Z",
-      "last_seen_at": "2026-11-07T02:49:14.237395Z",
+      "last_seen_at": "2026-11-07T10:13:17.662361Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
