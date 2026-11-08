@@ -1,50 +1,49 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-08T07:23:18.932541Z",
+  "generated_at": "2026-11-08T15:13:54.026472Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 222,
-  "total_items_all_mode": 222,
-  "archive_total": 4481,
+  "total_items": 6,
+  "total_items_raw": 203,
+  "total_items_all_mode": 203,
+  "archive_total": 4562,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 8
+      "count": 6,
+      "raw_count": 9
     }
   ],
   "items": [
     {
-      "id": "4536535f3036bbdeeba736d375ed226e7e0a9e7a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5",
+      "id": "9914f05ab44d4b7546058a456e52829b882ffdfd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxQTW5SdmxBamtUUmhrcmFqTmUwVVVDenpwa0d3bHU3OEJCck81NVlCSUFMM3EtUDZQcVhoTzlrNUtHRFM1N3c0R2NuRVIyR3BRSmdvWnY0MWlxTFBEVld1Zl9jSl9GQzNNVVBaVV8tdkVCdjJ0M1htdWpyRm56TXhVSmoxVElINlMyMW9Jb01nWk8?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Simpler AI Models Predict Brain Age and Sex More Reliably - Bioengineer.org",
-      "title_zh": "更简单的人工智能模型更可靠地预测大脑年龄和性别- Bioengineer.org",
-      "title_en": "Simpler AI Models Predict Brain Age and Sex More Reliably - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5",
-      "published_at": "2026-11-07T12:53:22Z",
-      "first_seen_at": "2026-11-07T16:30:02.841921Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "title": "Hong Kong launches free AI retina screening for dementia - Pasquale Pillitteri",
+      "title_zh": "香港推出免费的痴呆症AI视网膜筛查- Pasquale Pillitteri",
+      "title_en": "Hong Kong launches free AI retina screening for dementia - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTW5SdmxBamtUUmhrcmFqTmUwVVVDenpwa0d3bHU3OEJCck81NVlCSUFMM3EtUDZQcVhoTzlrNUtHRFM1N3c0R2NuRVIyR3BRSmdvWnY0MWlxTFBEVld1Zl9jSl9GQzNNVVBaVV8tdkVCdjJ0M1htdWpyRm56TXhVSmoxVElINlMyMW9Jb01nWk8?oc=5",
+      "published_at": "2026-11-08T13:38:56Z",
+      "first_seen_at": "2026-11-08T15:13:54.026472Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
         "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -54,19 +53,110 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "ai"
       ],
       "longevity_signals": [
-        "brain age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
+      "biological_context_signals": []
+    },
+    {
+      "id": "4c262fb7afded215446bec0246af0e3d8523a47c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxObThCSFB3bjRJcXBhUU92ZC1nRGlNR2UwYVU4UWszRUJ2NUF2aS1QcXA0TnJEd0FwTV9oS3ZyZW9SSG9xd2w3S0pEV3BlOUgwRUFEaXZCelB3Nmk3MGNicjJhbTVOSS1uWUtoUi11aEx4eE44WTRPWUVNOFpRc193ZGdvd2RiVnlaeFRWVDlpVmdHWnVJUmZJRGhuOGlfY0xpcU9ITk5WRElzNFg3ZnpZ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Systematic Review Evaluates Explainable AI and RDoC Framework in Alzheimer’s Diagnosis - Bioengineer.org",
+      "title_zh": "系统评价评估阿尔茨海默氏症诊断中可解释的AI和RDoC框架- Bioengineer.org",
+      "title_en": "Systematic Review Evaluates Explainable AI and RDoC Framework in Alzheimer’s Diagnosis - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObThCSFB3bjRJcXBhUU92ZC1nRGlNR2UwYVU4UWszRUJ2NUF2aS1QcXA0TnJEd0FwTV9oS3ZyZW9SSG9xd2w3S0pEV3BlOUgwRUFEaXZCelB3Nmk3MGNicjJhbTVOSS1uWUtoUi11aEx4eE44WTRPWUVNOFpRc193ZGdvd2RiVnlaeFRWVDlpVmdHWnVJUmZJRGhuOGlfY0xpcU9ITk5WRElzNFg3ZnpZ?oc=5",
+      "published_at": "2026-11-08T12:07:42Z",
+      "first_seen_at": "2026-11-08T15:13:54.026472Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "031bed72b4e6abdf3745433bd1b0f5742569870a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5reF9xRV9CRzJ3c1ZPZTVHLXFkQ0kzdXluVS1pWnk4eWpSa0gwc2M1X0hzdzhNbkF5UzZ3R0szSW43ZVlEOHBUanpLclhLbmJUZ0VMbzZiQ1psbW5TRG1PWTBNSTFMMTJobnFWYlVoNDVRX0ZzOHFF?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Gut Microbiome Alzheimer Model Points to Two Gut Bacteria - Intelligent Living",
+      "title_zh": "AI肠道微生物组阿尔茨海默病模型指向两种肠道细菌-智能生活",
+      "title_en": "AI Gut Microbiome Alzheimer Model Points to Two Gut Bacteria - Intelligent Living",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5reF9xRV9CRzJ3c1ZPZTVHLXFkQ0kzdXluVS1pWnk4eWpSa0gwc2M1X0hzdzhNbkF5UzZ3R0szSW43ZVlEOHBUanpLclhLbmJUZ0VMbzZiQ1psbW5TRG1PWTBNSTFMMTJobnFWYlVoNDVRX0ZzOHFF?oc=5",
+      "published_at": "2026-11-08T02:14:06Z",
+      "first_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "f874e727e63212c0acaef6cd77240d48e42a5d7f",
@@ -81,7 +171,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFZIc1Y5TEFxU0F5V0VsWmFCOTBNWDcxUnVRM1hvbVYwekl4ZkM3amdzSGF1Um11d0ZRZjJyWnpwdjUyc3dRSUY0ajVmSXM5OWdmaWhOT2VBNDNNdVhYYV9mUVM2VTlMR1dtcFE5dzM5eVE3ODZVSjVjMGdBcmdCcjV6VzllUkJNWWRJMXZFQ3ZJRmxhYVl6WjdxZ09iZkM0?oc=5",
       "published_at": "2026-11-07T22:39:51Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -128,7 +218,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaW91REVEMDhJVXpoMVNYb3YzU3U2QjB1TUMyT2FsTF9iUlpTYlZrM1VOc3RGejA1U3Z2bS1nVTM3blNLQk1ZSWJRZHhsSUdUZlRWaFRFNjBxWXk1NkJHOHlpdVI3TkhJRUVTalp3NGF4SjB5VmFZaUpoa2xoNVJKam5NeFZvUmpJTEJSRTk4c0FSRjZiSDljbjNlOURkeElLSHZZOVQ0NjRpZXUxXzVnOUxuTkdRdzZydnlubw?oc=5",
       "published_at": "2026-11-07T22:07:30Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +265,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3NGd3bldXWEwxVjRxbjRtcm1DbzFvUEJpaGctYnl0d1RKN3l1NDctVFJMYWJRcDU5ZlNTak5fV2VEeWJ1dW1IUjRDN1BsanM2OXBWSHc0Ni1ha0E?oc=5",
       "published_at": "2026-11-07T17:08:00Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -212,33 +302,32 @@
   ],
   "items_ai": [
     {
-      "id": "4536535f3036bbdeeba736d375ed226e7e0a9e7a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5",
+      "id": "9914f05ab44d4b7546058a456e52829b882ffdfd",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxQTW5SdmxBamtUUmhrcmFqTmUwVVVDenpwa0d3bHU3OEJCck81NVlCSUFMM3EtUDZQcVhoTzlrNUtHRFM1N3c0R2NuRVIyR3BRSmdvWnY0MWlxTFBEVld1Zl9jSl9GQzNNVVBaVV8tdkVCdjJ0M1htdWpyRm56TXhVSmoxVElINlMyMW9Jb01nWk8?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Aging Clocks",
+      "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Simpler AI Models Predict Brain Age and Sex More Reliably - Bioengineer.org",
-      "title_zh": "更简单的人工智能模型更可靠地预测大脑年龄和性别- Bioengineer.org",
-      "title_en": "Simpler AI Models Predict Brain Age and Sex More Reliably - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5",
-      "published_at": "2026-11-07T12:53:22Z",
-      "first_seen_at": "2026-11-07T16:30:02.841921Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "title": "Hong Kong launches free AI retina screening for dementia - Pasquale Pillitteri",
+      "title_zh": "香港推出免费的痴呆症AI视网膜筛查- Pasquale Pillitteri",
+      "title_en": "Hong Kong launches free AI retina screening for dementia - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTW5SdmxBamtUUmhrcmFqTmUwVVVDenpwa0d3bHU3OEJCck81NVlCSUFMM3EtUDZQcVhoTzlrNUtHRFM1N3c0R2NuRVIyR3BRSmdvWnY0MWlxTFBEVld1Zl9jSl9GQzNNVVBaVV8tdkVCdjJ0M1htdWpyRm56TXhVSmoxVElINlMyMW9Jb01nWk8?oc=5",
+      "published_at": "2026-11-08T13:38:56Z",
+      "first_seen_at": "2026-11-08T15:13:54.026472Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "aging_clock",
         "neurodegeneration"
       ],
-      "primary_topic": "aging_clock",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -248,19 +337,110 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "ai"
       ],
       "longevity_signals": [
-        "brain age"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
+      "biological_context_signals": []
+    },
+    {
+      "id": "4c262fb7afded215446bec0246af0e3d8523a47c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxObThCSFB3bjRJcXBhUU92ZC1nRGlNR2UwYVU4UWszRUJ2NUF2aS1QcXA0TnJEd0FwTV9oS3ZyZW9SSG9xd2w3S0pEV3BlOUgwRUFEaXZCelB3Nmk3MGNicjJhbTVOSS1uWUtoUi11aEx4eE44WTRPWUVNOFpRc193ZGdvd2RiVnlaeFRWVDlpVmdHWnVJUmZJRGhuOGlfY0xpcU9ITk5WRElzNFg3ZnpZ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Systematic Review Evaluates Explainable AI and RDoC Framework in Alzheimer’s Diagnosis - Bioengineer.org",
+      "title_zh": "系统评价评估阿尔茨海默氏症诊断中可解释的AI和RDoC框架- Bioengineer.org",
+      "title_en": "Systematic Review Evaluates Explainable AI and RDoC Framework in Alzheimer’s Diagnosis - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObThCSFB3bjRJcXBhUU92ZC1nRGlNR2UwYVU4UWszRUJ2NUF2aS1QcXA0TnJEd0FwTV9oS3ZyZW9SSG9xd2w3S0pEV3BlOUgwRUFEaXZCelB3Nmk3MGNicjJhbTVOSS1uWUtoUi11aEx4eE44WTRPWUVNOFpRc193ZGdvd2RiVnlaeFRWVDlpVmdHWnVJUmZJRGhuOGlfY0xpcU9ITk5WRElzNFg3ZnpZ?oc=5",
+      "published_at": "2026-11-08T12:07:42Z",
+      "first_seen_at": "2026-11-08T15:13:54.026472Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "031bed72b4e6abdf3745433bd1b0f5742569870a",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5reF9xRV9CRzJ3c1ZPZTVHLXFkQ0kzdXluVS1pWnk4eWpSa0gwc2M1X0hzdzhNbkF5UzZ3R0szSW43ZVlEOHBUanpLclhLbmJUZ0VMbzZiQ1psbW5TRG1PWTBNSTFMMTJobnFWYlVoNDVRX0ZzOHFF?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Gut Microbiome Alzheimer Model Points to Two Gut Bacteria - Intelligent Living",
+      "title_zh": "AI肠道微生物组阿尔茨海默病模型指向两种肠道细菌-智能生活",
+      "title_en": "AI Gut Microbiome Alzheimer Model Points to Two Gut Bacteria - Intelligent Living",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5reF9xRV9CRzJ3c1ZPZTVHLXFkQ0kzdXluVS1pWnk4eWpSa0gwc2M1X0hzdzhNbkF5UzZ3R0szSW43ZVlEOHBUanpLclhLbmJUZ0VMbzZiQ1psbW5TRG1PWTBNSTFMMTJobnFWYlVoNDVRX0ZzOHFF?oc=5",
+      "published_at": "2026-11-08T02:14:06Z",
+      "first_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "f874e727e63212c0acaef6cd77240d48e42a5d7f",
@@ -275,7 +455,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFZIc1Y5TEFxU0F5V0VsWmFCOTBNWDcxUnVRM1hvbVYwekl4ZkM3amdzSGF1Um11d0ZRZjJyWnpwdjUyc3dRSUY0ajVmSXM5OWdmaWhOT2VBNDNNdVhYYV9mUVM2VTlMR1dtcFE5dzM5eVE3ODZVSjVjMGdBcmdCcjV6VzllUkJNWWRJMXZFQ3ZJRmxhYVl6WjdxZ09iZkM0?oc=5",
       "published_at": "2026-11-07T22:39:51Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -322,7 +502,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaW91REVEMDhJVXpoMVNYb3YzU3U2QjB1TUMyT2FsTF9iUlpTYlZrM1VOc3RGejA1U3Z2bS1nVTM3blNLQk1ZSWJRZHhsSUdUZlRWaFRFNjBxWXk1NkJHOHlpdVI3TkhJRUVTalp3NGF4SjB5VmFZaUpoa2xoNVJKam5NeFZvUmpJTEJSRTk4c0FSRjZiSDljbjNlOURkeElLSHZZOVQ0NjRpZXUxXzVnOUxuTkdRdzZydnlubw?oc=5",
       "published_at": "2026-11-07T22:07:30Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -369,7 +549,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3NGd3bldXWEwxVjRxbjRtcm1DbzFvUEJpaGctYnl0d1RKN3l1NDctVFJMYWJRcDU5ZlNTak5fV2VEeWJ1dW1IUjRDN1BsanM2OXBWSHc0Ni1ha0E?oc=5",
       "published_at": "2026-11-07T17:08:00Z",
       "first_seen_at": "2026-11-08T00:38:06.160114Z",
-      "last_seen_at": "2026-11-08T07:23:18.932541Z",
+      "last_seen_at": "2026-11-08T15:13:54.026472Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
