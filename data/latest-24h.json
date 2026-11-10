@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-10T01:33:18.628321Z",
+  "generated_at": "2026-11-10T09:52:33.923428Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 355,
-  "total_items_all_mode": 355,
-  "archive_total": 5100,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items": 4,
+  "total_items_raw": 398,
+  "total_items_all_mode": 398,
+  "archive_total": 5235,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 6,
-      "raw_count": 30
+      "count": 3,
+      "raw_count": 33
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "items": [
@@ -30,7 +36,7 @@
       "url": "https://longevity.technology/news/insilico-open-sources-longevity-grok-personal-longevity-ai",
       "published_at": "2026-11-09T16:31:12Z",
       "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-09T17:31:12.320961Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -81,7 +87,7 @@
       "url": "https://longevity.technology/news/insilico-open-sources-a-longevity-ai-that-keeps-score",
       "published_at": "2026-11-09T16:50:26Z",
       "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-09T17:31:12.320961Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -131,7 +137,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OYnYxUUp5UVNfV1NOZDM3VWhtckczY0dIUUg5Ti1naktwTHRJdFlkZkNTYXZ4cXM5TW01UDU4Q3c2VVhUZTlfdVc4ZGc2ZTgwa1JlQjRtT3Z0WEZHUWxF?oc=5",
       "published_at": "2026-11-09T10:58:58Z",
       "first_seen_at": "2026-11-10T01:33:18.628321Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -172,42 +178,40 @@
       ]
     },
     {
-      "id": "418e7b05388df00f8bd81ff2ff69f98cba3fdc15",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQQm5Hbm5aenY2cFZvRTNoNUozTTdfNzNLa1RfSUpTTjN3RTByR0RfbHNyR2QyRlBuRV93TDFCUk03TFJ2cFhBM1hOS2lSaWFsX0hKbUNuaGtqRUdxMGlqTi00WFBtVU84RGRqbk5VakUwcVMwSzk5RUJWODVhak9XLXBDYTNqWnFSNnE5cHpWVEtob0piTW9SX2E5cWF2blo0VDU1ag?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI reads brain scans for Alzheimer’s signs, but a sweeping review urges caution - Bioengineer.org",
-      "title_zh": "人工智能读取阿尔茨海默氏症体征的脑部扫描，但一项全面的审查敦促谨慎行事- Bioengineer.org",
-      "title_en": "AI reads brain scans for Alzheimer’s signs, but a sweeping review urges caution - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQm5Hbm5aenY2cFZvRTNoNUozTTdfNzNLa1RfSUpTTjN3RTByR0RfbHNyR2QyRlBuRV93TDFCUk03TFJ2cFhBM1hOS2lSaWFsX0hKbUNuaGtqRUdxMGlqTi00WFBtVU84RGRqbk5VakUwcVMwSzk5RUJWODVhak9XLXBDYTNqWnFSNnE5cHpWVEtob0piTW9SX2E5cWF2blo0VDU1ag?oc=5",
-      "published_at": "2026-11-09T08:07:23Z",
-      "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
+      "id": "91746d46735a86bfa91f451672a850fc47ce0abe",
+      "canonical_key": "repo:shulamohammad/sphere-alzheimers",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "shulamohammad/sphere-alzheimers",
+      "source_type": "project",
+      "title": "shulamohammad/sphere-alzheimers: Machine learning research exploring Alzheimer's biomarker classification, staged testing strategies, and model evaluation using synthetic SPHERE data.",
+      "title_zh": "shulamohammad/sphere-alzheimers ：探索阿尔茨海默氏症生物标志物分类、分阶段测试策略和使用合成球数据进行模型评估的机器学习研究。",
+      "title_en": "shulamohammad/sphere-alzheimers: Machine learning research exploring Alzheimer's biomarker classification, staged testing strategies, and model evaluation using synthetic SPHERE data.",
+      "url": "https://github.com/shulamohammad/sphere-alzheimers",
+      "published_at": "2026-11-10T06:05:59Z",
+      "first_seen_at": "2026-11-10T09:52:33.923428Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "neurodegeneration",
+        "research_tool"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -215,104 +219,12 @@
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
       "biological_context_signals": [
-        "brain"
+        "biomarker"
       ]
-    },
-    {
-      "id": "7973a1f2108e0975317e9e073191216a5c336887",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmRnZVc2S0t4SnlCWmx2ci1BRjlmSkQyUjhnc1dlbW9LUEx4T1haMkN5V1NqbW1tU19nNzBwRjEyVEVxY0wzQ1JIVWNqc3BxX3ZHcXM5SFJyNk0yamo0QlFZOE4welF5eG9kUElHU09pLXkzandzclcyQUM5ZWYtWUpHM0RNNzdEdmpTNzZ5TGdyWE0yUFdnQXlxNWVPRGFpUWFGbmxzdXhfTkczLWo4SElKdUhBODdETWc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Investment opportunities lie in AI, energy transition and longevity: UBS - Professional Planner",
-      "title_zh": "投资机会在于人工智能、能源转型和长寿：瑞银-专业规划师",
-      "title_en": "Investment opportunities lie in AI, energy transition and longevity: UBS - Professional Planner",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmRnZVc2S0t4SnlCWmx2ci1BRjlmSkQyUjhnc1dlbW9LUEx4T1haMkN5V1NqbW1tU19nNzBwRjEyVEVxY0wzQ1JIVWNqc3BxX3ZHcXM5SFJyNk0yamo0QlFZOE4welF5eG9kUElHU09pLXkzandzclcyQUM5ZWYtWUpHM0RNNzdEdmpTNzZ5TGdyWE0yUFdnQXlxNWVPRGFpUWFGbmxzdXhfTkczLWo4SElKdUhBODdETWc?oc=5",
-      "published_at": "2026-11-09T05:48:03Z",
-      "first_seen_at": "2026-11-09T06:33:28.482552Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "industry"
-      ],
-      "primary_topic": "industry",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "b5e7bca503e69f99605fb0de754b282bdf7b8b34",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVBQMG0tVkw1cXBMR01wZzcyWjBEd2dXenEzZHU3VDc5RERKa0RQMl83cjRwdFFDVGFzdHRRWVhCNG9XWWtxNVJvNjhmenh6NUlqOUl6dmVaWVYwdU1Sbm1QUlFGOUs3U3dqV3J5LU5OLV9MSzhLLXR6Q2YtVDRCejZveE42UW5DcXFWOVdwR3hxQXM?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Oxford joins £20m AI project to improve dementia diagnosis - Oxford Mail",
-      "title_zh": "牛津加入2000万英镑的人工智能项目，以改善痴呆症诊断-牛津邮报",
-      "title_en": "Oxford joins £20m AI project to improve dementia diagnosis - Oxford Mail",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVBQMG0tVkw1cXBMR01wZzcyWjBEd2dXenEzZHU3VDc5RERKa0RQMl83cjRwdFFDVGFzdHRRWVhCNG9XWWtxNVJvNjhmenh6NUlqOUl6dmVaWVYwdU1Sbm1QUlFGOUs3U3dqV3J5LU5OLV9MSzhLLXR6Q2YtVDRCejZveE42UW5DcXFWOVdwR3hxQXM?oc=5",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T06:33:28.482552Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -329,7 +241,7 @@
       "url": "https://longevity.technology/news/insilico-open-sources-longevity-grok-personal-longevity-ai",
       "published_at": "2026-11-09T16:31:12Z",
       "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-09T17:31:12.320961Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -380,7 +292,7 @@
       "url": "https://longevity.technology/news/insilico-open-sources-a-longevity-ai-that-keeps-score",
       "published_at": "2026-11-09T16:50:26Z",
       "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-09T17:31:12.320961Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -430,7 +342,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OYnYxUUp5UVNfV1NOZDM3VWhtckczY0dIUUg5Ti1naktwTHRJdFlkZkNTYXZ4cXM5TW01UDU4Q3c2VVhUZTlfdVc4ZGc2ZTgwa1JlQjRtT3Z0WEZHUWxF?oc=5",
       "published_at": "2026-11-09T10:58:58Z",
       "first_seen_at": "2026-11-10T01:33:18.628321Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -471,42 +383,40 @@
       ]
     },
     {
-      "id": "418e7b05388df00f8bd81ff2ff69f98cba3fdc15",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxQQm5Hbm5aenY2cFZvRTNoNUozTTdfNzNLa1RfSUpTTjN3RTByR0RfbHNyR2QyRlBuRV93TDFCUk03TFJ2cFhBM1hOS2lSaWFsX0hKbUNuaGtqRUdxMGlqTi00WFBtVU84RGRqbk5VakUwcVMwSzk5RUJWODVhak9XLXBDYTNqWnFSNnE5cHpWVEtob0piTW9SX2E5cWF2blo0VDU1ag?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI reads brain scans for Alzheimer’s signs, but a sweeping review urges caution - Bioengineer.org",
-      "title_zh": "人工智能读取阿尔茨海默氏症体征的脑部扫描，但一项全面的审查敦促谨慎行事- Bioengineer.org",
-      "title_en": "AI reads brain scans for Alzheimer’s signs, but a sweeping review urges caution - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQm5Hbm5aenY2cFZvRTNoNUozTTdfNzNLa1RfSUpTTjN3RTByR0RfbHNyR2QyRlBuRV93TDFCUk03TFJ2cFhBM1hOS2lSaWFsX0hKbUNuaGtqRUdxMGlqTi00WFBtVU84RGRqbk5VakUwcVMwSzk5RUJWODVhak9XLXBDYTNqWnFSNnE5cHpWVEtob0piTW9SX2E5cWF2blo0VDU1ag?oc=5",
-      "published_at": "2026-11-09T08:07:23Z",
-      "first_seen_at": "2026-11-09T17:31:12.320961Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
+      "id": "91746d46735a86bfa91f451672a850fc47ce0abe",
+      "canonical_key": "repo:shulamohammad/sphere-alzheimers",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "shulamohammad/sphere-alzheimers",
+      "source_type": "project",
+      "title": "shulamohammad/sphere-alzheimers: Machine learning research exploring Alzheimer's biomarker classification, staged testing strategies, and model evaluation using synthetic SPHERE data.",
+      "title_zh": "shulamohammad/sphere-alzheimers ：探索阿尔茨海默氏症生物标志物分类、分阶段测试策略和使用合成球数据进行模型评估的机器学习研究。",
+      "title_en": "shulamohammad/sphere-alzheimers: Machine learning research exploring Alzheimer's biomarker classification, staged testing strategies, and model evaluation using synthetic SPHERE data.",
+      "url": "https://github.com/shulamohammad/sphere-alzheimers",
+      "published_at": "2026-11-10T06:05:59Z",
+      "first_seen_at": "2026-11-10T09:52:33.923428Z",
+      "last_seen_at": "2026-11-10T09:52:33.923428Z",
       "ai_is_related": true,
-      "ai_score": 0.59,
+      "ai_score": 0.56,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.57,
+      "signal_score": 0.524,
+      "domain_score": 0.57,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "neurodegeneration",
+        "research_tool"
       ],
       "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -514,104 +424,12 @@
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
       "biological_context_signals": [
-        "brain"
+        "biomarker"
       ]
-    },
-    {
-      "id": "7973a1f2108e0975317e9e073191216a5c336887",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmRnZVc2S0t4SnlCWmx2ci1BRjlmSkQyUjhnc1dlbW9LUEx4T1haMkN5V1NqbW1tU19nNzBwRjEyVEVxY0wzQ1JIVWNqc3BxX3ZHcXM5SFJyNk0yamo0QlFZOE4welF5eG9kUElHU09pLXkzandzclcyQUM5ZWYtWUpHM0RNNzdEdmpTNzZ5TGdyWE0yUFdnQXlxNWVPRGFpUWFGbmxzdXhfTkczLWo4SElKdUhBODdETWc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Investment opportunities lie in AI, energy transition and longevity: UBS - Professional Planner",
-      "title_zh": "投资机会在于人工智能、能源转型和长寿：瑞银-专业规划师",
-      "title_en": "Investment opportunities lie in AI, energy transition and longevity: UBS - Professional Planner",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmRnZVc2S0t4SnlCWmx2ci1BRjlmSkQyUjhnc1dlbW9LUEx4T1haMkN5V1NqbW1tU19nNzBwRjEyVEVxY0wzQ1JIVWNqc3BxX3ZHcXM5SFJyNk0yamo0QlFZOE4welF5eG9kUElHU09pLXkzandzclcyQUM5ZWYtWUpHM0RNNzdEdmpTNzZ5TGdyWE0yUFdnQXlxNWVPRGFpUWFGbmxzdXhfTkczLWo4SElKdUhBODdETWc?oc=5",
-      "published_at": "2026-11-09T05:48:03Z",
-      "first_seen_at": "2026-11-09T06:33:28.482552Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "industry"
-      ],
-      "primary_topic": "industry",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "b5e7bca503e69f99605fb0de754b282bdf7b8b34",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVBQMG0tVkw1cXBMR01wZzcyWjBEd2dXenEzZHU3VDc5RERKa0RQMl83cjRwdFFDVGFzdHRRWVhCNG9XWWtxNVJvNjhmenh6NUlqOUl6dmVaWVYwdU1Sbm1QUlFGOUs3U3dqV3J5LU5OLV9MSzhLLXR6Q2YtVDRCejZveE42UW5DcXFWOVdwR3hxQXM?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Oxford joins £20m AI project to improve dementia diagnosis - Oxford Mail",
-      "title_zh": "牛津加入2000万英镑的人工智能项目，以改善痴呆症诊断-牛津邮报",
-      "title_en": "Oxford joins £20m AI project to improve dementia diagnosis - Oxford Mail",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVBQMG0tVkw1cXBMR01wZzcyWjBEd2dXenEzZHU3VDc5RERKa0RQMl83cjRwdFFDVGFzdHRRWVhCNG9XWWtxNVJvNjhmenh6NUlqOUl6dmVaWVYwdU1Sbm1QUlFGOUs3U3dqV3J5LU5OLV9MSzhLLXR6Q2YtVDRCejZveE42UW5DcXFWOVdwR3hxQXM?oc=5",
-      "published_at": "2026-11-09T05:00:00Z",
-      "first_seen_at": "2026-11-09T06:33:28.482552Z",
-      "last_seen_at": "2026-11-10T01:33:18.628321Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
