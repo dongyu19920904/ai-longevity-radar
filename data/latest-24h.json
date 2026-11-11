@@ -1,23 +1,167 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-11T15:14:20.139356Z",
+  "generated_at": "2026-11-11T22:01:23.001048Z",
   "window_hours": 24,
-  "total_items": 8,
-  "total_items_raw": 455,
-  "total_items_all_mode": 455,
-  "archive_total": 5848,
+  "total_items": 10,
+  "total_items_raw": 463,
+  "total_items_all_mode": 463,
+  "archive_total": 6033,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 8,
+      "count": 10,
       "raw_count": 42
     }
   ],
   "items": [
     {
+      "id": "8d554ded4645d4abe3325bbe4e0b7997f06a1cd7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPLV91ZnZLZm1KRkJGaGNZZjNuR2pqUGJUMzZFb1lpN1RJTFdZY2pWRi0wa004MzZ3MFByY1d0RVdpcnpGREdiQ2FQb2xxQ2dQWHFqWjJBNm9KNDFuOWdrNE5pdDdsSmxSYWJFc2hUaXZYZG8wcjhXdWF6UGE2TVFZSmJRU3JPXzVudHdFczRSWkVqVG9ZVWFObldRRWh5LUVnOFNERURIamo0dF9ySUUxTDhn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Classifies Alzheimer’s Stages Using Routine Clinical and Cognitive Data - Bioengineer.org",
+      "title_zh": "机器学习利用常规临床和认知数据对阿尔茨海默病分期进行分类 - Bioengineer.org",
+      "title_en": "Machine Learning Classifies Alzheimer’s Stages Using Routine Clinical and Cognitive Data - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLV91ZnZLZm1KRkJGaGNZZjNuR2pqUGJUMzZFb1lpN1RJTFdZY2pWRi0wa004MzZ3MFByY1d0RVdpcnpGREdiQ2FQb2xxQ2dQWHFqWjJBNm9KNDFuOWdrNE5pdDdsSmxSYWJFc2hUaXZYZG8wcjhXdWF6UGE2TVFZSmJRU3JPXzVudHdFczRSWkVqVG9ZVWFObldRRWh5LUVnOFNERURIamo0dF9ySUUxTDhn?oc=5",
+      "published_at": "2026-11-11T20:38:21Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive"
+      ]
+    },
+    {
+      "id": "ff84c51d2adba125d02ae53f53e7747e0d6c6b65",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1VGQWlDVmtSUFY1SUZjaHZUNTJXSnRrTkNYMjllbTh2OGhRV1VQOGJJT2FaM1dSUWQ4Y1IxUzdUTV93X3FPVHhfcEp4a004TkxBdDFoTWVkeW5CdjlISW9hdEo1aHBSQUlQTkp6X0t3cXZMZGV1S2o2dXhaa3pxRjFZcFZhbUR2VDRic1hOMXo1T0s3VFRNNXR5TGFTamlucGZfSENpQ0hiRnBsLTJZeFZvYU1Md3ZGUkNKTVNINA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - LinkedIn",
+      "title_zh": "Dario Amodei表示，人工智能将在十年内治愈癌症和阿尔茨海默病。医生们不信这一套。- LinkedIn",
+      "title_en": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1VGQWlDVmtSUFY1SUZjaHZUNTJXSnRrTkNYMjllbTh2OGhRV1VQOGJJT2FaM1dSUWQ4Y1IxUzdUTV93X3FPVHhfcEp4a004TkxBdDFoTWVkeW5CdjlISW9hdEo1aHBSQUlQTkp6X0t3cXZMZGV1S2o2dXhaa3pxRjFZcFZhbUR2VDRic1hOMXo1T0s3VFRNNXR5TGFTamlucGZfSENpQ0hiRnBsLTJZeFZvYU1Md3ZGUkNKTVNINA?oc=5",
+      "published_at": "2026-11-11T17:32:35Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "067f19e37ecae75b41b75d1f862a05d460166f1f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUlHU2pHQjBYRF8xX3dyb3Y1RW0tM0FremhIN3YxY2h4UUMtT29jU0xkbGxxMFJXOTFMT0dianR3emllTjFOZTBkdXh3RWdLLTlCTmtRSDh6VEg4ZnQ2SG1IMzZnb2h0T0Q4Tk5BS1VSaEtXaEZVSEIwaU50N3dCMW1DTzJEVjE5WnBOQWtLQUU3LUZmTHBQSTZ5TXRyMmxheks4WEVqTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - Business Insider",
+      "title_zh": "Dario Amodei表示，人工智能将在十年内治愈癌症和阿尔茨海默病。医生们不信这一套。-《商业内幕》",
+      "title_en": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUlHU2pHQjBYRF8xX3dyb3Y1RW0tM0FremhIN3YxY2h4UUMtT29jU0xkbGxxMFJXOTFMT0dianR3emllTjFOZTBkdXh3RWdLLTlCTmtRSDh6VEg4ZnQ2SG1IMzZnb2h0T0Q4Tk5BS1VSaEtXaEZVSEIwaU50N3dCMW1DTzJEVjE5WnBOQWtLQUU3LUZmTHBQSTZ5TXRyMmxheks4WEVqTQ?oc=5",
+      "published_at": "2026-11-11T17:28:00Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "b213b9262eb93d7dc7afa30f43c3862740f78498",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "site_id": "official_rss",
@@ -30,7 +174,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "published_at": "2026-11-11T14:35:02Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -79,7 +223,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
       "published_at": "2026-11-11T13:10:57Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -175,7 +319,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
       "published_at": "2026-11-11T08:12:50Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -224,7 +368,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
       "published_at": "2026-11-11T06:40:33Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -271,7 +415,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzE0cEFwZ0NhUmx1NVpwdXZKQ2tpckM0N21lWlFGdzZhc0lEem5IbzVNTDVNNl9mVUdfT1RuZFlEanFjS1doVEJvM3V1bFhGQ1pwQlJjWUV4TVNDc1JCX3lVU0o0d3VJUkR5N25ZcUZubzlSbzRkcDBWRXdsUjVvMW1TdmZ4NVgwTUtzdUstNW1DY0otX0gzR0NKV3RibmZWYmpkVzNJNHJZYmZ1?oc=5",
       "published_at": "2026-11-11T04:00:28Z",
       "first_seen_at": "2026-11-11T06:24:37.929423Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -308,68 +452,19 @@
       ]
     },
     {
-      "id": "b514d1ed525c02d1c85871a6f177fb85100e30a9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
+      "id": "3ebf745148b32e74f75f7809c71e08421309a367",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2I1U0dYbXFldVhpNUg2Y3k3NlpEU202WVZKN3Ryajg1alhIbUROQ2Vmc1NjNFhkNm12TE5wcnEtdFB1QkI3Tm5ER0c0TGxPZlhVNFYzcnpnLWN6WG05SEVOTWdfYWNNNjFVZWpPR1p5UUdZS3pmVkNpak1HUG9GSFFhMlhSTW1FSW5tOHNwcm1mbTBiaGhMcTdvcThiVG1tT2Jla0NYd3dpZ2xiakdlWDlNdi14UQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Healthy Aging AI",
       "source_type": "news",
-      "title": "Anthropic's CEO thinks AI could make cancer, Alzheimer's and heart disease relics of the past in less than a decade. He calls it an “age of miracles.” The same man warning about catastrophic AI risks believes the technology could also eliminate some of huma - X",
-      "title_zh": "Anthropic的首席执行官认为，在不到十年的时间里，人工智能可能会使癌症、阿尔茨海默氏症和心脏病成为过去的遗迹。他称之为“奇迹时代”。“同一个人警告灾难性的人工智能风险，他认为这项技术也可以消除一些幽默感- X",
-      "title_en": "Anthropic's CEO thinks AI could make cancer, Alzheimer's and heart disease relics of the past in less than a decade. He calls it an “age of miracles.” The same man warning about catastrophic AI risks believes the technology could also eliminate some of huma - X",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
-      "published_at": "2026-11-10T20:20:00Z",
-      "first_seen_at": "2026-11-10T23:24:05.585283Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "ee54ab20991dd57193f68611bb88132da4320341",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Bioscope.ai Advances Personalized Longevity Medicine Through New Partnerships and Platform Growth - Fitt Insider",
-      "title_zh": "Bioscope.ai通过新的合作伙伴关系和平台增长推进个性化长寿医学- Fitt Insider",
-      "title_en": "Bioscope.ai Advances Personalized Longevity Medicine Through New Partnerships and Platform Growth - Fitt Insider",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
-      "published_at": "2026-11-10T17:25:55Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "title": "Combining Lipid Indices and Frailty Scores Improves Cardiovascular Disease Risk Prediction - Bioengineer.org",
+      "title_zh": "将血脂指标与虚弱评分相结合可改善心血管疾病风险预测 - Bioengineer.org",
+      "title_en": "Combining Lipid Indices and Frailty Scores Improves Cardiovascular Disease Risk Prediction - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2I1U0dYbXFldVhpNUg2Y3k3NlpEU202WVZKN3Ryajg1alhIbUROQ2Vmc1NjNFhkNm12TE5wcnEtdFB1QkI3Tm5ER0c0TGxPZlhVNFYzcnpnLWN6WG05SEVOTWdfYWNNNjFVZWpPR1p5UUdZS3pmVkNpak1HUG9GSFFhMlhSTW1FSW5tOHNwcm1mbTBiaGhMcTdvcThiVG1tT2Jla0NYd3dpZ2xiakdlWDlNdi14UQ?oc=5",
+      "published_at": "2026-11-11T01:00:21Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -392,22 +487,169 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "risk prediction"
       ],
       "longevity_signals": [
-        "longevity"
+        "frailty"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "disease risk"
+      ],
       "biological_context_signals": [
-        "medicine"
+        "disease",
+        "frailty"
       ]
     }
   ],
   "items_ai": [
     {
+      "id": "8d554ded4645d4abe3325bbe4e0b7997f06a1cd7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPLV91ZnZLZm1KRkJGaGNZZjNuR2pqUGJUMzZFb1lpN1RJTFdZY2pWRi0wa004MzZ3MFByY1d0RVdpcnpGREdiQ2FQb2xxQ2dQWHFqWjJBNm9KNDFuOWdrNE5pdDdsSmxSYWJFc2hUaXZYZG8wcjhXdWF6UGE2TVFZSmJRU3JPXzVudHdFczRSWkVqVG9ZVWFObldRRWh5LUVnOFNERURIamo0dF9ySUUxTDhn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Classifies Alzheimer’s Stages Using Routine Clinical and Cognitive Data - Bioengineer.org",
+      "title_zh": "机器学习利用常规临床和认知数据对阿尔茨海默病分期进行分类 - Bioengineer.org",
+      "title_en": "Machine Learning Classifies Alzheimer’s Stages Using Routine Clinical and Cognitive Data - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLV91ZnZLZm1KRkJGaGNZZjNuR2pqUGJUMzZFb1lpN1RJTFdZY2pWRi0wa004MzZ3MFByY1d0RVdpcnpGREdiQ2FQb2xxQ2dQWHFqWjJBNm9KNDFuOWdrNE5pdDdsSmxSYWJFc2hUaXZYZG8wcjhXdWF6UGE2TVFZSmJRU3JPXzVudHdFczRSWkVqVG9ZVWFObldRRWh5LUVnOFNERURIamo0dF9ySUUxTDhn?oc=5",
+      "published_at": "2026-11-11T20:38:21Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical",
+        "cognitive"
+      ]
+    },
+    {
+      "id": "ff84c51d2adba125d02ae53f53e7747e0d6c6b65",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1VGQWlDVmtSUFY1SUZjaHZUNTJXSnRrTkNYMjllbTh2OGhRV1VQOGJJT2FaM1dSUWQ4Y1IxUzdUTV93X3FPVHhfcEp4a004TkxBdDFoTWVkeW5CdjlISW9hdEo1aHBSQUlQTkp6X0t3cXZMZGV1S2o2dXhaa3pxRjFZcFZhbUR2VDRic1hOMXo1T0s3VFRNNXR5TGFTamlucGZfSENpQ0hiRnBsLTJZeFZvYU1Md3ZGUkNKTVNINA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - LinkedIn",
+      "title_zh": "Dario Amodei表示，人工智能将在十年内治愈癌症和阿尔茨海默病。医生们不信这一套。- LinkedIn",
+      "title_en": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT1VGQWlDVmtSUFY1SUZjaHZUNTJXSnRrTkNYMjllbTh2OGhRV1VQOGJJT2FaM1dSUWQ4Y1IxUzdUTV93X3FPVHhfcEp4a004TkxBdDFoTWVkeW5CdjlISW9hdEo1aHBSQUlQTkp6X0t3cXZMZGV1S2o2dXhaa3pxRjFZcFZhbUR2VDRic1hOMXo1T0s3VFRNNXR5TGFTamlucGZfSENpQ0hiRnBsLTJZeFZvYU1Md3ZGUkNKTVNINA?oc=5",
+      "published_at": "2026-11-11T17:32:35Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "067f19e37ecae75b41b75d1f862a05d460166f1f",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUlHU2pHQjBYRF8xX3dyb3Y1RW0tM0FremhIN3YxY2h4UUMtT29jU0xkbGxxMFJXOTFMT0dianR3emllTjFOZTBkdXh3RWdLLTlCTmtRSDh6VEg4ZnQ2SG1IMzZnb2h0T0Q4Tk5BS1VSaEtXaEZVSEIwaU50N3dCMW1DTzJEVjE5WnBOQWtLQUU3LUZmTHBQSTZ5TXRyMmxheks4WEVqTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - Business Insider",
+      "title_zh": "Dario Amodei表示，人工智能将在十年内治愈癌症和阿尔茨海默病。医生们不信这一套。-《商业内幕》",
+      "title_en": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUlHU2pHQjBYRF8xX3dyb3Y1RW0tM0FremhIN3YxY2h4UUMtT29jU0xkbGxxMFJXOTFMT0dianR3emllTjFOZTBkdXh3RWdLLTlCTmtRSDh6VEg4ZnQ2SG1IMzZnb2h0T0Q4Tk5BS1VSaEtXaEZVSEIwaU50N3dCMW1DTzJEVjE5WnBOQWtLQUU3LUZmTHBQSTZ5TXRyMmxheks4WEVqTQ?oc=5",
+      "published_at": "2026-11-11T17:28:00Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "b213b9262eb93d7dc7afa30f43c3862740f78498",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "site_id": "official_rss",
@@ -420,7 +662,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "published_at": "2026-11-11T14:35:02Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -469,7 +711,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
       "published_at": "2026-11-11T13:10:57Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -565,7 +807,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
       "published_at": "2026-11-11T08:12:50Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -614,7 +856,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
       "published_at": "2026-11-11T06:40:33Z",
       "first_seen_at": "2026-11-11T15:14:20.139356Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -661,7 +903,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzE0cEFwZ0NhUmx1NVpwdXZKQ2tpckM0N21lWlFGdzZhc0lEem5IbzVNTDVNNl9mVUdfT1RuZFlEanFjS1doVEJvM3V1bFhGQ1pwQlJjWUV4TVNDc1JCX3lVU0o0d3VJUkR5N25ZcUZubzlSbzRkcDBWRXdsUjVvMW1TdmZ4NVgwTUtzdUstNW1DY0otX0gzR0NKV3RibmZWYmpkVzNJNHJZYmZ1?oc=5",
       "published_at": "2026-11-11T04:00:28Z",
       "first_seen_at": "2026-11-11T06:24:37.929423Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -698,68 +940,19 @@
       ]
     },
     {
-      "id": "b514d1ed525c02d1c85871a6f177fb85100e30a9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
+      "id": "3ebf745148b32e74f75f7809c71e08421309a367",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2I1U0dYbXFldVhpNUg2Y3k3NlpEU202WVZKN3Ryajg1alhIbUROQ2Vmc1NjNFhkNm12TE5wcnEtdFB1QkI3Tm5ER0c0TGxPZlhVNFYzcnpnLWN6WG05SEVOTWdfYWNNNjFVZWpPR1p5UUdZS3pmVkNpak1HUG9GSFFhMlhSTW1FSW5tOHNwcm1mbTBiaGhMcTdvcThiVG1tT2Jla0NYd3dpZ2xiakdlWDlNdi14UQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Healthy Aging AI",
       "source_type": "news",
-      "title": "Anthropic's CEO thinks AI could make cancer, Alzheimer's and heart disease relics of the past in less than a decade. He calls it an “age of miracles.” The same man warning about catastrophic AI risks believes the technology could also eliminate some of huma - X",
-      "title_zh": "Anthropic的首席执行官认为，在不到十年的时间里，人工智能可能会使癌症、阿尔茨海默氏症和心脏病成为过去的遗迹。他称之为“奇迹时代”。“同一个人警告灾难性的人工智能风险，他认为这项技术也可以消除一些幽默感- X",
-      "title_en": "Anthropic's CEO thinks AI could make cancer, Alzheimer's and heart disease relics of the past in less than a decade. He calls it an “age of miracles.” The same man warning about catastrophic AI risks believes the technology could also eliminate some of huma - X",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
-      "published_at": "2026-11-10T20:20:00Z",
-      "first_seen_at": "2026-11-10T23:24:05.585283Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "ee54ab20991dd57193f68611bb88132da4320341",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Bioscope.ai Advances Personalized Longevity Medicine Through New Partnerships and Platform Growth - Fitt Insider",
-      "title_zh": "Bioscope.ai通过新的合作伙伴关系和平台增长推进个性化长寿医学- Fitt Insider",
-      "title_en": "Bioscope.ai Advances Personalized Longevity Medicine Through New Partnerships and Platform Growth - Fitt Insider",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
-      "published_at": "2026-11-10T17:25:55Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "title": "Combining Lipid Indices and Frailty Scores Improves Cardiovascular Disease Risk Prediction - Bioengineer.org",
+      "title_zh": "将血脂指标与虚弱评分相结合可改善心血管疾病风险预测 - Bioengineer.org",
+      "title_en": "Combining Lipid Indices and Frailty Scores Improves Cardiovascular Disease Risk Prediction - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2I1U0dYbXFldVhpNUg2Y3k3NlpEU202WVZKN3Ryajg1alhIbUROQ2Vmc1NjNFhkNm12TE5wcnEtdFB1QkI3Tm5ER0c0TGxPZlhVNFYzcnpnLWN6WG05SEVOTWdfYWNNNjFVZWpPR1p5UUdZS3pmVkNpak1HUG9GSFFhMlhSTW1FSW5tOHNwcm1mbTBiaGhMcTdvcThiVG1tT2Jla0NYd3dpZ2xiakdlWDlNdi14UQ?oc=5",
+      "published_at": "2026-11-11T01:00:21Z",
+      "first_seen_at": "2026-11-11T22:01:23.001048Z",
+      "last_seen_at": "2026-11-11T22:01:23.001048Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -782,17 +975,20 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "risk prediction"
       ],
       "longevity_signals": [
-        "longevity"
+        "frailty"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
+      "biomedical_signals": [
+        "disease risk"
+      ],
       "biological_context_signals": [
-        "medicine"
+        "disease",
+        "frailty"
       ]
     }
   ],
