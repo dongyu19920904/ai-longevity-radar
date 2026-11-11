@@ -1,41 +1,41 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-11T06:24:37.929423Z",
+  "generated_at": "2026-11-11T15:14:20.139356Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 513,
-  "total_items_all_mode": 513,
-  "archive_total": 5712,
+  "total_items": 8,
+  "total_items_raw": 455,
+  "total_items_all_mode": 455,
+  "archive_total": 5848,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 41
+      "count": 8,
+      "raw_count": 42
     }
   ],
   "items": [
     {
-      "id": "16da6341c06230699684ac307cafdd8a8bdc4c3e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWM0a0xqWmNmQTZySVVfM0VqSGU4Y0dRZFhBZS1yU2EyVGZKYnpJakFGZDBYQUhoamRoOFpKVnBUWnpoVjBWYmpuLUNvdGl2VEI1TWdsM2c2SU1nLVFncmpIWjFfTnozYTc0NVZyZnZWTksxMTVqdDdvTXBQWWdkVEo1NzgxbjA?oc=5",
+      "id": "b213b9262eb93d7dc7afa30f43c3862740f78498",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI Model Distinguishes NPH From Alzheimer’s on Brain MRI - Bioengineer.org",
-      "title_zh": "人工智能模型在脑MRI上将NPH与阿尔茨海默氏症区分开来- Bioengineer.org",
-      "title_en": "AI Model Distinguishes NPH From Alzheimer’s on Brain MRI - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWM0a0xqWmNmQTZySVVfM0VqSGU4Y0dRZFhBZS1yU2EyVGZKYnpJakFGZDBYQUhoamRoOFpKVnBUWnpoVjBWYmpuLUNvdGl2VEI1TWdsM2c2SU1nLVFncmpIWjFfTnozYTc0NVZyZnZWTksxMTVqdDdvTXBQWWdkVEo1NzgxbjA?oc=5",
-      "published_at": "2026-11-10T11:38:45Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "title": "Anthropic CEO says AI will help wipe out cancer, Alzheimer's and heart disease in 10 years - India Today",
+      "title_zh": "Anthropic首席执行官表示，人工智能将在10年内帮助消灭癌症、阿尔茨海默氏症和心脏病--今日印度",
+      "title_en": "Anthropic CEO says AI will help wipe out cancer, Alzheimer's and heart disease in 10 years - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
+      "published_at": "2026-11-11T14:35:02Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -53,8 +53,56 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "53306fbaea3f6b89823fb2063d94f2fc915b4d29",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "They reveal with AI how Alzheimer alters different types of brain cells - Demócrata",
+      "title_zh": "他们用人工智能揭示了阿尔茨海默氏症如何改变不同类型的脑细胞- Demócrata",
+      "title_en": "They reveal with AI how Alzheimer alters different types of brain cells - Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
+      "published_at": "2026-11-11T13:10:57Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -66,6 +114,149 @@
       "biological_context_signals": [
         "brain"
       ]
+    },
+    {
+      "id": "4f7dbaa3bb17bd57b2386d2446cdfa1ff0c6a0bf",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFhfVmlYS2tkcWZaaHEzOXZfTFpBemZqMGRDVzBCakU3WHM1azVad1lmX1FFeER2bGJ3RnRSLWxqNVI5cGcwQkdOa0V5aVdKWE90U3JrR3FCTUJqS01KUUNaUTVBRGsxaXdxUzJlOEhiVi1jazZUTXNWc0Q2SW9TSFlhZzZiSS1qeWNIcXZjUkNRWXlqTFNXTHFpajFyblV5Nnh2RXR2ZlYyVWI3b28tYl9oVTBHYTFfZElDN1dvZkw2eW1QUkxiS19nWlRZZzRJ0gHYAUFVX3lxTFBiejQyamtEbDNIZHBnSnBHWGZ1bGd2X2U5YkRPdHRrUHctS1J5ckJUUUdDa25HUDc2ZUNZTF9MRGtYRThEc1VBa0tOdzI2NHdKUDJ1UGo0T3pCY3VXRmxCQlNvTUFmMllDdlhqdXBUTzBhM28wSi0yUEFPUmVqVVB6d3M2RkhnTGtOS2w3c2IxZnFLc2p1SWVNY1puTlFFQ3pBRWZaTC1zQ1p0b20xWWtTaVMzRVQ4LWNYbzg5ZTAzc21pWjdHVDVvZzVNSF80Zy1YWndVMU1NZA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim - NDTV Profit",
+      "title_zh": "癌症，阿尔茨海默氏症将在10年内治愈？ Anthropic首席执行官Dario Amodei提出大型AI索赔- NDTV利润",
+      "title_en": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFhfVmlYS2tkcWZaaHEzOXZfTFpBemZqMGRDVzBCakU3WHM1azVad1lmX1FFeER2bGJ3RnRSLWxqNVI5cGcwQkdOa0V5aVdKWE90U3JrR3FCTUJqS01KUUNaUTVBRGsxaXdxUzJlOEhiVi1jazZUTXNWc0Q2SW9TSFlhZzZiSS1qeWNIcXZjUkNRWXlqTFNXTHFpajFyblV5Nnh2RXR2ZlYyVWI3b28tYl9oVTBHYTFfZElDN1dvZkw2eW1QUkxiS19nWlRZZzRJ0gHYAUFVX3lxTFBiejQyamtEbDNIZHBnSnBHWGZ1bGd2X2U5YkRPdHRrUHctS1J5ckJUUUdDa25HUDc2ZUNZTF9MRGtYRThEc1VBa0tOdzI2NHdKUDJ1UGo0T3pCY3VXRmxCQlNvTUFmMllDdlhqdXBUTzBhM28wSi0yUEFPUmVqVVB6d3M2RkhnTGtOS2w3c2IxZnFLc2p1SWVNY1puTlFFQ3pBRWZaTC1zQ1p0b20xWWtTaVMzRVQ4LWNYbzg5ZTAzc21pWjdHVDVvZzVNSF80Zy1YWndVMU1NZA?oc=5",
+      "published_at": "2026-11-11T11:00:19Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "2ed8ef0480451e7f3f7e25342cd6f6c63ec00d54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI End Cancer And Alzheimer’s? Anthropic CEO Dario Amodei Predicts ‘Age Of Miracles’ Within A Decade - Health and Me",
+      "title_zh": "人工智能可以终结癌症和阿尔茨海默氏症吗？ Anthropic首席执行官Dario Amodei预测十年内的“奇迹时代” -健康与我",
+      "title_en": "Can AI End Cancer And Alzheimer’s? Anthropic CEO Dario Amodei Predicts ‘Age Of Miracles’ Within A Decade - Health and Me",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
+      "published_at": "2026-11-11T08:12:50Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
+      "id": "ab91225a042d2e2b4a5ac1b5261ecec9984822ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Evaluates Dementia-Friendly Architectural Sightlines in Early Building Layouts - Bioengineer.org",
+      "title_zh": "机器学习评估早期建筑布局中对痴呆症友好的建筑视线- Bioengineer.org",
+      "title_en": "Machine Learning Evaluates Dementia-Friendly Architectural Sightlines in Early Building Layouts - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
+      "published_at": "2026-11-11T06:40:33Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "7dbf51462f5b19898c790fcace15afac6166e73a",
@@ -80,7 +271,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzE0cEFwZ0NhUmx1NVpwdXZKQ2tpckM0N21lWlFGdzZhc0lEem5IbzVNTDVNNl9mVUdfT1RuZFlEanFjS1doVEJvM3V1bFhGQ1pwQlJjWUV4TVNDc1JCX3lVU0o0d3VJUkR5N25ZcUZubzlSbzRkcDBWRXdsUjVvMW1TdmZ4NVgwTUtzdUstNW1DY0otX0gzR0NKV3RibmZWYmpkVzNJNHJZYmZ1?oc=5",
       "published_at": "2026-11-11T04:00:28Z",
       "first_seen_at": "2026-11-11T06:24:37.929423Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -129,7 +320,7 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
       "published_at": "2026-11-10T20:20:00Z",
       "first_seen_at": "2026-11-10T23:24:05.585283Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -178,7 +369,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
       "published_at": "2026-11-10T17:25:55Z",
       "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -213,75 +404,28 @@
       "biological_context_signals": [
         "medicine"
       ]
-    },
-    {
-      "id": "418f09426ed02e92645653137f2d02106fa6cd7f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWcxaUwtYTZiYk83bUVBMnhuVkpZcEVWTC1TRkdQTGtncE5aYWxvRmNydTlZU1o1WVFEQzJTcmh3YlBrNEthSTVabnY0WjVTX0ctMTlNNEFUNzBvR1pkODRnc1otUWloQ3QwX0FuRnA5SjBEbm5zc1RGcW1vTGlFQlhGS2k3cFBCc080VVJpeVk1MmM?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IU, Meta partner on AI research in dementia, maternal care and early learning - Indiana Daily Student",
-      "title_zh": "IU ， Meta在痴呆症、孕产妇护理和早期学习方面的人工智能研究合作伙伴-印第安纳日报学生版",
-      "title_en": "IU, Meta partner on AI research in dementia, maternal care and early learning - Indiana Daily Student",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWcxaUwtYTZiYk83bUVBMnhuVkpZcEVWTC1TRkdQTGtncE5aYWxvRmNydTlZU1o1WVFEQzJTcmh3YlBrNEthSTVabnY0WjVTX0ctMTlNNEFUNzBvR1pkODRnc1otUWloQ3QwX0FuRnA5SjBEbm5zc1RGcW1vTGlFQlhGS2k3cFBCc080VVJpeVk1MmM?oc=5",
-      "published_at": "2026-11-10T13:00:00Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
-      "id": "16da6341c06230699684ac307cafdd8a8bdc4c3e",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWM0a0xqWmNmQTZySVVfM0VqSGU4Y0dRZFhBZS1yU2EyVGZKYnpJakFGZDBYQUhoamRoOFpKVnBUWnpoVjBWYmpuLUNvdGl2VEI1TWdsM2c2SU1nLVFncmpIWjFfTnozYTc0NVZyZnZWTksxMTVqdDdvTXBQWWdkVEo1NzgxbjA?oc=5",
+      "id": "b213b9262eb93d7dc7afa30f43c3862740f78498",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "AI Model Distinguishes NPH From Alzheimer’s on Brain MRI - Bioengineer.org",
-      "title_zh": "人工智能模型在脑MRI上将NPH与阿尔茨海默氏症区分开来- Bioengineer.org",
-      "title_en": "AI Model Distinguishes NPH From Alzheimer’s on Brain MRI - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWM0a0xqWmNmQTZySVVfM0VqSGU4Y0dRZFhBZS1yU2EyVGZKYnpJakFGZDBYQUhoamRoOFpKVnBUWnpoVjBWYmpuLUNvdGl2VEI1TWdsM2c2SU1nLVFncmpIWjFfTnozYTc0NVZyZnZWTksxMTVqdDdvTXBQWWdkVEo1NzgxbjA?oc=5",
-      "published_at": "2026-11-10T11:38:45Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "title": "Anthropic CEO says AI will help wipe out cancer, Alzheimer's and heart disease in 10 years - India Today",
+      "title_zh": "Anthropic首席执行官表示，人工智能将在10年内帮助消灭癌症、阿尔茨海默氏症和心脏病--今日印度",
+      "title_en": "Anthropic CEO says AI will help wipe out cancer, Alzheimer's and heart disease in 10 years - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa0o3cTVDYmg2SWcxVG1TZmJFMlRPQkNWdGJkVmRWR1FVN3RaNE56V1JiRkJVQlVSTFlxWGFmeWVKZUxCblpqaDBlUHk1d3lKMGs0SXVkOGFUNWFfTVdHSU5lenpyUGpWdTU3Y2dSRGcxYXpVNmtxMkNYUmZkbjFpQkpCeV9LaHJIZ3hnUkMwYVNEd2NmNzY2UklOR3BXcWxkeTlIbHVKZkR2cTRyRzk3aHZhSzEyYXFPRmdfVlVQU0c0SnlMaXZhWFNpRjZSV1dJSVczNFNKZXY2TXpCdVB6VTJwUUFQMHdKLUtZ0gHwAUFVX3lxTFBrRUVBTHFnVzdtY2txZm4tTnV0Y3pXbFR2R0xyUVkyaU9TbTJnQk16a0xDQnFHYlotRjhTMlczaWF3WVJpQ3FZUTU2ampiMHpXSS1JNFZZVnpoT0lycG5aNWZ0ajFZRkh2Z2VCN0ZRbVVOX2FKczhXOGplZEZsZENJSHFjWjlGZllaWnpEci1tTnF4QlowNEpOOTAzMnR6WVQxMi0zV24tWEphaXVhVnhEYmhFUHRJRlB0aXZMaFI5ZGNZMllyLTBPdUI4bXRuODlUXy1TQjFKOVh2ZDh6Rzg2SFF2ZEpOaGZ2YlFaVlZ3MQ?oc=5",
+      "published_at": "2026-11-11T14:35:02Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
-      "ai_score": 0.7,
+      "ai_score": 0.59,
       "longevity_is_related": true,
       "longevity_score": 0.6,
-      "signal_score": 0.595,
+      "signal_score": 0.562,
       "domain_score": 0.6,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
@@ -299,8 +443,56 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai",
-        "ai model"
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "53306fbaea3f6b89823fb2063d94f2fc915b4d29",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "They reveal with AI how Alzheimer alters different types of brain cells - Demócrata",
+      "title_zh": "他们用人工智能揭示了阿尔茨海默氏症如何改变不同类型的脑细胞- Demócrata",
+      "title_en": "They reveal with AI how Alzheimer alters different types of brain cells - Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFc4YkUwYXFkYWMtLW44Qmh2NDlRaU5majhEbVRlQW1vNHhuV013N0loOUhIQWJvR2VFbUxxdnBoRHN4TW83RnZPZFlIUG5uVlBVMTVGQm5IWklaZEZrWEZ1X3IxX1VJMDdVZlQ2bFc3a1hHblZGVWhBWV9memFpd0RRWFJaZmhJQ2EtVXNZeTI5M1luRHhOYU1IN3ZOV3NUSFM1aHZ0TDhYSUXSAbABQVVfeXFMTmN0UnRfZmNFM2dNdFBFTy05OGVIb1h6YzBhOXJXakdEbi0tSDk5QUZ6WU1qOTQ5cTNpdDlWTi1kdTNGUDFKb1hPdU9JeEw2bHpCeFVmRkR3NjV1aTlpMlV2T2xUZV9DM2w2T2VaWWR6STRockpyRHN1RjRYbTA5bXZhX2QzVHZfRXd4ZHUzbDRJQnJTcm9XVkduVHg0V3E2ZE82WFNhWXZYNUJXRmpIZjE?oc=5",
+      "published_at": "2026-11-11T13:10:57Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
       ],
       "longevity_signals": [
         "alzheimer"
@@ -312,6 +504,149 @@
       "biological_context_signals": [
         "brain"
       ]
+    },
+    {
+      "id": "4f7dbaa3bb17bd57b2386d2446cdfa1ff0c6a0bf",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFhfVmlYS2tkcWZaaHEzOXZfTFpBemZqMGRDVzBCakU3WHM1azVad1lmX1FFeER2bGJ3RnRSLWxqNVI5cGcwQkdOa0V5aVdKWE90U3JrR3FCTUJqS01KUUNaUTVBRGsxaXdxUzJlOEhiVi1jazZUTXNWc0Q2SW9TSFlhZzZiSS1qeWNIcXZjUkNRWXlqTFNXTHFpajFyblV5Nnh2RXR2ZlYyVWI3b28tYl9oVTBHYTFfZElDN1dvZkw2eW1QUkxiS19nWlRZZzRJ0gHYAUFVX3lxTFBiejQyamtEbDNIZHBnSnBHWGZ1bGd2X2U5YkRPdHRrUHctS1J5ckJUUUdDa25HUDc2ZUNZTF9MRGtYRThEc1VBa0tOdzI2NHdKUDJ1UGo0T3pCY3VXRmxCQlNvTUFmMllDdlhqdXBUTzBhM28wSi0yUEFPUmVqVVB6d3M2RkhnTGtOS2w3c2IxZnFLc2p1SWVNY1puTlFFQ3pBRWZaTC1zQ1p0b20xWWtTaVMzRVQ4LWNYbzg5ZTAzc21pWjdHVDVvZzVNSF80Zy1YWndVMU1NZA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim - NDTV Profit",
+      "title_zh": "癌症，阿尔茨海默氏症将在10年内治愈？ Anthropic首席执行官Dario Amodei提出大型AI索赔- NDTV利润",
+      "title_en": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFhfVmlYS2tkcWZaaHEzOXZfTFpBemZqMGRDVzBCakU3WHM1azVad1lmX1FFeER2bGJ3RnRSLWxqNVI5cGcwQkdOa0V5aVdKWE90U3JrR3FCTUJqS01KUUNaUTVBRGsxaXdxUzJlOEhiVi1jazZUTXNWc0Q2SW9TSFlhZzZiSS1qeWNIcXZjUkNRWXlqTFNXTHFpajFyblV5Nnh2RXR2ZlYyVWI3b28tYl9oVTBHYTFfZElDN1dvZkw2eW1QUkxiS19nWlRZZzRJ0gHYAUFVX3lxTFBiejQyamtEbDNIZHBnSnBHWGZ1bGd2X2U5YkRPdHRrUHctS1J5ckJUUUdDa25HUDc2ZUNZTF9MRGtYRThEc1VBa0tOdzI2NHdKUDJ1UGo0T3pCY3VXRmxCQlNvTUFmMllDdlhqdXBUTzBhM28wSi0yUEFPUmVqVVB6d3M2RkhnTGtOS2w3c2IxZnFLc2p1SWVNY1puTlFFQ3pBRWZaTC1zQ1p0b20xWWtTaVMzRVQ4LWNYbzg5ZTAzc21pWjdHVDVvZzVNSF80Zy1YWndVMU1NZA?oc=5",
+      "published_at": "2026-11-11T11:00:19Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "2ed8ef0480451e7f3f7e25342cd6f6c63ec00d54",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Can AI End Cancer And Alzheimer’s? Anthropic CEO Dario Amodei Predicts ‘Age Of Miracles’ Within A Decade - Health and Me",
+      "title_zh": "人工智能可以终结癌症和阿尔茨海默氏症吗？ Anthropic首席执行官Dario Amodei预测十年内的“奇迹时代” -健康与我",
+      "title_en": "Can AI End Cancer And Alzheimer’s? Anthropic CEO Dario Amodei Predicts ‘Age Of Miracles’ Within A Decade - Health and Me",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5",
+      "published_at": "2026-11-11T08:12:50Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
+      "id": "ab91225a042d2e2b4a5ac1b5261ecec9984822ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning Evaluates Dementia-Friendly Architectural Sightlines in Early Building Layouts - Bioengineer.org",
+      "title_zh": "机器学习评估早期建筑布局中对痴呆症友好的建筑视线- Bioengineer.org",
+      "title_en": "Machine Learning Evaluates Dementia-Friendly Architectural Sightlines in Early Building Layouts - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGhzVm1nWXlLM1RWWHpJU1JCWDZEMU1VZTNOZmtpRWtacGxZZHU3VkY4ODNfeFFOMFdJU19TTk9TRzBzWmpKX3BXUjY5WDJocUlRaWtHREtxbFlfcXpPaGpZNzlwSl9wZUExNTFTWTJCclg2OHBGQnRCcm1ybjNOVHJuUkFoYzVhOWplNm9KWHFnRTEzSlQ1RXNNMW5tajQtYW81WjZLd0pjdmpoT2FVaUFEY0gtOVhpVzF6TQ?oc=5",
+      "published_at": "2026-11-11T06:40:33Z",
+      "first_seen_at": "2026-11-11T15:14:20.139356Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
     },
     {
       "id": "7dbf51462f5b19898c790fcace15afac6166e73a",
@@ -326,7 +661,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzE0cEFwZ0NhUmx1NVpwdXZKQ2tpckM0N21lWlFGdzZhc0lEem5IbzVNTDVNNl9mVUdfT1RuZFlEanFjS1doVEJvM3V1bFhGQ1pwQlJjWUV4TVNDc1JCX3lVU0o0d3VJUkR5N25ZcUZubzlSbzRkcDBWRXdsUjVvMW1TdmZ4NVgwTUtzdUstNW1DY0otX0gzR0NKV3RibmZWYmpkVzNJNHJZYmZ1?oc=5",
       "published_at": "2026-11-11T04:00:28Z",
       "first_seen_at": "2026-11-11T06:24:37.929423Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -375,7 +710,7 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zWUNROG9BQkhHVVBLRFJpc19kaDVwSU45R1N3NG1oTVpPRmFyMHVobVdyT2kzbng4UmE5czQyaVdjM1R6R3RKeWlLY0Fkbkt6T0lHX09sbzZSa1VRVGF6RkIyUVRzbnZVdFMxbw?oc=5",
       "published_at": "2026-11-10T20:20:00Z",
       "first_seen_at": "2026-11-10T23:24:05.585283Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -424,7 +759,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdG5vT2p3T0ZXNW9YX0xab1g4S1ZEQktBclh1aHo0WFp1TmlCOWR6aXpfdFJDUGFuN0VoUWg0YTRBUU9RaWFUc1FpWTFnbFYtM2FuS0R1bEMxMmdUUVd2ZUl6czJKRjNwR3NBQzFYMmhQNnYtZ09Va0E3R2IwT1QzOFJqVFd1TlRhVDVXNlJmV0FHa0V2RWo4R0lwV0Jmek5jdHU3MlVPVHZIYXU1S3lkYjFlbnlmQUI1Q0g2V25SMUJOUVNqam4wUm8zb1FibmxCSEE?oc=5",
       "published_at": "2026-11-10T17:25:55Z",
       "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
+      "last_seen_at": "2026-11-11T15:14:20.139356Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -459,53 +794,6 @@
       "biological_context_signals": [
         "medicine"
       ]
-    },
-    {
-      "id": "418f09426ed02e92645653137f2d02106fa6cd7f",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWcxaUwtYTZiYk83bUVBMnhuVkpZcEVWTC1TRkdQTGtncE5aYWxvRmNydTlZU1o1WVFEQzJTcmh3YlBrNEthSTVabnY0WjVTX0ctMTlNNEFUNzBvR1pkODRnc1otUWloQ3QwX0FuRnA5SjBEbm5zc1RGcW1vTGlFQlhGS2k3cFBCc080VVJpeVk1MmM?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IU, Meta partner on AI research in dementia, maternal care and early learning - Indiana Daily Student",
-      "title_zh": "IU ， Meta在痴呆症、孕产妇护理和早期学习方面的人工智能研究合作伙伴-印第安纳日报学生版",
-      "title_en": "IU, Meta partner on AI research in dementia, maternal care and early learning - Indiana Daily Student",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOWcxaUwtYTZiYk83bUVBMnhuVkpZcEVWTC1TRkdQTGtncE5aYWxvRmNydTlZU1o1WVFEQzJTcmh3YlBrNEthSTVabnY0WjVTX0ctMTlNNEFUNzBvR1pkODRnc1otUWloQ3QwX0FuRnA5SjBEbm5zc1RGcW1vTGlFQlhGS2k3cFBCc080VVJpeVk1MmM?oc=5",
-      "published_at": "2026-11-10T13:00:00Z",
-      "first_seen_at": "2026-11-10T17:51:46.764976Z",
-      "last_seen_at": "2026-11-11T06:24:37.929423Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
