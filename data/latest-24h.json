@@ -1,28 +1,75 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-13T07:59:34.475242Z",
+  "generated_at": "2026-11-13T16:26:35.541439Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 460,
-  "total_items_all_mode": 460,
-  "archive_total": 6740,
+  "total_items": 5,
+  "total_items_raw": 391,
+  "total_items_all_mode": 391,
+  "archive_total": 6870,
   "site_count": 2,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 32
+      "count": 4,
+      "raw_count": 25
     },
     {
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
       "count": 1,
-      "raw_count": 1
+      "raw_count": 2
     }
   ],
   "items": [
+    {
+      "id": "5dd096fe20903bf41b5ef637e3611367c2869eb6",
+      "canonical_key": "doi:10.1088/1361-6560/aeb796",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Machine learning-based experimental access to photon-by-photon arrival times in scintillation detectors.",
+      "title_zh": "基于机器学习的闪烁探测器中逐光子到达时间的实验访问。",
+      "title_en": "Machine learning-based experimental access to photon-by-photon arrival times in scintillation detectors.",
+      "url": "https://europepmc.org/article/MED/43021576",
+      "published_at": "2026-11-13T00:00:00Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "05c89212ba3490435f0f6679eddafcd31cc69a76",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3B6dlJUbFhHTFUtZkpUSHBNTDlTN2VteHY0dk9GSEtvbm9oRGIxOUZYb0dnQ003RDN6b0haVUhkZFZNUTAwaXN3MEVSS183X1c1NmNVYUFWSE11XzNmM3pRQTNBek9XMlZ6LTZkaXk1dHZ5aHM1TlozRWo2YWx4QkV3aUQtYWdNSXdqQm5pNGhDUklGRnZERW1iVGFxOTFBUzdEeGpvbXNKeVg4NjVKZzI1YlpnRG5pc2E4Sw?oc=5",
@@ -34,9 +81,9 @@
       "title_zh": "多模态人工智能可准确检测阿尔茨海默病，但在分期方面存在困难 - Bioengineer.org",
       "title_en": "Multimodal Artificial Intelligence Accurately Detects Alzheimer Disease but Stumbles on Staging - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3B6dlJUbFhHTFUtZkpUSHBNTDlTN2VteHY0dk9GSEtvbm9oRGIxOUZYb0dnQ003RDN6b0haVUhkZFZNUTAwaXN3MEVSS183X1c1NmNVYUFWSE11XzNmM3pRQTNBek9XMlZ6LTZkaXk1dHZ5aHM1TlozRWo2YWx4QkV3aUQtYWdNSXdqQm5pNGhDUklGRnZERW1iVGFxOTFBUzdEeGpvbXNKeVg4NjVKZzI1YlpnRG5pc2E4Sw?oc=5",
-      "published_at": "2026-11-13T03:26:46Z",
+      "published_at": "2026-11-13T03:32:38Z",
       "first_seen_at": "2026-11-13T07:59:34.475242Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -74,19 +121,19 @@
       ]
     },
     {
-      "id": "79ae6033ff691d64d6bfbb71bf8a1543a5959838",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
+      "id": "efd24ad857a0da5c52abdd31bb7abce1575fa6c7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Senescence",
       "source_type": "news",
-      "title": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
-      "title_zh": "Cogence推出由人工智能驱动的技术，帮助顾问无缝生成最先进的投资组合和长寿分析 - Novus新闻简报",
-      "title_en": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
-      "published_at": "2026-11-12T20:35:51Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
+      "title_zh": "人工智能综述评估天然抗衰老产品发现与转化障碍 - Bioengineer.org",
+      "title_en": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
+      "published_at": "2026-11-13T15:20:24Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -97,9 +144,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "rejuvenation"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "rejuvenation",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -112,7 +159,7 @@
         "ai"
       ],
       "longevity_signals": [
-        "longevity"
+        "geroprotector"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -121,19 +168,19 @@
       "biological_context_signals": []
     },
     {
-      "id": "c95116bf45bfac021623ec84b0c9c1a042d6994d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxNVnl0RXR4dzk5d19rRlptc3ZDT01RZUtOUEE0X1ZzOFY4a2dwNDg4bUVEQjJCdG5BVFpDMEFDYUY3Z3Jpd3owTUN3UEMteHpiQ0FUX19aTTdOcW5KZ09VcThsck5mV1NoUjdKRVlSRGxOS2FraGd1eEFGR2dyeEhUYXVyenJwT2R4cGUyMEdRLW9mX0xLOFk1Y1JoN0c4eW5BUjBsYTJ0OG1kZVFqcEM2MGFwWTN0MkFvT2NGbDh3?oc=5",
+      "id": "a0d1a9fa89102a42d29bb2012757009be1b6d3a9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Interpretable Machine Learning Framework Annotates Brain Cells and Classifies Alzheimer’s Disease - Bioengineer.org",
-      "title_zh": "可解释机器学习框架对脑细胞进行注释并对阿尔茨海默病进行分类 - Bioengineer.org",
-      "title_en": "Interpretable Machine Learning Framework Annotates Brain Cells and Classifies Alzheimer’s Disease - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVnl0RXR4dzk5d19rRlptc3ZDT01RZUtOUEE0X1ZzOFY4a2dwNDg4bUVEQjJCdG5BVFpDMEFDYUY3Z3Jpd3owTUN3UEMteHpiQ0FUX19aTTdOcW5KZ09VcThsck5mV1NoUjdKRVlSRGxOS2FraGd1eEFGR2dyeEhUYXVyenJwT2R4cGUyMEdRLW9mX0xLOFk1Y1JoN0c4eW5BUjBsYTJ0OG1kZVFqcEM2MGFwWTN0MkFvT2NGbDh3?oc=5",
-      "published_at": "2026-11-12T13:43:28Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
+      "title_zh": "人工智能对心脏超声的分析可能有助于识别长期心血管疾病或与痴呆相关的死亡风险 - Medical Xpress",
+      "title_en": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
+      "published_at": "2026-11-13T15:20:10Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -156,34 +203,33 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
-        "disease"
+        "medical"
       ]
     },
     {
-      "id": "aa6682f8b0adc1735de4c3866d6ee5705ae886f9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjhxcjNIZlRyY3JsaUxyUGU5c3VwcEpIMmZzc05WVUpibXRnN19IOThBNTJsaDBzOGUyQ04wVnItNTlybnBwMVFveXhFVmM5RWFLc1dOeC1ObVVzdzBqWUlHeTNvMmJZZ2t5bnlKbWZ1ZnZzVHF5SS1yOUE4MExXQy1iZ2V0WkVBMk0tZEVvZVJfVDZhU1I5ZmZPQmhYQU1ZVm83N3VBVHBMSmlzVlFZ?oc=5",
+      "id": "79ae6033ff691d64d6bfbb71bf8a1543a5959838",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026 - Pharmaceutical Technology",
-      "title_zh": "播客：长寿、中国和人工智能是 BIO Europe 2026 的热门话题 - 制药技术",
-      "title_en": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026 - Pharmaceutical Technology",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjhxcjNIZlRyY3JsaUxyUGU5c3VwcEpIMmZzc05WVUpibXRnN19IOThBNTJsaDBzOGUyQ04wVnItNTlybnBwMVFveXhFVmM5RWFLc1dOeC1ObVVzdzBqWUlHeTNvMmJZZ2t5bnlKbWZ1ZnZzVHF5SS1yOUE4MExXQy1iZ2V0WkVBMk0tZEVvZVJfVDZhU1I5ZmZPQmhYQU1ZVm83N3VBVHBMSmlzVlFZ?oc=5",
-      "published_at": "2026-11-12T12:11:55Z",
-      "first_seen_at": "2026-11-12T18:59:14.344268Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
+      "title_zh": "Cogence推出由人工智能驱动的技术，帮助顾问无缝生成最先进的投资组合和长寿分析 - Novus新闻简报",
+      "title_en": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
+      "published_at": "2026-11-12T20:35:51Z",
+      "first_seen_at": "2026-11-13T00:26:59.208709Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -210,99 +256,6 @@
       ],
       "longevity_signals": [
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a2cdd64d9c5341f68234980ce7af74930a65bf0d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUjVuTWlObUF3V2dESWozYkJUWVVTck80anNZX2J3S05OTHMyQmNaMWV0ZXRwSElQZ1k2a1hRYzlnV2E3V3FkZ0IyM25qN3BDNS1ESmo1TlBPM3JrS0Vra3BSUUlocXEwbjRReFo0R3NGdGVJaWJmZzJvYUNCM2RkdDdOTmVlT2lDbTdpZ0I3anREeXdBWHNGSFkwTE01el9GYTNtemdqRzhpQWxQbl9sa0JZTDN2ajdoQnhwa2QzcXhVdzVqR1Fsdg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Conversational Artificial Intelligence Framework Enhances Wireless Sensor Network Security and Longevity - Bioengineer.org",
-      "title_zh": "会话式人工智能框架增强无线传感器网络的安全性与使用寿命 - Bioengineer.org",
-      "title_en": "Conversational Artificial Intelligence Framework Enhances Wireless Sensor Network Security and Longevity - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUjVuTWlObUF3V2dESWozYkJUWVVTck80anNZX2J3S05OTHMyQmNaMWV0ZXRwSElQZ1k2a1hRYzlnV2E3V3FkZ0IyM25qN3BDNS1ESmo1TlBPM3JrS0Vra3BSUUlocXEwbjRReFo0R3NGdGVJaWJmZzJvYUNCM2RkdDdOTmVlT2lDbTdpZ0I3anREeXdBWHNGSFkwTE01el9GYTNtemdqRzhpQWxQbl9sa0JZTDN2ajdoQnhwa2QzcXhVdzVqR1Fsdg?oc=5",
-      "published_at": "2026-11-12T10:58:13Z",
-      "first_seen_at": "2026-11-12T11:14:42.940322Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "126b578980f4e46f1a3ca87f67cbe4569b34c214",
-      "canonical_key": "repo:danikolbe/pytorch-agingclock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "danikolbe/pytorch-agingclock",
-      "source_type": "project",
-      "title": "danikolbe/pytorch-agingclock: A repository containing the code and metadata for a deep learning project to predict biological age from multimodal data.",
-      "title_zh": "danikolbe/pytorch-agingclock：一个包含深度学习项目代码和元数据的代码库，该项目旨在根据多模态数据预测生物年龄。",
-      "title_en": "danikolbe/pytorch-agingclock: A repository containing the code and metadata for a deep learning project to predict biological age from multimodal data.",
-      "url": "https://github.com/danikolbe/pytorch-agingclock",
-      "published_at": "2026-11-12T12:34:38Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -313,6 +266,53 @@
   ],
   "items_ai": [
     {
+      "id": "5dd096fe20903bf41b5ef637e3611367c2869eb6",
+      "canonical_key": "doi:10.1088/1361-6560/aeb796",
+      "site_id": "europepmc",
+      "site_name": "Europe PMC",
+      "source": "Europe PMC",
+      "source_type": "paper",
+      "title": "Machine learning-based experimental access to photon-by-photon arrival times in scintillation detectors.",
+      "title_zh": "基于机器学习的闪烁探测器中逐光子到达时间的实验访问。",
+      "title_en": "Machine learning-based experimental access to photon-by-photon arrival times in scintillation detectors.",
+      "url": "https://europepmc.org/article/MED/43021576",
+      "published_at": "2026-11-13T00:00:00Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
+      "ai_is_related": true,
+      "ai_score": 0.76,
+      "longevity_is_related": true,
+      "longevity_score": 0.66,
+      "signal_score": 0.751,
+      "domain_score": 0.66,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "peer_review_status_unknown",
+      "evidence_type": "paper",
+      "risk_flags": [
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "deep learning",
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "05c89212ba3490435f0f6679eddafcd31cc69a76",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3B6dlJUbFhHTFUtZkpUSHBNTDlTN2VteHY0dk9GSEtvbm9oRGIxOUZYb0dnQ003RDN6b0haVUhkZFZNUTAwaXN3MEVSS183X1c1NmNVYUFWSE11XzNmM3pRQTNBek9XMlZ6LTZkaXk1dHZ5aHM1TlozRWo2YWx4QkV3aUQtYWdNSXdqQm5pNGhDUklGRnZERW1iVGFxOTFBUzdEeGpvbXNKeVg4NjVKZzI1YlpnRG5pc2E4Sw?oc=5",
       "site_id": "official_rss",
@@ -323,9 +323,9 @@
       "title_zh": "多模态人工智能可准确检测阿尔茨海默病，但在分期方面存在困难 - Bioengineer.org",
       "title_en": "Multimodal Artificial Intelligence Accurately Detects Alzheimer Disease but Stumbles on Staging - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3B6dlJUbFhHTFUtZkpUSHBNTDlTN2VteHY0dk9GSEtvbm9oRGIxOUZYb0dnQ003RDN6b0haVUhkZFZNUTAwaXN3MEVSS183X1c1NmNVYUFWSE11XzNmM3pRQTNBek9XMlZ6LTZkaXk1dHZ5aHM1TlozRWo2YWx4QkV3aUQtYWdNSXdqQm5pNGhDUklGRnZERW1iVGFxOTFBUzdEeGpvbXNKeVg4NjVKZzI1YlpnRG5pc2E4Sw?oc=5",
-      "published_at": "2026-11-13T03:26:46Z",
+      "published_at": "2026-11-13T03:32:38Z",
       "first_seen_at": "2026-11-13T07:59:34.475242Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -363,19 +363,19 @@
       ]
     },
     {
-      "id": "79ae6033ff691d64d6bfbb71bf8a1543a5959838",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
+      "id": "efd24ad857a0da5c52abdd31bb7abce1575fa6c7",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Google News · Senescence",
       "source_type": "news",
-      "title": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
-      "title_zh": "Cogence推出由人工智能驱动的技术，帮助顾问无缝生成最先进的投资组合和长寿分析 - Novus新闻简报",
-      "title_en": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
-      "published_at": "2026-11-12T20:35:51Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
+      "title_zh": "人工智能综述评估天然抗衰老产品发现与转化障碍 - Bioengineer.org",
+      "title_en": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
+      "published_at": "2026-11-13T15:20:24Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -386,9 +386,9 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "rejuvenation"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "rejuvenation",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -401,7 +401,7 @@
         "ai"
       ],
       "longevity_signals": [
-        "longevity"
+        "geroprotector"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -410,19 +410,19 @@
       "biological_context_signals": []
     },
     {
-      "id": "c95116bf45bfac021623ec84b0c9c1a042d6994d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxNVnl0RXR4dzk5d19rRlptc3ZDT01RZUtOUEE0X1ZzOFY4a2dwNDg4bUVEQjJCdG5BVFpDMEFDYUY3Z3Jpd3owTUN3UEMteHpiQ0FUX19aTTdOcW5KZ09VcThsck5mV1NoUjdKRVlSRGxOS2FraGd1eEFGR2dyeEhUYXVyenJwT2R4cGUyMEdRLW9mX0xLOFk1Y1JoN0c4eW5BUjBsYTJ0OG1kZVFqcEM2MGFwWTN0MkFvT2NGbDh3?oc=5",
+      "id": "a0d1a9fa89102a42d29bb2012757009be1b6d3a9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Interpretable Machine Learning Framework Annotates Brain Cells and Classifies Alzheimer’s Disease - Bioengineer.org",
-      "title_zh": "可解释机器学习框架对脑细胞进行注释并对阿尔茨海默病进行分类 - Bioengineer.org",
-      "title_en": "Interpretable Machine Learning Framework Annotates Brain Cells and Classifies Alzheimer’s Disease - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVnl0RXR4dzk5d19rRlptc3ZDT01RZUtOUEE0X1ZzOFY4a2dwNDg4bUVEQjJCdG5BVFpDMEFDYUY3Z3Jpd3owTUN3UEMteHpiQ0FUX19aTTdOcW5KZ09VcThsck5mV1NoUjdKRVlSRGxOS2FraGd1eEFGR2dyeEhUYXVyenJwT2R4cGUyMEdRLW9mX0xLOFk1Y1JoN0c4eW5BUjBsYTJ0OG1kZVFqcEM2MGFwWTN0MkFvT2NGbDh3?oc=5",
-      "published_at": "2026-11-12T13:43:28Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
+      "title_zh": "人工智能对心脏超声的分析可能有助于识别长期心血管疾病或与痴呆相关的死亡风险 - Medical Xpress",
+      "title_en": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
+      "published_at": "2026-11-13T15:20:10Z",
+      "first_seen_at": "2026-11-13T16:26:35.541439Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -445,34 +445,33 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "machine learning"
+        "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain",
-        "disease"
+        "medical"
       ]
     },
     {
-      "id": "aa6682f8b0adc1735de4c3866d6ee5705ae886f9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjhxcjNIZlRyY3JsaUxyUGU5c3VwcEpIMmZzc05WVUpibXRnN19IOThBNTJsaDBzOGUyQ04wVnItNTlybnBwMVFveXhFVmM5RWFLc1dOeC1ObVVzdzBqWUlHeTNvMmJZZ2t5bnlKbWZ1ZnZzVHF5SS1yOUE4MExXQy1iZ2V0WkVBMk0tZEVvZVJfVDZhU1I5ZmZPQmhYQU1ZVm83N3VBVHBMSmlzVlFZ?oc=5",
+      "id": "79ae6033ff691d64d6bfbb71bf8a1543a5959838",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026 - Pharmaceutical Technology",
-      "title_zh": "播客：长寿、中国和人工智能是 BIO Europe 2026 的热门话题 - 制药技术",
-      "title_en": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026 - Pharmaceutical Technology",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjhxcjNIZlRyY3JsaUxyUGU5c3VwcEpIMmZzc05WVUpibXRnN19IOThBNTJsaDBzOGUyQ04wVnItNTlybnBwMVFveXhFVmM5RWFLc1dOeC1ObVVzdzBqWUlHeTNvMmJZZ2t5bnlKbWZ1ZnZzVHF5SS1yOUE4MExXQy1iZ2V0WkVBMk0tZEVvZVJfVDZhU1I5ZmZPQmhYQU1ZVm83N3VBVHBMSmlzVlFZ?oc=5",
-      "published_at": "2026-11-12T12:11:55Z",
-      "first_seen_at": "2026-11-12T18:59:14.344268Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
+      "title": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
+      "title_zh": "Cogence推出由人工智能驱动的技术，帮助顾问无缝生成最先进的投资组合和长寿分析 - Novus新闻简报",
+      "title_en": "Cogence launches AI-powered technology for advisers to seamlessly produce state-of-the-art portfolio and longevity analytics - Novus Press Bulletin",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5XN05vSV9XYW1hd2lSeTlzT1pZSWJ0dXM5dFJYYndSQ3I2WGNTb1g1QkFqTHhuZ01vMENCLXY4VUZuajJOaUw4WEpRdlpjV1FYS1NQeDVrUGlCdUhYWHQzdjhxTHZNVTFCNENhUGFRVHJlbXFkQVIwREtSWUFabVk5QkdtNGNvbmRJZl9pd2h3SmFuUXJZLV9IT0oxNjFRTVk1ZHNxZG1TNjJ2RW92djBab1Rac21kNGFVYlZoZ3VhUW14bTRYS1RWS3dDUlNvU1JKcE1DT1pLZENQOWg4SVVLSGdVNmtkd0xWQXBDR2RLS1lF?oc=5",
+      "published_at": "2026-11-12T20:35:51Z",
+      "first_seen_at": "2026-11-13T00:26:59.208709Z",
+      "last_seen_at": "2026-11-13T16:26:35.541439Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -499,99 +498,6 @@
       ],
       "longevity_signals": [
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a2cdd64d9c5341f68234980ce7af74930a65bf0d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUjVuTWlObUF3V2dESWozYkJUWVVTck80anNZX2J3S05OTHMyQmNaMWV0ZXRwSElQZ1k2a1hRYzlnV2E3V3FkZ0IyM25qN3BDNS1ESmo1TlBPM3JrS0Vra3BSUUlocXEwbjRReFo0R3NGdGVJaWJmZzJvYUNCM2RkdDdOTmVlT2lDbTdpZ0I3anREeXdBWHNGSFkwTE01el9GYTNtemdqRzhpQWxQbl9sa0JZTDN2ajdoQnhwa2QzcXhVdzVqR1Fsdg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Conversational Artificial Intelligence Framework Enhances Wireless Sensor Network Security and Longevity - Bioengineer.org",
-      "title_zh": "会话式人工智能框架增强无线传感器网络的安全性与使用寿命 - Bioengineer.org",
-      "title_en": "Conversational Artificial Intelligence Framework Enhances Wireless Sensor Network Security and Longevity - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUjVuTWlObUF3V2dESWozYkJUWVVTck80anNZX2J3S05OTHMyQmNaMWV0ZXRwSElQZ1k2a1hRYzlnV2E3V3FkZ0IyM25qN3BDNS1ESmo1TlBPM3JrS0Vra3BSUUlocXEwbjRReFo0R3NGdGVJaWJmZzJvYUNCM2RkdDdOTmVlT2lDbTdpZ0I3anREeXdBWHNGSFkwTE01el9GYTNtemdqRzhpQWxQbl9sa0JZTDN2ajdoQnhwa2QzcXhVdzVqR1Fsdg?oc=5",
-      "published_at": "2026-11-12T10:58:13Z",
-      "first_seen_at": "2026-11-12T11:14:42.940322Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "126b578980f4e46f1a3ca87f67cbe4569b34c214",
-      "canonical_key": "repo:danikolbe/pytorch-agingclock",
-      "site_id": "github_projects",
-      "site_name": "GitHub 研究项目",
-      "source": "danikolbe/pytorch-agingclock",
-      "source_type": "project",
-      "title": "danikolbe/pytorch-agingclock: A repository containing the code and metadata for a deep learning project to predict biological age from multimodal data.",
-      "title_zh": "danikolbe/pytorch-agingclock：一个包含深度学习项目代码和元数据的代码库，该项目旨在根据多模态数据预测生物年龄。",
-      "title_en": "danikolbe/pytorch-agingclock: A repository containing the code and metadata for a deep learning project to predict biological age from multimodal data.",
-      "url": "https://github.com/danikolbe/pytorch-agingclock",
-      "published_at": "2026-11-12T12:34:38Z",
-      "first_seen_at": "2026-11-13T00:26:59.208709Z",
-      "last_seen_at": "2026-11-13T07:59:34.475242Z",
-      "ai_is_related": true,
-      "ai_score": 0.67,
-      "longevity_is_related": true,
-      "longevity_score": 0.57,
-      "signal_score": 0.557,
-      "domain_score": 0.57,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "aging_clock",
-        "research_tool"
-      ],
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "evidence_type": "project",
-      "risk_flags": [],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "deep learning",
-        "multimodal"
-      ],
-      "longevity_signals": [
-        "biological age"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
