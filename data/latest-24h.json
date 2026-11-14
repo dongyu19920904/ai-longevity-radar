@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-14T11:29:52.450111Z",
+  "generated_at": "2026-11-14T18:04:09.568720Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 377,
-  "total_items_all_mode": 377,
-  "archive_total": 7155,
+  "total_items": 4,
+  "total_items_raw": 298,
+  "total_items_all_mode": 298,
+  "archive_total": 7301,
   "site_count": 1,
-  "source_count": 3,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 7,
-      "raw_count": 33
+      "count": 4,
+      "raw_count": 18
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGVXbTdqbVh5MzVDV1dteXo1b3EwTGNnSFBJeHdWd3VaRDBNVWRuN1IwWkxnUDJIU29SQ1NlUUk0NkhHQ0F4ZnZBeXcybkRjLXZhWDY3RW1jQVgtZ0dHSkkwWjhYX2ZXLUJWMDlxZjVNc2JvRWxZRTdxRDh6NjRRbFU4NGlHQ0o5XzF2WG4yY1Vfdi1VMXd1ZndlTk5xS2xVRDJmbm1fZEVpZ3lILUE?oc=5",
       "published_at": "2026-11-14T05:28:51Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -68,54 +68,6 @@
       ]
     },
     {
-      "id": "de3583a5612235c0d9ebe0459ad6c5d8744beb8d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdRZHN2MTZCOGFCV01oRzZoN1g0ZWI3NmxkVExtNkh0dmo1X0RNclNDVWVLUWV2eUU3MHpaZjdfS1ZCNUpwVzA1Nm1UMDJ1emt3MVNFU2JZdVlvdWM2T0xjZERqTXg1WG8xVUNJalA3UXBub3V6b3R4M0NfanJYT3JYVmEzTV9WeVdhZHVDLTFmeWloNnk2b0s2ZDNfWE1PUFZBejVsbmF0MTJyVzQtaTkwRV9XMmxuZVHSAeQBQVVfeXFMTU96alNnU2VvZUcxa1FEQjVfRUstcWNSUnFpS3MtMzNWS3EtTmxlQzI0V1JVRldhTWlXM0VIUzZhM0lnU3pDcGo2b1NCUUw3NjdxRlZRcjUxeW1TaDVoWW5FNlJGNGlNdUZ4eExMRXFoemRYQnhVa001ZjE4X2NFaFRnNUVOQnNzQU1LTm82OWp5M3ozX2RxcDdrLWtLd21tdEhPXzFwelh1OW5yNjRabklya29GaV83eHJMdkNKTDIycXBHa0xlakhFQktIMGx5b3NhZ0M2QUE2WGhYcVlQREs1M1Vo?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Student Developing AI Model To Help Detect Alzheimer's + CHP Rescues Injured Hawk: Saturday Smiles - Patch",
-      "title_zh": "学生开发人工智能模型以帮助检测阿尔茨海默病 + 社区卫生合作伙伴救助受伤的老鹰：周六微笑 - Patch",
-      "title_en": "Student Developing AI Model To Help Detect Alzheimer's + CHP Rescues Injured Hawk: Saturday Smiles - Patch",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdRZHN2MTZCOGFCV01oRzZoN1g0ZWI3NmxkVExtNkh0dmo1X0RNclNDVWVLUWV2eUU3MHpaZjdfS1ZCNUpwVzA1Nm1UMDJ1emt3MVNFU2JZdVlvdWM2T0xjZERqTXg1WG8xVUNJalA3UXBub3V6b3R4M0NfanJYT3JYVmEzTV9WeVdhZHVDLTFmeWloNnk2b0s2ZDNfWE1PUFZBejVsbmF0MTJyVzQtaTkwRV9XMmxuZVHSAeQBQVVfeXFMTU96alNnU2VvZUcxa1FEQjVfRUstcWNSUnFpS3MtMzNWS3EtTmxlQzI0V1JVRldhTWlXM0VIUzZhM0lnU3pDcGo2b1NCUUw3NjdxRlZRcjUxeW1TaDVoWW5FNlJGNGlNdUZ4eExMRXFoemRYQnhVa001ZjE4X2NFaFRnNUVOQnNzQU1LTm82OWp5M3ozX2RxcDdrLWtLd21tdEhPXzFwelh1OW5yNjRabklya29GaV83eHJMdkNKTDIycXBHa0xlakhFQktIMGx5b3NhZ0M2QUE2WGhYcVlQREs1M1Vo?oc=5",
-      "published_at": "2026-11-13T17:34:13Z",
-      "first_seen_at": "2026-11-13T22:39:01.667954Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "faab97387cff32e4243daed48df9a592244f359d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
       "site_id": "official_rss",
@@ -128,7 +80,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
       "published_at": "2026-11-14T01:37:42Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -177,7 +129,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
       "published_at": "2026-11-14T01:22:42Z",
       "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -224,7 +176,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaUJ3T0JCc1hOQlBqbU1WbUZBWmJqLXJtRXJhY09ySUlXU1pVSFY1OHhyM09mQm1wTklaLWVtaEFwRGRJUzlQOVJDazFEcm1jcmxfRXB3dWlQYXpBcXk1eUk5OGdlTGZsN0FrWHN0V0ZzWEwwRmJObzVUdkp4bXowVC1CaW01d2NJZDJxeU95YWJNd2FNcGw0SUJUd1VpZ3RZamNiR1VtQndYQQ?oc=5",
       "published_at": "2026-11-13T18:39:31Z",
       "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -259,102 +211,6 @@
       "biological_context_signals": [
         "cognitive",
         "frailty"
-      ]
-    },
-    {
-      "id": "efd24ad857a0da5c52abdd31bb7abce1575fa6c7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
-      "title_zh": "人工智能综述评估天然抗衰老产品发现与转化障碍 - Bioengineer.org",
-      "title_en": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
-      "published_at": "2026-11-13T15:20:24Z",
-      "first_seen_at": "2026-11-13T16:26:35.541439Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "geroprotector"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a0d1a9fa89102a42d29bb2012757009be1b6d3a9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
-      "title_zh": "人工智能对心脏超声的分析可能有助于识别长期心血管疾病或与痴呆相关的死亡风险 - Medical Xpress",
-      "title_en": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
-      "published_at": "2026-11-13T15:20:10Z",
-      "first_seen_at": "2026-11-13T16:26:35.541439Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "medical"
       ]
     }
   ],
@@ -372,7 +228,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGVXbTdqbVh5MzVDV1dteXo1b3EwTGNnSFBJeHdWd3VaRDBNVWRuN1IwWkxnUDJIU29SQ1NlUUk0NkhHQ0F4ZnZBeXcybkRjLXZhWDY3RW1jQVgtZ0dHSkkwWjhYX2ZXLUJWMDlxZjVNc2JvRWxZRTdxRDh6NjRRbFU4NGlHQ0o5XzF2WG4yY1Vfdi1VMXd1ZndlTk5xS2xVRDJmbm1fZEVpZ3lILUE?oc=5",
       "published_at": "2026-11-14T05:28:51Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -410,54 +266,6 @@
       ]
     },
     {
-      "id": "de3583a5612235c0d9ebe0459ad6c5d8744beb8d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdRZHN2MTZCOGFCV01oRzZoN1g0ZWI3NmxkVExtNkh0dmo1X0RNclNDVWVLUWV2eUU3MHpaZjdfS1ZCNUpwVzA1Nm1UMDJ1emt3MVNFU2JZdVlvdWM2T0xjZERqTXg1WG8xVUNJalA3UXBub3V6b3R4M0NfanJYT3JYVmEzTV9WeVdhZHVDLTFmeWloNnk2b0s2ZDNfWE1PUFZBejVsbmF0MTJyVzQtaTkwRV9XMmxuZVHSAeQBQVVfeXFMTU96alNnU2VvZUcxa1FEQjVfRUstcWNSUnFpS3MtMzNWS3EtTmxlQzI0V1JVRldhTWlXM0VIUzZhM0lnU3pDcGo2b1NCUUw3NjdxRlZRcjUxeW1TaDVoWW5FNlJGNGlNdUZ4eExMRXFoemRYQnhVa001ZjE4X2NFaFRnNUVOQnNzQU1LTm82OWp5M3ozX2RxcDdrLWtLd21tdEhPXzFwelh1OW5yNjRabklya29GaV83eHJMdkNKTDIycXBHa0xlakhFQktIMGx5b3NhZ0M2QUE2WGhYcVlQREs1M1Vo?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Student Developing AI Model To Help Detect Alzheimer's + CHP Rescues Injured Hawk: Saturday Smiles - Patch",
-      "title_zh": "学生开发人工智能模型以帮助检测阿尔茨海默病 + 社区卫生合作伙伴救助受伤的老鹰：周六微笑 - Patch",
-      "title_en": "Student Developing AI Model To Help Detect Alzheimer's + CHP Rescues Injured Hawk: Saturday Smiles - Patch",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdRZHN2MTZCOGFCV01oRzZoN1g0ZWI3NmxkVExtNkh0dmo1X0RNclNDVWVLUWV2eUU3MHpaZjdfS1ZCNUpwVzA1Nm1UMDJ1emt3MVNFU2JZdVlvdWM2T0xjZERqTXg1WG8xVUNJalA3UXBub3V6b3R4M0NfanJYT3JYVmEzTV9WeVdhZHVDLTFmeWloNnk2b0s2ZDNfWE1PUFZBejVsbmF0MTJyVzQtaTkwRV9XMmxuZVHSAeQBQVVfeXFMTU96alNnU2VvZUcxa1FEQjVfRUstcWNSUnFpS3MtMzNWS3EtTmxlQzI0V1JVRldhTWlXM0VIUzZhM0lnU3pDcGo2b1NCUUw3NjdxRlZRcjUxeW1TaDVoWW5FNlJGNGlNdUZ4eExMRXFoemRYQnhVa001ZjE4X2NFaFRnNUVOQnNzQU1LTm82OWp5M3ozX2RxcDdrLWtLd21tdEhPXzFwelh1OW5yNjRabklya29GaV83eHJMdkNKTDIycXBHa0xlakhFQktIMGx5b3NhZ0M2QUE2WGhYcVlQREs1M1Vo?oc=5",
-      "published_at": "2026-11-13T17:34:13Z",
-      "first_seen_at": "2026-11-13T22:39:01.667954Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "faab97387cff32e4243daed48df9a592244f359d",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
       "site_id": "official_rss",
@@ -470,7 +278,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
       "published_at": "2026-11-14T01:37:42Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -519,7 +327,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
       "published_at": "2026-11-14T01:22:42Z",
       "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -566,7 +374,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaUJ3T0JCc1hOQlBqbU1WbUZBWmJqLXJtRXJhY09ySUlXU1pVSFY1OHhyM09mQm1wTklaLWVtaEFwRGRJUzlQOVJDazFEcm1jcmxfRXB3dWlQYXpBcXk1eUk5OGdlTGZsN0FrWHN0V0ZzWEwwRmJObzVUdkp4bXowVC1CaW01d2NJZDJxeU95YWJNd2FNcGw0SUJUd1VpZ3RZamNiR1VtQndYQQ?oc=5",
       "published_at": "2026-11-13T18:39:31Z",
       "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
+      "last_seen_at": "2026-11-14T18:04:09.568720Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -601,102 +409,6 @@
       "biological_context_signals": [
         "cognitive",
         "frailty"
-      ]
-    },
-    {
-      "id": "efd24ad857a0da5c52abdd31bb7abce1575fa6c7",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Senescence",
-      "source_type": "news",
-      "title": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
-      "title_zh": "人工智能综述评估天然抗衰老产品发现与转化障碍 - Bioengineer.org",
-      "title_en": "AI Review Evaluates Natural Product Geroprotector Discovery and Translational Obstacles - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkc3X0FLak03RUtyRzVYcjJPTERHQzhjQzZRbHFzdXAybE9pT0hjNDI1T2VMRDZpLS1abDM2ODI3bHY4Szd4dUQ2MU9KTEpyNzdZdC00Y200eUc3WnhlUHFLT3NNaHhLS0ZZNUZUd1pkdGJVMDhEcExUdUhyV3I5VEgwcUNzSGJsaXVwMmtaQ0puTHpEQWg5c3dzOFlWc1RnNFhDMzYzRTdfYzFOTmdaRkpR?oc=5",
-      "published_at": "2026-11-13T15:20:24Z",
-      "first_seen_at": "2026-11-13T16:26:35.541439Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "geroprotector"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a0d1a9fa89102a42d29bb2012757009be1b6d3a9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
-      "title_zh": "人工智能对心脏超声的分析可能有助于识别长期心血管疾病或与痴呆相关的死亡风险 - Medical Xpress",
-      "title_en": "AI analysis of heart ultrasounds may help flag long-term cardiovascular or dementia-related death risk - Medical Xpress",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRHFCejdYbGVlZmZrd20yMXhidHIzUTE2VmRtWFRURW9IalVZTk9DdkNqbWNlbmlKQ21mNXFmM25oYzZTQTRsZ0x3YVRGaTFKOVJfb1pTTGR5QTNlSXlaYXFKNXY3NWttODRZQkdWMV93bWdyMGlCT1VHQzBvYUlaRUZPUzY?oc=5",
-      "published_at": "2026-11-13T15:20:10Z",
-      "first_seen_at": "2026-11-13T16:26:35.541439Z",
-      "last_seen_at": "2026-11-14T11:29:52.450111Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "medical"
       ]
     }
   ],
