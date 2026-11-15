@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-14T22:26:04.177576Z",
+  "generated_at": "2026-11-15T02:40:53.161517Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 277,
-  "total_items_all_mode": 277,
-  "archive_total": 7380,
+  "total_items": 1,
+  "total_items_raw": 250,
+  "total_items_all_mode": 250,
+  "archive_total": 7418,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 12
+      "count": 1,
+      "raw_count": 9
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGVXbTdqbVh5MzVDV1dteXo1b3EwTGNnSFBJeHdWd3VaRDBNVWRuN1IwWkxnUDJIU29SQ1NlUUk0NkhHQ0F4ZnZBeXcybkRjLXZhWDY3RW1jQVgtZ0dHSkkwWjhYX2ZXLUJWMDlxZjVNc2JvRWxZRTdxRDh6NjRRbFU4NGlHQ0o5XzF2WG4yY1Vfdi1VMXd1ZndlTk5xS2xVRDJmbm1fZEVpZ3lILUE?oc=5",
       "published_at": "2026-11-14T05:28:51Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
+      "last_seen_at": "2026-11-15T02:40:53.161517Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -66,102 +66,6 @@
       "biological_context_signals": [
         "disease"
       ]
-    },
-    {
-      "id": "faab97387cff32e4243daed48df9a592244f359d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Artificial Intelligence Models Predict Alzheimer’s Progression Years Before Clinical Symptoms Emerge - Bioengineer.org",
-      "title_zh": "人工智能模型在临床症状出现前数年预测阿尔茨海默病进展 - Bioengineer.org",
-      "title_en": "Artificial Intelligence Models Predict Alzheimer’s Progression Years Before Clinical Symptoms Emerge - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
-      "published_at": "2026-11-14T01:37:42Z",
-      "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "9a4e97f35c9184778a9d9088cbdeb8d7d46f6bf4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Older AI Heart Age Linked to Increased 20-Year Cardiovascular and Dementia Mortality - Bioengineer.org",
-      "title_zh": "AI测得的心脏年龄偏大与20年内心血管疾病和失智症死亡率升高相关 - Bioengineer.org",
-      "title_en": "Older AI Heart Age Linked to Increased 20-Year Cardiovascular and Dementia Mortality - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
-      "published_at": "2026-11-14T01:22:42Z",
-      "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -178,7 +82,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGVXbTdqbVh5MzVDV1dteXo1b3EwTGNnSFBJeHdWd3VaRDBNVWRuN1IwWkxnUDJIU29SQ1NlUUk0NkhHQ0F4ZnZBeXcybkRjLXZhWDY3RW1jQVgtZ0dHSkkwWjhYX2ZXLUJWMDlxZjVNc2JvRWxZRTdxRDh6NjRRbFU4NGlHQ0o5XzF2WG4yY1Vfdi1VMXd1ZndlTk5xS2xVRDJmbm1fZEVpZ3lILUE?oc=5",
       "published_at": "2026-11-14T05:28:51Z",
       "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
+      "last_seen_at": "2026-11-15T02:40:53.161517Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -214,102 +118,6 @@
       "biological_context_signals": [
         "disease"
       ]
-    },
-    {
-      "id": "faab97387cff32e4243daed48df9a592244f359d",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Artificial Intelligence Models Predict Alzheimer’s Progression Years Before Clinical Symptoms Emerge - Bioengineer.org",
-      "title_zh": "人工智能模型在临床症状出现前数年预测阿尔茨海默病进展 - Bioengineer.org",
-      "title_en": "Artificial Intelligence Models Predict Alzheimer’s Progression Years Before Clinical Symptoms Emerge - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTdOQjdpalh3dThBa2c0Um5PVElVbnFmTGNGaGxNQjdVenlKbzFoQzJRTUJCVXg3S0hBNEh5ekNoMlNJRW9YN2N6eUZiU1pUNHo1dGx6d0NjUmpzcEFDWnRldXJlVGVYVDBmZ3FnY3RYY0xVV1FQUWFGcUhnb0tObVpLQUs5UHo0RTNVOXllMjByWHRaMUx1enRSN0ZncWV2RC05SGtBQzBjT0xtZkdwUG1aWk1UVjRSWG1aQUVWQkVVQQ?oc=5",
-      "published_at": "2026-11-14T01:37:42Z",
-      "first_seen_at": "2026-11-14T11:29:52.450111Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "9a4e97f35c9184778a9d9088cbdeb8d7d46f6bf4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Older AI Heart Age Linked to Increased 20-Year Cardiovascular and Dementia Mortality - Bioengineer.org",
-      "title_zh": "AI测得的心脏年龄偏大与20年内心血管疾病和失智症死亡率升高相关 - Bioengineer.org",
-      "title_en": "Older AI Heart Age Linked to Increased 20-Year Cardiovascular and Dementia Mortality - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmVIZ2hGdHktOHNXTEk5cUgtYno5Y1lrR3dJNmliWVlXVmdLZVhjQ0xqVExLX2wxVW0yakNlT2J2VGRFQ3RlSHVQRWs2cG1RTXdfTnV3QW54cUxnREhZV3NzZE1acURQRm5raFFSY0p2YnN0c05Xb01Db3dtanFfZjRLdjBjSzVCbzNaMENpbGJhNTNRVlBhLWdoRWRZQVczdWZRR1l6RTlmT3BzVnc?oc=5",
-      "published_at": "2026-11-14T01:22:42Z",
-      "first_seen_at": "2026-11-14T03:17:52.391226Z",
-      "last_seen_at": "2026-11-14T22:26:04.177576Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
