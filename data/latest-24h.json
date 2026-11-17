@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-16T22:04:52.270409Z",
+  "generated_at": "2026-11-17T04:29:29.459924Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 374,
-  "total_items_all_mode": 374,
-  "archive_total": 7990,
+  "total_items": 6,
+  "total_items_raw": 516,
+  "total_items_all_mode": 516,
+  "archive_total": 8132,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 25
+      "count": 6,
+      "raw_count": 41
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcFdfelQ1cm9nbWNrV0pSYUk1aDFaSUNTdEZKVXVsaGdyZjdFdXJ2YnVYTGFZYnFWMU93NUxyeGRfOWZqSFFjTG5fbER5Q2RDVDFndVJ2STVMTEFNZFdDdkhCOWdhNlJzRGQ1Z3hwMWltSG1BYktYdkdqX0FUQUpnYkNuTWVDZVFYNS1GcGtBM0xOalNBOHo3enowYjd5YVgxOUVOVQ?oc=5",
       "published_at": "2026-11-16T13:48:00Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -78,7 +78,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDhremh2NHJ0VjNIWlhSbUtyVlk3aE1WS29Uei1TdUxmSXZkbUx4ajBEUzduSUF0VWo5a2J0NG1sNTVwbGI5bGpKTUwzZDlPUnRlN1l3OWt0UWJIa2IxUlcwS0JDTWozWkRjSGRkX2xUcm9WQWFXWUpqc0RJV1BNTDBmZUFFd2ZXQjhHeVQ0VG90VTRyd2VqZg?oc=5",
       "published_at": "2026-11-16T21:27:00Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -125,7 +125,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTnNZRl9rZzhtZWVZam9EanpuV0dXYV9TcjIyb000X3dLNjJhcWRodFJKM2ZxcU5UQzBnSG5fM3AyWGJLZDdZYUwwNEpBenF0Z3ctSFdyVTJxTXFYVmVQTU5rQXJudEFNNHBEUFAtU2UyclRKNGFwc3h2OEUyZG5ldVFqZURNOGFr0gGPAUFVX3lxTFB0V1BnY2hDTmRXaG1QMkhBZ2k0aEJOdUlCei1rWE9PUTVnY1cyTkV5WmJhNzR0VjRJZU56ajBFb0JkVFlSRGN1T1NqTklqNlhVbm1qV3hWX2IyZ29OWGtXM28yOFpIS1JSTjZEWnN0bVJSbjJQMjhtdUItZDZ1Y1FLRFMxdDZlRkNrWklweU9J?oc=5",
       "published_at": "2026-11-16T17:05:39Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -162,6 +162,53 @@
       ]
     },
     {
+      "id": "e2676ac3eeb30a296861eaddafbeea0a10fd89ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxQcF9UaTNROWRVdGNMSWRhY3RNdXhDZTZoSFpFeTdCU3NDcnNRb1daRUZ2eEpONzlvT1diNVhhM1Q4RGRIdW1scG1jeG1QdlExUjhoY0hzUjhjV1BJZmFHOExjM3Q5eGtoaVpfVkFnTlFFS1dXdGFTZEtHNzJlRDFOTWY2VUlyU3NGSzFJY2Q5bTB0QW5nNWdv?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Chris Hemsworth launches AI longevity platform Kinsyn, offering GLP-1s and NAD+ injections - Nutrition Insight",
+      "title_zh": "克里斯·海姆斯沃斯推出人工智能长寿平台Kinsyn，提供GLP-1和NAD+注射剂 - Nutrition Insight",
+      "title_en": "Chris Hemsworth launches AI longevity platform Kinsyn, offering GLP-1s and NAD+ injections - Nutrition Insight",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcF9UaTNROWRVdGNMSWRhY3RNdXhDZTZoSFpFeTdCU3NDcnNRb1daRUZ2eEpONzlvT1diNVhhM1Q4RGRIdW1scG1jeG1QdlExUjhoY0hzUjhjV1BJZmFHOExjM3Q5eGtoaVpfVkFnTlFFS1dXdGFTZEtHNzJlRDFOTWY2VUlyU3NGSzFJY2Q5bTB0QW5nNWdv?oc=5",
+      "published_at": "2026-11-16T12:44:30Z",
+      "first_seen_at": "2026-11-17T04:29:29.459924Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "1686066df6bebf86385e676a30604d347c282943",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisgJBVV95cUxPQlpxSjltVEowNjllYkF6R0RUd1NKZXlHbVJJNEp3RFlYTmVhUEo4bW0xVTRBN3ZsZW9hY3ByamtMNW9BNzRZUmNGeVg3NzQxYmxHaTJpemRpSXFBRGpxR044c05xRU02cnRnOWV3Vk9rMFo1bld5SkNycGZNR2o3OVk0SmRfM05Qb0dnMGpYWHRXME43OW9KNWdmaWNXMVNfTE9WcnBwU3BHUlBDeVlvSUd4VU1QTW1waFM4X2hKb0dTNkpXWDdlNUJLY25uYzBkQ1djS1QxNUlLN1hrbEFzU21HelVOcjJzQmZpZXo2VjY4TVQ0RXdrWGlpdU9fVmU1dGRSTmtZTE05SXpYVVk0SUVsRmpIa2FUak12aWVsVjdMV1pNSG1oVnhRTk1iS0xjZVHSAbcCQVVfeXFMUHNTV1c2WDMtOC1sUzg4VVBFclhXbjdFZzRKSnlwWjZ5U0hMQ0QzaVRfUU5IRjlwLVRMcVVEckJtczg4aF9WNGY2ZnEtQWFlTC1fakdYQzMyTjVTOHREWmY5c21wNnU4cG83V2lBZG9zbTJvRXpZd0ZFc0lFYkczQzZGd2ZCSUExSkZoNDI3YU8zM3IxUXhUNVZ5d1ZpeFJfMWdQSnhyX1YzcjNDeVVyNXA3eW5zdlFMOXZVODFPdklfS3lqQmV0U3V4TkN3WHRpVU1zQ01CT29VXy14TFhTWXFxTXI1NmJpR1htVDdDVF9yZ1l3aXI4dzV3bFd3TmsyUkdtdUFPYnpFT043ZURxVkpxcWJHWnhuS080S0ZWNDd3WVBzbUlKdk5ROEdaQXJadlJxaHZwVWs?oc=5",
       "site_id": "official_rss",
@@ -174,7 +221,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQlpxSjltVEowNjllYkF6R0RUd1NKZXlHbVJJNEp3RFlYTmVhUEo4bW0xVTRBN3ZsZW9hY3ByamtMNW9BNzRZUmNGeVg3NzQxYmxHaTJpemRpSXFBRGpxR044c05xRU02cnRnOWV3Vk9rMFo1bld5SkNycGZNR2o3OVk0SmRfM05Qb0dnMGpYWHRXME43OW9KNWdmaWNXMVNfTE9WcnBwU3BHUlBDeVlvSUd4VU1QTW1waFM4X2hKb0dTNkpXWDdlNUJLY25uYzBkQ1djS1QxNUlLN1hrbEFzU21HelVOcjJzQmZpZXo2VjY4TVQ0RXdrWGlpdU9fVmU1dGRSTmtZTE05SXpYVVk0SUVsRmpIa2FUak12aWVsVjdMV1pNSG1oVnhRTk1iS0xjZVHSAbcCQVVfeXFMUHNTV1c2WDMtOC1sUzg4VVBFclhXbjdFZzRKSnlwWjZ5U0hMQ0QzaVRfUU5IRjlwLVRMcVVEckJtczg4aF9WNGY2ZnEtQWFlTC1fakdYQzMyTjVTOHREWmY5c21wNnU4cG83V2lBZG9zbTJvRXpZd0ZFc0lFYkczQzZGd2ZCSUExSkZoNDI3YU8zM3IxUXhUNVZ5d1ZpeFJfMWdQSnhyX1YzcjNDeVVyNXA3eW5zdlFMOXZVODFPdklfS3lqQmV0U3V4TkN3WHRpVU1zQ01CT29VXy14TFhTWXFxTXI1NmJpR1htVDdDVF9yZ1l3aXI4dzV3bFd3TmsyUkdtdUFPYnpFT043ZURxVkpxcWJHWnhuS080S0ZWNDd3WVBzbUlKdk5ROEdaQXJadlJxaHZwVWs?oc=5",
       "published_at": "2026-11-16T12:16:42Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -272,7 +319,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcFdfelQ1cm9nbWNrV0pSYUk1aDFaSUNTdEZKVXVsaGdyZjdFdXJ2YnVYTGFZYnFWMU93NUxyeGRfOWZqSFFjTG5fbER5Q2RDVDFndVJ2STVMTEFNZFdDdkhCOWdhNlJzRGQ1Z3hwMWltSG1BYktYdkdqX0FUQUpnYkNuTWVDZVFYNS1GcGtBM0xOalNBOHo3enowYjd5YVgxOUVOVQ?oc=5",
       "published_at": "2026-11-16T13:48:00Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.7,
       "longevity_is_related": true,
@@ -320,7 +367,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDhremh2NHJ0VjNIWlhSbUtyVlk3aE1WS29Uei1TdUxmSXZkbUx4ajBEUzduSUF0VWo5a2J0NG1sNTVwbGI5bGpKTUwzZDlPUnRlN1l3OWt0UWJIa2IxUlcwS0JDTWozWkRjSGRkX2xUcm9WQWFXWUpqc0RJV1BNTDBmZUFFd2ZXQjhHeVQ0VG90VTRyd2VqZg?oc=5",
       "published_at": "2026-11-16T21:27:00Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -367,7 +414,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTnNZRl9rZzhtZWVZam9EanpuV0dXYV9TcjIyb000X3dLNjJhcWRodFJKM2ZxcU5UQzBnSG5fM3AyWGJLZDdZYUwwNEpBenF0Z3ctSFdyVTJxTXFYVmVQTU5rQXJudEFNNHBEUFAtU2UyclRKNGFwc3h2OEUyZG5ldVFqZURNOGFr0gGPAUFVX3lxTFB0V1BnY2hDTmRXaG1QMkhBZ2k0aEJOdUlCei1rWE9PUTVnY1cyTkV5WmJhNzR0VjRJZU56ajBFb0JkVFlSRGN1T1NqTklqNlhVbm1qV3hWX2IyZ29OWGtXM28yOFpIS1JSTjZEWnN0bVJSbjJQMjhtdUItZDZ1Y1FLRFMxdDZlRkNrWklweU9J?oc=5",
       "published_at": "2026-11-16T17:05:39Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -404,6 +451,53 @@
       ]
     },
     {
+      "id": "e2676ac3eeb30a296861eaddafbeea0a10fd89ae",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxQcF9UaTNROWRVdGNMSWRhY3RNdXhDZTZoSFpFeTdCU3NDcnNRb1daRUZ2eEpONzlvT1diNVhhM1Q4RGRIdW1scG1jeG1QdlExUjhoY0hzUjhjV1BJZmFHOExjM3Q5eGtoaVpfVkFnTlFFS1dXdGFTZEtHNzJlRDFOTWY2VUlyU3NGSzFJY2Q5bTB0QW5nNWdv?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Chris Hemsworth launches AI longevity platform Kinsyn, offering GLP-1s and NAD+ injections - Nutrition Insight",
+      "title_zh": "克里斯·海姆斯沃斯推出人工智能长寿平台Kinsyn，提供GLP-1和NAD+注射剂 - Nutrition Insight",
+      "title_en": "Chris Hemsworth launches AI longevity platform Kinsyn, offering GLP-1s and NAD+ injections - Nutrition Insight",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcF9UaTNROWRVdGNMSWRhY3RNdXhDZTZoSFpFeTdCU3NDcnNRb1daRUZ2eEpONzlvT1diNVhhM1Q4RGRIdW1scG1jeG1QdlExUjhoY0hzUjhjV1BJZmFHOExjM3Q5eGtoaVpfVkFnTlFFS1dXdGFTZEtHNzJlRDFOTWY2VUlyU3NGSzFJY2Q5bTB0QW5nNWdv?oc=5",
+      "published_at": "2026-11-16T12:44:30Z",
+      "first_seen_at": "2026-11-17T04:29:29.459924Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "longevity"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "1686066df6bebf86385e676a30604d347c282943",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMisgJBVV95cUxPQlpxSjltVEowNjllYkF6R0RUd1NKZXlHbVJJNEp3RFlYTmVhUEo4bW0xVTRBN3ZsZW9hY3ByamtMNW9BNzRZUmNGeVg3NzQxYmxHaTJpemRpSXFBRGpxR044c05xRU02cnRnOWV3Vk9rMFo1bld5SkNycGZNR2o3OVk0SmRfM05Qb0dnMGpYWHRXME43OW9KNWdmaWNXMVNfTE9WcnBwU3BHUlBDeVlvSUd4VU1QTW1waFM4X2hKb0dTNkpXWDdlNUJLY25uYzBkQ1djS1QxNUlLN1hrbEFzU21HelVOcjJzQmZpZXo2VjY4TVQ0RXdrWGlpdU9fVmU1dGRSTmtZTE05SXpYVVk0SUVsRmpIa2FUak12aWVsVjdMV1pNSG1oVnhRTk1iS0xjZVHSAbcCQVVfeXFMUHNTV1c2WDMtOC1sUzg4VVBFclhXbjdFZzRKSnlwWjZ5U0hMQ0QzaVRfUU5IRjlwLVRMcVVEckJtczg4aF9WNGY2ZnEtQWFlTC1fakdYQzMyTjVTOHREWmY5c21wNnU4cG83V2lBZG9zbTJvRXpZd0ZFc0lFYkczQzZGd2ZCSUExSkZoNDI3YU8zM3IxUXhUNVZ5d1ZpeFJfMWdQSnhyX1YzcjNDeVVyNXA3eW5zdlFMOXZVODFPdklfS3lqQmV0U3V4TkN3WHRpVU1zQ01CT29VXy14TFhTWXFxTXI1NmJpR1htVDdDVF9yZ1l3aXI4dzV3bFd3TmsyUkdtdUFPYnpFT043ZURxVkpxcWJHWnhuS080S0ZWNDd3WVBzbUlKdk5ROEdaQXJadlJxaHZwVWs?oc=5",
       "site_id": "official_rss",
@@ -416,7 +510,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQlpxSjltVEowNjllYkF6R0RUd1NKZXlHbVJJNEp3RFlYTmVhUEo4bW0xVTRBN3ZsZW9hY3ByamtMNW9BNzRZUmNGeVg3NzQxYmxHaTJpemRpSXFBRGpxR044c05xRU02cnRnOWV3Vk9rMFo1bld5SkNycGZNR2o3OVk0SmRfM05Qb0dnMGpYWHRXME43OW9KNWdmaWNXMVNfTE9WcnBwU3BHUlBDeVlvSUd4VU1QTW1waFM4X2hKb0dTNkpXWDdlNUJLY25uYzBkQ1djS1QxNUlLN1hrbEFzU21HelVOcjJzQmZpZXo2VjY4TVQ0RXdrWGlpdU9fVmU1dGRSTmtZTE05SXpYVVk0SUVsRmpIa2FUak12aWVsVjdMV1pNSG1oVnhRTk1iS0xjZVHSAbcCQVVfeXFMUHNTV1c2WDMtOC1sUzg4VVBFclhXbjdFZzRKSnlwWjZ5U0hMQ0QzaVRfUU5IRjlwLVRMcVVEckJtczg4aF9WNGY2ZnEtQWFlTC1fakdYQzMyTjVTOHREWmY5c21wNnU4cG83V2lBZG9zbTJvRXpZd0ZFc0lFYkczQzZGd2ZCSUExSkZoNDI3YU8zM3IxUXhUNVZ5d1ZpeFJfMWdQSnhyX1YzcjNDeVVyNXA3eW5zdlFMOXZVODFPdklfS3lqQmV0U3V4TkN3WHRpVU1zQ01CT29VXy14TFhTWXFxTXI1NmJpR1htVDdDVF9yZ1l3aXI4dzV3bFd3TmsyUkdtdUFPYnpFT043ZURxVkpxcWJHWnhuS080S0ZWNDd3WVBzbUlKdk5ROEdaQXJadlJxaHZwVWs?oc=5",
       "published_at": "2026-11-16T12:16:42Z",
       "first_seen_at": "2026-11-16T22:04:52.270409Z",
-      "last_seen_at": "2026-11-16T22:04:52.270409Z",
+      "last_seen_at": "2026-11-17T04:29:29.459924Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
