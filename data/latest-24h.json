@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-18T04:23:10.768134Z",
+  "generated_at": "2026-11-18T14:00:19.727000Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 394,
-  "total_items_all_mode": 394,
-  "archive_total": 8517,
+  "total_items": 6,
+  "total_items_raw": 414,
+  "total_items_all_mode": 414,
+  "archive_total": 8693,
   "site_count": 2,
-  "source_count": 3,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 6,
-      "raw_count": 35
+      "count": 5,
+      "raw_count": 31
     },
     {
       "site_id": "github_projects",
@@ -24,6 +24,59 @@
   ],
   "items": [
     {
+      "id": "13ad235f63d382d2a9e6dcbc3d804d44b66e419a",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
+      "title_zh": "与年龄相关的突触功能障碍及可能的治疗方法",
+      "title_en": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
+      "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
+      "published_at": "2026-11-18T11:22:30Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "neural network"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "disease"
+      ]
+    },
+    {
       "id": "8a72665e7fe23a6009571709608bdb52634db853",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "site_id": "official_rss",
@@ -36,7 +89,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "published_at": "2026-11-17T16:04:05Z",
       "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -74,6 +127,54 @@
       ]
     },
     {
+      "id": "c79038b7402e1a207aedd981bf8610abe24f3cb9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
+      "title_zh": "以色列人工智能模型可更早发出阿尔茨海默病风险的警告 - JNS.org",
+      "title_en": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
+      "published_at": "2026-11-18T05:08:25Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
       "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
       "site_id": "github_projects",
@@ -86,7 +187,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -135,7 +236,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "published_at": "2026-11-17T23:05:00Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -176,19 +277,19 @@
       ]
     },
     {
-      "id": "8be61b7a738734bf4c28a21566ac28bca512f9f4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
+      "id": "134a4a9526619d22743014a8426a6abac5a1fe18",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "IXICO unveils AI tool to detect brain microbleeds in Alzheimer’s scans - UK Investor Magazine",
-      "title_zh": "IXICO推出用于在阿尔茨海默病扫描中检测脑微出血的AI工具 - 英国投资者杂志",
-      "title_en": "IXICO unveils AI tool to detect brain microbleeds in Alzheimer’s scans - UK Investor Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
-      "published_at": "2026-11-17T08:17:20Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "title": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
+      "title_zh": "人工智能如何帮助痴呆症研究人员和临床试验——Being Patient",
+      "title_en": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
+      "published_at": "2026-11-17T20:41:58Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -202,7 +303,7 @@
         "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -214,164 +315,72 @@
         "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain"
+        "patient"
       ]
-    },
-    {
-      "id": "f5503ce682065d492e90422a7bad12be05178116",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IXICO Develops AI Tool to Detect Cerebral Microbleeds in Alzheimer’s Disease MRI Scans - Yahoo Finance UK",
-      "title_zh": "IXICO开发人工智能工具，用于在阿尔茨海默病MRI扫描中检测脑微出血 - Yahoo Finance UK",
-      "title_en": "IXICO Develops AI Tool to Detect Cerebral Microbleeds in Alzheimer’s Disease MRI Scans - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
-      "published_at": "2026-11-17T07:54:00Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "7703e78a2173064543e408d062256939f43787ab",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IXICO AI tool spots brain bleeds that complicate Alzheimer's treatment - Proactive financial news",
-      "title_zh": "IXICO人工智能工具可发现使阿尔茨海默病治疗复杂化的脑出血——前瞻性财经新闻",
-      "title_en": "IXICO AI tool spots brain bleeds that complicate Alzheimer's treatment - Proactive financial news",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
-      "published_at": "2026-11-17T07:09:00Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
-    },
-    {
-      "id": "fcbc8bb5bbe3902a2d45d7f0eaf99c224aba28b0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Israeli AI Breakthrough Aims To Identify Alzheimer’s Risk Years Before Symptoms Appear - THEJ.CA",
-      "title_zh": "以色列人工智能取得突破，旨在在症状出现前数年识别阿尔茨海默病风险 - THEJ.CA",
-      "title_en": "Israeli AI Breakthrough Aims To Identify Alzheimer’s Risk Years Before Symptoms Appear - THEJ.CA",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
-      "published_at": "2026-11-17T04:32:41Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
+      "id": "13ad235f63d382d2a9e6dcbc3d804d44b66e419a",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
+      "title_zh": "与年龄相关的突触功能障碍及可能的治疗方法",
+      "title_en": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
+      "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
+      "published_at": "2026-11-18T11:22:30Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.8,
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "neural network"
+      ],
+      "longevity_signals": [
+        "age-related",
+        "aging",
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "disease"
+      ]
+    },
+    {
       "id": "8a72665e7fe23a6009571709608bdb52634db853",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "site_id": "official_rss",
@@ -384,7 +393,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "published_at": "2026-11-17T16:04:05Z",
       "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -422,6 +431,54 @@
       ]
     },
     {
+      "id": "c79038b7402e1a207aedd981bf8610abe24f3cb9",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
+      "title_zh": "以色列人工智能模型可更早发出阿尔茨海默病风险的警告 - JNS.org",
+      "title_en": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
+      "published_at": "2026-11-18T05:08:25Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "ai_is_related": true,
+      "ai_score": 0.7,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.595,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai",
+        "ai model"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
       "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
       "site_id": "github_projects",
@@ -434,7 +491,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -483,7 +540,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "published_at": "2026-11-17T23:05:00Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -524,19 +581,19 @@
       ]
     },
     {
-      "id": "8be61b7a738734bf4c28a21566ac28bca512f9f4",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
+      "id": "134a4a9526619d22743014a8426a6abac5a1fe18",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "IXICO unveils AI tool to detect brain microbleeds in Alzheimer’s scans - UK Investor Magazine",
-      "title_zh": "IXICO推出用于在阿尔茨海默病扫描中检测脑微出血的AI工具 - 英国投资者杂志",
-      "title_en": "IXICO unveils AI tool to detect brain microbleeds in Alzheimer’s scans - UK Investor Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
-      "published_at": "2026-11-17T08:17:20Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "title": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
+      "title_zh": "人工智能如何帮助痴呆症研究人员和临床试验——Being Patient",
+      "title_en": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
+      "published_at": "2026-11-17T20:41:58Z",
+      "first_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T14:00:19.727000Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -550,7 +607,7 @@
         "neurodegeneration"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
+      "study_subject": "human",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -562,160 +619,15 @@
         "ai"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "brain"
+        "patient"
       ]
-    },
-    {
-      "id": "f5503ce682065d492e90422a7bad12be05178116",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IXICO Develops AI Tool to Detect Cerebral Microbleeds in Alzheimer’s Disease MRI Scans - Yahoo Finance UK",
-      "title_zh": "IXICO开发人工智能工具，用于在阿尔茨海默病MRI扫描中检测脑微出血 - Yahoo Finance UK",
-      "title_en": "IXICO Develops AI Tool to Detect Cerebral Microbleeds in Alzheimer’s Disease MRI Scans - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
-      "published_at": "2026-11-17T07:54:00Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "7703e78a2173064543e408d062256939f43787ab",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "IXICO AI tool spots brain bleeds that complicate Alzheimer's treatment - Proactive financial news",
-      "title_zh": "IXICO人工智能工具可发现使阿尔茨海默病治疗复杂化的脑出血——前瞻性财经新闻",
-      "title_en": "IXICO AI tool spots brain bleeds that complicate Alzheimer's treatment - Proactive financial news",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
-      "published_at": "2026-11-17T07:09:00Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain"
-      ]
-    },
-    {
-      "id": "fcbc8bb5bbe3902a2d45d7f0eaf99c224aba28b0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Israeli AI Breakthrough Aims To Identify Alzheimer’s Risk Years Before Symptoms Appear - THEJ.CA",
-      "title_zh": "以色列人工智能取得突破，旨在在症状出现前数年识别阿尔茨海默病风险 - THEJ.CA",
-      "title_en": "Israeli AI Breakthrough Aims To Identify Alzheimer’s Risk Years Before Symptoms Appear - THEJ.CA",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
-      "published_at": "2026-11-17T04:32:41Z",
-      "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-18T04:23:10.768134Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
