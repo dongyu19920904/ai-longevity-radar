@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-18T14:00:19.727000Z",
+  "generated_at": "2026-11-18T21:58:01.301883Z",
   "window_hours": 24,
-  "total_items": 6,
-  "total_items_raw": 414,
-  "total_items_all_mode": 414,
-  "archive_total": 8693,
+  "total_items": 7,
+  "total_items_raw": 410,
+  "total_items_all_mode": 410,
+  "archive_total": 8892,
   "site_count": 2,
-  "source_count": 4,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 31
+      "count": 6,
+      "raw_count": 35
     },
     {
       "site_id": "github_projects",
@@ -36,7 +36,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
       "published_at": "2026-11-18T11:22:30Z",
       "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -74,56 +74,6 @@
         "brain",
         "cognitive",
         "disease"
-      ]
-    },
-    {
-      "id": "8a72665e7fe23a6009571709608bdb52634db853",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "AriBio's Alzheimer's pill slows decline 31% in patients on no other dementia drugs but misses in the full phase 3 trial - MLQ.ai",
-      "title_zh": "AriBio 的阿尔茨海默病药物可使未服用其他痴呆症药物的患者的病情恶化速度减缓 31%，但在 III 期完整试验中未达预期 - MLQ.ai",
-      "title_en": "AriBio's Alzheimer's pill slows decline 31% in patients on no other dementia drugs but misses in the full phase 3 trial - MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
-      "published_at": "2026-11-17T16:04:05Z",
-      "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
       ]
     },
     {
@@ -187,7 +137,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -224,6 +174,150 @@
       "biological_context_signals": []
     },
     {
+      "id": "df480293098c6c45356d47edf9246e462e4e37df",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Lilly's dopamine drug mevidalen misses its main goal in a 304-patient Alzheimer's trial - MLQ.ai",
+      "title_zh": "礼来的多巴胺药物Mevidalen在304名阿尔茨海默病患者的试验中未达到主要目标 - MLQ.ai",
+      "title_en": "Lilly's dopamine drug mevidalen misses its main goal in a 304-patient Alzheimer's trial - MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
+      "published_at": "2026-11-18T20:43:18Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patient"
+      ]
+    },
+    {
+      "id": "b082bd551a79d99ed07e2cc2ab8e29091c0313b6",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI dementia support enterprise wins 'catalytic' IGNITE investment - Pioneers Post",
+      "title_zh": "人工智能失智症支持企业获得“催化性”IGNITE投资 - Pioneers Post",
+      "title_en": "AI dementia support enterprise wins 'catalytic' IGNITE investment - Pioneers Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
+      "published_at": "2026-11-18T19:01:00Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "industry"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "e14ccaa91e26df2a192147fa54ce304dfb4c7f14",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
+      "title_zh": "人工智能筛选出可减轻实验室模型中阿尔茨海默病病理的线粒体自噬激活剂 - Bioengineer.org",
+      "title_en": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
+      "published_at": "2026-11-17T23:07:03Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "site_id": "official_rss",
@@ -236,7 +330,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "published_at": "2026-11-17T23:05:00Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -274,55 +368,6 @@
       "biological_context_signals": [
         "clinical",
         "disease"
-      ]
-    },
-    {
-      "id": "134a4a9526619d22743014a8426a6abac5a1fe18",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
-      "title_zh": "人工智能如何帮助痴呆症研究人员和临床试验——Being Patient",
-      "title_en": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
-      "published_at": "2026-11-17T20:41:58Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patient"
       ]
     }
   ],
@@ -340,7 +385,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
       "published_at": "2026-11-18T11:22:30Z",
       "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -378,56 +423,6 @@
         "brain",
         "cognitive",
         "disease"
-      ]
-    },
-    {
-      "id": "8a72665e7fe23a6009571709608bdb52634db853",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "AriBio's Alzheimer's pill slows decline 31% in patients on no other dementia drugs but misses in the full phase 3 trial - MLQ.ai",
-      "title_zh": "AriBio 的阿尔茨海默病药物可使未服用其他痴呆症药物的患者的病情恶化速度减缓 31%，但在 III 期完整试验中未达预期 - MLQ.ai",
-      "title_en": "AriBio's Alzheimer's pill slows decline 31% in patients on no other dementia drugs but misses in the full phase 3 trial - MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
-      "published_at": "2026-11-17T16:04:05Z",
-      "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.605,
-      "domain_score": 0.7,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer",
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
       ]
     },
     {
@@ -491,7 +486,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -528,6 +523,150 @@
       "biological_context_signals": []
     },
     {
+      "id": "df480293098c6c45356d47edf9246e462e4e37df",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Lilly's dopamine drug mevidalen misses its main goal in a 304-patient Alzheimer's trial - MLQ.ai",
+      "title_zh": "礼来的多巴胺药物Mevidalen在304名阿尔茨海默病患者的试验中未达到主要目标 - MLQ.ai",
+      "title_en": "Lilly's dopamine drug mevidalen misses its main goal in a 304-patient Alzheimer's trial - MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
+      "published_at": "2026-11-18T20:43:18Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patient"
+      ]
+    },
+    {
+      "id": "b082bd551a79d99ed07e2cc2ab8e29091c0313b6",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI dementia support enterprise wins 'catalytic' IGNITE investment - Pioneers Post",
+      "title_zh": "人工智能失智症支持企业获得“催化性”IGNITE投资 - Pioneers Post",
+      "title_en": "AI dementia support enterprise wins 'catalytic' IGNITE investment - Pioneers Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
+      "published_at": "2026-11-18T19:01:00Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "industry"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "e14ccaa91e26df2a192147fa54ce304dfb4c7f14",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
+      "title_zh": "人工智能筛选出可减轻实验室模型中阿尔茨海默病病理的线粒体自噬激活剂 - Bioengineer.org",
+      "title_en": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
+      "published_at": "2026-11-17T23:07:03Z",
+      "first_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "site_id": "official_rss",
@@ -540,7 +679,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
       "published_at": "2026-11-17T23:05:00Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
+      "last_seen_at": "2026-11-18T21:58:01.301883Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -578,55 +717,6 @@
       "biological_context_signals": [
         "clinical",
         "disease"
-      ]
-    },
-    {
-      "id": "134a4a9526619d22743014a8426a6abac5a1fe18",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
-      "title_zh": "人工智能如何帮助痴呆症研究人员和临床试验——Being Patient",
-      "title_en": "How AI Is Helping Dementia Researchers and Trials - Being Patient",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVhuNXdYdUluUE9qb3FDdHc5cjhja3lQelV2VXJKc2lvY1U1bzhfNlB2N3o3ZXdaX2poUVhCbGVoSlo2R1d1S2NyMHl0dThwdnlWNW9IdnY4OHZLZ2d1Rm9nNWZiTEhmNGVpZmdrbjhveG1QSjZkV1pOT3dZN0ZIZw?oc=5",
-      "published_at": "2026-11-17T20:41:58Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patient"
       ]
     }
   ],
