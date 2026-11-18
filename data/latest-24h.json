@@ -1,19 +1,25 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-17T22:53:23.506127Z",
+  "generated_at": "2026-11-18T04:23:10.768134Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 502,
-  "total_items_all_mode": 502,
-  "archive_total": 8523,
-  "site_count": 1,
-  "source_count": 2,
+  "total_items": 7,
+  "total_items_raw": 394,
+  "total_items_all_mode": 394,
+  "archive_total": 8517,
+  "site_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 5,
-      "raw_count": 29
+      "count": 6,
+      "raw_count": 35
+    },
+    {
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "items": [
@@ -30,7 +36,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "published_at": "2026-11-17T16:04:05Z",
       "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -68,6 +74,108 @@
       ]
     },
     {
+      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
+      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "source_type": "project",
+      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
+      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "published_at": "2026-11-18T03:56:36Z",
+      "first_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.567,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
+      "title_zh": "UNLV的临床试验观察站数据现可通过人工智能驱动的阿尔茨海默病数据计划的AD Workbench获取 | Newswise - Newswise",
+      "title_en": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
+      "published_at": "2026-11-17T23:05:00Z",
+      "first_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "clinical_trial"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "clinical trial"
+      ],
+      "biological_context_signals": [
+        "clinical",
+        "disease"
+      ]
+    },
+    {
       "id": "8be61b7a738734bf4c28a21566ac28bca512f9f4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
       "site_id": "official_rss",
@@ -80,7 +188,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
       "published_at": "2026-11-17T08:17:20Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -129,7 +237,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
       "published_at": "2026-11-17T07:54:00Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -178,7 +286,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
       "published_at": "2026-11-17T07:09:00Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -227,7 +335,7 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
       "published_at": "2026-11-17T04:32:41Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -276,7 +384,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHhLZnlUUVVlTjN6LWl6NnUtb0RPZFBqSEF4NXplTXpuZGE5QUtBQmJEczJEVGwzUW9pWWlsaU9TZGM3cWdadjdqakk5X2NMZkR2YXJLdEZFNy1MZEtNa2lGZ2ZucUxTeEJ6Q0Q3Sk1jZzRBc0RJMkJQeHJ5VWJJLUVYVWZmOS1hTDYyWnhURF93anhHLTBsdk5xa3N2bFE1QW5faV8yXzRubm1Qd09ZTHE5enNHU2tveVhSbGp4bGJuTXowVXdBUHZ6MURlSW5xQTJv?oc=5",
       "published_at": "2026-11-17T16:04:05Z",
       "first_seen_at": "2026-11-17T22:53:23.506127Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -314,6 +422,108 @@
       ]
     },
     {
+      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
+      "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
+      "site_id": "github_projects",
+      "site_name": "GitHub 研究项目",
+      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "source_type": "project",
+      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
+      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
+      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
+      "published_at": "2026-11-18T03:56:36Z",
+      "first_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "ai_is_related": true,
+      "ai_score": 0.56,
+      "longevity_is_related": true,
+      "longevity_score": 0.67,
+      "signal_score": 0.567,
+      "domain_score": 0.67,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock",
+        "multi_omics",
+        "research_tool"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "software_project",
+      "evidence_type": "project",
+      "risk_flags": [],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "aging",
+        "aging clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "transcriptomic"
+      ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
+      "title_zh": "UNLV的临床试验观察站数据现可通过人工智能驱动的阿尔茨海默病数据计划的AD Workbench获取 | Newswise - Newswise",
+      "title_en": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
+      "published_at": "2026-11-17T23:05:00Z",
+      "first_seen_at": "2026-11-18T04:23:10.768134Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration",
+        "clinical_trial"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "clinical trial"
+      ],
+      "biological_context_signals": [
+        "clinical",
+        "disease"
+      ]
+    },
+    {
       "id": "8be61b7a738734bf4c28a21566ac28bca512f9f4",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
       "site_id": "official_rss",
@@ -326,7 +536,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdElDdkpaS3NvYk82VDgwcHZyX2dzS2ViRU5vdWtScUxjT21zWXJoMkxFNVJHd2pkQXp1WmNhNUljemtaUWdLV3BvLXFXWm9SZS1xN1hxUnNnQWdwNXhqTy1majhsUGNIdUt0S3B6eDhOY29oN3d0Yk1rSWhtRGRZQkVVTWt4SXpGV1V3V0JXYVhiOWtscEN3T1J1OWc2TkZGUDZGNVpR?oc=5",
       "published_at": "2026-11-17T08:17:20Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -375,7 +585,7 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRSTWo5OElMUHUwZjVST2YyLUwxQ1VWZjMwUU5KR25ocWxCczdHXzZjMG9sb0VENllTTGJpTnJNS2JEYXh0V1d5Y2l2YTU1S1p1YnRxZVZCMGpzYVJMUk9pYi1ZbkhzM1BHelJ1OEp3RjlmN21kVFFXTTJ2M1FmdnBIM18?oc=5",
       "published_at": "2026-11-17T07:54:00Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -424,7 +634,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1Q2OVlKOFcxYUFuMEhhYUxHZzl0NEc0bjFMVVlVQnFCdXpranJBTDd3anFkMF9NR2ZYOUwzVzN1Vm0wVWkyOGh3ZWUyb2ZGWnRoc1RrbnRXRWxCNXVpQXZlRlY5TDNYMjFGZk5DaFp4aGt6RFI3cElRWTBVSXlaVlBVemE3RFJWQUR3U3FRYUx0QTZtOG9SVm5lR3d4QkVmWXNOUVB2eDBYbUpZSDhLUjNfdVZxSkphRFo4UHE5d0M1NkxnTTc4c2N1SkpNa0w4S3VyTy1nWWg?oc=5",
       "published_at": "2026-11-17T07:09:00Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -473,7 +683,7 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSjFSUEdPaGxjeFhXUFdRRi12NVpQUmFVNXZ0ejNKT1hELUpqZGZjbnhubW1qS0FvOWlUMlN3MlVPa3UxUm5JY1JuNlRFM1V5dGpQRDh2amNmSHpNUVpfR1pkOFA3WFB1TVU2LTRpRk93WUE1NUFxQmhaN0QtSl9PdVZtQnNRMVd1QkpXU19KeEZTckpnRGRZNERGOFFGckhQdVd0MmluamVlWEw2WXlCbG9pUQ?oc=5",
       "published_at": "2026-11-17T04:32:41Z",
       "first_seen_at": "2026-11-17T14:26:10.629188Z",
-      "last_seen_at": "2026-11-17T22:53:23.506127Z",
+      "last_seen_at": "2026-11-18T04:23:10.768134Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
