@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-19T03:29:56.164422Z",
+  "generated_at": "2026-11-19T13:11:35.610254Z",
   "window_hours": 24,
-  "total_items": 5,
-  "total_items_raw": 319,
-  "total_items_all_mode": 319,
-  "archive_total": 8885,
+  "total_items": 4,
+  "total_items_raw": 185,
+  "total_items_all_mode": 185,
+  "archive_total": 8897,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 33
+      "count": 3,
+      "raw_count": 48
     },
     {
       "site_id": "github_projects",
@@ -23,107 +23,6 @@
     }
   ],
   "items": [
-    {
-      "id": "13ad235f63d382d2a9e6dcbc3d804d44b66e419a",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
-      "title_zh": "与年龄相关的突触功能障碍及可能的治疗方法",
-      "title_en": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
-      "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
-      "published_at": "2026-11-18T11:22:30Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "neural network"
-      ],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "disease"
-      ]
-    },
-    {
-      "id": "c79038b7402e1a207aedd981bf8610abe24f3cb9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
-      "title_zh": "以色列人工智能模型可更早发出阿尔茨海默病风险的警告 - JNS.org",
-      "title_en": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
-      "published_at": "2026-11-18T05:08:25Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
     {
       "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
       "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
@@ -135,9 +34,9 @@
       "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
       "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-11-18T03:56:36Z",
+      "published_at": "2026-11-19T10:34:13Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -171,6 +70,53 @@
       "biomedical_signals": [
         "transcriptomic"
       ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f1de8604d8d0d718ee4ed14478f277f85cea7d07",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2ZmOTJoVXA0LXJGNlQyQmVPYjZRZTZFLXd3aXpKaVVBZEJ6VWdtUDJsbjM3ZVVzNV9OTkJzR3hrWEFjTW85cmxnNlFGNkpWN0QyakdPTmVaeU1TMkRtMWQyYXVLSTk4WWl4YmEzZlJXenRCbDZJc3V1aDgxYWJPSXl6bHVDc2sxRnlrOHBhbVFNU0FQVUYzWnRYU2xvWnpsOHBhUlc5ZmNZaTFEMHJPb192dkhPbHdwenZJ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "title_zh": "贝叶斯联合模型利用纵向生物年龄改善心血管风险预测 - Bioengineer.org",
+      "title_en": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2ZmOTJoVXA0LXJGNlQyQmVPYjZRZTZFLXd3aXpKaVVBZEJ6VWdtUDJsbjM3ZVVzNV9OTkJzR3hrWEFjTW85cmxnNlFGNkpWN0QyakdPTmVaeU1TMkRtMWQyYXVLSTk4WWl4YmEzZlJXenRCbDZJc3V1aDgxYWJPSXl6bHVDc2sxRnlrOHBhbVFNU0FQVUYzWnRYU2xvWnpsOHBhUlc5ZmNZaTFEMHJPb192dkhPbHdwenZJ?oc=5",
+      "published_at": "2026-11-19T12:42:18Z",
+      "first_seen_at": "2026-11-19T13:11:35.610254Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -235,7 +181,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
       "published_at": "2026-11-18T19:01:00Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -273,107 +219,6 @@
   ],
   "items_ai": [
     {
-      "id": "13ad235f63d382d2a9e6dcbc3d804d44b66e419a",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
-      "title_zh": "与年龄相关的突触功能障碍及可能的治疗方法",
-      "title_en": "Age-Related Synaptic Dysfunction and Possible Approaches to Treatment",
-      "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
-      "published_at": "2026-11-18T11:22:30Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.648,
-      "domain_score": 0.8,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "neural network"
-      ],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "disease"
-      ]
-    },
-    {
-      "id": "c79038b7402e1a207aedd981bf8610abe24f3cb9",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
-      "title_zh": "以色列人工智能模型可更早发出阿尔茨海默病风险的警告 - JNS.org",
-      "title_en": "Israeli AI model offers earlier warning of Alzheimer’s risk - JNS.org",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDNwOXlaWjN0NWJmMlROX2loQUtKbnB0dVVhMHQ2NHR4M0I0RjhnZk4xV3k2bFJPVzRDdEJqZF81NjNuRVhxVEN2R2o4ZjB6UVo3YTR6WWlCOS1va3QwaHRzYVRWc01nMHBRMlk2alVEQmUxSndGSmZrS0hMVmtSakR1OW9BU3RBZ1FzZEZHWFRobGhzV0QwLUxYTQ?oc=5",
-      "published_at": "2026-11-18T05:08:25Z",
-      "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T14:00:19.727000Z",
-      "ai_is_related": true,
-      "ai_score": 0.7,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai",
-        "ai model"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
       "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
       "canonical_key": "repo:zt135292/dog_blood_transcriptomic_aging_clock",
       "site_id": "github_projects",
@@ -384,9 +229,9 @@
       "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
       "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "published_at": "2026-11-18T03:56:36Z",
+      "published_at": "2026-11-19T10:34:13Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -420,6 +265,53 @@
       "biomedical_signals": [
         "transcriptomic"
       ],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f1de8604d8d0d718ee4ed14478f277f85cea7d07",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2ZmOTJoVXA0LXJGNlQyQmVPYjZRZTZFLXd3aXpKaVVBZEJ6VWdtUDJsbjM3ZVVzNV9OTkJzR3hrWEFjTW85cmxnNlFGNkpWN0QyakdPTmVaeU1TMkRtMWQyYXVLSTk4WWl4YmEzZlJXenRCbDZJc3V1aDgxYWJPSXl6bHVDc2sxRnlrOHBhbVFNU0FQVUYzWnRYU2xvWnpsOHBhUlc5ZmNZaTFEMHJPb192dkhPbHdwenZJ?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Aging Clocks",
+      "source_type": "news",
+      "title": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "title_zh": "贝叶斯联合模型利用纵向生物年龄改善心血管风险预测 - Bioengineer.org",
+      "title_en": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2ZmOTJoVXA0LXJGNlQyQmVPYjZRZTZFLXd3aXpKaVVBZEJ6VWdtUDJsbjM3ZVVzNV9OTkJzR3hrWEFjTW85cmxnNlFGNkpWN0QyakdPTmVaeU1TMkRtMWQyYXVLSTk4WWl4YmEzZlJXenRCbDZJc3V1aDgxYWJPSXl6bHVDc2sxRnlrOHBhbVFNU0FQVUYzWnRYU2xvWnpsOHBhUlc5ZmNZaTFEMHJPb192dkhPbHdwenZJ?oc=5",
+      "published_at": "2026-11-19T12:42:18Z",
+      "first_seen_at": "2026-11-19T13:11:35.610254Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "risk prediction"
+      ],
+      "longevity_signals": [
+        "biological age"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
       "biological_context_signals": []
     },
     {
@@ -484,7 +376,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
       "published_at": "2026-11-18T19:01:00Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-19T03:29:56.164422Z",
+      "last_seen_at": "2026-11-19T13:11:35.610254Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
