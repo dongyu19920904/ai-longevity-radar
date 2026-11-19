@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-18T21:58:01.301883Z",
+  "generated_at": "2026-11-19T03:29:56.164422Z",
   "window_hours": 24,
-  "total_items": 7,
-  "total_items_raw": 410,
-  "total_items_all_mode": 410,
-  "archive_total": 8892,
+  "total_items": 5,
+  "total_items_raw": 319,
+  "total_items_all_mode": 319,
+  "archive_total": 8885,
   "site_count": 2,
   "source_count": 3,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 6,
-      "raw_count": 35
+      "count": 4,
+      "raw_count": 33
     },
     {
       "site_id": "github_projects",
@@ -36,7 +36,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
       "published_at": "2026-11-18T11:22:30Z",
       "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -137,7 +137,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -186,7 +186,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
       "published_at": "2026-11-18T20:43:18Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -235,7 +235,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
       "published_at": "2026-11-18T19:01:00Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -269,106 +269,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e14ccaa91e26df2a192147fa54ce304dfb4c7f14",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
-      "title_zh": "人工智能筛选出可减轻实验室模型中阿尔茨海默病病理的线粒体自噬激活剂 - Bioengineer.org",
-      "title_en": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
-      "published_at": "2026-11-17T23:07:03Z",
-      "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
-      "title_zh": "UNLV的临床试验观察站数据现可通过人工智能驱动的阿尔茨海默病数据计划的AD Workbench获取 | Newswise - Newswise",
-      "title_en": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
-      "published_at": "2026-11-17T23:05:00Z",
-      "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "clinical_trial"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "clinical trial"
-      ],
-      "biological_context_signals": [
-        "clinical",
-        "disease"
-      ]
     }
   ],
   "items_ai": [
@@ -385,7 +285,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/age-related-synaptic-dysfunction-and-possible-approaches-to-treatment",
       "published_at": "2026-11-18T11:22:30Z",
       "first_seen_at": "2026-11-18T14:00:19.727000Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -486,7 +386,7 @@
       "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
       "published_at": "2026-11-18T03:56:36Z",
       "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.56,
       "longevity_is_related": true,
@@ -535,7 +435,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0h3cUZ3X3RoNXhSaTJEbnlKeGJRc05rUERXM0p3TFNIcjIwSjc4QjlxV1NRMFB6RXN5bUJmZ1p6TGtleHZMNFR6SnRCbWtzU3owSWZuNm9Od2hKSk5aZ21lODE5S280QndTR1Nubks2NFFJYnp0dWIxbi1zU3gzRWZfXy1UNno5ZzcxR282T0kySFlEclNNOFBKYkktUEZCMTV2T1RGWC1SZw?oc=5",
       "published_at": "2026-11-18T20:43:18Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -584,7 +484,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVV0R1E4MWhteVRodFV6QXc0azZjNUhuYWVmQWVXLVd4ckdWbjRZbUtyLWotMkdXdmdNRHFCUTVrWjNGdXpFSnk0NEZ2UUx0NTRVZWhrdDQ0TlhiM2o4ejVXeTRtejdOUmRRN1duT3ZtY2VFQ3d3VWt3Smttd3BvQlYtcXl4bzlia3R1YnowQUw0aDlaTmcyMm5VdXF1QmdYMVMyRkZkQUIxRWtOeUltWXdn?oc=5",
       "published_at": "2026-11-18T19:01:00Z",
       "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
+      "last_seen_at": "2026-11-19T03:29:56.164422Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -618,106 +518,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e14ccaa91e26df2a192147fa54ce304dfb4c7f14",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
-      "title_zh": "人工智能筛选出可减轻实验室模型中阿尔茨海默病病理的线粒体自噬激活剂 - Bioengineer.org",
-      "title_en": "AI Screening Identifies Mitophagy Activator Mitigating Alzheimer’s Pathology in Laboratory Models - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2kwbHNUbm9pdXBndWRwU09yTlo1Uml4b2VJODJWS1M4U1pyZkhNMUJrUnl2UGViZnpLbEItSmsybVgybTF5T3JJZFJYQldFNFFIZGl5djVhZWR6TWJ2T0NGMzAzZm1wR2JVM1ltS2RScHZ0STkySDFhb0EyN2c4NEFuNUtoSUh5aXBReVF5NEdpNDIwZkxMcEx0TGRRLWQ4UlB2Y0xITmxuSkR5dGw1eThHTTA5dVFLSVhoWTVn?oc=5",
-      "published_at": "2026-11-17T23:07:03Z",
-      "first_seen_at": "2026-11-18T21:58:01.301883Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "f44fcacae58d0091c7a0785eec5b0da0eeb1a0af",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
-      "title_zh": "UNLV的临床试验观察站数据现可通过人工智能驱动的阿尔茨海默病数据计划的AD Workbench获取 | Newswise - Newswise",
-      "title_en": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise - Newswise",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
-      "published_at": "2026-11-17T23:05:00Z",
-      "first_seen_at": "2026-11-18T04:23:10.768134Z",
-      "last_seen_at": "2026-11-18T21:58:01.301883Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration",
-        "clinical_trial"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [
-        "clinical trial"
-      ],
-      "biological_context_signals": [
-        "clinical",
-        "disease"
-      ]
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
