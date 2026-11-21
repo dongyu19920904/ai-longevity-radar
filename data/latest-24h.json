@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-21T02:17:30.809719Z",
+  "generated_at": "2026-11-21T11:05:06.093434Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 25,
-  "total_items_all_mode": 25,
-  "archive_total": 8867,
+  "total_items_raw": 21,
+  "total_items_all_mode": 21,
+  "archive_total": 8871,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -13,24 +13,24 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 25
+      "raw_count": 21
     }
   ],
   "items": [
     {
-      "id": "1d201e1894f5fcabdeee7ceb8a9218b2982b0fac",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxPYVU3YkNrMThPeG1vaGRSeTRSWW5jRnJIbXJkeFZ1SFlYQm1lSVlNQ1hxMUxFbDRmMkk5M0owWElkLXZiamRKaGdEcTJBbFdJNFBSbTRaZjRuZHJvNUhuSXlsWWZ3bW5oWWJUZUFHeThLY0ZrS3dCRVFRMk9GQ3MyOHluTHJZb2U2S3FCNkVDMTdac3FlYmd5Y1NPTzV1dnQzUkdvM0E3OTQ0Y1RlTXd4NW1wOWxlUQ?oc=5",
+      "id": "f824cf287c7b69c677939f18b259a93f17225f7e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "How AI can help preserve memories for Alzheimer’s patients - Euronews.com",
-      "title_zh": "人工智能如何帮助阿尔茨海默病患者留住记忆 - Euronews.com",
-      "title_en": "How AI can help preserve memories for Alzheimer’s patients - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYVU3YkNrMThPeG1vaGRSeTRSWW5jRnJIbXJkeFZ1SFlYQm1lSVlNQ1hxMUxFbDRmMkk5M0owWElkLXZiamRKaGdEcTJBbFdJNFBSbTRaZjRuZHJvNUhuSXlsWWZ3bW5oWWJUZUFHeThLY0ZrS3dCRVFRMk9GQ3MyOHluTHJZb2U2S3FCNkVDMTdac3FlYmd5Y1NPTzV1dnQzUkdvM0E3OTQ0Y1RlTXd4NW1wOWxlUQ?oc=5",
-      "published_at": "2026-11-20T05:30:27Z",
-      "first_seen_at": "2026-11-20T12:55:16.191625Z",
-      "last_seen_at": "2026-11-21T02:17:30.809719Z",
+      "title": "Multi-Omics and Machine Learning Face Validation Hurdles in Frontotemporal Dementia - Bioengineer.org",
+      "title_zh": "多组学和机器学习在额颞叶痴呆中面临验证障碍 - Bioengineer.org",
+      "title_en": "Multi-Omics and Machine Learning Face Validation Hurdles in Frontotemporal Dementia - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
+      "published_at": "2026-11-21T03:36:59Z",
+      "first_seen_at": "2026-11-21T11:05:06.093434Z",
+      "last_seen_at": "2026-11-21T11:05:06.093434Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -41,10 +41,11 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "neurodegeneration",
+        "multi_omics"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "human",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -53,35 +54,35 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": []
     }
   ],
   "items_ai": [
     {
-      "id": "1d201e1894f5fcabdeee7ceb8a9218b2982b0fac",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxPYVU3YkNrMThPeG1vaGRSeTRSWW5jRnJIbXJkeFZ1SFlYQm1lSVlNQ1hxMUxFbDRmMkk5M0owWElkLXZiamRKaGdEcTJBbFdJNFBSbTRaZjRuZHJvNUhuSXlsWWZ3bW5oWWJUZUFHeThLY0ZrS3dCRVFRMk9GQ3MyOHluTHJZb2U2S3FCNkVDMTdac3FlYmd5Y1NPTzV1dnQzUkdvM0E3OTQ0Y1RlTXd4NW1wOWxlUQ?oc=5",
+      "id": "f824cf287c7b69c677939f18b259a93f17225f7e",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "How AI can help preserve memories for Alzheimer’s patients - Euronews.com",
-      "title_zh": "人工智能如何帮助阿尔茨海默病患者留住记忆 - Euronews.com",
-      "title_en": "How AI can help preserve memories for Alzheimer’s patients - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYVU3YkNrMThPeG1vaGRSeTRSWW5jRnJIbXJkeFZ1SFlYQm1lSVlNQ1hxMUxFbDRmMkk5M0owWElkLXZiamRKaGdEcTJBbFdJNFBSbTRaZjRuZHJvNUhuSXlsWWZ3bW5oWWJUZUFHeThLY0ZrS3dCRVFRMk9GQ3MyOHluTHJZb2U2S3FCNkVDMTdac3FlYmd5Y1NPTzV1dnQzUkdvM0E3OTQ0Y1RlTXd4NW1wOWxlUQ?oc=5",
-      "published_at": "2026-11-20T05:30:27Z",
-      "first_seen_at": "2026-11-20T12:55:16.191625Z",
-      "last_seen_at": "2026-11-21T02:17:30.809719Z",
+      "title": "Multi-Omics and Machine Learning Face Validation Hurdles in Frontotemporal Dementia - Bioengineer.org",
+      "title_zh": "多组学和机器学习在额颞叶痴呆中面临验证障碍 - Bioengineer.org",
+      "title_en": "Multi-Omics and Machine Learning Face Validation Hurdles in Frontotemporal Dementia - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
+      "published_at": "2026-11-21T03:36:59Z",
+      "first_seen_at": "2026-11-21T11:05:06.093434Z",
+      "last_seen_at": "2026-11-21T11:05:06.093434Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -92,10 +93,11 @@
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "neurodegeneration"
+        "neurodegeneration",
+        "multi_omics"
       ],
       "primary_topic": "neurodegeneration",
-      "study_subject": "human",
+      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
       "risk_flags": [
@@ -104,18 +106,18 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "machine learning"
       ],
       "longevity_signals": [
-        "alzheimer"
+        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
+      "biomedical_signals": [
+        "multi-omics"
+      ],
+      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
