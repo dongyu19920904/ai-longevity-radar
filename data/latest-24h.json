@@ -1,11 +1,11 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-21T11:05:06.093434Z",
+  "generated_at": "2026-11-21T17:58:04.613980Z",
   "window_hours": 24,
   "total_items": 1,
-  "total_items_raw": 21,
-  "total_items_all_mode": 21,
-  "archive_total": 8871,
+  "total_items_raw": 12,
+  "total_items_all_mode": 12,
+  "archive_total": 8894,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -13,7 +13,7 @@
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "count": 1,
-      "raw_count": 21
+      "raw_count": 8
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
       "published_at": "2026-11-21T03:36:59Z",
       "first_seen_at": "2026-11-21T11:05:06.093434Z",
-      "last_seen_at": "2026-11-21T11:05:06.093434Z",
+      "last_seen_at": "2026-11-21T17:58:04.613980Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -82,7 +82,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0gwRTZ4b3IzU3YzVFp1U2VvV1NUbGpVcXJFTFVOWGJTdHZndTV5VDNqRjJ1dXlpelN4SUxPTDBkcFFUSXhqeWk0RlU0RkppSHlKSXcxRVdQNmpKNFFZcVdjZFkzZTFPUFo1VkE2aGh5c1plTlY4WWg3UnBKUDdGUEp5cnZKUnpNa0QzQWZCZFk5Qi1wNG5ucklwWkRjazdEcWxqTjFNMlVoT3ox?oc=5",
       "published_at": "2026-11-21T03:36:59Z",
       "first_seen_at": "2026-11-21T11:05:06.093434Z",
-      "last_seen_at": "2026-11-21T11:05:06.093434Z",
+      "last_seen_at": "2026-11-21T17:58:04.613980Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
