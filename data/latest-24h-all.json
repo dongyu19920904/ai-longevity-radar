@@ -1,9 +1,9 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-22T15:19:16.818136Z",
+  "generated_at": "2026-11-22T21:47:09.194004Z",
   "window_hours": 24,
-  "total_items_raw": 2,
-  "total_items_all_mode": 2,
+  "total_items_raw": 4,
+  "total_items_all_mode": 4,
   "items_all": [
     {
       "id": "e328cd70cc7ff1d2ff451b1bfd4cda5b4d8123ba",
@@ -17,7 +17,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
       "published_at": "2026-11-22T11:12:56Z",
       "first_seen_at": "2026-11-22T15:19:16.818136Z",
-      "last_seen_at": "2026-11-22T15:19:16.818136Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -57,32 +57,31 @@
       ]
     },
     {
-      "id": "f7f6f7027bea3aba3eab94f70bedba15d7d9a307",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEVCQkpQamFXOG5ENkp0aWszanl6UGpaRVhZSXdEdXZEbWQ2dTVMY0VNMTd6aXd0STRkN2xHcXNtMFphYkF3ZldOVTlWXzZ0NllsV2hlVDlweVEzRFlBYWZ4c0Y1cmpnbW9jbHo1UnBseF9OZ0N0YlBxd251VDFraEZYUVJ5Qlhpd3pwdHlXdDhyTFNLSGpKb1VnZkszLUJKN0ZMMkRyaVpvR1RBSWJlblNlcTZtd09wSWl1ZjdQONIBzAFBVV95cUxOZHc1ekZaVzJnMmY3cmtvMU5BeURQQUJtenUwbGR1VWRRQkFraE50NUhnbUo4bk9DSHdiU1V4SkFnZmVieTVJT2E3YkpBTGNNV3JVaGQySExXOEpDTWtRT2tuUDJNSjlwMWtNdlJ2TmlQYnFBdE5oNnk2RkZadGRxeHJrbmpOWW5pdVp0aEdOTVQ3a0xwWUFHbFpvZGRuMklGWUpIQ3hYMUZtM1E3OTZMM3BLb0dIeGt5S3F5RnRkMFJmV0hGSTZDLVVkaFo?oc=5",
+      "id": "1cb29f6d0d827c307e8e1b23e8e3fecb311fa603",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
+      "source": "ScienceDaily Healthy Aging",
       "source_type": "news",
-      "title": "Spies, honey traps and a familiar frailty: An ancient weakness in the age of AI - Deccan Herald",
-      "title_zh": "间谍、美人计和常见的弱点：人工智能时代的古老弱点 - 德干先驱报",
-      "title_en": "Spies, honey traps and a familiar frailty: An ancient weakness in the age of AI - Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEVCQkpQamFXOG5ENkp0aWszanl6UGpaRVhZSXdEdXZEbWQ2dTVMY0VNMTd6aXd0STRkN2xHcXNtMFphYkF3ZldOVTlWXzZ0NllsV2hlVDlweVEzRFlBYWZ4c0Y1cmpnbW9jbHo1UnBseF9OZ0N0YlBxd251VDFraEZYUVJ5Qlhpd3pwdHlXdDhyTFNLSGpKb1VnZkszLUJKN0ZMMkRyaVpvR1RBSWJlblNlcTZtd09wSWl1ZjdQONIBzAFBVV95cUxOZHc1ekZaVzJnMmY3cmtvMU5BeURQQUJtenUwbGR1VWRRQkFraE50NUhnbUo4bk9DSHdiU1V4SkFnZmVieTVJT2E3YkpBTGNNV3JVaGQySExXOEpDTWtRT2tuUDJNSjlwMWtNdlJ2TmlQYnFBdE5oNnk2RkZadGRxeHJrbmpOWW5pdVp0aEdOTVQ3a0xwWUFHbFpvZGRuMklGWUpIQ3hYMUZtM1E3OTZMM3BLb0dIeGt5S3F5RnRkMFJmV0hGSTZDLVVkaFo?oc=5",
-      "published_at": "2026-11-21T19:03:57Z",
-      "first_seen_at": "2026-11-21T23:18:38.501923Z",
-      "last_seen_at": "2026-11-22T15:19:16.818136Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
+      "title": "Scientists discover a hidden eye disease that slowly steals night vision",
+      "title_en": "Scientists discover a hidden eye disease that slowly steals night vision",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
+      "published_at": "2026-11-22T10:48:36Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
       "topics": [
-        "ai_longevity"
+        "digital_biomarker"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "digital_biomarker",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -90,19 +89,112 @@
         "secondary_source",
         "not_primary_evidence"
       ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "269796a095f6e02b9fe1954914aaac6dd04068be",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+      "title_en": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+      "published_at": "2026-11-22T03:43:18Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.168,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_longevity_signal",
       "ai_signals": [
         "ai"
       ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patients"
+      ]
+    },
+    {
+      "id": "fb10c66128574393bd9d5ee045b36527ebf24e78",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
+      "title_en": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
+      "published_at": "2026-11-22T03:00:27Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
       "longevity_signals": [
-        "frailty"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "frailty"
+        "brain",
+        "cognitive",
+        "disease",
+        "immune",
+        "mice"
       ]
     }
   ],
@@ -119,7 +211,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
       "published_at": "2026-11-22T11:12:56Z",
       "first_seen_at": "2026-11-22T15:19:16.818136Z",
-      "last_seen_at": "2026-11-22T15:19:16.818136Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -159,32 +251,31 @@
       ]
     },
     {
-      "id": "f7f6f7027bea3aba3eab94f70bedba15d7d9a307",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEVCQkpQamFXOG5ENkp0aWszanl6UGpaRVhZSXdEdXZEbWQ2dTVMY0VNMTd6aXd0STRkN2xHcXNtMFphYkF3ZldOVTlWXzZ0NllsV2hlVDlweVEzRFlBYWZ4c0Y1cmpnbW9jbHo1UnBseF9OZ0N0YlBxd251VDFraEZYUVJ5Qlhpd3pwdHlXdDhyTFNLSGpKb1VnZkszLUJKN0ZMMkRyaVpvR1RBSWJlblNlcTZtd09wSWl1ZjdQONIBzAFBVV95cUxOZHc1ekZaVzJnMmY3cmtvMU5BeURQQUJtenUwbGR1VWRRQkFraE50NUhnbUo4bk9DSHdiU1V4SkFnZmVieTVJT2E3YkpBTGNNV3JVaGQySExXOEpDTWtRT2tuUDJNSjlwMWtNdlJ2TmlQYnFBdE5oNnk2RkZadGRxeHJrbmpOWW5pdVp0aEdOTVQ3a0xwWUFHbFpvZGRuMklGWUpIQ3hYMUZtM1E3OTZMM3BLb0dIeGt5S3F5RnRkMFJmV0hGSTZDLVVkaFo?oc=5",
+      "id": "1cb29f6d0d827c307e8e1b23e8e3fecb311fa603",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · Healthy Aging AI",
+      "source": "ScienceDaily Healthy Aging",
       "source_type": "news",
-      "title": "Spies, honey traps and a familiar frailty: An ancient weakness in the age of AI - Deccan Herald",
-      "title_zh": "间谍、美人计和常见的弱点：人工智能时代的古老弱点 - 德干先驱报",
-      "title_en": "Spies, honey traps and a familiar frailty: An ancient weakness in the age of AI - Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEVCQkpQamFXOG5ENkp0aWszanl6UGpaRVhZSXdEdXZEbWQ2dTVMY0VNMTd6aXd0STRkN2xHcXNtMFphYkF3ZldOVTlWXzZ0NllsV2hlVDlweVEzRFlBYWZ4c0Y1cmpnbW9jbHo1UnBseF9OZ0N0YlBxd251VDFraEZYUVJ5Qlhpd3pwdHlXdDhyTFNLSGpKb1VnZkszLUJKN0ZMMkRyaVpvR1RBSWJlblNlcTZtd09wSWl1ZjdQONIBzAFBVV95cUxOZHc1ekZaVzJnMmY3cmtvMU5BeURQQUJtenUwbGR1VWRRQkFraE50NUhnbUo4bk9DSHdiU1V4SkFnZmVieTVJT2E3YkpBTGNNV3JVaGQySExXOEpDTWtRT2tuUDJNSjlwMWtNdlJ2TmlQYnFBdE5oNnk2RkZadGRxeHJrbmpOWW5pdVp0aEdOTVQ3a0xwWUFHbFpvZGRuMklGWUpIQ3hYMUZtM1E3OTZMM3BLb0dIeGt5S3F5RnRkMFJmV0hGSTZDLVVkaFo?oc=5",
-      "published_at": "2026-11-21T19:03:57Z",
-      "first_seen_at": "2026-11-21T23:18:38.501923Z",
-      "last_seen_at": "2026-11-22T15:19:16.818136Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
+      "title": "Scientists discover a hidden eye disease that slowly steals night vision",
+      "title_en": "Scientists discover a hidden eye disease that slowly steals night vision",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
+      "published_at": "2026-11-22T10:48:36Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
       "topics": [
-        "ai_longevity"
+        "digital_biomarker"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "digital_biomarker",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -192,19 +283,112 @@
         "secondary_source",
         "not_primary_evidence"
       ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "disease"
+      ]
+    },
+    {
+      "id": "269796a095f6e02b9fe1954914aaac6dd04068be",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+      "title_en": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+      "published_at": "2026-11-22T03:43:18Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.168,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_longevity_signal",
       "ai_signals": [
         "ai"
       ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "patients"
+      ]
+    },
+    {
+      "id": "fb10c66128574393bd9d5ee045b36527ebf24e78",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Healthy Aging",
+      "source_type": "news",
+      "title": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
+      "title_en": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
+      "published_at": "2026-11-22T03:00:27Z",
+      "first_seen_at": "2026-11-22T21:47:09.194004Z",
+      "last_seen_at": "2026-11-22T21:47:09.194004Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
       "longevity_signals": [
-        "frailty"
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "frailty"
+        "brain",
+        "cognitive",
+        "disease",
+        "immune",
+        "mice"
       ]
     }
   ]
