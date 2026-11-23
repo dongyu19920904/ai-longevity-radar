@@ -1,10 +1,426 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-23T02:46:49.803438Z",
+  "generated_at": "2026-11-23T12:47:00.844105Z",
   "window_hours": 24,
-  "total_items_raw": 7,
-  "total_items_all_mode": 7,
+  "total_items_raw": 14,
+  "total_items_all_mode": 14,
   "items_all": [
+    {
+      "id": "36095bf750000f06f9b7de2187e5bc3e32806ec1",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-affecting-memory.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Not getting enough sleep? Here's how it's affecting your memory",
+      "title_en": "Not getting enough sleep? Here's how it's affecting your memory",
+      "url": "https://medicalxpress.com/news/2026-11-affecting-memory.html",
+      "published_at": "2026-11-23T12:20:01Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "c1bbc0e8d3b55bfc36f17938af21b1bf0968b890",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+      "title_en": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+      "url": "https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals",
+      "published_at": "2026-11-23T11:22:16Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical"
+      ]
+    },
+    {
+      "id": "cd4f6edb03613b34a74a6cc5aa89f536513cf184",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "The Central Dogma of Aging",
+      "title_en": "The Central Dogma of Aging",
+      "url": "https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging",
+      "published_at": "2026-11-23T11:11:12Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "anti-aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "cellular"
+      ]
+    },
+    {
+      "id": "b457edb4fc5541e2edb56bf99fe90cfb3e362e42",
+      "canonical_key": "url:https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "COVID-19 vaccines carry a higher shoulder injury risk than flu",
+      "title_en": "COVID-19 vaccines carry a higher shoulder injury risk than flu",
+      "url": "https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx",
+      "published_at": "2026-11-23T10:58:00Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "235debd0979c4de66d86f494b4dc9f4f5362865d",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-metabolic-health-body-composition-linked.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Metabolic health and body composition linked to Alzheimer's disease",
+      "title_en": "Metabolic health and body composition linked to Alzheimer's disease",
+      "url": "https://medicalxpress.com/news/2026-11-metabolic-health-body-composition-linked.html",
+      "published_at": "2026-11-23T10:00:11Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": [
+        "brain",
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "75fbda7140c57747510740ab2439e4ef46fdf1e0",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-air-pollution-exposure-linked-faster.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Air pollution exposure linked to faster spinal bone loss",
+      "title_en": "Air pollution exposure linked to faster spinal bone loss",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-exposure-linked-faster.html",
+      "published_at": "2026-11-23T10:00:01Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "6b99edc00ea6baa9a859aba1a9f3fa9029dc0f6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
+      "title_zh": "机器学习和可见性图表通过脑电波准确检测阿尔茨海默病 - Bioengineer.org",
+      "title_en": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
+      "published_at": "2026-11-23T09:23:42Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "ca5ed0bd40b183daae31a950cc44301debe34769",
+      "canonical_key": "url:https://www.news-medical.net/news/20261123/Preclinical-mouse-models-reveal-how-aging-impairs-immune-threat-adaptation.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Preclinical mouse models reveal how aging impairs immune threat adaptation",
+      "title_en": "Preclinical mouse models reveal how aging impairs immune threat adaptation",
+      "url": "https://www.news-medical.net/news/20261123/Preclinical-mouse-models-reveal-how-aging-impairs-immune-threat-adaptation.aspx",
+      "published_at": "2026-11-23T07:50:36Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "ageing",
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune",
+        "mouse"
+      ]
+    },
+    {
+      "id": "b552f447b5b00408bc94a5c3a6be9ec0b632efc5",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUFsUG1PQ2dqTkJ4OHA2RkVGSkVRM2V3SjZhZURqdi0tYi1CX08xLUpIMXMtb24tZ0p3aEJZam0tS0dyTW1HM2xmQjVNNmFoMHJMZHhOT1FoNWxZcXZ5Y2d0c3Bjdmg3UEMxQWJZVkVZOUpTSW1CM0VNV0RCRjRqQU9BSWk3WUZfbFliMlhkUHo1U1hiUEJKdGQ0T2w5dFpSV1ozZm52cnpFdTB3dFhLblI2SGxVR280YWx0c2REQmk?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "Reduced Senescence Biomarker uPAR Associates With Frailty Improvement After Kidney Transplantation - Bioengineer.org",
+      "title_en": "Reduced Senescence Biomarker uPAR Associates With Frailty Improvement After Kidney Transplantation - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUFsUG1PQ2dqTkJ4OHA2RkVGSkVRM2V3SjZhZURqdi0tYi1CX08xLUpIMXMtb24tZ0p3aEJZam0tS0dyTW1HM2xmQjVNNmFoMHJMZHhOT1FoNWxZcXZ5Y2d0c3Bjdmg3UEMxQWJZVkVZOUpTSW1CM0VNV0RCRjRqQU9BSWk3WUZfbFliMlhkUHo1U1hiUEJKdGQ0T2w5dFpSV1ozZm52cnpFdTB3dFhLblI2SGxVR280YWx0c2REQmk?oc=5",
+      "published_at": "2026-11-23T04:49:17Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "frailty",
+        "senescence"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "frailty"
+      ]
+    },
     {
       "id": "a40a0f273e756736855b778e16b4e76d5e77b838",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-blood-vessel-memory-loss.html",
@@ -17,7 +433,7 @@
       "url": "https://medicalxpress.com/news/2026-11-blood-vessel-memory-loss.html",
       "published_at": "2026-11-23T01:30:01Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -53,6 +469,56 @@
       ]
     },
     {
+      "id": "7ad5374194d6cfe6ab23f28bfc0ab3a5fd9d226b",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Dementia",
+      "source_type": "news",
+      "title": "Scientists discover a surprising link between weak bones and faster brain aging",
+      "title_en": "Scientists discover a surprising link between weak bones and faster brain aging",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+      "published_at": "2026-11-23T00:45:42Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "health",
+        "medical"
+      ]
+    },
+    {
       "id": "71ce2a40c5d159c35b3327008b29612a5b451711",
       "canonical_key": "url:https://europepmc.org/article/MED/PMC13788444",
       "site_id": "europepmc",
@@ -64,7 +530,7 @@
       "url": "https://europepmc.org/article/MED/PMC13788444",
       "published_at": "2026-11-23T00:00:00Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": false,
       "ai_score": 0.22,
       "longevity_is_related": false,
@@ -94,6 +560,50 @@
       "biological_context_signals": []
     },
     {
+      "id": "b539d3e30f21c170161d5362b5e366861e72f527",
+      "canonical_key": "url:https://www.nature.com/articles/s41467-026-78288-0",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "Longitudinal changes in mis-splicing in a cohort of female twins are widespread and highlight mechanisms of ageing",
+      "title_en": "Longitudinal changes in mis-splicing in a cohort of female twins are widespread and highlight mechanisms of ageing",
+      "url": "https://www.nature.com/articles/s41467-026-78288-0",
+      "published_at": "2026-11-23T00:00:00Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.079,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "ageing"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "3a4bcaa54cbda6962d6c443a172b6b4bfbd47bb0",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmFTZ3kwcFFpT051cjB1RnlCUWI0YS1iT3hCY1hVM09UOGdfOG1WcWE3c19RejhwWW1iWU1ldTNZZ1pVYUVWVnB3dUtrQW8wZGxxZjctRGx3ckRBX21SWWFtVVkyUkNkVzY2WUFYMGQyWVlRU2UwQ2dpWjRmSFNyY2t4d2JXbW54TmdIc2FIVFZiSE90bk1mUkFIUHpCal9DSTI3TFk1YldjbldK?oc=5",
       "site_id": "official_rss",
@@ -105,7 +615,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmFTZ3kwcFFpT051cjB1RnlCUWI0YS1iT3hCY1hVM09UOGdfOG1WcWE3c19RejhwWW1iWU1ldTNZZ1pVYUVWVnB3dUtrQW8wZGxxZjctRGx3ckRBX21SWWFtVVkyUkNkVzY2WUFYMGQyWVlRU2UwQ2dpWjRmSFNyY2t4d2JXbW54TmdIc2FIVFZiSE90bk1mUkFIUHpCal9DSTI3TFk1YldjbldK?oc=5",
       "published_at": "2026-11-22T23:24:13Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -138,202 +648,426 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e328cd70cc7ff1d2ff451b1bfd4cda5b4d8123ba",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "Fight Aging! Newsletter, November 23rd 2026",
-      "title_en": "Fight Aging! Newsletter, November 23rd 2026",
-      "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
-      "published_at": "2026-11-22T11:12:56Z",
-      "first_seen_at": "2026-11-22T15:19:16.818136Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.61,
-      "domain_score": 0.9,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "longevity",
-        "senolytic"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "disease",
-        "medicine"
-      ]
-    },
-    {
-      "id": "1cb29f6d0d827c307e8e1b23e8e3fecb311fa603",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "Scientists discover a hidden eye disease that slowly steals night vision",
-      "title_en": "Scientists discover a hidden eye disease that slowly steals night vision",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
-      "published_at": "2026-11-22T10:48:36Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "269796a095f6e02b9fe1954914aaac6dd04068be",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
-      "title_en": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
-      "published_at": "2026-11-22T03:43:18Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.168,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_longevity_signal",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "fb10c66128574393bd9d5ee045b36527ebf24e78",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
-      "title_en": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
-      "published_at": "2026-11-22T03:00:27Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "disease",
-        "immune",
-        "mice"
-      ]
     }
   ],
   "items_all_raw": [
     {
+      "id": "36095bf750000f06f9b7de2187e5bc3e32806ec1",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-affecting-memory.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Not getting enough sleep? Here's how it's affecting your memory",
+      "title_en": "Not getting enough sleep? Here's how it's affecting your memory",
+      "url": "https://medicalxpress.com/news/2026-11-affecting-memory.html",
+      "published_at": "2026-11-23T12:20:01Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "c1bbc0e8d3b55bfc36f17938af21b1bf0968b890",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+      "title_en": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+      "url": "https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals",
+      "published_at": "2026-11-23T11:22:16Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "age-related"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "clinical"
+      ]
+    },
+    {
+      "id": "cd4f6edb03613b34a74a6cc5aa89f536513cf184",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Fight Aging!",
+      "source_type": "news",
+      "title": "The Central Dogma of Aging",
+      "title_en": "The Central Dogma of Aging",
+      "url": "https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging",
+      "published_at": "2026-11-23T11:11:12Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "anti-aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "cell",
+        "cellular"
+      ]
+    },
+    {
+      "id": "b457edb4fc5541e2edb56bf99fe90cfb3e362e42",
+      "canonical_key": "url:https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "COVID-19 vaccines carry a higher shoulder injury risk than flu",
+      "title_en": "COVID-19 vaccines carry a higher shoulder injury risk than flu",
+      "url": "https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx",
+      "published_at": "2026-11-23T10:58:00Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "235debd0979c4de66d86f494b4dc9f4f5362865d",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-metabolic-health-body-composition-linked.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Metabolic health and body composition linked to Alzheimer's disease",
+      "title_en": "Metabolic health and body composition linked to Alzheimer's disease",
+      "url": "https://medicalxpress.com/news/2026-11-metabolic-health-body-composition-linked.html",
+      "published_at": "2026-11-23T10:00:11Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarkers"
+      ],
+      "biological_context_signals": [
+        "brain",
+        "disease",
+        "health"
+      ]
+    },
+    {
+      "id": "75fbda7140c57747510740ab2439e4ef46fdf1e0",
+      "canonical_key": "url:https://medicalxpress.com/news/2026-11-air-pollution-exposure-linked-faster.html",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "MedicalXpress Healthy Aging",
+      "source_type": "news",
+      "title": "Air pollution exposure linked to faster spinal bone loss",
+      "title_en": "Air pollution exposure linked to faster spinal bone loss",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-exposure-linked-faster.html",
+      "published_at": "2026-11-23T10:00:01Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "6b99edc00ea6baa9a859aba1a9f3fa9029dc0f6c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
+      "title_zh": "机器学习和可见性图表通过脑电波准确检测阿尔茨海默病 - Bioengineer.org",
+      "title_en": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
+      "published_at": "2026-11-23T09:23:42Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "machine learning"
+      ],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "ca5ed0bd40b183daae31a950cc44301debe34769",
+      "canonical_key": "url:https://www.news-medical.net/news/20261123/Preclinical-mouse-models-reveal-how-aging-impairs-immune-threat-adaptation.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Preclinical mouse models reveal how aging impairs immune threat adaptation",
+      "title_en": "Preclinical mouse models reveal how aging impairs immune threat adaptation",
+      "url": "https://www.news-medical.net/news/20261123/Preclinical-mouse-models-reveal-how-aging-impairs-immune-threat-adaptation.aspx",
+      "published_at": "2026-11-23T07:50:36Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "animal",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "animal_study",
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "ageing",
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "immune",
+        "mouse"
+      ]
+    },
+    {
+      "id": "b552f447b5b00408bc94a5c3a6be9ec0b632efc5",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUFsUG1PQ2dqTkJ4OHA2RkVGSkVRM2V3SjZhZURqdi0tYi1CX08xLUpIMXMtb24tZ0p3aEJZam0tS0dyTW1HM2xmQjVNNmFoMHJMZHhOT1FoNWxZcXZ5Y2d0c3Bjdmg3UEMxQWJZVkVZOUpTSW1CM0VNV0RCRjRqQU9BSWk3WUZfbFliMlhkUHo1U1hiUEJKdGQ0T2w5dFpSV1ozZm52cnpFdTB3dFhLblI2SGxVR280YWx0c2REQmk?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Healthy Aging AI",
+      "source_type": "news",
+      "title": "Reduced Senescence Biomarker uPAR Associates With Frailty Improvement After Kidney Transplantation - Bioengineer.org",
+      "title_en": "Reduced Senescence Biomarker uPAR Associates With Frailty Improvement After Kidney Transplantation - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUFsUG1PQ2dqTkJ4OHA2RkVGSkVRM2V3SjZhZURqdi0tYi1CX08xLUpIMXMtb24tZ0p3aEJZam0tS0dyTW1HM2xmQjVNNmFoMHJMZHhOT1FoNWxZcXZ5Y2d0c3Bjdmg3UEMxQWJZVkVZOUpTSW1CM0VNV0RCRjRqQU9BSWk3WUZfbFliMlhkUHo1U1hiUEJKdGQ0T2w5dFpSV1ozZm52cnpFdTB3dFhLblI2SGxVR280YWx0c2REQmk?oc=5",
+      "published_at": "2026-11-23T04:49:17Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "aging_mechanism"
+      ],
+      "primary_topic": "aging_mechanism",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "frailty",
+        "senescence"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "biomarker"
+      ],
+      "biological_context_signals": [
+        "biomarker",
+        "frailty"
+      ]
+    },
+    {
       "id": "a40a0f273e756736855b778e16b4e76d5e77b838",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-blood-vessel-memory-loss.html",
       "site_id": "official_rss",
@@ -345,7 +1079,7 @@
       "url": "https://medicalxpress.com/news/2026-11-blood-vessel-memory-loss.html",
       "published_at": "2026-11-23T01:30:01Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -381,6 +1115,56 @@
       ]
     },
     {
+      "id": "7ad5374194d6cfe6ab23f28bfc0ab3a5fd9d226b",
+      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "ScienceDaily Dementia",
+      "source_type": "news",
+      "title": "Scientists discover a surprising link between weak bones and faster brain aging",
+      "title_en": "Scientists discover a surprising link between weak bones and faster brain aging",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+      "published_at": "2026-11-23T00:45:42Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.7,
+      "signal_score": 0.51,
+      "domain_score": 0.7,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging",
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "cognitive",
+        "health",
+        "medical"
+      ]
+    },
+    {
       "id": "71ce2a40c5d159c35b3327008b29612a5b451711",
       "canonical_key": "url:https://europepmc.org/article/MED/PMC13788444",
       "site_id": "europepmc",
@@ -392,7 +1176,7 @@
       "url": "https://europepmc.org/article/MED/PMC13788444",
       "published_at": "2026-11-23T00:00:00Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": false,
       "ai_score": 0.22,
       "longevity_is_related": false,
@@ -422,6 +1206,50 @@
       "biological_context_signals": []
     },
     {
+      "id": "b539d3e30f21c170161d5362b5e366861e72f527",
+      "canonical_key": "url:https://www.nature.com/articles/s41467-026-78288-0",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Nature Aging",
+      "source_type": "news",
+      "title": "Longitudinal changes in mis-splicing in a cohort of female twins are widespread and highlight mechanisms of ageing",
+      "title_en": "Longitudinal changes in mis-splicing in a cohort of female twins are widespread and highlight mechanisms of ageing",
+      "url": "https://www.nature.com/articles/s41467-026-78288-0",
+      "published_at": "2026-11-23T00:00:00Z",
+      "first_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.079,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "ageing"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "3a4bcaa54cbda6962d6c443a172b6b4bfbd47bb0",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmFTZ3kwcFFpT051cjB1RnlCUWI0YS1iT3hCY1hVM09UOGdfOG1WcWE3c19RejhwWW1iWU1ldTNZZ1pVYUVWVnB3dUtrQW8wZGxxZjctRGx3ckRBX21SWWFtVVkyUkNkVzY2WUFYMGQyWVlRU2UwQ2dpWjRmSFNyY2t4d2JXbW54TmdIc2FIVFZiSE90bk1mUkFIUHpCal9DSTI3TFk1YldjbldK?oc=5",
       "site_id": "official_rss",
@@ -433,7 +1261,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcmFTZ3kwcFFpT051cjB1RnlCUWI0YS1iT3hCY1hVM09UOGdfOG1WcWE3c19RejhwWW1iWU1ldTNZZ1pVYUVWVnB3dUtrQW8wZGxxZjctRGx3ckRBX21SWWFtVVkyUkNkVzY2WUFYMGQyWVlRU2UwQ2dpWjRmSFNyY2t4d2JXbW54TmdIc2FIVFZiSE90bk1mUkFIUHpCal9DSTI3TFk1YldjbldK?oc=5",
       "published_at": "2026-11-22T23:24:13Z",
       "first_seen_at": "2026-11-23T02:46:49.803438Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
+      "last_seen_at": "2026-11-23T12:47:00.844105Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -466,198 +1294,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "e328cd70cc7ff1d2ff451b1bfd4cda5b4d8123ba",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "Fight Aging! Newsletter, November 23rd 2026",
-      "title_en": "Fight Aging! Newsletter, November 23rd 2026",
-      "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026",
-      "published_at": "2026-11-22T11:12:56Z",
-      "first_seen_at": "2026-11-22T15:19:16.818136Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.61,
-      "domain_score": 0.9,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "rejuvenation"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "age-related",
-        "aging",
-        "longevity",
-        "senolytic"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "disease",
-        "medicine"
-      ]
-    },
-    {
-      "id": "1cb29f6d0d827c307e8e1b23e8e3fecb311fa603",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "Scientists discover a hidden eye disease that slowly steals night vision",
-      "title_en": "Scientists discover a hidden eye disease that slowly steals night vision",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
-      "published_at": "2026-11-22T10:48:36Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "digital_biomarker"
-      ],
-      "primary_topic": "digital_biomarker",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "disease"
-      ]
-    },
-    {
-      "id": "269796a095f6e02b9fe1954914aaac6dd04068be",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
-      "title_en": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
-      "published_at": "2026-11-22T03:43:18Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.168,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_longevity_signal",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
-    },
-    {
-      "id": "fb10c66128574393bd9d5ee045b36527ebf24e78",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
-      "title_en": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
-      "published_at": "2026-11-22T03:00:27Z",
-      "first_seen_at": "2026-11-22T21:47:09.194004Z",
-      "last_seen_at": "2026-11-23T02:46:49.803438Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "cognitive",
-        "disease",
-        "immune",
-        "mice"
-      ]
     }
   ]
 }
