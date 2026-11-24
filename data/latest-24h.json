@@ -1,22 +1,69 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-23T12:47:00.844105Z",
+  "generated_at": "2026-11-24T00:52:28.933521Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_raw": 14,
-  "total_items_all_mode": 14,
-  "archive_total": 8284,
+  "total_items": 2,
+  "total_items_raw": 25,
+  "total_items_all_mode": 25,
+  "archive_total": 7928,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 1,
-      "raw_count": 13
+      "count": 2,
+      "raw_count": 25
     }
   ],
   "items": [
+    {
+      "id": "b577a0dea1ab8aa8205226f294f8f9a90323a364",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
+      "title_zh": "“你说过那是人工智能，现在又说是老年痴呆症”——VeryDarkMan回怼那些为多拉埃米尔辩护的人 - Gistlover",
+      "title_en": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
+      "published_at": "2026-11-23T13:49:00Z",
+      "first_seen_at": "2026-11-24T00:52:28.933521Z",
+      "last_seen_at": "2026-11-24T00:52:28.933521Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "6b99edc00ea6baa9a859aba1a9f3fa9029dc0f6c",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
@@ -28,9 +75,9 @@
       "title_zh": "机器学习和可见性图表通过脑电波准确检测阿尔茨海默病 - Bioengineer.org",
       "title_en": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
-      "published_at": "2026-11-23T09:23:42Z",
+      "published_at": "2026-11-23T09:28:18Z",
       "first_seen_at": "2026-11-23T12:47:00.844105Z",
-      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-24T00:52:28.933521Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -67,6 +114,53 @@
   ],
   "items_ai": [
     {
+      "id": "b577a0dea1ab8aa8205226f294f8f9a90323a364",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
+      "title_zh": "“你说过那是人工智能，现在又说是老年痴呆症”——VeryDarkMan回怼那些为多拉埃米尔辩护的人 - Gistlover",
+      "title_en": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
+      "published_at": "2026-11-23T13:49:00Z",
+      "first_seen_at": "2026-11-24T00:52:28.933521Z",
+      "last_seen_at": "2026-11-24T00:52:28.933521Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "6b99edc00ea6baa9a859aba1a9f3fa9029dc0f6c",
       "canonical_key": "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
       "site_id": "official_rss",
@@ -77,9 +171,9 @@
       "title_zh": "机器学习和可见性图表通过脑电波准确检测阿尔茨海默病 - Bioengineer.org",
       "title_en": "Machine Learning and Visibility Graphs Accurately Detect Alzheimer’s From Brainwaves - Bioengineer.org",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWpsaVpIUEVsWkItdHFrWHlHMUVYTzBYaXMtV1JpMlZUSFBCMGhpYVdYYlhUUWQzbWFJWlZ1TW1nd3pZZ3Nna2F5WFBkdU85YnVCVE5DX0hRRVFIUjJiYkhtWHJYeEtmS1ltNXJ5aGZNaWV0TVpNaTZGWmJPb0FkMVc1c2RISzBfSUotWDRkY0w5TF8tMEdPYk5xNlczeFo3UXdvdEFHMkhJamw4?oc=5",
-      "published_at": "2026-11-23T09:23:42Z",
+      "published_at": "2026-11-23T09:28:18Z",
       "first_seen_at": "2026-11-23T12:47:00.844105Z",
-      "last_seen_at": "2026-11-23T12:47:00.844105Z",
+      "last_seen_at": "2026-11-24T00:52:28.933521Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
