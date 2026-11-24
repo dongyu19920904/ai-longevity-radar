@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-24T00:52:28.933521Z",
+  "generated_at": "2026-11-24T10:56:47.278871Z",
   "window_hours": 504,
   "selection_mode": "core_first_related_fallback",
   "item_count": 8,
@@ -18,7 +18,7 @@
       "published_at": "2026-11-18T00:00:00Z",
       "signal_score": 0.865,
       "domain_score": 1.0,
-      "freshness_score": 0.138,
+      "freshness_score": 0.078,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -41,12 +41,35 @@
       "published_at": "2026-11-18T21:44:58Z",
       "signal_score": 0.734,
       "domain_score": 0.62,
-      "freshness_score": 0.267,
+      "freshness_score": 0.207,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "primary_topic": "neurodegeneration",
       "study_subject": "computational_or_dataset",
+      "publication_stage": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ]
+    },
+    {
+      "id": "477317a039fe2e3ab727857c813d51973497e5d0",
+      "title": "GABIF: An Adaptive Guided Graph Denoising Framework for Antibody Conditional Inverse Folding",
+      "title_zh": "GABIF：用于抗体条件性反折叠的自适应引导图去噪框架",
+      "title_en": "GABIF: An Adaptive Guided Graph Denoising Framework for Antibody Conditional Inverse Folding",
+      "url": "https://papers.cool/arxiv/2611.29935",
+      "source": "Papers.cool q-bio",
+      "site_id": "papers_cool",
+      "source_type": "paper",
+      "published_at": "2026-11-23T02:53:21Z",
+      "signal_score": 0.668,
+      "domain_score": 0.62,
+      "freshness_score": 0.809,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "drug_discovery",
+      "study_subject": "human",
       "publication_stage": "preprint",
       "risk_flags": [
         "preprint_not_peer_reviewed"
@@ -64,7 +87,7 @@
       "published_at": "2026-11-19T16:18:26Z",
       "signal_score": 0.668,
       "domain_score": 0.62,
-      "freshness_score": 0.378,
+      "freshness_score": 0.318,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -74,6 +97,30 @@
       "risk_flags": [
         "preprint_not_peer_reviewed",
         "study_subject_unknown"
+      ]
+    },
+    {
+      "id": "58cf82ee84ce9329118e36b055f97b089d4eaad6",
+      "title": "Can Rapidly Advancing AI Help People Slow Down Aging? Exploring AI’s Role in Anti-Aging & Longevity - 36Kr",
+      "title_zh": "快速发展的人工智能能否帮助人们延缓衰老？探索人工智能在抗衰老与长寿方面的作用 - 36氪",
+      "title_en": "Can Rapidly Advancing AI Help People Slow Down Aging? Exploring AI’s Role in Anti-Aging & Longevity - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqQWxiUjI4eXhlM0g1V0Q2YnVrbkJTenlYd1d6RU81Y2k1ZE43LWY4bEFtLVJlQ2pVV1NYTE44NE9jVnlJS3RBcFZCX1BXY1M0QUhN?oc=5",
+      "source": "Google News · AI Longevity",
+      "site_id": "official_rss",
+      "source_type": "news",
+      "published_at": "2026-11-24T03:31:09Z",
+      "signal_score": 0.648,
+      "domain_score": 0.8,
+      "freshness_score": 0.956,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
       ]
     },
     {
@@ -88,7 +135,7 @@
       "published_at": "2026-11-18T11:22:30Z",
       "signal_score": 0.648,
       "domain_score": 0.8,
-      "freshness_score": 0.205,
+      "freshness_score": 0.145,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -112,36 +159,12 @@
       "published_at": "2026-11-17T16:04:05Z",
       "signal_score": 0.605,
       "domain_score": 0.7,
-      "freshness_score": 0.09,
+      "freshness_score": 0.03,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "primary_topic": "neurodegeneration",
       "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ]
-    },
-    {
-      "id": "d1dc20194d9b8b5897a1a840b70afdd6ac0fd6d4",
-      "title": "AI Model Shows Correlation Between Heart Age, Cardiovascular/Dementia-related Death - www.dicardiology.com",
-      "title_zh": "人工智能模型显示心脏年龄与心血管/痴呆相关死亡之间的关联 - www.dicardiology.com",
-      "title_en": "AI Model Shows Correlation Between Heart Age, Cardiovascular/Dementia-related Death - www.dicardiology.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTFZtaHZSY2Vaa1hrUFFWbkNaZWtsMTIwcmVsRU5LalBUeGIwN2Q1Z2VqbG93eDIteGhCOXlTWlBiajdBVFRMUkhYcWwxTE1BaWt2Z1c1SVd3TTd1bDY4NzJPWHJPMnZDN1huUXdvV25BbFZPYmJnYXpfc1o1dnZvRzMxYVA2RmRkRmNlU1FqVFVHbkJvSmVrYkpWM09IQWx1S0xCNV9nQkVDc2NYTXVNOW82Zm1LMXhsUXc?oc=5",
-      "source": "Google News · AI Longevity",
-      "site_id": "official_rss",
-      "source_type": "news",
-      "published_at": "2026-11-20T16:59:27Z",
-      "signal_score": 0.595,
-      "domain_score": 0.6,
-      "freshness_score": 0.525,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "risk_flags": [
         "secondary_source",
@@ -160,7 +183,7 @@
       "published_at": "2026-11-19T21:20:43Z",
       "signal_score": 0.595,
       "domain_score": 0.6,
-      "freshness_score": 0.408,
+      "freshness_score": 0.348,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -171,27 +194,6 @@
         "secondary_source",
         "not_primary_evidence"
       ]
-    },
-    {
-      "id": "30a17c235cb67767f0cc11c1bd79e601dc1340a6",
-      "title": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "title_zh": "ZT135292/DOG_BLOOD_TRANSCRIPTOMIC_AGING_CLOCK ：此存储库包含使用基因表达谱和年龄标签构建犬血液转录组衰老时钟的代码。实施了六种机器学习方法--弹性网络、套索、随机森林、XGBoost、支持向量回归和专家混合模型--并对其对年龄的预测性能进行了比较和评估。",
-      "title_en": "ZT135292/Dog_blood_transcriptomic_aging_clock: This repository contains code to construct canine blood transcriptomic aging clocks using gene expression profiles and age labels. Six machine learning approaches are implemented—Elastic Net, LASSO, Random Forest, XGBoost, support vector regression, and a mixture-of-experts model—and their predictive performance on age is compared and evaluated.",
-      "url": "https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "source": "ZT135292/Dog_blood_transcriptomic_aging_clock",
-      "site_id": "github_projects",
-      "source_type": "project",
-      "published_at": "2026-11-19T10:34:13Z",
-      "signal_score": 0.567,
-      "domain_score": 0.67,
-      "freshness_score": 0.343,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "aging_clock",
-      "study_subject": "unknown",
-      "publication_stage": "software_project",
-      "risk_flags": []
     }
   ]
 }
