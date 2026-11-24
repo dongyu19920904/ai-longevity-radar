@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-24T10:56:47.278871Z",
+  "generated_at": "2026-11-24T21:12:39.097398Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_raw": 305,
-  "total_items_all_mode": 305,
-  "archive_total": 8105,
+  "total_items": 1,
+  "total_items_raw": 155,
+  "total_items_all_mode": 155,
+  "archive_total": 7826,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 2,
-      "raw_count": 32
+      "count": 1,
+      "raw_count": 29
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqQWxiUjI4eXhlM0g1V0Q2YnVrbkJTenlYd1d6RU81Y2k1ZE43LWY4bEFtLVJlQ2pVV1NYTE44NE9jVnlJS3RBcFZCX1BXY1M0QUhN?oc=5",
       "published_at": "2026-11-24T03:31:09Z",
       "first_seen_at": "2026-11-24T10:56:47.278871Z",
-      "last_seen_at": "2026-11-24T10:56:47.278871Z",
+      "last_seen_at": "2026-11-24T21:12:39.097398Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -59,53 +59,6 @@
         "aging",
         "anti-aging",
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "b577a0dea1ab8aa8205226f294f8f9a90323a364",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
-      "title_zh": "“你说过那是人工智能，现在又说是老年痴呆症”——VeryDarkMan回怼那些为多拉埃米尔辩护的人 - Gistlover",
-      "title_en": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
-      "published_at": "2026-11-23T13:49:00Z",
-      "first_seen_at": "2026-11-24T00:52:28.933521Z",
-      "last_seen_at": "2026-11-24T00:52:28.933521Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
@@ -128,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqQWxiUjI4eXhlM0g1V0Q2YnVrbkJTenlYd1d6RU81Y2k1ZE43LWY4bEFtLVJlQ2pVV1NYTE44NE9jVnlJS3RBcFZCX1BXY1M0QUhN?oc=5",
       "published_at": "2026-11-24T03:31:09Z",
       "first_seen_at": "2026-11-24T10:56:47.278871Z",
-      "last_seen_at": "2026-11-24T10:56:47.278871Z",
+      "last_seen_at": "2026-11-24T21:12:39.097398Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -157,53 +110,6 @@
         "aging",
         "anti-aging",
         "longevity"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "b577a0dea1ab8aa8205226f294f8f9a90323a364",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
-      "title_zh": "“你说过那是人工智能，现在又说是老年痴呆症”——VeryDarkMan回怼那些为多拉埃米尔辩护的人 - Gistlover",
-      "title_en": "“You Said It Was AI, Now It’s Dementia”- VeryDarkMan Tackles Those Defending Emir Of Daura - Gistlover",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGkxeXpka05DbDZpVmRWNjlpVjV0dWI2OXM0RC00cEhEeF9tcUNqOTFSZ1hudHhlY3B3WmR5NUpGVmlfeVY1cEFpcmNOTkFjZGJYNGkxeXJ5clRUWkNNUDBwTHdDbHJuZ09MZzdJYzA1dUNTOFo4V1o0Ulh3ZFpmWmZmR0d0Q0VqcElQVkNkTzdnamc2QjNHamJ0bUtpVHl1dGU1Ni1ZbGV1WFRCbEpsNGVn?oc=5",
-      "published_at": "2026-11-23T13:49:00Z",
-      "first_seen_at": "2026-11-24T00:52:28.933521Z",
-      "last_seen_at": "2026-11-24T00:52:28.933521Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
