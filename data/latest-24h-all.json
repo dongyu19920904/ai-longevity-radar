@@ -1,10 +1,283 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-26T00:22:34.856011Z",
+  "generated_at": "2026-11-26T09:31:53.804632Z",
   "window_hours": 24,
-  "total_items_raw": 27,
-  "total_items_all_mode": 27,
+  "total_items_raw": 30,
+  "total_items_all_mode": 30,
   "items_all": [
+    {
+      "id": "b2193879cbcd964341ab13da44fa8131c5033d81",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/Stronger-hip-muscles-favor-walking3b-larger-muscles-favor-stairs.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Stronger hip muscles favor walking; larger muscles favor stairs",
+      "title_en": "Stronger hip muscles favor walking; larger muscles favor stairs",
+      "url": "https://www.news-medical.net/news/20261126/Stronger-hip-muscles-favor-walking3b-larger-muscles-favor-stairs.aspx",
+      "published_at": "2026-11-26T09:27:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "c1ef599c23203ed75bbcbd94263c67c1c7100a9a",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/Study-to-explore-the-impact-of-aging-on-women.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Study to explore the impact of aging on women",
+      "title_en": "Study to explore the impact of aging on women",
+      "url": "https://www.news-medical.net/news/20261126/Study-to-explore-the-impact-of-aging-on-women.aspx",
+      "published_at": "2026-11-26T05:22:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
+      "id": "6d2dc8450659078dad2a0f358cc9be72a9047292",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "New strategies target mitochondrial dysfunction during aging",
+      "title_en": "New strategies target mitochondrial dysfunction during aging",
+      "url": "https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx",
+      "published_at": "2026-11-26T05:17:27Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.079,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f96936002513bbdf66294f16054d0b42a7392143",
+      "canonical_key": "url:https://www.news-medical.net/news/20261125/Spaceflight-reveals-genetic-differences-in-Alzheimers-related-brain-changes.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Alzheimer",
+      "source_type": "news",
+      "title": "Spaceflight reveals genetic differences in Alzheimer's-related brain changes",
+      "title_en": "Spaceflight reveals genetic differences in Alzheimer's-related brain changes",
+      "url": "https://www.news-medical.net/news/20261125/Spaceflight-reveals-genetic-differences-in-Alzheimers-related-brain-changes.aspx",
+      "published_at": "2026-11-26T04:34:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "dcb4a80b7f99730102925cf3594f45813b3bee75",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVnNPXzR2YXYybENTRnNoV2N4SkxPbDhaRzBpWWMwM3pJakFxa3NxZkVpRzlyVHE4Y25WRjYwejdqR18yM1RSa2FHeklKMzRCNWhDTmxCNTVLV2ZjMDZCQVRmekFpS2ZmZjM0Tm1XVmVpLWlVQW1aTTBaeHZWSUo2SlgtcFV3c1dqcHNEZ1RVa3pKbU1qSVVpOUo3bE0wdWlFWlU0OHM3bGJCU3h3SGFkdi12SUhESzJrUWw3TjQyazc5QVQ0R2ExMHJmeTczOHpfSzlXYjRkWE1GUGVReERWQ3JyWDFwLXZzQWc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "MEDIA INVITE: Experience Psychosocial AI companions, robots and dementia support technologies at UNSW Sydney - Medianet News Hub",
+      "title_zh": "媒体邀请：在悉尼新南威尔士大学体验心理社交人工智能伴侣、机器人和失智症支持技术 - Medianet新闻中心",
+      "title_en": "MEDIA INVITE: Experience Psychosocial AI companions, robots and dementia support technologies at UNSW Sydney - Medianet News Hub",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVnNPXzR2YXYybENTRnNoV2N4SkxPbDhaRzBpWWMwM3pJakFxa3NxZkVpRzlyVHE4Y25WRjYwejdqR18yM1RSa2FHeklKMzRCNWhDTmxCNTVLV2ZjMDZCQVRmekFpS2ZmZjM0Tm1XVmVpLWlVQW1aTTBaeHZWSUo2SlgtcFV3c1dqcHNEZ1RVa3pKbU1qSVVpOUo3bE0wdWlFWlU0OHM3bGJCU3h3SGFkdi12SUhESzJrUWw3TjQyazc5QVQ0R2ExMHJmeTczOHpfSzlXYjRkWE1GUGVReERWQ3JyWDFwLXZzQWc?oc=5",
+      "published_at": "2026-11-26T02:48:46Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "eaa2a6c944b3e66f51e885321ec0ad27e3a0f37c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3FxNEFQQ01lcVVnY2tOZ3hHVTREbXQ0b3VOU1JxOVVwRUVTeVEwQVI5MzBnRVJlX1dRakNJZEdPNDN0dFNVQWRDRUtHR1ZNVWJwdy1IWElBM2JFeHJrUTFBbkI1QTJvRWdISXZYMEQtMDJaUXB4aFhqS3dURVdudHh0X054T1V3NjZJQ1UycEEzR3h6bHY0?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Epigenetic Clocks: Can AI Reveal Why We Age? - Medscape",
+      "title_zh": "表观遗传时钟：人工智能能揭示我们衰老的原因吗？- Medscape",
+      "title_en": "Epigenetic Clocks: Can AI Reveal Why We Age? - Medscape",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3FxNEFQQ01lcVVnY2tOZ3hHVTREbXQ0b3VOU1JxOVVwRUVTeVEwQVI5MzBnRVJlX1dRakNJZEdPNDN0dFNVQWRDRUtHR1ZNVWJwdy1IWElBM2JFeHJrUTFBbkI1QTJvRWdISXZYMEQtMDJaUXB4aFhqS3dURVdudHh0X054T1V3NjZJQ1UycEEzR3h6bHY0?oc=5",
+      "published_at": "2026-11-26T02:31:14Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "epigenetic clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
     {
       "id": "12f8becd85f3269f8ba615f45159f72ce1a1821f",
       "canonical_key": "url:https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx",
@@ -17,7 +290,7 @@
       "url": "https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx",
       "published_at": "2026-11-25T23:10:00Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -61,7 +334,7 @@
       "url": "https://medicalxpress.com/news/2026-11-rsv-shots-safe-older-adults.html",
       "published_at": "2026-11-25T21:30:04Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -107,7 +380,7 @@
       "url": "https://medicalxpress.com/news/2026-11-bmi-obesity-dementia.html",
       "published_at": "2026-11-25T21:00:16Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -151,7 +424,7 @@
       "url": "https://medicalxpress.com/news/2026-11-creatine-popular-bodybuilders-older-adults.html",
       "published_at": "2026-11-25T20:50:02Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -193,7 +466,7 @@
       "url": "https://medicalxpress.com/news/2026-11-alzheimer-drug-tau-protein-clinical.html",
       "published_at": "2026-11-25T20:00:14Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -242,7 +515,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/assessing-albumin-modifications-finds-a-major-shift-in-middle-age",
       "published_at": "2026-11-25T19:22:27Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -281,6 +554,55 @@
       ]
     },
     {
+      "id": "bf4e39ae5f4532d78ac6ce16a38f7101c80a01bf",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34930",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.LG",
+      "source_type": "paper",
+      "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "title_en": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "url": "https://papers.cool/arxiv/2611.34930",
+      "published_at": "2026-11-25T18:59:13Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "foundation model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "spatial transcriptomics",
+        "transcriptomics"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "tissue"
+      ]
+    },
+    {
       "id": "053a67286bfb95bb3c619f403473e46d212d922c",
       "canonical_key": "url:https://www.news-medical.net/news/20261125/Rising-blood-sugar-in-young-adulthood-harms-midlife-brain-health.aspx",
       "site_id": "official_rss",
@@ -292,7 +614,7 @@
       "url": "https://www.news-medical.net/news/20261125/Rising-blood-sugar-in-young-adulthood-harms-midlife-brain-health.aspx",
       "published_at": "2026-11-25T17:54:04Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -324,6 +646,55 @@
         "brain",
         "cognitive",
         "health"
+      ]
+    },
+    {
+      "id": "a35f153652e6469620ee65133f4d0facf9ff3aeb",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34798",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Resolving cell states in spatial transcriptomics with SCATTER",
+      "title_en": "Resolving cell states in spatial transcriptomics with SCATTER",
+      "url": "https://papers.cool/arxiv/2611.34798",
+      "published_at": "2026-11-25T17:50:26Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell",
+        "spatial transcriptomics",
+        "transcriptomic",
+        "transcriptomics"
+      ],
+      "biological_context_signals": [
+        "cell"
       ]
     },
     {
@@ -382,7 +753,7 @@
       "url": "https://lifespan.io/chronic-not-occasional-loneliness-increases-dementia-risk",
       "published_at": "2026-11-25T17:35:44Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -566,7 +937,7 @@
       "url": "https://medicalxpress.com/news/2026-11-brain-aging-differs-neurodegeneration-dementia.html",
       "published_at": "2026-11-25T14:20:05Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -604,6 +975,52 @@
       ]
     },
     {
+      "id": "97e9896278dfaa33d0e86f0ec559cc51deec476b",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34381",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Decoupling the clocks of learning and computing in spiking neural networks",
+      "title_en": "Decoupling the clocks of learning and computing in spiking neural networks",
+      "url": "https://papers.cool/arxiv/2611.34381",
+      "published_at": "2026-11-25T13:45:07Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "neural network"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
       "id": "ee4277d69ccf021eb60e8d33924d40e9c14f3b7c",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-court-medical-guardian-reveals-role.html",
       "site_id": "official_rss",
@@ -615,7 +1032,7 @@
       "url": "https://medicalxpress.com/news/2026-11-court-medical-guardian-reveals-role.html",
       "published_at": "2026-11-25T12:50:01Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -740,6 +1157,50 @@
       ]
     },
     {
+      "id": "f049c7eba6d605a326eebae5a0173562d2bc098a",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34254",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "title_en": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "url": "https://papers.cool/arxiv/2611.34254",
+      "published_at": "2026-11-25T12:18:29Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.23,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "large language model",
+        "llm"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "75ee75be2fcf8d4265a1acfa23d3677416f55454",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging",
       "site_id": "official_rss",
@@ -751,7 +1212,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging",
       "published_at": "2026-11-25T11:22:42Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -801,7 +1262,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/reviewing-efforts-to-bring-klotho-therapies-to-the-clinic",
       "published_at": "2026-11-25T11:11:30Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -836,6 +1297,52 @@
       ]
     },
     {
+      "id": "a5d041427541860603bac672642d223e91b2f9b0",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34166",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "title_en": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "url": "https://papers.cool/arxiv/2611.34166",
+      "published_at": "2026-11-25T10:57:38Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "clinical"
+      ]
+    },
+    {
       "id": "cba6278de772c45b83282f5d8a540652f21bc336",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-elevated-blood-sugar-decades-linked.html",
       "site_id": "official_rss",
@@ -847,7 +1354,7 @@
       "url": "https://medicalxpress.com/news/2026-11-elevated-blood-sugar-decades-linked.html",
       "published_at": "2026-11-25T10:00:04Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -879,378 +1386,284 @@
         "brain",
         "cognitive",
         "health"
-      ]
-    },
-    {
-      "id": "40a45f79e7580f9b762e3326af04788578fa843d",
-      "canonical_key": "url:https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "KAIST team uncovers link between protein quality control and sleep wake rhythm regulation",
-      "title_en": "KAIST team uncovers link between protein quality control and sleep wake rhythm regulation",
-      "url": "https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx",
-      "published_at": "2026-11-25T08:32:01Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cellular"
-      ]
-    },
-    {
-      "id": "54f160aa673923756e22bc746ec7468b099c31f1",
-      "canonical_key": "url:https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "New study links excess adiposity to heightened somatic symptoms during perimenopause",
-      "title_en": "New study links excess adiposity to heightened somatic symptoms during perimenopause",
-      "url": "https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx",
-      "published_at": "2026-11-25T07:51:22Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "df7383fb3dc3732260cb4dc58a916a0b273c9f0a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQdm9uZElIckZKN0FFUlNyZ3QyNUNuM2pGUGNUbkJ6U3V4TUs5T3J4YVNvaHQ3dlJBSWRwNU53bTlGSzd2bGFDNDdjQ1VzckszbnVhOTFEdkhGaDhySG1tWnEyb2ZjNzhwOTlscEttU3NwSWFuRG1McVE2NkFqTGxpRQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Is an Era of 1,400-Year Human Lifespans Dawning?... Claim Emerges That “AI Can Conquer Aging, Too” - 스포츠조선",
-      "title_en": "Is an Era of 1,400-Year Human Lifespans Dawning?... Claim Emerges That “AI Can Conquer Aging, Too” - 스포츠조선",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdm9uZElIckZKN0FFUlNyZ3QyNUNuM2pGUGNUbkJ6U3V4TUs5T3J4YVNvaHQ3dlJBSWRwNU53bTlGSzd2bGFDNDdjQ1VzckszbnVhOTFEdkhGaDhySG1tWnEyb2ZjNzhwOTlscEttU3NwSWFuRG1McVE2NkFqTGxpRQ?oc=5",
-      "published_at": "2026-11-25T06:44:08Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.564,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "ai_healthy_aging_context",
-      "selection_reason": "AI 与健康老龄化相邻研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_healthy_aging_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human"
-      ]
-    },
-    {
-      "id": "ded533aa9f034a688b3172572af314e101645943",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBibkRWRS1SS0preFdIc29PaUdTMi1iQlFxSFpEMHY0QUp2ZU5nUi04Yzk2SlNMRm41ZmVSN2w5aUd5dXozZmN0YWxOZmhPa0RkM1RldkhKeEtmRHM2VnNnVGw0MGd4Y2dPUHdueA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Damyang County to Discuss AI in Public Administration, Responses to Aging at Dec. 3 Policy Forum - 아시아경제",
-      "title_en": "Damyang County to Discuss AI in Public Administration, Responses to Aging at Dec. 3 Policy Forum - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBibkRWRS1SS0preFdIc29PaUdTMi1iQlFxSFpEMHY0QUp2ZU5nUi04Yzk2SlNMRm41ZmVSN2w5aUd5dXozZmN0YWxOZmhPa0RkM1RldkhKeEtmRHM2VnNnVGw0MGd4Y2dPUHdueA?oc=5",
-      "published_at": "2026-11-25T04:40:32Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "457c95b23fd57fb5ba97840ad40e3fca9d49252d",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Black seed has been used for 2,000 years. Could it help us age better?",
-      "title_zh": "黑籽已有2000年的使用历史。它能帮助我们更健康地变老吗？",
-      "title_en": "Black seed has been used for 2,000 years. Could it help us age better?",
-      "url": "https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx",
-      "published_at": "2026-11-25T03:11:00Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.61,
-      "domain_score": 0.9,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration",
-        "aging_mechanism"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "healthspan",
-        "neurodegeneration",
-        "senescence"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cellular",
-        "cognitive",
-        "human"
-      ]
-    },
-    {
-      "id": "8e0f457fb4916d3029506c1817154e30daa00b68",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Study reveals sex-specific differences in aging and healthspan decline",
-      "title_en": "Study reveals sex-specific differences in aging and healthspan decline",
-      "url": "https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx",
-      "published_at": "2026-11-25T02:28:24Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.51,
-      "domain_score": 0.7,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "healthspan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "90ab07b43fcf968948d0881e4f95f6d39467d5c5",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Slow-acting-antimicrobial-peptides-may-help-combat-drug-resistant-infections.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Slow-acting antimicrobial peptides may help combat drug-resistant infections",
-      "title_en": "Slow-acting antimicrobial peptides may help combat drug-resistant infections",
-      "url": "https://www.news-medical.net/news/20261124/Slow-acting-antimicrobial-peptides-may-help-combat-drug-resistant-infections.aspx",
-      "published_at": "2026-11-25T02:21:06Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "d02536d24b42ada37784bb17bc72d296b3ba3307",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "England shows widest socioeconomic gap in frailty among 31 countries",
-      "title_en": "England shows widest socioeconomic gap in frailty among 31 countries",
-      "url": "https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html",
-      "published_at": "2026-11-25T01:00:08Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "frailty"
       ]
     }
   ],
   "items_all_raw": [
     {
+      "id": "b2193879cbcd964341ab13da44fa8131c5033d81",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/Stronger-hip-muscles-favor-walking3b-larger-muscles-favor-stairs.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Stronger hip muscles favor walking; larger muscles favor stairs",
+      "title_en": "Stronger hip muscles favor walking; larger muscles favor stairs",
+      "url": "https://www.news-medical.net/news/20261126/Stronger-hip-muscles-favor-walking3b-larger-muscles-favor-stairs.aspx",
+      "published_at": "2026-11-26T09:27:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.16,
+      "signal_score": 0.11,
+      "domain_score": 0.16,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "c1ef599c23203ed75bbcbd94263c67c1c7100a9a",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/Study-to-explore-the-impact-of-aging-on-women.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "Study to explore the impact of aging on women",
+      "title_en": "Study to explore the impact of aging on women",
+      "url": "https://www.news-medical.net/news/20261126/Study-to-explore-the-impact-of-aging-on-women.aspx",
+      "published_at": "2026-11-26T05:22:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "health"
+      ]
+    },
+    {
+      "id": "6d2dc8450659078dad2a0f358cc9be72a9047292",
+      "canonical_key": "url:https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Aging",
+      "source_type": "news",
+      "title": "New strategies target mitochondrial dysfunction during aging",
+      "title_en": "New strategies target mitochondrial dysfunction during aging",
+      "url": "https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx",
+      "published_at": "2026-11-26T05:17:27Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": false,
+      "longevity_score": 0.0,
+      "signal_score": 0.079,
+      "domain_score": 0.0,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "aging"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "f96936002513bbdf66294f16054d0b42a7392143",
+      "canonical_key": "url:https://www.news-medical.net/news/20261125/Spaceflight-reveals-genetic-differences-in-Alzheimers-related-brain-changes.aspx",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "News-Medical Alzheimer",
+      "source_type": "news",
+      "title": "Spaceflight reveals genetic differences in Alzheimer's-related brain changes",
+      "title_en": "Spaceflight reveals genetic differences in Alzheimer's-related brain changes",
+      "url": "https://www.news-medical.net/news/20261125/Spaceflight-reveals-genetic-differences-in-Alzheimers-related-brain-changes.aspx",
+      "published_at": "2026-11-26T04:34:00Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.16,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.46,
+      "domain_score": 0.6,
+      "relevance_tier": "related",
+      "relevance_path": "longevity_background",
+      "selection_reason": "生命延续背景研究",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [
+        "alzheimer"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain",
+        "disease"
+      ]
+    },
+    {
+      "id": "dcb4a80b7f99730102925cf3594f45813b3bee75",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVnNPXzR2YXYybENTRnNoV2N4SkxPbDhaRzBpWWMwM3pJakFxa3NxZkVpRzlyVHE4Y25WRjYwejdqR18yM1RSa2FHeklKMzRCNWhDTmxCNTVLV2ZjMDZCQVRmekFpS2ZmZjM0Tm1XVmVpLWlVQW1aTTBaeHZWSUo2SlgtcFV3c1dqcHNEZ1RVa3pKbU1qSVVpOUo3bE0wdWlFWlU0OHM3bGJCU3h3SGFkdi12SUhESzJrUWw3TjQyazc5QVQ0R2ExMHJmeTczOHpfSzlXYjRkWE1GUGVReERWQ3JyWDFwLXZzQWc?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "MEDIA INVITE: Experience Psychosocial AI companions, robots and dementia support technologies at UNSW Sydney - Medianet News Hub",
+      "title_zh": "媒体邀请：在悉尼新南威尔士大学体验心理社交人工智能伴侣、机器人和失智症支持技术 - Medianet新闻中心",
+      "title_en": "MEDIA INVITE: Experience Psychosocial AI companions, robots and dementia support technologies at UNSW Sydney - Medianet News Hub",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVnNPXzR2YXYybENTRnNoV2N4SkxPbDhaRzBpWWMwM3pJakFxa3NxZkVpRzlyVHE4Y25WRjYwejdqR18yM1RSa2FHeklKMzRCNWhDTmxCNTVLV2ZjMDZCQVRmekFpS2ZmZjM0Tm1XVmVpLWlVQW1aTTBaeHZWSUo2SlgtcFV3c1dqcHNEZ1RVa3pKbU1qSVVpOUo3bE0wdWlFWlU0OHM3bGJCU3h3SGFkdi12SUhESzJrUWw3TjQyazc5QVQ0R2ExMHJmeTczOHpfSzlXYjRkWE1GUGVReERWQ3JyWDFwLXZzQWc?oc=5",
+      "published_at": "2026-11-26T02:48:46Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "eaa2a6c944b3e66f51e885321ec0ad27e3a0f37c",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3FxNEFQQ01lcVVnY2tOZ3hHVTREbXQ0b3VOU1JxOVVwRUVTeVEwQVI5MzBnRVJlX1dRakNJZEdPNDN0dFNVQWRDRUtHR1ZNVWJwdy1IWElBM2JFeHJrUTFBbkI1QTJvRWdISXZYMEQtMDJaUXB4aFhqS3dURVdudHh0X054T1V3NjZJQ1UycEEzR3h6bHY0?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · AI Longevity",
+      "source_type": "news",
+      "title": "Epigenetic Clocks: Can AI Reveal Why We Age? - Medscape",
+      "title_zh": "表观遗传时钟：人工智能能揭示我们衰老的原因吗？- Medscape",
+      "title_en": "Epigenetic Clocks: Can AI Reveal Why We Age? - Medscape",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3FxNEFQQ01lcVVnY2tOZ3hHVTREbXQ0b3VOU1JxOVVwRUVTeVEwQVI5MzBnRVJlX1dRakNJZEdPNDN0dFNVQWRDRUtHR1ZNVWJwdy1IWElBM2JFeHJrUTFBbkI1QTJvRWdISXZYMEQtMDJaUXB4aFhqS3dURVdudHh0X054T1V3NjZJQ1UycEEzR3h6bHY0?oc=5",
+      "published_at": "2026-11-26T02:31:14Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "aging_clock"
+      ],
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "epigenetic clock"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "12f8becd85f3269f8ba615f45159f72ce1a1821f",
       "canonical_key": "url:https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx",
       "site_id": "official_rss",
@@ -1262,7 +1675,7 @@
       "url": "https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx",
       "published_at": "2026-11-25T23:10:00Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1306,7 +1719,7 @@
       "url": "https://medicalxpress.com/news/2026-11-rsv-shots-safe-older-adults.html",
       "published_at": "2026-11-25T21:30:04Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1352,7 +1765,7 @@
       "url": "https://medicalxpress.com/news/2026-11-bmi-obesity-dementia.html",
       "published_at": "2026-11-25T21:00:16Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1396,7 +1809,7 @@
       "url": "https://medicalxpress.com/news/2026-11-creatine-popular-bodybuilders-older-adults.html",
       "published_at": "2026-11-25T20:50:02Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1438,7 +1851,7 @@
       "url": "https://medicalxpress.com/news/2026-11-alzheimer-drug-tau-protein-clinical.html",
       "published_at": "2026-11-25T20:00:14Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1487,7 +1900,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/assessing-albumin-modifications-finds-a-major-shift-in-middle-age",
       "published_at": "2026-11-25T19:22:27Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1526,6 +1939,55 @@
       ]
     },
     {
+      "id": "bf4e39ae5f4532d78ac6ce16a38f7101c80a01bf",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34930",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.LG",
+      "source_type": "paper",
+      "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "title_en": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "url": "https://papers.cool/arxiv/2611.34930",
+      "published_at": "2026-11-25T18:59:13Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "foundation model"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "spatial transcriptomics",
+        "transcriptomics"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "tissue"
+      ]
+    },
+    {
       "id": "053a67286bfb95bb3c619f403473e46d212d922c",
       "canonical_key": "url:https://www.news-medical.net/news/20261125/Rising-blood-sugar-in-young-adulthood-harms-midlife-brain-health.aspx",
       "site_id": "official_rss",
@@ -1537,7 +1999,7 @@
       "url": "https://www.news-medical.net/news/20261125/Rising-blood-sugar-in-young-adulthood-harms-midlife-brain-health.aspx",
       "published_at": "2026-11-25T17:54:04Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1569,6 +2031,55 @@
         "brain",
         "cognitive",
         "health"
+      ]
+    },
+    {
+      "id": "a35f153652e6469620ee65133f4d0facf9ff3aeb",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34798",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Resolving cell states in spatial transcriptomics with SCATTER",
+      "title_en": "Resolving cell states in spatial transcriptomics with SCATTER",
+      "url": "https://papers.cool/arxiv/2611.34798",
+      "published_at": "2026-11-25T17:50:26Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell",
+        "spatial transcriptomics",
+        "transcriptomic",
+        "transcriptomics"
+      ],
+      "biological_context_signals": [
+        "cell"
       ]
     },
     {
@@ -1627,7 +2138,7 @@
       "url": "https://lifespan.io/chronic-not-occasional-loneliness-increases-dementia-risk",
       "published_at": "2026-11-25T17:35:44Z",
       "first_seen_at": "2026-11-26T00:22:34.856011Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1811,7 +2322,7 @@
       "url": "https://medicalxpress.com/news/2026-11-brain-aging-differs-neurodegeneration-dementia.html",
       "published_at": "2026-11-25T14:20:05Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1849,6 +2360,52 @@
       ]
     },
     {
+      "id": "97e9896278dfaa33d0e86f0ec559cc51deec476b",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34381",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Decoupling the clocks of learning and computing in spiking neural networks",
+      "title_en": "Decoupling the clocks of learning and computing in spiking neural networks",
+      "url": "https://papers.cool/arxiv/2611.34381",
+      "published_at": "2026-11-25T13:45:07Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.61,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.215,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "unknown",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed",
+        "study_subject_unknown"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "neural network"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": [
+        "brain"
+      ]
+    },
+    {
       "id": "ee4277d69ccf021eb60e8d33924d40e9c14f3b7c",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-court-medical-guardian-reveals-role.html",
       "site_id": "official_rss",
@@ -1860,7 +2417,7 @@
       "url": "https://medicalxpress.com/news/2026-11-court-medical-guardian-reveals-role.html",
       "published_at": "2026-11-25T12:50:01Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1985,6 +2542,50 @@
       ]
     },
     {
+      "id": "f049c7eba6d605a326eebae5a0173562d2bc098a",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34254",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool cs.AI",
+      "source_type": "paper",
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "title_en": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "url": "https://papers.cool/arxiv/2611.34254",
+      "published_at": "2026-11-25T12:18:29Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.23,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "generic_ai_only",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "ai_longevity"
+      ],
+      "primary_topic": "ai_longevity",
+      "study_subject": "computational_or_dataset",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_longevity_signal",
+      "ai_signals": [
+        "large language model",
+        "llm"
+      ],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
       "id": "75ee75be2fcf8d4265a1acfa23d3677416f55454",
       "canonical_key": "url:https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging",
       "site_id": "official_rss",
@@ -1996,7 +2597,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging",
       "published_at": "2026-11-25T11:22:42Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -2046,7 +2647,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/reviewing-efforts-to-bring-klotho-therapies-to-the-clinic",
       "published_at": "2026-11-25T11:11:30Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -2081,6 +2682,52 @@
       ]
     },
     {
+      "id": "a5d041427541860603bac672642d223e91b2f9b0",
+      "canonical_key": "url:https://papers.cool/arxiv/2611.34166",
+      "site_id": "papers_cool",
+      "site_name": "Papers.cool 论文精选",
+      "source": "Papers.cool q-bio",
+      "source_type": "paper",
+      "title": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "title_en": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "url": "https://papers.cool/arxiv/2611.34166",
+      "published_at": "2026-11-25T10:57:38Z",
+      "first_seen_at": "2026-11-26T09:31:53.804632Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
+      "ai_is_related": false,
+      "ai_score": 0.18,
+      "longevity_is_related": false,
+      "longevity_score": 0.18,
+      "signal_score": 0.157,
+      "domain_score": 0.18,
+      "relevance_tier": "all",
+      "relevance_path": "insufficient_domain_evidence",
+      "selection_reason": "仅保留在全部来源层",
+      "topics": [
+        "multi_omics"
+      ],
+      "primary_topic": "multi_omics",
+      "study_subject": "human",
+      "publication_stage": "preprint",
+      "evidence_type": "preprint",
+      "risk_flags": [
+        "preprint_not_peer_reviewed"
+      ],
+      "relevance_reason": "missing_ai_signal",
+      "ai_signals": [],
+      "longevity_signals": [],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [
+        "single-cell"
+      ],
+      "biological_context_signals": [
+        "cell",
+        "clinical"
+      ]
+    },
+    {
       "id": "cba6278de772c45b83282f5d8a540652f21bc336",
       "canonical_key": "url:https://medicalxpress.com/news/2026-11-elevated-blood-sugar-decades-linked.html",
       "site_id": "official_rss",
@@ -2092,7 +2739,7 @@
       "url": "https://medicalxpress.com/news/2026-11-elevated-blood-sugar-decades-linked.html",
       "published_at": "2026-11-25T10:00:04Z",
       "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
+      "last_seen_at": "2026-11-26T09:31:53.804632Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -2124,373 +2771,6 @@
         "brain",
         "cognitive",
         "health"
-      ]
-    },
-    {
-      "id": "40a45f79e7580f9b762e3326af04788578fa843d",
-      "canonical_key": "url:https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "KAIST team uncovers link between protein quality control and sleep wake rhythm regulation",
-      "title_en": "KAIST team uncovers link between protein quality control and sleep wake rhythm regulation",
-      "url": "https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx",
-      "published_at": "2026-11-25T08:32:01Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cellular"
-      ]
-    },
-    {
-      "id": "54f160aa673923756e22bc746ec7468b099c31f1",
-      "canonical_key": "url:https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "New study links excess adiposity to heightened somatic symptoms during perimenopause",
-      "title_en": "New study links excess adiposity to heightened somatic symptoms during perimenopause",
-      "url": "https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx",
-      "published_at": "2026-11-25T07:51:22Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "df7383fb3dc3732260cb4dc58a916a0b273c9f0a",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQdm9uZElIckZKN0FFUlNyZ3QyNUNuM2pGUGNUbkJ6U3V4TUs5T3J4YVNvaHQ3dlJBSWRwNU53bTlGSzd2bGFDNDdjQ1VzckszbnVhOTFEdkhGaDhySG1tWnEyb2ZjNzhwOTlscEttU3NwSWFuRG1McVE2NkFqTGxpRQ?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Is an Era of 1,400-Year Human Lifespans Dawning?... Claim Emerges That “AI Can Conquer Aging, Too” - 스포츠조선",
-      "title_en": "Is an Era of 1,400-Year Human Lifespans Dawning?... Claim Emerges That “AI Can Conquer Aging, Too” - 스포츠조선",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdm9uZElIckZKN0FFUlNyZ3QyNUNuM2pGUGNUbkJ6U3V4TUs5T3J4YVNvaHQ3dlJBSWRwNU53bTlGSzd2bGFDNDdjQ1VzckszbnVhOTFEdkhGaDhySG1tWnEyb2ZjNzhwOTlscEttU3NwSWFuRG1McVE2NkFqTGxpRQ?oc=5",
-      "published_at": "2026-11-25T06:44:08Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.564,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "ai_healthy_aging_context",
-      "selection_reason": "AI 与健康老龄化相邻研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_healthy_aging_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human"
-      ]
-    },
-    {
-      "id": "ded533aa9f034a688b3172572af314e101645943",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBibkRWRS1SS0preFdIc29PaUdTMi1iQlFxSFpEMHY0QUp2ZU5nUi04Yzk2SlNMRm41ZmVSN2w5aUd5dXozZmN0YWxOZmhPa0RkM1RldkhKeEtmRHM2VnNnVGw0MGd4Y2dPUHdueA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Damyang County to Discuss AI in Public Administration, Responses to Aging at Dec. 3 Policy Forum - 아시아경제",
-      "title_en": "Damyang County to Discuss AI in Public Administration, Responses to Aging at Dec. 3 Policy Forum - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBibkRWRS1SS0preFdIc29PaUdTMi1iQlFxSFpEMHY0QUp2ZU5nUi04Yzk2SlNMRm41ZmVSN2w5aUd5dXozZmN0YWxOZmhPa0RkM1RldkhKeEtmRHM2VnNnVGw0MGd4Y2dPUHdueA?oc=5",
-      "published_at": "2026-11-25T04:40:32Z",
-      "first_seen_at": "2026-11-25T15:37:26.885072Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "457c95b23fd57fb5ba97840ad40e3fca9d49252d",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Black seed has been used for 2,000 years. Could it help us age better?",
-      "title_zh": "黑籽已有2000年的使用历史。它能帮助我们更健康地变老吗？",
-      "title_en": "Black seed has been used for 2,000 years. Could it help us age better?",
-      "url": "https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx",
-      "published_at": "2026-11-25T03:11:00Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.9,
-      "signal_score": 0.61,
-      "domain_score": 0.9,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration",
-        "aging_mechanism"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "healthspan",
-        "neurodegeneration",
-        "senescence"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cellular",
-        "cognitive",
-        "human"
-      ]
-    },
-    {
-      "id": "8e0f457fb4916d3029506c1817154e30daa00b68",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Study reveals sex-specific differences in aging and healthspan decline",
-      "title_en": "Study reveals sex-specific differences in aging and healthspan decline",
-      "url": "https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx",
-      "published_at": "2026-11-25T02:28:24Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.7,
-      "signal_score": 0.51,
-      "domain_score": 0.7,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "healthspan"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "90ab07b43fcf968948d0881e4f95f6d39467d5c5",
-      "canonical_key": "url:https://www.news-medical.net/news/20261124/Slow-acting-antimicrobial-peptides-may-help-combat-drug-resistant-infections.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "Slow-acting antimicrobial peptides may help combat drug-resistant infections",
-      "title_en": "Slow-acting antimicrobial peptides may help combat drug-resistant infections",
-      "url": "https://www.news-medical.net/news/20261124/Slow-acting-antimicrobial-peptides-may-help-combat-drug-resistant-infections.aspx",
-      "published_at": "2026-11-25T02:21:06Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "d02536d24b42ada37784bb17bc72d296b3ba3307",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "England shows widest socioeconomic gap in frailty among 31 countries",
-      "title_en": "England shows widest socioeconomic gap in frailty among 31 countries",
-      "url": "https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html",
-      "published_at": "2026-11-25T01:00:08Z",
-      "first_seen_at": "2026-11-25T04:16:03.539744Z",
-      "last_seen_at": "2026-11-26T00:22:34.856011Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "frailty"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "frailty"
       ]
     }
   ]
