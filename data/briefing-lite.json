@@ -1,6 +1,6 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-25T15:37:26.885072Z",
+  "generated_at": "2026-11-26T00:22:34.856011Z",
   "window_hours": 504,
   "selection_mode": "core_first_related_fallback",
   "item_count": 8,
@@ -18,7 +18,7 @@
       "published_at": "2026-11-23T00:00:00Z",
       "signal_score": 0.827,
       "domain_score": 0.76,
-      "freshness_score": 0.621,
+      "freshness_score": 0.569,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -27,29 +27,6 @@
       "publication_stage": "peer_review_status_unknown",
       "risk_flags": [
         "study_subject_unknown"
-      ]
-    },
-    {
-      "id": "57b336019d414c67ed6fed4efad7238a5a4bde10",
-      "title": "Statistical, Machine Learning and Deep Learning Methods for Missing Covariates: An Empirical Evaluation with Applications to Alzheimer's Disease Research",
-      "title_zh": "用于处理缺失协变量的统计、机器学习和深度学习方法：一项针对阿尔茨海默病研究应用的实证评估",
-      "title_en": "Statistical, Machine Learning and Deep Learning Methods for Missing Covariates: An Empirical Evaluation with Applications to Alzheimer's Disease Research",
-      "url": "https://papers.cool/arxiv/2611.25219",
-      "source": "Papers.cool stat.ML",
-      "site_id": "papers_cool",
-      "source_type": "paper",
-      "published_at": "2026-11-18T21:44:58Z",
-      "signal_score": 0.734,
-      "domain_score": 0.62,
-      "freshness_score": 0.036,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "primary_topic": "neurodegeneration",
-      "study_subject": "computational_or_dataset",
-      "publication_stage": "preprint",
-      "risk_flags": [
-        "preprint_not_peer_reviewed"
       ]
     },
     {
@@ -64,7 +41,7 @@
       "published_at": "2026-11-23T02:53:21Z",
       "signal_score": 0.668,
       "domain_score": 0.62,
-      "freshness_score": 0.638,
+      "freshness_score": 0.586,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -87,7 +64,7 @@
       "published_at": "2026-11-19T16:18:26Z",
       "signal_score": 0.668,
       "domain_score": 0.62,
-      "freshness_score": 0.147,
+      "freshness_score": 0.095,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -111,7 +88,7 @@
       "published_at": "2026-11-24T03:31:09Z",
       "signal_score": 0.648,
       "domain_score": 0.8,
-      "freshness_score": 0.785,
+      "freshness_score": 0.733,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -135,7 +112,7 @@
       "published_at": "2026-11-19T21:20:43Z",
       "signal_score": 0.595,
       "domain_score": 0.6,
-      "freshness_score": 0.177,
+      "freshness_score": 0.125,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -159,7 +136,7 @@
       "published_at": "2026-11-19T19:37:53Z",
       "signal_score": 0.595,
       "domain_score": 0.6,
-      "freshness_score": 0.167,
+      "freshness_score": 0.115,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -183,7 +160,7 @@
       "published_at": "2026-11-19T10:34:13Z",
       "signal_score": 0.567,
       "domain_score": 0.67,
-      "freshness_score": 0.113,
+      "freshness_score": 0.061,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
@@ -191,6 +168,30 @@
       "study_subject": "unknown",
       "publication_stage": "software_project",
       "risk_flags": []
+    },
+    {
+      "id": "f1de8604d8d0d718ee4ed14478f277f85cea7d07",
+      "title": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "title_zh": "贝叶斯联合模型利用纵向生物年龄改善心血管风险预测 - Bioengineer.org",
+      "title_en": "Bayesian Joint Models Improve Cardiovascular Risk Prediction Using Longitudinal Biological Age - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2ZmOTJoVXA0LXJGNlQyQmVPYjZRZTZFLXd3aXpKaVVBZEJ6VWdtUDJsbjM3ZVVzNV9OTkJzR3hrWEFjTW85cmxnNlFGNkpWN0QyakdPTmVaeU1TMkRtMWQyYXVLSTk4WWl4YmEzZlJXenRCbDZJc3V1aDgxYWJPSXl6bHVDc2sxRnlrOHBhbVFNU0FQVUYzWnRYU2xvWnpsOHBhUlc5ZmNZaTFEMHJPb192dkhPbHdwenZJ?oc=5",
+      "source": "Google News · Aging Clocks",
+      "site_id": "official_rss",
+      "source_type": "news",
+      "published_at": "2026-11-19T12:45:01Z",
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "freshness_score": 0.074,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "primary_topic": "aging_clock",
+      "study_subject": "unknown",
+      "publication_stage": "secondary_report",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ]
     }
   ]
 }
