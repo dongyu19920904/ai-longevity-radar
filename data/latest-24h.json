@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-27T02:51:33.739930Z",
+  "generated_at": "2026-11-27T12:24:21.390258Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_raw": 24,
-  "total_items_all_mode": 24,
-  "archive_total": 6772,
+  "total_items": 3,
+  "total_items_raw": 21,
+  "total_items_all_mode": 21,
+  "archive_total": 6627,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 4,
-      "raw_count": 24
+      "count": 3,
+      "raw_count": 21
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx",
       "published_at": "2026-11-27T00:16:00Z",
       "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "last_seen_at": "2026-11-27T12:24:21.390258Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -165,53 +165,6 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "b253032ca0854427ee1c4610a02dadc24f55153c",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmR4V3IwUGtVa0ZGV1NMQ0lBM3BVVFZyV0VHRXBWdU1Fbk0ycFBGTGF4dHFBMEdmdjN3QVJGWDdESk5aNTBmalEyUkxxWDE3NE1JUl9HWlhWVnUycmJrRWg1LV9mQmhjbldJV2d4MVFTb1FaZ2xlYU9SZHFmdno0OGQ2YldZOTVDLVU5aXBYWmI1YTNZSENYbWhGUkZJQTFDbmwzMUpfT050bDF3ekE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Task Force Calls for AI Push to Speed Alzheimer’s Research - Medscape",
-      "title_zh": "工作组呼吁推动人工智能以加速阿尔茨海默病研究 - Medscape",
-      "title_en": "Task Force Calls for AI Push to Speed Alzheimer’s Research - Medscape",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmR4V3IwUGtVa0ZGV1NMQ0lBM3BVVFZyV0VHRXBWdU1Fbk0ycFBGTGF4dHFBMEdmdjN3QVJGWDdESk5aNTBmalEyUkxxWDE3NE1JUl9HWlhWVnUycmJrRWg1LV9mQmhjbldJV2d4MVFTb1FaZ2xlYU9SZHFmdno0OGQ2YldZOTVDLVU5aXBYWmI1YTNZSENYbWhGUkZJQTFDbmwzMUpfT050bDF3ekE?oc=5",
-      "published_at": "2026-11-26T10:47:09Z",
-      "first_seen_at": "2026-11-26T19:37:55.662162Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "items_ai": [
@@ -228,7 +181,7 @@
       "url": "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx",
       "published_at": "2026-11-27T00:16:00Z",
       "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "last_seen_at": "2026-11-27T12:24:21.390258Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -363,53 +316,6 @@
       "biological_context_signals": [
         "health"
       ]
-    },
-    {
-      "id": "b253032ca0854427ee1c4610a02dadc24f55153c",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmR4V3IwUGtVa0ZGV1NMQ0lBM3BVVFZyV0VHRXBWdU1Fbk0ycFBGTGF4dHFBMEdmdjN3QVJGWDdESk5aNTBmalEyUkxxWDE3NE1JUl9HWlhWVnUycmJrRWg1LV9mQmhjbldJV2d4MVFTb1FaZ2xlYU9SZHFmdno0OGQ2YldZOTVDLVU5aXBYWmI1YTNZSENYbWhGUkZJQTFDbmwzMUpfT050bDF3ekE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Task Force Calls for AI Push to Speed Alzheimer’s Research - Medscape",
-      "title_zh": "工作组呼吁推动人工智能以加速阿尔茨海默病研究 - Medscape",
-      "title_en": "Task Force Calls for AI Push to Speed Alzheimer’s Research - Medscape",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmR4V3IwUGtVa0ZGV1NMQ0lBM3BVVFZyV0VHRXBWdU1Fbk0ycFBGTGF4dHFBMEdmdjN3QVJGWDdESk5aNTBmalEyUkxxWDE3NE1JUl9HWlhWVnUycmJrRWg1LV9mQmhjbldJV2d4MVFTb1FaZ2xlYU9SZHFmdno0OGQ2YldZOTVDLVU5aXBYWmI1YTNZSENYbWhGUkZJQTFDbmwzMUpfT050bDF3ekE?oc=5",
-      "published_at": "2026-11-26T10:47:09Z",
-      "first_seen_at": "2026-11-26T19:37:55.662162Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "alzheimer"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
     }
   ],
   "relevant_data_url": "data/latest-relevant.json",
