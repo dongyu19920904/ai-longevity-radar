@@ -1,19 +1,19 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-27T12:24:21.390258Z",
+  "generated_at": "2026-11-27T21:58:23.378642Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_raw": 21,
-  "total_items_all_mode": 21,
-  "archive_total": 6627,
+  "total_items": 4,
+  "total_items_raw": 55,
+  "total_items_all_mode": 55,
+  "archive_total": 6449,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 4,
   "site_stats": [
     {
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "count": 3,
-      "raw_count": 21
+      "count": 4,
+      "raw_count": 27
     }
   ],
   "items": [
@@ -30,7 +30,7 @@
       "url": "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx",
       "published_at": "2026-11-27T00:16:00Z",
       "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T12:24:21.390258Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -69,32 +69,32 @@
       "biological_context_signals": []
     },
     {
-      "id": "0afe6106281d6cbc19bba8cd99a278ba5c221308",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxQN0NYM2JhU0h2Z205TlRVUEJJMXFXM3lBbk55elhpMmtLYWpUbjdWRWotUDVGdjgtQkNxU1pXWmhHRXIzLU9yNzd6RlNPZzJQYk00SUZnSV9PUElYSjcyVUZZZHAwVFFycjJYRERzVFQyLTJ6bU9PVnRoYXNSUFkyZmliRGlfNTVXR1JjZDhMUTFqS1dHUkdWZl9mSmphMGtqRGtFVXNVNS13cTNIVHpn?oc=5",
+      "id": "0cd4a905cd0b36821d402d15ec0dc7f18028df14",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Global health, AI and longevity to headline WISH Summit in Doha - Qatar news agency",
-      "title_zh": "全球健康、人工智能和长寿将成为多哈WISH峰会的主题——卡塔尔通讯社",
-      "title_en": "Global health, AI and longevity to headline WISH Summit in Doha - Qatar news agency",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN0NYM2JhU0h2Z205TlRVUEJJMXFXM3lBbk55elhpMmtLYWpUbjdWRWotUDVGdjgtQkNxU1pXWmhHRXIzLU9yNzd6RlNPZzJQYk00SUZnSV9PUElYSjcyVUZZZHAwVFFycjJYRERzVFQyLTJ6bU9PVnRoYXNSUFkyZmliRGlfNTVXR1JjZDhMUTFqS1dHUkdWZl9mSmphMGtqRGtFVXNVNS13cTNIVHpn?oc=5",
-      "published_at": "2026-11-26T20:53:02Z",
-      "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "title": "Galectin-3 in Alzheimer's Disease, Linking Microglia Inflammation to Pathology",
+      "title_zh": "阿尔茨海默病中的半乳糖凝集素-3：将小胶质细胞炎症与病理学联系起来",
+      "title_en": "Galectin-3 in Alzheimer's Disease, Linking Microglia Inflammation to Pathology",
+      "url": "https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
+      "published_at": "2026-11-27T19:11:00Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -104,33 +104,39 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "neural network"
       ],
       "longevity_signals": [
-        "longevity"
+        "aging",
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "health"
+        "brain",
+        "cell",
+        "disease",
+        "immune",
+        "medical",
+        "tissue"
       ]
     },
     {
-      "id": "d84335be4a1334e0f6845a381a248b1ef8642218",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXNkRko4YU5rVWhFUUpqYklrbnBVWXIyQkE1TGNHS0pTSk5pbWdyNEhlUlJGbXN0aU11ZUR3bEgxZHE0RUZXNGQzQUVlcW9iZUxJdE1pcS0wN2JvLWRSNXNPaWFaMS1oRUZIeVgxLU92eGJmN1ZMbUxnXzJPLXhwSFdRNWlBSWRLRW1OdzlObWN3NXd5UENmU2NUc2Y1OFliU3FiZTg4cGM?oc=5",
+      "id": "424b3b1a5caa4e4c591ee04b1551fd2c26432a3d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Four Popular AI Chatbots Fail Sixth-Grade Dementia Health Readability Benchmarks - Bioengineer.org",
-      "title_zh": "四款热门人工智能聊天机器人未达到六年级生理解失智症健康知识的阅读能力标准 - Bioengineer.org",
-      "title_en": "Four Popular AI Chatbots Fail Sixth-Grade Dementia Health Readability Benchmarks - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXNkRko4YU5rVWhFUUpqYklrbnBVWXIyQkE1TGNHS0pTSk5pbWdyNEhlUlJGbXN0aU11ZUR3bEgxZHE0RUZXNGQzQUVlcW9iZUxJdE1pcS0wN2JvLWRSNXNPaWFaMS1oRUZIeVgxLU92eGJmN1ZMbUxnXzJPLXhwSFdRNWlBSWRLRW1OdzlObWN3NXd5UENmU2NUc2Y1OFliU3FiZTg4cGM?oc=5",
-      "published_at": "2026-11-26T16:13:45Z",
-      "first_seen_at": "2026-11-26T19:37:55.662162Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "title": "Oxford researchers support new multi-million-pound AI dementia research hub - Cherwell",
+      "title_zh": "牛津大学研究人员支持耗资数百万英镑的新型人工智能失智症研究中心 - Cherwell",
+      "title_en": "Oxford researchers support new multi-million-pound AI dementia research hub - Cherwell",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
+      "published_at": "2026-11-27T13:58:35Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -162,8 +168,55 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a9e0eaa3a564b8e962850c664609dbf370bfa5c0",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
+      "title_zh": "为盲人设计的机器人，为失智症患者设计的人工智能娃娃：大学生的人工智能创意大放异彩 - 赫拉尔德经济日报",
+      "title_en": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
+      "published_at": "2026-11-27T05:33:12Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "health"
+        "patients"
       ]
     }
   ],
@@ -181,7 +234,7 @@
       "url": "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx",
       "published_at": "2026-11-27T00:16:00Z",
       "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T12:24:21.390258Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -220,32 +273,32 @@
       "biological_context_signals": []
     },
     {
-      "id": "0afe6106281d6cbc19bba8cd99a278ba5c221308",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxQN0NYM2JhU0h2Z205TlRVUEJJMXFXM3lBbk55elhpMmtLYWpUbjdWRWotUDVGdjgtQkNxU1pXWmhHRXIzLU9yNzd6RlNPZzJQYk00SUZnSV9PUElYSjcyVUZZZHAwVFFycjJYRERzVFQyLTJ6bU9PVnRoYXNSUFkyZmliRGlfNTVXR1JjZDhMUTFqS1dHUkdWZl9mSmphMGtqRGtFVXNVNS13cTNIVHpn?oc=5",
+      "id": "0cd4a905cd0b36821d402d15ec0dc7f18028df14",
+      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
+      "source": "Fight Aging!",
       "source_type": "news",
-      "title": "Global health, AI and longevity to headline WISH Summit in Doha - Qatar news agency",
-      "title_zh": "全球健康、人工智能和长寿将成为多哈WISH峰会的主题——卡塔尔通讯社",
-      "title_en": "Global health, AI and longevity to headline WISH Summit in Doha - Qatar news agency",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN0NYM2JhU0h2Z205TlRVUEJJMXFXM3lBbk55elhpMmtLYWpUbjdWRWotUDVGdjgtQkNxU1pXWmhHRXIzLU9yNzd6RlNPZzJQYk00SUZnSV9PUElYSjcyVUZZZHAwVFFycjJYRERzVFQyLTJ6bU9PVnRoYXNSUFkyZmliRGlfNTVXR1JjZDhMUTFqS1dHUkdWZl9mSmphMGtqRGtFVXNVNS13cTNIVHpn?oc=5",
-      "published_at": "2026-11-26T20:53:02Z",
-      "first_seen_at": "2026-11-27T02:51:33.739930Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "title": "Galectin-3 in Alzheimer's Disease, Linking Microglia Inflammation to Pathology",
+      "title_zh": "阿尔茨海默病中的半乳糖凝集素-3：将小胶质细胞炎症与病理学联系起来",
+      "title_en": "Galectin-3 in Alzheimer's Disease, Linking Microglia Inflammation to Pathology",
+      "url": "https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
+      "published_at": "2026-11-27T19:11:00Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
+      "longevity_score": 0.7,
+      "signal_score": 0.605,
+      "domain_score": 0.7,
       "relevance_tier": "core",
       "relevance_path": "local_ai_plus_longevity",
       "selection_reason": "AI 与生命延续双重相关",
       "topics": [
-        "ai_longevity"
+        "neurodegeneration"
       ],
-      "primary_topic": "ai_longevity",
+      "primary_topic": "neurodegeneration",
       "study_subject": "unknown",
       "publication_stage": "secondary_report",
       "evidence_type": "news",
@@ -255,33 +308,39 @@
       ],
       "relevance_reason": "matched_ai_and_longevity_signals",
       "ai_signals": [
-        "ai"
+        "neural network"
       ],
       "longevity_signals": [
-        "longevity"
+        "aging",
+        "alzheimer"
       ],
       "noise_signals": [],
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": [
-        "health"
+        "brain",
+        "cell",
+        "disease",
+        "immune",
+        "medical",
+        "tissue"
       ]
     },
     {
-      "id": "d84335be4a1334e0f6845a381a248b1ef8642218",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXNkRko4YU5rVWhFUUpqYklrbnBVWXIyQkE1TGNHS0pTSk5pbWdyNEhlUlJGbXN0aU11ZUR3bEgxZHE0RUZXNGQzQUVlcW9iZUxJdE1pcS0wN2JvLWRSNXNPaWFaMS1oRUZIeVgxLU92eGJmN1ZMbUxnXzJPLXhwSFdRNWlBSWRLRW1OdzlObWN3NXd5UENmU2NUc2Y1OFliU3FiZTg4cGM?oc=5",
+      "id": "424b3b1a5caa4e4c591ee04b1551fd2c26432a3d",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
       "site_id": "official_rss",
       "site_name": "机构与行业 RSS",
       "source": "Google News · AI Longevity",
       "source_type": "news",
-      "title": "Four Popular AI Chatbots Fail Sixth-Grade Dementia Health Readability Benchmarks - Bioengineer.org",
-      "title_zh": "四款热门人工智能聊天机器人未达到六年级生理解失智症健康知识的阅读能力标准 - Bioengineer.org",
-      "title_en": "Four Popular AI Chatbots Fail Sixth-Grade Dementia Health Readability Benchmarks - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXNkRko4YU5rVWhFUUpqYklrbnBVWXIyQkE1TGNHS0pTSk5pbWdyNEhlUlJGbXN0aU11ZUR3bEgxZHE0RUZXNGQzQUVlcW9iZUxJdE1pcS0wN2JvLWRSNXNPaWFaMS1oRUZIeVgxLU92eGJmN1ZMbUxnXzJPLXhwSFdRNWlBSWRLRW1OdzlObWN3NXd5UENmU2NUc2Y1OFliU3FiZTg4cGM?oc=5",
-      "published_at": "2026-11-26T16:13:45Z",
-      "first_seen_at": "2026-11-26T19:37:55.662162Z",
-      "last_seen_at": "2026-11-27T02:51:33.739930Z",
+      "title": "Oxford researchers support new multi-million-pound AI dementia research hub - Cherwell",
+      "title_zh": "牛津大学研究人员支持耗资数百万英镑的新型人工智能失智症研究中心 - Cherwell",
+      "title_en": "Oxford researchers support new multi-million-pound AI dementia research hub - Cherwell",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
+      "published_at": "2026-11-27T13:58:35Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -313,8 +372,55 @@
       "demographic_noise_signals": [],
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
+      "biological_context_signals": []
+    },
+    {
+      "id": "a9e0eaa3a564b8e962850c664609dbf370bfa5c0",
+      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
+      "site_id": "official_rss",
+      "site_name": "机构与行业 RSS",
+      "source": "Google News · Brain Age",
+      "source_type": "news",
+      "title": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
+      "title_zh": "为盲人设计的机器人，为失智症患者设计的人工智能娃娃：大学生的人工智能创意大放异彩 - 赫拉尔德经济日报",
+      "title_en": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
+      "published_at": "2026-11-27T05:33:12Z",
+      "first_seen_at": "2026-11-27T21:58:23.378642Z",
+      "last_seen_at": "2026-11-27T21:58:23.378642Z",
+      "ai_is_related": true,
+      "ai_score": 0.59,
+      "longevity_is_related": true,
+      "longevity_score": 0.6,
+      "signal_score": 0.562,
+      "domain_score": 0.6,
+      "relevance_tier": "core",
+      "relevance_path": "local_ai_plus_longevity",
+      "selection_reason": "AI 与生命延续双重相关",
+      "topics": [
+        "neurodegeneration"
+      ],
+      "primary_topic": "neurodegeneration",
+      "study_subject": "human",
+      "publication_stage": "secondary_report",
+      "evidence_type": "news",
+      "risk_flags": [
+        "secondary_source",
+        "not_primary_evidence"
+      ],
+      "relevance_reason": "matched_ai_and_longevity_signals",
+      "ai_signals": [
+        "ai"
+      ],
+      "longevity_signals": [
+        "dementia"
+      ],
+      "noise_signals": [],
+      "demographic_noise_signals": [],
+      "non_biological_noise_signals": [],
+      "biomedical_signals": [],
       "biological_context_signals": [
-        "health"
+        "patients"
       ]
     }
   ],
