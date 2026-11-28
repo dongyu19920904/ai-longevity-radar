@@ -1,9 +1,9 @@
 {
   "schema_version": "bio-radar-v1",
-  "generated_at": "2026-11-28T03:54:29.985835Z",
+  "generated_at": "2026-11-28T13:00:20.427491Z",
   "window_hours": 24,
-  "total_items_raw": 20,
-  "total_items_all_mode": 20,
+  "total_items_raw": 10,
+  "total_items_all_mode": 10,
   "items_all": [
     {
       "id": "b8851343bf8d3b8fea1e63d1362f2c444ef515ee",
@@ -17,7 +17,7 @@
       "url": "https://lifespan.io/nasal-mrna-improves-cognition-in-aging-and-alzheimers-mice",
       "published_at": "2026-11-27T21:19:06Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -69,7 +69,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
       "published_at": "2026-11-27T19:11:00Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -123,7 +123,7 @@
       "url": "https://longevity.technology/news/annovis-alzheimers-pill-clears-a-second-safety-check-in-phase-3",
       "published_at": "2026-11-27T16:33:28Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -167,7 +167,7 @@
       "url": "https://longevity.technology/news/c2ns-new-blood-test-counts-six-amyloid-variants",
       "published_at": "2026-11-27T16:15:38Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -209,7 +209,7 @@
       "url": "https://longevity.technology/news/wave-life-sciences-to-present-at-two-december-investor-conferences",
       "published_at": "2026-11-27T15:41:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -253,7 +253,7 @@
       "url": "https://longevity.technology/news/tempus-extends-astrazeneca-oncology-partnership-to-2031",
       "published_at": "2026-11-27T15:36:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -297,7 +297,7 @@
       "url": "https://longevity.technology/news/imaginostics-explores-mri-technology-partnership-with-siemens",
       "published_at": "2026-11-27T15:31:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -339,7 +339,7 @@
       "url": "https://longevity.technology/news/nad-booster-tested-in-rare-mitochondrial-disease",
       "published_at": "2026-11-27T15:26:33Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -383,7 +383,7 @@
       "url": "https://longevity.technology/news/a-rulebook-for-chinas-longevity-clinics-from-assessment-to-iv-drip",
       "published_at": "2026-11-27T14:24:15Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -428,7 +428,7 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
       "published_at": "2026-11-27T13:58:35Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -461,474 +461,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "a54173e38694d9f48ff67ebbb665cdf1d3a36977",
-      "canonical_key": "url:https://www.news-medical.net/news/20261127/How-your-weight-may-shape-your-experience-of-perimenopause.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "How your weight may shape your experience of perimenopause",
-      "title_en": "How your weight may shape your experience of perimenopause",
-      "url": "https://www.news-medical.net/news/20261127/How-your-weight-may-shape-your-experience-of-perimenopause.aspx",
-      "published_at": "2026-11-27T12:47:00Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "05b0efcf73d07cc732214589a7a7d159c8583ccc",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-11-aged-disrupts-regular-health.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "Aged care move disrupts regular health care",
-      "title_en": "Aged care move disrupts regular health care",
-      "url": "https://medicalxpress.com/news/2026-11-aged-disrupts-regular-health.html",
-      "published_at": "2026-11-27T12:00:01Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "03ed177c803da44bb4a7feb7cc394ffb8bfe0e5d",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/the-machinery-of-repair-is-subject-to-the-same-damage-it-seeks-to-remove",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "The Machinery of Repair is Subject to the Same Damage it Seeks to Remove",
-      "title_en": "The Machinery of Repair is Subject to the Same Damage it Seeks to Remove",
-      "url": "https://www.fightaging.org/archives/2026/11/the-machinery-of-repair-is-subject-to-the-same-damage-it-seeks-to-remove",
-      "published_at": "2026-11-27T11:22:44Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "mouse"
-      ]
-    },
-    {
-      "id": "9733fa96c7d7f913d2aaf7e843880ae0c59861c0",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/cox-prostaglandin-signaling-promotes-cellular-senescence-in-aging-muscle",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "COX-Prostaglandin Signaling Promotes Cellular Senescence in Aging Muscle",
-      "title_en": "COX-Prostaglandin Signaling Promotes Cellular Senescence in Aging Muscle",
-      "url": "https://www.fightaging.org/archives/2026/11/cox-prostaglandin-signaling-promotes-cellular-senescence-in-aging-muscle",
-      "published_at": "2026-11-27T11:08:44Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.56,
-      "domain_score": 0.8,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "rejuvenation",
-        "aging_mechanism"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "senescence",
-        "senolytic"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "immune",
-        "tissue"
-      ]
-    },
-    {
-      "id": "12852df696158c7cab3082ef7cf70bf73b569606",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMizAFBVV95cUxNVUlfSmM2MG9KOWhfUDlzV05aVUZvanJUb0FiZmg0NEE2b0dCZW1vRnkxNU5qNGV0MG5ORzVNNnBqb2prVF9LU0ZCTjdaS3dhYTdnZVFLT09XYU5GWWQ5Z1RfcVhfa0V0YXNvQnJOc1RLUzNEVG9STHlrUFlncXJ2ZjBCb1lucDRFVnBSQmQtYXZnLXJjRTk5OWxtMmVOWlc3OWtFQklxNTY3ZFJWS1pFck1vVVVyZWlPNnZlWnRDRjF4VF9IcHhURGhyU2I?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study - Cureus",
-      "title_en": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study - Cureus",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVUlfSmM2MG9KOWhfUDlzV05aVUZvanJUb0FiZmg0NEE2b0dCZW1vRnkxNU5qNGV0MG5ORzVNNnBqb2prVF9LU0ZCTjdaS3dhYTdnZVFLT09XYU5GWWQ5Z1RfcVhfa0V0YXNvQnJOc1RLUzNEVG9STHlrUFlncXJ2ZjBCb1lucDRFVnBSQmQtYXZnLXJjRTk5OWxtMmVOWlc3OWtFQklxNTY3ZFJWS1pFck1vVVVyZWlPNnZlWnRDRjF4VF9IcHhURGhyU2I?oc=5",
-      "published_at": "2026-11-27T10:42:39Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.51,
-      "longevity_is_related": false,
-      "longevity_score": 0.5,
-      "signal_score": 0.223,
-      "domain_score": 0.5,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "health_or_commerce_noise",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [
-        "skincare"
-      ],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "f52cd0d8d2cb6afec20c2497fb130c5426abe86f",
-      "canonical_key": "url:https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "From lifting weights to Tai Chi, which exercises help aging bones?",
-      "title_en": "From lifting weights to Tai Chi, which exercises help aging bones?",
-      "url": "https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx",
-      "published_at": "2026-11-27T09:20:00Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.079,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "9533aaaa2a7966c174ad9d97621b29794b7b2130",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUtrcnpQMWtxMlVmN0hFeWJoTXY2ZEJXTU41OGhlUWNkenhBaTNJc2k2Y0RxblFUT2pHMWxXR3AtTUdrR0FNbi1wMWV6MVJxQU8yUDdsUVF2c0tXWVhYbnhTeXdVLWNHZjhTVmQwZWtVT0lZZTVhWTRXWEhyX19TcnhfYW1tLUZGTVF2SC16RGYwenFDN3VzbDNMZ3hXTHdnRUE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Big Pharma ETF Returns 44% Since Listing on Aging, AI Drug Hopes - Seoul Economic Daily",
-      "title_en": "Big Pharma ETF Returns 44% Since Listing on Aging, AI Drug Hopes - Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUtrcnpQMWtxMlVmN0hFeWJoTXY2ZEJXTU41OGhlUWNkenhBaTNJc2k2Y0RxblFUT2pHMWxXR3AtTUdrR0FNbi1wMWV6MVJxQU8yUDdsUVF2c0tXWVhYbnhTeXdVLWNHZjhTVmQwZWtVT0lZZTVhWTRXWEhyX19TcnhfYW1tLUZGTVF2SC16RGYwenFDN3VzbDNMZ3hXTHdnRUE?oc=5",
-      "published_at": "2026-11-27T09:00:06Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "e22cab81d6dc66f69657ba4bb679fba282210891",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "One type of physical activity is linked to a 20% higher dementia risk",
-      "title_en": "One type of physical activity is linked to a 20% higher dementia risk",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
-      "published_at": "2026-11-27T08:45:06Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "health"
-      ]
-    },
-    {
-      "id": "3f45ad96f6c72b564bfe20907eab99eae4b926f0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1VGcXRXMUgwRl9IUlRKN0ZBV05IeFFEQ3pJRk9OMDZ0VnF1eVVUOWlleUVGekUzMU10Ti1rS1Q1M1Z2RmdQM0J1dDIyMWxQdmhxZ1A5ci1RV2FYUUs2X0pNYm04NUdwSHowQl9Lc2ZEdXJEMmJIMXQxV2pzN1JrcGRRZVFkejBKSVVLTjBn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Jina Clarifies 'Rapid Aging' Rumors: AI Video Behind Looks - 조선일보",
-      "title_en": "Jina Clarifies 'Rapid Aging' Rumors: AI Video Behind Looks - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1VGcXRXMUgwRl9IUlRKN0ZBV05IeFFEQ3pJRk9OMDZ0VnF1eVVUOWlleUVGekUzMU10Ti1rS1Q1M1Z2RmdQM0J1dDIyMWxQdmhxZ1A5ci1RV2FYUUs2X0pNYm04NUdwSHowQl9Lc2ZEdXJEMmJIMXQxV2pzN1JrcGRRZVFkejBKSVVLTjBn?oc=5",
-      "published_at": "2026-11-27T08:09:58Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a9e0eaa3a564b8e962850c664609dbf370bfa5c0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
-      "title_zh": "为盲人设计的机器人，为失智症患者设计的人工智能娃娃：大学生的人工智能创意大放异彩 - 赫拉尔德经济日报",
-      "title_en": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
-      "published_at": "2026-11-27T05:33:12Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
     }
   ],
   "items_all_raw": [
@@ -944,7 +476,7 @@
       "url": "https://lifespan.io/nasal-mrna-improves-cognition-in-aging-and-alzheimers-mice",
       "published_at": "2026-11-27T21:19:06Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -996,7 +528,7 @@
       "url": "https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology",
       "published_at": "2026-11-27T19:11:00Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1050,7 +582,7 @@
       "url": "https://longevity.technology/news/annovis-alzheimers-pill-clears-a-second-safety-check-in-phase-3",
       "published_at": "2026-11-27T16:33:28Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1094,7 +626,7 @@
       "url": "https://longevity.technology/news/c2ns-new-blood-test-counts-six-amyloid-variants",
       "published_at": "2026-11-27T16:15:38Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1136,7 +668,7 @@
       "url": "https://longevity.technology/news/wave-life-sciences-to-present-at-two-december-investor-conferences",
       "published_at": "2026-11-27T15:41:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1180,7 +712,7 @@
       "url": "https://longevity.technology/news/tempus-extends-astrazeneca-oncology-partnership-to-2031",
       "published_at": "2026-11-27T15:36:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": false,
@@ -1224,7 +756,7 @@
       "url": "https://longevity.technology/news/imaginostics-explores-mri-technology-partnership-with-siemens",
       "published_at": "2026-11-27T15:31:12Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1266,7 +798,7 @@
       "url": "https://longevity.technology/news/nad-booster-tested-in-rare-mitochondrial-disease",
       "published_at": "2026-11-27T15:26:33Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": false,
@@ -1310,7 +842,7 @@
       "url": "https://longevity.technology/news/a-rulebook-for-chinas-longevity-clinics-from-assessment-to-iv-drip",
       "published_at": "2026-11-27T14:24:15Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": false,
       "ai_score": 0.16,
       "longevity_is_related": true,
@@ -1355,7 +887,7 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oRENfY2pTRzFwRkUtWGdNWDhjRlNEWDlpOGJYVE9UWmFtZ1hhdU5JbjQxUnJLcDRKNVRaMFZkR2M2MkpPcElqMUgwbV82Y1pSblpidzZaT2Z4Q0xuMlNvelJsVUw4Ny1kSFNxQw?oc=5",
       "published_at": "2026-11-27T13:58:35Z",
       "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
+      "last_seen_at": "2026-11-28T13:00:20.427491Z",
       "ai_is_related": true,
       "ai_score": 0.59,
       "longevity_is_related": true,
@@ -1388,474 +920,6 @@
       "non_biological_noise_signals": [],
       "biomedical_signals": [],
       "biological_context_signals": []
-    },
-    {
-      "id": "a54173e38694d9f48ff67ebbb665cdf1d3a36977",
-      "canonical_key": "url:https://www.news-medical.net/news/20261127/How-your-weight-may-shape-your-experience-of-perimenopause.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "How your weight may shape your experience of perimenopause",
-      "title_en": "How your weight may shape your experience of perimenopause",
-      "url": "https://www.news-medical.net/news/20261127/How-your-weight-may-shape-your-experience-of-perimenopause.aspx",
-      "published_at": "2026-11-27T12:47:00Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "05b0efcf73d07cc732214589a7a7d159c8583ccc",
-      "canonical_key": "url:https://medicalxpress.com/news/2026-11-aged-disrupts-regular-health.html",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "MedicalXpress Healthy Aging",
-      "source_type": "news",
-      "title": "Aged care move disrupts regular health care",
-      "title_en": "Aged care move disrupts regular health care",
-      "url": "https://medicalxpress.com/news/2026-11-aged-disrupts-regular-health.html",
-      "published_at": "2026-11-27T12:00:01Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.16,
-      "signal_score": 0.11,
-      "domain_score": 0.16,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "health"
-      ]
-    },
-    {
-      "id": "03ed177c803da44bb4a7feb7cc394ffb8bfe0e5d",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/the-machinery-of-repair-is-subject-to-the-same-damage-it-seeks-to-remove",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "The Machinery of Repair is Subject to the Same Damage it Seeks to Remove",
-      "title_en": "The Machinery of Repair is Subject to the Same Damage it Seeks to Remove",
-      "url": "https://www.fightaging.org/archives/2026/11/the-machinery-of-repair-is-subject-to-the-same-damage-it-seeks-to-remove",
-      "published_at": "2026-11-27T11:22:44Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "animal",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "animal_study",
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "human",
-        "mouse"
-      ]
-    },
-    {
-      "id": "9733fa96c7d7f913d2aaf7e843880ae0c59861c0",
-      "canonical_key": "url:https://www.fightaging.org/archives/2026/11/cox-prostaglandin-signaling-promotes-cellular-senescence-in-aging-muscle",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Fight Aging!",
-      "source_type": "news",
-      "title": "COX-Prostaglandin Signaling Promotes Cellular Senescence in Aging Muscle",
-      "title_en": "COX-Prostaglandin Signaling Promotes Cellular Senescence in Aging Muscle",
-      "url": "https://www.fightaging.org/archives/2026/11/cox-prostaglandin-signaling-promotes-cellular-senescence-in-aging-muscle",
-      "published_at": "2026-11-27T11:08:44Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.8,
-      "signal_score": 0.56,
-      "domain_score": 0.8,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "rejuvenation",
-        "aging_mechanism"
-      ],
-      "primary_topic": "rejuvenation",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging",
-        "senescence",
-        "senolytic"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "cell",
-        "cellular",
-        "immune",
-        "tissue"
-      ]
-    },
-    {
-      "id": "12852df696158c7cab3082ef7cf70bf73b569606",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMizAFBVV95cUxNVUlfSmM2MG9KOWhfUDlzV05aVUZvanJUb0FiZmg0NEE2b0dCZW1vRnkxNU5qNGV0MG5ORzVNNnBqb2prVF9LU0ZCTjdaS3dhYTdnZVFLT09XYU5GWWQ5Z1RfcVhfa0V0YXNvQnJOc1RLUzNEVG9STHlrUFlncXJ2ZjBCb1lucDRFVnBSQmQtYXZnLXJjRTk5OWxtMmVOWlc3OWtFQklxNTY3ZFJWS1pFck1vVVVyZWlPNnZlWnRDRjF4VF9IcHhURGhyU2I?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study - Cureus",
-      "title_en": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study - Cureus",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVUlfSmM2MG9KOWhfUDlzV05aVUZvanJUb0FiZmg0NEE2b0dCZW1vRnkxNU5qNGV0MG5ORzVNNnBqb2prVF9LU0ZCTjdaS3dhYTdnZVFLT09XYU5GWWQ5Z1RfcVhfa0V0YXNvQnJOc1RLUzNEVG9STHlrUFlncXJ2ZjBCb1lucDRFVnBSQmQtYXZnLXJjRTk5OWxtMmVOWlc3OWtFQklxNTY3ZFJWS1pFck1vVVVyZWlPNnZlWnRDRjF4VF9IcHhURGhyU2I?oc=5",
-      "published_at": "2026-11-27T10:42:39Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.51,
-      "longevity_is_related": false,
-      "longevity_score": 0.5,
-      "signal_score": 0.223,
-      "domain_score": 0.5,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "health_or_commerce_noise",
-      "ai_signals": [
-        "artificial intelligence"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [
-        "skincare"
-      ],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "clinical"
-      ]
-    },
-    {
-      "id": "f52cd0d8d2cb6afec20c2497fb130c5426abe86f",
-      "canonical_key": "url:https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "News-Medical Aging",
-      "source_type": "news",
-      "title": "From lifting weights to Tai Chi, which exercises help aging bones?",
-      "title_en": "From lifting weights to Tai Chi, which exercises help aging bones?",
-      "url": "https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx",
-      "published_at": "2026-11-27T09:20:00Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.079,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "insufficient_domain_evidence",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "9533aaaa2a7966c174ad9d97621b29794b7b2130",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUtrcnpQMWtxMlVmN0hFeWJoTXY2ZEJXTU41OGhlUWNkenhBaTNJc2k2Y0RxblFUT2pHMWxXR3AtTUdrR0FNbi1wMWV6MVJxQU8yUDdsUVF2c0tXWVhYbnhTeXdVLWNHZjhTVmQwZWtVT0lZZTVhWTRXWEhyX19TcnhfYW1tLUZGTVF2SC16RGYwenFDN3VzbDNMZ3hXTHdnRUE?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Big Pharma ETF Returns 44% Since Listing on Aging, AI Drug Hopes - Seoul Economic Daily",
-      "title_en": "Big Pharma ETF Returns 44% Since Listing on Aging, AI Drug Hopes - Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUtrcnpQMWtxMlVmN0hFeWJoTXY2ZEJXTU41OGhlUWNkenhBaTNJc2k2Y0RxblFUT2pHMWxXR3AtTUdrR0FNbi1wMWV6MVJxQU8yUDdsUVF2c0tXWVhYbnhTeXdVLWNHZjhTVmQwZWtVT0lZZTVhWTRXWEhyX19TcnhfYW1tLUZGTVF2SC16RGYwenFDN3VzbDNMZ3hXTHdnRUE?oc=5",
-      "published_at": "2026-11-27T09:00:06Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "e22cab81d6dc66f69657ba4bb679fba282210891",
-      "canonical_key": "url:https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "ScienceDaily Healthy Aging",
-      "source_type": "news",
-      "title": "One type of physical activity is linked to a 20% higher dementia risk",
-      "title_en": "One type of physical activity is linked to a 20% higher dementia risk",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
-      "published_at": "2026-11-27T08:45:06Z",
-      "first_seen_at": "2026-11-27T12:24:21.390258Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": false,
-      "ai_score": 0.16,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.46,
-      "domain_score": 0.6,
-      "relevance_tier": "related",
-      "relevance_path": "longevity_background",
-      "selection_reason": "生命延续背景研究",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "missing_ai_signal",
-      "ai_signals": [],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "brain",
-        "health"
-      ]
-    },
-    {
-      "id": "3f45ad96f6c72b564bfe20907eab99eae4b926f0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1VGcXRXMUgwRl9IUlRKN0ZBV05IeFFEQ3pJRk9OMDZ0VnF1eVVUOWlleUVGekUzMU10Ti1rS1Q1M1Z2RmdQM0J1dDIyMWxQdmhxZ1A5ci1RV2FYUUs2X0pNYm04NUdwSHowQl9Lc2ZEdXJEMmJIMXQxV2pzN1JrcGRRZVFkejBKSVVLTjBn?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · AI Longevity",
-      "source_type": "news",
-      "title": "Jina Clarifies 'Rapid Aging' Rumors: AI Video Behind Looks - 조선일보",
-      "title_en": "Jina Clarifies 'Rapid Aging' Rumors: AI Video Behind Looks - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1VGcXRXMUgwRl9IUlRKN0ZBV05IeFFEQ3pJRk9OMDZ0VnF1eVVUOWlleUVGekUzMU10Ti1rS1Q1M1Z2RmdQM0J1dDIyMWxQdmhxZ1A5ci1RV2FYUUs2X0pNYm04NUdwSHowQl9Lc2ZEdXJEMmJIMXQxV2pzN1JrcGRRZVFkejBKSVVLTjBn?oc=5",
-      "published_at": "2026-11-27T08:09:58Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": false,
-      "longevity_score": 0.0,
-      "signal_score": 0.137,
-      "domain_score": 0.0,
-      "relevance_tier": "all",
-      "relevance_path": "generic_ai_only",
-      "selection_reason": "仅保留在全部来源层",
-      "topics": [
-        "ai_longevity"
-      ],
-      "primary_topic": "ai_longevity",
-      "study_subject": "unknown",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "weak_aging_without_biological_context",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "aging"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": []
-    },
-    {
-      "id": "a9e0eaa3a564b8e962850c664609dbf370bfa5c0",
-      "canonical_key": "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
-      "site_id": "official_rss",
-      "site_name": "机构与行业 RSS",
-      "source": "Google News · Brain Age",
-      "source_type": "news",
-      "title": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
-      "title_zh": "为盲人设计的机器人，为失智症患者设计的人工智能娃娃：大学生的人工智能创意大放异彩 - 赫拉尔德经济日报",
-      "title_en": "Robots for the blind, AI dolls for dementia patients: college students' AI ideas shine - 헤럴드경제",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HSWJHNk5zZlhOMVFpejZOc2FkckxFTmkxZkVxdUgwTlpUZ25oazlCZkdBQWZuRXlTZWViU19YeDBYeDdHSUNfakxsc09pSzRtX0pDWmRkNA?oc=5",
-      "published_at": "2026-11-27T05:33:12Z",
-      "first_seen_at": "2026-11-27T21:58:23.378642Z",
-      "last_seen_at": "2026-11-28T03:54:29.985835Z",
-      "ai_is_related": true,
-      "ai_score": 0.59,
-      "longevity_is_related": true,
-      "longevity_score": 0.6,
-      "signal_score": 0.562,
-      "domain_score": 0.6,
-      "relevance_tier": "core",
-      "relevance_path": "local_ai_plus_longevity",
-      "selection_reason": "AI 与生命延续双重相关",
-      "topics": [
-        "neurodegeneration"
-      ],
-      "primary_topic": "neurodegeneration",
-      "study_subject": "human",
-      "publication_stage": "secondary_report",
-      "evidence_type": "news",
-      "risk_flags": [
-        "secondary_source",
-        "not_primary_evidence"
-      ],
-      "relevance_reason": "matched_ai_and_longevity_signals",
-      "ai_signals": [
-        "ai"
-      ],
-      "longevity_signals": [
-        "dementia"
-      ],
-      "noise_signals": [],
-      "demographic_noise_signals": [],
-      "non_biological_noise_signals": [],
-      "biomedical_signals": [],
-      "biological_context_signals": [
-        "patients"
-      ]
     }
   ]
 }
